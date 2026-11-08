@@ -20,6 +20,7 @@ def main():
   annotation=a.boxes/(image.stem+'.json')
   data=json.loads(annotation.read_text(encoding='utf-8'));boxes=data.get('bounding_boxes',data)
   log=Log(Image.open(image),boxes,image.stem);box=list(map(int,boxes['interpreted_lithology_column']));status={}
+  if log.image.format != 'TIFF': log._strip_backend=False
   try: calib=calibrate(log);status['calibration']=vars(calib)
   except Exception as exc: calib=None;status['depth_unavailable']=str(exc)
   rows=run(log,(box[1],box[3]),{'calib':calib,'device':'cpu','cache':str(a.out/'cache')})
