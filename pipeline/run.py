@@ -1,5 +1,5 @@
 """Run the submitted S19 model on organiser images and bounding boxes."""
-import argparse,csv,json,os,sys
+import argparse,csv,json,os,sys,hashlib
 from pathlib import Path
 for key in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS'): os.environ[key]='2'
 sys.path.insert(0,str(Path(__file__).parent/'s19'))
@@ -11,6 +11,9 @@ from ml.combine.runtime import run
 from scripts.challenge_export import _write_csv,NOTEBOOK_FIELDS
 
 def main():
+ model_root=Path(__file__).parent/"s19"
+ for name,digest in json.loads((model_root/"models/sha256.json").read_text(encoding="utf-8")).items():
+  if hashlib.sha256((model_root/name).read_bytes()).hexdigest()!=digest: raise ValueError("Model hash mismatch: "+name)
  p=argparse.ArgumentParser();p.add_argument('--images',type=Path,required=True);p.add_argument('--boxes',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--limit',type=int);a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
  images=sorted(x for x in a.images.iterdir() if x.suffix.lower() in ('.tif','.tiff','.png','.jpg','.jpeg'))
  for image in images[:a.limit]:
