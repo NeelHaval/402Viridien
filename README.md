@@ -87,6 +87,10 @@ make run      # then open http://localhost:8000
 
 To write a challenge CSV from saved predictions, see [docs/output-contract.md](docs/output-contract.md).
 
+### The pipeline notebook
+
+[`notebooks/pipeline_final.ipynb`](notebooks/pipeline_final.ipynb) walks through the whole pipeline step by step: load a page, segment the rock column, read the legend, classify each segment, then plot and score the result. The last sections run it on a list of pages and evaluate a batch against ground-truth label files.
+
 ### Run our model on the challenge data
 Use Python 3.12 and create a virtual environment: `python -m venv .venv`.
 Activate it, then run `pip install -r requirements-s19.txt`.
