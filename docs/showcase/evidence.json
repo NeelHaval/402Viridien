@@ -1,0 +1,162 @@
+{
+  "version": "strata-readme-evidence-v1",
+  "scope": "private repository documentation; no truth overlays; no final app acceptance",
+  "fixture_source_pins": {
+    "multi-tick.tif": "4280a39e932fdf0e0d0a9ac1bca02b7372e41aeb32bf9ef97ffa551d747f109c",
+    "multi-tick.bbox.json": "ab8fd492868643be0e5f107bd07b1e42f6c037bd3eec75fc3e07952fa2e3fd3c",
+    "receipts.json": "168c8334486c3caf2302ffce873c113e1daeaf30546e17e7bc448c6d3bd126ec",
+    "case.py": "1df5ed5e86c7cde917a58579fe6ebb3345c160dae58c14521df30f2feb9bb20e"
+  },
+  "historical_app_image": "sha256:5b938b2669b04dcf86220b6c3bff712904d45cf4fcc29848b9df8ec8bbd65451",
+  "historical_app_commit": "fcb8b319604200b999902b44753afb55b7da133d",
+  "core_candidate_559c99cb4e24_accepted": false,
+  "export_adapter_sha256": "37ef9f02e5262aa517c9f8944735d7d30c373f7b9afed9cce4000d3d19f1e259",
+  "figures": [
+    {
+      "file": "01-released-pages-s19.png",
+      "sha256": "03fdf841eab101dec24e2f229d73fd184a0ec5c3a25065cfa9a87e89df3ad76c",
+      "bytes": 168465,
+      "size": [
+        1760,
+        1010
+      ],
+      "kind": "cached-released-page-predictions",
+      "truth_available": false,
+      "app_evidence": false,
+      "depth_available": false,
+      "sources": [
+        {
+          "source": "viridien_work/bakeoff/report/scoreboard_1108/benedek_comparison/pred_images/c27f24013e5cc155_2.png",
+          "source_sha256": "130320cbb581626bdcffed8dbb42f4b3d52518a8e712e3fd14c9d8744283cead",
+          "crop_xyxy": [
+            0,
+            0,
+            568,
+            868
+          ],
+          "scale": 1,
+          "case": "c27f24013e5cc155",
+          "window": [
+            5031,
+            5799
+          ],
+          "upstream_pins": {
+            "image": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+            "annotation": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce",
+            "s19_combine": "c6ae117fc71d67eff4e45ff3ebc8f530f35daadb8875ac65fb83a252efd4f2d5",
+            "s24_benedek": "929e762cd3cdca2bb476ae6b2e9b9c9ad7d725de26959cc7261b9a4a3b11e69c"
+          }
+        },
+        {
+          "source": "viridien_work/bakeoff/report/scoreboard_1108/benedek_comparison/pred_images/49ab92322aa76b26_2.png",
+          "source_sha256": "cab6188c80d9f26b95ffef79bcc31ab0c21594f4eeb232b1836fb9127d831d67",
+          "crop_xyxy": [
+            0,
+            0,
+            568,
+            868
+          ],
+          "scale": 1,
+          "case": "49ab92322aa76b26",
+          "window": [
+            8266,
+            9034
+          ],
+          "upstream_pins": {
+            "image": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+            "annotation": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af",
+            "s19_combine": "8b77a53103b6eb9f78db1f1264e82cb05c5c221105343761b3b976ee80f38166",
+            "s24_benedek": "4c2236611346cc8dbb5abd037986a8c509fefc6efdf80e816c1719ab2d21b807"
+          }
+        },
+        {
+          "source": "viridien_work/bakeoff/report/scoreboard_1108/benedek_comparison/pred_images/fc5af26c8937097c_2.png",
+          "source_sha256": "c6df4473e0c6ff19eb14a25d3b2d25f8c187cbc7723c3f5178779c63155f01d4",
+          "crop_xyxy": [
+            0,
+            0,
+            568,
+            868
+          ],
+          "scale": 1,
+          "case": "fc5af26c8937097c",
+          "window": [
+            71674,
+            72442
+          ],
+          "upstream_pins": {
+            "image": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+            "annotation": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24",
+            "s19_combine": "5bbb3af90fe4d52d2e977cb0527d3e1268cfe43f4a2fb7ae8f3278ceaa6b1684",
+            "s24_benedek": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e"
+          }
+        }
+      ]
+    },
+    {
+      "file": "02-fixture-legend.png",
+      "sha256": "7bcc3898cca1e2358fb0598824111297d061db7583095814b66f8a51ac1a8709",
+      "bytes": 34660,
+      "size": [
+        1440,
+        530
+      ],
+      "kind": "generated-fixture-legend",
+      "source": "management/vultr-setup/test-swarm/ocr/multi-tick.tif",
+      "source_sha256": "4280a39e932fdf0e0d0a9ac1bca02b7372e41aeb32bf9ef97ffa551d747f109c",
+      "crop_xyxy": [
+        30,
+        1700,
+        650,
+        2100
+      ],
+      "receipt_sha256": "168c8334486c3caf2302ffce873c113e1daeaf30546e17e7bc448c6d3bd126ec",
+      "app_image": "sha256:5b938b2669b04dcf86220b6c3bff712904d45cf4fcc29848b9df8ec8bbd65451"
+    },
+    {
+      "file": "03-fixture-source-prediction.png",
+      "sha256": "ee30479ebdeeeba525d4d3274b1c5c5f2d994f345dd08bcfba9ab9b0c84fd47b",
+      "bytes": 133575,
+      "size": [
+        1500,
+        1030
+      ],
+      "kind": "generated-fixture-saved-predictions",
+      "source_sha256": "4280a39e932fdf0e0d0a9ac1bca02b7372e41aeb32bf9ef97ffa551d747f109c",
+      "crop_xyxy": [
+        40,
+        380,
+        390,
+        1620
+      ],
+      "rendered_crop_size": [
+        235,
+        831
+      ],
+      "receipt_sha256": "168c8334486c3caf2302ffce873c113e1daeaf30546e17e7bc448c6d3bd126ec",
+      "app_image": "sha256:5b938b2669b04dcf86220b6c3bff712904d45cf4fcc29848b9df8ec8bbd65451",
+      "app_source_commit": "fcb8b319604200b999902b44753afb55b7da133d",
+      "boundary_check": {
+        "drawn": [
+          700,
+          1000,
+          1300
+        ],
+        "saved": [
+          696,
+          1000,
+          1304
+        ],
+        "max_abs_px": 4
+      }
+    }
+  ],
+  "saved_files": {
+    "fixture-api.csv": "d37c5a76c8632805665ff235d638e8cb5ebdec291e2d011dd0662bbfe070848b",
+    "fixture-harness.csv": "40a505ffbb4d13477f93290794bef60b0d45529f34ba9ca2bb781273f2533c87",
+    "fixture-bbox.json": "ab8fd492868643be0e5f107bd07b1e42f6c037bd3eec75fc3e07952fa2e3fd3c",
+    "fixture-receipts.json": "168c8334486c3caf2302ffce873c113e1daeaf30546e17e7bc448c6d3bd126ec"
+  },
+  "selection": "all three released pages, existing fixed middle 768-row excerpts; no labels used for selection",
+  "newtest_depth_note": "S19 depths unavailable in the saved comparison. Ignore older HTML boilerplate suggesting otherwise."
+}

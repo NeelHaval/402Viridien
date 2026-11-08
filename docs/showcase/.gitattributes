@@ -1,0 +1,4 @@
+# Keep the exact saved response bytes and the recorded CSV hashes.
+fixture-api.csv -text
+fixture-harness.csv -text
+fixture-receipts.json -text

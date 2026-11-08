@@ -1,0 +1,270 @@
+[
+  {
+    "path": "/upload",
+    "status": 200,
+    "body": {
+      "id": "4280a39e932fdf0e",
+      "status": "queued"
+    }
+  },
+  {
+    "path": "/wells/4280a39e932fdf0e",
+    "status": 200,
+    "body": {
+      "id": "4280a39e932fdf0e",
+      "name": "multi-tick",
+      "lat": null,
+      "lon": null,
+      "block": null,
+      "status": "processing",
+      "scores": null,
+      "validation_confidence": null,
+      "located": false,
+      "total_depth_ft": null,
+      "column": [],
+      "validation": {
+        "confidence": null,
+        "components": {},
+        "flags": []
+      },
+      "warnings": [],
+      "error": null
+    }
+  },
+  {
+    "path": "/wells/4280a39e932fdf0e",
+    "status": 200,
+    "body": {
+      "id": "4280a39e932fdf0e",
+      "name": "multi-tick",
+      "lat": 28.5,
+      "lon": -90.5,
+      "block": null,
+      "status": "processing",
+      "scores": null,
+      "validation_confidence": null,
+      "located": true,
+      "total_depth_ft": null,
+      "column": [],
+      "validation": {
+        "confidence": null,
+        "components": {},
+        "flags": []
+      },
+      "warnings": [],
+      "error": null
+    }
+  },
+  {
+    "path": "/wells/4280a39e932fdf0e",
+    "status": 200,
+    "body": {
+      "id": "4280a39e932fdf0e",
+      "name": "SYNTHETIC TEST",
+      "lat": 28.5,
+      "lon": -90.5,
+      "block": null,
+      "status": "ready",
+      "scores": {
+        "drilling": 73,
+        "cost": 100,
+        "price": 100,
+        "co2": 0
+      },
+      "validation_confidence": 0.7724408149554741,
+      "located": true,
+      "total_depth_ft": 2110.3,
+      "column": [
+        {
+          "top_ft": 909.9,
+          "base_ft": 1250.0,
+          "lithology": "Shale grey",
+          "pct": 87,
+          "color": "#99a5bb",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Shale grey",
+              "pct": 87
+            },
+            {
+              "lithology": "Sandstone",
+              "pct": 13
+            }
+          ]
+        },
+        {
+          "top_ft": 1250.0,
+          "base_ft": 1500.0,
+          "lithology": "Sandstone",
+          "pct": 100,
+          "color": "#e1c58d",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Sandstone",
+              "pct": 100
+            }
+          ]
+        },
+        {
+          "top_ft": 1500.0,
+          "base_ft": 1750.0,
+          "lithology": "Halite",
+          "pct": 96,
+          "color": "#d2b9db",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Halite",
+              "pct": 96
+            },
+            {
+              "lithology": "Sandstone",
+              "pct": 4
+            }
+          ]
+        },
+        {
+          "top_ft": 1750.0,
+          "base_ft": 2110.3,
+          "lithology": "Shale grey",
+          "pct": 82,
+          "color": "#99a5bb",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Shale grey",
+              "pct": 82
+            },
+            {
+              "lithology": "Halite",
+              "pct": 18
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "confidence": 0.7724408149554741,
+        "components": {
+          "structure": 0.861101854937243,
+          "sequence": 0.5750238929595413,
+          "regional": null,
+          "neighbours": null,
+          "location": 1.0
+        },
+        "flags": [
+          "structure:implausible_median_thickness",
+          "regional:no_regional_fingerprint",
+          "neighbours:no_neighbours"
+        ]
+      },
+      "warnings": [],
+      "error": null
+    }
+  },
+  {
+    "path": "/wells/4280a39e932fdf0e/csv",
+    "status": 200,
+    "body": "top_y,bottom_y,cluster_id,lithology,top_depth,base_depth\n400,696,1,Shale grey,909.9,1206.0\n696,1000,0,Sandstone,1206.0,1510.1\n1000,1304,2,Halite,1510.1,1814.2\n1304,1600,1,Shale grey,1814.2,2110.3\n"
+  },
+  {
+    "path": "/report",
+    "status": 200,
+    "body": {
+      "wells": [
+        {
+          "id": "4280a39e932fdf0e",
+          "name": "SYNTHETIC TEST",
+          "lat": 28.5,
+          "lon": -90.5,
+          "scores": {
+            "drilling": 73,
+            "cost": 100,
+            "price": 100,
+            "co2": 0
+          }
+        }
+      ],
+      "scores": {
+        "drilling": 73,
+        "cost": 100,
+        "price": 100,
+        "co2": 0
+      },
+      "column": [
+        {
+          "top_ft": 909.9,
+          "base_ft": 1250.0,
+          "lithology": "Shale grey",
+          "pct": 87,
+          "color": "#99a5bb",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Shale grey",
+              "pct": 87
+            },
+            {
+              "lithology": "Sandstone",
+              "pct": 13
+            }
+          ]
+        },
+        {
+          "top_ft": 1250.0,
+          "base_ft": 1500.0,
+          "lithology": "Sandstone",
+          "pct": 100,
+          "color": "#e1c58d",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Sandstone",
+              "pct": 100
+            }
+          ]
+        },
+        {
+          "top_ft": 1500.0,
+          "base_ft": 1750.0,
+          "lithology": "Halite",
+          "pct": 96,
+          "color": "#d2b9db",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Halite",
+              "pct": 96
+            },
+            {
+              "lithology": "Sandstone",
+              "pct": 4
+            }
+          ]
+        },
+        {
+          "top_ft": 1750.0,
+          "base_ft": 2110.3,
+          "lithology": "Shale grey",
+          "pct": 82,
+          "color": "#99a5bb",
+          "n_wells": 1,
+          "breakdown": [
+            {
+              "lithology": "Shale grey",
+              "pct": 82
+            },
+            {
+              "lithology": "Halite",
+              "pct": 18
+            }
+          ]
+        }
+      ],
+      "data_quality": [
+        "water_depth_unavailable"
+      ]
+    }
+  }
+]

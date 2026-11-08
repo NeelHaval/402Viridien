@@ -1,117 +1,151 @@
-# viridian402
+# Strata
 
-Reproducible model experiments for the Viridien “Decoding the Subsurface” challenge. Run the same evaluator locally or in GitHub Actions, add data through manifests, and compare immutable runs with accuracy and resource measurements.
+Turn a scanned mud log into named lithology intervals, image coordinates, and a CSV that can be checked.
+Built by **402_Payment_Required** for Viridien's *Decoding the Subsurface* challenge at HackTheBurgh XIII.
 
-## Start locally
+![All three released pages: source pixels beside saved standalone S19 predictions](docs/showcase/01-released-pages-s19.png)
 
-Use Python 3.12 and GitHub CLI with repository access. Get the code without
-downloading the large scans and OCR weights in the full repository:
+**Saved predictions, no reference interval labels.** All three released pages use the same vertical pixel scale.
+These are fixed middle excerpts, not selected successes. The sparse Woody output is retained.
+The axis is full-image row in pixels. S19 depths in these saved outputs are uncalibrated.
+This is **standalone S19 evidence**, not proof that the Strata app uses S19. Open the image to read the labels.
+
+## What this version establishes
+
+| Evidence | State | Exact scope |
+|---|---|---|
+| Saved app upload → ready → CSV → report | Yes | One generated four-band fixture; historical image `fcb8b3196042` |
+| Standalone S19 saved predictions | Yes | Three released pages; no reference interval truth or accuracy estimate |
+| Official depth export for those saved S19 files | No | Calibration was absent; blanks must not become zeros |
+| Final Outfit/Strata/provider build | Pending | Deployment owner's final source, image digest, and browser receipt |
+| Core candidate `559c99cb4e24` accepted | No | Preserve its source archive; it is not the final release |
+| Judge source access and submission route | Pending | Team write access does not prove judge access |
+
+Current verified private repository: [NeelHaval/viridian402](https://github.com/NeelHaval/viridian402).
+The requested name is `NeelHaval/402_viridien`; an admin must complete and verify the rename.
+Python package names remain `viridian402`. Repository naming does not change the model or app version.
+
+## How it works
+
+1. Read the original scan and supplied boxes for the lithology column, legend, and depth column.
+2. Read legend swatches and captions. Keep the page's names, cluster IDs, and unknown labels.
+3. Detect changes in the column and assign interval labels. S19 combines learned boundary and matching components; the app has a separate OCR pipeline.
+4. Map image rows to depth with that scan's calibration. Record printed units and datum; missing calibration blocks official depth export.
+5. Write CSV rows and an annotated column. Check boundaries, label mapping, hashes, units, and document coverage before submission.
+
+![Generated fixture legend swatches, saved OCR captions, and cluster IDs](docs/showcase/02-fixture-legend.png)
+
+The left side is an exact crop of the generated fixture. The right side uses labels and IDs from its saved API CSV.
+No unknown occurs here. On other scans, an unknown remains explicit; colour alone does not identify a rock.
+This receipt came from historical app image `sha256:5b938b2669b04dcf86220b6c3bff712904d45cf4fcc29848b9df8ec8bbd65451`.
+
+## Outputs and units
+
+The official example/notebook header is:
+
+```csv
+top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id
+```
+
+The challenge slide header is:
+
+```csv
+top_y,bottom_y,lithology,cluster_id,top_depth,base_depth
+```
+
+`base_depth` is an alias for the exact value of `bottom_depth`. It does not convert units.
+Coordinates are full-image pixels, top-left origin; intervals are sorted, nonoverlapping, and bottom-exclusive.
+Keep each scan's printed unit and datum with its calibration receipt. There is no universal feet assumption.
+Missing or nonfinite depths block the pinned exporter. Raw incomplete predictions remain diagnostics.
+An export check does not prove calibration quality, correct geology, or complete annotated documents.
+
+The saved app endpoint uses another column order: `top_y,bottom_y,cluster_id,lithology,top_depth,base_depth`.
+Use an explicit adapter for the required schema; the app download is not a format guarantee.
+See [the output contract and pinned export command](docs/output-contract.md).
+
+## A generated example
+
+![Four-band generated source with its saved app intervals and depth values](docs/showcase/03-fixture-source-prediction.png)
+
+**Regression check, not an accuracy estimate.** This is a generated fixture, not a challenge scan or training result.
+Source commit: `fcb8b319604200b999902b44753afb55b7da133d`; image digest is stated above.
+Three internal drawn edges: `700,1000,1300`; saved predictions: `696,1000,1304` (maximum offset **4 px**).
+The same saved CSV contains these four rows. Depth values are in **fixture feet only**.
+
+```csv
+top_y,bottom_y,cluster_id,lithology,top_depth,base_depth
+400,696,1,Shale grey,909.9,1206.0
+696,1000,0,Sandstone,1206.0,1510.1
+1000,1304,2,Halite,1510.1,1814.2
+1304,1600,1,Shale grey,1814.2,2110.3
+```
+
+The TIFF, boxes, and HTTP receipt were hash-checked before these figures were made.
+[Figure provenance, crops, versions, and full hashes](docs/showcase/README.md) explain the derivation.
+No final Strata screenshot is included until the deployment owner supplies an accepted build receipt.
+
+## Try it
+
+Use Python 3.12. Clone only source paths; no dataset download is needed for the manufactured example:
 
 ```sh
 gh repo clone NeelHaval/viridian402 -- --filter=blob:none --sparse
 cd viridian402
-git sparse-checkout set src scripts configs docs tests examples stress_testing .github notebooks data/provenance
+git sparse-checkout set src scripts configs docs tests examples stress_testing .github notebooks data/provenance demo
 python scripts/local_test.py
 ```
 
-The last command creates an isolated environment and checks one manufactured
-example. It runs no model. Download and check two fixed outside DEV windows:
+That command checks a manufactured example and runs no learned model.
+For the checked-in app source, use Python 3.12, Node/npm, and GNU Make:
 
 ```sh
-python scripts/local_test.py --suite quick-dev --check
+cd demo
+make setup
+make run
 ```
 
-To request a local evaluation, add `--run` in place of `--check`. Reports are
-written under `runs/local`. Use `--software-tests` for regression and stress
-checks, or `--download all --data-dir YOUR_LARGE_DATA_DIRECTORY` for the frozen
-datasets and checked notices. Held-out reference labels require a separate
-scorer directory and explicit opt-in.
+Open `http://localhost:8000`; inspect `/api/health` before upload. Use one backend worker.
+The map starts empty. Uploads create local state; keep scans and generated CSVs private.
+The app needs its pinned RapidOCR package or documented Tesseract fallback. Map/font services need network.
+Setup installs dependencies; these instructions do not claim reproduction of the final deployed image.
+See [app setup and API](demo/README.md) and [the experiment guide](docs/experiment-guide.md).
 
-Read [the local guide](docs/local-testing.md) for models, full DEV runs, download
-sizes and permissions. The downloads are immutable and checksum-pinned. The
-human diagnostic selects 15 pages and 422 boxes after the protected-well screen.
-The original 27-page bundle remains exposed history. DEV auto-labelling is
-disabled; no JEV or model-API authority is granted. DJS depth limits and the
-130-page depth-unit/synthetic-v2 gates remain open. These checks do not establish
-independent accuracy.
+## Code and evidence map
 
-The older import, crop-training and dataset examples below retain their original
-experiment context. Their split names do not establish current training
-eligibility. Use the checked exclusion policy before any new use.
+| Path | Purpose |
+|---|---|
+| `demo/` | FastAPI upload/OCR pipeline and React/MapLibre app |
+| `src/viridian402/` | Experiment CLI, metrics, reports, and adapters |
+| `scripts/challenge_export.py` | Pinned saved-row validator and two-schema exporter; no inference |
+| `docs/showcase/` | Three figures, generated-fixture CSVs, saved receipt, and provenance |
+| `docs/local-testing.md` | Bounded setup, dataset notices, and permitted development suites |
+| `docs/experiment-guide.md` | Earlier experiment workflow and evidence scopes |
+| `requirements*.lock`, `demo/frontend/package-lock.json` | Dependency records; not a full deployed-image lock |
 
-Contributing? Start with [CONTRIBUTING.md](CONTRIBUTING.md). Check readiness with `python -m viridian402 doctor --suite demo --model builtin:baseline`, copy the working model template, and use `--case-id` or `--tag` for targeted checks. `python scripts/benchmark.py --help` describes repeatable suite comparisons.
+S19's separate source/config/weight handoff is checksum-pinned by its owner. These docs do not wire it into the app.
+Historical PR5/import/release material is a source handoff, not final app acceptance. PR6 is not promoted here.
+The lab owner reported a cached S19 composite replay of `0.25237305749927796` on **five DEV windows from five wells**.
+Those windows share one programmatic reference family. This is a development score, not independent or full-document accuracy.
+Depth, broader DEV, synthetic gates, sparse-human, and full challenge validation were not run in that lab closure.
+The three released pages above have no reference interval truth, so their accuracy is unavailable.
 
-Latest: [v0.2 benchmark statistics](docs/benchmarks/2026-11-08.md) and [deep review evidence](docs/review-loop.md). The review grew the local suite from 65 to 172 passing tests and fixed eight S11 human-window crashes. Full-scan resource limits remain visible in the benchmark report.
+## Limits, data, and disclosure
 
-## Run an experiment
+Thin beds, texture changes, unreadable legends, missing boxes, and bad depth ticks can change or prevent a result.
+Legend captions are page-specific. Local Clay/Shale scoring equivalence must not relabel exported captions.
+Any app scores or area summaries need their own validation; they are not geological or commercial truth.
+The optional Gemini provider patch is separate and is not asserted to be active in the accepted app.
 
-Python 3.12 is the tested environment. From this checkout:
+These figures are shared only in this private repository under the owner's scope. No public scan licence is implied.
+No protected truth gallery, held-out TEST labels, dataset archive, weight bytes, `.env`, or credential is added here.
+Source ownership does not grant redistribution rights to challenge data or third-party models. Check original terms.
+No root project licence was found at the pinned core commit; dependency licences remain with their owners.
 
-```sh
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-python -m pip install -c requirements.lock -e ".[test]"
-python -m viridian402 synthetic --output data/local/demo --seed 2026
-python -m viridian402 validate --manifest data/local/demo/manifest.json
-python -m viridian402 evaluate --manifest data/local/demo/manifest.json --model builtin:baseline --config configs/baseline.json --output runs
-python -m viridian402 runs --output runs
-python -m viridian402 report runs/REPLACE_WITH_RUN_ID
-```
+AI tools assisted implementation, review, testing, coordination, and writing: OpenAI Codex/GPT models, with Claude Opus 5.5 advice on evidence selection.
+Existing OCR models, NumPy/SciPy/OpenCV/Pillow/PyTorch, FastAPI, React, MapLibre, Vite, and other dependencies are external contributions.
+The supplied challenge notebook, example, and page annotations are organiser inputs. The generated fixture is labelled.
+This is a partial tool/component record; the team must confirm exact pre-event code, provider use, and event-built contributions before entry.
+The [event rules](https://hacktheburgh.com/code-of-conduct) require AI and pre-existing contribution disclosure. Disclosure does not establish prize eligibility.
 
-PR #54's fixed real crop snapshot has its own classification experiment:
-
-```sh
-python scripts/datasets.py fetch crops --destination data/local/pr54
-python -m viridian402 classify --data-root data/local/pr54 --model builtin:prototype --output runs/crops
-```
-
-This fits a small baseline using only the 907 eligible training crops and scores all 112 fixed test crops, excluding 9 quality holds. Test results retain 60 source-prospective and 52 retrospective records separately. Crop classification measures a different task from interval boundaries/depths. See [PR54 integration and crop interface](docs/pr54.md).
-
-Each interval evaluation also writes a static [visual evidence report](docs/visual-evidence.md). Keep its relative image directories with the HTML file.
-
-Each evaluation prints its run directory. It contains `summary.md`, `metrics.json`, `provenance.json`, `per_case.jsonl`, prediction CSVs, challenge submission CSVs (`base_depth`), and annotated previews. Null accuracy means the case has no truth. Baseline naming remains `Unknown` without a supplied legend or an OCR model.
-
-## Evaluate the existing model and real labels
-
-```sh
-python scripts/datasets.py fetch evaluation
-python -m viridian402 evaluate --manifest data/local/human.json --model builtin:baseline --config configs/baseline.json --output runs
-python -m pip install -c requirements.lock -c requirements-legacy.lock -e ".[legacy]"
-python -m viridian402 evaluate --manifest data/local/human.json --model builtin:legacy-s11 --config configs/legacy-s11.json --timeout 120 --output runs
-```
-
-The fetch command uses `GH_TOKEN`/`GITHUB_TOKEN` or local Git Credential Manager. Release assets are private, versioned and checksum-pinned in `data/datasets.lock.json`. Challenge TIFFs and model weights stay out of Git. The separate `challenge` bundle adds the remaining challenge scans for unlabelled operational checks.
-
-## GitHub Actions
-
-Open **Actions → Evaluate model → Run workflow**. Choose the code branch, dataset suite, model, config, input mode and timeout. Enable **legacy dependencies** for S11. Every run publishes an Actions summary and downloadable results, including failed cases. Collaborators need write access to dispatch workflows. Accuracy gates are optional because the initial baseline has substantial known limitations.
-
-| Workflow | Trigger | Result |
-|---|---|---|
-| CI | Push or pull request | Windows/Linux tests, package build and demo end-to-end run |
-| Evaluate model | Manual | Selected real/synthetic/stress suite, metrics, CSVs and previews |
-| Stress testing | Manual | Bounded adversarial checks, JUnit/JSON reports and optional procedural degradation probes |
-| Release CLI | `v*` tag or manual build | Tested wheel/source archive; version tags publish a private GitHub Release |
-
-Model evaluation produces reviewable artifacts. It does not automatically replace a winning checkpoint. Update the tracked model config in a pull request after reviewing paired results.
-
-## Current evidence
-
-For reproducible adversarial checks and model degradation runs, see the isolated [stress-testing guide](stress_testing/README.md). Start with `python stress_testing/run_stress.py --profile quick`; generated reports stay in `stress_testing/.runs/`.
-
-| Suite | Cases | Interpretation |
-|---|---:|---|
-| `human` | 10 | Two manually labelled challenge pages; Shenzi has partial coverage |
-| `organizer` | 1 | Supplied log06 example, repeatedly used for development |
-| `external-dev` | 17 | Vector-derived public logs from three wells; visible development data |
-| `external-diagnostic` | 8 | ForsythB2-17; used in prior tuning, so not fresh held-out evidence |
-| `challenge-unlabelled` | Remaining available pages | Completion, coverage, unknown rate and resources; no accuracy |
-| `real-crops` | 112 | PR54 fixed crop test; 907 train, 9 holds; inherited prior-exposure status |
-| `synthetic`, `stress` | Generated | Real labelled interval crops with lineage; report separately from real data |
-
-The original sealed outside tests are not in the source repo. This repository does not recreate or claim access to them.
-
-Read [dataset and labelling instructions](docs/datasets.md), [model interface](docs/model-interface.md), [metrics and comparisons](docs/metrics.md), [CI/CD and releases](docs/ci.md), [challenge requirements and pitfalls](docs/challenge.md), [review findings](docs/review.md), and [executed verification](docs/verification.md).
-
-For the bounded notebook rule, see [candidate adapters](docs/candidate-adapters.md). For local reviewed-window exports, see [window exchange](docs/review-window-exchange.md). The five exposed windows are development evidence. Their local bundle remains unlabelled and has an unresolved parent split conflict.
+The private submission bundle uses `python tools/verify_package.py --strict` as its final gate once its owner installs and checks it.
+`--integrity-only` checks copy/hash integrity; it does not mean submission-ready. This README change does not submit the entry.

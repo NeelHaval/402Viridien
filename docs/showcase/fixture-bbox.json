@@ -1,0 +1,24 @@
+{
+  "width": 1000,
+  "height": 2200,
+  "bounding_boxes": {
+    "depth_column": [
+      40,
+      400,
+      190,
+      1600
+    ],
+    "interpreted_lithology_column": [
+      250,
+      400,
+      370,
+      1600
+    ],
+    "lithology_legend": [
+      30,
+      1700,
+      650,
+      2100
+    ]
+  }
+}
