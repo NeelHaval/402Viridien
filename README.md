@@ -24,9 +24,13 @@ The core idea is simple. **The legend is the answer key that comes with every pa
 
 S19 takes the page image and the organisers' box file (where the legend, the rock column and the depth column are), and runs these steps.
 
+![The three released pages with their input boxes: legend (blue), rock column (red), depth column (green)](docs/showcase/s19/01-inputs.png)
+
 ### 1. Read the legend
 
 The legend box is cut out and split into entries. Each entry is a swatch plus its printed label. The label is read with OCR (EasyOCR), and a small geological vocabulary (including log abbreviations such as `Ss`, `Sh` and `Lmst`) cleans up OCR slips and tells rock names apart from other legend text. We keep the page's own spelling as the output label. Each entry gets an ID, which becomes the `cluster_id` in the CSV. Results are cached by image content, so the same legend is only read once.
+
+![Legend entries found on the released pages, with OCR labels and cluster IDs](docs/showcase/s19/02-legend-parse.png)
 
 ### 2. Describe every pixel row of the rock column
 
@@ -40,6 +44,8 @@ We slice the rock column into one-pixel strips and measure each one. First we tr
 
 Each feature is standardised for the page. We then add "change" features: the difference between the rows just above and just below, at three scales (4, 12 and 32 px). That separates a real change in rock from a single dark line inside a hatch.
 
+![Per-row features down a real column excerpt](docs/showcase/s19/03-row-features.png)
+
 ### 3. Find where layers change
 
 Three sources propose boundaries:
@@ -49,6 +55,8 @@ Three sources propose boundaries:
 - **Drawn lines.** Many logs draw a horizontal rule between beds. Rows that are almost fully dark are kept as boundaries.
 
 Proposals closer than 20 px are merged.
+
+![Boundary probability from the two networks, change points and drawn lines](docs/showcase/s19/04-boundary-probability.png)
 
 ### 4. Match each piece to the legend
 
@@ -61,6 +69,8 @@ Two details matter a lot. Small swatches are **repeated like tiles at their real
 
 A small trained scorer (logistic regression) turns those 27 numbers into the probability that "this piece is this legend rock".
 
+![Column pieces next to their three best legend matches and match probabilities](docs/showcase/s19/05-legend-matching.png)
+
 ### 5. Decide the whole column at once
 
 Picking the best swatch for each piece separately gives a noisy column. Instead S19 decodes the whole column together, using exact dynamic programming. It finds the sequence of layers with the lowest total mismatch, where:
@@ -70,9 +80,13 @@ Picking the best swatch for each piece separately gives a noisy column. Instead 
 - a piece that matches no swatch well is labelled `Unknown` instead of the closest wrong rock,
 - drawn separator lines are kept even between two beds of the same rock, and touching beds with the same rock are otherwise merged.
 
+![Source column, decoded layers with their legend swatches, and final boundaries](docs/showcase/s19/06-decoded-column.png)
+
 ### 6. Read the depth scale
 
 OCR reads the numbers in the depth column. We fit a straight line from pixel row to depth, using pairs of readings, refitting, and ignoring readings more than 16 px off the line. We need at least three agreeing readings at different heights. If the fit looks weak, a second OCR engine (RapidOCR) re-reads three crops of the depth track and the better fit wins. We never guess units from a file name or a nearby well. If the scale can't be read, depths are left blank, never zero.
+
+![Depth numbers read by OCR and the fitted pixel-to-depth line](docs/showcase/s19/07-depth-calibration.png)
 
 ### 7. Export
 
@@ -88,6 +102,8 @@ Our first plan was unsupervised: cut the column into strips, compute features, a
 On top of that, clusters have no names. You still need the legend to say what each cluster is.
 
 So we turned the problem around and made the legend the centre of everything. Every page brings its own reference patterns and names, so S19 compares the column with those swatches directly, at their true pixel size, using pattern features that do not depend on colour.
+
+![Plain clustering next to S19 on the same excerpt](docs/showcase/s19/08-why-clustering-failed.png)
 
 ## What else we tried
 
