@@ -59,8 +59,12 @@ def test_every_code_cell_is_python_ast_parseable_without_executing():
     cells=_cells()
     assert len(cells)>=20
     assert any(isinstance(node,ast.FunctionDef) and node.name=='record_errors' for tree in cells for node in tree.body)
-    assert any(isinstance(node,ast.FunctionDef) and node.name=='train_cnn' for tree in cells for node in tree.body)
-    # The training function is recognized statically, never imported/executed.
+    functions={node.name:node for tree in cells for node in tree.body if isinstance(node,ast.FunctionDef)}
+    # Current main uses the descriptor pipeline, with public prediction and
+    # depth/submission entry points. Recognize these without executing cells.
+    for name in ['predict_lithology','calibrate_depth','write_submission_csv']:
+        assert name in functions
+        assert functions[name].args.args[0].arg=='stem'
 
 
 def test_record_validation_handles_missing_fields_overlap_and_legend_references():

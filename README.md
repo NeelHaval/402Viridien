@@ -2,6 +2,43 @@
 
 Reproducible model experiments for the Viridien “Decoding the Subsurface” challenge. Run the same evaluator locally or in GitHub Actions, add data through manifests, and compare immutable runs with accuracy and resource measurements.
 
+## Start locally
+
+Use Python 3.12 and GitHub CLI with repository access. Get the code without
+downloading the large scans and OCR weights in the full repository:
+
+```sh
+gh repo clone NeelHaval/viridian402 -- --filter=blob:none --sparse
+cd viridian402
+git sparse-checkout set src scripts configs docs tests examples stress_testing .github notebooks data/provenance
+python scripts/local_test.py
+```
+
+The last command creates an isolated environment and checks one manufactured
+example. It runs no model. Download and check two fixed outside DEV windows:
+
+```sh
+python scripts/local_test.py --suite quick-dev --check
+```
+
+To request a local evaluation, add `--run` in place of `--check`. Reports are
+written under `runs/local`. Use `--software-tests` for regression and stress
+checks, or `--download all --data-dir YOUR_LARGE_DATA_DIRECTORY` for the frozen
+datasets and checked notices. Held-out reference labels require a separate
+scorer directory and explicit opt-in.
+
+Read [the local guide](docs/local-testing.md) for models, full DEV runs, download
+sizes and permissions. The downloads are immutable and checksum-pinned. The
+human diagnostic selects 15 pages and 422 boxes after the protected-well screen.
+The original 27-page bundle remains exposed history. DEV auto-labelling is
+disabled; no JEV or model-API authority is granted. DJS depth limits and the
+130-page depth-unit/synthetic-v2 gates remain open. These checks do not establish
+independent accuracy.
+
+The older import, crop-training and dataset examples below retain their original
+experiment context. Their split names do not establish current training
+eligibility. Use the checked exclusion policy before any new use.
+
 Contributing? Start with [CONTRIBUTING.md](CONTRIBUTING.md). Check readiness with `python -m viridian402 doctor --suite demo --model builtin:baseline`, copy the working model template, and use `--case-id` or `--tag` for targeted checks. `python scripts/benchmark.py --help` describes repeatable suite comparisons.
 
 Latest: [v0.2 benchmark statistics](docs/benchmarks/2026-11-08.md) and [deep review evidence](docs/review-loop.md). The review grew the local suite from 65 to 172 passing tests and fixed eight S11 human-window crashes. Full-scan resource limits remain visible in the benchmark report.
