@@ -2,7 +2,8 @@
 
 For recorded results and discovered defects, see [executed verification](VERIFICATION.md)
 and its [machine-readable evidence](verification.json).
-The latest application review is [the main-0072114 retest](RETEST-0072114.md).
+The application review began with [main-0072114](RETEST-0072114.md) and continues
+with [the newly merged b790a6b code](RETEST-b790a6b.md).
 
 This directory contains opt-in tests for data validation, scoring, saved results,
 worker failures, archive handling, and notebook helper contracts. Two Python
@@ -55,6 +56,9 @@ stress_testing/
     test_security_boundaries.py protocol, logs, canaries and report spoofing
     test_notebook.py            static cells and selected pure helper checks
     test_harness.py             runner reporting and command-line regressions
+    test_adapter_hardening.py   finite component features and candidate limits
+    test_visual_hardening.py    report paths, integrity, budgets and pairing
+    test_exchange_hardening.py  reviewed labels, provenance and download policy
     test_demo_config.py         budgets and bounded pooled reports
     test_demo_pipeline.py       strict output, thin beds and feature edge cases
     test_demo_services.py       concurrency, immutable inputs, queue and storage
@@ -105,7 +109,9 @@ The pytest log ceiling is 16 MiB. Exceeding a runner budget fails the run and
 retains partial artifacts; it is not counted as a successful stress result.
 
 Repeat `--suite` to combine `data`, `metrics`, `results`, `workers`, `archives`,
-`security`, `notebook`, or `harness`. Omit it, or select `all`, for all checks.
+`security`, `notebook`, `harness`, `adapter`, `visual`, or `exchange`.
+Omit it, or select `all`, for all core checks. The adapter suite requires SciPy;
+use the review extra or the demo environment to execute it rather than skip it.
 The runner records the interpreter, package versions, seed, settings, elapsed
 time, sampled peak RSS, Git commit/dirty status, and source SHA-256 fingerprints.
 Changing source files during a run invalidates it (`source_changed`); rerun after

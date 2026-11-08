@@ -153,3 +153,17 @@ def test_otherwise_passing_run_is_invalidated_by_cleanup_or_source_changes(harne
         assert summary['status']=='cleanup_incomplete' and summary['cleanup_errors']
     else:
         assert summary['status']=='source_changed' and summary['source_changed_during_run']
+
+
+def test_finished_or_reused_pid_is_never_waited_as_an_owned_child(harness,monkeypatch):
+    """A stale PID must not turn an unrelated process into cleanup evidence."""
+    class FinishedChild:
+        pid=900_000_001
+        def is_running(self):return False
+        def kill(self):raise AssertionError('signalled an exited/reused PID')
+    def forbidden_wait(*args,**kwargs):raise AssertionError('waited on an exited/reused PID')
+    def absent(pid):raise psutil.NoSuchProcess(pid)
+    monkeypatch.setattr(psutil,'Process',absent)
+    monkeypatch.setattr(psutil,'wait_procs',forbidden_wait)
+    process=SimpleNamespace(pid=900_000_000,poll=lambda:0,wait=lambda timeout=None:0)
+    assert harness.terminate(process,{900_000_001:FinishedChild()})==[]

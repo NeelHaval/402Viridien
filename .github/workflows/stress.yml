@@ -10,7 +10,7 @@ on:
       suite:
         description: Isolated software checks
         type: choice
-        options: [all, data, metrics, results, workers, archives, security, notebook, harness, demo-config, demo-pipeline, demo-services, demo-security]
+        options: [all, data, metrics, results, workers, archives, security, notebook, harness, adapter, visual, exchange, demo-config, demo-pipeline, demo-services, demo-security]
         default: all
       seed:
         description: Reproducible integer seed (0 to 4294967195 when model probe enabled)

@@ -11,7 +11,7 @@ def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--suite',choices=['demo','quick-dev','dev'],default='demo')
     p.add_argument('--download',choices=['all','dev','human','synthetic','unlabelled','heldout-inputs','heldout-references'])
-    p.add_argument('--data-dir',type=Path,default=Path('data/local/review-v1'))
+    p.add_argument('--data-dir',type=Path,default=None)
     p.add_argument('--allow-heldout-references',action='store_true')
     p.add_argument('--download-only',action='store_true')
     p.add_argument('--check',action='store_true',help='Validate setup and inputs without running a model')
@@ -21,22 +21,28 @@ def main(argv=None):
     p.add_argument('--timeout',type=float,default=60)
     a=p.parse_args(argv)
     try:
+        if a.download=='heldout-references' and a.data_dir is None:
+            raise ValueError('Held-out references require an explicit separate --data-dir for the scorer')
+        if a.data_dir is None:a.data_dir=Path('data/local/review-v1')
         from .data import load_manifest
-        from .review_data import download,development_manifest
+        from .review_data import download,development_manifest,_scorer_zone
         root=Path.cwd().resolve()
         if a.download:
             profiles=['dev','human','synthetic','unlabelled','heldout-inputs'] if a.download=='all' else [a.download]
             for profile in profiles:
                 download(profile,a.data_dir,root,allow_heldout_references=a.allow_heldout_references)
             return 0
+        if _scorer_zone(a.data_dir.resolve()):
+            raise ValueError('Scorer directory cannot be a model input root')
         if a.suite=='demo':
             from .synthetic import generate_demo
             manifest=generate_demo(a.data_dir/'demo',seed=2026,n=1)
         else:
             download('dev',a.data_dir,root)
-            manifest=development_manifest(a.data_dir,quick=a.suite=='quick-dev')
+            manifest=development_manifest(a.data_dir,quick=a.suite=='quick-dev',lock_path=root/'configs/review-data.lock.json')
         loaded=load_manifest(manifest)
-        config=json.loads(a.config.read_text(encoding='utf-8'))
+        def nonfinite(value):raise ValueError('Model config must contain finite JSON values')
+        config=json.loads(a.config.read_text(encoding='utf-8-sig'),parse_constant=nonfinite)
         if not isinstance(config,dict):raise ValueError('Model config must be a JSON object')
         print(f'LOCAL_INPUT_CHECK_OK suite={a.suite} cases={len(loaded["records"])} manifest={manifest}')
         if a.check or a.download_only or not a.run:

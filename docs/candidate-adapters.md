@@ -22,7 +22,8 @@ to the intersection of the requested window and lithology box. Output uses the
 original image coordinates. IDs start from zero within the page request.
 Repeated visual patterns use the same ID. With supplied swatches, IDs follow
 swatch order and do not copy external legend IDs. Labels come from supplied
-public swatches. Without swatches, labels are `Unknown`. White gaps are omitted.
+public swatches. Without swatches, labels are `Unknown`. Resolved white segments
+are omitted; a white gap inside an unresolved interval can remain covered.
 Depth endpoints are absent, even if a supplied calibration is available. No
 unit or datum is invented. The existing scorer reports missing depth.
 
@@ -103,6 +104,31 @@ The source rule uses eight-pixel stripes and robust change peaks. Small beds
 can be missed. Pixels below mean RGB 128 count as ink, which can hide colour
 boundaries between dark beds. There is no automatic legend OCR. A full-image
 production candidate still needs naming, depth and real-scan resource evidence.
+
+### Additional bounded edge review
+
+The accepted `max_component_centers=1` setting previously computed the mean of
+an empty pair-distance array, producing NaN features. It now uses a zero
+pair-distance term when fewer than two sampled centres remain, matching the
+existing convention for a stripe with one component. Density, original component
+count and mean component size remain available. This fixes numerical validity;
+it does not establish the quality of a one-centre feature approximation.
+
+The added `stress_testing/checks/test_adapter_hardening.py` exercises 2,400 actual
+disconnected components with caps 1, 2, 256 and 2,000, tiny native RGB/gray/palette/
+bilevel images, parameter and crop/decode guards, repeated supplied swatches,
+page-local IDs, worker execution and deterministic features under different
+global random seeds. It does not execute notebook cells, train, or fetch assets.
+Together with the existing adapter and baseline model tests, this review ran
+68 passing checks in the Python 3.12 backend environment.
+
+Constructed gap probes demonstrate the detection limit rather than hide it:
+with default settings, a 64-row pink column containing an eight-row white gap
+at local rows 28–36 produced one full interval and covered all eight gap rows.
+A separate 320-row column with a 120-row white gap, using stripe height 2,
+boundary window 2, minimum gap 2 and ink threshold multiplier 1, resolved the
+gap and omitted all its rows. These fixtures are not real-data accuracy evidence
+or a reason to retune on held-out pages. No expected failures mask either case.
 
 ## Reproduce with the existing CLI
 

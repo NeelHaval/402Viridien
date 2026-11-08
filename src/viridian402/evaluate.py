@@ -220,8 +220,9 @@ def _predict(model, request, config, timeout, max_worker_rss_mb=None,
                 except psutil.Error: pass
             if seen_children:
                 try:
-                    _,alive=psutil.wait_procs(list(seen_children.values()),timeout=2)
-                    if alive:io_exceeded='worker descendant cleanup unconfirmed'
+                    active=[child for child in seen_children.values() if child.is_running()]
+                    _,alive=psutil.wait_procs(active,timeout=2) if active else ([],[])
+                    if any(child.is_running() for child in alive):io_exceeded='worker descendant cleanup unconfirmed'
                 except psutil.Error:
                     # A Windows child may disappear between kill and wait.
                     # Keep that race from aborting the parent evaluation.
@@ -423,7 +424,11 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
                       "Accuracy is never assigned to unlabelled records. No GPU memory metric is inferred."]}
     _json(run/"metrics.json",summary)
     (run/"summary.md").write_text(render_summary(summary,cases),encoding="utf-8")
-    write_visual_report(run)
+    visual_started = time.perf_counter()
+    write_visual_report(run, generate_images=previews)
+    summary["timings"]["visual_report_seconds"] = time.perf_counter()-visual_started
+    summary["timings"]["wall_seconds"] = time.perf_counter()-run_started
+    _json(run/"metrics.json",summary)
     return run,summary
 
 

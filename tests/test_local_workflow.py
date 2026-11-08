@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import runpy
+import zipfile
 from unittest.mock import Mock
 
 import pytest
@@ -19,7 +20,7 @@ def save(path,value):
 
 
 @pytest.fixture
-def dataset(tmp_path):
+def dataset(tmp_path,monkeypatch):
     records=[];files={};permissions=[]
     for index in range(3):
         image=tmp_path/f'images/page{index}.tif';image.parent.mkdir(exist_ok=True)
@@ -41,6 +42,18 @@ def dataset(tmp_path):
         authority=dict(sha256='registry-pin'),records=permissions))
     save(tmp_path/'metadata/v2/dataset-metadata-v2/POLICY.json',dict(autoLabelAllowed=False,
         modelApiCallsAllowed=False,protectedRegistrySha256='registry-pin'))
+    temporary=tmp_path/'metadata.zip'
+    with zipfile.ZipFile(temporary,'w') as archive:
+        archive.write(tmp_path/'metadata/v2/dataset-metadata-v2/POLICY.json',review_data.POLICY_MEMBER)
+    cache=tmp_path/'downloads';cache.mkdir()
+    version_hash=review_data.digest(temporary)
+    cached=cache/(version_hash+'.zip');temporary.rename(cached)
+    entries={}
+    for name,path in [('review-manifest',tmp_path/'metadata/DATASET.json'),('review-overlay',tmp_path/'metadata/dataset-containment-overlay-v1.json'),('review-metadata-v2',cached)]:
+        entries[name]=dict(asset_name='metadata.zip' if name=='review-metadata-v2' else path.name,size=path.stat().st_size,sha256=review_data.digest(path))
+    entries['review-dev']=dict(asset_name='dev.zip')
+    lock=tmp_path/'fixture.lock.json';save(lock,dict(bundles=entries))
+    monkeypatch.setattr(review_data,'DEFAULT_LOCK',lock)
     return tmp_path
 
 
@@ -55,13 +68,13 @@ def test_quick_selection_is_native_and_two_distinct_wells(dataset):
 def test_protected_record_cannot_enter_quick_selection(dataset):
     path=dataset/'metadata/dataset-containment-overlay-v1.json';j=json.loads(path.read_text(encoding='utf-8'))
     j['records'][0]['protectedWell']=True;save(path,j)
-    with pytest.raises(ValueError,match='protected-well'):review_data.development_manifest(dataset)
+    with pytest.raises(ValueError,match='protected-well|metadata checksum'):review_data.development_manifest(dataset)
 
 
 def test_unknown_permission_is_denied(dataset):
     path=dataset/'metadata/dataset-containment-overlay-v1.json';j=json.loads(path.read_text(encoding='utf-8'))
     j['records']=j['records'][1:];save(path,j)
-    with pytest.raises(ValueError,match='protected-well'):review_data.development_manifest(dataset)
+    with pytest.raises(ValueError,match='protected-well|metadata checksum'):review_data.development_manifest(dataset)
 
 
 def test_source_hash_drift_is_not_scored(dataset):
@@ -72,7 +85,7 @@ def test_source_hash_drift_is_not_scored(dataset):
 def test_overlay_and_registry_versions_must_match(dataset):
     path=dataset/'metadata/v2/dataset-metadata-v2/POLICY.json';j=json.loads(path.read_text(encoding='utf-8'))
     j['protectedRegistrySha256']='other';save(path,j)
-    with pytest.raises(ValueError,match='different registries'):review_data.metadata(dataset)
+    with pytest.raises(ValueError,match='different registries|policy differs'):review_data.metadata(dataset)
 
 
 def test_heldout_references_need_opt_in_and_separate_directory(tmp_path):

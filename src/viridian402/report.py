@@ -165,19 +165,23 @@ def load_run(path):
         raise ValueError(f"invalid run schema: {exc}") from exc
 
 
-def write_visual_report(path):
+def write_visual_report(path, *, generate_images=True):
     """Validate saved results, then write one static HTML report per run.
 
     Visual failures are separate from model scores. The immutable score files
     and quality gates are never rewritten by this function.
     """
-    from .visual_report import collect_evidence, render_html
+    from .visual_report import atomic_write, collect_evidence, output_target, render_html
     path = Path(path)
     if path.is_file():
         path = path.parent
+    path = path.resolve()
     summary, cases = load_run(path)
+    # Refuse linked outputs before any derived artifacts are produced.
+    output_target(path, "visual-evidence.json")
+    output_target(path, "report.html")
     try:
-        evidence = collect_evidence(path, summary, cases)
+        evidence = collect_evidence(path, summary, cases, generate_images=generate_images)
     except Exception as exc:
         evidence = {"schema_version": 1, "run_id": summary["run_id"],
                     "evidence_complete": False, "promotion_supported": False,
@@ -188,9 +192,10 @@ def write_visual_report(path):
                                "source_sha256": None, "issues": [], "issue_count": None,
                                "render_status": "render_failure", "evidence_complete": False,
                                "errors": [f"Report render failure: {type(exc).__name__}: {exc}"]} for c in cases]}
-    (path/"visual-evidence.json").write_text(json.dumps(evidence, indent=2, allow_nan=False)+"\n", encoding="utf-8")
-    target = path/"report.html"
-    target.write_text(render_html(summary, evidence), encoding="utf-8")
+    encoded = (json.dumps(evidence, indent=2, allow_nan=False)+"\n").encode("utf-8")
+    document = render_html(summary, evidence).encode("utf-8")
+    atomic_write(path, "visual-evidence.json", lambda stream: stream.write(encoded))
+    target = atomic_write(path, "report.html", lambda stream: stream.write(document))
     return target
 
 

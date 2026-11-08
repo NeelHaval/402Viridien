@@ -37,7 +37,7 @@ def main():
             subprocess.run([str(python),'-m','pip','install','-c','requirements.lock','-e',target], cwd=ROOT, check=True)
             marker.write_text(stamp, encoding='utf-8')
     if args.software_tests:
-        return subprocess.run([str(python),'-m','pytest','-q','tests','stress_testing/checks'], cwd=ROOT).returncode
+        return subprocess.run([str(python),'stress_testing/run_stress.py','--profile','quick','--include-regressions'], cwd=ROOT).returncode
     env = {**os.environ, 'PYTHONPATH':str(ROOT/'src')}
     return subprocess.run([str(python),'-X','utf8','-m','viridian402.local_test',*forwarded], cwd=ROOT, env=env).returncode
 

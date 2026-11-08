@@ -25,7 +25,8 @@ ROOT=Path(__file__).resolve().parents[1]
 HERE=Path(__file__).resolve().parent
 SUITES={'data':'test_contracts.py','metrics':'test_metrics.py','results':'test_results.py',
         'workers':'test_workers.py','archives':'test_archives.py','security':'test_security_boundaries.py',
-        'notebook':'test_notebook.py','harness':'test_harness.py'}
+        'notebook':'test_notebook.py','harness':'test_harness.py',
+        'adapter':'test_adapter_hardening.py','visual':'test_visual_hardening.py','exchange':'test_exchange_hardening.py'}
 DEMO_SUITES={'demo-config':'test_demo_config.py','demo-pipeline':'test_demo_pipeline.py','demo-services':'test_demo_services.py',
              'demo-security':'test_demo_security.py'}
 PROFILES={'quick':{'iterations':50,'timeout':180},'extended':{'iterations':500,'timeout':600},
@@ -63,8 +64,11 @@ def terminate(process,observed):
     process.wait(timeout=10)
     if observed:
         try:
-            _,alive=psutil.wait_procs(list(observed.values()),timeout=3)
-            errors.extend(f'descendant {child.pid} still running' for child in alive)
+            # is_running verifies creation identity; wait() alone may observe
+            # an unrelated new process after Windows reuses an exited PID.
+            active=[child for child in observed.values() if child.is_running()]
+            _,alive=psutil.wait_procs(active,timeout=3) if active else ([],[])
+            errors.extend(f'descendant {child.pid} still running' for child in alive if child.is_running())
         except psutil.Error:
             # Windows may refuse waiting on a short-lived, already-gone child.
             # Verify liveness separately rather than losing the entire report.

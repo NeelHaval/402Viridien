@@ -127,14 +127,25 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
 
 
 def fetch(name, destination, lock_path, *, extract=True, cache_dir=None, use_gh=False):
-    lock = json.loads(Path(lock_path).read_text(encoding="utf-8"))
+    lock = json.loads(Path(lock_path).read_text(encoding="utf-8-sig"))
+    if not isinstance(lock,dict) or not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',str(lock.get('repository',''))):
+        raise ValueError('Dataset lock must name a GitHub owner/repository')
     entry = lock["bundles"][name]
+    if not isinstance(entry,dict) or not isinstance(entry.get('asset_name'),str):raise ValueError('Invalid release lock entry')
+    asset_name=portable_path(entry['asset_name'])
+    if len(asset_name.parts)!=1 or asset_name.as_posix()!=entry['asset_name']:
+        raise ValueError('Release asset name must be a plain portable filename')
+    if (not isinstance(entry.get('sha256'),str) or not re.fullmatch('[0-9a-f]{64}',entry['sha256'])
+            or type(entry.get('size')) is not int or not 0<entry['size']<=8*1024**3
+            or type(entry.get('asset_id')) is not int or entry['asset_id']<1):
+        raise ValueError('Release asset needs a SHA-256 pin, positive integer ID and size within 8 GiB')
     destination = Path(destination)
     destination.mkdir(parents=True, exist_ok=True)
     url = f"https://api.github.com/repos/{lock['repository']}/releases/assets/{int(entry['asset_id'])}"
     cache = Path(cache_dir) if cache_dir is not None else ROOT / "data" / "downloads"
     cache.mkdir(parents=True, exist_ok=True)
     archive = cache / (entry['sha256'] + Path(entry['asset_name']).suffix)
+    if archive.is_symlink():raise ValueError('Cached release assets must not be symlinks')
     if use_gh and shutil.which('gh') and (not archive.exists() or archive.stat().st_size!=entry['size'] or sha256(archive)!=entry['sha256']):
         if Path(entry['asset_name']).name!=entry['asset_name']:
             raise ValueError('Release asset name must be a plain filename')
@@ -148,14 +159,14 @@ def fetch(name, destination, lock_path, *, extract=True, cache_dir=None, use_gh=
                 if result.returncode==0:break
                 if attempt<2:time.sleep(attempt+1)
             else:
-                raise RuntimeError('Private download failed. Check gh auth login and repository access: '+
-                                   result.stderr.decode('utf-8',errors='replace').strip())
+                raise RuntimeError('Private download failed. Check gh auth login and repository access (exit '+str(result.returncode)+')')
             if downloaded.stat().st_size!=entry['size'] or sha256(downloaded)!=entry['sha256']:
                 raise ValueError('Dataset checksum or size mismatch')
             downloaded.replace(archive)
     if not archive.exists() or archive.stat().st_size!=entry['size'] or sha256(archive) != entry["sha256"]:
         opener = urllib.request.build_opener(SafeRedirect())
-        temporary = archive.with_suffix(".part")
+        with tempfile.NamedTemporaryFile(prefix=entry['sha256']+'-',suffix='.part',dir=cache,delete=False) as pending:
+            temporary=Path(pending.name)
         try:
             # Bounded range requests also work through proxies which truncate
             # large streamed responses. Verify each range before appending.

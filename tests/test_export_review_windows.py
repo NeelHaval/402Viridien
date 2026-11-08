@@ -160,7 +160,9 @@ def test_overlapping_accepted_beds_fail(exchange, tmp_path):
 
 def test_existing_combined_catalog_blocks_cross_split_group(exchange, tmp_path):
     path, item, _ = exchange
-    Image.new('RGB', (100, 300)).save(tmp_path / 'page.tif')
+    page=Image.new('RGB', (100, 300))
+    with Image.open(tmp_path/'window.png') as crop:page.paste(crop,(10,100))
+    page.save(tmp_path / 'page.tif')
     write(tmp_path / 'annotation.json', {'width': 100, 'height': 300,
           'bounding_boxes': {'interpreted_lithology_column': [10, 50, 30, 250]}})
     parent = {'id': 'parent1', 'image': 'page.tif', 'annotation': 'annotation.json', 'truth': None,

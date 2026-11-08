@@ -77,8 +77,24 @@ Every selected case remains in the report, including passes, crashes,
 unlabelled cases, and render failures. Unlabelled accuracy is unavailable.
 Model status and render status are separate. A missing preview, changed source,
 failed required crop, or failed legend crop makes evidence incomplete. Thus a
-run made with `--no-previews` has incomplete visual evidence, even if its issue
-crops render. Existing previews remain unchanged.
+run made with `--no-previews` has incomplete visual evidence. Evaluation now
+skips new preview/legend/issue decoding in that mode and records the disabled
+rendering explicitly. Existing previews remain unchanged. Standalone report
+regeneration can render images when explicitly requested.
+
+Report and image publication uses atomic new files and rejects linked output
+paths; the caller must still own the directory exclusively against concurrent
+filesystem changes. Preview URLs are local, portable, PNG-only and percent
+encoded. Prediction/truth scores are recomputed and compared with saved metrics
+before a case can appear consistent; matching boundary counts alone is
+insufficient.
+
+Evidence budgets are 20,000 combined intervals, 200,000 in-tolerance boundary
+candidates, 16 MiB per CSV, 4 million pixels per crop/preview, 128 million decode
+bytes and 32 MiB per preview file. Exceeding these records incomplete evidence
+without changing model scores. Diagnostic pairing uses a heap and cached spans
+instead of repeated quadratic scans. Evaluation records `visual_report_seconds`
+and includes report creation in `timings.wall_seconds`.
 
 `promotion_supported` is always false. The report does not approve promotion.
 Missing required images block a promotion claim. Complete images alone do not

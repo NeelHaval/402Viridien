@@ -46,7 +46,9 @@ def stripe_features(stripe, thresh=128, max_comp=2000):
         cen = np.array(center_of_mass(black, lab, ids))
         if n > max_comp:  # keep pairwise distances cheap on very noisy stripes
             cen = cen[np.random.default_rng(0).choice(n, max_comp, replace=False)]
-        mean_dist = pdist(cen).mean()
+        # A valid cap of one leaves no center pair. Use the same zero-distance
+        # convention as an actual single component instead of mean([]) -> NaN.
+        mean_dist = pdist(cen).mean() if len(cen) > 1 else 0.0
     else:
         mean_dist = 0.0
     return np.array([density, n, mean_dist, sizes.mean(), *bg_rgb], np.float32)
