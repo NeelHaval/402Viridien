@@ -90,19 +90,36 @@ def fetch(name, destination, lock_path):
     cache.mkdir(parents=True, exist_ok=True)
     archive = cache / f"{entry['sha256']}.zip"
     if not archive.exists() or sha256(archive) != entry["sha256"]:
-        request = urllib.request.Request(url, headers={"Authorization": "Bearer " + credential(),
-                                                      "Accept": "application/octet-stream",
-                                                      "X-GitHub-Api-Version": "2022-11-28"})
         opener = urllib.request.build_opener(SafeRedirect())
         temporary = archive.with_suffix(".part")
         try:
-            with opener.open(request, timeout=120) as response, temporary.open("wb") as output:
+            # Bounded range requests also work through proxies which truncate
+            # large streamed responses. Verify each range before appending.
+            token = credential()
+            with temporary.open("wb") as output:
                 copied = 0
-                while chunk := response.read(1024 * 1024):
-                    copied += len(chunk)
-                    if copied > entry["size"]:
-                        raise ValueError("Downloaded data exceeds locked size")
-                    output.write(chunk)
+                while copied < entry["size"]:
+                    end = min(copied + 4 * 1024 * 1024, entry["size"]) - 1
+                    request = urllib.request.Request(url + f"?download=1&chunk={copied}", headers={
+                        "Authorization": "Bearer " + token, "Accept": "application/octet-stream",
+                        "Range": f"bytes={copied}-{end}", "X-GitHub-Api-Version": "2022-11-28"})
+                    last_error = None
+                    for attempt in range(3):
+                        try:
+                            with opener.open(request, timeout=120) as response:
+                                expected = f"bytes {copied}-{end}/{entry['size']}"
+                                if response.status != 206 or response.headers.get("Content-Range") != expected:
+                                    raise ValueError("Release storage did not honor the bounded byte range")
+                                chunk = response.read(end - copied + 2)
+                            if len(chunk) != end - copied + 1:
+                                raise ValueError("Incomplete dataset byte range")
+                            output.write(chunk)
+                            copied += len(chunk)
+                            break
+                        except (OSError, ValueError) as error:
+                            last_error = error
+                    else:
+                        raise RuntimeError("Dataset download failed after three range attempts") from last_error
             if copied != entry["size"] or sha256(temporary) != entry["sha256"]:
                 raise ValueError("Dataset checksum or size mismatch")
             temporary.replace(archive)

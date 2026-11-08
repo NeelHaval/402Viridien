@@ -8,7 +8,7 @@ On the Actions **Evaluate model** page choose a branch with your model code, the
 
 Inputs are passed through environment variables and parsed as data in `scripts/run_evaluation.py`. They are not inserted into shell commands. Per-case timeout is restricted to 1–600 seconds and the whole job to 90 minutes. Runtime depends on source image decoding and OCR. A per-case failure makes the default completion gate fail but still saves diagnostics. The artifact upload uses `always()` so completed cases survive quality-gate failures; cancelling the entire runner can still interrupt artifact generation.
 
-Download `evaluation-RUN_ID-ATTEMPT` from the run's **Artifacts** section. The Actions summary has the metrics; open downloaded `summary.md` for relative links to CSVs and images. Results are retained for 30 days. Download important runs for permanent comparison. The CLI can compare two downloaded run directories directly.
+Download `evaluation-RUN_ID-ATTEMPT` from the run's **Artifacts** section. The Actions summary has the metrics; open downloaded `summary.md` for relative links to CSVs and images. Results are retained for 30 days. Download important runs for permanent comparison. The CLI can compare two downloaded run directories directly. The `real-crops` suite uses the separate PR54 fixed classification split and metrics, described in [PR54 integration](pr54.md).
 
 The equivalent local workflow command is:
 

@@ -47,7 +47,7 @@ class ImporterTests(unittest.TestCase):
             metric=[r for r in records if r.get('image_depth_unit')=='m'][0]
             self.assertEqual(metric['depth_unit'],'ft')
             self.assertEqual(before,{str(p):sha256(p) for p in source.rglob('*') if p.is_file()})
-            self.assertTrue(all(Path(r['image']).is_relative_to(root/'out') for r in records))
+            self.assertTrue(all(Path(r['image']).is_relative_to((root/'out').resolve()) for r in records))
 
 
 if __name__=='__main__':unittest.main()

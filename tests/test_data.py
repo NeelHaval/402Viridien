@@ -8,9 +8,24 @@ from PIL import Image
 
 from viridian402.data import load_manifest, load_intervals, read_rgb, save_intervals, validate_intervals
 from viridian402.synthetic import generate_demo
+from viridian402.groups import normalize_group
 
 
 class DataTests(unittest.TestCase):
+    def test_cross_task_group_aliases(self):
+        for old,new in [('challenge:d-582','well:d582'),('challenge:MC765-P011','well:mc765_p011'),
+                        ('challenge:60811405800300','api:6081140580'),('challenge:60811405800500','api:6081140580'),
+                        ('challenge:Shell-08852-KE001','document:shell08852ke001'),
+                        ('challenge:Callaway 3-33 mudlog to TD.PDF','document:callaway333')]:
+            self.assertEqual(normalize_group(old),new)
+        with tempfile.TemporaryDirectory() as d:
+            path=generate_demo(d,n=1);data=json.loads(path.read_text());record=data['records'][0]
+            record['group']='challenge:60811405800300'
+            record['lineage']['parent_group']='api:6081140580'
+            path.write_text(json.dumps(data))
+            normalized=load_manifest(path)['records'][0]
+            self.assertEqual(normalized['group'],'api:6081140580')
+            self.assertEqual(normalized['source_group_id'],'challenge:60811405800300')
     def test_intervals_reject_nonfinite_fractional_overlap_and_sort(self):
         valid={'top_y':1,'bottom_y':4,'lithology':'Shale','cluster_id':0}
         for invalid in ({**valid,'top_y':1.5},{**valid,'top_y':float('nan')},

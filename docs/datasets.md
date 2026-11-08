@@ -58,7 +58,7 @@ python -m viridian402 synthetic --manifest data/local/human.json --output data/l
 python -m viridian402 synthetic --manifest data/local/human.json --output data/local/stress --seed 2026 --n 3 --height 1600 --stress noise
 ```
 
-Generation reuses available source legend patches and records the parent group/split and seed. Built-in demo patterns have exact manufactured truth and are useful for interface tests. Report synthetic scores separately. The source manifest must supply usable legend boxes/labels for realistic legend-derived names; missing candidates fail visibly instead of inventing labels. Add a new generator/degradation behind `synthetic.py`, give it a deterministic seed and test its label/coordinate preservation. Hard fixtures should cover empty/one-bed columns, thin alternating beds, same-colour distinct hatches, absent legends, non-rock symbols, bad depth OCR and resource limits.
+Generation reuses labelled source interval patches and records the parent group/split and seed. Built-in demo patterns have exact manufactured truth and are useful for interface tests. Report synthetic scores separately. The source manifest must supply usable labelled bed crops for inherited rock names; missing candidates fail visibly instead of inventing labels. Add a new generator/degradation behind `synthetic.py`, give it a deterministic seed and test its label/coordinate preservation. Hard fixtures should cover empty/one-bed columns, thin alternating beds, same-colour distinct hatches, absent legends, non-rock symbols, bad depth OCR and resource limits.
 
 ## Publish a private dataset version
 

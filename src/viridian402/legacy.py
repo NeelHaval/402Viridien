@@ -11,6 +11,7 @@ import hashlib
 from pathlib import Path
 import sys
 import tempfile
+from functools import lru_cache
 
 from PIL import Image
 
@@ -24,6 +25,12 @@ def predict(request: dict, config: dict) -> list[dict]:
         from strategies import s11_fft_legend
     except ImportError as error:
         raise RuntimeError("Install legacy dependencies: python -m pip install -e '.[legacy]'") from error
+    # RapidOCR 1.2.x requires model_path in any detector-options override.
+    # Keep the frozen model source unchanged and adapt that constructor here.
+    from rapidocr_onnxruntime import RapidOCR
+    legend._ocr = lru_cache(maxsize=1)(lambda: RapidOCR(
+        intra_op_num_threads=2, inter_op_num_threads=2,
+        det_model_path=None, det_limit_side_len=3200, det_limit_type="max"))
     annotation = request["annotation"]
     if isinstance(annotation, (str, Path)):
         annotation = json.loads(Path(annotation).read_text(encoding="utf-8"))

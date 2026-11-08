@@ -19,6 +19,10 @@ def parser():
     e.add_argument("--timeout",type=float,default=60)
     e.add_argument("--min-score",type=float);e.add_argument("--min-completion",type=float,default=1)
     e.add_argument("--no-previews",action="store_true")
+    crop=sub.add_parser("classify",help="Evaluate PR54 fixed real crop classification, separately from intervals")
+    crop.add_argument("--data-root",required=True);crop.add_argument("--model",default="builtin:prototype")
+    crop.add_argument("--config");crop.add_argument("--output",default="runs/crops");crop.add_argument("--timeout",type=float,default=60)
+    crop.add_argument("--min-score",type=float,help="Minimum exact-set classification accuracy")
     i=sub.add_parser("import-source",help="Copy permitted source inputs into a portable manifest")
     i.add_argument("--source-root",required=True);i.add_argument("--dataset-root","--challenge-dataset",required=True);i.add_argument("--output","--out",required=True)
     i.add_argument("--no-unlabelled",action="store_true")
@@ -52,6 +56,13 @@ def main(argv=None):
         elif args.command=="import-source":
             from .importers import import_source
             print(import_source(args.source_root,args.dataset_root,args.output,include_unlabelled=not args.no_unlabelled))
+        elif args.command=="classify":
+            from .crops import classify
+            config=json.loads(Path(args.config).read_text(encoding="utf-8")) if args.config else {}
+            if not isinstance(config,dict):raise ValueError("config must be a JSON object")
+            run,summary=classify(args.data_root,model=args.model,config=config,output=args.output,timeout=args.timeout,min_score=args.min_score)
+            print(json.dumps({"run":str(run),"overall":summary["overall"],"quality_gates":summary["quality_gates"]},indent=2))
+            return 0 if summary["quality_gates"]["passed"] else 1
         elif args.command=="synthetic":
             from .synthetic import generate_demo,generate_synthetic
             if args.manifest:
@@ -61,10 +72,20 @@ def main(argv=None):
             print((Path(args.run)/"summary.md").read_text(encoding="utf-8"))
         elif args.command=="runs":
             from .report import list_runs
-            print(json.dumps(list_runs(args.output),indent=2))
+            results=list_runs(args.output)
+            from .crops import load_crop_run
+            for file in Path(args.output).rglob("summary.json"):
+                try:summary,_=load_crop_run(file.parent)
+                except (ValueError,OSError,KeyError):continue
+                if summary.get("task")=="crop_classification":
+                    results.append({"path":str(file.parent.resolve()),"task":"crop_classification","model":summary["model"],"exact_set_accuracy":summary["overall"]["exact_set_accuracy"],"passed":summary["quality_gates"]["passed"]})
+            print(json.dumps(results,indent=2))
         elif args.command=="compare":
             from .report import compare_runs
-            result=compare_runs(args.left,args.right)
+            if (Path(args.left)/"summary.json").exists() or (Path(args.right)/"summary.json").exists():
+                from .crops import compare_crops
+                result=compare_crops(args.left,args.right)
+            else:result=compare_runs(args.left,args.right)
             text=json.dumps(result,indent=2,allow_nan=False)+"\n"
             if args.output:
                 path=Path(args.output);path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding="utf-8")

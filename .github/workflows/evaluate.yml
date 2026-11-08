@@ -6,10 +6,10 @@ on:
       suite:
         description: Dataset suite (shared diagnostic is previously tuned)
         type: choice
-        options: [demo, human, organizer, external-dev, external-diagnostic, synthetic, stress, challenge-unlabelled, all]
+        options: [demo, human, organizer, external-dev, external-diagnostic, synthetic, stress, real-crops, challenge-unlabelled, all]
         default: demo
       model:
-        description: 'builtin:baseline, builtin:legacy-s11 or your_module:predict'
+        description: 'builtin:baseline, builtin:legacy-s11 or module:predict (crops: builtin:prototype)'
         type: string
         default: builtin:baseline
       config:
@@ -59,10 +59,15 @@ jobs:
       - if: inputs.legacy_dependencies
         run: python -m pip install -c requirements.lock -c requirements-legacy.lock ".[legacy]"
       - name: Fetch verified evaluation data
-        if: inputs.suite != 'demo'
+        if: inputs.suite != 'demo' && inputs.suite != 'real-crops'
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/datasets.py fetch evaluation
+      - name: Fetch PR54 fixed real crop snapshot
+        if: inputs.suite == 'real-crops'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/datasets.py fetch crops --destination data/local/pr54
       - name: Fetch challenge scans for unlabelled robustness
         if: inputs.suite == 'challenge-unlabelled'
         env:

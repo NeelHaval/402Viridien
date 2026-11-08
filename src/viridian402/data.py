@@ -15,6 +15,7 @@ from typing import Any
 
 import numpy as np
 from PIL import Image
+from .groups import normalize_group
 
 FIELDS = ['top_y', 'bottom_y', 'lithology', 'cluster_id', 'top_depth', 'bottom_depth']
 SOURCES = {'human', 'synthetic', 'external_labelled', 'external_unlabelled',
@@ -132,6 +133,14 @@ def load_manifest(path: str | Path, check_leakage=True) -> dict:
             raise ValueError(f'{rid}: invalid source or split')
         if not isinstance(record.get('group'), str) or not record['group']:
             raise ValueError(f'{rid}: group required for leakage detection')
+        original_group=record['group']
+        record['group']=normalize_group(original_group)
+        if record['group']!=original_group:
+            record['source_group_id']=original_group
+        if record.get('lineage'):
+            record['lineage']=dict(record['lineage'])
+            if record['lineage'].get('parent_group'):
+                record['lineage']['parent_group']=normalize_group(record['lineage']['parent_group'])
         if not isinstance(record.get('tags', []), list):
             raise ValueError(f'{rid}: tags must be a list')
         for key in ('image', 'annotation', 'truth'):

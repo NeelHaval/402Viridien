@@ -257,6 +257,8 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
     if not records: raise ValueError("no records selected")
     training_groups=config.get("training_groups",[])
     if not isinstance(training_groups,list) or any(not isinstance(g,str) for g in training_groups): raise ValueError("training_groups must be a list of group names")
+    from .groups import normalize_group
+    training_groups=[normalize_group(group) for group in training_groups]
     overlap=set(training_groups)&{r["group"] for r in records if r["split"] in ("dev","test","verify")}
     if overlap: raise ValueError(f"declared model training groups overlap evaluation: {sorted(overlap)}")
     # Refuse group leakage in the whole manifest via load_manifest before filtering.

@@ -62,6 +62,14 @@ def test_success_artifacts_hashes_truth_isolation_and_immutable_runs(manifest,pl
     assert cases[0]["metrics"]["boundary_tolerance_pixels"]==4
 
 
+def test_crop_training_group_alias_cannot_bypass_interval_overlap(manifest,tmp_path):
+    data=json.loads(manifest.read_text())
+    data['records'][0]['group']='challenge:60811405120000'
+    manifest.write_text(json.dumps(data))
+    with pytest.raises(ValueError,match='training groups overlap'):
+        evaluate(manifest,config={'training_groups':['api:6081140512']},output=tmp_path/'runs')
+
+
 def test_preview_full_window_overlay_and_bands_share_projection(tmp_path):
     image=Image.new("RGB",(20,6000),(120,80,50))
     from PIL import ImageDraw

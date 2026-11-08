@@ -18,6 +18,15 @@ python -m viridian402 runs --output runs
 python -m viridian402 report runs/REPLACE_WITH_RUN_ID
 ```
 
+PR #54's fixed real crop snapshot has its own classification experiment:
+
+```sh
+python scripts/datasets.py fetch crops --destination data/local/pr54
+python -m viridian402 classify --data-root data/local/pr54 --model builtin:prototype --output runs/crops
+```
+
+This fits a small baseline using only the 907 eligible training crops and scores all 112 fixed test crops, excluding 9 quality holds. Test results retain 60 source-prospective and 52 retrospective records separately. Crop classification measures a different task from interval boundaries/depths. See [PR54 integration and crop interface](docs/pr54.md).
+
 Each evaluation prints its run directory. It contains `summary.md`, `metrics.json`, `provenance.json`, `per_case.jsonl`, prediction CSVs, challenge submission CSVs (`base_depth`), and annotated previews. Null accuracy means the case has no truth. Baseline naming remains `Unknown` without a supplied legend or an OCR model.
 
 ## Evaluate the existing model and real labels
@@ -52,6 +61,7 @@ Model evaluation produces reviewable artifacts. It does not automatically replac
 | `external-dev` | 17 | Vector-derived public logs from three wells; visible development data |
 | `external-diagnostic` | 8 | ForsythB2-17; used in prior tuning, so not fresh held-out evidence |
 | `challenge-unlabelled` | Remaining available pages | Completion, coverage, unknown rate and resources; no accuracy |
+| `real-crops` | 112 | PR54 fixed crop test; 907 train, 9 holds; inherited prior-exposure status |
 | `synthetic`, `stress` | Generated | Real labelled interval crops with lineage; report separately from real data |
 
 The original sealed outside tests are not in the source repo. This repository does not recreate or claim access to them.

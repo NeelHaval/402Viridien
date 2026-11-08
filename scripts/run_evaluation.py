@@ -10,7 +10,7 @@ from viridian402.evaluate import evaluate
 from viridian402.synthetic import generate_demo, generate_synthetic
 
 SUITES = ("demo", "human", "organizer", "external-dev", "external-diagnostic",
-          "challenge-unlabelled", "synthetic", "stress", "all")
+          "challenge-unlabelled", "synthetic", "stress", "real-crops", "all")
 
 
 def main():
@@ -40,6 +40,15 @@ def main():
     summaries = []
     passed = True
     for name in selected:
+        if name == "real-crops":
+            from viridian402.crops import classify
+            classifier = "builtin:prototype" if model == "builtin:baseline" else model
+            run, summary = classify("data/local/pr54", model=classifier, config=config,
+                                    output=Path("runs") / name, timeout=timeout, min_score=minimum)
+            passed = passed and summary["quality_gates"]["passed"]
+            summaries.append(f"## {name}\n\n" + (run / "summary.md").read_text(encoding="utf-8"))
+            print(f"{name}: {run}")
+            continue
         if name == "demo":
             manifest = generate_demo("data/local/demo", seed=2026, n=3)
         elif name in ("synthetic", "stress"):
