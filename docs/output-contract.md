@@ -39,12 +39,29 @@ An official document still needs source identity, a calibration/unit/datum recei
 Annotations must show boundaries, depths, and lithology/cluster labels. Format success does not prove accuracy.
 The three released S19 comparison files initially lacked depths; they stay blocked until their owner supplies calibration.
 
-The package owner alone writes the portable submission bundle. Its planned gate is:
+The package owner alone writes the portable submission bundle. The tool is installed at
+`/srv/viridien/submission/20261108/bundle/tools/verify_package.py`, with its S: bundle mirror.
+The owner reported `--integrity-only`: `INTEGRITY_OK files31 errors0`, and a changed-artifact
+copy was rejected. That proves the reported copy/hash check, not submission readiness.
+The final package gate is:
 
 ```sh
 python tools/verify_package.py --strict
 ```
 
-Run it from the portable bundle only after the owner supplies the checked tool. It is not in this source checkout.
+Run it from the portable bundle. The tool is not part of this source checkout.
+The owner's reported `--strict` result is blocked by 14 missing gates, including accepted
+S19/app/UI identity, preload, live providers, public source, and official depth outputs.
 `--integrity-only` checks hashes/copies; it is not a submission-readiness result.
 Changed source or CSV files must pass the package owner's current strict gate again.
+
+## Current source handoff
+
+D is building a combined candidate with S19, upload/queue/result-identity fixes, both phone
+fixes, partial CSV/annotation exports, and the safe provider patch. This document does not
+assert that the build or final app acceptance has passed. D alone supplies that receipt.
+The fresh public source packet still identifies core candidate `559c99cb4e24`; it must be
+refreshed only from D's accepted source/archive/hash receipt before it represents the final app.
+The existing repository remains private. Public source requires a new reviewed allowlist
+with fresh history and an HTTPS clone check without sign-in. Private README images and
+old research/import history must not be copied to that public repository by default.

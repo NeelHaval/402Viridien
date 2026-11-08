@@ -101,7 +101,10 @@ To write a challenge CSV from saved predictions, see [docs/output-contract.md](d
 
 - Very thin layers, faded scans and unreadable legends can give wrong or missing layers.
 - If a scan's depth scale can't be read, its layers stay in pixels. We leave the depths blank rather than guess.
-- The challenge scans and labels belong to the organisers and are not redistributed here.
+- The public submission packet excludes challenge scans, labels and checkpoints. This existing research repository must remain private.
+
+See the [source status and pinned CSV checks](docs/output-contract.md) before using a submission packet.
+D's combined source is still awaiting its accepted release receipt. Existing screenshots do not establish final build acceptance.
 
 ## Credits
 
