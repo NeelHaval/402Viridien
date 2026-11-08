@@ -208,14 +208,7 @@ export default function App() {
         onPolygon={(polygon) => void showArea(polygon)}
       />
       <div className="brand glass">
-        <svg
-          className="brand-icon"
-          viewBox="0 0 32 32"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <path d="M7 25 24 8M18 5l9 9M12 8c2.8-2.8 7.2-2.8 10 0l2 2-5 5-2-2c-1.1-1.1-2.9-1.1-4 0l-1 1-5-5 1-1Z" />
-        </svg>
+        <img className="brand-icon" src="/logo.png" alt="" />
         <span>LandMarkr</span>
       </div>
       <Toolbar

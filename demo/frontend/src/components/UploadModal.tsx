@@ -75,43 +75,51 @@ export function UploadModal({
             ×
           </button>
         </header>
-        <button
-          className="drop-zone"
-          disabled={busy}
-          onClick={() => input.current?.click()}
-          onDragOver={(e) => e.preventDefault()}
-          onDrop={(e) => {
-            e.preventDefault();
-            pick(e.dataTransfer.files);
-          }}
-        >
-          <span>↑</span>
-          {busy
-            ? "Uploading…"
-            : scan
-              ? scan.name
-              : "Drop a scan (and bbox JSON) or click to browse"}
-        </button>
-        <input
-          hidden
-          ref={input}
-          type="file"
-          onChange={(e) => e.target.files && pick(e.target.files)}
-        />
-        <button
-          className="bbox-pick"
-          disabled={busy}
-          onClick={() => bboxInput.current?.click()}
-        >
-          {bbox ? `Bbox: ${bbox.name}` : "Add bbox JSON (optional, gives lithology names)"}
-        </button>
-        <input
-          hidden
-          ref={bboxInput}
-          type="file"
-          accept=".json,application/json"
-          onChange={(e) => e.target.files && pick(e.target.files)}
-        />
+        <div className="drop-zones">
+          {[
+            {
+              key: "scan",
+              title: "SCAN",
+              hint: "Drop the mud log image or click to browse",
+              file: scan,
+              ref: input,
+              accept: undefined,
+            },
+            {
+              key: "bbox",
+              title: "JSON",
+              hint: "Drop the bbox JSON (optional, gives lithology names)",
+              file: bbox,
+              ref: bboxInput,
+              accept: ".json,application/json",
+            },
+          ].map((z) => (
+            <div key={z.key} className="drop-wrap">
+              <button
+                className={`drop-zone${z.file ? " filled" : ""}`}
+                disabled={busy}
+                onClick={() => z.ref.current?.click()}
+                onDragOver={(e) => e.preventDefault()}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  pick(e.dataTransfer.files);
+                }}
+              >
+                <strong className="drop-title">{z.title}</strong>
+                <span className="drop-hint">
+                  {busy && z.file ? "Uploading…" : z.file ? z.file.name : z.hint}
+                </span>
+              </button>
+              <input
+                hidden
+                ref={z.ref}
+                type="file"
+                accept={z.accept}
+                onChange={(e) => e.target.files && pick(e.target.files)}
+              />
+            </div>
+          ))}
+        </div>
         <button className="submit" disabled={!scan || busy} onClick={() => void upload()}>
           Upload
         </button>

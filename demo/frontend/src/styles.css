@@ -61,13 +61,7 @@ main,
 .brand-icon {
   width: 30px;
   height: 30px;
-  color: #5eead4;
-  line-height: 1;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.8;
+  object-fit: contain;
   flex-shrink: 0;
 }
 .credit {
@@ -383,27 +377,43 @@ h1 {
   margin: 0;
   font-size: 20px;
 }
+.drop-zones {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 25px;
+}
 .drop-zone {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   width: 100%;
-  min-height: 200px;
+  min-height: 130px;
   border: 1px dashed #ffffff40;
   border-radius: 20px;
-  margin-top: 25px;
   color: #b7cbd3;
   font-size: 12px;
+  padding: 12px;
 }
-.drop-zone:hover {
+.drop-zone:hover,
+.drop-zone.filled {
   border-color: #5eead4;
   background: #5eead408;
 }
-.drop-zone > span {
-  font-size: 36px;
+.drop-title {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 6px;
   color: #5eead4;
+  opacity: 0.85;
+}
+.drop-hint {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .notice,
 .map-error {
@@ -561,6 +571,9 @@ h1 {
   stroke-width: 1.7;
 }
 .toolbar .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   font-style: normal;
   font-size: 11px;
   padding: 6px 12px;
@@ -609,4 +622,19 @@ h1 {
 }
 .submit:disabled {
   cursor: not-allowed;
+}
+
+.spinner {
+  width: 11px;
+  height: 11px;
+  border: 1.6px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation-duration: 2s; }
 }

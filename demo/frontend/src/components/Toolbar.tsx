@@ -30,6 +30,7 @@ export function Toolbar({
       </button>
       {processing && (
         <em className="chip" role="status">
+          <i className="spinner" aria-hidden="true" />
           Processing
         </em>
       )}
