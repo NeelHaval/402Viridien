@@ -178,7 +178,7 @@ class TiffReader(_BaseReader):
 
     def _check_supported(self, page) -> None:
         """Reject layouts and sample formats this reader cannot decode."""
-        if self.photometric not in ("MINISBLACK", "MINISWHITE", "RGB", "PALETTE"):
+        if self.photometric not in ("MINISBLACK", "MINISWHITE", "RGB", "PALETTE", "SEPARATED"):
             raise UnsupportedFile(f"TIFF photometric '{self.photometric}' is not supported", "unsupported_photometric")
         if self.bps not in (1, 8, 16):
             raise UnsupportedFile(f"{self.bps}-bit TIFF samples are not supported", "unsupported_bit_depth")
@@ -249,7 +249,7 @@ class TiffReader(_BaseReader):
 
     def _is_color(self) -> bool:
         """True when output pixels have three channels."""
-        return self.palette is not None or self.photometric == "RGB"
+        return self.palette is not None or self.photometric in ("RGB", "SEPARATED")
 
     @staticmethod
     def _paste(out: np.ndarray, seg: np.ndarray, sy: int, sx: int, y0: int, x0: int) -> None:
@@ -266,6 +266,9 @@ class TiffReader(_BaseReader):
         elif arr.dtype == np.uint16:
             arr = (arr >> 8).astype(np.uint8)
         arr = arr.astype(np.uint8, copy=False)
+        if self.photometric == "SEPARATED":
+            from PIL import Image
+            return np.asarray(Image.fromarray(arr[..., :4], 'CMYK').convert('RGB'))
         if self.palette is not None:
             return self.palette[arr[..., 0]]
         arr = arr[..., :3] if self.photometric == "RGB" else arr[..., 0]
@@ -324,6 +327,8 @@ class PilReader(_BaseReader):
         """Remember the PIL image; decoding is deferred until the first crop."""
         self._path, self._image = path, image
         self.width, self.height = image.size
+        self.orientation=image.getexif().get(274,1)
+        if self.orientation in (5,6,7,8):self.width,self.height=self.height,self.width
         self.bw = image.mode == "1"
         self._pixels: np.ndarray | None = None
         self._lock = threading.Lock()
@@ -340,6 +345,12 @@ class PilReader(_BaseReader):
         img = self._image
         try:
             img.load()
+            from PIL import ImageOps
+            img=ImageOps.exif_transpose(img)
+            if 'transparency' in img.info or img.mode in ('RGBA','LA'):
+                rgba=img.convert('RGBA')
+                from PIL import Image
+                paper=Image.new('RGBA',rgba.size,'white');paper.alpha_composite(rgba);img=paper.convert('RGB')
             mode = img.mode
             if mode == "1":
                 return np.asarray(img, dtype=np.uint8) * 255 if img.getextrema()[1] <= 1 else np.asarray(img.convert("L"))
@@ -429,22 +440,34 @@ def _open_tiff(p: Path) -> UploadedScan:
 
 
 def _open_pil(p: Path, kind: str) -> UploadedScan:
-    """Open a PNG or JPEG with PIL, enforcing the pixel cap before any decode."""
+    """Open PNG/JPEG, check structure, and close handles on all rejected inputs."""
     from PIL import Image
     Image.MAX_IMAGE_PIXELS = MAX_PIXELS * 2
     warnings: list[str] = []
+    img = None
     try:
         img = Image.open(str(p))
         width, height = img.size
-    except (OSError, ValueError, SyntaxError, Image.DecompressionBombError) as exc:
+        _check_dimensions(width, height, warnings)
+        if width * height > LARGE_FULL_DECODE_PIXELS:
+            warnings.append("full_decode_required")
+        dpi = img.info.get("dpi")
+        dpi_value = float(dpi[0]) if dpi and dpi[0] else None
+        # PNG verifies chunks and CRCs without decoding a full raster.
+        # JPEG entropy errors can still fail later during queued processing.
+        img.verify()
+        img.close()
+        img = Image.open(str(p))
+        reader = PilReader(str(p), img)
+        return UploadedScan(str(p), reader.width, reader.height, "bw" if reader.bw else "rgb", dpi_value, reader, warnings)
+    except Image.DecompressionBombError as exc:
+        raise TooLarge(f"{kind.upper()} exceeds the safe image size", "image_too_large") from exc
+    except (OSError, ValueError, SyntaxError) as exc:
         raise CorruptFile(f"{kind.upper()} could not be opened: {exc}", "unreadable") from exc
-    _check_dimensions(width, height, warnings)
-    if width * height > LARGE_FULL_DECODE_PIXELS:
-        warnings.append("full_decode_required")
-    dpi = img.info.get("dpi")
-    dpi_value = float(dpi[0]) if dpi and dpi[0] else None
-    reader = PilReader(str(p), img)
-    return UploadedScan(str(p), width, height, "bw" if reader.bw else "rgb", dpi_value, reader, warnings)
+    finally:
+        # A successful reader owns the handle until UploadedScan.close().
+        if img is not None and "reader" not in locals():
+            img.close()
 
 
 def read_upload(path: str) -> UploadedScan:

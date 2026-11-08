@@ -10,7 +10,7 @@ from fastapi import APIRouter, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from app.api import errors, events, health, report, upload, wells
+from app.api import errors, events, health, report, upload, wells, catalog
 from app.config import Settings
 from app.pipeline.model import load_model
 from app.services.events import Broadcaster
@@ -18,6 +18,7 @@ from app.services.ingest import IngestService
 from app.store import wells as repo
 from app.store.db import Database
 from app.validation import reference
+from app.providers import install as install_providers
 
 log = logging.getLogger("app")
 
@@ -54,15 +55,16 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         yield
         app.state.ingest.shutdown()
 
-    app = FastAPI(title="Stratum", lifespan=lifespan)
+    app = FastAPI(title="Strata", lifespan=lifespan)
     app.add_middleware(RequestClock)
     app.add_middleware(CORSMiddleware, allow_origins=list(cfg.cors_origins), allow_methods=["*"], allow_headers=["*"])
     errors.install(app)
     api = APIRouter()
-    for module in (health, wells, upload, report, events):
+    for module in (health, wells, upload, report, events, catalog):
         api.include_router(module.router)
     app.include_router(api, prefix="/api")
     app.include_router(api, include_in_schema=False)
+    install_providers(app)
     app.mount("/", StaticFiles(directory=Path(cfg.frontend_dist), html=True, check_dir=False), name="frontend")
     return app
 

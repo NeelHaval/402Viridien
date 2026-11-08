@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import os
 import shutil
 import threading
 import time
@@ -75,8 +76,13 @@ class IngestService:
         self._loc_pool = ThreadPoolExecutor(2, thread_name_prefix="locate")
         configure_tools(settings)
         self.jobs = JobQueue(self.process)
+        self._submit_lock = threading.RLock()
 
-    def submit(self, src: Path, filename: str, bbox: dict | None = None, *, keep_source: bool = False,
+    def submit(self, *args, **kwargs):
+        with self._submit_lock:
+            return self._submit(*args, **kwargs)
+
+    def _submit(self, src: Path, filename: str, bbox: dict | None = None, *, keep_source: bool = False,
                trace: Trace | None = None) -> Submitted:
         """Validate a scan, store it under data/scans, start locating it and queue the job. Raises ToolError for bad files,
         ModelUnavailable without a model.
@@ -92,14 +98,22 @@ class IngestService:
             with span("upload.validate"):
                 read_upload(str(src)).close()
             with span("upload.hash"):
-                file_hash = sha256_of(src)
+                source_hash = sha256_of(src)
+                identity = {"image_sha256": source_hash, "bbox": bbox, "engine": "S19" if os.environ.get("S19_ADAPTER_ENABLED") == "1" else "native", "release": os.environ.get("APP_RELEASE_ID", "combined-v1")}
+                file_hash = hashlib.sha256(json.dumps(identity, sort_keys=True, separators=(",", ":"), allow_nan=False).encode()).hexdigest()
             well_id = file_hash[:16]
             existing = repo.get_by_hash(self.db, file_hash)
+            if (not existing or existing["status"] == "failed") and sum(w["status"] in ("queued", "processing") for w in repo.list_wells(self.db)) >= 16:
+                from app.api.errors import ApiError
+                raise ApiError(429, "queue_full", "The queue is full. Try again after a job completes.")
             if existing and existing["status"] != "failed":
                 if not keep_source:
                     src.unlink(missing_ok=True)
                 return Submitted(existing["id"], existing["status"], False)
-            dest = self.settings.scans_dir / f"{well_id}{Path(filename).suffix.lower()}"
+            # The content reader determines the format. Bound untrusted filename suffixes.
+            suffix = Path(filename).suffix.lower()
+            suffix = suffix if suffix in (".tif", ".tiff", ".png", ".jpg", ".jpeg") else ".scan"
+            dest = self.settings.scans_dir / f"{well_id}{suffix}"
             with span("upload.move"):
                 (shutil.copyfile if keep_source else shutil.move)(src, dest)
             bbox_path = dest.with_suffix(".bbox.json")
@@ -167,16 +181,14 @@ class IngestService:
         bbox_path = scan_path.with_suffix(".bbox.json")
         bbox = json.loads(bbox_path.read_text()) if bbox_path.is_file() else None
 
-        with span("scan_open"):
-            scan = read_upload(str(scan_path))
-        try:
-            layer1 = preprocess(scan, bbox, with_location=False, calibrate=False)
-            log.info("well=%s stage=layer1 elapsed=%.2fs", well_id, layer1.timings.get("total", 0.0))
-            out = pipeline.run(scan, layer1, settings=self.settings, well_id=well_id,
-                               finish_layer1=lambda: finish_calibration(scan, layer1))
-            timings.update({f"layer1.{k}": v for k, v in layer1.timings.items()})
-        finally:
-            scan.close()
+        if os.environ.get("S19_ADAPTER_ENABLED") == "1":
+            from app.services.s19_adapter import app_output
+            out = app_output(scan_path, bbox, well_id, self.settings)
+        else:
+            out = self._legacy_pipeline(scan_path, bbox, well_id, timings)
+        if getattr(out, "partial_result", None):
+            self._save_partial(well, out.partial_result, timings)
+            return
         timings.update({f"pipeline.{k}": v for k, v in out.timings.items()})
 
         with span("wait_location"):  # normally already finished: location takes about a second, the rest of the job much longer
@@ -188,7 +200,7 @@ class IngestService:
         with span("validation"):
             checked = validate(out.df, location)
         with span("correction"):
-            final = submission_df(apply_corrections(out.df, checked))
+            final = submission_df(out.df) if out.timings.get("s19") else submission_df(apply_corrections(out.df, checked))
         with span("schema_check"):
             check_output_schema(final)
         timings["validation"] = time.perf_counter() - t1
@@ -198,6 +210,8 @@ class IngestService:
         with span("csv_write"):
             out.df.to_csv(csv_path.with_suffix(".raw.csv"), index=False)
             final.to_csv(csv_path, index=False)
+            from app.services.result_exports import save_result
+            save_result(self.settings, well_id, scan_path, final.to_dict("records"), "S19" if out.timings.get("s19") else "native", "available", bbox)
 
         t2 = time.perf_counter()
         with span("scoring.neighbours"):
@@ -222,6 +236,28 @@ class IngestService:
             self.events.publish("well_scored", well_id, scores=scores.to_json()["values"])
         timings["spans"] = trace.snapshot()
         repo.set_timings(self.db, well_id, timings)  # second write so the DB-write and publish spans are included
+
+
+    def _save_partial(self, well, result, timings):
+        from app.services.result_exports import save_result
+        well_id = well["id"]
+        save_result(self.settings, well_id, Path(well["scan_path"]), result["rows"], "S19", "unavailable", None, result)
+        with self.db.connect() as conn:
+            conn.execute("UPDATE wells SET status='partial', error=NULL, total_depth_ft=NULL, scores_json=NULL, warnings_json=?, timings_json=? WHERE id=?", (json.dumps(["depth_unavailable: printed depth units and calibration are not verified"]), json.dumps(timings), well_id))
+        self.events.publish("well_ready", well_id, status="partial")
+
+    def _legacy_pipeline(self, scan_path, bbox, well_id, timings):
+        with span("scan_open"):
+            scan = read_upload(str(scan_path))
+        try:
+            layer1 = preprocess(scan, bbox, with_location=False, calibrate=False)
+            log.info("well=%s stage=layer1 elapsed=%.2fs", well_id, layer1.timings.get("total", 0.0))
+            out = pipeline.run(scan, layer1, settings=self.settings, well_id=well_id,
+                               finish_layer1=lambda: finish_calibration(scan, layer1))
+            timings.update({f"layer1.{k}": v for k, v in layer1.timings.items()})
+        finally:
+            scan.close()
+        return out
 
     def shutdown(self, drain: bool = False) -> None:
         """Stop the worker after the running job; `drain` also runs everything still queued."""

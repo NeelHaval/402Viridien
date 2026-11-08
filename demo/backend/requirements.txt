@@ -14,3 +14,5 @@ rapidocr-onnxruntime==1.2.3
 pytesseract
 requests
 netCDF4
+Authlib==1.9.5
+itsdangerous==2.2.0

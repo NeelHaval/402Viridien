@@ -49,9 +49,14 @@ def test_end_to_end(client, tmp_path) -> None:
 
     csv = client.get(f"/wells/{well_id}/csv")
     assert csv.status_code == 200 and csv.headers["content-type"].startswith("text/csv")
-    assert "Test%20Well.csv" in csv.headers["content-disposition"]       # filename is the well name
+    assert f'{well_id}.notebook.csv' in csv.headers["content-disposition"]
     table = pd.read_csv(io.StringIO(csv.text))
-    assert list(table.columns) == COLUMNS and len(table) >= 3 and not table.isna().any().any()
+    assert set(COLUMNS) - {'base_depth'} <= set(table.columns)
+    assert 'bottom_depth' in table.columns and len(table) >= 3
+    assert table.depth_status.eq('available').all()
+    assert table.source_image_sha256.notna().all() and table.result_sha256.notna().all()
+    table = table.rename(columns={'bottom_depth': 'base_depth'})
+    assert not table[COLUMNS].isna().any().any()
     assert (table.base_depth > table.top_depth).all() and table.top_depth.is_monotonic_increasing
 
     recomputed = compute_scores(table, well["lat"], well["lon"], []).values       # stored scores == recomputed scores

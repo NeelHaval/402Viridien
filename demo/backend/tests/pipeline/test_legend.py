@@ -34,6 +34,37 @@ def test_unreadable_names_fall_back_to_legend_n(scan, monkeypatch) -> None:
     monkeypatch.setattr(ocr, "_ENGINE", type("Blind", (), {"name": "blind", "run": lambda self, g, d=None: ([], False)})())
     legend = read_legend(scan, synth.LEGEND_BOX)
     assert [e.lithology for e in legend.entries] == ["legend_0", "legend_1", "legend_2"]
+    assert "legend_unpaired_swatches" in legend.warnings
+
+
+def test_blind_ocr_keeps_blank_framed_and_patterned_swatches(tmp_path, monkeypatch) -> None:
+    import tifffile
+
+    page = synth.synthetic_page()
+    x0, y0, x1, y1 = synth.SWATCHES[0]
+    page[y0:y1, x0:x1] = 255
+    cv2.rectangle(page, (x0, y0), (x1 - 1, y1 - 1), (0, 0, 0), 3)
+    path = tmp_path / "blank_and_patterned.tif"
+    tifffile.imwrite(path, page)
+    monkeypatch.setattr(ocr, "_ENGINE", type("Blind", (), {"name": "blind", "run": lambda self, g, d=None: ([], False)})())
+    scan = read_upload(str(path))
+    try:
+        legend = read_legend(scan, synth.LEGEND_BOX)
+        assert len(legend.entries) == 3
+        assert "legend_unpaired_swatches" in legend.warnings
+        for entry, true in zip(legend.entries, synth.SWATCHES):
+            assert np.abs(np.array(entry.box) - np.array(true)).max() <= 3
+    finally:
+        scan.close()
+
+
+def test_missing_and_noisy_labels_keep_their_spatial_pairing(scan, stub_ocr_engine) -> None:
+    stub_ocr_engine._texts = ["Sandstone", "", "Halite"]
+    missing = read_legend(scan, synth.LEGEND_BOX)
+    assert [entry.lithology for entry in missing.entries] == ["Sandstone", "legend_1", "Halite"]
+    stub_ocr_engine._texts = ["Sandstone", "Shle grey", "Halite"]
+    noisy = read_legend(scan, synth.LEGEND_BOX)
+    assert [entry.lithology for entry in noisy.entries] == synth.NAMES
 
 
 def test_missing_legend_box_is_a_warning_not_an_error(scan) -> None:

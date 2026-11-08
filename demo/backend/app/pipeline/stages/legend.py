@@ -335,16 +335,22 @@ def _analyse(scan, legend_box, warnings: list[str]) -> tuple[list[Box], list[str
     labels = _group_labels(lines, text_h)
     free = _mask_text(_ink(rgb, text_h), labels, text_h)
     boxes = _outermost(_candidates(_swatch_mask(free, text_h), free, text_h))
-    if len(boxes) < 2:
-        boxes = _outermost(_fixed_size_swatches(rgb))
-        if boxes:
+    blind_fixed = False
+    if not labels or len(boxes) < 2:
+        fixed = _outermost(_fixed_size_swatches(rgb))
+        if fixed:
+            boxes = fixed
+            blind_fixed = not labels
             warnings.append("legend_fixed_size_fallback")
+        elif labels:
+            boxes = []
     pairs, anchor, typical = _pair(boxes, labels, text_h)
     found = len(boxes)
     boxes, pairs = _recover(boxes, labels, pairs, anchor, typical, free)
     if len(boxes) > found:
         warnings.append("legend_recovered_swatches")
-    boxes, pairs = _keep(boxes, pairs, free)
+    if not blind_fixed:
+        boxes, pairs = _keep(boxes, pairs, free)
     names = {i: _clean_name(labels[j][1]) for i, j in pairs.items()}
     _score(boxes, names, warnings)
     order = _reading_order(boxes)

@@ -6,7 +6,8 @@ from typing import Literal
 
 from pydantic import BaseModel, field_validator
 
-Status = Literal["queued", "processing", "ready", "failed"]
+Status = Literal["queued", "processing", "ready", "failed", "partial"]
+REPORT_MAX_VERTICES = 10_000
 
 
 class ErrorBody(BaseModel):
@@ -75,8 +76,10 @@ class ValidationInfo(BaseModel):
 class WellDetail(WellSummary):
     """A well with its column and validation."""
 
+    result: dict | None = None
     total_depth_ft: float | None
     column: list[ColumnSegment]
+    pixel_column: list[dict] = []
     validation: ValidationInfo
     warnings: list[str]
     error: str | None
@@ -94,6 +97,14 @@ class ReportRequest(BaseModel):
 
     polygon: list[tuple[float, float]]
 
+    @field_validator("polygon", mode="before")
+    @classmethod
+    def limit_polygon(cls, polygon):
+        """Limit work before parsing vertices, including an optional closing point."""
+        if isinstance(polygon, list) and len(polygon) > REPORT_MAX_VERTICES:
+            raise ValueError(f"polygon cannot exceed {REPORT_MAX_VERTICES} points")
+        return polygon
+
     @field_validator("polygon")
     @classmethod
     def valid_polygon(cls, polygon: list[tuple[float, float]]) -> list[tuple[float, float]]:
@@ -105,6 +116,14 @@ class ReportRequest(BaseModel):
                 raise ValueError("polygon coordinates must be finite numbers")
             if not (-180 <= lon <= 180 and -90 <= lat <= 90):
                 raise ValueError("polygon coordinates must be within lon -180..180 and lat -90..90")
+        if len(set(polygon)) < 3:
+            raise ValueError("polygon needs at least 3 distinct points")
+        # Translate first to avoid cancellation for small regions far from zero.
+        ox, oy = polygon[0]
+        area = math.fsum((a[0]-ox)*(b[1]-oy) - (b[0]-ox)*(a[1]-oy)
+                         for a, b in zip(polygon, polygon[1:] + polygon[:1]))
+        if area == 0:
+            raise ValueError("polygon must enclose a nonzero area")
         return polygon
 
 

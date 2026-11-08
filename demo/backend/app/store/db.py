@@ -37,6 +37,7 @@ MIGRATIONS = [
     ALTER TABLE wells ADD COLUMN located_at TEXT;
     ALTER TABLE wells ADD COLUMN api_number TEXT;
     """,
+    "ALTER TABLE wells ADD COLUMN archived_at TEXT;",
 ]
 
 

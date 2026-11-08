@@ -50,15 +50,15 @@ def get_by_hash(db: Database, file_hash: str) -> dict | None:
 def list_wells(db: Database, status: str | None = None) -> list[dict]:
     """All wells (optionally one status), oldest first."""
     with db.connect() as conn:
-        sql, args = ("SELECT * FROM wells WHERE status = ? ORDER BY created_at, id", (status,)) if status else \
-            ("SELECT * FROM wells ORDER BY created_at, id", ())
+        sql, args = ("SELECT * FROM wells WHERE archived_at IS NULL AND status = ? ORDER BY created_at, id", (status,)) if status else \
+            ("SELECT * FROM wells WHERE archived_at IS NULL ORDER BY created_at, id", ())
         return [_decode(r) for r in conn.execute(sql, args)]
 
 
 def list_ready_located(db: Database) -> list[dict]:
     """Ready wells that have a position."""
     with db.connect() as conn:
-        rows = conn.execute("SELECT * FROM wells WHERE status = 'ready' AND lat IS NOT NULL AND lon IS NOT NULL ORDER BY created_at, id")
+        rows = conn.execute("SELECT * FROM wells WHERE archived_at IS NULL AND status = 'ready' AND lat IS NOT NULL AND lon IS NOT NULL ORDER BY created_at, id")
         return [_decode(r) for r in rows]
 
 

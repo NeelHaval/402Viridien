@@ -7,7 +7,6 @@ Two clearly named stubs live here and nowhere in `app/`:
 """
 from __future__ import annotations
 
-import itertools
 import time
 
 import numpy as np
@@ -23,18 +22,24 @@ from tests import synth
 
 
 class ScriptedOcrEngine:
-    """Test double for the OCR model: returns the next scripted text for every call."""
+    """Test double for the synthetic legend, with stable, crop-relative text boxes."""
 
     name = "scripted"
 
     def __init__(self, texts: list[str]) -> None:
-        """Texts are returned in order, cycling."""
-        self._texts = itertools.cycle(texts)
+        self._texts = list(texts)
 
     def run(self, gray: np.ndarray, deadline: float | None = None):
-        """One line covering the whole image."""
+        """Return all legend lines in the OCR input frame, including OCR resize."""
         h, w = gray.shape
-        return [(next(self._texts), 0.9, (0.0, 0.0, float(w), float(h)))], False
+        lx0, ly0, lx1, ly1 = synth.LEGEND_BOX
+        sx, sy = w / (lx1 - lx0), h / (ly1 - ly0)
+        lines = []
+        for text, (_, _, x1, y1) in zip(self._texts, synth.SWATCHES):
+            box = ((x1 + 15 - lx0) * sx, (y1 - 30 - ly0) * sy,
+                   (x1 + 75 - lx0) * sx, (y1 - 8 - ly0) * sy)
+            lines.append((text, 0.9, box))
+        return lines, False
 
 
 @pytest.fixture
@@ -42,6 +47,7 @@ def stub_ocr_engine(monkeypatch) -> ScriptedOcrEngine:
     """Install a scripted engine that names legend swatches Sandstone, Shale grey, Halite in order."""
     engine = ScriptedOcrEngine(synth.NAMES)
     monkeypatch.setattr(ocr, "_ENGINE", engine)
+    monkeypatch.setattr(ocr, "_LOCATE_ENGINE", engine)
     return engine
 
 

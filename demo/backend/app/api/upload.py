@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import time
 import uuid
 from pathlib import Path
@@ -16,23 +17,62 @@ from app.config import Settings
 from app.services.ingest import IngestService, ModelUnavailable
 from app.timing import Trace, attach, span
 from app.tools.errors import CorruptFile, TooLarge, ToolError, UnsupportedFile
+from app.tools.read_upload import read_upload
 
 router = APIRouter()
 COPY_CHUNK = 1024 * 1024
 BBOX_MAX_BYTES = 1024 * 1024
+BOX_NAMES = ("depth_column", "interpreted_lithology_column", "lithology_legend")
+
+
+def _bbox_boxes(bbox: dict) -> dict:
+    """Validate the boxes used by preprocessing; preserve other annotation fields."""
+    boxes = bbox.get("bounding_boxes", bbox)
+    if not isinstance(boxes, dict):
+        raise ApiError(400, "invalid_bbox", "bounding_boxes must be an object")
+    for name in BOX_NAMES:
+        if name not in boxes:
+            continue
+        box = boxes[name]
+        if not isinstance(box, list) or len(box) != 4 or any(
+            isinstance(v, bool) or not isinstance(v, (int, float)) or
+            (isinstance(v, float) and not math.isfinite(v)) for v in box
+        ):
+            raise ApiError(400, "invalid_bbox", f"{name} must contain four finite numeric coordinates")
+        x0, y0, x1, y1 = box
+        if x0 < 0 or y0 < 0 or int(x0) >= int(x1) or int(y0) >= int(y1):
+            raise ApiError(400, "invalid_bbox", f"{name} must have nonnegative, ordered bounds with positive size")
+    return boxes
+
+
+def _check_bbox_image(boxes: dict, path: Path) -> None:
+    """Check against the actual image dimensions without running OCR."""
+    if not any(name in boxes for name in BOX_NAMES):
+        return
+    scan = read_upload(str(path))
+    try:
+        for name in BOX_NAMES:
+            if name in boxes:
+                _, _, x1, y1 = boxes[name]
+                if x1 > scan.width or y1 > scan.height:
+                    raise ApiError(400, "invalid_bbox", f"{name} must fit inside the image dimensions")
+    finally:
+        scan.close()
 
 
 def _save(upload: UploadFile, dest: Path, limit: int) -> None:
     """Stream an upload to disk, refusing anything larger than `limit` bytes."""
     size = 0
-    with dest.open("wb") as out:
-        while chunk := upload.file.read(COPY_CHUNK):
-            size += len(chunk)
-            if size > limit:
-                out.close()
-                dest.unlink(missing_ok=True)
-                raise ApiError(413, "too_large", f"file is larger than {limit // (1024 * 1024)} MB")
-            out.write(chunk)
+    try:
+        with dest.open("wb") as out:
+            while chunk := upload.file.read(COPY_CHUNK):
+                size += len(chunk)
+                if size > limit:
+                    raise ApiError(413, "too_large", f"file is larger than {limit // (1024 * 1024)} MB")
+                out.write(chunk)
+    except BaseException:
+        dest.unlink(missing_ok=True)
+        raise
 
 
 def _tool_status(exc: ToolError) -> int:
@@ -52,14 +92,19 @@ def upload(request: Request, file: UploadFile = FormFile(...), bbox_json: Upload
         raw = bbox_json.file.read(BBOX_MAX_BYTES + 1)
         try:
             bbox = json.loads(raw) if len(raw) <= BBOX_MAX_BYTES else None
-        except ValueError:
+            # Reject non-finite values in all metadata, not only known boxes.
+            json.dumps(bbox, allow_nan=False)
+        except (ValueError, UnicodeDecodeError, RecursionError):
             bbox = None
         if not isinstance(bbox, dict):
             raise ApiError(400, "invalid_bbox", "bbox_json must be a JSON object smaller than 1 MB")
-    tmp = settings.scans_dir / f".incoming-{uuid.uuid4().hex}{Path(file.filename or 'scan').suffix.lower()}"
+        boxes = _bbox_boxes(bbox)
+    tmp = settings.scans_dir / f".incoming-{uuid.uuid4().hex}.upload"
     with attach(trace), span("upload.save"):
         _save(file, tmp, settings.max_upload_bytes)
     try:
+        if bbox is not None:
+            _check_bbox_image(boxes, tmp)
         submitted = ingest.submit(tmp, file.filename or "upload", bbox, trace=trace)
     except ModelUnavailable as exc:
         tmp.unlink(missing_ok=True)
