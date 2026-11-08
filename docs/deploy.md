@@ -49,3 +49,25 @@ in source because the live UI needs them.
 The public compose file is a local deployment base. Keep production mount paths,
 resource limits, proxy setup, and the external credential-file reference in the VM
 release procedure. Do not copy live environment contents into this repository.
+
+## Second live sync
+
+The final sync includes release `combined-7a76cd1b718c`, image
+`sha256:839775785c8fb476f20e30a61692e2cbca494fbdb268bdae44011f67c9c4ceb0`.
+Its backend was copied again from the live app. Its frontend is unchanged.
+This round adds checked bbox-sidecar binding for older saved results and avoids
+reading incomplete result JSON while processing is in progress.
+
+Validation: the deployer ran the exact combined image suite: 344 passed, 2 skipped,
+2 warnings in 17.73s. The first public sync, including path overrides, ran on the
+production image with public app/tests mounted: 339 passed, 2 skipped, 3 warnings
+in 9.80s. Frontend `npm run typecheck` and `npm run build` passed; Vite built in
+6.58s with a large MapLibre chunk warning. Windows backend tests cannot run the
+Linux-only adapter checks (`fcntl` is absent). The literal `make setup && make run`
+command was not run end to end on this Windows host. Use Linux or WSL for S19.
+
+The final public portability changes also passed a focused regression check on the
+new live image: `python -m pytest -q tests/test_catalog_result_binding.py
+tests/test_result_publication_review.py tests/test_staged_result_contract.py`:
+19 passed, 3 warnings in 0.24s. Warnings cover deprecated HTTP test dependencies
+and the read-only container test cache.
