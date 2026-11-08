@@ -10,16 +10,16 @@
    "min_bed_px": 0
   },
   "legend_naming": {
-   "time": "2026-11-08T04:26:35",
+   "time": "2026-11-08T06:45:38",
    "legend_source": "detect",
    "segments": "cnn"
   },
   "2.2": {
-   "time": "2026-11-08T04:22:48",
+   "time": "2026-11-08T06:45:21",
    "method": "boundary_cnn",
    "h": 8,
    "thresh": 0.5,
-   "window": 12,
+   "window": 6,
    "min_gap": 6
   }
  },
