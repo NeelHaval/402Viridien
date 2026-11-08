@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "name": "small-procedural-demo",
+  "records": [
+    {
+      "id": "demo-000",
+      "image": "demo-000.png",
+      "annotation": "demo-000.json",
+      "truth": "demo-000.csv",
+      "source": "synthetic",
+      "group": "procedural-demo:0:0",
+      "split": "dev",
+      "window": [
+        180,
+        600
+      ],
+      "truth_window": [
+        180,
+        600
+      ],
+      "tags": [
+        "synthetic",
+        "clean"
+      ],
+      "label_provenance": {
+        "kind": "exact_construction_boundaries",
+        "label_semantics": "inherited source label or procedural fixture",
+        "generator": "viridian402.synthetic:v1",
+        "seed": 0
+      },
+      "lineage": {
+        "parent_id": "procedural-patterns-v1",
+        "parent_group": "procedural-demo:0:0",
+        "parent_split": "dev",
+        "origin": "procedural_fixture"
+      },
+      "legend": [
+        {
+          "id": 0,
+          "label": "Sandstone",
+          "swatch_box": [
+            160,
+            8,
+            208,
+            40
+          ],
+          "is_lithology": true
+        },
+        {
+          "id": 1,
+          "label": "Shale",
+          "swatch_box": [
+            160,
+            56,
+            208,
+            88
+          ],
+          "is_lithology": true
+        },
+        {
+          "id": 2,
+          "label": "Siltstone",
+          "swatch_box": [
+            160,
+            104,
+            208,
+            136
+          ],
+          "is_lithology": true
+        }
+      ],
+      "depth_calibration": {
+        "a": 0.5,
+        "b": 910.0
+      },
+      "depth_unit": "ft",
+      "depth_datum": "synthetic",
+      "fresh_holdout": false
+    },
+    {
+      "id": "demo-001",
+      "image": "demo-001.png",
+      "annotation": "demo-001.json",
+      "truth": "demo-001.csv",
+      "source": "synthetic",
+      "group": "procedural-demo:0:1",
+      "split": "dev",
+      "window": [
+        180,
+        600
+      ],
+      "truth_window": [
+        180,
+        600
+      ],
+      "tags": [
+        "synthetic",
+        "clean"
+      ],
+      "label_provenance": {
+        "kind": "exact_construction_boundaries",
+        "label_semantics": "inherited source label or procedural fixture",
+        "generator": "viridian402.synthetic:v1",
+        "seed": 1
+      },
+      "lineage": {
+        "parent_id": "procedural-patterns-v1",
+        "parent_group": "procedural-demo:0:1",
+        "parent_split": "dev",
+        "origin": "procedural_fixture"
+      },
+      "legend": [
+        {
+          "id": 0,
+          "label": "Sandstone",
+          "swatch_box": [
+            160,
+            8,
+            208,
+            40
+          ],
+          "is_lithology": true
+        },
+        {
+          "id": 1,
+          "label": "Shale",
+          "swatch_box": [
+            160,
+            56,
+            208,
+            88
+          ],
+          "is_lithology": true
+        },
+        {
+          "id": 2,
+          "label": "Siltstone",
+          "swatch_box": [
+            160,
+            104,
+            208,
+            136
+          ],
+          "is_lithology": true
+        }
+      ],
+      "depth_calibration": {
+        "a": 0.5,
+        "b": 910.0
+      },
+      "depth_unit": "ft",
+      "depth_datum": "synthetic",
+      "fresh_holdout": false
+    },
+    {
+      "id": "demo-002",
+      "image": "demo-002.png",
+      "annotation": "demo-002.json",
+      "truth": "demo-002.csv",
+      "source": "synthetic",
+      "group": "procedural-demo:0:2",
+      "split": "dev",
+      "window": [
+        180,
+        600
+      ],
+      "truth_window": [
+        180,
+        600
+      ],
+      "tags": [
+        "synthetic",
+        "clean"
+      ],
+      "label_provenance": {
+        "kind": "exact_construction_boundaries",
+        "label_semantics": "inherited source label or procedural fixture",
+        "generator": "viridian402.synthetic:v1",
+        "seed": 2
+      },
+      "lineage": {
+        "parent_id": "procedural-patterns-v1",
+        "parent_group": "procedural-demo:0:2",
+        "parent_split": "dev",
+        "origin": "procedural_fixture"
+      },
+      "legend": [
+        {
+          "id": 0,
+          "label": "Sandstone",
+          "swatch_box": [
+            160,
+            8,
+            208,
+            40
+          ],
+          "is_lithology": true
+        },
+        {
+          "id": 1,
+          "label": "Shale",
+          "swatch_box": [
+            160,
+            56,
+            208,
+            88
+          ],
+          "is_lithology": true
+        },
+        {
+          "id": 2,
+          "label": "Siltstone",
+          "swatch_box": [
+            160,
+            104,
+            208,
+            136
+          ],
+          "is_lithology": true
+        }
+      ],
+      "depth_calibration": {
+        "a": 0.5,
+        "b": 910.0
+      },
+      "depth_unit": "ft",
+      "depth_datum": "synthetic",
+      "fresh_holdout": false
+    }
+  ],
+  "evidence_note": "Constructed pattern tests; synthetic scores do not establish real scanned-log quality."
+}
