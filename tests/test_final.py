@@ -125,3 +125,22 @@ def test_root_cli(tmp_path, option):
     assert result.returncode == 1, result.stderr
     doc = json.loads((tmp_path / 'out/official_manifest.json').read_text(encoding='utf-8'))['documents'][0]
     assert doc['failure_type'] == 'missing_annotation'
+
+
+def test_fallback_raster_budget(tmp_path):
+    from pipeline import run
+    from harness import io
+    path = tmp_path / 'page.png'
+    Image.new('RGB', (100, 100), 'white').save(path)
+    previous = io._crop
+    try:
+        log = bounded_log(path, {}, io, raster_mb=.001)
+        with pytest.raises(InputError, match='raster budget'):
+            io._crop(log, (0, 0, 10, 10))
+        log.close()
+        io._crop = previous
+        log = bounded_log(path, {}, io, raster_mb=1)
+        assert io._crop(log, (0, 0, 10, 10)).size == (10, 10)
+        log.close()
+    finally:
+        io._crop = previous

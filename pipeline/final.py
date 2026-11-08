@@ -61,7 +61,24 @@ def discover(images, boxes):
     return jobs, [str(p.relative_to(boxes)) for p in annotations if p not in used]
 
 
-def bounded_log(image, boxes, io):
+def raster_budget_mb(workers):
+    """Share available RAM with workers and respect a Linux container limit."""
+    import psutil
+    available = psutil.virtual_memory().available
+    for limit_file, usage_file in [('/sys/fs/cgroup/memory.max', '/sys/fs/cgroup/memory.current'),
+                                   ('/sys/fs/cgroup/memory/memory.limit_in_bytes', '/sys/fs/cgroup/memory/memory.usage_in_bytes')]:
+        try:
+            limit = Path(limit_file).read_text(encoding='utf-8').strip()
+            if limit != 'max':
+                used = int(Path(usage_file).read_text(encoding='utf-8'))
+                available = min(available, max(0, int(limit) - used))
+        except (OSError, ValueError):
+            continue
+    # Leave half the available RAM for models, crops, OCR and the operating system.
+    return max(1, min(4096, int(available / 2 / workers / 1_000_000)))
+
+
+def bounded_log(image, boxes, io, raster_mb=None):
     from PIL import Image
     Image.MAX_IMAGE_PIXELS = 1_000_000_000
     with warnings.catch_warnings():
@@ -92,7 +109,7 @@ def bounded_log(image, boxes, io):
             probe(item) if item.image.format == 'TIFF' else setattr(item, '_strip_backend', False)
         bytes_per_pixel = {'1': 1, 'L': 1, 'P': 1, 'I;16': 2, 'I;16B': 2, 'I;16L': 2}.get(item.mode, 4)
         decoded_bytes = item.size[0]*item.size[1]*bytes_per_pixel
-        raster_budget = 512_000_000 if item.mode == '1' else 256_000_000
+        raster_budget = int(raster_mb * 1_000_000) if raster_mb is not None else (512_000_000 if item.mode == '1' else 256_000_000)
         if not item._strip_backend and decoded_bytes > raster_budget:
             raise InputError('decode_limit', f'Full-page decoding exceeds {raster_budget // 1_000_000} MB raster budget; supported TIFF strips required')
         return original_crop(item, box)
@@ -100,7 +117,7 @@ def bounded_log(image, boxes, io):
     return log
 
 
-def page(image, annotation, folder, allow_assumed=False):
+def page(image, annotation, folder, allow_assumed=False, raster_mb=None):
     for key in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
         os.environ[key] = '2'
     from . import run as setup
@@ -114,7 +131,7 @@ def page(image, annotation, folder, allow_assumed=False):
             raise ValueError('Model hash mismatch: ' + name)
     data = json.loads(annotation.read_text(encoding='utf-8'))
     boxes = data.get('bounding_boxes', data)
-    log = bounded_log(image, boxes, io)
+    log = bounded_log(image, boxes, io, raster_mb)
     if log.image.format != 'TIFF':
         log._strip_backend = False
     # Put all mutable depth caches under this page's output directory.
@@ -124,7 +141,7 @@ def page(image, annotation, folder, allow_assumed=False):
                dimensions=list(log.size), model_config_hashes=pins,
                source_hashes={str(p.relative_to(Path(__file__).parent)): sha(p)
                               for p in Path(__file__).parent.rglob('*.py')},
-               depth_status='unavailable', reason='', unit_conversion=False)
+               depth_status='unavailable', reason='', unit_conversion=False, raster_budget_mb=raster_mb)
     try:
         box = list(map(int, boxes['interpreted_lithology_column']))
         doc['full_column_bounds'] = box
@@ -237,7 +254,7 @@ def launch(job, args):
         shutil.rmtree(folder)
     folder.mkdir(parents=True, exist_ok=True)
     command = [sys.executable, '-m', 'pipeline.final', '--page', str(image),
-               '--boxes', str(annotation), '--out', str(folder)]
+               '--boxes', str(annotation), '--out', str(folder), '--raster-budget-mb', str(args.raster_budget_mb)]
     if args.allow_assumed_units:
         command.append('--allow-assumed-units')
     try:
@@ -270,6 +287,7 @@ def main():
     parser.add_argument('--force', action='store_true', help='Replace per-page outputs; default resumes successful pages with unchanged inputs')
     parser.add_argument('--workers', type=int, default=2)
     parser.add_argument('--timeout', type=float, default=600)
+    parser.add_argument('--raster-budget-mb', type=float, help='Per-page fallback raster budget in MB; default shares half the available RAM across workers, up to 4096 MB each')
     parser.add_argument('--allow-assumed-units', action='store_true', help='Reproduce provisional official numeric depths even when units are assumed')
     parser.add_argument('--page', type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args()
@@ -284,9 +302,11 @@ def main():
             return result.returncode
     if not args.out:
         parser.error('--out is required')
+    if args.raster_budget_mb is not None and (not math.isfinite(args.raster_budget_mb) or args.raster_budget_mb <= 0):
+        parser.error('--raster-budget-mb must be positive and finite')
     if args.page:
         try:
-            doc = page(args.page, args.boxes, args.out, args.allow_assumed_units)
+            doc = page(args.page, args.boxes, args.out, args.allow_assumed_units, args.raster_budget_mb)
         except Exception as exc:
             doc = dict(page=args.page.stem, rows=0, status='failed', depth_status='unavailable',
                        reason=str(exc), failure_type=getattr(exc, 'code', type(exc).__name__))
@@ -304,6 +324,7 @@ def main():
         parser.error('Supply --data or --images/--boxes, positive workers and timeout')
     if not args.images.is_dir() or not args.boxes.is_dir():
         parser.error('Image and bounding-box directories must exist')
+    args.raster_budget_mb = args.raster_budget_mb or raster_budget_mb(args.workers)
     jobs, extra = discover(args.images, args.boxes)
     if not jobs:
         parser.error('No supported images found')
