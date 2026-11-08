@@ -73,8 +73,8 @@ The scores on the well panel (drilling ease, cost, CO₂ storage) are an early i
 You need Python 3.12, Node/npm and Make.
 
 ```sh
-git clone https://github.com/NeelHaval/402_viridien.git
-cd 402_viridien
+git clone https://github.com/NeelHaval/402Viridien.git
+cd 402Viridien
 
 # quick check on a generated example (no model download)
 python scripts/local_test.py
