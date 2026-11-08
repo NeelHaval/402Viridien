@@ -23,7 +23,7 @@ from PIL import Image
 
 from .data import sha256
 from .groups import normalize_group
-from .evaluate import _predict, _model_source
+from .evaluate import _predict, _model_source, discover_config_assets
 
 FEATURE_VERSION = 'native-rgb-texture-v1'
 METRIC_VERSION = 'crop-set-classification-v1'
@@ -78,7 +78,10 @@ def audit_crops(data_root):
     if policy != manifest.get('split_policy') or policy.get('schema') != 1 or not isinstance(policy.get('seed'),str):
         raise ValueError('split-policy.json disagrees with fixed manifest policy')
     documents = policy.get('document_groups',{})
-    previously_seen = set(policy.get('previously_seen_groups',[]))
+    seen_declarations=policy.get('previously_seen_groups',[])
+    if not isinstance(seen_declarations,list) or any(not isinstance(group,str) or not group for group in seen_declarations):
+        raise ValueError('previously_seen_groups must be a list of nonempty well identities')
+    previously_seen = {normalize_group(group) for group in seen_declarations}
     ids, groups, assets, native_cache = set(), {}, {}, {}
     rows = manifest['records']
     all_test_pixels = {r.get('pixel_sha256') for r in rows if r.get('split')=='test'}
@@ -94,10 +97,11 @@ def audit_crops(data_root):
         if documents.get(row.get('document_id')) != group:
             raise ValueError(f'{ident}: document-to-well mapping changed')
         expected = 'test' if int(hashlib.sha256((policy['seed']+':'+group).encode()).hexdigest()[:8],16)%5==0 else 'train'
-        if split != expected or group in groups and groups[group] != split:
+        canonical_group=normalize_group(group)
+        if split != expected or canonical_group in groups and groups[canonical_group] != split:
             raise ValueError(f'{ident}: fixed well split changed or leaks across splits')
-        groups[group]=split
-        status = 'retrospective' if group in previously_seen else 'prospective'
+        groups[canonical_group]=split
+        status = 'retrospective' if canonical_group in previously_seen else 'prospective'
         if row.get('evaluation_status') != status:
             raise ValueError(f'{ident}: evaluation_status disagrees with previous-use policy')
         issues = row.get('quality_issues')
@@ -155,6 +159,11 @@ def audit_crops(data_root):
         with Image.open(paths['normalized_png']) as image:
             if image.size!=(224,224):
                 raise ValueError(f'{ident}: normalized image must be 224x224')
+            with Image.open(native) as source:
+                expected_rgb=Image.new('RGB',(224,224),'white')
+                expected_rgb.paste(source.convert('RGB').resize((c-a,d-b),Image.Resampling.LANCZOS),(a,b))
+            if not np.array_equal(np.asarray(image.convert('RGB')),np.asarray(expected_rgb)):
+                raise ValueError(f'{ident}: normalized pixels disagree with authoritative native crop and letterbox transform')
         with Image.open(paths['valid_mask_png']) as mask:
             if mask.size!=(224,224):
                 raise ValueError(f'{ident}: valid mask must be 224x224')
@@ -217,7 +226,7 @@ def fit_prototypes(audit, destination):
     training={'schema_version':1,'feature_version':FEATURE_VERSION,'labels':order,
               'prototypes':[np.mean(values[label],axis=0).tolist() for label in order],
               'scale':scale.tolist(),'training_counts':{label:len(values[label]) for label in order},
-              'training_groups':sorted({r['source_group'] for r in audit['train']}),
+              'training_groups':sorted({normalize_group(r['source_group']) for r in audit['train']}),
               'training_sample_ids':[r['sample_id'] for r in audit['train']],
               'training_pixels':sorted({r['pixel_sha256'] for r in audit['train']})}
     training['training_sha256']=hashlib.sha256(json.dumps(audit['train'],sort_keys=True).encode()).hexdigest()
@@ -279,6 +288,13 @@ def _scorer_hash():
     return hashlib.sha256((METRIC_VERSION+'\n'+inspect.getsource(_metrics)).encode()).hexdigest()
 
 
+def _quality_gates(overall,min_score):
+    failures=(['classifier errors'] if overall['errors'] else [])+(['empty predictions'] if overall['empty_predictions'] else [])
+    if min_score is not None and overall['exact_set_accuracy']<min_score:
+        failures.append('exact-set accuracy below min_score')
+    return {'passed':not failures,'min_score':min_score,'failures':failures}
+
+
 def classify(data_root, model='builtin:prototype', config=None, output='runs/crops', timeout=60, min_score=None):
     """Audit, train, classify fixed test crops and save an immutable run.
 
@@ -291,9 +307,12 @@ def classify(data_root, model='builtin:prototype', config=None, output='runs/cro
     if min_score is not None and (not isinstance(min_score,(int,float)) or not math.isfinite(min_score) or not 0<=min_score<=1):
         raise ValueError('min_score must be between zero and one')
     config={} if config is None else dict(config)
+    declarations=config.get('training_groups',[])
+    if not isinstance(declarations,list) or any(not isinstance(group,str) or not group.strip() for group in declarations):
+        raise ValueError('training_groups must be a list of nonempty well identities')
     audit=audit_crops(data_root)
-    test_groups={r['source_group'] for r in audit['test']}
-    if {normalize_group(group) for group in test_groups} & {normalize_group(group) for group in config.get('training_groups',[])}:
+    test_groups={normalize_group(r['source_group']) for r in audit['test']}
+    if test_groups & {normalize_group(group) for group in declarations}:
         raise ValueError('declared model training groups overlap fixed crop test groups')
     if model!='builtin:prototype' and (':' not in model or model.startswith('builtin:')):
         raise ValueError('classifier must be builtin:prototype or module:function')
@@ -314,7 +333,7 @@ def classify(data_root, model='builtin:prototype', config=None, output='runs/cro
                 error='classifier must return a list of nonempty exact label-key strings'
             elif len(predicted)!=len(set(predicted)):
                 error='classifier returned duplicate labels'
-        cases.append({'sample_id':row['sample_id'],'source_group':row['source_group'],
+        cases.append({'sample_id':row['sample_id'],'source_group':normalize_group(row['source_group']),
                       'evaluation_status':row['evaluation_status'],'targets':sorted(t['key'] for t in row['targets']),
                       'predicted':sorted(predicted) if not error else [],'candidate_labels':training['labels'],
                       'error':error,'seconds':seconds,'peak_rss_mb':peak,'pixel_sha256':row['pixel_sha256']})
@@ -327,11 +346,10 @@ def classify(data_root, model='builtin:prototype', config=None, output='runs/cro
              'by_evaluation_status':{status:_metrics([c for c in cases if c['evaluation_status']==status]) for status in ('prospective','retrospective')},
              'by_group':{group:_metrics([c for c in cases if c['source_group']==group]) for group in sorted(test_groups)},
              'training_groups':training['training_groups'],'training_labels':training['labels'],
+             'declared_model_training_groups':sorted({normalize_group(group) for group in declarations}),
+             'model_training_history':'train-only prototype fit' if model=='builtin:prototype' else 'declared' if 'training_groups' in config else 'unknown',
              'test_only_labels':sorted({t['key'] for r in audit['test'] for t in r['targets']}-set(training['labels'])),
-             'quality_gates':{'passed':not overall['errors'] and not overall['empty_predictions'] and (min_score is None or overall['exact_set_accuracy']>=min_score),
-                              'min_score':min_score,
-                              'failures':(['classifier errors'] if overall['errors'] else [])+(['empty predictions'] if overall['empty_predictions'] else [])+
-                                         (['exact-set accuracy below min_score'] if min_score is not None and overall['exact_set_accuracy']<min_score else [])},
+             'quality_gates':_quality_gates(overall,min_score),
              'limitations':['Crop classification does not score interval boundaries, depths, component positions, or bed thickness.',
                             'Retrospective and prospective statuses are inherited from the source previous-use policy; this run is not a new blinded evaluation.',
                             'Exact source target keys remain distinct; untrained test labels are retained in denominators.',
@@ -348,14 +366,11 @@ def classify(data_root, model='builtin:prototype', config=None, output='runs/cro
     for name in ('requirements.lock','pyproject.toml'):
         path=Path(__file__).resolve().parents[2]/name
         if path.is_file():files[str(path)]={'sha256':sha256(path),'bytes':path.stat().st_size,'role':'dependencies'}
-    for value in config.values():
-        if isinstance(value,str):
-            try:
-                path=Path(value)
-                if path.is_file():files[str(path.resolve())]={'sha256':sha256(path),'bytes':path.stat().st_size,'role':'model_config_asset'}
-            except (ValueError,OSError):pass
+    for path in discover_config_assets(config):
+        files[str(path)]={'sha256':sha256(path),'bytes':path.stat().st_size,'role':'model_config_asset'}
     _json(run/'provenance.json',{'dataset_sha256':audit['dataset_sha256'],'model':model,'worker_model':actual_model,
           'config':config,'worker_config':worker_config,'files':files,'python':sys.version,'platform':platform.platform(),
+          'evaluation':{'timeout_seconds':timeout,'min_score':min_score},
           'packages':dict(sorted((d.metadata['Name'],d.version) for d in importlib.metadata.distributions() if d.metadata.get('Name'))),
           'training_sha256':training['training_sha256'],'test_sha256':sha256(audit['root']/'test.jsonl')})
     _json(run/'audit.json',{'snapshot':summary['snapshot'],'counts':audit['stats'],'test_statuses':audit['status_counts'],
@@ -365,6 +380,7 @@ def classify(data_root, model='builtin:prototype', config=None, output='runs/cro
     summary['per_case_sha256']=sha256(run/'per_case.jsonl')
     summary['prototype_sha256']=sha256(run/'prototype.json')
     summary['provenance_sha256']=sha256(run/'provenance.json')
+    summary['audit_sha256']=sha256(run/'audit.json')
     _json(run/'summary.json',summary)
     report=['# Real crop classification','',f"Snapshot `{summary['snapshot']}`; model `{model}`.",'',
             f"Usable training crops: {audit['stats']['train']}; fixed test crops: {audit['stats']['test']}; quality holds excluded: {audit['stats']['needs_review']}.",'',
@@ -379,7 +395,7 @@ def classify(data_root, model='builtin:prototype', config=None, output='runs/cro
     return run,summary
 
 
-def load_crop_run(path):
+def _load_crop_run(path):
     """Load a complete saved crop run, rejecting changed cases/artifacts."""
     path=Path(path)
     if path.is_file():path=path.parent
@@ -392,6 +408,35 @@ def load_crop_run(path):
     for name,key in (('per_case.jsonl','per_case_sha256'),('prototype.json','prototype_sha256'),('provenance.json','provenance_sha256')):
         if not summary.get(key) or sha256(path/name)!=summary[key]:
             raise ValueError(f'crop run {name} checksum mismatch or missing')
+    provenance=_read(path/'provenance.json')
+    if provenance.get('model')!=summary.get('model') or provenance.get('dataset_sha256')!=summary.get('dataset_sha256'):
+        raise ValueError('crop run attribution differs from recorded provenance')
+    minimum=summary['quality_gates'].get('min_score')
+    if minimum is not None and (isinstance(minimum,bool) or not isinstance(minimum,(int,float)) or not math.isfinite(minimum) or not 0<=minimum<=1):
+        raise ValueError('invalid saved minimum score')
+    if provenance.get('evaluation',{}).get('min_score',minimum)!=minimum:
+        raise ValueError('crop score gate differs from recorded evaluation')
+    if summary['quality_gates']!=_quality_gates(_metrics(cases),minimum):
+        raise ValueError('crop quality gates differ from saved cases')
+    training=_read(path/'prototype.json')
+    if summary.get('training_groups')!=training.get('training_groups') or summary.get('training_labels')!=training.get('labels'):
+        raise ValueError('crop summary training claims differ from hashed prototype artifact')
+    if any(case.get('candidate_labels')!=training.get('labels') for case in cases):
+        raise ValueError('crop candidate taxonomy differs from hashed prototype artifact')
+    expected_test_only=sorted({label for case in cases for label in case['targets']}-set(training['labels']))
+    if summary.get('test_only_labels')!=expected_test_only:
+        raise ValueError('crop summary test-only labels differ from saved cases')
+    audit=_read(path/'audit.json')
+    if summary.get('audit_sha256') and sha256(path/'audit.json')!=summary['audit_sha256']:
+        raise ValueError('crop audit checksum mismatch')
+    if summary.get('counts')!=audit.get('counts') or audit.get('dataset_sha256')!=summary.get('dataset_sha256'):
+        raise ValueError('crop summary counts differ from recorded audit')
+    declarations=provenance.get('config',{}).get('training_groups',[])
+    if 'declared_model_training_groups' in summary and summary['declared_model_training_groups']!=sorted({normalize_group(group) for group in declarations}):
+        raise ValueError('crop model training declaration differs from provenance')
+    history='train-only prototype fit' if provenance['model']=='builtin:prototype' else 'declared' if 'training_groups' in provenance.get('config',{}) else 'unknown'
+    if 'model_training_history' in summary and summary['model_training_history']!=history:
+        raise ValueError('crop model training history differs from recorded model/config')
     for key,value in _metrics(cases).items():
         if summary['overall'].get(key)!=value:
             raise ValueError(f'crop run aggregate differs from saved cases: {key}')
@@ -400,6 +445,12 @@ def load_crop_run(path):
     if statuses!=summary['by_evaluation_status'] or groups!=summary['by_group']:
         raise ValueError('crop run status/group aggregates differ from saved cases')
     return summary,cases
+
+
+def load_crop_run(path):
+    try:return _load_crop_run(path)
+    except (KeyError,TypeError,AttributeError,OverflowError) as error:
+        raise ValueError(f'invalid crop run schema: {error}') from error
 
 
 def list_crops(output):

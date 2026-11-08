@@ -29,6 +29,8 @@ Place importable code under `src/` and add needed dependencies to `pyproject.tom
 
 Checkpoint paths in config are hashed when they identify existing files. Keep weight bytes ignored or in a versioned private release, and put the expected checksum and training-data/model revision in the config. Re-run after any change to model code, checkpoint, preprocessing, legend parsing, depth mapping, or dependencies. Package versions, code/input hashes, config, environment, seed and selected cases are retained per run.
 
+Use path-like config keys (`checkpoint`, `weights`, `*_path`, `*_file`, `*_dir`, `*_root`) for model inputs, or list custom files/directories in `provenance_assets`. The bounded collector excludes writable cache/output directories, limits traversal to 5,000 files/8 GiB, and rejects missing declared inputs. This avoids silently unrecorded nested checkpoints or accidentally hashing an entire workspace as a metadata string. `doctor --config ...` checks these paths without hashing them.
+
 ## Included models
 
 - `builtin:baseline`: small NumPy colour/ink boundary detector and texture/colour clustering. It reports `Unknown` until a diagnostic supplied legend is available. Useful for testing the evaluator and iterating cheap image features.

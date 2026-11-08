@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 
 import psutil
 
-from .metrics import METRIC_VERSION, QUALITY_METRICS, aggregate, score
+from .metrics import METRIC_VERSION, QUALITY_METRICS, aggregate, grouped_aggregates, quality_gate_failures, score
 
 CSV_FIELDS = ("top_y", "bottom_y", "lithology", "cluster_id", "top_depth", "bottom_depth")
 
@@ -46,17 +46,61 @@ def _model_source(spec):
     return None
 
 
+def discover_config_assets(config, *, max_files=5000,max_bytes=8*1024**3):
+    """Resolve explicitly named model inputs with bounded traversal.
+
+    Metadata strings and writable cache/output directories are never scanned.
+    Custom input names can be listed in ``provenance_assets``. Missing declared
+    inputs and budget overruns fail rather than silently losing fingerprints.
+    """
+    found={};total_bytes=0
+    def add(path):
+        nonlocal total_bytes
+        path=Path(path).resolve()
+        if path in found:return
+        total_bytes+=path.stat().st_size
+        if len(found)>=max_files or total_bytes>max_bytes:
+            raise ValueError(f"model provenance assets exceed {max_files} files or {max_bytes} bytes; provide specific checkpoint/source paths")
+        found[path]=None
+    def visit(value,key=""):
+        if isinstance(value,dict):
+            for name,item in value.items():visit(item,str(name))
+        elif isinstance(value,list):
+            for item in value:visit(item,key)
+        elif isinstance(value,str) and value.strip() and key not in ("cache_dir","output_dir","save_dir","log_dir") and (key in ("path","file","directory","checkpoint","weights","model_card","provenance_assets") or key.endswith(("_path","_file","_dir","_root"))):
+            try:
+                path=Path(value)
+                if path.is_file():add(path)
+                elif path.is_dir():
+                    for base,dirs,names in os.walk(path,followlinks=False):
+                        dirs[:]=[d for d in dirs if d not in (".git","__pycache__",".venv","venv","node_modules")]
+                        for name in names:
+                            candidate=Path(base)/name
+                            if candidate.is_file():add(candidate)
+                else:raise ValueError(f"declared model asset does not exist: {value}")
+            except OSError as exc:raise ValueError(f"cannot fingerprint model asset {value}: {exc}") from exc
+    visit(config)
+    return sorted(found)
+
+
 def provenance(manifest_path, manifest, model, config):
     files = {}
     def add(path, role):
         path = Path(path).resolve()
         if path.is_file():
-            files[str(path)] = {"sha256":digest(path), "bytes":path.stat().st_size, "role":role}
+            size=path.stat().st_size
+            if str(path) in files: return
+            files[str(path)] = {"sha256":digest(path), "bytes":size, "role":role}
+    def walk(directory,pattern=None):
+        for base,dirs,names in os.walk(directory,followlinks=False):
+            dirs[:]=[d for d in dirs if d not in (".git","__pycache__",".venv","venv","node_modules")]
+            for name in names:
+                if pattern is None or name.endswith(pattern): yield Path(base)/name
     add(manifest_path,"manifest")
     for r in manifest["records"]:
         for key in ("image","annotation","truth"):
             if r.get(key): add(r[key],key)
-    for path in Path(__file__).parent.rglob("*.py"): add(path,"evaluator_source")
+    for path in walk(Path(__file__).parent,".py"): add(path,"evaluator_source")
     root = Path(__file__).resolve().parents[2]
     for name in ("pyproject.toml","requirements.lock","uv.lock","requirements.txt"):
         add(root/name,"dependencies")
@@ -64,33 +108,24 @@ def provenance(manifest_path, manifest, model, config):
     if source:
         add(source,"model_source")
         # Capture adjacent helpers/package modules without importing plugin code.
-        for path in source.parent.rglob("*.py"):
-            if not any(p in (".git","__pycache__",".venv","venv") for p in path.parts): add(path,"model_source")
-    def config_files(value):
-        if isinstance(value,dict):
-            for v in value.values(): config_files(v)
-        elif isinstance(value,list):
-            for v in value: config_files(v)
-        elif isinstance(value,str):
-            try:
-                candidate=Path(value)
-                if candidate.is_file(): add(candidate,"model_config_asset")
-                elif candidate.is_dir():
-                    for path in candidate.rglob("*"):
-                        if path.is_file() and not any(p in (".git","__pycache__") for p in path.parts): add(path,"model_config_asset")
-            except (OSError,ValueError): pass
-    config_files(config)
+        for path in walk(source.parent,".py"): add(path,"model_source")
+    for path in discover_config_assets(config):add(path,"model_config_asset")
     packages = {d.metadata["Name"]:d.version for d in importlib.metadata.distributions() if d.metadata.get("Name")}
-    data_files = {k:v for k,v in files.items() if v["role"] in ("manifest","image","annotation","truth")}
     # Paths intentionally excluded: moved byte-identical datasets are comparable.
-    dataset_fingerprint = hashlib.sha256(json.dumps({"manifest":json.loads(Path(manifest_path).read_text(encoding="utf-8")), "contents":sorted((v["role"],v["sha256"]) for v in data_files.values())},sort_keys=True).encode()).hexdigest()
+    portable_records=[]
+    for record in manifest["records"]:
+        portable={k:v for k,v in record.items() if k not in ("image","annotation","truth")}
+        for key in ("image","annotation","truth"):
+            portable[key]=files[str(Path(record[key]).resolve())]["sha256"] if record.get(key) else None
+        portable_records.append(portable)
+    dataset_fingerprint=hashlib.sha256(json.dumps({"schema_version":manifest["schema_version"],"records":portable_records},sort_keys=True,allow_nan=False).encode()).hexdigest()
     return {"files":files,"dataset_sha256":dataset_fingerprint,"model":model,"config":config,
             "python":sys.version,"platform":platform.platform(),"packages":dict(sorted(packages.items()))}
 
 
 def public_request(record, mode):
     """Only image-derived public inputs cross the worker boundary."""
-    annotation = json.loads(Path(record["annotation"]).read_text(encoding="utf-8")) if record.get("annotation") else {}
+    annotation = json.loads(Path(record["annotation"]).read_text(encoding="utf-8-sig")) if record.get("annotation") else {}
     # Human label exports may contain layers, truth paths, assignments or answers.
     allowed = ("bounding_boxes","boxes","depth_column","interpreted_lithology_column","lithology_legend")
     annotation = {k:annotation[k] for k in allowed if k in annotation}
@@ -105,7 +140,7 @@ def public_request(record, mode):
 
 def _worker(payload_path, output_path):
     from .models import resolve_model
-    payload = json.loads(Path(payload_path).read_text(encoding="utf-8"))
+    payload = json.loads(Path(payload_path).read_text(encoding="utf-8-sig"))
     try:
         import random
         import numpy as np
@@ -132,13 +167,13 @@ def _terminate(proc):
     proc.wait(timeout=10)
 
 
-def _predict(model, request, config, timeout):
+def _predict(model, request, config, timeout, max_worker_rss_mb=None):
     # Credential allowlist rather than fragile lists of known secret names.
     allowed = ("SYSTEMROOT","WINDIR","TEMP","TMP","PATH","PATHEXT","HOME","USERPROFILE","LOCALAPPDATA","APPDATA","VIRTUAL_ENV","CONDA_PREFIX","CUDA_VISIBLE_DEVICES")
     env = {k:v for k,v in os.environ.items() if k.upper() in allowed}
     env["PYTHONPATH"] = os.pathsep.join(str(p) for p in sys.path if p)
     env["PYTHONIOENCODING"] = "utf-8"
-    env["PYTHONHASHSEED"] = str(config.get("seed",0))
+    env["PYTHONHASHSEED"] = str(config.get("seed",0) % (2**32))
     with tempfile.TemporaryDirectory(prefix="viridian402-worker-") as temp:
         payload, output = Path(temp)/"input.json",Path(temp)/"output.json"
         _json(payload,{"model":model,"request":request,"config":config})
@@ -148,6 +183,7 @@ def _predict(model, request, config, timeout):
             peak = 0
             seen_children={}
             timed_out = False
+            memory_exceeded=False
             while proc.poll() is None:
                 elapsed = time.perf_counter()-started
                 if elapsed >= timeout:
@@ -157,6 +193,8 @@ def _predict(model, request, config, timeout):
                     tree += tree[0].children(recursive=True)
                     seen_children.update({p.pid:p for p in tree[1:]})
                     peak = max(peak,sum(p.memory_info().rss for p in tree if p.is_running())/1024**2)
+                    if max_worker_rss_mb is not None and peak>max_worker_rss_mb:
+                        memory_exceeded=True;_terminate(proc);break
                 except psutil.Error: pass
                 time.sleep(min(.025,max(.001,timeout-elapsed)))
             # Clean up all descendants observed during execution, even on success.
@@ -167,9 +205,10 @@ def _predict(model, request, config, timeout):
             if seen_children: psutil.wait_procs(list(seen_children.values()),timeout=2)
         elapsed = time.perf_counter()-started
         if timed_out: return None,f"hard timeout after {timeout:g} seconds",elapsed,peak
+        if memory_exceeded: return None,f"sampled worker RSS {peak:.1f} MiB exceeded {max_worker_rss_mb:g} MiB limit",elapsed,peak
         if output.exists():
             try:
-                result = json.loads(output.read_text(encoding="utf-8"))
+                result = json.loads(output.read_text(encoding="utf-8-sig"))
                 if "error" in result: return None,result["error"],elapsed,peak
                 if proc.returncode == 0: return result["rows"],None,elapsed,peak
             except (ValueError,KeyError): pass
@@ -208,7 +247,9 @@ def _preview(record, rows, truth, path):
         title=f"C{row.get('cluster_id','?')} / {str(row.get('lithology',''))[:32]}"
         depth_top,depth_bottom=row.get("top_depth"),row.get("bottom_depth")
         depth=f"depth {depth_top:g} to {depth_bottom:g}" if depth_top is not None and depth_bottom is not None else "depth unavailable"
-        return title,f"{a}-{b}px; {depth}"
+        clipped=a!=int(row["top_y"]) or b!=int(row["bottom_y"])
+        pixel_range=f"bed {row['top_y']}-{row['bottom_y']}px (clipped)" if clipped else f"{a}-{b}px"
+        return title,f"{pixel_range}; {depth}"
     # The overlay is painted directly onto the full-window image, using the
     # exact same projection as the prediction and truth bands below.
     for row in rows:
@@ -244,16 +285,28 @@ def _preview(record, rows, truth, path):
 
 
 def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="runs", split=None,
-             timeout=60, mode="full_image", min_score=None, min_completion=1.0, previews=True):
+             timeout=60, mode="full_image", min_score=None, min_completion=1.0, previews=True,
+             case_ids=None,tags=None,max_worker_rss_mb=None):
     from .data import load_manifest, load_intervals, validate_intervals
     from .report import render_summary
+    run_started=time.perf_counter()
     if not math.isfinite(timeout) or timeout <= 0: raise ValueError("timeout must be finite and positive")
     if not math.isfinite(min_completion) or not 0<=min_completion<=1: raise ValueError("min_completion must be in [0,1]")
     if min_score is not None and (not math.isfinite(min_score) or not 0<=min_score<=1): raise ValueError("min_score must be in [0,1]")
     if mode not in ("full_image","supplied_legend"): raise ValueError("unsupported model mode")
     config=dict(config or {})
+    json.dumps(config,allow_nan=False)
+    if isinstance(config.get("seed",0),bool) or not isinstance(config.get("seed",0),int): raise ValueError("seed must be an integer")
+    if max_worker_rss_mb is not None and (not math.isfinite(max_worker_rss_mb) or max_worker_rss_mb<=0): raise ValueError("max_worker_rss_mb must be finite and positive")
     manifest=load_manifest(manifest_path)
-    records=[r for r in manifest["records"] if split is None or r["split"]==split]
+    for name,values in (("case_ids",case_ids),("tags",tags)):
+        if values is not None and (isinstance(values,str) or not isinstance(values,(list,tuple,set,frozenset)) or any(not isinstance(value,str) for value in values)): raise ValueError(f"{name} must be a collection of strings")
+    case_ids=set(case_ids or []);tags=set(tags or [])
+    unknown_ids=case_ids-{r["id"] for r in manifest["records"]}
+    unknown_tags=tags-{t for r in manifest["records"] for t in r.get("tags",[])}
+    if unknown_ids: raise ValueError(f"unknown case IDs: {sorted(unknown_ids)}")
+    if unknown_tags: raise ValueError(f"unknown tags: {sorted(unknown_tags)}")
+    records=[r for r in manifest["records"] if (split is None or r["split"]==split) and (not case_ids or r["id"] in case_ids) and (not tags or tags.intersection(r.get("tags",[])))]
     if not records: raise ValueError("no records selected")
     training_groups=config.get("training_groups",[])
     if not isinstance(training_groups,list) or any(not isinstance(g,str) for g in training_groups): raise ValueError("training_groups must be a list of group names")
@@ -264,6 +317,7 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
     # Refuse group leakage in the whole manifest via load_manifest before filtering.
     selected={**manifest,"records":records}
     prov=provenance(manifest_path,selected,model,config)
+    provenance_seconds=time.perf_counter()-run_started
     run_id=datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")+"-"+uuid.uuid4().hex[:10]
     run=Path(output).resolve()/run_id
     run.mkdir(parents=True,exist_ok=False)
@@ -276,14 +330,18 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
         safe=f"{index:05d}-"+hashlib.sha256(ident.encode()).hexdigest()[:10]
         truth=load_intervals(record["truth"]) if record.get("truth") else None
         request=public_request(record,mode)
-        rows,error,seconds,peak=_predict(model,request,config,timeout)
+        rows,error,seconds,peak=_predict(model,request,config,timeout,max_worker_rss_mb=max_worker_rss_mb)
         if error is None:
             try: rows=validate_intervals(rows,window=record["window"])
             except Exception as exc: rows=[];error=f"invalid predictions: {exc}"
         else: rows=[]
         datum=str(record.get("depth_datum") or "").strip().casefold()
-        comparable=bool(record.get("depth_unit")=="ft" and datum not in ("","unknown","unspecified","none","n/a","na","?") and datum==str(config.get("depth_datum") or "").strip().casefold() and config.get("depth_unit")=="ft")
-        metrics=score(rows,truth,record["window"],depth_comparable=comparable)
+        comparable=bool(isinstance(record.get("depth_datum"),str) and isinstance(config.get("depth_datum"),str) and record.get("depth_unit")=="ft" and datum not in ("","unknown","unspecified","none","n/a","na","?") and datum==config["depth_datum"].strip().casefold() and config.get("depth_unit")=="ft")
+        try:
+            metrics=score(rows,truth,record["window"],depth_comparable=comparable)
+        except (ValueError,TypeError,OverflowError) as exc:
+            rows=[];error=f"invalid prediction metrics: {exc}"
+            metrics=score([],truth,record["window"],depth_comparable=comparable)
         metrics["depth_comparable"]=comparable
         if error and truth is not None:
             # Even cases with no internal boundaries are failures, not perfect F1.
@@ -298,35 +356,33 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
         metrics["missing_depth_rate"]=sum(not ("top_depth" in r and "bottom_depth" in r) for r in rows)/len(rows) if rows else None
         case={"id":ident,"source":record.get("source"),"group":record.get("group"),"split":record.get("split"),"tags":list(record.get("tags",[])),
               "has_truth":truth is not None,"status":"error" if error else "ok","error":error,"seconds":seconds,
-              "peak_rss_mb":peak,"metrics":metrics,"prediction":predfile,"submission":f"submission/{safe}.csv","empty_prediction":not bool(rows),"preview":None}
+              "peak_rss_mb":peak,"metrics":metrics,"prediction":predfile,"prediction_sha256":digest(run/predfile),"submission":f"submission/{safe}.csv","submission_sha256":digest(run/"submission"/f"{safe}.csv"),"empty_prediction":not bool(rows),"preview":None,"preview_seconds":0}
         if previews:
+            preview_started=time.perf_counter()
             try:
                 preview=f"previews/{safe}.png";_preview(record,rows,truth,run/preview);case["preview"]=preview
             except Exception as exc: case["preview_error"]=str(exc)
+            finally: case["preview_seconds"]=time.perf_counter()-preview_started
         cases.append(case)
         with open(run/"per_case.jsonl","a",encoding="utf-8") as stream:
             stream.write(json.dumps(case,allow_nan=False)+"\n")
     overall=aggregate(cases)
-    groups={}
-    for dimension in ("source","group","split"):
-        values=sorted({str(c.get(dimension)) for c in cases})
-        groups[dimension]={v:aggregate([c for c in cases if str(c.get(dimension))==v]) for v in values}
-    groups["tags"]={tag:aggregate([c for c in cases if tag in c["tags"]]) for tag in sorted({tag for c in cases for tag in c["tags"]})}
-    gates=[]
-    if overall["errors"]: gates.append(f"{overall['errors']} model errors")
-    empty_labelled=sum(c["has_truth"] and c["empty_prediction"] for c in cases)
-    if empty_labelled: gates.append(f"{empty_labelled} labelled cases have empty predictions")
-    if overall["completion_rate"]<min_completion: gates.append("completion below minimum")
-    if min_score is not None and (overall["score"] is None or overall["score"]<min_score): gates.append("score below minimum or no labelled truth")
+    groups=grouped_aggregates(cases)
+    gates=quality_gate_failures(cases,overall,min_score,min_completion)
     summary={"schema_version":1,"run_id":run_id,"created_at":datetime.now(timezone.utc).isoformat(),"metric_version":METRIC_VERSION,
              "scorer_sha256":digest(Path(__file__).with_name("metrics.py")),"per_case_sha256":digest(run/"per_case.jsonl"),
+             "provenance_sha256":digest(run/"provenance.json"),"manifest_snapshot_sha256":digest(run/"manifest.snapshot.json"),
              "dataset_sha256":prov["dataset_sha256"],"manifest":str(Path(manifest_path).resolve()),"model":model,"config":config,
              "mode":mode,"split":split,"timeout_seconds":timeout,"overall":overall,"by":groups,
+             "selection":{"case_ids":sorted(case_ids),"tags":sorted(tags)},"max_worker_rss_mb":max_worker_rss_mb,
+             "training_groups_normalized":training_groups,
+             "timings":{"provenance_seconds":provenance_seconds,"preview_seconds":overall["preview_seconds"],"worker_seconds":overall["seconds"],"wall_seconds":time.perf_counter()-run_started},
              "metric_parameters":{"boundary_tolerance_pixels":"max(4, min(20, 0.01 * window_height))","boundary_matching":"one-to-one greedy by ascending distance; window endpoints excluded","ari":"exact integer pixel interval contingency"},
              "training_provenance":"declared" if "training_groups" in config else "not declared; builtins train on no records" if model.startswith("builtin:") else "unknown",
              "quality_gates":{"passed":not gates,"failures":gates,"min_score":min_score,"min_completion":min_completion},
              "notes":["Python model plugins are trusted code; subprocess isolation is not a security sandbox.",
                       "Wall latency includes worker startup; peak RSS samples worker and descendants.",
+                      "RSS limits are sampled every 25 ms and terminate on observed excess; they are not a hard allocation cap. Preview time is recorded separately.",
                       "Accuracy is never assigned to unlabelled records. No GPU memory metric is inferred."]}
     _json(run/"metrics.json",summary)
     (run/"summary.md").write_text(render_summary(summary,cases),encoding="utf-8")

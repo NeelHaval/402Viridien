@@ -67,6 +67,13 @@ def test_audit_real_hash_split_holds_and_memberships(crop_data):
     assert isinstance(predict(request,{'prototype_path':str(crop_data/'fit.json')}),list)
 
 
+def test_normalized_pixels_must_derive_from_authoritative_native(crop_data):
+    row=json.loads((crop_data/'manifest.json').read_text())['records'][0]
+    Image.new('RGB',(224,224),'white').save(crop_data/row['normalized_png'])
+    with pytest.raises(ValueError,match='normalized pixels'):
+        audit_crops(crop_data)
+
+
 @pytest.mark.parametrize('mutation,match',[
     ('path','unsafe'),('pixel','pixel hash'),('mapping','mapping'),('policy','split-policy'),
     ('held','permission'),('membership','differs'),('status','evaluation_status'),('mask','mask')])
