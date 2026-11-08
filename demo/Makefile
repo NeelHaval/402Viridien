@@ -1,3 +1,6 @@
+-include .env
+export
+
 PY := backend/.venv/bin/python
 
 PYTHON ?= python3.12

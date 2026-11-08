@@ -9,3 +9,7 @@ frontend/*.tsbuildinfo
 backend/data/app.db*
 backend/data/scans/
 backend/data/csv/
+
+.env
+.env.*
+!.env.example

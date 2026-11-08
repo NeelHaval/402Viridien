@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: demo/Dockerfile
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file: .env
+    environment:
+      APP_DATA_DIR: /state
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.5-flash}
+    volumes:
+      - app-state:/state
+    tmpfs:
+      - /tmp:size=1g,mode=1777
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+volumes:
+  app-state:
