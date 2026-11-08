@@ -1,0 +1,491 @@
+:root {
+  font-family: Inter, sans-serif;
+  color: #eef4f7;
+  background: #10171d;
+  font-synthesis: none;
+  font-weight: 400;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #5eead4;
+  outline-offset: 5px;
+}
+main,
+.map {
+  position: absolute;
+  inset: 0;
+}
+.glass {
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.14),
+    rgba(255, 255, 255, 0.04)
+  );
+  backdrop-filter: blur(24px) saturate(170%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 28px;
+  box-shadow:
+    0 16px 48px #0005,
+    inset 0 1px 0 #ffffff12;
+}
+.brand {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  padding: 11px 23px 11px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+.brand-icon {
+  width: 30px;
+  height: 30px;
+  color: #5eead4;
+  line-height: 1;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  flex-shrink: 0;
+}
+.credit {
+  position: absolute;
+  right: 18px;
+  bottom: 12px;
+  z-index: 1;
+  color: rgba(226, 236, 242, 0.52);
+  font-size: 10px;
+  letter-spacing: 0.15px;
+  pointer-events: none;
+}
+.credit span {
+  color: #f3a3b5;
+  padding: 0 2px;
+}
+.credit strong {
+  color: rgba(238, 244, 247, 0.7);
+  font-weight: 500;
+}
+.toolbar {
+  position: absolute;
+  bottom: 38px;
+  left: 28px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.toolbar button {
+  padding: 14px 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.toolbar button:hover,
+.toolbar button[aria-pressed="true"] {
+  background: #5eead41a;
+  color: #5eead4;
+}
+.toolbar > span {
+  width: 1px;
+  height: 25px;
+  background: #ffffff20;
+}
+.toolbar svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+.toolbar circle {
+  fill: #17232c;
+}
+.well-marker {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  padding: 0;
+  background: #5eead4;
+  color: #5eead4;
+  box-shadow: 0 0 15px #5eead433;
+}
+.well-marker:before {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  animation: pulse 2.7s ease-out infinite;
+  pointer-events: none;
+}
+.well-marker.processing {
+  background: #f4cc82;
+  color: #f4cc82;
+}
+.well-marker.processing:before {
+  animation-duration: 1s;
+}
+.well-marker.failed {
+  background: #f3a3b5;
+  color: #f3a3b5;
+}
+.well-marker.failed:before {
+  animation: none;
+  opacity: 0;
+}
+.well-marker.selected:after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border: 2px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.sidebar {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  bottom: 36px;
+  width: 400px;
+  padding: 26px 22px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slide 0.35s ease-out;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+h1 {
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+  margin: 9px 0 0;
+}
+.eyebrow,
+.column-heading {
+  font-size: 9px;
+  letter-spacing: 1.7px;
+  color: rgba(226, 236, 242, 0.7);
+}
+.close {
+  font-size: 27px;
+  font-weight: 400;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  line-height: 1;
+  background: #ffffff09;
+}
+.close:hover {
+  background: #ffffff1a;
+}
+.dials {
+  display: flex;
+  gap: 9px;
+  padding: 28px 0 24px;
+}
+.dial {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+}
+.dial svg {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+.dial circle {
+  fill: none;
+  stroke-width: 4;
+}
+.dial-track {
+  stroke: #ffffff12;
+}
+.dial-value {
+  transition: stroke-dashoffset 1s ease;
+  stroke-linecap: round;
+}
+.dial text {
+  fill: #eef4f7;
+  font-size: 23px;
+  font-weight: 500;
+}
+.dial span {
+  display: block;
+  color: rgba(226, 236, 242, 0.7);
+  font-size: 9px;
+  line-height: 1.5;
+  margin-top: 7px;
+  min-height: 27px;
+}
+.column-heading {
+  border-top: 1px solid #ffffff1a;
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 0;
+}
+.column-scroll {
+  position: relative;
+  overflow: auto;
+  min-height: 0;
+  flex: 1;
+  scrollbar-width: thin;
+  padding-bottom: 20px;
+}
+.lith-column {
+  width: 100%;
+  display: block;
+}
+.lith-column text {
+  fill: #eef4f7;
+  font-size: 11px;
+}
+.lith-column .depth {
+  fill: #9bafba;
+  font-size: 9px;
+}
+.segment {
+  cursor: pointer;
+}
+.segment:hover rect:first-child {
+  filter: brightness(1.2);
+}
+.popover {
+  position: absolute;
+  right: 2px;
+  width: 246px;
+  background-color: #17232ef5;
+  z-index: 4;
+  padding: 18px;
+  font-size: 12px;
+  border-radius: 18px;
+}
+.popover .close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 22px;
+  height: 22px;
+  font-size: 20px;
+}
+.popover strong {
+  font-size: 11px;
+}
+.popover p {
+  color: #b1c3cd;
+  font-size: 11px;
+}
+.breakdown {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 9px;
+  margin-top: 12px;
+  font-size: 10px;
+}
+.breakdown i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: #5eead4;
+  border-radius: 3px;
+}
+.empty {
+  color: #b1c3cd;
+  font-size: 13px;
+  padding: 24px 0;
+}
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: #06101b66;
+  backdrop-filter: blur(6px);
+  display: grid;
+  place-items: center;
+  z-index: 5;
+}
+.upload-modal {
+  width: min(440px, calc(100% - 32px));
+  padding: 26px;
+  background-color: #17232eb8;
+}
+.upload-modal h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.drop-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  min-height: 200px;
+  border: 1px dashed #ffffff40;
+  border-radius: 20px;
+  margin-top: 25px;
+  color: #b7cbd3;
+  font-size: 12px;
+}
+.drop-zone:hover {
+  border-color: #5eead4;
+  background: #5eead408;
+}
+.drop-zone > span {
+  font-size: 36px;
+  color: #5eead4;
+}
+.notice,
+.map-error {
+  position: absolute;
+  bottom: 115px;
+  left: 28px;
+  padding: 14px 20px;
+  font-size: 12px;
+}
+.map-error {
+  top: 100px;
+  bottom: auto;
+}
+.loading {
+  padding-top: 30px;
+}
+.shimmer {
+  height: 100px;
+  border-radius: 18px;
+  background: linear-gradient(90deg, #ffffff05, #ffffff18, #ffffff05);
+  background-size: 200% 100%;
+  animation: shimmer 1.7s infinite;
+}
+.shimmer.tall {
+  margin-top: 30px;
+  height: 45vh;
+}
+.maplibregl-ctrl-group {
+  background: #19242b !important;
+}
+.maplibregl-ctrl-icon {
+  filter: invert(1);
+}
+.maplibregl-ctrl-attrib {
+  font-size: 10px !important;
+}
+.maplibregl-ctrl-bottom-right {
+  right: 8px;
+  bottom: 8px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+@media (max-width: 700px) {
+  .brand {
+    top: 18px;
+    left: 18px;
+  }
+  .toolbar {
+    left: 16px;
+    bottom: 30px;
+  }
+  .sidebar {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 64dvh;
+    border-radius: 28px 28px 0 0;
+    padding-top: 20px;
+    z-index: 2;
+  }
+  .sidebar h1 {
+    font-size: 20px;
+  }
+  .dials {
+    padding: 18px 0;
+  }
+  .dial svg {
+    max-width: 70px;
+    margin: auto;
+  }
+  .column-heading {
+    padding: 14px 0;
+  }
+  .notice {
+    left: 16px;
+  }
+  .maplibregl-ctrl-bottom-right {
+    bottom: 8px;
+  }
+  .credit {
+    right: 16px;
+    bottom: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.map { z-index: 0; }
+.brand, .toolbar { z-index: 1; }
+.sidebar { z-index: 2; }
+.notice, .map-error { z-index: 3; }
