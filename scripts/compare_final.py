@@ -25,6 +25,10 @@ def main():
                 reader = csv.DictReader(stream)
                 fields = reader.fieldnames
                 wanted = list(reader)
+            if not fields:
+                record['error'] = 'Official CSV has no header'
+                results.append(record)
+                continue
             with matches[0].open(encoding='utf-8', newline='') as stream:
                 reader = csv.DictReader(stream)
                 record['header_match'] = reader.fieldnames == fields
@@ -35,6 +39,7 @@ def main():
             record['match'] = record['header_match'] and len(actual) == len(wanted) and not any(record['differences'].values())
         results.append(record)
     report = dict(match=bool(results) and all(r.get('match', False) for r in results), files=results)
+    args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, indent=2))
     return 0 if report['match'] else 1
