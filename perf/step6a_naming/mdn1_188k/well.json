@@ -1,0 +1,36 @@
+{
+ "id": "8233a791c877e997",
+ "name": "OCS-G 16786 001 $T00BP01 Country USA",
+ "lat": 27.0,
+ "lon": -90.0,
+ "block": null,
+ "status": "ready",
+ "scores": {
+  "drilling": 45,
+  "cost": 0,
+  "price": 0,
+  "co2": 0
+ },
+ "validation_confidence": 0.7023200717341185,
+ "located": true,
+ "total_depth_ft": 22998.6,
+ "validation": {
+  "confidence": 0.7023200717341185,
+  "components": {
+   "structure": 0.951615239750833,
+   "sequence": 0.28409389880770863,
+   "regional": null,
+   "neighbours": null,
+   "location": 1.0
+  },
+  "flags": [
+   "structure:depth_gaps_or_overlaps:4",
+   "structure:flicker:9",
+   "sequence:rare_transitions:51",
+   "regional:no_regional_fingerprint",
+   "neighbours:no_neighbours"
+  ]
+ },
+ "warnings": [],
+ "error": null
+}

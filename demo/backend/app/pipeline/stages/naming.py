@@ -43,6 +43,118 @@ def describe(rgb: np.ndarray) -> Descriptor:
             "rows": rgb.shape[0]}
 
 
+LIGHT_SUM = 384  # a pixel is dark when mean(rgb) < 128, i.e. sum(rgb) < 384 (exact in integers)
+CHUNK_ROWS = 16384
+_LAB_CACHE: dict[tuple, np.ndarray] = {}
+
+
+def _lab_of(median_rgb: tuple) -> np.ndarray:
+    """srgb_to_lab with a cache: pages have few distinct paper colours, so most windows hit it."""
+    lab = _LAB_CACHE.get(median_rgb)
+    if lab is None:
+        lab = _LAB_CACHE[median_rgb] = srgb_to_lab(np.array(median_rgb, np.float64))
+    return lab
+
+
+def _hist_horizontal(mask: np.ndarray, row_win: np.ndarray, n: int) -> np.ndarray:
+    """Per-window run-length histograms (same bins and weights as `run_hist`) of runs of True along each row of `mask`."""
+    pad = np.zeros((mask.shape[0], mask.shape[1] + 2), bool)
+    pad[:, 1:-1] = mask
+    rows, starts = np.nonzero(pad[:, 1:] & ~pad[:, :-1])
+    _, ends = np.nonzero(~pad[:, 1:] & pad[:, :-1])
+    return _bin_runs(row_win[rows], ends - starts, n)
+
+
+def _hist_vertical(mask: np.ndarray, first: np.ndarray, row_win: np.ndarray, n: int) -> np.ndarray:
+    """Same for runs along the columns, broken at window boundaries (`first` marks the first row of each window)."""
+    r = mask.shape[0]
+    prev = np.zeros_like(mask)
+    prev[1:] = mask[:-1]
+    prev[first] = False
+    start_mask = mask & ~prev
+    # a run ends before row i when row i-1 is set and row i is unset, or starts a new window (row r is a sentinel)
+    ext = np.zeros((r + 1, mask.shape[1]), bool)
+    ext[:r] = mask
+    new_window = np.append(first, True)
+    end_mask = np.zeros_like(ext)
+    end_mask[1:] = mask & (~ext[1:] | new_window[1:, None])
+    xs, s_rows = np.nonzero(start_mask.T)
+    _, e_rows = np.nonzero(end_mask.T)
+    return _bin_runs(row_win[s_rows], e_rows - s_rows, n)
+
+
+def _bin_runs(win: np.ndarray, lengths: np.ndarray, n: int) -> np.ndarray:
+    """Length-weighted histogram over RUN_BINS per window, normalised like `run_hist` (all zeros when there are no runs)."""
+    bins = np.searchsorted(RUN_BINS, lengths, side="right") - 1
+    h = np.bincount(win * NB + bins, weights=lengths, minlength=n * NB).reshape(n, NB).astype(np.float64)
+    total = h.sum(1)
+    nonzero = total > 0
+    h[nonzero] /= total[nonzero, None]
+    return h
+
+
+def describe_ranges(rgb: np.ndarray, ranges: list[tuple[int, int]]) -> dict[str, np.ndarray]:
+    """`describe` for many row ranges of one column at once: arrays lab (n,3), ink (n), h_dark/v_dark/h_gap/v_gap (n,NB), rows (n).
+
+    Identical arithmetic to calling `describe(rgb[a:b])` per range (verified by tests), without the per-range Python loop.
+    """
+    n = len(ranges)
+    out = {"lab": np.zeros((n, 3)), "ink": np.zeros(n), "rows": np.zeros(n), "h_dark": np.zeros((n, NB)),
+           "v_dark": np.zeros((n, NB)), "h_gap": np.zeros((n, NB)), "v_gap": np.zeros((n, NB))}
+    start = 0
+    while start < n:
+        stop, rows = start, 0
+        while stop < n and (stop == start or rows + ranges[stop][1] - ranges[stop][0] <= CHUNK_ROWS):
+            rows += ranges[stop][1] - ranges[stop][0]
+            stop += 1
+        _describe_chunk(rgb, ranges[start:stop], out, start)
+        start = stop
+    return out
+
+
+def _describe_chunk(rgb: np.ndarray, ranges: list[tuple[int, int]], out: dict, offset: int) -> None:
+    """Fill `out[...][offset:offset+len(ranges)]` for a group of ranges that fits in memory."""
+    m = len(ranges)
+    lengths = np.array([b - a for a, b in ranges])
+    block = np.concatenate([rgb[a:b] for a, b in ranges]) if m > 1 else rgb[ranges[0][0]:ranges[0][1]]
+    row_win = np.repeat(np.arange(m), lengths)
+    first = np.zeros(len(block), bool)
+    first[np.cumsum(lengths) - lengths] = True
+    dark = block.sum(2, dtype=np.int32) < LIGHT_SUM
+    width = block.shape[1]
+    dark_count = np.bincount(row_win, weights=dark.sum(1), minlength=m)
+    light_count = lengths * width - dark_count
+    sl = slice(offset, offset + m)
+    out["rows"][sl] = lengths
+    out["ink"][sl] = dark_count / (lengths * width)
+    light = ~dark
+    med = np.zeros((m, 3))
+    for ch in range(3):
+        key = (row_win[:, None] * 256 + block[..., ch])[light]
+        counts = np.bincount(key, minlength=m * 256).reshape(m, 256).cumsum(1)
+        lo, hi = (light_count - 1) // 2, light_count // 2
+        med[:, ch] = ((counts > lo[:, None]).argmax(1) + (counts > hi[:, None]).argmax(1)) / 2.0
+    med[light_count == 0] = 0.0
+    out["lab"][sl] = [_lab_of(tuple(row)) for row in med]
+    out["h_dark"][sl] = _hist_horizontal(dark, row_win, m)
+    out["h_gap"][sl] = _hist_horizontal(light, row_win, m)
+    out["v_dark"][sl] = _hist_vertical(dark, first, row_win, m)
+    out["v_gap"][sl] = _hist_vertical(light, first, row_win, m)
+
+
+def distances_to_prototypes(desc: dict[str, np.ndarray], protos: list[Prototype]) -> np.ndarray:
+    """(n, len(protos)) matrix equal to `descriptor_distance(window_i, proto_j)` for every pair."""
+    n = len(desc["ink"])
+    labs = np.array([p["lab"] for _, _, p in protos])
+    uniq, inverse = np.unique(desc["lab"], axis=0, return_inverse=True)
+    lab_d = np.array([[np.linalg.norm(u - lab) for lab in labs] for u in uniq])[inverse.ravel()]
+    tv = lambda k: 0.5 * np.abs(desc[k][:, None, :] - np.array([p[k] for _, _, p in protos])[None]).sum(2)  # noqa: E731
+    v_weight = np.minimum(1.0, desc["rows"] / TEXTURE_FULL_PX)[:, None]
+    d_tex = (tv("h_dark") + tv("h_gap") + v_weight * (tv("v_dark") + tv("v_gap"))) / 4
+    ink = np.array([p["ink"] for _, _, p in protos])[None]
+    return lab_d * W_COLOR + np.abs(desc["ink"][:, None] - ink) * W_INK + W_TEXTURE * d_tex if n else np.zeros((0, len(protos)))
+
+
 def descriptor_distance(seg: Descriptor, sw: Descriptor) -> float:
     """Distance between a bed and a swatch; vertical runs count less in thin beds."""
     tv = lambda k: 0.5 * np.abs(seg[k] - sw[k]).sum()  # noqa: E731
@@ -61,17 +173,21 @@ def prototypes(legend: Legend) -> list[Prototype]:
 
 
 def split_mixed(beds: pd.DataFrame, column: ColumnImage, protos: list[Prototype], win: int = 16, min_run: int = 3) -> pd.DataFrame:
-    """Cut beds whose windows clearly match different swatches (boundaries the rule missed)."""
-    rows = []
-    for s in beds.itertuples():
-        a, n = s.y_top - column.y_offset, (s.y_bottom - s.y_top) // win
+    """Cut beds whose windows clearly match different swatches (boundaries the rule missed).
+
+    All windows of all long-enough beds are described and matched in one batch; the cutting logic is unchanged.
+    """
+    tops = (beds.y_top - column.y_offset).to_numpy()
+    counts = ((beds.y_bottom - beds.y_top) // win).to_numpy()
+    windows = [(int(a) + i * win, int(a) + (i + 1) * win) for a, n in zip(tops, counts) if n >= 2 * min_run for i in range(n)]
+    best = np.argmin(distances_to_prototypes(describe_ranges(column.rgb, windows), protos), axis=1) if windows else np.zeros(0, int)
+    rows, used = [], 0
+    for s, n in zip(beds.itertuples(), counts):
         if n < 2 * min_run:
             rows.append((s.y_top, s.y_bottom))
             continue
-        labels = []
-        for i in range(n):
-            window = describe(column.rgb[a + i * win:a + (i + 1) * win])  # once per window, not once per prototype
-            labels.append(int(np.argmin([descriptor_distance(window, p) for _, _, p in protos])))
+        labels = best[used:used + n].tolist()
+        used += n
         runs: list[list[int]] = []  # [label, first window, n windows]
         for i, lab in enumerate(labels):
             if runs and runs[-1][0] == lab:
@@ -86,16 +202,13 @@ def split_mixed(beds: pd.DataFrame, column: ColumnImage, protos: list[Prototype]
 
 
 def name_beds(beds: pd.DataFrame, column: ColumnImage, protos: list[Prototype], trim: int = 2) -> pd.DataFrame:
-    """Name each bed with its closest prototype."""
-    out = []
+    """Name each bed with its closest prototype (all beds described and matched in one batch)."""
+    ranges = []
     for s in beds.itertuples():
         a, b = s.y_top - column.y_offset, s.y_bottom - column.y_offset
-        if b - a > 4 * trim:
-            a, b = a + trim, b - trim
-        bed = describe(column.rgb[a:b])
-        dist = np.array([descriptor_distance(bed, p) for _, _, p in protos])
-        best = int(np.argmin(dist))
-        out.append({"legend_id": protos[best][0], "lithology": protos[best][1]})
+        ranges.append((a + trim, b - trim) if b - a > 4 * trim else (a, b))
+    best = np.argmin(distances_to_prototypes(describe_ranges(column.rgb, ranges), protos), axis=1) if ranges else np.zeros(0, int)
+    out = [{"legend_id": protos[b][0], "lithology": protos[b][1]} for b in best]
     return pd.concat([beds[["y_top", "y_bottom"]].reset_index(drop=True), pd.DataFrame(out)], axis=1)
 
 

@@ -1,0 +1,35 @@
+{
+ "id": "c74b798545630dd0",
+ "name": "Green Canyon Blk 562 26\" 5259\"",
+ "lat": 27.0,
+ "lon": -92.0,
+ "block": null,
+ "status": "ready",
+ "scores": {
+  "drilling": 75,
+  "cost": 0,
+  "price": 0,
+  "co2": 0
+ },
+ "validation_confidence": 0.7274725274725274,
+ "located": true,
+ "total_depth_ft": 25970.8,
+ "validation": {
+  "confidence": 0.7274725274725274,
+  "components": {
+   "structure": 0.7666666666666666,
+   "sequence": 0.5714285714285714,
+   "regional": null,
+   "neighbours": null,
+   "location": 1.0
+  },
+  "flags": [
+   "structure:thin_beds:1",
+   "structure:flicker:1",
+   "regional:no_regional_fingerprint",
+   "neighbours:no_neighbours"
+  ]
+ },
+ "warnings": [],
+ "error": null
+}

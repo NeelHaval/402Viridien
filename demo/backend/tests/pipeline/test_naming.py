@@ -74,3 +74,38 @@ def test_deterministic() -> None:
 def test_descriptor_of_malformed_patch_is_finite() -> None:
     d = describe(np.zeros((1, 1, 3), np.uint8))
     assert np.isfinite(d["lab"]).all()
+
+
+def _random_column(seed: int, rows: int = 900, width: int = 70) -> np.ndarray:
+    """Textured column: ink blobs, coloured paper, blank bands."""
+    rng = np.random.default_rng(seed)
+    img = np.empty((rows, width, 3), np.uint8)
+    palette = np.array([[255, 255, 255], [250, 240, 200], [200, 230, 255]], np.uint8)
+    img[:] = palette[rng.integers(0, 3, rows // 30 + 1)].repeat(30, 0)[:rows, None, :]
+    ink = rng.random((rows, width)) < rng.choice([0.0, 0.05, 0.3, 0.6], size=(rows // 45 + 1, 1)).repeat(45, 0)[:rows]
+    img[ink] = rng.integers(0, 120, size=(int(ink.sum()), 3))
+    return img
+
+
+def test_batched_descriptors_equal_the_per_range_ones_exactly() -> None:
+    from app.pipeline.stages.naming import describe_ranges
+    col = _random_column(3)
+    ranges = [(0, 16), (16, 32), (40, 41), (50, 57), (100, 300), (300, 316), (320, 336), (500, 899), (0, 900)]
+    got = describe_ranges(col, ranges)
+    for i, (a, b) in enumerate(ranges):
+        want = describe(col[a:b])
+        assert np.array_equal(got["lab"][i], want["lab"]), (a, b)
+        assert got["ink"][i] == want["ink"] and got["rows"][i] == want["rows"]
+        for k in ("h_dark", "v_dark", "h_gap", "v_gap"):
+            assert np.array_equal(got[k][i], want[k]), (k, a, b)
+
+
+def test_batched_distances_equal_descriptor_distance_exactly() -> None:
+    from app.pipeline.stages.naming import describe_ranges, distances_to_prototypes
+    col = _random_column(5)
+    protos = prototypes(legend())
+    ranges = [(i, i + 16) for i in range(0, 880, 16)] + [(0, 5), (10, 400)]
+    dist = distances_to_prototypes(describe_ranges(col, ranges), protos)
+    for i, (a, b) in enumerate(ranges):
+        d = describe(col[a:b])
+        assert dist[i].tolist() == [descriptor_distance(d, p) for _, _, p in protos]

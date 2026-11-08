@@ -1,0 +1,35 @@
+{
+ "id": "dc44bcdaf674c7e8",
+ "name": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+ "lat": 26.0,
+ "lon": -92.0,
+ "block": null,
+ "status": "ready",
+ "scores": {
+  "drilling": 39,
+  "cost": 0,
+  "price": 8,
+  "co2": 14
+ },
+ "validation_confidence": 0.9917450262153076,
+ "located": true,
+ "total_depth_ft": 21965.3,
+ "validation": {
+  "confidence": 0.9917450262153076,
+  "components": {
+   "structure": 0.9995944849959448,
+   "sequence": 0.9790236861646661,
+   "regional": null,
+   "neighbours": null,
+   "location": 1.0
+  },
+  "flags": [
+   "structure:depth_gaps_or_overlaps:1",
+   "sequence:rare_transitions:2",
+   "regional:no_regional_fingerprint",
+   "neighbours:no_neighbours"
+  ]
+ },
+ "warnings": [],
+ "error": null
+}

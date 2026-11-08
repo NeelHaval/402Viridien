@@ -1,0 +1,6318 @@
+{
+ "label": "step6a_naming",
+ "scans": {
+  "shell08852_9k": {
+   "file": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif",
+   "runs": [
+    {
+     "id": "bc81f9c99b7b97ea",
+     "upload_response_s": 0.033932499994989485,
+     "time_to_pin_from_saved_s": 1.3888957090093754,
+     "time_to_pin_from_request_s": 1.422828209004365,
+     "time_to_csv_from_saved_s": 2.761981374991592,
+     "time_to_csv_from_request_s": 2.7959138749865815,
+     "total_s": 2.7959138749865815,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": true,
+     "stage_timings": {
+      "layer1.columns": 1.2707983842119575e-05,
+      "layer1.crop": 0.21162583300611004,
+      "layer1.boundaries": 0.004401999991387129,
+      "layer1.calibration": 1.5467283749894705,
+      "layer1.location_wait": 6.95799826644361e-06,
+      "layer1.total": 1.762783957994543,
+      "pipeline.load_column": 0.005850791989360005,
+      "pipeline.features": 0.04887854101252742,
+      "pipeline.boundaries": 0.0008839580113999546,
+      "pipeline.legend": 0.2697084999817889,
+      "pipeline.naming": 0.03219829098088667,
+      "pipeline.depth": 0.0007507090049330145,
+      "validation": 0.001283457997487858,
+      "scoring": 0.001857541996287182,
+      "total": 2.7200300420226995,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0095,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0096,
+        "dur": 0.0017,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0113,
+        "dur": 0.0099,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0212,
+        "dur": 0.0021,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0241,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0245,
+        "dur": 0.0008,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0253,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0253,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0254,
+        "dur": 2.734,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0254,
+        "dur": 0.0001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0255,
+        "dur": 0.0001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0256,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.open",
+        "start": 0.0256,
+        "dur": 0.0019,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0266,
+        "dur": 0.0181,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0276,
+        "dur": 0.0575,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0453,
+        "dur": 0.003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0483,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0483,
+        "dur": 0.2116,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0851,
+        "dur": 0.2869,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.26,
+        "dur": 0.0044,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.2644,
+        "dur": 1.5467,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3719,
+        "dur": 0.6216,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.9938,
+        "dur": 0.4192,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.4134,
+        "dur": 0.0015,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.4148,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.4149,
+        "dur": 1.3433,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.8112,
+        "dur": 0.0058,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.817,
+        "dur": 0.0489,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 1.8659,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 1.8668,
+        "dur": 0.2697,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 2.1365,
+        "dur": 0.0322,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.1687,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.1698,
+        "dur": 0.5899,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.7585,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 2.7597,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 2.7601,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 2.7607,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 2.761,
+        "dur": 0.002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 2.763,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 2.7639,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 2.7648,
+        "dur": 0.0012,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 2.766,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "bc81f9c99b7b97ea",
+     "upload_response_s": 0.017075916985049844,
+     "time_to_pin_from_saved_s": 1.0320829580014106,
+     "time_to_pin_from_request_s": 1.0491588749864604,
+     "time_to_csv_from_saved_s": 2.4259780830179807,
+     "time_to_csv_from_request_s": 2.4430540000030305,
+     "total_s": 2.4430540000030305,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.0542018571868539e-05,
+      "layer1.crop": 0.24151691698352806,
+      "layer1.boundaries": 0.004678708006395027,
+      "layer1.calibration": 1.4737009999807924,
+      "layer1.location_wait": 4.750007065013051e-06,
+      "layer1.total": 1.7199208340025507,
+      "pipeline.load_column": 0.005675416992744431,
+      "pipeline.features": 0.04658104199916124,
+      "pipeline.boundaries": 0.0019157500064466149,
+      "pipeline.legend": 0.2471939579991158,
+      "pipeline.naming": 0.039068917016265914,
+      "pipeline.depth": 0.0009469590149819851,
+      "validation": 0.0014572909858543426,
+      "scoring": 0.0017954169888980687,
+      "total": 2.3487175419868436,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0065,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0066,
+        "dur": 0.0018,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0084,
+        "dur": 0.0018,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0102,
+        "dur": 0.0024,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0134,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0137,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0147,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0147,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0147,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0148,
+        "dur": 2.3748,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0148,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0148,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0148,
+        "dur": 0.0021,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0158,
+        "dur": 0.0299,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0169,
+        "dur": 0.0719,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0465,
+        "dur": 0.0024,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0489,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.049,
+        "dur": 0.2415,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0888,
+        "dur": 0.2111,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.2905,
+        "dur": 0.0047,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.2951,
+        "dur": 1.4737,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.2999,
+        "dur": 0.2243,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.5244,
+        "dur": 0.5216,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.0465,
+        "dur": 0.0013,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.0478,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.0478,
+        "dur": 1.3403,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.7689,
+        "dur": 0.0057,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.7746,
+        "dur": 0.0466,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 1.8212,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 1.8231,
+        "dur": 0.2472,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 2.0703,
+        "dur": 0.0391,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.1094,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.1108,
+        "dur": 0.2791,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.3887,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 2.3898,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 2.3902,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 2.391,
+        "dur": 0.0003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 2.3914,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 2.3927,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 2.3933,
+        "dur": 0.0012,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 2.3945,
+        "dur": 0.0011,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 2.3956,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "bc81f9c99b7b97ea",
+     "upload_response_s": 0.02921779197640717,
+     "time_to_pin_from_saved_s": 1.0138453750114422,
+     "time_to_pin_from_request_s": 1.0430631669878494,
+     "time_to_csv_from_saved_s": 2.399941291019786,
+     "time_to_csv_from_request_s": 2.4291590829961933,
+     "total_s": 2.4291590829961933,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.329201040789485e-05,
+      "layer1.crop": 0.2655251660034992,
+      "layer1.boundaries": 0.004117000004043803,
+      "layer1.calibration": 1.3482427909912076,
+      "layer1.location_wait": 1.5708006685599685e-05,
+      "layer1.total": 1.617916083021555,
+      "pipeline.load_column": 0.0029324170027393848,
+      "pipeline.features": 0.04097637499216944,
+      "pipeline.boundaries": 0.0009421250142622739,
+      "pipeline.legend": 0.2474169589986559,
+      "pipeline.naming": 0.02530670800479129,
+      "pipeline.depth": 0.000646790984319523,
+      "validation": 0.0011904579878319055,
+      "scoring": 0.0014032079780008644,
+      "total": 2.3109984999755397,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0131,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0133,
+        "dur": 0.0036,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0169,
+        "dur": 0.0024,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0194,
+        "dur": 0.0029,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0232,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0236,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0246,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0246,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0247,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0248,
+        "dur": 2.3153,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0248,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0248,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0248,
+        "dur": 0.0024,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0272,
+        "dur": 0.0546,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0273,
+        "dur": 0.0056,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0332,
+        "dur": 0.004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0372,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0372,
+        "dur": 0.2655,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0818,
+        "dur": 0.2369,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.3027,
+        "dur": 0.0041,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.3068,
+        "dur": 1.3482,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3187,
+        "dur": 0.2515,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.5704,
+        "dur": 0.4668,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.0376,
+        "dur": 0.0016,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.0393,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.0393,
+        "dur": 1.2991,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.6551,
+        "dur": 0.0029,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.658,
+        "dur": 0.041,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 1.699,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 1.7,
+        "dur": 0.2474,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 1.9474,
+        "dur": 0.0253,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 1.9727,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 1.9737,
+        "dur": 0.3665,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.3389,
+        "dur": 0.0011,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 2.3402,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 2.3406,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 2.3411,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 2.3414,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 2.3424,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 2.343,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 2.3439,
+        "dur": 0.0012,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 2.345,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    }
+   ],
+   "warm_median_s": 2.4129596870188834,
+   "warm_pin_median_s": 1.0229641665064264,
+   "first_run_s": 2.761981374991592,
+   "first_pin_s": 1.3888957090093754
+  },
+  "mc761_15k_pal": {
+   "file": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886.tiff",
+   "runs": [
+    {
+     "id": "dbfa7ceb8baa7221",
+     "upload_response_s": 0.019598042010329664,
+     "time_to_pin_from_saved_s": 7.088868666993221,
+     "time_to_pin_from_request_s": 7.108466709003551,
+     "time_to_csv_from_saved_s": 7.1337787919910625,
+     "time_to_csv_from_request_s": 7.153376834001392,
+     "total_s": 7.153376834001392,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.3334007235243917e-05,
+      "layer1.crop": 0.18253379099769518,
+      "layer1.boundaries": 0.024734500009799376,
+      "layer1.calibration": 0.5805852919875178,
+      "layer1.location_wait": 5.0000089686363935e-06,
+      "layer1.total": 0.7878773340198677,
+      "pipeline.load_column": 0.009061207994818687,
+      "pipeline.features": 0.11291941700619645,
+      "pipeline.boundaries": 0.0007352909888140857,
+      "pipeline.legend": 1.2299026669934392,
+      "pipeline.naming": 0.09695345800719224,
+      "pipeline.depth": 0.0006951249961275607,
+      "validation": 0.001436207996448502,
+      "scoring": 0.0022922499920241535,
+      "total": 7.092460457992274,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0117,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0118,
+        "dur": 0.0017,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0135,
+        "dur": 0.0004,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.014,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0159,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0162,
+        "dur": 0.0007,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0169,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0169,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0169,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0169,
+        "dur": 7.0892,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0169,
+        "dur": 0.0001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.017,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.017,
+        "dur": 0.0007,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0177,
+        "dur": 0.0228,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0182,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0199,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0206,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0206,
+        "dur": 0.1825,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0406,
+        "dur": 0.3073,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.2031,
+        "dur": 0.0247,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.2279,
+        "dur": 0.5806,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3479,
+        "dur": 0.4709,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 0.8085,
+        "dur": 0.009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 0.8176,
+        "dur": 0.1129,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.819,
+        "dur": 0.3112,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 0.9305,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 0.9312,
+        "dur": 1.2299,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.1304,
+        "dur": 0.4492,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.5807,
+        "dur": 0.3223,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.9041,
+        "dur": 0.3296,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 2.1611,
+        "dur": 0.0969,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.2342,
+        "dur": 0.1499,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.2581,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.2591,
+        "dur": 4.8471,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.3848,
+        "dur": 0.2112,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.5975,
+        "dur": 0.2072,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.8055,
+        "dur": 0.2162,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 3.0225,
+        "dur": 0.1181,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_fallback",
+        "start": 3.1432,
+        "dur": 3.9608,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 7.1041,
+        "dur": 0.0009,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_api",
+        "start": 7.105,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 7.105,
+        "dur": 0.0012,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 7.1062,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 7.1063,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 7.1068,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 7.1075,
+        "dur": 0.0003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 7.1077,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 7.1097,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 7.1102,
+        "dur": 0.0017,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 7.112,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 7.1129,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "dbfa7ceb8baa7221",
+     "upload_response_s": 0.015227875002892688,
+     "time_to_pin_from_saved_s": 6.121134709013859,
+     "time_to_pin_from_request_s": 6.1363625840167515,
+     "time_to_csv_from_saved_s": 6.1839994589972775,
+     "time_to_csv_from_request_s": 6.19922733400017,
+     "total_s": 6.19922733400017,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.2167001841589808e-05,
+      "layer1.crop": 0.17578345802030526,
+      "layer1.boundaries": 0.012949249998200685,
+      "layer1.calibration": 0.4302912919956725,
+      "layer1.location_wait": 4.791974788531661e-06,
+      "layer1.total": 0.6190463340026326,
+      "pipeline.load_column": 0.010516417009057477,
+      "pipeline.features": 0.09611716697691008,
+      "pipeline.boundaries": 0.0005886250000912696,
+      "pipeline.legend": 1.239410542009864,
+      "pipeline.naming": 0.10238925000885502,
+      "pipeline.depth": 0.000646417000098154,
+      "validation": 0.004496749985264614,
+      "scoring": 0.0019323330197948962,
+      "total": 6.127034750010353,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0073,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0074,
+        "dur": 0.0018,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0092,
+        "dur": 0.0008,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0101,
+        "dur": 0.0014,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0122,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0125,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0134,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0135,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0135,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0135,
+        "dur": 6.1212,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0135,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0136,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0136,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0145,
+        "dur": 0.0267,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0147,
+        "dur": 0.0016,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0171,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0179,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0179,
+        "dur": 0.1758,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0412,
+        "dur": 0.2475,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.1937,
+        "dur": 0.0129,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.2067,
+        "dur": 0.4303,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.2887,
+        "dur": 0.4002,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 0.637,
+        "dur": 0.0105,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 0.6475,
+        "dur": 0.0961,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.6891,
+        "dur": 0.2396,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 0.7436,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 0.7442,
+        "dur": 1.2394,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.929,
+        "dur": 0.2779,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.2073,
+        "dur": 0.2477,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.4561,
+        "dur": 0.3645,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.8212,
+        "dur": 0.1992,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 1.9836,
+        "dur": 0.1024,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.0211,
+        "dur": 0.198,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.086,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.0871,
+        "dur": 4.0478,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.2199,
+        "dur": 0.1567,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.3774,
+        "dur": 0.1626,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.5409,
+        "dur": 0.0888,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_fallback",
+        "start": 2.6318,
+        "dur": 3.4992,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 6.1311,
+        "dur": 0.0009,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_api",
+        "start": 6.1321,
+        "dur": 0.0013,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 6.1334,
+        "dur": 0.0013,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 6.1347,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 6.1348,
+        "dur": 0.0016,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 6.1364,
+        "dur": 0.0018,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 6.1383,
+        "dur": 0.0011,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 6.1393,
+        "dur": 0.002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 6.1414,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 6.1421,
+        "dur": 0.0012,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 6.1433,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 6.1443,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "dbfa7ceb8baa7221",
+     "upload_response_s": 0.029883583018090576,
+     "time_to_pin_from_saved_s": 6.876450416981243,
+     "time_to_pin_from_request_s": 6.906333999999333,
+     "time_to_csv_from_saved_s": 6.954947124992032,
+     "time_to_csv_from_request_s": 6.984830708010122,
+     "total_s": 6.984830708010122,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.5874975360929966e-05,
+      "layer1.crop": 0.17655670800013468,
+      "layer1.boundaries": 0.024923707998823375,
+      "layer1.calibration": 0.4783970829739701,
+      "layer1.location_wait": 1.270900247618556e-05,
+      "layer1.total": 0.6799114159948658,
+      "pipeline.load_column": 0.0138567500107456,
+      "pipeline.features": 0.09932704200036824,
+      "pipeline.boundaries": 0.0007312090019695461,
+      "pipeline.legend": 1.3047162920120172,
+      "pipeline.naming": 0.07900208298815414,
+      "pipeline.depth": 0.0007076250039972365,
+      "validation": 0.006622874992899597,
+      "scoring": 0.0032479170185979456,
+      "total": 6.885525249992497,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0148,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.015,
+        "dur": 0.0029,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.018,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.019,
+        "dur": 0.0019,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0219,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0227,
+        "dur": 0.0016,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0243,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0243,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0244,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0245,
+        "dur": 6.8765,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0245,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0245,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0245,
+        "dur": 0.0013,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0258,
+        "dur": 0.0285,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0263,
+        "dur": 0.0022,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0287,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0296,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0296,
+        "dur": 0.1765,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0544,
+        "dur": 0.2754,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.2062,
+        "dur": 0.0249,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.2311,
+        "dur": 0.4784,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3298,
+        "dur": 0.4449,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 0.7095,
+        "dur": 0.0138,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 0.7234,
+        "dur": 0.0993,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7749,
+        "dur": 0.2272,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 0.8227,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 0.8235,
+        "dur": 1.3047,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.0023,
+        "dur": 0.2912,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.294,
+        "dur": 0.227,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.5214,
+        "dur": 0.3938,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.9168,
+        "dur": 0.2522,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 2.1282,
+        "dur": 0.079,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.1697,
+        "dur": 0.2176,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.2072,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.209,
+        "dur": 4.6921,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.388,
+        "dur": 0.1927,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.5816,
+        "dur": 0.2023,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.785,
+        "dur": 0.101,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_fallback",
+        "start": 2.8886,
+        "dur": 4.0097,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 6.8992,
+        "dur": 0.0008,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_api",
+        "start": 6.9,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 6.9,
+        "dur": 0.0009,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 6.9009,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 6.9012,
+        "dur": 0.0023,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 6.9034,
+        "dur": 0.0034,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 6.9069,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 6.9078,
+        "dur": 0.003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 6.9108,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 6.9114,
+        "dur": 0.0026,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 6.9141,
+        "dur": 0.0016,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 6.9156,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    }
+   ],
+   "warm_median_s": 6.954947124992032,
+   "warm_pin_median_s": 6.876450416981243,
+   "first_run_s": 7.1337787919910625,
+   "first_pin_s": 7.088868666993221
+  },
+  "hadrian_50k": {
+   "file": "60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",
+   "runs": [
+    {
+     "id": "dc44bcdaf674c7e8",
+     "upload_response_s": 0.06611262500518933,
+     "time_to_pin_from_saved_s": 1.3098141670052428,
+     "time_to_pin_from_request_s": 1.375926792010432,
+     "time_to_csv_from_saved_s": 3.7839094579976518,
+     "time_to_csv_from_request_s": 3.850022083002841,
+     "total_s": 3.850022083002841,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.1666008504107594e-05,
+      "layer1.crop": 0.32203333399957046,
+      "layer1.boundaries": 0.05441645800601691,
+      "layer1.calibration": 1.9664790000242647,
+      "layer1.location_wait": 2.8329959604889154e-06,
+      "layer1.total": 2.3429476250021253,
+      "pipeline.load_column": 0.033011874998919666,
+      "pipeline.features": 0.61767437501112,
+      "pipeline.boundaries": 0.004213624983094633,
+      "pipeline.legend": 0.503356667002663,
+      "pipeline.naming": 0.20841120902332477,
+      "pipeline.depth": 0.0008920419786591083,
+      "validation": 0.0012417499965522438,
+      "scoring": 0.0015900419966783375,
+      "total": 3.7198820839985274,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0416,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0417,
+        "dur": 0.0054,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0471,
+        "dur": 0.0023,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0494,
+        "dur": 0.0047,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0561,
+        "dur": 0.0003,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0566,
+        "dur": 0.0014,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.058,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.058,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0581,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0582,
+        "dur": 2.6763,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0582,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0583,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0583,
+        "dur": 0.0014,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0593,
+        "dur": 0.0034,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0597,
+        "dur": 0.0098,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.063,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0634,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0634,
+        "dur": 0.322,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0696,
+        "dur": 0.2558,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3254,
+        "dur": 0.4656,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.3855,
+        "dur": 0.0544,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.4399,
+        "dur": 1.9665,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7913,
+        "dur": 0.5724,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.364,
+        "dur": 0.005,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.369,
+        "dur": 0.0005,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.3696,
+        "dur": 1.3639,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 2.4064,
+        "dur": 0.033,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 2.4394,
+        "dur": 0.6177,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.7339,
+        "dur": 0.0006,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 3.0571,
+        "dur": 0.0042,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 3.0613,
+        "dur": 0.5033,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.5647,
+        "dur": 0.2084,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 3.7731,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 3.7779,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 3.7779,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 3.7783,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 3.7789,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 3.7792,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 3.781,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 3.7816,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 3.7826,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 3.7835,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "dc44bcdaf674c7e8",
+     "upload_response_s": 0.027266709017567337,
+     "time_to_pin_from_saved_s": 1.0126288330066018,
+     "time_to_pin_from_request_s": 1.0398955420241691,
+     "time_to_csv_from_saved_s": 3.4770401249988936,
+     "time_to_csv_from_request_s": 3.504306834016461,
+     "total_s": 3.504306834016461,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.1500000255182385e-05,
+      "layer1.crop": 0.2679380420013331,
+      "layer1.boundaries": 0.05790579100721516,
+      "layer1.calibration": 1.7357560829841532,
+      "layer1.location_wait": 1.491699367761612e-05,
+      "layer1.total": 2.061631958989892,
+      "pipeline.load_column": 0.02677912500803359,
+      "pipeline.features": 0.5742514590092469,
+      "pipeline.boundaries": 0.0021627499954774976,
+      "pipeline.legend": 0.4927659159875475,
+      "pipeline.naming": 0.20531062499503605,
+      "pipeline.depth": 0.0008108330075629056,
+      "validation": 0.001181041996460408,
+      "scoring": 0.0016722500149626285,
+      "total": 3.3724898749787826,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0142,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0143,
+        "dur": 0.0052,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0195,
+        "dur": 0.0005,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.02,
+        "dur": 0.0038,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0246,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0249,
+        "dur": 0.0007,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0255,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0255,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0256,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0256,
+        "dur": 2.2544,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0256,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0257,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0257,
+        "dur": 0.0006,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0263,
+        "dur": 0.0066,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0266,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0287,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0289,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0289,
+        "dur": 0.2679,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0329,
+        "dur": 0.165,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.1979,
+        "dur": 0.1344,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.2969,
+        "dur": 0.0579,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3324,
+        "dur": 0.7043,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.3548,
+        "dur": 1.7357,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.037,
+        "dur": 0.0012,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.0381,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.0382,
+        "dur": 1.2407,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 2.0906,
+        "dur": 0.0268,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 2.1174,
+        "dur": 0.5742,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.2794,
+        "dur": 0.0006,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 2.6917,
+        "dur": 0.0022,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 2.6938,
+        "dur": 0.4928,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.1866,
+        "dur": 0.2053,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 3.3919,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 3.3962,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 3.3962,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 3.3966,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 3.3972,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 3.3975,
+        "dur": 0.0018,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 3.3993,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 3.3998,
+        "dur": 0.0011,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 3.4009,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 3.4018,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "dc44bcdaf674c7e8",
+     "upload_response_s": 0.03727083301055245,
+     "time_to_pin_from_saved_s": 0.8635432919836603,
+     "time_to_pin_from_request_s": 0.9008141249942128,
+     "time_to_csv_from_saved_s": 3.1530517500068527,
+     "time_to_csv_from_request_s": 3.190322583017405,
+     "total_s": 3.190322583017405,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.3249984476715326e-05,
+      "layer1.crop": 0.2639618329994846,
+      "layer1.boundaries": 0.03816583301522769,
+      "layer1.calibration": 1.4215866659942549,
+      "layer1.location_wait": 3.1333009246736765e-05,
+      "layer1.total": 1.7237648330046795,
+      "pipeline.load_column": 0.02675008401274681,
+      "pipeline.features": 0.5875455420173239,
+      "pipeline.boundaries": 0.0020345000084489584,
+      "pipeline.legend": 0.4723233330005314,
+      "pipeline.naming": 0.2026643329882063,
+      "pipeline.depth": 0.0008830829756334424,
+      "validation": 0.0015493750106543303,
+      "scoring": 0.0017129160114564002,
+      "total": 3.0260173339920584,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0187,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0189,
+        "dur": 0.0058,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0247,
+        "dur": 0.0007,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0254,
+        "dur": 0.0054,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0316,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0321,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0331,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0331,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0332,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0332,
+        "dur": 1.9958,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0332,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0333,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0333,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0341,
+        "dur": 0.0021,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0344,
+        "dur": 0.0094,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0364,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0369,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0369,
+        "dur": 0.2639,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0437,
+        "dur": 0.1732,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.217,
+        "dur": 0.1414,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.3009,
+        "dur": 0.0382,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.339,
+        "dur": 1.4216,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3585,
+        "dur": 0.5367,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 0.8956,
+        "dur": 0.0017,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 0.8974,
+        "dur": 0.0002,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 0.8975,
+        "dur": 1.1304,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.7607,
+        "dur": 0.0267,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.7875,
+        "dur": 0.5875,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.0284,
+        "dur": 0.0006,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 2.375,
+        "dur": 0.002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 2.3771,
+        "dur": 0.4723,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 2.8494,
+        "dur": 0.2027,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 3.0521,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 3.0566,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 3.0566,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 3.0572,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 3.0579,
+        "dur": 0.0003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 3.0582,
+        "dur": 0.0024,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 3.0606,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 3.0611,
+        "dur": 0.0012,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 3.0623,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 3.0632,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    }
+   ],
+   "warm_median_s": 3.4770401249988936,
+   "warm_pin_median_s": 1.0126288330066018,
+   "first_run_s": 3.7839094579976518,
+   "first_pin_s": 1.3098141670052428
+  },
+  "shenzi_73k_pal": {
+   "file": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+   "runs": [
+    {
+     "id": "da744e966066bff7",
+     "upload_response_s": 0.0640609999827575,
+     "time_to_pin_from_saved_s": 1.430797042004997,
+     "time_to_pin_from_request_s": 1.4948580419877544,
+     "time_to_csv_from_saved_s": 4.109108208998805,
+     "time_to_csv_from_request_s": 4.173169208981562,
+     "total_s": 4.173169208981562,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.0417017620056868e-05,
+      "layer1.crop": 0.29162120798719116,
+      "layer1.boundaries": 0.09828479200950824,
+      "layer1.calibration": 1.2351943340036087,
+      "layer1.location_wait": 2.4999899324029684e-06,
+      "layer1.total": 1.6251159590028692,
+      "pipeline.load_column": 0.06455199999618344,
+      "pipeline.features": 0.7270157919847406,
+      "pipeline.boundaries": 0.0032572500058449805,
+      "pipeline.legend": 1.0570171249855775,
+      "pipeline.naming": 0.5625392920046579,
+      "pipeline.depth": 0.0009417080145794898,
+      "validation": 0.0012817920069210231,
+      "scoring": 0.001551291992655024,
+      "total": 4.048854082997423,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0413,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0414,
+        "dur": 0.0145,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0559,
+        "dur": 0.0005,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0565,
+        "dur": 0.0034,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0605,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0608,
+        "dur": 0.0006,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0614,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0614,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0614,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0615,
+        "dur": 1.4303,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0615,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0615,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0615,
+        "dur": 0.0007,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0622,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0622,
+        "dur": 0.0208,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0635,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0638,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0638,
+        "dur": 0.2916,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0831,
+        "dur": 0.1589,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.242,
+        "dur": 0.1515,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.3554,
+        "dur": 0.0983,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3937,
+        "dur": 0.3944,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.4537,
+        "dur": 1.2352,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7884,
+        "dur": 0.4196,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.2083,
+        "dur": 0.2758,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.4845,
+        "dur": 0.0012,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.4857,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 1.4863,
+        "dur": 0.0055,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.6889,
+        "dur": 0.0645,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.7535,
+        "dur": 0.727,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 2.4805,
+        "dur": 0.0032,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 2.4837,
+        "dur": 1.057,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.5408,
+        "dur": 0.5625,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 4.1033,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 4.1077,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 4.1077,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 4.1082,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 4.1088,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 4.1091,
+        "dur": 0.0017,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 4.1108,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 4.1113,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 4.1123,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 4.1136,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "da744e966066bff7",
+     "upload_response_s": 0.028020333003951237,
+     "time_to_pin_from_saved_s": 1.6075774589844514,
+     "time_to_pin_from_request_s": 1.6355977919884026,
+     "time_to_csv_from_saved_s": 4.56485229198006,
+     "time_to_csv_from_request_s": 4.592872624984011,
+     "total_s": 4.592872624984011,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.095901825465262e-05,
+      "layer1.crop": 0.3019559159874916,
+      "layer1.boundaries": 0.10395787502056919,
+      "layer1.calibration": 1.7523491250176448,
+      "layer1.location_wait": 2.249988028779626e-06,
+      "layer1.total": 2.1582802920020185,
+      "pipeline.load_column": 0.06532579098711722,
+      "pipeline.features": 0.7333097079826985,
+      "pipeline.boundaries": 0.00327466701855883,
+      "pipeline.legend": 0.9587418330193032,
+      "pipeline.naming": 0.551810042001307,
+      "pipeline.depth": 0.0008484999998472631,
+      "validation": 0.001257458992768079,
+      "scoring": 0.0017034169868566096,
+      "total": 4.4826577919884585,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0106,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0107,
+        "dur": 0.0088,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0196,
+        "dur": 0.0005,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0201,
+        "dur": 0.0042,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0253,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0255,
+        "dur": 0.0008,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0263,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0263,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0264,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0264,
+        "dur": 1.6075,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0264,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0265,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0265,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0271,
+        "dur": 0.0024,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0275,
+        "dur": 0.021,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0297,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0304,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0304,
+        "dur": 0.3019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0485,
+        "dur": 0.1314,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.18,
+        "dur": 0.1071,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.2872,
+        "dur": 0.2283,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.3323,
+        "dur": 0.1039,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.4363,
+        "dur": 1.7523,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.5157,
+        "dur": 0.6966,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.2129,
+        "dur": 0.4153,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.6296,
+        "dur": 0.0035,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.6331,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 1.6336,
+        "dur": 0.0004,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 2.1887,
+        "dur": 0.0653,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 2.254,
+        "dur": 0.7333,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 2.9873,
+        "dur": 0.0033,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 2.9906,
+        "dur": 0.9587,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.9493,
+        "dur": 0.5518,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 4.5011,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 4.5075,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 4.5075,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 4.5079,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 4.5085,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 4.5088,
+        "dur": 0.0017,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 4.5105,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 4.5112,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 4.5122,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 4.5131,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "da744e966066bff7",
+     "upload_response_s": 0.05043695800122805,
+     "time_to_pin_from_saved_s": 0.7849157080054283,
+     "time_to_pin_from_request_s": 0.8353526660066564,
+     "time_to_csv_from_saved_s": 3.8549617500102613,
+     "time_to_csv_from_request_s": 3.9053987080114894,
+     "total_s": 3.9053987080114894,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.2917007552459836e-05,
+      "layer1.crop": 0.2806719579966739,
+      "layer1.boundaries": 0.10011600001598708,
+      "layer1.calibration": 1.0707709999987856,
+      "layer1.location_wait": 3.7090212572366e-06,
+      "layer1.total": 1.4515795840125065,
+      "pipeline.load_column": 0.06441308298963122,
+      "pipeline.features": 0.716275290993508,
+      "pipeline.boundaries": 0.006314958009170368,
+      "pipeline.legend": 0.9630820419988595,
+      "pipeline.naming": 0.5541626250196714,
+      "pipeline.depth": 0.0008094999939203262,
+      "validation": 0.0012142499908804893,
+      "scoring": 0.0017733330023474991,
+      "total": 3.766828625026392,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0295,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0297,
+        "dur": 0.0086,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0384,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0393,
+        "dur": 0.0052,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0455,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0459,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0468,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0468,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0469,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.047,
+        "dur": 0.7857,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.047,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.047,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0471,
+        "dur": 0.0012,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0481,
+        "dur": 0.0017,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0483,
+        "dur": 0.0224,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0499,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0503,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0503,
+        "dur": 0.2807,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0707,
+        "dur": 0.1253,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.196,
+        "dur": 0.0947,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.2908,
+        "dur": 0.1695,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.331,
+        "dur": 0.1001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.4311,
+        "dur": 1.0707,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.4606,
+        "dur": 0.2628,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7237,
+        "dur": 0.1066,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 0.8307,
+        "dur": 0.0014,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 0.8321,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 0.8324,
+        "dur": 0.0003,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.5019,
+        "dur": 0.0644,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.5663,
+        "dur": 0.7163,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 2.2826,
+        "dur": 0.0063,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 2.2889,
+        "dur": 0.9631,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.252,
+        "dur": 0.5542,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 3.8062,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 3.8106,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 3.8106,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 3.811,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 3.8116,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 3.8118,
+        "dur": 0.003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 3.8148,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 3.8156,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 3.8166,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 3.8176,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    }
+   ],
+   "warm_median_s": 4.109108208998805,
+   "warm_pin_median_s": 1.430797042004997,
+   "first_run_s": 4.109108208998805,
+   "first_pin_s": 1.430797042004997
+  },
+  "mdn1_188k": {
+   "file": "60811405800100_mdn-1_st00bp01_5 inch tvdmudlog_4560ft-22998ft.tif",
+   "runs": [
+    {
+     "id": "8233a791c877e997",
+     "upload_response_s": 0.2969213330070488,
+     "time_to_pin_from_saved_s": 0.8739063339889981,
+     "time_to_pin_from_request_s": 1.170827666996047,
+     "time_to_csv_from_saved_s": 4.702001792000374,
+     "time_to_csv_from_request_s": 4.998923125007423,
+     "total_s": 4.998923125007423,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.8457998521625996e-05,
+      "layer1.crop": 0.8756461250013672,
+      "layer1.boundaries": 0.16299866698682308,
+      "layer1.calibration": 1.0847810420091264,
+      "layer1.location_wait": 4.5374996261671185e-05,
+      "layer1.total": 2.123493042017799,
+      "pipeline.load_column": 0.11422170800506137,
+      "pipeline.features": 0.812010082998313,
+      "pipeline.boundaries": 0.004104666004423052,
+      "pipeline.legend": 0.6793602079851553,
+      "pipeline.naming": 0.8731068339839112,
+      "pipeline.depth": 0.0007751249941065907,
+      "validation": 0.0011230410018470138,
+      "scoring": 0.001694707985734567,
+      "total": 4.612950499984436,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.1448,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.145,
+        "dur": 0.1311,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.2762,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.2771,
+        "dur": 0.0144,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.2924,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.2927,
+        "dur": 0.0008,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.2935,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.2935,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.2936,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.2937,
+        "dur": 0.8743,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.2937,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.2937,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.2938,
+        "dur": 0.0013,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.2946,
+        "dur": 0.0025,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.295,
+        "dur": 0.0036,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.2973,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.2979,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.2979,
+        "dur": 0.8756,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.2986,
+        "dur": 0.1708,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.4695,
+        "dur": 0.2439,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7136,
+        "dur": 0.2131,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.927,
+        "dur": 0.2375,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.1648,
+        "dur": 0.0026,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.1674,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 1.1677,
+        "dur": 0.0003,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 1.1735,
+        "dur": 0.163,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 1.3365,
+        "dur": 1.0848,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 2.4216,
+        "dur": 0.1142,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 2.5358,
+        "dur": 0.812,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 3.3478,
+        "dur": 0.0041,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 3.3519,
+        "dur": 0.6793,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 4.0313,
+        "dur": 0.8731,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 4.9044,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 4.906,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 4.906,
+        "dur": 0.0003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 4.9063,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 4.9069,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 4.9072,
+        "dur": 0.0012,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 4.9084,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 4.9089,
+        "dur": 0.0011,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 4.9101,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 4.9111,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "8233a791c877e997",
+     "upload_response_s": 0.4003777499892749,
+     "time_to_pin_from_saved_s": 0.827284792001592,
+     "time_to_pin_from_request_s": 1.2276625419908669,
+     "time_to_csv_from_saved_s": 4.742159624991473,
+     "time_to_csv_from_request_s": 5.142537374980748,
+     "total_s": 5.142537374980748,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.0458985343575478e-05,
+      "layer1.crop": 0.7971021660196129,
+      "layer1.boundaries": 0.17232120802509598,
+      "layer1.calibration": 0.9012874159961939,
+      "layer1.location_wait": 1.6375008272007108e-05,
+      "layer1.total": 1.8707452089875005,
+      "pipeline.load_column": 0.10451395899872296,
+      "pipeline.features": 0.8146495840046555,
+      "pipeline.boundaries": 0.004084041982423514,
+      "pipeline.legend": 0.7604170829872601,
+      "pipeline.naming": 1.124590958992485,
+      "pipeline.depth": 0.0017642500170040876,
+      "validation": 0.0033999159932136536,
+      "scoring": 0.008587750024162233,
+      "total": 4.69774116599001,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0932,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0934,
+        "dur": 0.2863,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.3798,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.3807,
+        "dur": 0.0151,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.3969,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.3973,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.3983,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.3983,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.3984,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.3985,
+        "dur": 0.8277,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.3985,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.3985,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.3985,
+        "dur": 0.0012,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.3998,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.3998,
+        "dur": 0.0035,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "scan_open",
+        "start": 0.4018,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.4024,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.4025,
+        "dur": 0.7971,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.4033,
+        "dur": 0.1486,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.552,
+        "dur": 0.1824,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7346,
+        "dur": 0.2354,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.9702,
+        "dur": 0.2533,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 1.1996,
+        "dur": 0.1723,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.2239,
+        "dur": 0.0012,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.2252,
+        "dur": 0.0001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 1.2257,
+        "dur": 0.0004,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 1.3719,
+        "dur": 0.9013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 2.2732,
+        "dur": 0.1045,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 2.3778,
+        "dur": 0.8146,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 3.1924,
+        "dur": 0.0041,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 3.1965,
+        "dur": 0.7604,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.9569,
+        "dur": 1.1245,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 5.0815,
+        "dur": 0.0018,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 5.085,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 5.0851,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 5.0861,
+        "dur": 0.0021,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 5.0882,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 5.0885,
+        "dur": 0.0023,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 5.0909,
+        "dur": 0.0011,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 5.0919,
+        "dur": 0.0075,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 5.0995,
+        "dur": 0.0015,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 5.1009,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "8233a791c877e997",
+     "upload_response_s": 0.2249800830031745,
+     "time_to_pin_from_saved_s": 0.7160589169943705,
+     "time_to_pin_from_request_s": 0.941038999997545,
+     "time_to_csv_from_saved_s": 4.291918750008335,
+     "time_to_csv_from_request_s": 4.51689883301151,
+     "total_s": 4.51689883301151,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.3333017705008388e-05,
+      "layer1.crop": 0.7719743339985143,
+      "layer1.boundaries": 0.1633042920148,
+      "layer1.calibration": 0.8608407919819001,
+      "layer1.location_wait": 2.0374980522319674e-05,
+      "layer1.total": 1.7961623330193106,
+      "pipeline.load_column": 0.10477487498428673,
+      "pipeline.features": 0.7978344169969205,
+      "pipeline.boundaries": 0.003960917005315423,
+      "pipeline.legend": 0.6171876250009518,
+      "pipeline.naming": 0.8449919160048012,
+      "pipeline.depth": 0.0008255410066340119,
+      "validation": 0.0012876249966211617,
+      "scoring": 0.0017814160091802478,
+      "total": 4.171733333001612,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.1,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.1002,
+        "dur": 0.103,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.2034,
+        "dur": 0.0011,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.2046,
+        "dur": 0.0139,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.2194,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.2197,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.2208,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.2208,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.2208,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.221,
+        "dur": 0.7163,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.221,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.221,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.221,
+        "dur": 0.0013,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.2223,
+        "dur": 0.0037,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.2228,
+        "dur": 0.0017,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.2246,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.2253,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.2253,
+        "dur": 0.772,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.226,
+        "dur": 0.1848,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.4108,
+        "dur": 0.1668,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.5778,
+        "dur": 0.1769,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7549,
+        "dur": 0.1797,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 0.935,
+        "dur": 0.0017,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 0.9368,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 0.937,
+        "dur": 0.0003,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.9972,
+        "dur": 0.1633,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 1.1605,
+        "dur": 0.8608,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 2.0214,
+        "dur": 0.1048,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 2.1262,
+        "dur": 0.7978,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 2.9241,
+        "dur": 0.004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 2.928,
+        "dur": 0.6172,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 3.5452,
+        "dur": 0.845,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 4.3902,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 4.3919,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 4.3919,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 4.3924,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 4.393,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 4.3932,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 4.3945,
+        "dur": 0.0007,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 4.3952,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 4.3963,
+        "dur": 0.0014,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 4.3976,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    }
+   ],
+   "warm_median_s": 4.702001792000374,
+   "warm_pin_median_s": 0.827284792001592,
+   "first_run_s": 4.702001792000374,
+   "first_pin_s": 0.8739063339889981
+  },
+  "bw_g4_10k": {
+   "file": "0000000009_d-582_0000020435-0001_log08_fe_5in_md.tif",
+   "runs": [
+    {
+     "id": "c74b798545630dd0",
+     "upload_response_s": 0.014337915985379368,
+     "time_to_pin_from_saved_s": 2.192268667015014,
+     "time_to_pin_from_request_s": 2.2066065830003936,
+     "time_to_csv_from_saved_s": 2.7716070839960594,
+     "time_to_csv_from_request_s": 2.7859449999814387,
+     "total_s": 2.7859449999814387,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.2499978765845299e-05,
+      "layer1.crop": 0.1661127090046648,
+      "layer1.boundaries": 0.02114404199528508,
+      "layer1.calibration": 1.4386417089845054,
+      "layer1.location_wait": 2.582994056865573e-06,
+      "layer1.total": 1.6259209589916281,
+      "pipeline.load_column": 0.013751166989095509,
+      "pipeline.features": 0.1276066249993164,
+      "pipeline.boundaries": 0.0019524590170476586,
+      "pipeline.legend": 0.7304332920175511,
+      "pipeline.naming": 0.11417283400078304,
+      "pipeline.depth": 0.0008185000042431056,
+      "validation": 0.0012410419876687229,
+      "scoring": 0.002883749984903261,
+      "total": 2.661824082984822,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0063,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0064,
+        "dur": 0.0008,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0072,
+        "dur": 0.0005,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0077,
+        "dur": 0.0003,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0095,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0099,
+        "dur": 0.0023,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0122,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0122,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0123,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0123,
+        "dur": 2.6581,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0123,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0123,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0124,
+        "dur": 0.0008,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0132,
+        "dur": 0.159,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0134,
+        "dur": 0.0016,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0151,
+        "dur": 0.0003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0154,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0154,
+        "dur": 0.1661,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.1722,
+        "dur": 0.1876,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.1815,
+        "dur": 0.0211,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.2027,
+        "dur": 1.4386,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.3598,
+        "dur": 0.5092,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.8692,
+        "dur": 0.5654,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.4349,
+        "dur": 0.3087,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.6413,
+        "dur": 0.0137,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.6551,
+        "dur": 0.1276,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.744,
+        "dur": 0.1255,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 1.7827,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 1.7847,
+        "dur": 0.7304,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.8699,
+        "dur": 0.0829,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.9533,
+        "dur": 0.0883,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.0423,
+        "dur": 0.0572,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 2.1,
+        "dur": 0.1033,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 2.2038,
+        "dur": 0.0011,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 2.2048,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 2.2049,
+        "dur": 0.4647,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 2.5151,
+        "dur": 0.1142,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.6293,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.6309,
+        "dur": 0.0396,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.parse",
+        "start": 2.6697,
+        "dur": 0.0007,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "validation",
+        "start": 2.6705,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 2.6709,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 2.6715,
+        "dur": 0.0003,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 2.6718,
+        "dur": 0.0021,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 2.6739,
+        "dur": 0.0019,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 2.6758,
+        "dur": 0.001,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 2.6768,
+        "dur": 0.0011,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 2.6779,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "c74b798545630dd0",
+     "upload_response_s": 0.012573582993354648,
+     "time_to_pin_from_saved_s": 1.513987292011734,
+     "time_to_pin_from_request_s": 1.5265608750050887,
+     "time_to_csv_from_saved_s": 2.0535226250067353,
+     "time_to_csv_from_request_s": 2.06609620800009,
+     "total_s": 2.06609620800009,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.4999997802078724e-05,
+      "layer1.crop": 0.029565708013251424,
+      "layer1.boundaries": 0.022671208978863433,
+      "layer1.calibration": 0.9757639589952305,
+      "layer1.location_wait": 4.458008334040642e-06,
+      "layer1.total": 1.0280262080195826,
+      "pipeline.load_column": 0.014197959011653438,
+      "pipeline.features": 0.12411245799739845,
+      "pipeline.boundaries": 0.0013471670099534094,
+      "pipeline.legend": 0.711833832989214,
+      "pipeline.naming": 0.09057025000220165,
+      "pipeline.depth": 0.0005384590185713023,
+      "validation": 0.0008087090100161731,
+      "scoring": 0.0011603329912759364,
+      "total": 1.9754820420057513,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0032,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0034,
+        "dur": 0.0005,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0039,
+        "dur": 0.0009,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0048,
+        "dur": 0.0016,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0076,
+        "dur": 0.0003,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0081,
+        "dur": 0.0021,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0101,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.0101,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0102,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0103,
+        "dur": 1.8608,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0103,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0103,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0104,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0114,
+        "dur": 0.0296,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0142,
+        "dur": 0.0025,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0172,
+        "dur": 0.0015,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0187,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0187,
+        "dur": 0.0296,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.041,
+        "dur": 0.1292,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.0483,
+        "dur": 0.0227,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.0709,
+        "dur": 0.9757,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.1702,
+        "dur": 0.4191,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.5895,
+        "dur": 0.3721,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.9619,
+        "dur": 0.198,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.0467,
+        "dur": 0.0142,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.0609,
+        "dur": 0.1241,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.1603,
+        "dur": 0.0866,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 1.1851,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 1.1864,
+        "dur": 0.7118,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.2473,
+        "dur": 0.0832,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.3309,
+        "dur": 0.0706,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.402,
+        "dur": 0.0443,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.4468,
+        "dur": 0.0763,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.5236,
+        "dur": 0.0014,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.525,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.525,
+        "dur": 0.3453,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 1.8704,
+        "dur": 0.0007,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 1.8982,
+        "dur": 0.0906,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 1.9888,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 1.9896,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 1.9897,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 1.9899,
+        "dur": 0.0004,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 1.9903,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 1.9905,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 1.9911,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 1.9916,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 1.9922,
+        "dur": 0.0013,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 1.9935,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    },
+    {
+     "id": "c74b798545630dd0",
+     "upload_response_s": 0.013596709002740681,
+     "time_to_pin_from_saved_s": 1.6092585409933235,
+     "time_to_pin_from_request_s": 1.6228552499960642,
+     "time_to_csv_from_saved_s": 2.066142249997938,
+     "time_to_csv_from_request_s": 2.0797389590006787,
+     "total_s": 2.0797389590006787,
+     "events": [
+      "well_created",
+      "well_located",
+      "well_ready",
+      "well_scored"
+     ],
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 1.7749989638105035e-05,
+      "layer1.crop": 0.03171854201355018,
+      "layer1.boundaries": 0.018423166999127716,
+      "layer1.calibration": 1.0099393329874147,
+      "layer1.location_wait": 8.708011591807008e-06,
+      "layer1.total": 1.0601125000102911,
+      "pipeline.load_column": 0.014706583984661847,
+      "pipeline.features": 0.12496841701795347,
+      "pipeline.boundaries": 0.0005732499994337559,
+      "pipeline.legend": 0.7455234590161126,
+      "pipeline.naming": 0.09271345799788833,
+      "pipeline.depth": 0.0008219580049626529,
+      "validation": 0.0009101250034291297,
+      "scoring": 0.001567625004099682,
+      "total": 2.046687458001543,
+      "spans": [
+       {
+        "name": "http.receive_multipart",
+        "start": 0.0,
+        "dur": 0.0024,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.save",
+        "start": 0.0025,
+        "dur": 0.0006,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.validate",
+        "start": 0.0031,
+        "dur": 0.0006,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.hash",
+        "start": 0.0038,
+        "dur": 0.001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload.move",
+        "start": 0.0061,
+        "dur": 0.0002,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "db.insert",
+        "start": 0.0066,
+        "dur": 0.0023,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "upload_saved",
+        "start": 0.0089,
+        "dur": 0.0,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 0.009,
+        "dur": 0.0001,
+        "thread": "AnyIO worker thread",
+        "depth": 0
+       },
+       {
+        "name": "queue_wait",
+        "start": 0.0091,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location",
+        "start": 0.0093,
+        "dur": 1.9488,
+        "thread": "locate_0",
+        "depth": 0
+       },
+       {
+        "name": "location.filename_api",
+        "start": 0.0093,
+        "dur": 0.0001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.filename_block",
+        "start": 0.0094,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.open",
+        "start": 0.0094,
+        "dur": 0.001,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_read",
+        "start": 0.0105,
+        "dur": 0.0339,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "db.mark_processing",
+        "start": 0.0121,
+        "dur": 0.0044,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scan_open",
+        "start": 0.0184,
+        "dur": 0.0014,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.columns",
+        "start": 0.0198,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.crop",
+        "start": 0.0199,
+        "dur": 0.0317,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_detect",
+        "start": 0.0444,
+        "dur": 0.1427,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "layer1.boundaries",
+        "start": 0.0516,
+        "dur": 0.0184,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "layer1.calibration",
+        "start": 0.07,
+        "dur": 1.0099,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.1872,
+        "dur": 0.5361,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 0.7235,
+        "dur": 0.3737,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.load_column",
+        "start": 1.08,
+        "dur": 0.0147,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.features",
+        "start": 1.0947,
+        "dur": 0.125,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.0974,
+        "dur": 0.1283,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.boundaries",
+        "start": 1.2197,
+        "dur": 0.0006,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.legend",
+        "start": 1.2202,
+        "dur": 0.7455,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.2261,
+        "dur": 0.1016,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.3282,
+        "dur": 0.0918,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.4209,
+        "dur": 0.0771,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.4985,
+        "dur": 0.0455,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise",
+        "start": 1.5445,
+        "dur": 0.0728,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.db_write",
+        "start": 1.6178,
+        "dur": 0.0023,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.event_publish",
+        "start": 1.6201,
+        "dur": 0.0,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.header_recognise_rest",
+        "start": 1.6201,
+        "dur": 0.337,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "location.parse",
+        "start": 1.9574,
+        "dur": 0.0007,
+        "thread": "locate_0",
+        "depth": 1
+       },
+       {
+        "name": "pipeline.naming",
+        "start": 1.9658,
+        "dur": 0.0927,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "pipeline.depth",
+        "start": 2.0585,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "wait_location",
+        "start": 2.0597,
+        "dur": 0.0,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "validation",
+        "start": 2.0597,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "correction",
+        "start": 2.06,
+        "dur": 0.0005,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "schema_check",
+        "start": 2.0604,
+        "dur": 0.0002,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "csv_write",
+        "start": 2.0607,
+        "dur": 0.0009,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring.neighbours",
+        "start": 2.0616,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "scoring",
+        "start": 2.0624,
+        "dur": 0.0008,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "db.mark_ready",
+        "start": 2.0632,
+        "dur": 0.0023,
+        "thread": "job_0",
+        "depth": 0
+       },
+       {
+        "name": "event_publish",
+        "start": 2.0655,
+        "dur": 0.0001,
+        "thread": "job_0",
+        "depth": 0
+       }
+      ]
+     }
+    }
+   ],
+   "warm_median_s": 2.066142249997938,
+   "warm_pin_median_s": 1.6092585409933235,
+   "first_run_s": 2.7716070839960594,
+   "first_pin_s": 2.192268667015014
+  }
+ },
+ "cold_start_first_request_s": 2.761981374991592
+}
