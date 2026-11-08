@@ -87,3 +87,59 @@ def test_exact_ari_matches_independent_pair_count_reference():
         expected=same_a*same_b/(30*29/2)
         reference=(both-expected)/((same_a+same_b)/2-expected)
         assert score(pred,gt,(0,30))["cluster_ari"]==pytest.approx(reference)
+
+
+def test_large_integer_coordinates_and_ari_do_not_round_or_overflow():
+    offset=2**53+1
+    rows=[row(offset,offset+3,"a"),row(offset+3,offset+8,"b",1)]
+    assert score(rows,rows,(offset,offset+8))["row_acc"]==1
+    enormous=10**160
+    rows=[row(0,enormous,"a"),row(enormous,enormous*2,"b",1)]
+    assert score(rows,rows,(0,enormous*2))["cluster_ari"]==1
+
+
+@pytest.mark.parametrize("window",[(.5,10),(0,10.5),(0,float("inf")),(False,10)])
+def test_window_coordinates_never_silently_truncated(window):
+    with pytest.raises(ValueError): score([],None,window)
+
+
+def test_unknowns_do_not_become_blank_and_gt_gaps_do_not_inflate_accuracy():
+    truth=[row(20,40,"Shale")]
+    result=score([row(0,100,"Unknown")],truth,(0,100))
+    assert result["labelled_pixels"]==20 and result["row_acc"]==0
+    assert result["coverage"]==1 and result["unknown_rate"]==1
+
+
+def test_conflicting_shared_boundary_depth_is_rejected():
+    truth=[row(0,50,"a",top_depth=0,bottom_depth=50),row(50,100,"b",1,top_depth=50,bottom_depth=100)]
+    pred=[row(0,50,"a",top_depth=0,bottom_depth=9999),row(50,100,"b",1,top_depth=50,bottom_depth=100)]
+    with pytest.raises(ValueError,match="conflicting depths"): score(pred,truth,(0,100),depth_comparable=True)
+
+
+def test_missing_depth_cannot_disappear_from_eligible_coverage():
+    truth=[row(0,50,"a",top_depth=0,bottom_depth=50),row(50,100,"b",1,top_depth=50,bottom_depth=100)]
+    perfect=score(truth,truth,(0,100),depth_comparable=True)
+    missing=score([row(0,50,"a"),row(50,100,"b",1)],truth,(0,100),depth_comparable=True)
+    cases=[{"has_truth":True,"status":"ok","metrics":m} for m in (perfect,missing)]
+    result=aggregate(cases)
+    assert result["depth_pairs"]==1 and result["depth_eligible_boundaries"]==2 and result["depth_coverage"]==.5
+    assert missing["depth_mae_ft"] is None and missing["depth_coverage"]==0
+
+
+def test_finite_depth_endpoints_with_overflowing_difference_rejected():
+    truth=[row(0,50,"a",top_depth=-1.7e308,bottom_depth=-1.6e308),row(50,100,"b",1,top_depth=-1.6e308,bottom_depth=-1.5e308)]
+    pred=[row(0,50,"a",top_depth=1.5e308,bottom_depth=1.6e308),row(50,100,"b",1,top_depth=1.6e308,bottom_depth=1.7e308)]
+    with pytest.raises(ValueError,match="finite numeric range"): score(pred,truth,(0,100),depth_comparable=True)
+
+
+def test_quantized_depth_endpoints_use_symmetric_mean_within_centifoot():
+    truth=[row(0,50,"a",top_depth=0,bottom_depth=49.999),row(50,100,"b",1,top_depth=50.001,bottom_depth=100)]
+    pred=[row(0,50,"a",top_depth=0,bottom_depth=50),row(50,100,"b",1,top_depth=50,bottom_depth=100)]
+    assert score(pred,truth,(0,100),depth_comparable=True)["depth_mae_ft"]==pytest.approx(0,abs=1e-10)
+
+
+def test_aggregate_finite_depth_means_do_not_overflow():
+    metrics=score([row(0,100,"a")],[row(0,100,"a")],(0,100))
+    metrics["depth_mae_ft"]=1.7e308
+    result=aggregate([{"has_truth":True,"status":"ok","metrics":metrics}]*3)
+    assert result["depth_mae_ft"]==pytest.approx(1.7e308)

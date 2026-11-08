@@ -10,9 +10,27 @@ import bisect
 import math
 import re
 from collections import Counter
+from decimal import Decimal, InvalidOperation
 
-METRIC_VERSION = "interval-v1"
+METRIC_VERSION = "interval-v2"
 QUALITY_METRICS = ("row_acc", "macro_f1", "boundary_f1", "cluster_ari", "depth_mae_ft", "score")
+
+
+def _integer(value, name):
+    if isinstance(value,bool): raise ValueError(f"{name} must be a finite integer")
+    if isinstance(value,int): return value
+    try:
+        numeric=Decimal(str(value))
+        if not numeric.is_finite() or numeric!=numeric.to_integral_value(): raise ValueError()
+        return int(numeric)
+    except (InvalidOperation,ValueError,TypeError,OverflowError) as exc:
+        raise ValueError(f"{name} must be a finite integer") from exc
+
+
+def _mean(values):
+    if not values:return None
+    scale=max(abs(value) for value in values)
+    return math.fsum(value/scale for value in values)/len(values)*scale if scale else 0.0
 
 
 def normalize(value):
@@ -24,11 +42,8 @@ def _clean(rows, window):
     out = []
     previous = None
     for r in rows:
-        try:
-            a, b = int(r["top_y"]), int(r["bottom_y"])
-        except (ValueError,TypeError,OverflowError) as exc:
-            raise ValueError("interval coordinates must be finite integers") from exc
-        if isinstance(r["top_y"],bool) or isinstance(r["bottom_y"],bool) or float(r["top_y"]) != a or float(r["bottom_y"]) != b or b <= a:
+        a,b=_integer(r["top_y"],"top_y"),_integer(r["bottom_y"],"bottom_y")
+        if b <= a:
             raise ValueError("interval coordinates must be increasing integers")
         if previous is not None and a < previous:
             raise ValueError("intervals must be sorted and non-overlapping")
@@ -66,8 +81,10 @@ def _boundaries(rows, window):
                         d = None
                 except (TypeError, ValueError):
                     d = None
-                if y not in result or d is not None:
-                    result[y] = d
+                if y in result and d is not None and result[y] is not None and not math.isclose(d,result[y],rel_tol=1e-9,abs_tol=.01):
+                    raise ValueError(f"conflicting depths at shared boundary {y}")
+                if y in result and d is not None and result[y] is not None: result[y]=result[y]/2+d/2
+                elif y not in result or d is not None: result[y] = d
     return result
 
 
@@ -83,9 +100,10 @@ def _ari(table):
     pairs = choose(total)
     index = sum(choose(n) for n in table.values())
     a, b = sum(choose(n) for n in rows.values()), sum(choose(n) for n in cols.values())
-    expected = a * b / pairs
-    denominator = (a + b) / 2 - expected
-    return (index - expected) / denominator if denominator else 1.0
+    # Keep products as Python integers, avoiding float overflow/cancellation.
+    numerator=2*(index*pairs-a*b)
+    denominator=(a+b)*pairs-2*a*b
+    return numerator/denominator if denominator else 1.0
 
 
 def score(pred_rows, gt_rows, window, *, depth_comparable=False, boundary_tolerance=None):
@@ -94,11 +112,12 @@ def score(pred_rows, gt_rows, window, *, depth_comparable=False, boundary_tolera
     Depth MAE is returned only when the caller explicitly establishes the same
     depth datum and units in feet. Missing labelled truth yields null metrics.
     """
-    y0, y1 = map(int, window)
+    if len(window)!=2: raise ValueError("window must contain two endpoints")
+    y0,y1=(_integer(v,"window endpoint") for v in window)
     if y1 <= y0:
         raise ValueError("window must have positive height")
     window = (y0, y1)
-    tolerance = max(4, min(20, .01*(y1-y0))) if boundary_tolerance is None else float(boundary_tolerance)
+    tolerance = max(4, min(20, (y1-y0)/100 if y1-y0<2000 else 20)) if boundary_tolerance is None else float(boundary_tolerance)
     if tolerance < 0 or not math.isfinite(tolerance):
         raise ValueError("boundary tolerance must be finite and nonnegative")
     pred = _clean(pred_rows, window)
@@ -107,7 +126,8 @@ def score(pred_rows, gt_rows, window, *, depth_comparable=False, boundary_tolera
     result = {k: None for k in QUALITY_METRICS}
     result.update(coverage=coverage / (y1-y0), unknown_rate=unknown / coverage if coverage else None,
                   labelled_pixels=0, correct_pixels=0, boundary_matches=0,
-                  predicted_boundaries=0, truth_boundaries=0, depth_pairs=0, confusion={},boundary_tolerance_pixels=tolerance)
+                  predicted_boundaries=0, truth_boundaries=0, depth_pairs=0, depth_eligible_boundaries=0,
+                  depth_coverage=None,depth_pair_truth_y=[],confusion={},boundary_tolerance_pixels=tolerance)
     if gt_rows is None:
         return result
     gt = _clean(gt_rows, window)
@@ -148,12 +168,17 @@ def score(pred_rows, gt_rows, window, *, depth_comparable=False, boundary_tolera
         if p not in used_p and g not in used_g:
             used_p.add(p); used_g.add(g); matched.append((p, g))
     bf1 = 2*len(matched)/(len(pb)+len(gb)) if pb or gb else 1.0
-    errors = [abs(pb[p]-gb[g]) for p,g in matched if depth_comparable and pb[p] is not None and gb[g] is not None]
+    depth_matches=[(p,g) for p,g in matched if depth_comparable and pb[p] is not None and gb[g] is not None]
+    errors=[abs(pb[p]-gb[g]) for p,g in depth_matches]
+    if any(not math.isfinite(e) for e in errors): raise ValueError("depth difference exceeds finite numeric range")
+    depth_mae=_mean(errors)
+    eligible=sum(d is not None for d in gb.values()) if depth_comparable else 0
     result.update(row_acc=correct/total, macro_f1=sum(per_class)/len(per_class), boundary_f1=bf1,
-                  cluster_ari=_ari(clusters), depth_mae_ft=sum(errors)/len(errors) if errors else None,
+                  cluster_ari=_ari(clusters), depth_mae_ft=depth_mae,
                   score=correct/total*bf1, labelled_pixels=total, correct_pixels=correct,
                   boundary_matches=len(matched), predicted_boundaries=len(pb), truth_boundaries=len(gb),
-                  depth_pairs=len(errors), confusion={f"{g}\t{p}": n for (g,p), n in sorted(conf.items())})
+                  depth_pairs=len(errors),depth_eligible_boundaries=eligible,depth_coverage=len(errors)/eligible if eligible else None,
+                  depth_pair_truth_y=sorted(g for _,g in depth_matches),confusion={f"{g}\t{p}": n for (g,p), n in sorted(conf.items())})
     return result
 
 
@@ -165,10 +190,13 @@ def aggregate(cases):
               "errors":sum(c.get("status")!="ok" for c in cases)}
     result["completion_rate"] = result["completed"]/len(cases) if cases else None
     result["empty_predictions"] = sum(bool(c.get("empty_prediction")) for c in cases)
+    result["depth_pairs"]=sum(c["metrics"].get("depth_pairs",0) for c in labelled)
+    result["depth_eligible_boundaries"]=sum(c["metrics"].get("depth_eligible_boundaries",0) for c in labelled)
+    result["depth_coverage"]=result["depth_pairs"]/result["depth_eligible_boundaries"] if result["depth_eligible_boundaries"] else None
     for key in QUALITY_METRICS:
         values = [c["metrics"].get(key) for c in labelled]
         values = [v for v in values if v is not None]
-        result[key] = sum(values)/len(values) if values else None
+        result[key] = _mean(values)
     pixels = sum(c["metrics"].get("labelled_pixels",0) for c in labelled)
     result["row_acc_weighted"] = sum(c["metrics"].get("correct_pixels",0) for c in labelled)/pixels if pixels else None
     confusion=Counter()
@@ -189,4 +217,28 @@ def aggregate(cases):
         result[key] = sum(vals)/len(vals) if vals else None
     result["seconds"] = sum(c.get("seconds",0) for c in cases)
     result["peak_rss_mb"] = max((c.get("peak_rss_mb",0) for c in cases), default=0)
+    result["preview_seconds"]=sum(c.get("preview_seconds",0) for c in cases)
+    latencies=sorted(c.get("seconds",0) for c in cases)
+    result["latency_median_seconds"]=(latencies[(len(latencies)-1)//2]+latencies[len(latencies)//2])/2 if latencies else None
+    result["latency_p95_seconds"]=latencies[max(0,math.ceil(.95*len(latencies))-1)] if latencies else None
     return result
+
+
+def grouped_aggregates(cases):
+    result={}
+    for dimension in ("source","group","split"):
+        result[dimension]={v:aggregate([c for c in cases if str(c.get(dimension))==v]) for v in sorted({str(c.get(dimension)) for c in cases})}
+    result["tags"]={tag:aggregate([c for c in cases if tag in c.get("tags",[])]) for tag in sorted({tag for c in cases for tag in c.get("tags",[])})}
+    return result
+
+
+def quality_gate_failures(cases, overall, min_score=None, min_completion=1.0):
+    if not math.isfinite(min_completion) or not 0<=min_completion<=1: raise ValueError("min_completion must be in [0,1]")
+    if min_score is not None and (not math.isfinite(min_score) or not 0<=min_score<=1): raise ValueError("min_score must be in [0,1]")
+    failures=[]
+    if overall["errors"]: failures.append(f"{overall['errors']} model errors")
+    empty=sum(c["has_truth"] and c.get("empty_prediction",False) for c in cases)
+    if empty: failures.append(f"{empty} labelled cases have empty predictions")
+    if overall["completion_rate"] is not None and overall["completion_rate"]<min_completion: failures.append("completion below minimum")
+    if min_score is not None and (overall["score"] is None or overall["score"]<min_score): failures.append("score below minimum or no labelled truth")
+    return failures

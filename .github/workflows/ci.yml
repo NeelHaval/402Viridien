@@ -26,6 +26,8 @@ jobs:
           cache-dependency-path: requirements.lock
       - run: python -m pip install -c requirements.lock ".[test]" build
       - run: python -m pytest -q
+      - name: Verify local readiness without private data
+        run: python -m viridian402 doctor --suite demo --model builtin:baseline --config configs/baseline.json
       - run: python -m build
       - name: End-to-end smoke evaluation
         run: python scripts/run_evaluation.py

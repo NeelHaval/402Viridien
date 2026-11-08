@@ -13,7 +13,9 @@ import os
 from pathlib import Path, PurePosixPath
 import shutil
 import stat
+import re
 import subprocess
+import tempfile
 import urllib.request
 import zipfile
 
@@ -50,6 +52,16 @@ def sha256(path):
     return value.hexdigest()
 
 
+def portable_path(name):
+    """Reject names whose meaning changes across Windows/POSIX filesystems."""
+    path=PurePosixPath(name)
+    reserved=re.compile(r'^(?:CON|PRN|AUX|NUL|COM[1-9¹²³]|LPT[1-9¹²³])(?:\..*)?$',re.I)
+    if (path.is_absolute() or not path.parts or '..' in path.parts or '\\' in name or ':' in name
+            or any(part.endswith(('.', ' ')) or reserved.fullmatch(part) or any(ord(c)<32 or c in '<>"|?*' for c in part) for part in path.parts)):
+        raise ValueError(f'Unsafe or nonportable archive path: {name}')
+    return path
+
+
 def safe_extract(archive, destination, max_bytes=3_000_000_000):
     destination = Path(destination).resolve()
     with zipfile.ZipFile(archive) as bundle:
@@ -58,7 +70,7 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
             raise ValueError("Dataset expands beyond the supported size budget")
         seen = set()
         for item in members:
-            path = PurePosixPath(item.filename)
+            path = portable_path(item.filename)
             if (path.is_absolute() or not path.parts or ".." in path.parts
                     or "\\" in item.filename or ":" in item.filename
                     or stat.S_ISLNK(item.external_attr >> 16)):
@@ -69,15 +81,32 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
             if str(target).casefold() in seen:
                 raise ValueError("Duplicate archive member")
             seen.add(str(target).casefold())
-        # Validate the entire archive before creating any file.
-        for item in members:
-            target = destination.joinpath(*PurePosixPath(item.filename).parts)
-            if item.is_dir():
-                target.mkdir(parents=True, exist_ok=True)
-                continue
-            target.parent.mkdir(parents=True, exist_ok=True)
-            with bundle.open(item) as source, target.open("wb") as output:
-                shutil.copyfileobj(source, output)
+        files={PurePosixPath(item.filename) for item in members if not item.is_dir()}
+        if any(parent in files for path in files for parent in path.parents):
+            raise ValueError('Archive file/directory paths conflict')
+        # Stage and CRC-check every member before touching an existing dataset.
+        destination.parent.mkdir(parents=True,exist_ok=True)
+        with tempfile.TemporaryDirectory(prefix='viridian-data-',dir=destination.parent) as temporary:
+            staging=Path(temporary)
+            for item in members:
+                if item.is_dir():continue
+                relative=PurePosixPath(item.filename)
+                staged=staging.joinpath(*relative.parts)
+                staged.parent.mkdir(parents=True,exist_ok=True)
+                with bundle.open(item) as source,staged.open('wb') as output:
+                    shutil.copyfileobj(source,output)
+                target=destination.joinpath(*relative.parts)
+                if target.exists() and (not target.is_file() or sha256(target)!=sha256(staged)):
+                    raise ValueError(f'Existing dataset file differs; preserve your work and extract into a fresh directory: {relative}')
+                for parent in target.parents:
+                    if parent==destination.parent:break
+                    if parent.exists() and not parent.is_dir():
+                        raise ValueError('Existing dataset file conflicts with an archive directory')
+            for relative in sorted(files):
+                target=destination.joinpath(*relative.parts)
+                if not target.exists():
+                    target.parent.mkdir(parents=True,exist_ok=True)
+                    staging.joinpath(*relative.parts).replace(target)
 
 
 def fetch(name, destination, lock_path):
@@ -144,12 +173,15 @@ def pack(manifests, output):
         for record in data["records"]:
             for key in ("image", "annotation", "truth"):
                 if record.get(key):
-                    if Path(record[key]).is_absolute() or PurePosixPath(record[key]).is_absolute():
+                    portable_path(record[key])
+                    if ('\\' in record[key] or ':' in record[key] or Path(record[key]).is_absolute() or PurePosixPath(record[key]).is_absolute()):
                         raise ValueError("Bundle manifests must use portable relative asset paths")
                     files.add((manifest.parent / record[key]).resolve())
     if any(not path.is_relative_to(base) for path in files):
         raise ValueError("All bundled files must be under the manifest directory")
     output = Path(output)
+    if output.resolve() in files:
+        raise ValueError("Bundle output must not overwrite a source manifest or asset")
     output.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=4) as bundle:
         for path in sorted(files):

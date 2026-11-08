@@ -8,6 +8,10 @@ On the Actions **Evaluate model** page choose a branch with your model code, the
 
 Inputs are passed through environment variables and parsed as data in `scripts/run_evaluation.py`. They are not inserted into shell commands. Per-case timeout is restricted to 1–600 seconds and the whole job to 90 minutes. Runtime depends on source image decoding and OCR. A per-case failure makes the default completion gate fail but still saves diagnostics. The artifact upload uses `always()` so completed cases survive quality-gate failures; cancelling the entire runner can still interrupt artifact generation.
 
+Use the optional **manifest** input for a tracked or bundle-provided interval manifest inside the checkout. The **suite** still chooses the default data download. Use **selection** for a JSON object such as `{"tags":["partial_truth"],"max_worker_rss_mb":2048}`. Supported keys are `case_ids`, `tags`, `split` and `max_worker_rss_mb`. The arrays use exact strings; OR applies within each array and AND between filters. Unknown IDs/tags and empty selections fail before inference. Full-manifest leakage checks still run, and saved fingerprints identify the selected records. The RSS limit observes the process tree at approximately 25 ms intervals; it is not a hard memory allocator cap.
+
+For a new versioned data bundle, add its immutable release asset entry to `data/datasets.lock.json`, then set **data_bundle** to that key and **manifest** to its extracted manifest under `data/local/`. The input selects trusted lock entries, never an arbitrary download URL. Overrides apply to one interval suite; `all` cannot take one manifest override, and `real-crops` keeps its fixed classification test set intact. Model/config inputs remain checkout-local. There are no extra repository tokens in model workers.
+
 Download `evaluation-RUN_ID-ATTEMPT` from the run's **Artifacts** section. The Actions summary has the metrics; open downloaded `summary.md` for relative links to CSVs and images. Results are retained for 30 days. Download important runs for permanent comparison. The CLI can compare two downloaded run directories directly. The `real-crops` suite uses the separate PR54 fixed classification split and metrics, described in [PR54 integration](pr54.md).
 
 The equivalent local workflow command is:
@@ -18,6 +22,8 @@ python scripts/datasets.py fetch evaluation
 python scripts/run_evaluation.py
 ```
 
+With the same environment inputs, `python scripts/run_evaluation.py --fetch-data` performs just the pinned data download. Actions runs that command in a separate step containing the read token; the evaluation step receives no token. Default downloads are none for `demo`, `crops` for `real-crops`, `evaluation` plus `challenge` for `challenge-unlabelled`, and `evaluation` for the other suites.
+
 Examples in PowerShell:
 
 ```powershell
@@ -26,6 +32,15 @@ $env:EVAL_MODEL = 'builtin:legacy-s11'
 $env:EVAL_CONFIG = 'configs/legacy-s11.json'
 python scripts/run_evaluation.py
 ```
+
+For a targeted interval debug run:
+
+```powershell
+$env:EVAL_SELECTION = '{"tags":["partial_truth"],"max_worker_rss_mb":2048}'
+python scripts/run_evaluation.py
+```
+
+The equivalent CLI supports repeated `--case-id` and `--tag` flags, plus `--max-worker-rss-mb`. Remove stale environment overrides before switching suites. Run `python -m viridian402 doctor` for environment readiness or add `--suite human --model your_package.model:predict --config configs/experiment.json` to audit the selected dataset locally. Doctor uses no network and does not execute model plugins. See the complete [contributor path](../CONTRIBUTING.md).
 
 ## Release and update models
 
@@ -39,6 +54,6 @@ Use demo/targeted window manifests on PRs, and manual real-data evaluations afte
 
 For more performance, profile decode/OCR/startup costs first, then batch model initialization or cache immutable image-derived features by image hash, code version, preprocessing config and checkpoint. Add tests proving cache invalidation. Preserve identical windows and hardware when comparing speed. Self-hosted GPU runners need an explicitly reviewed workflow and resource/cost instrumentation before use.
 
-Adding a suite requires a new manifest, versioned bundle/lock entry if its assets are private, and the allowlist/choice in `scripts/run_evaluation.py` and `.github/workflows/evaluate.yml`. A custom local manifest works immediately with `viridian402 evaluate`; this avoids building a second orchestration system.
+New interval data can use the existing manifest/selection/data-bundle inputs without adding a pipeline path. Add a named suite choice only when a repeated team workflow merits a convenient preset. A custom local manifest works immediately with `viridian402 evaluate`. Keep existing frozen manifests and release archives unchanged when publishing a new dataset version.
 
 Manual dispatch and permission details follow the [GitHub workflow syntax documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax).

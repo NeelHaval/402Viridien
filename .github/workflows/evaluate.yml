@@ -33,6 +33,18 @@ on:
         description: Install OCR/FFT dependencies for S11
         type: boolean
         default: false
+      manifest:
+        description: Optional interval manifest path inside the checkout (suite selects data bundle)
+        type: string
+        default: ''
+      selection:
+        description: 'Optional interval filter JSON, e.g. {"tags":["partial_truth"]}; also case_ids, split, max_worker_rss_mb'
+        type: string
+        default: '{}'
+      data_bundle:
+        description: Optional pinned data/datasets.lock.json bundle key; blank uses suite defaults
+        type: string
+        default: ''
 permissions:
   contents: read
 jobs:
@@ -46,6 +58,9 @@ jobs:
       EVAL_MODE: ${{ inputs.mode }}
       EVAL_TIMEOUT: ${{ inputs.timeout }}
       EVAL_MIN_SCORE: ${{ inputs.min_score }}
+      EVAL_MANIFEST: ${{ inputs.manifest }}
+      EVAL_SELECTION: ${{ inputs.selection }}
+      EVAL_DATA_BUNDLE: ${{ inputs.data_bundle }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -59,20 +74,9 @@ jobs:
       - if: inputs.legacy_dependencies
         run: python -m pip install -c requirements.lock -c requirements-legacy.lock ".[legacy]"
       - name: Fetch verified evaluation data
-        if: inputs.suite != 'demo' && inputs.suite != 'real-crops'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/datasets.py fetch evaluation
-      - name: Fetch PR54 fixed real crop snapshot
-        if: inputs.suite == 'real-crops'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: python scripts/datasets.py fetch crops --destination data/local/pr54
-      - name: Fetch challenge scans for unlabelled robustness
-        if: inputs.suite == 'challenge-unlabelled'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: python scripts/datasets.py fetch challenge
+        run: python scripts/run_evaluation.py --fetch-data
       - name: Evaluate with full diagnostics
         run: python scripts/run_evaluation.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

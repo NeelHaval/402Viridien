@@ -2,6 +2,8 @@
 
 Reproducible model experiments for the Viridien “Decoding the Subsurface” challenge. Run the same evaluator locally or in GitHub Actions, add data through manifests, and compare immutable runs with accuracy and resource measurements.
 
+Contributing? Start with [CONTRIBUTING.md](CONTRIBUTING.md). Check readiness with `python -m viridian402 doctor --suite demo --model builtin:baseline`, copy the working model template, and use `--case-id` or `--tag` for targeted checks. `python scripts/benchmark.py --help` describes repeatable suite comparisons.
+
 ## Run an experiment
 
 Python 3.12 is the tested environment. From this checkout:
