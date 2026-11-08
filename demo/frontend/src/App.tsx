@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { api } from "./api";
+import { subscribe, type WellEvent } from "./events";
 import type { Panel, Well } from "./types";
 import { Map } from "./components/Map";
 import { Sidebar } from "./components/Sidebar";
@@ -28,6 +29,8 @@ export default function App() {
   const known = useRef<Well[]>([]);
   const failures = useRef(0);
   const timer = useRef<number>(undefined);
+  const streaming = useRef(false);
+  const showWellRef = useRef<(well: Well) => Promise<void>>(async () => {});
   const refresh = useCallback(async () => {
     window.clearTimeout(timer.current);
     try {
@@ -52,16 +55,83 @@ export default function App() {
       failures.current += 1;
       setToast({ text: (e as Error).message, network: true });
     }
-    if (known.current.some(isBusy) || failures.current > 0)
+    // The 2 s poll runs only while the event stream is down (or a request failed).
+    if (!streaming.current || failures.current > 0)
       timer.current = window.setTimeout(
         () => void refresh(),
         Math.min(POLL_MS * 2 ** failures.current, MAX_BACKOFF_MS),
       );
   }, []);
+  const applyEvent = useCallback((event: WellEvent) => {
+    const base: Well = {
+      id: event.id,
+      name: event.id,
+      lat: null,
+      lon: null,
+      block: null,
+      status: "queued",
+      scores: null,
+      validation_confidence: null,
+      located: false,
+    };
+    const current = known.current.find((w) => w.id === event.id) ?? base;
+    let next: Well = current;
+    if (event.type === "well_created")
+      next = { ...current, name: event.name ?? current.name };
+    else if (event.type === "well_located")
+      next = {
+        ...current,
+        lat: event.lat,
+        lon: event.lon,
+        block: event.block ?? current.block,
+        located: true,
+      };
+    else if (event.type === "well_ready")
+      next = {
+        ...current,
+        status: "ready",
+        name: event.name ?? current.name,
+        validation_confidence:
+          event.validation_confidence ?? current.validation_confidence,
+      };
+    else if (event.type === "well_scored")
+      next = { ...current, scores: event.scores };
+    else next = { ...current, status: "failed" };
+    known.current = known.current.some((w) => w.id === event.id)
+      ? known.current.map((w) => (w.id === event.id ? next : w))
+      : [...known.current, next];
+    setWells(known.current);
+    setLoaded(true);
+    if (pending.current.has(event.id)) {
+      if (event.type === "well_located") setFlyTo(next);
+      else if (event.type === "well_failed") {
+        pending.current.delete(event.id);
+        setToast({ text: "Processing failed", network: false });
+      } else if (event.type === "well_ready") {
+        pending.current.delete(event.id);
+        if (!next.located)
+          setToast({ text: "Processed, location not found", network: false });
+      }
+      setPendingCount(pending.current.size);
+    }
+    if (
+      event.id === opened.current &&
+      ["well_ready", "well_scored", "well_failed"].includes(event.type)
+    )
+      void showWellRef.current(next);
+  }, []);
   useEffect(() => {
     void refresh();
-    return () => window.clearTimeout(timer.current);
-  }, [refresh]);
+    const stop = subscribe(applyEvent, (connected) => {
+      streaming.current = connected;
+      window.clearTimeout(timer.current);
+      void refresh(); // resync on every (re)connect; keeps polling only while disconnected
+    });
+    return () => {
+      stop();
+      window.clearTimeout(timer.current);
+    };
+  }, [refresh, applyEvent]);
   const showWell = useCallback(async (well: Well) => {
     const id = ++requestId.current;
     opened.current = well.id;
@@ -81,6 +151,9 @@ export default function App() {
         });
     }
   }, []);
+  useEffect(() => {
+    showWellRef.current = showWell;
+  }, [showWell]);
   useEffect(() => {
     const current = wells.find((w) => w.id === opened.current);
     if (
