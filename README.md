@@ -4,7 +4,7 @@ Strata reads scanned well logs and turns the rock column into layers you can use
 
 Built by **402_Payment_Required** for Viridien's *Decoding the Subsurface* challenge at HackTheBurgh 2026.
 
-![Strata map with a well profile open](docs/showcase/app-well-profile.png)
+![The Strata map](docs/showcase/app-map.png)
 
 ## The problem
 
@@ -26,8 +26,6 @@ top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id
 ![Strip features down a scan. Red lines are detected boundaries, grey dashed lines are hand labels](docs/showcase/pipeline-strip-features.png)
 
 *Strip features on one log. Red lines are the boundaries we detected and grey dashed lines are hand labels. Boundary F1 is 0.857 within ±20 px on this log.*
-
-![Legend swatches matched to rock labels](docs/showcase/02-fixture-legend.png)
 
 ### What we tried that didn't work
 
@@ -54,10 +52,6 @@ All of this lives in a shared evaluation setup with CI. Every strategy is scored
 
 ![Released pages: source column beside predicted layers](docs/showcase/01-released-pages-s19.png)
 
-**Generated scan.** On a generated four-layer log, the three predicted boundaries landed within 4 px of where they were drawn.
-
-![Generated four-layer scan and its predicted layers](docs/showcase/03-fixture-source-prediction.png)
-
 ## Official challenge outputs
 
 The required outputs for the three released test documents are in [`outputs/official/`](outputs/official/): one CSV per document in the challenge header (`top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id`, file `*.official.raw.notebook.csv`), the slide variant with `base_depth` (`*.official.raw.slide.csv`), and the annotated full rock column (`*.official.full-column.png`) showing boundaries, depths, cluster IDs and lithology labels. All were produced automatically with no manual correction. Depth units were read by OCR and are marked as assumed feet, not verified.
@@ -66,9 +60,7 @@ The required outputs for the three released test documents are in [`outputs/offi
 
 Upload a scan, see the well on a map, and click it to see its layers next to the depth scale. You can also select an area to compare the wells inside it.
 
-| Map | Upload |
-|---|---|
-| ![Map](docs/showcase/app-map.png) | ![Upload dialog](docs/showcase/app-upload.png) |
+![Upload dialog](docs/showcase/app-upload.png)
 
 The scores on the well panel (drilling ease, cost, CO₂ storage) are an early idea of where this could go. They are not validated numbers.
 
