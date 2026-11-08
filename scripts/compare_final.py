@@ -15,7 +15,8 @@ def main():
     for expected in sorted(args.official.rglob('*.csv')):
         if not expected.name.endswith(('.notebook.csv', '.slide.csv')):
             continue
-        matches = list(args.actual.rglob(expected.name))
+        target = args.actual / expected.relative_to(args.official)
+        matches = [target] if target.is_file() else []
         record = dict(file=str(expected.relative_to(args.official)))
         if len(matches) != 1:
             record['error'] = 'Missing or duplicate output'

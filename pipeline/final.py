@@ -6,6 +6,7 @@ import hashlib
 import json
 import math
 import os
+import shutil
 from pathlib import Path
 import subprocess
 import sys
@@ -100,6 +101,8 @@ def page(image, annotation, folder, allow_assumed=False):
         write_csv(csvdir / (image.stem + '.official.raw.slide.csv'),
                   ['top_y', 'bottom_y', 'lithology', 'cluster_id', 'top_depth', 'base_depth'],
                   [dict(r, base_depth=r['bottom_depth']) for r in rows])
+        for output in csvdir.glob('*.csv'):
+            shutil.copyfile(output, folder / output.name)
         x0, y0, x1, y1 = box
         header = 70
         tx = max(150, x1-x0+30)

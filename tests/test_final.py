@@ -42,6 +42,7 @@ def test_generated_page(tmp_path):
         assert reader.fieldnames == ['top_depth', 'bottom_depth', 'lithology', 'top_y', 'bottom_y', 'cluster_id']
         rows = list(reader)
     assert rows and all(r['top_depth'] == r['bottom_depth'] == '' for r in rows)
+    assert (out / 'tiny/tiny.official.raw.notebook.csv').read_bytes() == (out / 'tiny/csv/tiny.official.raw.notebook.csv').read_bytes()
     with Image.open(out / 'tiny/tiny.official.full-column.png') as rendered:
         assert rendered.height == 870
     for name, digest in manifest['files'].items():
