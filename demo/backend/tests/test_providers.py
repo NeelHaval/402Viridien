@@ -132,7 +132,3 @@ def test_malformed_gemini_response_is_rejected(payload):
     with pytest.raises(ValueError):
         asyncio.run(providers.ask_gemini(config(), 'Public test', httpx.MockTransport(
             lambda request: httpx.Response(200, json=payload))))
-
-
-
-

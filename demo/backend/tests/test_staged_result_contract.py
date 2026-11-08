@@ -15,12 +15,8 @@ def staged(tmp_path,monkeypatch):
     batch=tmp_path/'batch';saved=batch/image_hash/'large-result.json';saved.parent.mkdir(parents=True)
     result={'engine':'S19','status':'depth_unavailable','automatic_fallback':False,'image_sha256':image_hash,'boxes_sha256':adapter.canonical(boxes),'pins':copy.deepcopy(pins),'versions':{'easyocr':'1.7.2','rapidocr-onnxruntime':'1.4.4'},'rows':[{'top_y':2,'bottom_y':30,'cluster_id':0,'lithology':'Generated rock'}]}
     req=tmp_path/'request.json';req.write_text(json.dumps({'image_path':str(source),'image_sha256':image_hash,'boxes':boxes}),encoding='utf-8')
-    def path(value):
-        value=str(value)
-        if value=='/srv/viridien/submission/20261108/swarm/batch-51':return batch
-        if value=='/srv/viridien/submission/20261108/swarm/preload-data/catalog.json':return catalog
-        return Path(value)
-    monkeypatch.setattr(adapter,'Path',path)
+    monkeypatch.setenv('S19_BATCH_ROOT', str(batch))
+    monkeypatch.setenv('APP_SOURCE_CATALOG_ROOT', str(tmp_path))
     monkeypatch.setattr(adapter,'verify_pins',lambda:copy.deepcopy(pins))
     def run(change=None):
         value=copy.deepcopy(result)
@@ -86,4 +82,3 @@ def test_model_worker_has_no_provider_or_agent_credentials(monkeypatch):
     env=worker_environment()
     assert env['PYTHONPATH']=='/pinned/runtime'
     assert not any('KEY' in name or 'SECRET' in name for name in env)
-
