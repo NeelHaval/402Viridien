@@ -1,0 +1,306 @@
+{
+  "tested_implementation_commit": "2882eac7011aad6131508f9335b9ed1345d744a9",
+  "fresh_clone": "/srv/viridien/verify/clean-repo",
+  "fresh_venv": "/srv/viridien/verify/clean-venv",
+  "pytest": ".                                                                        [100%]\n1 passed in 1.61s",
+  "official_diff": {
+    "match": true,
+    "files": [
+      {
+        "file": "49ab92322aa76b26/49ab92322aa76b26.official.raw.notebook.csv",
+        "header_match": true,
+        "expected_rows": 72,
+        "actual_rows": 72,
+        "differences": {
+          "top_depth": 0,
+          "bottom_depth": 0,
+          "lithology": 0,
+          "top_y": 0,
+          "bottom_y": 0,
+          "cluster_id": 0
+        },
+        "match": true
+      },
+      {
+        "file": "49ab92322aa76b26/49ab92322aa76b26.official.raw.slide.csv",
+        "header_match": true,
+        "expected_rows": 72,
+        "actual_rows": 72,
+        "differences": {
+          "top_y": 0,
+          "bottom_y": 0,
+          "lithology": 0,
+          "cluster_id": 0,
+          "top_depth": 0,
+          "base_depth": 0
+        },
+        "match": true
+      },
+      {
+        "file": "49ab92322aa76b26/csv/49ab92322aa76b26.official.raw.notebook.csv",
+        "header_match": true,
+        "expected_rows": 72,
+        "actual_rows": 72,
+        "differences": {
+          "top_depth": 0,
+          "bottom_depth": 0,
+          "lithology": 0,
+          "top_y": 0,
+          "bottom_y": 0,
+          "cluster_id": 0
+        },
+        "match": true
+      },
+      {
+        "file": "49ab92322aa76b26/csv/49ab92322aa76b26.official.raw.slide.csv",
+        "header_match": true,
+        "expected_rows": 72,
+        "actual_rows": 72,
+        "differences": {
+          "top_y": 0,
+          "bottom_y": 0,
+          "lithology": 0,
+          "cluster_id": 0,
+          "top_depth": 0,
+          "base_depth": 0
+        },
+        "match": true
+      },
+      {
+        "file": "c27f24013e5cc155/c27f24013e5cc155.official.raw.notebook.csv",
+        "header_match": true,
+        "expected_rows": 133,
+        "actual_rows": 133,
+        "differences": {
+          "top_depth": 0,
+          "bottom_depth": 0,
+          "lithology": 0,
+          "top_y": 0,
+          "bottom_y": 0,
+          "cluster_id": 0
+        },
+        "match": true
+      },
+      {
+        "file": "c27f24013e5cc155/c27f24013e5cc155.official.raw.slide.csv",
+        "header_match": true,
+        "expected_rows": 133,
+        "actual_rows": 133,
+        "differences": {
+          "top_y": 0,
+          "bottom_y": 0,
+          "lithology": 0,
+          "cluster_id": 0,
+          "top_depth": 0,
+          "base_depth": 0
+        },
+        "match": true
+      },
+      {
+        "file": "c27f24013e5cc155/csv/c27f24013e5cc155.official.raw.notebook.csv",
+        "header_match": true,
+        "expected_rows": 133,
+        "actual_rows": 133,
+        "differences": {
+          "top_depth": 0,
+          "bottom_depth": 0,
+          "lithology": 0,
+          "top_y": 0,
+          "bottom_y": 0,
+          "cluster_id": 0
+        },
+        "match": true
+      },
+      {
+        "file": "c27f24013e5cc155/csv/c27f24013e5cc155.official.raw.slide.csv",
+        "header_match": true,
+        "expected_rows": 133,
+        "actual_rows": 133,
+        "differences": {
+          "top_y": 0,
+          "bottom_y": 0,
+          "lithology": 0,
+          "cluster_id": 0,
+          "top_depth": 0,
+          "base_depth": 0
+        },
+        "match": true
+      },
+      {
+        "file": "fc5af26c8937097c/csv/fc5af26c8937097c.official.raw.notebook.csv",
+        "header_match": true,
+        "expected_rows": 358,
+        "actual_rows": 358,
+        "differences": {
+          "top_depth": 0,
+          "bottom_depth": 0,
+          "lithology": 0,
+          "top_y": 0,
+          "bottom_y": 0,
+          "cluster_id": 0
+        },
+        "match": true
+      },
+      {
+        "file": "fc5af26c8937097c/csv/fc5af26c8937097c.official.raw.slide.csv",
+        "header_match": true,
+        "expected_rows": 358,
+        "actual_rows": 358,
+        "differences": {
+          "top_y": 0,
+          "bottom_y": 0,
+          "lithology": 0,
+          "cluster_id": 0,
+          "top_depth": 0,
+          "base_depth": 0
+        },
+        "match": true
+      },
+      {
+        "file": "fc5af26c8937097c/fc5af26c8937097c.official.raw.notebook.csv",
+        "header_match": true,
+        "expected_rows": 358,
+        "actual_rows": 358,
+        "differences": {
+          "top_depth": 0,
+          "bottom_depth": 0,
+          "lithology": 0,
+          "top_y": 0,
+          "bottom_y": 0,
+          "cluster_id": 0
+        },
+        "match": true
+      },
+      {
+        "file": "fc5af26c8937097c/fc5af26c8937097c.official.raw.slide.csv",
+        "header_match": true,
+        "expected_rows": 358,
+        "actual_rows": 358,
+        "differences": {
+          "top_y": 0,
+          "bottom_y": 0,
+          "lithology": 0,
+          "cluster_id": 0,
+          "top_depth": 0,
+          "base_depth": 0
+        },
+        "match": true
+      }
+    ]
+  },
+  "batches": {
+    "clean-released-final": {
+      "complete": true,
+      "depth_complete": false,
+      "output_hashes_verified": true,
+      "documents": [
+        {
+          "page": "49ab92322aa76b26",
+          "rows": 72,
+          "seconds": 3.67,
+          "depth_status": "ft-assumed",
+          "reason": "",
+          "dimensions": [
+            2550,
+            13200
+          ],
+          "image_sha256": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+          "annotation_sha256": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af"
+        },
+        {
+          "page": "c27f24013e5cc155",
+          "rows": 133,
+          "seconds": 6.323,
+          "depth_status": "calibrated",
+          "reason": "",
+          "dimensions": [
+            1536,
+            9624
+          ],
+          "image_sha256": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+          "annotation_sha256": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce"
+        },
+        {
+          "page": "fc5af26c8937097c",
+          "rows": 358,
+          "seconds": 75.222,
+          "depth_status": "calibrated",
+          "reason": "",
+          "dimensions": [
+            1275,
+            141900
+          ],
+          "image_sha256": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+          "annotation_sha256": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24"
+        }
+      ]
+    },
+    "clean-challenge": {
+      "complete": true,
+      "depth_complete": true,
+      "output_hashes_verified": true,
+      "documents": [
+        {
+          "page": "60807402860000_gb506#2_md_mudlog",
+          "rows": 137,
+          "seconds": 8.628,
+          "depth_status": "calibrated",
+          "reason": "",
+          "dimensions": [
+            1536,
+            9623
+          ],
+          "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+          "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc"
+        },
+        {
+          "page": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+          "rows": 281,
+          "seconds": 192.433,
+          "depth_status": "calibrated",
+          "reason": "",
+          "dimensions": [
+            1700,
+            110000
+          ],
+          "image_sha256": "6362fb061f81fc136d5e8ebcb1835b0881c183fd30d897090cce175eba2973b7",
+          "annotation_sha256": "0825ed9843247ba532e0def6d21b99f4daa4f7c11fc9ea186711958cc9a23a74"
+        },
+        {
+          "page": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+          "rows": 236,
+          "seconds": 23.95,
+          "depth_status": "calibrated",
+          "reason": "",
+          "dimensions": [
+            1275,
+            90750
+          ],
+          "image_sha256": "a91355855e39d88dd57451fb544d8ceff0236dd9b017e0faf52b797094712e69",
+          "annotation_sha256": "6355e7d45049dee8a2fb30b9346f20d6ce60095cec2e158229c61a04615db2f2"
+        }
+      ]
+    },
+    "unit-check": {
+      "complete": true,
+      "depth_complete": false,
+      "output_hashes_verified": true,
+      "documents": [
+        {
+          "page": "49ab92322aa76b26",
+          "rows": 72,
+          "seconds": 3.719,
+          "depth_status": "unavailable",
+          "reason": "Printed depth unit is not verified",
+          "dimensions": [
+            2550,
+            13200
+          ],
+          "image_sha256": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+          "annotation_sha256": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af"
+        }
+      ]
+    }
+  },
+  "unknown_unit_blank_depths_verified": true
+}
