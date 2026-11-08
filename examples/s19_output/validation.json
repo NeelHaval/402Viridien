@@ -1,0 +1,74 @@
+{
+  "environment": "Fresh GitHub clone /tmp/s19-fresh-clone, new .venv, Python 3.12, requirements-s19.txt, taskset -c 0,1",
+  "model_assets": "Four committed files, SHA256 checked by entry point; EasyOCR downloaded on first use",
+  "pages": [
+    {
+      "page": "0000000009_d-582_0000020435-0001_log01_fe_1in_md",
+      "run": "PASS",
+      "rows": 1866,
+      "comparison": "NO_REFERENCE_ROWS",
+      "reference_status": "unsupported",
+      "reference_reason": "DecompressionBombError: Image size (454900736 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack."
+    },
+    {
+      "page": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "run": "PASS",
+      "rows": 153,
+      "comparison": "MATCH",
+      "reference_status": "depth_unavailable",
+      "reference_reason": null
+    },
+    {
+      "page": "0000000009_d-582_0000020435-0001_log03_chromatograph_ratio",
+      "run": "PASS",
+      "rows": 146,
+      "comparison": "DIFF",
+      "reference_status": "depth_unavailable",
+      "reference_reason": null
+    },
+    {
+      "page": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "run": "PASS",
+      "rows": 152,
+      "comparison": "MATCH",
+      "reference_status": "depth_unavailable",
+      "reference_reason": null
+    },
+    {
+      "page": "0000000009_d-582_0000020435-0001_log05_chromatograph_ratio",
+      "run": "PASS",
+      "rows": 155,
+      "comparison": "MATCH",
+      "reference_status": "depth_unavailable",
+      "reference_reason": null
+    },
+    {
+      "page": "49ab92322aa76b26",
+      "run": "PASS",
+      "rows": 72,
+      "reference_rows": 72,
+      "comparison": "MATCH",
+      "different_intervals": 0
+    },
+    {
+      "page": "c27f24013e5cc155",
+      "run": "PASS",
+      "rows": 133,
+      "reference_rows": 133,
+      "comparison": "MATCH",
+      "different_intervals": 0
+    },
+    {
+      "page": "fc5af26c8937097c",
+      "run": "PASS",
+      "rows": 358,
+      "reference_rows": 358,
+      "comparison": "MATCH",
+      "different_intervals": 0
+    }
+  ],
+  "batch_difference": "log03: current Halite [7602,7610), Sand and [7610,7634); batch-51 Sand and [7587,7634). Cause not established.",
+  "notebook_import_review": "pipeline_final.ipynb imports cv2. requirements.txt does not declare OpenCV directly. requirements-s19.txt includes opencv-python-headless. Notebook execution not run.",
+  "format_checks": "TIFF inference tested. PNG/JPG suffixes accepted by entry point and loaded with Pillow; PNG/JPG inference not run.",
+  "depth_policy": "OCR depths retain calibration method; printed units not manually verified. Missing calibration produces blank depth fields."
+}
