@@ -11,6 +11,7 @@ from pathlib import Path
 import subprocess
 import sys
 import time
+import warnings
 
 
 def sha(path):
@@ -32,6 +33,70 @@ def write_csv(path, fields, rows):
         writer.writerows(rows)
 
 
+class InputError(ValueError):
+    def __init__(self, code, message):
+        super().__init__(message)
+        self.code = code
+
+
+def discover(images, boxes):
+    pictures = sorted(p for p in images.rglob('*') if p.is_file() and
+                      p.suffix.lower() in ('.tif', '.tiff', '.png', '.jpg', '.jpeg'))
+    annotations = sorted(p for p in boxes.rglob('*') if p.is_file() and p.suffix.lower() == '.json')
+    jobs, used = [], set()
+    for image in pictures:
+        relative = image.relative_to(images)
+        exact = [p for p in annotations if p.relative_to(boxes).with_suffix('') == relative.with_suffix('')]
+        matches = exact or [p for p in annotations if p.stem == image.stem]
+        annotation = matches[0] if len(matches) == 1 else None
+        if annotation:
+            used.add(annotation)
+        jobs.append((image, annotation, relative.with_suffix('').as_posix(),
+                     'ambiguous_annotation' if len(matches) > 1 else 'missing_annotation'))
+    counts = {}
+    for job in jobs:
+        counts[job[2].casefold()] = counts.get(job[2].casefold(), 0) + 1
+    jobs = [(im, ann, key + im.suffix.lower() if counts[key.casefold()] > 1 else key, error)
+            for im, ann, key, error in jobs]
+    return jobs, [str(p.relative_to(boxes)) for p in annotations if p not in used]
+
+
+def bounded_log(image, boxes, io):
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = 1_000_000_000
+    with warnings.catch_warnings():
+        warnings.simplefilter('ignore', Image.DecompressionBombWarning)
+        source = Image.open(image)
+    log = io.Log(source, boxes, image.stem)
+    original_crop = io._crop
+    def probe(item):
+        import tifffile
+        item._strip_backend = False
+        try:
+            item._tiff = tifffile.TiffFile(image)
+            page = item._tiff.pages[0]
+            if (not page.is_tiled and page.planarconfig == 1 and page.photometric in (0,1,2,3)
+                    and max(page.databytecounts) <= 64_000_000
+                    and page.rowsperstrip * page.imagewidth * max(1, page.samplesperpixel) * page.dtype.itemsize <= 64_000_000):
+                page.decode(None, 0)
+                item._strip_backend = True
+        except (ImportError, ValueError, NotImplementedError):
+            pass
+    def crop(item, box):
+        x0, y0, x1, y1 = map(int, box)
+        if not (0 <= x0 < x1 <= item.size[0] and 0 <= y0 < y1 <= item.size[1]):
+            raise InputError('invalid_bounds', 'Crop is outside the image: ' + str(box))
+        if (x1-x0)*(y1-y0) > 32_000_000:
+            raise InputError('crop_limit', 'Crop exceeds 32 million pixels')
+        if item._strip_backend is None:
+            probe(item) if item.image.format == 'TIFF' else setattr(item, '_strip_backend', False)
+        if not item._strip_backend and item.size[0]*item.size[1] > 64_000_000:
+            raise InputError('decode_limit', 'Full-page decoding exceeds 64 million pixels; supported TIFF strips required')
+        return original_crop(item, box)
+    io._crop = crop
+    return log
+
+
 def page(image, annotation, folder, allow_assumed=False):
     for key in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
         os.environ[key] = '2'
@@ -39,7 +104,6 @@ def page(image, annotation, folder, allow_assumed=False):
     from PIL import Image, ImageDraw, ImageFont
     from harness import io, depth
     from ml.combine.runtime import run
-    Image.MAX_IMAGE_PIXELS = None
     model_root = Path(__file__).parent / 's19'
     pins = json.loads((model_root / 'models/sha256.json').read_text(encoding='utf-8'))
     for name, digest in pins.items():
@@ -47,7 +111,7 @@ def page(image, annotation, folder, allow_assumed=False):
             raise ValueError('Model hash mismatch: ' + name)
     data = json.loads(annotation.read_text(encoding='utf-8'))
     boxes = data.get('bounding_boxes', data)
-    log = io.Log(Image.open(image), boxes, image.stem)
+    log = bounded_log(image, boxes, io)
     if log.image.format != 'TIFF':
         log._strip_backend = False
     # Put all mutable depth caches under this page's output directory.
@@ -61,6 +125,8 @@ def page(image, annotation, folder, allow_assumed=False):
     try:
         box = list(map(int, boxes['interpreted_lithology_column']))
         doc['full_column_bounds'] = box
+        if (box[2]-box[0])*(box[3]-box[1]) > 32_000_000:
+            raise InputError('crop_limit', 'Column exceeds 32 million pixels')
         calib = None
         try:
             calib = depth.calibrate(log)
@@ -107,8 +173,14 @@ def page(image, annotation, folder, allow_assumed=False):
         header = 70
         tx = max(150, x1-x0+30)
         width = max(1000, tx+800)
-        canvas = Image.new('RGB', (width, y1-y0+header), 'white')
-        canvas.paste(io._crop(log, tuple(box)), (8, header))
+        preview_scale = min(1.0, 32_000_000 / (width * (y1-y0+header)))
+        canvas = Image.new('RGB', (width, max(header+1, int((y1-y0)*preview_scale)+header)), 'white')
+        column = io._crop(log, tuple(box))
+        if preview_scale < 1:
+            column = column.resize((column.width, max(1, int(column.height*preview_scale))))
+        canvas.paste(column, (8, header))
+        doc['preview_vertical_scale'] = preview_scale
+        doc['frame_index'] = 0
         draw = ImageDraw.Draw(canvas)
         small = ImageFont.load_default(size=8)
         draw.text((8, 5), image.stem, fill='black')
@@ -116,7 +188,7 @@ def page(image, annotation, folder, allow_assumed=False):
         draw.text((8, 48), doc['reason'], fill='#a02020')
         for row in rows:
             a, b = int(row['top_y']), int(row['bottom_y'])
-            yy, bb = header+a-y0, header+b-y0
+            yy, bb = header+int((a-y0)*preview_scale), header+int((b-y0)*preview_scale)
             draw.line((8, yy, tx, yy), fill='#d02020')
             draw.line((8, bb, tx, bb), fill='#d02020')
             draw.rectangle((tx, yy, width-5, max(yy, bb-1)), fill='#e5ebf2', outline='#657987')
@@ -142,24 +214,43 @@ def page(image, annotation, folder, allow_assumed=False):
         log.close()
 
 
-def launch(image, args):
+def launch(job, args):
+    image, annotation, page_id, match_error = job
     start = time.monotonic()
-    folder = args.out / image.stem
+    folder = args.out / page_id
+    if folder.exists() and not args.force:
+        receipt = folder / 'document.sidecar.json'
+        if receipt.is_file():
+            try:
+                cached = json.loads(receipt.read_text(encoding='utf-8'))
+            except (ValueError, OSError):
+                cached = {}
+            if (cached.get('status') == 'ok' and annotation and
+                    cached.get('image_sha256') == sha(image) and
+                    cached.get('annotation_sha256') == sha(annotation) and
+                    cached.get('allow_assumed_units') == args.allow_assumed_units):
+                return cached
+    if folder.exists():
+        shutil.rmtree(folder)
     folder.mkdir(parents=True, exist_ok=True)
-    annotation = args.boxes / (image.stem + '.json')
     command = [sys.executable, '-m', 'pipeline.final', '--page', str(image),
                '--boxes', str(annotation), '--out', str(folder)]
     if args.allow_assumed_units:
         command.append('--allow-assumed-units')
     try:
+        if annotation is None:
+            raise InputError(match_error, 'No unique bounding-box JSON for ' + str(image))
         with (folder / 'worker.log').open('w', encoding='utf-8') as stream:
             result = subprocess.run(command, stdout=stream, stderr=subprocess.STDOUT, timeout=args.timeout)
-        if result.returncode:
+        if result.returncode and not (folder / 'document.sidecar.json').exists():
             raise RuntimeError('Worker failed; see ' + str(folder / 'worker.log'))
         doc = json.loads((folder / 'document.sidecar.json').read_text(encoding='utf-8'))
     except Exception as exc:
         doc = dict(page=image.stem, rows=0, status='failed', depth_status='unavailable', reason=str(exc),
-                   image_sha256=sha(image), annotation_sha256=sha(annotation) if annotation.is_file() else None)
+                   image_sha256=sha(image), annotation_sha256=sha(annotation) if annotation and annotation.is_file() else None,
+                   failure_type=getattr(exc, 'code', 'timeout' if isinstance(exc, subprocess.TimeoutExpired) else type(exc).__name__))
+    doc['allow_assumed_units'] = args.allow_assumed_units
+    doc['page'] = page_id
     doc['seconds'] = round(time.monotonic()-start, 3)
     write(folder / 'document.sidecar.json', doc)
     return doc
@@ -168,34 +259,63 @@ def launch(image, args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--images', type=Path)
-    parser.add_argument('--boxes', type=Path, required=True)
-    parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--boxes', type=Path)
+    parser.add_argument('--data', type=Path)
+    parser.add_argument('root', type=Path, nargs='?')
+    parser.add_argument('--out', type=Path)
+    parser.add_argument('--selftest', action='store_true')
+    parser.add_argument('--force', action='store_true', help='Replace per-page outputs; default resumes successful pages with unchanged inputs')
     parser.add_argument('--workers', type=int, default=2)
     parser.add_argument('--timeout', type=float, default=600)
     parser.add_argument('--allow-assumed-units', action='store_true', help='Reproduce provisional official numeric depths even when units are assumed')
     parser.add_argument('--page', type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args()
+    if args.selftest:
+        import tempfile
+        sample = Path(__file__).resolve().parents[1] / 'tests/assets/final-sample'
+        with tempfile.TemporaryDirectory(prefix='s19-selftest-') as directory:
+            result = subprocess.run([sys.executable, '-m', 'pipeline.final',
+                '--data', str(sample), '--out', directory, '--workers', '1', '--timeout', '50'], timeout=55)
+            manifest = json.loads((Path(directory) / 'official_manifest.json').read_text(encoding='utf-8'))
+            print('SELFTEST ' + ('PASS' if manifest['complete'] else 'FAIL'), flush=True)
+            return result.returncode
+    if not args.out:
+        parser.error('--out is required')
     if args.page:
-        write(args.out / 'document.sidecar.json', page(args.page, args.boxes, args.out, args.allow_assumed_units))
-        return 0
-    if not args.images or args.workers < 1 or args.timeout <= 0:
-        parser.error('--images, positive --workers and positive --timeout are required')
-    images = sorted(p for p in args.images.iterdir() if p.suffix.lower() in ('.tif', '.tiff', '.png', '.jpg', '.jpeg'))
-    if not images:
+        try:
+            doc = page(args.page, args.boxes, args.out, args.allow_assumed_units)
+        except Exception as exc:
+            doc = dict(page=args.page.stem, rows=0, status='failed', depth_status='unavailable',
+                       reason=str(exc), failure_type=getattr(exc, 'code', type(exc).__name__))
+        write(args.out / 'document.sidecar.json', doc)
+        return 0 if doc['status'] == 'ok' else 1
+    root = args.data or args.root
+    if root is None and args.images and (args.images / 'images').is_dir():
+        root = args.images
+    if root is None and args.images is None:
+        root = Path.cwd()
+    if root:
+        args.images = root / 'images'
+        args.boxes = args.boxes or root / 'bbox_annotation'
+    if not args.images or not args.boxes or args.workers < 1 or args.timeout <= 0:
+        parser.error('Supply --data or --images/--boxes, positive workers and timeout')
+    if not args.images.is_dir() or not args.boxes.is_dir():
+        parser.error('Image and bounding-box directories must exist')
+    jobs, extra = discover(args.images, args.boxes)
+    if not jobs:
         parser.error('No supported images found')
-    if len({p.stem for p in images}) != len(images):
-        parser.error('Duplicate image stems would overwrite outputs')
-    if args.out.exists() and any(args.out.iterdir()):
-        parser.error('Output directory must be empty; use a new directory for each batch')
+    ids = [job[2] for job in jobs]
+    if len({name.casefold() for name in ids}) != len(ids):
+        parser.error('Image paths have duplicate stems; rename conflicting files')
     args.out.mkdir(parents=True, exist_ok=True)
     docs = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = [pool.submit(launch, image, args) for image in images]
+        futures = [pool.submit(launch, image, args) for image in jobs]
         for future in concurrent.futures.as_completed(futures):
             doc = future.result()
             docs.append(doc)
             print('Finished ' + doc['page'] + ': ' + doc['status'], flush=True)
-    manifest = dict(version='s19-final-v1', documents=sorted(docs, key=lambda d: d['page']),
+    manifest = dict(version='s19-final-v2', extra_annotations=extra, documents=sorted(docs, key=lambda d: d['page']),
                     complete=all(d['status'] == 'ok' for d in docs),
                     depth_complete=all(d['depth_status'] == 'calibrated' for d in docs))
     manifest['files'] = {str(p.relative_to(args.out)): sha(p) for p in args.out.rglob('*')

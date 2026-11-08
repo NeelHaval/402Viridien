@@ -16,7 +16,7 @@ def test_generated_page(tmp_path):
     boxes.mkdir()
     image = Image.new('RGB', (700, 1000), 'white')
     draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype('DejaVuSans.ttf', 30)
+    font = ImageFont.load_default(size=30)
     draw.rectangle((30, 50, 80, 75), fill='#808080', outline='black', width=2)
     draw.text((95, 45), 'Shale', font=font, fill='black')
     draw.rectangle((400, 150, 460, 950), fill='#808080', outline='black')
@@ -54,4 +54,74 @@ def test_generated_page(tmp_path):
     assert result.returncode == 1
     failed = json.loads((timed / 'official_manifest.json').read_text(encoding='utf-8'))
     assert len(failed['documents']) == 2
-    assert all(d['status'] == 'failed' and 'timed out' in d['reason'] for d in failed['documents'])
+    assert all(d['status'] == 'failed' and d['failure_type'] in ('timeout', 'missing_annotation') for d in failed['documents'])
+
+
+import pytest
+from pipeline.final import discover, bounded_log, InputError
+
+
+@pytest.mark.parametrize('suffix', ['.tif', '.tiff', '.TIF', '.png', '.jpg', '.jpeg'])
+def test_nested_layout(tmp_path, suffix):
+    images = tmp_path / 'images'
+    boxes = tmp_path / 'bbox_annotation'
+    (images / 'nested').mkdir(parents=True)
+    (boxes / 'nested').mkdir(parents=True)
+    (images / 'nested' / ('page ü space' + suffix)).touch()
+    (boxes / 'nested/page ü space.json').write_text('{}', encoding='utf-8')
+    (tmp_path / 'labels.json').write_text('MUST NOT READ', encoding='utf-8')
+    (boxes / 'extra.json').write_text('{}', encoding='utf-8')
+    jobs, extras = discover(images, boxes)
+    assert len(jobs) == 1 and jobs[0][1].name == 'page ü space.json'
+    assert extras == ['extra.json']
+
+
+def test_ambiguous_and_missing(tmp_path):
+    images, boxes = tmp_path / 'images', tmp_path / 'bbox_annotation'
+    images.mkdir()
+    for name in ['a', 'b']:
+        (boxes / name).mkdir(parents=True)
+        (boxes / name / 'p.json').write_text('{}', encoding='utf-8')
+    (images / 'p.png').touch()
+    (images / 'missing.png').touch()
+    jobs, _ = discover(images, boxes)
+    assert {job[3] for job in jobs} == {'ambiguous_annotation', 'missing_annotation'}
+
+
+@pytest.mark.parametrize('mode', ['I;16', 'CMYK', 'RGB'])
+def test_tiff_modes_and_frames(tmp_path, mode):
+    from pipeline import run
+    from harness import io
+    path = tmp_path / 'multi.tiff'
+    image = Image.new(mode, (20, 30))
+    image.save(path, save_all=True, append_images=[image])
+    previous = io._crop
+    try:
+        log = bounded_log(path, {}, io)
+        assert log.size == (20, 30)
+        assert io._crop(log, (0, 0, 10, 10)).mode == 'RGB'
+        with pytest.raises(InputError, match='outside'):
+            io._crop(log, (-1, 0, 10, 10))
+        log.close()
+    finally:
+        io._crop = previous
+
+
+@pytest.mark.parametrize('option', ['--data', '--images', 'positional', 'cwd'])
+def test_root_cli(tmp_path, option):
+    (tmp_path / 'images').mkdir()
+    (tmp_path / 'bbox_annotation').mkdir()
+    Image.new('RGB', (2, 2)).save(tmp_path / 'images/ü space.png')
+    command = [sys.executable, '-m', 'pipeline.final']
+    if option == 'positional':
+        command += [str(tmp_path)]
+    elif option != 'cwd':
+        command += [option, str(tmp_path)]
+    command += ['--out', str(tmp_path / 'out')]
+    import os
+    env = dict(os.environ, PYTHONPATH=str(Path(__file__).resolve().parents[1]))
+    result = subprocess.run(command, cwd=tmp_path if option == 'cwd' else None,
+                            env=env, capture_output=True, text=True, timeout=30)
+    assert result.returncode == 1, result.stderr
+    doc = json.loads((tmp_path / 'out/official_manifest.json').read_text(encoding='utf-8'))['documents'][0]
+    assert doc['failure_type'] == 'missing_annotation'

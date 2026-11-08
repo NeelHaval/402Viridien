@@ -1,15 +1,20 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 easyocr==1.7.2
-matplotlib==3.11.2
-numpy==2.5.4
-opencv-python-headless==5.0.0.93
-pillow==13.0.0
-psutil==7.2.2
+matplotlib==3.9.2
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+opencv-python==4.11.0.86
+pillow==11.1.0
+psutil==6.1.1
 rapidocr-onnxruntime==1.4.4
-ruptures==1.1.10
-scikit-learn==1.9.1
-scipy==1.18.1
-threadpoolctl==3.8.0
-tifffile==2026.10.15
-torch==2.15.0+cpu
-torchvision==0.29.2+cpu
+onnxruntime==1.23.2
+ruptures==1.1.9
+scikit-learn==1.8.0
+scipy==1.13.1
+threadpoolctl==3.6.0
+tifffile==2025.2.18
+torch==2.5.1+cpu; sys_platform != "darwin"
+torchvision==0.20.1+cpu; sys_platform != "darwin"
+torch==2.5.1; sys_platform == "darwin"
+torchvision==0.20.1; sys_platform == "darwin"
+imagecodecs==2024.12.30

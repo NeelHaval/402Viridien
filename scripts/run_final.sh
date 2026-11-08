@@ -1,10 +1,12 @@
 #!/bin/sh
 set -eu
-if [ "$#" -ne 3 ]; then
-    echo 'Usage: run_final.sh <images_dir> <boxes_dir> <out_dir>' >&2
-    exit 2
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$ROOT"
+PYTHON=${FINAL_PYTHON:-python}
+if [ "$#" -eq 2 ]; then
+    exec "$PYTHON" -m pipeline.final --data "$1" --out "$2" --workers "${FINAL_WORKERS:-2}" --timeout "${FINAL_TIMEOUT:-600}"
+elif [ "$#" -eq 3 ]; then
+    exec "$PYTHON" -m pipeline.final --images "$1" --boxes "$2" --out "$3" --workers "${FINAL_WORKERS:-2}" --timeout "${FINAL_TIMEOUT:-600}"
 fi
-cd /srv/viridien/verify/repo
-exec /srv/viridien/verify/venv/bin/python -m pipeline.final \
-    --images "$1" --boxes "$2" --out "$3" --workers "${FINAL_WORKERS:-2}" \
-    --timeout "${FINAL_TIMEOUT:-600}"
+echo 'Usage: run_final.sh <data_root> <out> OR <images> <boxes> <out>' >&2
+exit 2
