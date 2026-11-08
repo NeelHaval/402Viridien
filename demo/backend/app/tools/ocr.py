@@ -229,11 +229,18 @@ def _pool() -> ThreadPoolExecutor:
 
 
 def warmup() -> None:
-    """Load every engine and run one tiny recognition on each so the first request is fast."""
-    img = np.full((80, 320), 255, np.uint8)
-    cv2.putText(img, "0123 456", (10, 55), cv2.FONT_HERSHEY_SIMPLEX, 1.4, 0, 3)
+    """Load every engine and run a real-sized call on each (a 1,600 px wide page with a dozen text lines), so the first request
+    pays no one-off allocation or graph-optimisation cost."""
+    img = np.full((900, 1600), 255, np.uint8)
+    for i in range(12):
+        cv2.putText(img, f"WELL {i} LAT 28.{i}25 LONG -89.{i}67 API 6080840014{i:04d}", (20, 60 + 70 * i), cv2.FONT_HERSHEY_SIMPLEX, 1.1, 0, 2)
     get_engine().run(img, None)
-    get_locate_engine().run(img, None)
+    locate = get_locate_engine()
+    if hasattr(locate, "detect_lines"):
+        _, crops = locate.detect_lines(img)
+        locate.recognise(crops)
+    else:
+        locate.run(img, None)
 
 
 def repair_digits(text: str) -> str:

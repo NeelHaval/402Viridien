@@ -56,3 +56,17 @@ def test_synthetic_column_is_deterministic() -> None:
     x0, y0, x1, y1 = synth.LITH_BOX
     col = ColumnImage(page[y0:y1, x0:x1], y0)
     assert np.array_equal(compute_features(col).matrix, compute_features(col).matrix)
+
+
+def test_batched_features_equal_the_per_stripe_ones() -> None:
+    """compute_features labels the whole column at once; every stripe must equal `stripe_features` exactly."""
+    import numpy as np
+    from app.pipeline.stages.features import raw_features, stripe_features
+    rng = np.random.default_rng(7)
+    for width, density in ((60, 0.1), (60, 0.5), (4000, 0.3)):  # the last case exceeds MAX_COMPONENTS in some stripes
+        rgb = np.full((83, width, 3), 255, np.uint8)             # 83 rows: the last stripe has 3 rows
+        rgb[rng.random((83, width)) < density] = rng.integers(0, 100)
+        rgb[10:18] = 255                                          # a blank stripe
+        rgb[40:48, :, 1] = 200                                    # a tinted stripe
+        want = np.stack([stripe_features(rgb[s:s + 8]) for s in range(0, 83, 8)]).astype(np.float32)
+        assert np.array_equal(raw_features(rgb, 8), want)

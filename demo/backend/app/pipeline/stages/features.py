@@ -38,10 +38,55 @@ def zscore(matrix: np.ndarray) -> np.ndarray:
     return (matrix - matrix.mean(0)) / scale
 
 
+def raw_features(rgb: np.ndarray, height: int) -> np.ndarray:
+    """`stripe_features` for every stripe at once, with identical values.
+
+    The column is labelled in one call (one blank row after each stripe keeps components inside their stripe); per-stripe
+    sums, counts and component centres come from bincount. Only the pairwise-distance mean stays a per-stripe call.
+    """
+    rows, width = rgb.shape[:2]
+    stripe = np.arange(rows) // height
+    n_stripes = int(stripe[-1]) + 1
+    black = rgb.mean(2, dtype=np.float32) < INK_THRESHOLD
+    ink_rows = black.sum(1)
+    size = np.bincount(stripe, minlength=n_stripes) * width
+    density = np.bincount(stripe, weights=ink_rows, minlength=n_stripes) / size
+    bg_count = size - np.bincount(stripe, weights=ink_rows, minlength=n_stripes)
+    paper = np.stack([np.bincount(stripe, weights=(rgb[..., c] * ~black).sum(1), minlength=n_stripes) for c in range(3)], 1)
+    with np.errstate(invalid="ignore", divide="ignore"):
+        bg_rgb = np.where(bg_count[:, None] > 0, paper / bg_count[:, None] / 255.0, 1.0)
+    spaced = np.zeros((rows + n_stripes, width), bool)
+    spaced[np.arange(rows) + stripe] = black
+    lab, n = label(spaced, structure=np.ones((3, 3)))
+    yy, xx = np.nonzero(lab)
+    ids = lab[yy, xx]
+    pixel_stripe = yy // (height + 1)
+    local_y = yy - pixel_stripe * (height + 1)
+    sizes = np.bincount(ids, minlength=n + 1)[1:]
+    owner = np.zeros(n + 1, int)
+    owner[ids] = pixel_stripe
+    owner = owner[1:]
+    centres = np.stack([np.bincount(ids, weights=local_y, minlength=n + 1)[1:] / sizes,
+                        np.bincount(ids, weights=xx, minlength=n + 1)[1:] / sizes], 1) if n else np.zeros((0, 2))
+    count = np.bincount(owner, minlength=n_stripes)
+    size_sum = np.bincount(owner, weights=sizes, minlength=n_stripes)
+    first = np.concatenate([[0], np.cumsum(count)])  # labels are numbered in raster order, so each stripe's labels are contiguous
+    out = np.zeros((n_stripes, 7), np.float64)
+    out[:, 0], out[:, 4:] = density, bg_rgb
+    out[:, 1] = count
+    for k in np.flatnonzero(count):
+        out[k, 3] = size_sum[k] / count[k]
+        if count[k] > 1:
+            pts = centres[first[k]:first[k + 1]]
+            if count[k] > MAX_COMPONENTS:  # same deterministic subsample as stripe_features
+                pts = pts[np.random.default_rng(0).choice(count[k], MAX_COMPONENTS, replace=False)]
+            out[k, 2] = pdist(pts).mean()
+    return out.astype(np.float32)
+
+
 def compute_features(column: ColumnImage, height: int = 8) -> StripeFeatures:
     """Z-scored feature matrix for stripes of `height` rows (the last stripe may be shorter)."""
     rgb = column.rgb
     if rgb.ndim != 3 or rgb.shape[0] == 0:
         raise PipelineError("lithology column is empty", "no_column")
-    raw = np.stack([stripe_features(rgb[s:s + height]) for s in range(0, len(rgb), height)]).astype(np.float32)
-    return StripeFeatures(zscore(raw), height)
+    return StripeFeatures(zscore(raw_features(rgb, height)), height)
