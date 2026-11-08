@@ -12,3 +12,11 @@ shenzi_73k_pal run2: total 49.12s pin 49.12s upload 0.08s
 shenzi_73k_pal run3: total 51.89s pin 51.89s upload 0.10s
 mdn1_188k run1: total 83.32s pin 83.32s upload 0.47s
 mdn1_188k run2: total 85.71s pin 85.71s upload 0.45s
+mdn1_188k run3: total 85.44s pin 85.44s upload 0.41s
+
+scan  first_run  warm_median
+shell08852_9k       12.98 11.47
+mc761_15k_pal       20.18 17.99
+hadrian_50k         30.40 30.39
+shenzi_73k_pal      51.31 51.31
+mdn1_188k           83.32 85.44
