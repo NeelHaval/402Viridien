@@ -3,10 +3,9 @@ easyocr==1.7.2
 matplotlib==3.9.2
 numpy==1.26.4
 opencv-python-headless==4.11.0.86
-opencv-python==4.11.0.86
 pillow==11.1.0
 psutil==6.1.1
-rapidocr-onnxruntime==1.4.4
+./vendor/wheels/rapidocr_onnxruntime-1.4.4+headless-py3-none-any.whl
 onnxruntime==1.23.2
 ruptures==1.1.10
 scikit-learn==1.8.0
