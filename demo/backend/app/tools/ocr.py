@@ -76,11 +76,26 @@ class _RapidEngine:
 
     name = "rapidocr"
 
-    def __init__(self) -> None:
-        """Load the ONNX models once, without the angle classifier (rotation is handled by callers)."""
+    def __init__(self, intra_threads: int | None = None, rec_threads: int = REC_THREADS) -> None:
+        """Load the ONNX models once, without the angle classifier (rotation is handled by callers).
+
+        `intra_threads` fixes onnxruntime's intra-op thread count for every session of this engine (None = its default).
+        """
+        import rapidocr_onnxruntime.utils as rapid_utils
         from rapidocr_onnxruntime import RapidOCR
-        self._ocr = RapidOCR(use_angle_cls=False, width_height_ratio=-1, min_height=0, det_model_path=None,
-                             det_limit_type="max", det_limit_side_len=RAPID_DET_LIMIT, text_score=0.0)
+        self._rec_threads = rec_threads
+        original = rapid_utils.SessionOptions
+        if intra_threads:
+            class _Options(original):  # type: ignore[misc, valid-type]
+                def __init__(self) -> None:
+                    super().__init__()
+                    self.intra_op_num_threads, self.inter_op_num_threads = intra_threads, 1
+            rapid_utils.SessionOptions = _Options
+        try:
+            self._ocr = RapidOCR(use_angle_cls=False, width_height_ratio=-1, min_height=0, det_model_path=None,
+                                 det_limit_type="max", det_limit_side_len=RAPID_DET_LIMIT, text_score=0.0)
+        finally:
+            rapid_utils.SessionOptions = original
 
     def run(self, gray: np.ndarray, deadline: float | None = None):
         """Detect once, then recognise lines in reading order across threads until the deadline."""
@@ -91,7 +106,7 @@ class _RapidEngine:
         boxes = self._ocr.sorted_boxes(boxes)
         crops = self._ocr.get_crop_img_list(bgr, boxes)
         batches = [(i, crops[i:i + REC_BATCH]) for i in range(0, len(crops), REC_BATCH)]
-        with ThreadPoolExecutor(REC_THREADS) as pool:
+        with ThreadPoolExecutor(self._rec_threads) as pool:
             parts = list(pool.map(lambda b: self._recognise(b, deadline), batches))
         out, truncated = [], False
         for (start, chunk), rec in zip(batches, parts):
@@ -100,6 +115,23 @@ class _RapidEngine:
                 xs, ys = boxes[start + k][:, 0], boxes[start + k][:, 1]
                 out.append((str(text), float(conf), (float(xs.min()), float(ys.min()), float(xs.max()), float(ys.max()))))
         return out, truncated
+
+    def detect_lines(self, gray: np.ndarray) -> tuple[list[tuple[float, float, float, float]], list[np.ndarray]]:
+        """Detect text lines once; returns their boxes and crops in reading order (top to bottom, left to right)."""
+        bgr = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
+        boxes, _ = self._ocr.text_detector(bgr)
+        if boxes is None or len(boxes) == 0:
+            return [], []
+        boxes = self._ocr.sorted_boxes(boxes)
+        crops = self._ocr.get_crop_img_list(bgr, boxes)
+        return [(float(b[:, 0].min()), float(b[:, 1].min()), float(b[:, 0].max()), float(b[:, 1].max())) for b in boxes], crops
+
+    def recognise(self, crops: list[np.ndarray]) -> list[tuple[str, float]]:
+        """Recognise crops in ONE batched call (the recogniser sorts them by width, which wastes the least padding)."""
+        if not crops:
+            return []
+        rec, _ = self._ocr.text_recognizer(crops)
+        return [(str(t), float(c)) for t, c in rec]
 
     def _recognise(self, batch: tuple[int, list[np.ndarray]], deadline: float | None):
         """Recognise one batch of crops, or return None when the deadline has passed."""
@@ -144,6 +176,8 @@ class _TesseractEngine:
 
 
 _ENGINE: _Engine | None = None
+_LOCATE_ENGINE: _Engine | None = None
+LOCATE_THREADS = 4
 _ENGINE_LOCK = threading.Lock()
 _POOL: ThreadPoolExecutor | None = None
 
@@ -155,6 +189,20 @@ def get_engine() -> _Engine:
         if _ENGINE is None:
             _ENGINE = _create_engine()
         return _ENGINE
+
+
+def get_locate_engine() -> _Engine:
+    """A second engine with its own onnxruntime sessions (4 threads) used only for the header location, so it never
+    waits for, or competes with, legend and depth OCR. Falls back to the shared engine when RapidOCR is missing."""
+    global _LOCATE_ENGINE
+    with _ENGINE_LOCK:
+        if _LOCATE_ENGINE is None:
+            try:
+                _LOCATE_ENGINE = _RapidEngine(intra_threads=LOCATE_THREADS, rec_threads=1)
+            except (ImportError, OSError, RuntimeError, ValueError):
+                _LOCATE_ENGINE = None
+        engine = _LOCATE_ENGINE
+    return engine if engine is not None else get_engine()
 
 
 def _create_engine() -> _Engine:
@@ -178,10 +226,11 @@ def _pool() -> ThreadPoolExecutor:
 
 
 def warmup() -> None:
-    """Load the engine and run one tiny recognition so the first request is fast."""
+    """Load every engine and run one tiny recognition on each so the first request is fast."""
     img = np.full((80, 320), 255, np.uint8)
     cv2.putText(img, "0123 456", (10, 55), cv2.FONT_HERSHEY_SIMPLEX, 1.4, 0, 3)
     get_engine().run(img, None)
+    get_locate_engine().run(img, None)
 
 
 def repair_digits(text: str) -> str:
@@ -353,7 +402,7 @@ def _finish(raw: list, scale: float, k: int, shape: tuple[int, int], min_conf: f
 
 
 def ocr_region(img: np.ndarray, *, rotate: int = 0, min_conf: float = 0.5, time_budget_s: float = 1.0,
-               target_height: float | None = None) -> OcrResult:
+               target_height: float | None = None, engine: _Engine | None = None, inline: bool = False) -> OcrResult:
     """OCR an image region; `rotate` is np.rot90 quarter turns, `target_height` the known text height in px."""
     t0 = time.perf_counter()
     result = OcrResult(rotation=rotate % 4)
@@ -370,20 +419,29 @@ def ocr_region(img: np.ndarray, *, rotate: int = 0, min_conf: float = 0.5, time_
         return _timed(result, t0)
     if int(gray.min()) == int(gray.max()):
         return _timed(result, t0)
-    engine = get_engine()
+    engine = engine or get_engine()
     result.engine = engine.name
     proc, scale = _prepare(gray, target_height)
-    raw = _run_windows(engine, proc, t0 + time_budget_s, result.warnings)
+    raw = _run_windows(engine, proc, t0 + time_budget_s, result.warnings, inline)
     result.lines = _finish(raw, scale, k, (h, w), min_conf)
     if result.lines and float(np.mean([ln.conf for ln in result.lines])) < LOW_CONF_MEAN:
         result.warnings.append("low_ocr_confidence")
     return _timed(result, t0)
 
 
-def _run_windows(engine: _Engine, proc: np.ndarray, deadline: float, warnings: list[str]) -> list:
-    """Split along the long axis, OCR windows in the pool, and collect before the deadline."""
+def _run_windows(engine: _Engine, proc: np.ndarray, deadline: float, warnings: list[str], inline: bool = False) -> list:
+    """Split along the long axis, OCR windows in the pool (or one after another in this thread when `inline`)."""
     horizontal = proc.shape[1] >= proc.shape[0]
     length = proc.shape[1] if horizontal else proc.shape[0]
+    if inline:
+        items = []
+        for start in _window_starts(length):
+            win = proc[:, start:start + WINDOW_PX] if horizontal else proc[start:start + WINDOW_PX]
+            found, cut = _run_window(engine, np.ascontiguousarray(win), start, horizontal, deadline)
+            items += found
+            if cut:
+                warnings.append("ocr_time_budget_hit")
+        return items
     pool = _pool()
     futures = []
     for start in _window_starts(length):

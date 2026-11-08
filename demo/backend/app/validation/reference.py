@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -19,7 +20,7 @@ _state = {"dir": Path(os.environ.get("VALIDATION_REFERENCE_DIR", _DEFAULT_DIR))}
 def set_reference_dir(path: str | Path | None) -> None:
     """Point the loaders at another folder (or back to the default) and clear all caches."""
     _state["dir"] = Path(path) if path else _DEFAULT_DIR
-    for fn in (load_macrostrat_grid, load_boem_wells, load_bathymetry, load_transitions, _bathymetry_grid):
+    for fn in (load_macrostrat_grid, load_boem_wells, load_bathymetry, load_transitions, _bathymetry_grid, _api_index):
         fn.cache_clear()
 
 
@@ -120,3 +121,42 @@ def bathymetry_at(lat: float, lon: float) -> float | None:
         return None
     value = grid[i, j]
     return None if np.isnan(value) else float(value)
+
+
+@lru_cache(maxsize=1)
+def _api_index() -> tuple[dict, dict, dict] | None:
+    """BOEM wells indexed by their full API digits, first 12 digits and first 10 digits -> (lat, lon)."""
+    df = load_boem_wells()
+    if df is None or "api" not in df.columns:
+        return None
+    full: dict[str, tuple[float, float]] = {}
+    by12: dict[str, tuple[float, float]] = {}
+    by10: dict[str, tuple[float, float]] = {}
+    for api, lat, lon in zip(df["api"].astype(str), df["lat"].to_numpy(float), df["lon"].to_numpy(float)):
+        digits = re.sub(r"\D", "", api.split(".")[0] if api.endswith(".0") else api)
+        if len(digits) < 10 or np.isnan(lat) or np.isnan(lon):
+            continue
+        pos = (float(lat), float(lon))
+        full.setdefault(digits, pos)
+        if len(digits) >= 12:
+            by12.setdefault(digits[:12], pos)
+        by10.setdefault(digits[:10], pos)
+    return full, by12, by10
+
+
+def well_position_by_api(api: str) -> tuple[float, float] | None:
+    """Position of a BOEM well from an API number: the full number, then its first 12 digits, then its first 10.
+
+    Returns None when the table is missing or has no such well.
+    """
+    index = _api_index()
+    if index is None:
+        return None
+    full, by12, by10 = index
+    digits = re.sub(r"\D", "", api or "")
+    if digits in full:
+        return full[digits]
+    for n, table in ((12, by12), (10, by10)):
+        if len(digits) >= n and digits[:n] in table:
+            return table[digits[:n]]
+    return None

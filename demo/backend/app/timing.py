@@ -1,8 +1,8 @@
-"""Tiny nested-span timer: `with span("name"):` records start, duration, thread and depth into the active trace.
+"""Tiny nested-span timer: `with span("name"):` records start, duration, thread and depth into the current trace.
 
-A trace is started per request / job with `with trace() as t:`; spans opened on other threads (OCR workers, executors) are
-recorded into the same trace as long as it is still active. With no active trace `span` costs one global lookup.
-`t.spans` is a list of dicts; `t.totals()` sums durations by name for the flat `timings` dict stored with each well.
+One `Trace` per well collects the spans of every thread that works on it (upload handler, location task, job worker). A thread
+joins a trace with `with attach(trace):`; `span` is a no-op in a thread with no trace. Starts are seconds since the trace
+origin (the moment the upload request began), so spans from different threads line up on one timeline.
 """
 from __future__ import annotations
 
@@ -11,48 +11,61 @@ import time
 from contextlib import contextmanager
 from typing import Iterator
 
-_active: "Trace | None" = None
-_lock = threading.Lock()
 _local = threading.local()
+_lock = threading.Lock()
 
 
 class Trace:
-    """Collected spans of one request or job."""
+    """Collected spans of one well."""
 
-    def __init__(self) -> None:
-        self.t0 = time.perf_counter()
+    def __init__(self, origin: float | None = None) -> None:
+        self.origin = time.perf_counter() if origin is None else origin
         self.spans: list[dict] = []
 
-    def totals(self) -> dict[str, float]:
-        """Sum of durations per span name, seconds."""
-        out: dict[str, float] = {}
-        for s in self.spans:
-            out[s["name"]] = out.get(s["name"], 0.0) + s["dur"]
-        return out
+    def mark(self, name: str) -> None:
+        """Record an instant event (duration 0), e.g. 'upload_saved'."""
+        self.add(name, time.perf_counter(), 0.0, 0)
 
     def add(self, name: str, start: float, dur: float, depth: int = 0) -> None:
         """Record a span measured elsewhere (`start` is an absolute perf_counter value)."""
         with _lock:
-            self.spans.append({"name": name, "start": round(start - self.t0, 4), "dur": round(dur, 4),
+            self.spans.append({"name": name, "start": round(start - self.origin, 4), "dur": round(dur, 4),
                                "thread": threading.current_thread().name, "depth": depth})
+
+    def totals(self) -> dict[str, float]:
+        """Sum of durations per span name, seconds."""
+        out: dict[str, float] = {}
+        with _lock:
+            for s in self.spans:
+                out[s["name"]] = out.get(s["name"], 0.0) + s["dur"]
+        return out
+
+    def snapshot(self) -> list[dict]:
+        """A copy of the spans, ordered by start time."""
+        with _lock:
+            return sorted(self.spans, key=lambda s: (s["start"], s["depth"]))
+
+
+def current() -> Trace | None:
+    """The trace attached to this thread, if any."""
+    return getattr(_local, "trace", None)
 
 
 @contextmanager
-def trace() -> Iterator[Trace]:
-    """Make a new trace the active one for the duration of the block."""
-    global _active
-    t = Trace()
-    prev, _active = _active, t
+def attach(trace: Trace | None) -> Iterator[Trace | None]:
+    """Make `trace` the current one for this thread for the duration of the block."""
+    prev, prev_depth = current(), getattr(_local, "depth", 0)
+    _local.trace, _local.depth = trace, 0
     try:
-        yield t
+        yield trace
     finally:
-        _active = prev
+        _local.trace, _local.depth = prev, prev_depth
 
 
 @contextmanager
 def span(name: str) -> Iterator[None]:
     """Time the block under `name`; nested spans get increasing depth (per thread)."""
-    t = _active
+    t = current()
     if t is None:
         yield
         return

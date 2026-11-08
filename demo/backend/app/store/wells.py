@@ -88,15 +88,32 @@ def mark_failed(db: Database, well_id: str, error: str, timings: dict | None = N
 
 def mark_ready(db: Database, well_id: str, *, name: str, lat: float | None, lon: float | None, block: str | None,
                total_depth_ft: float, csv_path: str, validation_confidence: float, validation: dict, scores: dict,
-               warnings: list[str], timings: dict) -> None:
-    """Store a finished well."""
+               warnings: list[str], timings: dict, location_source: str | None = None, api_number: str | None = None) -> None:
+    """Store a finished well. `located_at` keeps the moment the position was first stored."""
     with db.connect() as conn:
         conn.execute(
             """UPDATE wells SET status='ready', error=NULL, name=?, lat=?, lon=?, block=?, total_depth_ft=?, finished_at=?,
-               csv_path=?, validation_confidence=?, validation_json=?, scores_json=?, warnings_json=?, timings_json=? WHERE id=?""",
+               csv_path=?, validation_confidence=?, validation_json=?, scores_json=?, warnings_json=?, timings_json=?,
+               location_source=COALESCE(?, location_source), api_number=COALESCE(?, api_number),
+               located_at=CASE WHEN ? IS NOT NULL AND located_at IS NULL THEN ? ELSE located_at END WHERE id=?""",
             (name, lat, lon, block, total_depth_ft, now(), csv_path, validation_confidence, json.dumps(validation),
-             json.dumps(scores), json.dumps(warnings), json.dumps(timings), well_id),
+             json.dumps(scores), json.dumps(warnings), json.dumps(timings), location_source, api_number, lat, now(), well_id),
         )
+
+
+def set_location(db: Database, well_id: str, *, lat: float, lon: float, source: str, block: str | None = None,
+                 api_number: str | None = None, name: str | None = None) -> None:
+    """Store a found position at once (the job may still be running); `located_at` is the moment it was found."""
+    with db.connect() as conn:
+        conn.execute("UPDATE wells SET lat=?, lon=?, location_source=?, located_at=?, block=COALESCE(?, block), "
+                     "api_number=COALESCE(?, api_number), name=COALESCE(?, name) WHERE id=?",
+                     (lat, lon, source, now(), block, api_number, name, well_id))
+
+
+def set_timings(db: Database, well_id: str, timings: dict) -> None:
+    """Replace the stored timings (flat totals plus the span list) of a well."""
+    with db.connect() as conn:
+        conn.execute("UPDATE wells SET timings_json=? WHERE id=?", (json.dumps(timings), well_id))
 
 
 def set_scores(db: Database, well_id: str, scores: dict) -> None:

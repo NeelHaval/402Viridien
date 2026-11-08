@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 from scipy.signal import find_peaks
 
+from app.timing import span
 from app.tools.errors import OcrUnavailable
 from app.tools.location import Location, locate
 from app.tools.ocr import OcrLine, ocr_region, ocr_rotated_strip, repair_digits
@@ -363,25 +364,32 @@ def _locate_columns(scan, bbox: dict | None, warnings: list[str]):
     return guess.lith, guess.depth_candidates, guess.confidence, None
 
 
-def preprocess(scan, bbox: dict | None = None) -> Layer1Result:
-    """Run layer 1: columns, boundaries, depth calibration and header location."""
+def preprocess(scan, bbox: dict | None = None, *, with_location: bool = True) -> Layer1Result:
+    """Run layer 1: columns, boundaries, depth calibration and (unless `with_location` is False) header location.
+
+    The ingest service passes `with_location=False`: location is its own task (`app.services.locator`).
+    """
     t0 = time.perf_counter()
     timings: dict[str, float] = {}
     warnings: list[str] = []
     with ThreadPoolExecutor(1) as side:
-        loc_future = side.submit(locate, scan, LOCATE_BUDGET_S)
-        lith_x, depth_cands, conf, y_range = _locate_columns(scan, bbox, warnings)
+        loc_future = side.submit(locate, scan, LOCATE_BUDGET_S) if with_location else None
+        with span("layer1.columns"):
+            lith_x, depth_cands, conf, y_range = _locate_columns(scan, bbox, warnings)
         timings["columns"] = time.perf_counter() - t0
-        crop, x0, y0 = _crop_lith(scan, lith_x, y_range)
+        with span("layer1.crop"):
+            crop, x0, y0 = _crop_lith(scan, lith_x, y_range)
         timings["crop"] = time.perf_counter() - t0 - timings["columns"]
         t1 = time.perf_counter()
-        boundaries = find_boundaries(crop, y0)
+        with span("layer1.boundaries"):
+            boundaries = find_boundaries(crop, y0)
         timings["boundaries"] = time.perf_counter() - t1
         t2 = time.perf_counter()
-        calibration, depth_x = _calibrate_candidates(scan, depth_cands, y0, y0 + crop.shape[0], warnings, t0)
+        with span("layer1.calibration"):
+            calibration, depth_x = _calibrate_candidates(scan, depth_cands, y0, y0 + crop.shape[0], warnings, t0)
         timings["calibration"] = time.perf_counter() - t2
         t3 = time.perf_counter()
-        location = loc_future.result()
+        location = loc_future.result() if loc_future else Location()
         timings["location_wait"] = time.perf_counter() - t3
     timings["total"] = time.perf_counter() - t0
     legend = _parse_bbox(bbox).get("lithology_legend") if bbox else None

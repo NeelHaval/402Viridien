@@ -2,8 +2,8 @@
 
 Two clearly named stubs live here and nowhere in `app/`:
   * `stub_ocr_engine`  replaces the OCR model (the only learned model) with a scripted engine;
-  * `stub_layer1`      replaces the OCR-dependent parts of layer 1 (depth calibration and header location) with fixed
-                       values, so API tests do not depend on OCR reading synthetic text.
+  * `stub_layer1`      replaces the OCR-dependent parts of layer 1 (depth calibration) and the location task
+                       (`locate_well`) with fixed values, so API tests do not depend on OCR reading synthetic text.
 """
 from __future__ import annotations
 
@@ -57,14 +57,21 @@ def stub_layer1(monkeypatch):
     state = {"location": Location(lat=27.5, lon=-90.0, well_name="Test Well", block="GC 100", source="header", confidence=0.9),
              "calibration": Calibration(0.25, 5000.0, 0.1, 10, 12)}
 
-    def fake_preprocess(scan, bbox=None) -> Layer1Result:
+    def fake_preprocess(scan, bbox=None, with_location=True) -> Layer1Result:
         x0, y0, x1, y1 = synth.LITH_BOX
         crop = scan.reader.crop(y0, y1, x0, x1)
         time.sleep(0.01)
         return Layer1Result(crop, y0, (x0, x1), [], state["calibration"], state["location"], 1.0, [], {"total": 0.01},
                             legend_box=synth.LEGEND_BOX if bbox else None)
 
+    def fake_locate_well(path, filename, bbox=None, on_located=None) -> Location:
+        loc = state["location"]
+        if loc.lat is not None and on_located:
+            on_located(loc)
+        return loc
+
     monkeypatch.setattr("app.services.ingest.preprocess", fake_preprocess)
+    monkeypatch.setattr("app.services.ingest.locate_well", fake_locate_well)
     return state
 
 

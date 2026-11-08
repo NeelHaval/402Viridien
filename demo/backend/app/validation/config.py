@@ -50,7 +50,7 @@ NEIGHBOUR_COUNT = 5
 NEIGHBOUR_DEPTH_TOLERANCE = 0.3
 NEIGHBOUR_ZERO_AT = 2.0
 
-LOCATION_RELIABILITY = {"header": 1.0, "block_centroid": 0.6, "pipeline": 0.5}
+LOCATION_RELIABILITY = {"header": 1.0, "filename_api": 1.0, "header_api": 1.0, "block_centroid": 0.6, "filename_block": 0.6, "pipeline": 0.5}
 LOW_LOCATION_CONFIDENCE = 0.3
 OFFSHORE_API_PREFIX = "60"
 BATHYMETRY_MAX_GAP_DEG = 0.5

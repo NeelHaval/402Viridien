@@ -22,7 +22,9 @@ SCANS = {
     "hadrian_50k": "60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",             # 50,000 px, RGB
     "shenzi_73k_pal": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",      # 72,600 px, palette, widest (2550)
     "mdn1_188k": "60811405800100_mdn-1_st00bp01_5 inch tvdmudlog_4560ft-22998ft.tif",    # 187,600 px, RGB, tallest
+    "bw_g4_10k": "0000000009_d-582_0000020435-0001_log08_fe_5in_md.tif",                 # 10,007 x 4,864 px, 1-bit CCITT G4
 }
+DEFAULT_SCANS = [k for k in SCANS if k != "bw_g4_10k"]
 PORT = int(os.environ.get("BENCH_PORT", "8765"))
 BASE = f"http://127.0.0.1:{PORT}"
 
@@ -42,32 +44,56 @@ def start_server(data_dir: Path) -> subprocess.Popen:
     raise SystemExit("server did not start")
 
 
+EVENTS: dict[str, dict[str, float]] = {}   # well id -> event type -> client receive time (perf_counter)
+POLL_S = 0.1
+
+
+def listen_events() -> None:
+    """Background SSE client: records when each event reaches the client."""
+    with httpx.Client(timeout=None) as c, c.stream("GET", f"{BASE}/events") as r:
+        etype = None
+        for line in r.iter_lines():
+            now = time.perf_counter()
+            if line.startswith("event:"):
+                etype = line[6:].strip()
+            elif line.startswith("data:") and etype:
+                EVENTS.setdefault(json.loads(line[5:])["id"], {}).setdefault(etype, now)
+
+
 def one_run(client: httpx.Client, path: Path, bbox: Path) -> dict:
+    """time_to_pin: SSE `well_located`; time_to_csv: polled every 100 ms until ready with scores and listed as located.
+
+    Each is given from the request start and from `upload saved` (the upload response, i.e. the file is stored and queued).
+    """
     t0 = time.perf_counter()
     with open(path, "rb") as f, open(bbox, "rb") as b:
         r = client.post(f"{BASE}/upload", files={"file": (path.name, f), "bbox_json": (bbox.name, b, "application/json")})
     r.raise_for_status()
-    t_upload = time.perf_counter() - t0
+    t_saved = time.perf_counter()
     wid = r.json()["id"]
-    t_ready = t_located = t_pin = None
+    t_ready = t_located = None
     while t_ready is None or t_located is None:
-        now = time.perf_counter() - t0
-        if now > 900:
+        if time.perf_counter() - t0 > 900:
             raise SystemExit(f"timeout on {path.name}")
         d = client.get(f"{BASE}/wells/{wid}").json()
         if d["status"] == "failed":
             raise SystemExit(f"{path.name} failed: {d['error']}")
-        if t_pin is None and d.get("lat") is not None:
-            t_pin = time.perf_counter() - t0
         if t_ready is None and d["status"] == "ready" and d.get("scores"):
-            t_ready = time.perf_counter() - t0
+            t_ready = time.perf_counter()
         if t_located is None:
             row = next((w for w in client.get(f"{BASE}/wells").json() if w["id"] == wid), None)
             if row and row["located"]:
-                t_located = time.perf_counter() - t0
-        time.sleep(0.05)
-    return {"id": wid, "upload_response_s": t_upload, "time_to_pin_s": t_pin, "time_to_ready_s": t_ready,
-            "time_to_located_s": t_located, "total_s": max(t_ready, t_located)}
+                t_located = time.perf_counter()
+        time.sleep(POLL_S)
+    time.sleep(0.2)  # let trailing events arrive
+    ev = EVENTS.pop(wid, {})
+    pin = ev.get("well_located")
+    done = max(t_ready, t_located)
+    return {"id": wid, "upload_response_s": t_saved - t0,
+            "time_to_pin_from_saved_s": None if pin is None else pin - t_saved,
+            "time_to_pin_from_request_s": None if pin is None else pin - t0,
+            "time_to_csv_from_saved_s": done - t_saved, "time_to_csv_from_request_s": done - t0,
+            "total_s": done - t0, "events": sorted(ev, key=ev.get)}
 
 
 def main() -> None:
@@ -75,12 +101,15 @@ def main() -> None:
     ap.add_argument("--label", required=True)
     ap.add_argument("--runs", type=int, default=3)
     ap.add_argument("--save", type=Path)
-    ap.add_argument("--scans", default=",".join(SCANS))
+    ap.add_argument("--scans", default=",".join(DEFAULT_SCANS))
     ap.add_argument("--outdir", type=Path, default=ROOT.parents[1] / "perf")
     a = ap.parse_args()
     data_dir = Path(tempfile.mkdtemp(prefix="bench-"))
     shutil.copytree(ROOT / "data" / "reference", data_dir / "reference")
     proc = start_server(data_dir)
+    import threading
+    threading.Thread(target=listen_events, daemon=True).start()
+    time.sleep(0.5)
     results: dict = {"label": a.label, "scans": {}}
     try:
         with httpx.Client(timeout=900) as client:
@@ -103,23 +132,32 @@ def main() -> None:
                         detail.pop("column", None)
                         (out / "well.json").write_text(json.dumps(detail, indent=1))
                     runs.append(res)
-                    print(f"{key} run{i + 1}{' (cold server)' if cold else ''}: total {res['total_s']:.2f}s pin {res['time_to_pin_s']:.2f}s upload {res['upload_response_s']:.2f}s", flush=True)
+                    pin = res["time_to_pin_from_saved_s"]
+                    print(f"{key} run{i + 1}{' (cold server)' if cold else ''}: csv {res['time_to_csv_from_saved_s']:.2f}s pin {'-' if pin is None else format(pin, '.2f')}s (from upload saved; upload took {res['upload_response_s']:.2f}s)", flush=True)
                     # make the next run real work again: forget the well and its files
                     con.execute("delete from wells where id=?", (res["id"],)); con.commit(); con.close()
                     for f in list((data_dir / "scans").glob(f"{res['id']}*")) + list((data_dir / "csv").glob(f"{res['id']}*")):
                         f.unlink()
-                warm = [r["total_s"] for r in runs if not r["cold_server"]]
-                results["scans"][key] = {"file": SCANS[key], "runs": runs, "warm_median_s": statistics.median(warm) if warm else None,
-                                         "first_run_s": runs[0]["total_s"]}
+                def med(field):
+                    vals = [r[field] for r in runs if not r["cold_server"] and r[field] is not None]
+                    return statistics.median(vals) if vals else None
+                results["scans"][key] = {"file": SCANS[key], "runs": runs, "warm_median_s": med("time_to_csv_from_saved_s"),
+                                         "warm_pin_median_s": med("time_to_pin_from_saved_s"),
+                                         "first_run_s": runs[0]["time_to_csv_from_saved_s"], "first_pin_s": runs[0]["time_to_pin_from_saved_s"]}
     finally:
-        proc.terminate(); proc.wait(timeout=30)
+        proc.terminate()
+        try:
+            proc.wait(timeout=5)   # an open SSE connection keeps uvicorn from exiting gracefully
+        except subprocess.TimeoutExpired:
+            proc.kill()
     cold = next(iter(results["scans"].values()))["runs"][0]
-    results["cold_start_first_request_s"] = cold["total_s"]
+    results["cold_start_first_request_s"] = cold["time_to_csv_from_saved_s"]
     a.outdir.mkdir(exist_ok=True, parents=True)
     (a.outdir / f"bench_{a.label}.json").write_text(json.dumps(results, indent=1))
-    print("\nscan  first_run  warm_median")
+    print("\nscan              time-to-CSV first/warm   time-to-pin first/warm   (seconds from upload saved)")
+    f = lambda x: "  -  " if x is None else f"{x:5.2f}"  # noqa: E731
     for k, v in results["scans"].items():
-        print(f"{k:16s} {v['first_run_s']:8.2f} {v['warm_median_s'] if v['warm_median_s'] is None else round(v['warm_median_s'], 2)}")
+        print(f"{k:16s}  {f(v['first_run_s'])} / {f(v['warm_median_s'])}        {f(v['first_pin_s'])} / {f(v['warm_pin_median_s'])}")
 
 
 if __name__ == "__main__":

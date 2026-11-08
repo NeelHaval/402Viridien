@@ -32,6 +32,11 @@ MIGRATIONS = [
     CREATE UNIQUE INDEX wells_file_hash ON wells (file_hash);
     CREATE INDEX wells_status ON wells (status);
     """,
+    """
+    ALTER TABLE wells ADD COLUMN location_source TEXT;
+    ALTER TABLE wells ADD COLUMN located_at TEXT;
+    ALTER TABLE wells ADD COLUMN api_number TEXT;
+    """,
 ]
 
 

@@ -5,6 +5,7 @@ import logging
 import time
 
 from app.config import Settings
+from app.timing import span
 from app.pipeline.schema import check_output_schema
 from app.pipeline.stages.boundaries import find_beds
 from app.pipeline.stages.depth import build_table
@@ -28,7 +29,8 @@ def run(scan, layer1: Layer1Result, *, settings: Settings | None = None, well_id
     def stage(name, fn, *args, **kwargs):
         t0 = time.perf_counter()
         try:
-            return fn(*args, **kwargs)
+            with span(f"pipeline.{name}"):
+                return fn(*args, **kwargs)
         finally:
             timings[name] = time.perf_counter() - t0
             log.info("well=%s stage=%s elapsed=%.2fs", well_id, name, timings[name])
