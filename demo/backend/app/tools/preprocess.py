@@ -319,9 +319,9 @@ def _depth_canvas(scan, x_range: tuple[int, int], y0: int, y1: int) -> tuple[np.
 
 
 def _probe_rotation(canvas: np.ndarray, spans: list[tuple[int, int, int]], warnings: list[str]) -> int:
-    """Pick np.rot90 k (1 or 3) by OCRing only the first windows both ways."""
+    """Pick np.rot90 k (1 or 3 for rotated depth text, 0 for upright) by OCRing only the first windows each way."""
     width = spans[min(PROBE_WINDOWS, len(spans)) - 1][1]
-    res = ocr_rotated_strip(canvas[:, :width], time_budget_s=PROBE_BUDGET_S, min_conf=0.4)
+    res = ocr_rotated_strip(canvas[:, :width], rotations=(1, 3, 0), time_budget_s=PROBE_BUDGET_S, min_conf=0.4)
     warnings += [w for w in res.warnings if w not in warnings]
     return res.rotation if res.lines else 1
 
