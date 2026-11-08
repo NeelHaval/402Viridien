@@ -157,3 +157,23 @@ def test_projected_coordinates_flagged() -> None:
     """State-plane style header text is flagged, not parsed."""
     loc = extract_location(lines("EASTING 3456789 NORTHING 10234567 UTM ZONE 16"))
     assert loc.lat is None and "projected_coordinates_unsupported" in loc.warnings
+
+
+@pytest.mark.parametrize("compression", ["group4", "group3"])
+def test_ccitt_fax_tiff_decodes_by_region(tmp_path: Path, compression: str) -> None:
+    """1-bit Group 3/4 TIFFs decode strip by strip and match PIL's full decode exactly."""
+    rng = np.random.default_rng(1)
+    bits = np.zeros((500, 300), bool)
+    for _ in range(60):
+        y, x = rng.integers(0, 480), rng.integers(0, 280)
+        bits[y:y + rng.integers(2, 20), x:x + rng.integers(2, 20)] = True
+    p = tmp_path / f"{compression}.tif"
+    Image.fromarray(~bits).convert("1").save(p, compression=compression, tiffinfo={278: 64})  # 64 rows per strip
+    scan = read_upload(str(p))
+    try:
+        assert (scan.width, scan.height, scan.mode) == (300, 500, "bw")
+        full = np.asarray(Image.open(p).convert("L"))
+        assert np.array_equal(scan.reader.crop(0, 500, 0, 300), full)
+        assert np.array_equal(scan.reader.crop(130, 270, 40, 200), full[130:270, 40:200])  # starts and ends mid-strip
+    finally:
+        scan.close()

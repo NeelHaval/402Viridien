@@ -30,6 +30,7 @@ MAGIC_PDF = b"%PDF"
 LZW_CODE = 5
 DEFLATE_CODES = (8, 32946)
 NO_COMPRESSION = 1
+CCITT_CODES = (3, 4)  # Group 3 / Group 4 fax, bilevel only; decoded strip by strip through libtiff
 
 
 @dataclass
@@ -119,6 +120,31 @@ class _BaseReader:
         """Release resources (default: nothing to release)."""
 
 
+def _ccitt_strip(raw: bytes, width: int, rows: int, compression: int, fillorder: int, miniswhite: bool) -> np.ndarray:
+    """Decode one CCITT strip to a (rows, width) uint8 array, raw sample values (0/1) in the file's own photometric convention.
+
+    The strip is embedded in a minimal little-endian TIFF (one IFD, one strip) and decoded by libtiff through PIL.
+    """
+    import struct
+    photometric = 0 if miniswhite else 1
+    tags = [(256, 4, width), (257, 4, rows), (258, 3, 1), (259, 3, compression), (262, 3, photometric), (266, 3, fillorder),
+            (273, 4, 0), (277, 3, 1), (278, 4, rows), (279, 4, len(raw))]
+    ifd_size = 2 + 12 * len(tags) + 4
+    data_off = 8 + ifd_size
+    out = bytearray(b"II*\x00" + struct.pack("<I", 8) + struct.pack("<H", len(tags)))
+    for tag, typ, val in sorted(tags):
+        val = data_off if tag == 273 else val
+        out += struct.pack("<HHI", tag, typ, 1) + (struct.pack("<HH", val, 0) if typ == 3 else struct.pack("<I", val))
+    out += struct.pack("<I", 0) + raw
+    from io import BytesIO
+    from PIL import Image
+    with Image.open(BytesIO(bytes(out))) as im:
+        im.load()
+        arr = np.asarray(im.convert("1"))  # PIL applies photometric: True = white
+    white = arr.astype(np.uint8).reshape(rows, width, 1)
+    return 1 - white if miniswhite else white  # raw sample values, as tifffile would give them (_normalize applies photometric)
+
+
 class TiffReader(_BaseReader):
     """Region reader for TIFF files that decodes only the strips or tiles it needs."""
 
@@ -181,8 +207,18 @@ class TiffReader(_BaseReader):
             fh.seek(self.offsets[index])
             return fh.read(self.counts[index])
 
+    def _decode_ccitt(self, index: int):
+        """Decode one Group 3/4 strip (tifffile cannot) by wrapping it in a one-strip TIFF for libtiff."""
+        rps = int(self._page.rowsperstrip)
+        top = index * rps
+        arr = _ccitt_strip(self._read_raw(index), self.width, min(rps, self.height - top), self.compression,
+                           int(self._page.fillorder), self.miniswhite)
+        return arr, top, 0
+
     def _decode_segment(self, index: int):
         """Decode one strip or tile into (array, start_y, start_x)."""
+        if self.compression in CCITT_CODES and not self.tiled:
+            return self._decode_ccitt(index)
         seg, idx, _ = self._page.decode(self._read_raw(index), index)
         arr = seg[0]
         return arr, int(idx[2]), int(idx[3])
