@@ -10,6 +10,7 @@ export type WellEvent =
     }
   | {
       type: "well_ready";
+      status?: string;
       id: string;
       name?: string | null;
       validation_confidence?: number;

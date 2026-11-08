@@ -1,8 +1,9 @@
+import {iconPaths} from "./Icon";
 import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
-import { TerraDraw, TerraDrawPolygonMode } from "terra-draw";
-import { TerraDrawMapLibreGLAdapter } from "terra-draw-maplibre-gl-adapter";
+import { AreaDrawing } from "./AreaDrawing";
+
 import type { Well } from "../types";
 maplibregl.setWorkerUrl(workerUrl);
 
@@ -11,17 +12,20 @@ interface Props {
   selected: string[];
   selecting: boolean;
   clearKey: number;
+  onCancel: () => void;
   flyTo: Well | null;
+  onCluster: (wells: Well[]) => void;
   onWell: (well: Well) => void;
   onPolygon: (coordinates: number[][]) => void;
 }
 export function Map(props: Props) {
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
-  const draw = useRef<TerraDraw | null>(null);
+
   const markers = useRef(new globalThis.Map<string, maplibregl.Marker>());
   const latest = useRef(props);
   latest.current = props;
+  const [view,setView] = useState(0);
   const [ready, setReady] = useState(false);
   const [error, setError] = useState("");
   useEffect(() => {
@@ -32,6 +36,7 @@ export function Map(props: Props) {
       zoom: 5.2,
     });
     map.current = instance;
+    instance.on("moveend",()=>setView(v=>v+1));
     instance.addControl(
       new maplibregl.NavigationControl({ showCompass: false }),
       "bottom-right",
@@ -39,99 +44,65 @@ export function Map(props: Props) {
     instance.on("error", () => setError("Map tiles unavailable"));
     instance.on("load", () => {
       setError("");
-      const drawing = new TerraDraw({
-        adapter: new TerraDrawMapLibreGLAdapter({ map: instance }),
-        modes: [
-          new TerraDrawPolygonMode({
-            styles: {
-              fillColor: "#5EEAD4",
-              fillOpacity: 0.15,
-              outlineColor: "#5EEAD4",
-              outlineWidth: 2,
-            },
-          }),
-        ],
-      });
-      drawing.start();
-      draw.current = drawing;
-      drawing.on("finish", (id) => {
-        const feature = drawing.getSnapshot().find((f) => f.id === id);
-        if (feature?.geometry.type === "Polygon") {
-          drawing.setMode("static");
-          latest.current.onPolygon(feature.geometry.coordinates[0]);
-        }
-      });
       setReady(true);
     });
     return () => {
-      draw.current?.stop();
+
       markers.current.forEach((m) => m.remove());
       markers.current.clear();
       instance.remove();
     };
   }, []);
   useEffect(() => {
-    if (ready) {
-      draw.current?.clear();
-      draw.current?.setMode(props.selecting ? "polygon" : "static");
-    }
-  }, [props.selecting, props.clearKey, ready]);
-  useEffect(() => {
     if (!ready || !map.current) return;
-    const ids = new Set(props.wells.map((w) => w.id));
-    markers.current.forEach((marker, id) => {
-      if (!ids.has(id)) {
-        marker.remove();
-        markers.current.delete(id);
-      }
-    });
-    props.wells.forEach((well) => {
-      if (
-        !well.located ||
-        well.lat === null ||
-        well.lon === null ||
-        !Number.isFinite(well.lat) ||
-        !Number.isFinite(well.lon)
-      )
-        return;
-      let marker = markers.current.get(well.id);
-      if (!marker) {
-        const wrapper = document.createElement("div");
-        const element = document.createElement("button");
-        element.type = "button";
-        element.addEventListener("click", (e) => {
-          e.stopPropagation();
-          const current = latest.current.wells.find((w) => w.id === well.id);
-          if (current) latest.current.onWell(current);
-        });
-        wrapper.append(element);
-        marker = new maplibregl.Marker({ element: wrapper, anchor: "center" })
-          .setLngLat([well.lon, well.lat])
-          .addTo(map.current!);
-        markers.current.set(well.id, marker);
-      }
-      marker.setLngLat([well.lon, well.lat]);
-      const element = marker.getElement().firstElementChild;
-      if (!(element instanceof HTMLButtonElement)) return;
-      element.className = `well-marker ${well.status === "queued" ? "processing" : well.status} ${props.selected.includes(well.id) ? "selected" : ""}`;
-      element.title = well.name;
-      element.setAttribute("aria-label", `${well.name}, ${well.status}`);
-    });
-  }, [props.wells, props.selected, ready]);
+    const instance=map.current;
+    if(!instance.getSource('well-clusters')) instance.addSource('well-clusters',{type:'geojson',cluster:true,clusterRadius:44,clusterMaxZoom:18,data:{type:'FeatureCollection',features:[]}});
+    if(!instance.getLayer('well-cluster-loader')) instance.addLayer({id:'well-cluster-loader',type:'circle',source:'well-clusters',paint:{'circle-radius':0,'circle-opacity':0}});
+    const source=instance.getSource('well-clusters') as maplibregl.GeoJSONSource;
+    source.setData({type:'FeatureCollection',features:props.wells.filter(w=>w.lon!=null&&w.lat!=null).map(w=>({type:'Feature',properties:{id:w.id},geometry:{type:'Point',coordinates:[w.lon!,w.lat!]}}))});
+    const render=()=>{
+    markers.current.forEach(m=>m.remove()); markers.current.clear();
+    const features=instance.querySourceFeatures('well-clusters');
+    const seen=new Set<string>();
+    features.forEach(f=>{
+      if(f.geometry.type!=='Point')return;
+      const p=f.properties!;const key=String(p.cluster_id??p.id);if(seen.has(key))return;seen.add(key);
+      const coord=f.geometry.coordinates as [number,number];
+      const element=document.createElement('button');element.type='button';element.className='well-marker';
+      const well=latest.current.wells.find(w=>w.id===p.id);
+      if(p.cluster){element.classList.add('cluster');element.textContent=String(p.point_count);element.setAttribute('aria-label',`${p.point_count} wells, zoom in`);element.onclick=async()=>{const leaves=await source.getClusterLeaves(p.cluster_id,1000,0);const group=leaves.map(f=>latest.current.wells.find(w=>w.id===f.properties?.id)).filter((w):w is Well=>!!w);if(instance.getZoom()>=8||group.every(w=>w.lon===group[0]?.lon&&w.lat===group[0]?.lat)){latest.current.onCluster(group);return;}const bounds=new maplibregl.LngLatBounds();leaves.forEach(f=>{if(f.geometry.type==='Point')bounds.extend(f.geometry.coordinates as [number,number]);});instance.fitBounds(bounds,{padding:{top:110,bottom:80,left:80,right:Math.min(480,instance.getContainer().clientWidth*.4)},maxZoom:Math.min(8,instance.getZoom()+2),duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:250});};}
+      else if(well){element.classList.add(well.status);if(latest.current.selected.includes(well.id))element.classList.add('selected');element.title=well.name;element.setAttribute('aria-label',`${well.name}, ${well.status}`);const state=well.status==='queued'?'processing':well.status;element.innerHTML=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="${iconPaths[state]}"/></svg>`;element.onclick=()=>{const group=latest.current.wells.filter(w=>w.lon===well.lon&&w.lat===well.lat);if(group.length>1)latest.current.onCluster(group);else latest.current.onWell(well);};}
+      else return;
+      const wrapper=document.createElement('div');wrapper.append(element);markers.current.set(key,new maplibregl.Marker({element:wrapper}).setLngLat(coord).addTo(instance));
+    });};
+    instance.on('idle',render);render();
+    return()=>{instance.off('idle',render);};
+  }, [props.wells, props.selected, ready, view]);
   useEffect(() => {
     const well = props.flyTo;
-    if (ready && well?.lon != null && well.lat != null)
-      map.current?.flyTo({
+    const instance=map.current;
+    if (ready && instance && well?.lon != null && well.lat != null) {
+      const point=instance.project([well.lon,well.lat]);
+      const panel=document.querySelector('.sidebar')?.getBoundingClientRect();
+      const width=instance.getContainer().clientWidth,height=instance.getContainer().clientHeight;
+      const phone=width<768;
+      const right=panel&&!phone?width-panel.left+24:24;
+      const bottom=panel&&phone?height-panel.top+24:40;
+      if(point.x>=24&&point.x<=width-right&&point.y>=110&&point.y<=height-bottom)return;
+      instance.easeTo({
         center: [well.lon, well.lat],
-        zoom: 6,
+        zoom: Math.min(instance.getZoom(), 7),
+        padding:{top:110,bottom:Math.min(bottom,height*.6),left:24,right:Math.min(right,width*.5)},
         duration: matchMedia("(prefers-reduced-motion: reduce)").matches
           ? 0
-          : 1200,
+          : 250,
       });
+    }
   }, [props.flyTo, ready]);
   return (
     <>
       <div className="map" ref={container} />
+      {ready && map.current && <AreaDrawing wells={props.wells} map={map.current} active={props.selecting} clearKey={props.clearKey} onFinish={props.onPolygon} onCancel={props.onCancel} />}
       {error && (
         <div className="map-error glass" role="status">
           {error}

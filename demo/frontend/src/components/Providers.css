@@ -1,0 +1,10 @@
+.provider-login { min-height: 100dvh; display: grid; place-items: center; padding: 24px; background: var(--background, #10171d); font-family: inherit; }
+.provider-card { width: min(440px, 100%); padding: 36px; }
+.provider-card p { line-height: 1.6; }
+.provider-card a, .provider-tools a { color: var(--accent, #5eead4); }
+.provider-card button { padding: 12px 18px; border: 1px solid var(--border-color, #ffffff30); border-radius: 12px; }
+.provider-tools { position: absolute; top: 28px; right: 28px; z-index: 4; padding: 12px 16px; font-family: inherit; font-size: 12px; }
+.provider-tools form { display: flex; align-items: center; gap: 12px; }
+.provider-tools form span { max-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.provider-tools a:focus-visible, .provider-card a:focus-visible { outline: 2px solid var(--accent, #5eead4); outline-offset: 4px; }
+@media (max-width: 650px) { .provider-tools { top: 100px; right: 16px; } }

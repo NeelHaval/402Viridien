@@ -1,3 +1,4 @@
+import {Icon} from "./Icon";
 import { useEffect, useRef, useState } from "react";
 import { api } from "../api";
 export function UploadModal({
@@ -12,12 +13,28 @@ export function UploadModal({
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   useEffect(() => {
+    const trigger = document.activeElement as HTMLElement | null;
+    const containFocus = (event: FocusEvent) => {
+      if (dialog.current && !dialog.current.contains(event.target as Node))
+        dialog.current.focus();
+    };
+    document.addEventListener("focusin", containFocus);
     dialog.current?.focus();
+    return () => {
+      document.removeEventListener("focusin", containFocus);
+      if (trigger?.isConnected) trigger.focus();
+    };
   }, []);
+  useEffect(() => {
+    // Disabling the active upload button can move browser focus to the body.
+    if (dialog.current && !dialog.current.contains(document.activeElement))
+      dialog.current.focus();
+  }, [busy]);
   const [scan, setScan] = useState<File | null>(null);
   const [bbox, setBbox] = useState<File | null>(null);
   const bboxInput = useRef<HTMLInputElement>(null);
   function pick(files: FileList | File[]) {
+    if (files.length) setError("");
     for (const file of Array.from(files)) {
       if (file.name.toLowerCase().endsWith(".json")) setBbox(file);
       else setScan(file);
@@ -47,17 +64,23 @@ export function UploadModal({
         ref={dialog}
         onClick={(e) => e.stopPropagation()}
         onKeyDown={(e) => {
-          if (e.key === "Escape" && !busy) onClose();
+          if (e.key === "Escape" && !busy) {
+            e.preventDefault();
+            onClose();
+          }
           if (e.key === "Tab") {
             const buttons = dialog.current!.querySelectorAll<HTMLButtonElement>(
               "button:not(:disabled)",
             );
             const first = buttons[0],
               last = buttons[buttons.length - 1];
-            if (e.shiftKey && document.activeElement === first) {
+            if (!first) {
+              e.preventDefault();
+              dialog.current?.focus();
+            } else if (e.shiftKey && (document.activeElement === first || document.activeElement === dialog.current)) {
               e.preventDefault();
               last?.focus();
-            } else if (!e.shiftKey && document.activeElement === last) {
+            } else if (!e.shiftKey && (document.activeElement === last || document.activeElement === dialog.current)) {
               e.preventDefault();
               first?.focus();
             }
@@ -72,14 +95,14 @@ export function UploadModal({
             disabled={busy}
             aria-label="Close upload"
           >
-            ×
+            <Icon name="close"/>
           </button>
         </header>
         <div className="drop-zones">
           {[
             {
               key: "scan",
-              title: "SCAN",
+              title: "Scan",
               hint: "Drop the mud log image or click to browse",
               file: scan,
               ref: input,
@@ -115,7 +138,10 @@ export function UploadModal({
                 ref={z.ref}
                 type="file"
                 accept={z.accept}
-                onChange={(e) => e.target.files && pick(e.target.files)}
+                onChange={(e) => {
+                  if (e.target.files) pick(e.target.files);
+                  e.target.value = "";
+                }}
               />
             </div>
           ))}

@@ -1,0 +1,14 @@
+.well-description { border-top: 1px solid var(--border-color, #ffffff24); margin-top: 20px; padding-top: 16px; font-family: inherit; }
+.well-description h2 { display: flex; align-items: baseline; gap: 10px; margin: 0 0 10px; font-size: 15px; font-weight: 600; }
+.well-description h2 span { color: var(--text-muted, #b0c0cc); font-size: 11px; font-weight: 400; }
+.well-description p { font-size: 13px; line-height: 1.65; }
+.well-description small { display: block; color: var(--text-muted, #b0c0cc); font-size: 11px; line-height: 1.6; }
+.well-description a { color: var(--accent, #5eead4); }
+.well-description button { padding: 10px 14px; border: 1px solid var(--border-color, #ffffff30); border-radius: 12px; background: #ffffff0d; font: inherit; font-size: 13px; }
+.well-description button:focus-visible, .well-description a:focus-visible, .well-description summary:focus-visible { outline: 2px solid var(--accent, #5eead4); outline-offset: 4px; }
+.well-description details { margin-top: 10px; }
+.well-description summary { cursor: pointer; font-size: 11px; color: var(--text-muted, #b0c0cc); }
+
+.well-description button { color: #b8f5dc; background: #172923; border-color: #426a59; box-shadow: none; margin: 8px 8px 0 0; }
+.well-description button:hover { background: #254537; }
+.well-description button:disabled { opacity: .65; cursor: wait; }

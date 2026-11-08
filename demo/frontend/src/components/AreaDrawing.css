@@ -1,0 +1,51 @@
+.area-drawing { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; touch-action: none; }
+.area-drawing.active { pointer-events: auto; touch-action: none; cursor: crosshair; }
+.area-shape { fill: #5eead4; fill-opacity: .16; stroke: #5eead4; stroke-width: 2; pointer-events: none; }
+.area-vertex { fill: #5eead4; stroke: #5eead4; stroke-width: 2; pointer-events: none; }
+.area-vertex.snap { fill: #5eead4; stroke-width: 4; }
+.area-vertex-hit { fill: transparent; pointer-events: all; cursor: grab; touch-action: none; }
+.area-controls { position: absolute; z-index: 4; left: 24px; top: 160px; max-width: calc(100% - 48px); padding: 12px; border: 1px solid #49605e; border-radius: 12px; background: #101f25; color: #eef4f7; font-size: 14px; }
+.area-controls p { margin: 12px 0; max-width: 36ch; }
+.area-modes, .area-actions, .area-report-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.area-controls button, .area-report-actions button, .area-empty button { min-height: 44px; padding: 8px 12px; border: 1px solid #49605e; border-radius: 8px; background: #172b30; color: #eef4f7; touch-action: manipulation; }
+.area-controls button[aria-pressed="true"], .area-actions button:first-of-type { background: #5eead4; color: #102522; border-color: #5eead4; }
+.area-controls output { font-variant-numeric: tabular-nums; margin-right: 8px; color: #5eead4; }
+.area-controls button:focus-visible, .area-report-actions button:focus-visible, .area-empty button:focus-visible { outline: 2px solid #5eead4; outline-offset: 4px; }
+.area-controls button:disabled { cursor: default; }
+.area-empty { padding: 24px 0; }
+.area-empty p { line-height: 1.5; }
+.area-report-actions { flex-shrink: 0; }
+.area-report { padding: 24px; background: #17232d; backdrop-filter: none; animation: none; }
+.area-report header { gap: 12px; }
+.area-report h1 { margin-top: 8px; }
+.area-report .close { width: 44px; height: 44px; }
+.drawing-panel { padding: 24px; }
+.drawing-panel h1 { margin: 0; }
+.drawing-content { padding-top: 24px; overflow-y: auto; }
+.drawing-content p { line-height: 1.5; margin: 24px 0; }
+.drawing-panel button { min-height: 44px; padding: 8px 16px; border: 1px solid #78918f; border-radius: 8px; touch-action: manipulation; }
+.drawing-panel .area-modes { gap: 0; flex-wrap: nowrap; }
+.drawing-panel .area-modes button { flex: 1; }
+.drawing-panel button[aria-pressed="true"], .drawing-footer button:last-child { background: #5eead4; color: #102522; border-color: #5eead4; }
+.drawing-panel button:disabled { cursor: default; }
+.drawing-panel button:focus-visible { outline: 2px solid #5eead4; outline-offset: 4px; }
+.drawing-stats { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 12px; margin: 24px 0; }
+.drawing-stats > div + div { border-left: 1px solid #78918f; padding-left: 12px; }
+.drawing-stats dt { font-size: 14px; }
+.drawing-stats dd { margin: 8px 0 0; font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.drawing-stats small { font-size: 14px; }
+.drawing-undo { width: 100%; }
+.drawing-footer { display: flex; gap: 12px; align-items: center; min-height: 76px; flex-shrink: 0; margin-top: auto; border-top: 1px solid #78918f; }
+.drawing-footer button { flex: 1; }
+.drawing-hint { position: absolute; left: 24px; top: 152px; z-index: 3; padding: 8px 12px; max-width: calc(100% - 48px); border: 1px solid #49605e; border-radius: 8px; background: #101f25; font-size: 14px; pointer-events: none; }
+body:has(.area-drawing.active) .well-marker { pointer-events: none; }
+@media (max-width: 700px) {
+  .area-controls { left: 16px; top: 152px; max-width: calc(100% - 32px); padding: 12px; }
+  body:has(.sidebar) .area-controls { top: 80px; }
+  .sidebar.area-report { height: 48dvh; }
+  .area-report-actions { gap: 4px; }
+  .drawing-panel { height: 48dvh; padding: 16px 24px 0; }
+  .drawing-content { padding-top: 16px; }
+  .drawing-content p, .drawing-stats { margin: 16px 0; }
+  .drawing-hint { left: 16px; top: 96px; max-width: calc(100% - 32px); }
+}

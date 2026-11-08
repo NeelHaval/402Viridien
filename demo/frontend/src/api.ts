@@ -7,6 +7,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     throw new Error("Cannot reach the server");
   }
   if (!response.ok) {
+    if (response.status === 401) window.dispatchEvent(new Event("session-expired"));
     let message = `Request failed (${response.status})`;
     try {
       message = (await response.json()).error.message ?? message;
@@ -26,7 +27,7 @@ export const api = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ polygon }),
-    }),
+    }).then((report) => ({ ...report, polygon })),
   upload: (file: File, bbox?: File | null) => {
     const body = new FormData();
     body.append("file", file);

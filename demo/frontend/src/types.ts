@@ -1,4 +1,4 @@
-export type Status = "queued" | "processing" | "ready" | "failed";
+export type Status = "queued" | "processing" | "ready" | "failed" | "partial";
 export type Metric = "drilling" | "cost" | "price" | "co2";
 export type Scores = Record<Metric, number | null>;
 export interface Well {
@@ -22,6 +22,8 @@ export interface Segment {
   breakdown: { lithology: string; pct: number }[];
 }
 export interface WellDetail extends Well {
+  pixel_column?: {top_y:number;bottom_y:number;lithology:string;cluster_id:number;color:string}[];
+  result?: { engine: string; source_image_sha256: string; result_sha256: string; depth_status: string; depth_estimate?:{unit:string;unit_association_verified:false;fit:{a:number;b:number;n_points:number;rmse_px:number};calibration_sha256:string} };
   total_depth_ft: number | null;
   column: Segment[];
   validation: {
@@ -33,6 +35,7 @@ export interface WellDetail extends Well {
   error: string | null;
 }
 export interface Report {
+  polygon?: number[][];
   wells: (Pick<Well, "id" | "name" | "scores"> & { lat: number; lon: number })[];
   scores: Scores | null;
   column: Segment[];
