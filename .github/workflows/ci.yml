@@ -53,5 +53,5 @@ jobs:
           cache: pip
           cache-dependency-path: requirements*.lock
       - run: python -m pip install -c requirements.lock -c requirements-legacy.lock ".[test,review]"
-      - name: Check independent metric oracles and TIFF decoding
-        run: python -m pytest -q tests/test_review_adversarial.py tests/test_tiff_reader.py
+      - name: Check independent metric oracles, TIFF decoding and notebook adapter
+        run: python -m pytest -q tests/test_review_adversarial.py tests/test_tiff_reader.py tests/test_notebook_ink_adapter.py

@@ -7,3 +7,4 @@ recursive-include docs *.md
 recursive-include data *.lock.json
 recursive-include examples *.json *.csv *.png *.py
 include .github/pull_request_template.md
+include notebooks/main_pipeline.ipynb

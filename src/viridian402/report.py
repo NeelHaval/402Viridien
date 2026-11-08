@@ -27,7 +27,7 @@ def render_summary(summary,cases):
            "| Metric | Value |","|---|---:|"]
     for key in (*QUALITY_METRICS,"row_acc_weighted","macro_f1_pooled","coverage","unknown_rate","missing_depth_rate","depth_pairs","depth_eligible_boundaries","depth_coverage","seconds","latency_median_seconds","latency_p95_seconds","preview_seconds","peak_rss_mb"):
         lines.append(f"| {key} | {_format(overall.get(key))} |")
-    lines.extend(["",f"Configured checks: {'PASS' if summary['quality_gates']['passed'] else 'FAIL'}."])
+    lines.extend(["",f"Configured checks: {'PASS' if summary['quality_gates']['passed'] else 'FAIL'}.", "", "[Visual evidence report](report.html)"])
     if overall['labelled_cases'] == 0:
         lines.extend(["", "Operational checks only. Supervised quality was not assessed because no truth is available."])
     elif summary['quality_gates'].get('min_score') is None:
@@ -154,6 +154,35 @@ def load_run(path):
     try: return _load_run(path)
     except (KeyError,TypeError,OverflowError,AttributeError) as exc:
         raise ValueError(f"invalid run schema: {exc}") from exc
+
+
+def write_visual_report(path):
+    """Validate saved results, then write one static HTML report per run.
+
+    Visual failures are separate from model scores. The immutable score files
+    and quality gates are never rewritten by this function.
+    """
+    from .visual_report import collect_evidence, render_html
+    path = Path(path)
+    if path.is_file():
+        path = path.parent
+    summary, cases = load_run(path)
+    try:
+        evidence = collect_evidence(path, summary, cases)
+    except Exception as exc:
+        evidence = {"schema_version": 1, "run_id": summary["run_id"],
+                    "evidence_complete": False, "promotion_supported": False,
+                    "promotion_note": "Required visual evidence is unavailable. This report cannot support a promotion claim.",
+                    "cases": [{"id": c["id"], "status": "crash" if c["status"] != "ok" else "unlabelled" if not c["has_truth"] else "pass" if c["metrics"].get("score") == 1 else "issues",
+                               "accuracy": c["metrics"].get("row_acc") if c["has_truth"] else None,
+                               "model_error": c.get("error"), "preview": None, "legend": None,
+                               "source_sha256": None, "issues": [], "issue_count": None,
+                               "render_status": "render_failure", "evidence_complete": False,
+                               "errors": [f"Report render failure: {type(exc).__name__}: {exc}"]} for c in cases]}
+    (path/"visual-evidence.json").write_text(json.dumps(evidence, indent=2, allow_nan=False)+"\n", encoding="utf-8")
+    target = path/"report.html"
+    target.write_text(render_html(summary, evidence), encoding="utf-8")
+    return target
 
 
 def list_runs(output):

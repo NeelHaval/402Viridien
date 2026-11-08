@@ -31,6 +31,8 @@ python -m viridian402 classify --data-root data/local/pr54 --model builtin:proto
 
 This fits a small baseline using only the 907 eligible training crops and scores all 112 fixed test crops, excluding 9 quality holds. Test results retain 60 source-prospective and 52 retrospective records separately. Crop classification measures a different task from interval boundaries/depths. See [PR54 integration and crop interface](docs/pr54.md).
 
+Each interval evaluation also writes a static [visual evidence report](docs/visual-evidence.md). Keep its relative image directories with the HTML file.
+
 Each evaluation prints its run directory. It contains `summary.md`, `metrics.json`, `provenance.json`, `per_case.jsonl`, prediction CSVs, challenge submission CSVs (`base_depth`), and annotated previews. Null accuracy means the case has no truth. Baseline naming remains `Unknown` without a supplied legend or an OCR model.
 
 ## Evaluate the existing model and real labels
@@ -71,3 +73,5 @@ Model evaluation produces reviewable artifacts. It does not automatically replac
 The original sealed outside tests are not in the source repo. This repository does not recreate or claim access to them.
 
 Read [dataset and labelling instructions](docs/datasets.md), [model interface](docs/model-interface.md), [metrics and comparisons](docs/metrics.md), [CI/CD and releases](docs/ci.md), [challenge requirements and pitfalls](docs/challenge.md), [review findings](docs/review.md), and [executed verification](docs/verification.md).
+
+For the bounded notebook rule, see [candidate adapters](docs/candidate-adapters.md). For local reviewed-window exports, see [window exchange](docs/review-window-exchange.md). The five exposed windows are development evidence. Their local bundle remains unlabelled and has an unresolved parent split conflict.
