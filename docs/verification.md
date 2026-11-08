@@ -1,5 +1,7 @@
 # Executed verification
 
+For the subsequent v0.2.0 hardening loop, see [172-test contributor/package verification](review-loop.md) and [fresh model statistics](benchmarks/2026-11-08.md). The records below describe initial setup verification.
+
 Date: 8 November 2026. Implementation used three GPT-6.1 Sol builders/progress agents and two independent GPT-6 Astra reviewers. Reviews found and corrected integration, leakage, resource-reading, packaging and reporting issues before these final checks. Historical findings remain in the review documents with their original scope.
 
 ## Hosted evidence
