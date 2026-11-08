@@ -87,6 +87,14 @@ make run      # then open http://localhost:8000
 
 To write a challenge CSV from saved predictions, see [docs/output-contract.md](docs/output-contract.md).
 
+### Run our model on the challenge data
+Use Python 3.12 and create a virtual environment: `python -m venv .venv`.
+Activate it, then run `pip install -r requirements-s19.txt`.
+The four S19 model files are included in `pipeline/s19/models/`; OCR weights download on first use.
+Run `python -m pipeline.run --images <provided-folder>/images --boxes <provided-folder>/bbox_annotation --out outputs/s19`.
+Use the organiser folders; TIFF, PNG and JPG are accepted. CSV depths stay blank when calibration fails.
+See [example output](examples/s19_output/) and [official outputs](outputs/official/).
+
 ## Repo map
 
 | Path | What's there |
