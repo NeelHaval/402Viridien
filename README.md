@@ -66,4 +66,4 @@ Model evaluation produces reviewable artifacts. It does not automatically replac
 
 The original sealed outside tests are not in the source repo. This repository does not recreate or claim access to them.
 
-Read [dataset and labelling instructions](docs/datasets.md), [model interface](docs/model-interface.md), [metrics and comparisons](docs/metrics.md), [CI/CD and releases](docs/ci.md), [challenge requirements and pitfalls](docs/challenge.md), and [review findings](docs/review.md).
+Read [dataset and labelling instructions](docs/datasets.md), [model interface](docs/model-interface.md), [metrics and comparisons](docs/metrics.md), [CI/CD and releases](docs/ci.md), [challenge requirements and pitfalls](docs/challenge.md), [review findings](docs/review.md), and [executed verification](docs/verification.md).
