@@ -325,7 +325,7 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
              timeout=60, mode="full_image", min_score=None, min_completion=1.0, previews=True,
              case_ids=None,tags=None,max_worker_rss_mb=None):
     from .data import load_manifest, load_intervals, validate_intervals
-    from .report import render_summary
+    from .report import render_summary, write_visual_report
     run_started=time.perf_counter()
     if not math.isfinite(timeout) or timeout <= 0: raise ValueError("timeout must be finite and positive")
     if not math.isfinite(min_completion) or not 0<=min_completion<=1: raise ValueError("min_completion must be in [0,1]")
@@ -423,6 +423,7 @@ def evaluate(manifest_path, *, model="builtin:baseline", config=None, output="ru
                       "Accuracy is never assigned to unlabelled records. No GPU memory metric is inferred."]}
     _json(run/"metrics.json",summary)
     (run/"summary.md").write_text(render_summary(summary,cases),encoding="utf-8")
+    write_visual_report(run)
     return run,summary
 
 
