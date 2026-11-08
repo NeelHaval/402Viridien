@@ -163,7 +163,7 @@ class TiffReader(_BaseReader):
         self.photometric = page.photometric.name
         self.miniswhite = self.photometric == "MINISWHITE"
         self.palette = self._build_palette(page)
-        self._lock = threading.Lock()
+        self._lock = threading.RLock()
         self._prefix: np.ndarray | None = None
         self._pool = ThreadPoolExecutor(DECODE_WORKERS)
         self._check_supported(page)
@@ -237,7 +237,8 @@ class TiffReader(_BaseReader):
     def _read_region(self, y0: int, y1: int, x0: int, x1: int) -> np.ndarray:
         """Decode the needed segments and paste them into the output region."""
         if self._single_big:
-            return self._normalize(self._prefix_rows(y0, y1)[:, x0:x1])
+            with self._lock:  # the decoded-prefix cache is shared state: one reader at a time
+                return self._normalize(self._prefix_rows(y0, y1)[:, x0:x1])
         indices = self._segment_indices(y0, y1, x0, x1)
         decoded = list(self._pool.map(self._decode_segment, indices)) if len(indices) > 1 else [self._decode_segment(indices[0])]
         shape = (y1 - y0, x1 - x0) + ((3,) if self._is_color() else ())

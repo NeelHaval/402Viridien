@@ -77,3 +77,13 @@ def span(name: str) -> Iterator[None]:
     finally:
         _local.depth = depth
         t.add(name, start, time.perf_counter() - start, depth)
+
+
+def wrap(fn):
+    """Return `fn` wrapped so that, in whatever thread it runs, spans go to the trace that is current *now*."""
+    trace = current()
+
+    def run(*args, **kwargs):
+        with attach(trace):
+            return fn(*args, **kwargs)
+    return run

@@ -1,0 +1,34 @@
+{
+ "id": "da744e966066bff7",
+ "name": "OCS-G 20084 SB203 ST00BP01 Country U.S.A",
+ "lat": 27.316318333333335,
+ "lon": -90.11098555555556,
+ "block": null,
+ "status": "ready",
+ "scores": {
+  "drilling": 40,
+  "cost": 0,
+  "price": 0,
+  "co2": 4
+ },
+ "validation_confidence": 0.9467348963913063,
+ "located": true,
+ "total_depth_ft": 27413.1,
+ "validation": {
+  "confidence": 0.9467348963913063,
+  "components": {
+   "structure": 1.0,
+   "sequence": 0.8615107306173965,
+   "regional": null,
+   "neighbours": null,
+   "location": 1.0
+  },
+  "flags": [
+   "sequence:rare_transitions:9",
+   "regional:no_regional_fingerprint",
+   "neighbours:no_neighbours"
+  ]
+ },
+ "warnings": [],
+ "error": null
+}

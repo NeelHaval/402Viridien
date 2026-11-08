@@ -26,7 +26,7 @@ from app.store import wells as repo
 from app.store.db import Database
 from app.timing import Trace, attach, span
 from app.tools.location import Location
-from app.tools.preprocess import preprocess
+from app.tools.preprocess import finish_calibration, preprocess
 from app.tools.read_upload import read_upload
 from app.validation import apply_corrections, reference, submission_df, validate
 
@@ -170,10 +170,11 @@ class IngestService:
         with span("scan_open"):
             scan = read_upload(str(scan_path))
         try:
-            layer1 = preprocess(scan, bbox, with_location=False)
-            timings.update({f"layer1.{k}": v for k, v in layer1.timings.items()})
+            layer1 = preprocess(scan, bbox, with_location=False, calibrate=False)
             log.info("well=%s stage=layer1 elapsed=%.2fs", well_id, layer1.timings.get("total", 0.0))
-            out = pipeline.run(scan, layer1, settings=self.settings, well_id=well_id)
+            out = pipeline.run(scan, layer1, settings=self.settings, well_id=well_id,
+                               finish_layer1=lambda: finish_calibration(scan, layer1))
+            timings.update({f"layer1.{k}": v for k, v in layer1.timings.items()})
         finally:
             scan.close()
         timings.update({f"pipeline.{k}": v for k, v in out.timings.items()})

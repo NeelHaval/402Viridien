@@ -57,7 +57,7 @@ def stub_layer1(monkeypatch):
     state = {"location": Location(lat=27.5, lon=-90.0, well_name="Test Well", block="GC 100", source="header", confidence=0.9),
              "calibration": Calibration(0.25, 5000.0, 0.1, 10, 12)}
 
-    def fake_preprocess(scan, bbox=None, with_location=True) -> Layer1Result:
+    def fake_preprocess(scan, bbox=None, with_location=True, calibrate=True) -> Layer1Result:
         x0, y0, x1, y1 = synth.LITH_BOX
         crop = scan.reader.crop(y0, y1, x0, x1)
         time.sleep(0.01)

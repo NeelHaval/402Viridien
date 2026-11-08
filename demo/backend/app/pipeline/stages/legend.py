@@ -16,7 +16,7 @@ NON_ROCK = re.compile(
     re.I,
 )
 LABEL_MIN_CONF = 0.3
-LABEL_BUDGET_S = 2.0
+LABEL_BUDGET_S = 600.0  # safety valve only: a label is a single line; results must not depend on load
 
 
 def is_rock(label: str | None) -> bool:

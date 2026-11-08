@@ -21,10 +21,10 @@ class Settings:
     max_upload_bytes: int = field(default_factory=lambda: int(os.environ.get("APP_MAX_UPLOAD_MB", "500")) * 1024 * 1024)
     cors_origins: tuple[str, ...] = ("http://localhost:5173", "http://localhost:8000")
     frontend_dist: Path = field(default_factory=lambda: _env_path("APP_FRONTEND_DIST", BACKEND_DIR.parent / "frontend" / "dist"))
-    # Layer-1 OCR time budgets (seconds). The tools default to interactive values (2.0 / 1.3 / 0.35); a background job can wait.
-    layer1_budget_s: float = field(default_factory=lambda: float(os.environ.get("APP_LAYER1_BUDGET_S", "20")))
-    locate_budget_s: float = field(default_factory=lambda: float(os.environ.get("APP_LOCATE_BUDGET_S", "30")))
-    probe_budget_s: float = field(default_factory=lambda: float(os.environ.get("APP_PROBE_BUDGET_S", "5")))
+    # Layer-1 OCR time limits (seconds). They are safety valves that never bind in normal use: results must not depend on machine load.
+    layer1_budget_s: float = field(default_factory=lambda: float(os.environ.get("APP_LAYER1_BUDGET_S", "1200")))
+    locate_budget_s: float = field(default_factory=lambda: float(os.environ.get("APP_LOCATE_BUDGET_S", "600")))
+    probe_budget_s: float = field(default_factory=lambda: float(os.environ.get("APP_PROBE_BUDGET_S", "300")))
     # Pipeline tunables, carried over from the research notebook.
     stripe_height: int = 8
     boundary_window: int = 3

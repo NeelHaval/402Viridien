@@ -77,6 +77,7 @@ class Layer1Result:
     timings: dict[str, float] = field(default_factory=dict)
     depth_x_range: tuple[int, int] | None = None
     legend_box: tuple[int, int, int, int] | None = None
+    depth_candidates: list = field(default_factory=list)  # depth-strip x ranges still to calibrate when preprocess(calibrate=False)
 
 
 @dataclass
@@ -364,10 +365,11 @@ def _locate_columns(scan, bbox: dict | None, warnings: list[str]):
     return guess.lith, guess.depth_candidates, guess.confidence, None
 
 
-def preprocess(scan, bbox: dict | None = None, *, with_location: bool = True) -> Layer1Result:
+def preprocess(scan, bbox: dict | None = None, *, with_location: bool = True, calibrate: bool = True) -> Layer1Result:
     """Run layer 1: columns, boundaries, depth calibration and (unless `with_location` is False) header location.
 
-    The ingest service passes `with_location=False`: location is its own task (`app.services.locator`).
+    The ingest service passes `with_location=False` (location is its own task, `app.services.locator`) and `calibrate=False`
+    (it runs `finish_calibration` concurrently with the column stages).
     """
     t0 = time.perf_counter()
     timings: dict[str, float] = {}
@@ -385,8 +387,11 @@ def preprocess(scan, bbox: dict | None = None, *, with_location: bool = True) ->
             boundaries = find_boundaries(crop, y0)
         timings["boundaries"] = time.perf_counter() - t1
         t2 = time.perf_counter()
-        with span("layer1.calibration"):
-            calibration, depth_x = _calibrate_candidates(scan, depth_cands, y0, y0 + crop.shape[0], warnings, t0)
+        if calibrate:
+            with span("layer1.calibration"):
+                calibration, depth_x = _calibrate_candidates(scan, depth_cands, y0, y0 + crop.shape[0], warnings, t0)
+        else:
+            calibration, depth_x = None, depth_cands[0] if depth_cands else None
         timings["calibration"] = time.perf_counter() - t2
         t3 = time.perf_counter()
         location = loc_future.result() if loc_future else Location()
@@ -394,7 +399,19 @@ def preprocess(scan, bbox: dict | None = None, *, with_location: bool = True) ->
     timings["total"] = time.perf_counter() - t0
     legend = _parse_bbox(bbox).get("lithology_legend") if bbox else None
     return Layer1Result(crop, y0, (x0, x0 + crop.shape[1]), boundaries, calibration, location, conf, warnings, timings, depth_x,
-                        tuple(legend) if legend and legend[0] < legend[2] and legend[1] < legend[3] else None)
+                        tuple(legend) if legend and legend[0] < legend[2] and legend[1] < legend[3] else None, list(depth_cands))
+
+
+def finish_calibration(scan, layer1: Layer1Result) -> None:
+    """Depth calibration for a `preprocess(calibrate=False)` result; fills `calibration`, `depth_x_range` and `warnings` in place."""
+    if layer1.calibration is not None:
+        return
+    t0 = time.perf_counter()
+    with span("layer1.calibration"):
+        layer1.calibration, depth_x = _calibrate_candidates(scan, layer1.depth_candidates, layer1.y_offset,
+                                                            layer1.y_offset + layer1.lith_crop.shape[0], layer1.warnings, t0)
+    layer1.depth_x_range = depth_x or layer1.depth_x_range
+    layer1.timings["calibration"] = time.perf_counter() - t0
 
 
 def _crop_lith(scan, lith_x: tuple[int, int], y_range: tuple[int, int] | None) -> tuple[np.ndarray, int, int]:

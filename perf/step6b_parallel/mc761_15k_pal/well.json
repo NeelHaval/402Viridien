@@ -1,0 +1,34 @@
+{
+ "id": "dbfa7ceb8baa7221",
+ "name": "OCS-G 28025 001 ST01BP00",
+ "lat": 13.131533333333334,
+ "lon": -17.724116666666667,
+ "block": null,
+ "status": "ready",
+ "scores": {
+  "drilling": 79,
+  "cost": 0,
+  "price": 0,
+  "co2": 0
+ },
+ "validation_confidence": 0.6694895370918668,
+ "located": true,
+ "total_depth_ft": 22880.4,
+ "validation": {
+  "confidence": 0.6694895370918668,
+  "components": {
+   "structure": 1.0,
+   "sequence": 0.42067279643885347,
+   "regional": null,
+   "neighbours": null,
+   "location": 0.3
+  },
+  "flags": [
+   "regional:no_regional_fingerprint",
+   "neighbours:no_neighbours",
+   "location:location_low_confidence"
+  ]
+ },
+ "warnings": [],
+ "error": null
+}
