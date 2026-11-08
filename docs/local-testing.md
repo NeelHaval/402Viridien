@@ -92,7 +92,11 @@ python stress_testing/run_stress.py --profile quick
 ```
 
 The first command installs the test extra and runs the regression and stress
-check files. The second writes separate bounded stress evidence. These use
+checks for the core evaluator, adapters, reports and exchange tools. The second
+writes separate bounded stress evidence. The web demo needs its separate
+locked environment and `--include-demo`; see the
+[application stress guide](../stress_testing/README.md#test-the-current-backend-and-frontend).
+These use
 manufactured fixtures and need no private dataset downloads. Optional science
 dependencies can produce explicit skips; see the test output. Use
 `--no-bootstrap` only when the current Python environment already has the

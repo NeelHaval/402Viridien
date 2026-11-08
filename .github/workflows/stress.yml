@@ -40,7 +40,7 @@ jobs:
           cache: pip
           cache-dependency-path: requirements*.lock
       - if: ${{ !inputs.include_demo }}
-        run: python -m pip install -c requirements.lock -c requirements-legacy.lock -e ".[test,review]"
+        run: python -m pip install -r requirements.lock -c requirements-legacy.lock -e ".[test,review]"
       - if: ${{ inputs.include_demo }}
         run: python -m pip install -r stress_testing/requirements-demo.lock
       - name: Run selected robustness checks

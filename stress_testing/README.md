@@ -377,8 +377,10 @@ In particular:
   not validate training, GPU execution, arbitrary notebook side effects, or every
   malformed notebook record. Its legacy `record_errors` helper still has weaker
   nonfinite/proportion validation than the production manifest interface.
-- This suite does not perform a dependency advisory/CVE audit, a remote service
-  penetration test, or a full-data throughput benchmark. Existing image decoder
+- Routine test execution does not query dependency advisories. The latest review
+  separately audited the public lockfiles and recorded its snapshot in
+  [the retest](RETEST-b790a6b.md). This is not a remote service penetration test
+  or a full-data throughput benchmark. Existing image decoder
   budget tests run with `--include-regressions`. Optional and OS-specific skips
   reduce the coverage actually obtained on that machine.
 
