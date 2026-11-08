@@ -6,6 +6,9 @@ from pathlib import Path
 import numpy as np
 import pytest
 from PIL import Image
+
+pytest.importorskip("scipy", reason="Notebook candidate needs the optional SciPy dependency")
+
 from scipy.ndimage import label, center_of_mass
 from scipy.signal import find_peaks
 from scipy.spatial.distance import pdist

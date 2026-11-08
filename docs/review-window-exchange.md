@@ -136,6 +136,14 @@ validation status, and limits. The existing pack command includes this file and
 all files under `provenance/`, in addition to manifest assets. Failed validation
 leaves no export directory. The helper refuses to overwrite an existing export.
 
+## Current real-window status
+
+The local five-window bundle is unlabelled. Its parent train/dev assignment
+conflicts, and parent catalog validation has not run. Keep the bundle local.
+These five windows are exposed training/development evidence, not fresh
+verification. They cannot supply a final unseen test. That test needs a named
+custodian and isolated truth. No private source data is part of this change.
+
 ## Export and prepare a private release
 
 Run these commands from the repository. Use a new output directory each time.

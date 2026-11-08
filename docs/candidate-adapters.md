@@ -51,7 +51,7 @@ The notebook rule is the smaller candidate that can run now without training.
 The notebook states that its naming choices were tuned on two exposed pages.
 Its inherited independence is unknown. These results are not held-out evidence.
 
-## Measured smoke check
+## Adapter-only smoke check (before integration)
 
 The existing `demo-000` fixture is synthetic. Its image is 256 × 600 pixels.
 The scored window has 420 rows. The check used a 20-second worker timeout,
@@ -122,4 +122,28 @@ The focused command above reported `12 passed`. It covers the adapter and the
 existing baseline model tests. `git diff --check` reported no whitespace errors.
 
 Private real-data fetch, real full-scan evaluation and the whole test suite were
-not run for this change.
+not run for the adapter-only commit. The integration PR records its own checks.
+
+## Candidate selection and final unseen test
+
+Select candidates only from paired runs with identical dataset, scorer, mode
+and case fingerprints. Use the existing compare command. Keep the split and
+metric version identical too. A supplied-legend run cannot select a winner
+against an unassisted run. Keep failures and resource limits in the comparison.
+
+The five reviewed windows are exposed training/development evidence. They are
+not fresh verification. The local real-window bundle is unlabelled. Its parent
+train/dev assignment conflicts, and parent catalog validation has not run.
+Keep it local. Resolve the parent assignment and validate the combined catalog
+before any release review. Do not change splits or accepted labels to pass a
+check. See [window exchange](review-window-exchange.md).
+
+A final unseen test needs a named custodian and isolated truth. The custodian
+must keep its images, labels and results out of candidate tuning. Freeze the
+candidate, config, data and scorer fingerprints before that test. No final
+unseen test was run in this integration. These are experiment review rules;
+they do not state official hackathon rules or scoring.
+
+Keep render failures in the visual report. Missing required images prevent a
+promotion claim. Complete images alone do not establish a quality gain. See
+[visual evidence](visual-evidence.md).
