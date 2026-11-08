@@ -1,5 +1,36 @@
 import { useEffect, useRef, useState } from "react";
 import type { Segment } from "../types";
+const patternFor = (lithology: string) =>
+  lithology.includes("Shale")
+    ? "hatch"
+    : lithology === "Limestone"
+      ? "brick"
+      : "dots";
+/** One legend entry per lithology: total feet over all segments (from each segment's breakdown), colour of its beds. */
+function legendOf(segments: Segment[]) {
+  const entries = new Map<string, { feet: number; color: string }>();
+  for (const s of segments) {
+    const thickness = s.base_ft - s.top_ft;
+    for (const b of s.breakdown) {
+      const entry = entries.get(b.lithology) ?? {
+        feet: 0,
+        color: s.lithology === b.lithology ? s.color : "",
+      };
+      entry.feet += (thickness * b.pct) / 100;
+      if (!entry.color && s.lithology === b.lithology) entry.color = s.color;
+      entries.set(b.lithology, entry);
+    }
+  }
+  const total = [...entries.values()].reduce((a, e) => a + e.feet, 0) || 1;
+  return [...entries.entries()]
+    .map(([lithology, e]) => ({
+      lithology,
+      feet: e.feet,
+      share: Math.round((100 * e.feet) / total),
+      color: e.color || "#8a8f9c",
+    }))
+    .sort((a, b) => b.feet - a.feet);
+}
 export function LithColumn({
   segments,
   area,
@@ -8,6 +39,7 @@ export function LithColumn({
   area: boolean;
 }) {
   const [selected, setSelected] = useState<number | null>(null);
+  const [focus, setFocus] = useState<string | null>(null);
   const host = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const close = (event: PointerEvent) => {
@@ -27,8 +59,35 @@ export function LithColumn({
   );
   const height = heights.reduce((a, b) => a + b, 0) + 54;
   const active = selected === null ? null : segments[selected];
+  const legend = legendOf(segments);
   return (
     <div className="column-scroll" ref={host}>
+      <ul className="lith-legend" aria-label="Lithology legend">
+        {legend.map((e) => (
+          <li key={e.lithology}>
+            <button
+              type="button"
+              className={focus === e.lithology ? "on" : undefined}
+              aria-pressed={focus === e.lithology}
+              onClick={() => setFocus(focus === e.lithology ? null : e.lithology)}
+            >
+              <svg width="22" height="16" aria-hidden="true">
+                <rect width="22" height="16" rx="2" fill={e.color} />
+                <rect
+                  width="22"
+                  height="16"
+                  rx="2"
+                  fill={`url(#${patternFor(e.lithology)})`}
+                />
+              </svg>
+              <span className="name">{e.lithology}</span>
+              <span className="share">
+                {e.share}% · {Math.round(e.feet).toLocaleString()} ft
+              </span>
+            </button>
+          </li>
+        ))}
+      </ul>
       <svg
         viewBox={`0 0 350 ${height}`}
         className="lith-column"
@@ -90,11 +149,8 @@ export function LithColumn({
         {segments.map((s, i) => {
           const y = offsets[i],
             h = heights[i];
-          const pattern = s.lithology.includes("Shale")
-            ? "hatch"
-            : s.lithology === "Limestone"
-              ? "brick"
-              : "dots";
+          const pattern = patternFor(s.lithology);
+          const dim = focus !== null && s.lithology !== focus;
           return (
             <g
               key={i}
@@ -109,6 +165,7 @@ export function LithColumn({
                 }
               }}
               className="segment"
+              opacity={dim ? 0.25 : 1}
             >
               <rect x="76" y={y} width="70" height={h - 1} fill={s.color} />
               <rect
