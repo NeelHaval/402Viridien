@@ -1,0 +1,10 @@
+{
+  "calibration": {
+    "a": 0.2529086553541735,
+    "b": 2888.6180726411985,
+    "n_points": 30,
+    "rmse_px": 3.877617048615194,
+    "method": "rapidocr+consensus+ft-assumed"
+  },
+  "rows": 1866
+}
