@@ -1,0 +1,9 @@
+include README.md CONTRIBUTING.md requirements*.lock
+include data/source-revisions.json
+recursive-include .github/workflows *.yml
+recursive-include scripts *.py
+recursive-include configs *.json
+recursive-include docs *.md
+recursive-include data *.lock.json
+recursive-include examples *.json *.csv *.png *.py
+include .github/pull_request_template.md

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "repository": "NeelHaval/viridian402",
+  "source_revision": "663721e72e3fa2ba496987c13b66610e52d1c8f3",
+  "bundles": {
+    "evaluation": {
+      "tag": "data-20261108-v1",
+      "asset_name": "evaluation-20261108-v1.zip",
+      "asset_id": 722846858,
+      "size": 37550605,
+      "sha256": "5f3a5530d13a11b6d2df6d085574ad66f62333a77a8997a2c102b01c1328df6f"
+    },
+    "challenge": {
+      "tag": "data-20261108-v1",
+      "asset_name": "challenge-20261108-v1.zip",
+      "asset_id": 722847140,
+      "size": 905240373,
+      "sha256": "c061aa37348a47863b5c644a0d27598e22f9383f65c4746a3aefd3bb3db251b8"
+    },
+    "crops": {
+      "tag": "data-20261108-v1",
+      "asset_name": "pr54-real-labels.zip",
+      "asset_id": 722853080,
+      "size": 13213228,
+      "sha256": "99985cb1d69c525822903d1eea38ed96b6e8570750d52affe01fc30c405131bd",
+      "source_repository": "silmoon04/hacktheburgh26",
+      "source_commit": "3f883fc639bcb5861feb5879b9b0a0efef583301",
+      "snapshot": "8b8884c431cb8ce8aac5"
+    }
+  },
+  "source_revisions": {
+    "intervals": "663721e72e3fa2ba496987c13b66610e52d1c8f3",
+    "crops_pr54": "3f883fc639bcb5861feb5879b9b0a0efef583301"
+  }
+}

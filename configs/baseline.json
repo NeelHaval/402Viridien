@@ -1,0 +1,11 @@
+{
+  "seed": 2026,
+  "smooth_radius": 2,
+  "boundary_threshold": 0.1,
+  "min_height": 4,
+  "cluster_threshold": 0.24,
+  "blank_threshold": 0.985,
+  "max_window_pixels": 12000000,
+  "max_decode_bytes": 512000000,
+  "training_groups": []
+}

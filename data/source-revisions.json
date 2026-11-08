@@ -1,0 +1,21 @@
+{
+  "interval_snapshot": {
+    "repository": "silmoon04/hacktheburgh26",
+    "commit": "663721e72e3fa2ba496987c13b66610e52d1c8f3",
+    "role": "Reviewed human interval truth, organizer example, external shared suites, frozen legacy S11"
+  },
+  "crop_snapshot": {
+    "repository": "silmoon04/hacktheburgh26",
+    "pull_request": 54,
+    "commit": "3f883fc639bcb5861feb5879b9b0a0efef583301",
+    "snapshot": "8b8884c431cb8ce8aac5",
+    "release_tag": "viridien-workspace-2026-11-08",
+    "accepted": 1028,
+    "usable_train": 907,
+    "usable_test": 112,
+    "quality_holds": 9,
+    "test_prospective": 60,
+    "test_retrospective": 52,
+    "note": "PR54 was open when imported. Source crops score classification, not interval boundaries, depths or bed thickness. Experimental source generators remain separate."
+  }
+}
