@@ -1,0 +1,11 @@
+backend/.venv/
+backend/storage/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+
+frontend/*.tsbuildinfo
+backend/data/app.db*
+backend/data/scans/
+backend/data/csv/

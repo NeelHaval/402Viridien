@@ -1,0 +1,143 @@
+{
+ "classes": [
+  "carbonate",
+  "evaporite",
+  "organic",
+  "volcanic",
+  "sand_silt",
+  "mud",
+  "other"
+ ],
+ "counts": {
+  "carbonate": {
+   "carbonate": 0,
+   "evaporite": 0,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 5,
+   "mud": 16,
+   "other": 0
+  },
+  "evaporite": {
+   "carbonate": 0,
+   "evaporite": 1,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 0,
+   "mud": 5,
+   "other": 0
+  },
+  "organic": {
+   "carbonate": 0,
+   "evaporite": 0,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 0,
+   "mud": 0,
+   "other": 0
+  },
+  "volcanic": {
+   "carbonate": 0,
+   "evaporite": 0,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 0,
+   "mud": 0,
+   "other": 0
+  },
+  "sand_silt": {
+   "carbonate": 0,
+   "evaporite": 0,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 135,
+   "mud": 547,
+   "other": 0
+  },
+  "mud": {
+   "carbonate": 21,
+   "evaporite": 4,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 543,
+   "mud": 46,
+   "other": 0
+  },
+  "other": {
+   "carbonate": 0,
+   "evaporite": 0,
+   "organic": 0,
+   "volcanic": 0,
+   "sand_silt": 0,
+   "mud": 0,
+   "other": 0
+  }
+ },
+ "probs": {
+  "carbonate": {
+   "carbonate": 0.03571428571428571,
+   "evaporite": 0.03571428571428571,
+   "organic": 0.03571428571428571,
+   "volcanic": 0.03571428571428571,
+   "sand_silt": 0.21428571428571427,
+   "mud": 0.6071428571428571,
+   "other": 0.03571428571428571
+  },
+  "evaporite": {
+   "carbonate": 0.07692307692307693,
+   "evaporite": 0.15384615384615385,
+   "organic": 0.07692307692307693,
+   "volcanic": 0.07692307692307693,
+   "sand_silt": 0.07692307692307693,
+   "mud": 0.46153846153846156,
+   "other": 0.07692307692307693
+  },
+  "organic": {
+   "carbonate": 0.14285714285714285,
+   "evaporite": 0.14285714285714285,
+   "organic": 0.14285714285714285,
+   "volcanic": 0.14285714285714285,
+   "sand_silt": 0.14285714285714285,
+   "mud": 0.14285714285714285,
+   "other": 0.14285714285714285
+  },
+  "volcanic": {
+   "carbonate": 0.14285714285714285,
+   "evaporite": 0.14285714285714285,
+   "organic": 0.14285714285714285,
+   "volcanic": 0.14285714285714285,
+   "sand_silt": 0.14285714285714285,
+   "mud": 0.14285714285714285,
+   "other": 0.14285714285714285
+  },
+  "sand_silt": {
+   "carbonate": 0.001451378809869376,
+   "evaporite": 0.001451378809869376,
+   "organic": 0.001451378809869376,
+   "volcanic": 0.001451378809869376,
+   "sand_silt": 0.19738751814223512,
+   "mud": 0.795355587808418,
+   "other": 0.001451378809869376
+  },
+  "mud": {
+   "carbonate": 0.03542673107890499,
+   "evaporite": 0.008051529790660225,
+   "organic": 0.001610305958132045,
+   "volcanic": 0.001610305958132045,
+   "sand_silt": 0.8760064412238325,
+   "mud": 0.07568438003220612,
+   "other": 0.001610305958132045
+  },
+  "other": {
+   "carbonate": 0.14285714285714285,
+   "evaporite": 0.14285714285714285,
+   "organic": 0.14285714285714285,
+   "volcanic": 0.14285714285714285,
+   "sand_silt": 0.14285714285714285,
+   "mud": 0.14285714285714285,
+   "other": 0.14285714285714285
+  }
+ },
+ "n_files": 3,
+ "n_transitions": 1323
+}

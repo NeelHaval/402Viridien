@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+httpx
+pytest
+numpy<2
+pandas<2.3
+scipy<1.14
+opencv-python-headless<4.11
+tifffile<2025.5
+imagecodecs<2025
+pillow
+rapidocr-onnxruntime==1.2.3
+pytesseract
+requests
+netCDF4

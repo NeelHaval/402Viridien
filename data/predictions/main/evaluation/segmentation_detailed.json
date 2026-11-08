@@ -1,0 +1,112 @@
+{
+  "per_file": {
+    "60808400140000_hadrian 2_masterlog_2in_10000-21962.json": {
+      "eval_range_px": [
+        1738,
+        49382
+      ],
+      "n_pixels": 47644,
+      "pixel_accuracy": 0.9951935185962556,
+      "pixel_confusion": {
+        "tp": 47067,
+        "tn": 348,
+        "fp": 220,
+        "fn": 9
+      },
+      "n_gt_segments": 680,
+      "n_pred_segments": 89,
+      "n_invalid_pred_segments_excluded": 0,
+      "segment_diff": -591,
+      "segment_abs_diff": 591,
+      "segment_rel_diff": -0.8691176470588236,
+      "segment_height_px": {
+        "gt": {
+          "min": 2,
+          "max": 14057,
+          "mean": 69.22941176470589
+        },
+        "pred": {
+          "min": 4,
+          "max": 14056,
+          "mean": 531.4269662921348
+        }
+      }
+    },
+    "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev.json": {
+      "eval_range_px": [
+        7988,
+        8330
+      ],
+      "n_pixels": 342,
+      "pixel_accuracy": 1.0,
+      "pixel_confusion": {
+        "tp": 342,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "n_gt_segments": 2,
+      "n_pred_segments": 62,
+      "n_invalid_pred_segments_excluded": 0,
+      "segment_diff": 60,
+      "segment_abs_diff": 60,
+      "segment_rel_diff": 30.0,
+      "segment_height_px": {
+        "gt": {
+          "min": 56,
+          "max": 286,
+          "mean": 171.0
+        },
+        "pred": {
+          "min": 4,
+          "max": 3026,
+          "mean": 253.75806451612902
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "n_files": 2,
+    "pixel_accuracy_micro": 0.9952277747676406,
+    "pixel_accuracy_macro": 0.9975967592981279,
+    "n_gt_segments": 682,
+    "n_pred_segments": 151,
+    "n_invalid_pred_segments_excluded": 0,
+    "segment_diff_total": -531,
+    "segment_diff_mean_per_file": -265.5,
+    "segment_abs_diff_mean_per_file": 325.5,
+    "segment_height_px": {
+      "gt": {
+        "min": 2,
+        "max": 14057,
+        "mean": 69.52785923753666
+      },
+      "pred": {
+        "min": 4,
+        "max": 14056,
+        "mean": 417.4172185430464
+      }
+    }
+  },
+  "gt_without_prediction": [],
+  "prediction_without_gt": [],
+  "failed": {
+    "ext_idaho_barlow3-14_p001__y15750_21750.json": "ValueError: prediction has no valid segments",
+    "ext_idaho_barlow3-14_p001__y2510_8510.json": "ValueError: prediction has no valid segments",
+    "ext_idaho_barlow3-14_p001__y9130_15130.json": "ValueError: prediction has no valid segments",
+    "ext_idaho_barlow3-14_p002__y15169_21169.json": "ValueError: prediction has no valid segments",
+    "ext_idaho_barlow3-14_p002__y284_6284.json": "ValueError: prediction has no valid segments",
+    "ext_idaho_barlow3-14_p002__y7726_13726.json": "ValueError: prediction has no valid segments",
+    "ext_kgs_386825__y2705_8705.json": "ValueError: prediction has no valid segments",
+    "ext_kgs_386825__y8705_10200.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p071__y1314_1880.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p073__y232_1879.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p074__y232_1879.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p075__y232_1877.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p076__y232_1879.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p077__y232_1879.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p078__y232_1879.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p079__y232_1879.json": "ValueError: prediction has no valid segments",
+    "ext_nl_flat-bay-2_p080__y232_1879.json": "ValueError: prediction has no valid segments"
+  }
+}

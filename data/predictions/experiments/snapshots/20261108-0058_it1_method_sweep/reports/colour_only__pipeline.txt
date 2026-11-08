@@ -1,0 +1,54 @@
+================================================================================================
+ BATCH SEGMENT CLASSIFICATION EVALUATION
+================================================================================================
+ File                                         PixAcc     mIoU      mF1    fwIoU   GT n  Pred n  SegAcc
+------------------------------------------------------------------------------------------------
+ 60808400140000_hadrian 2_masterlog_2in...    69.39%   19.31%   21.72%   58.06%    680      40  30.29%
+ 60811404100000_gc743_dc141_st00bp00_mu...     0.00%    0.00%    0.00%    0.00%      2      57   0.00%
+------------------------------------------------------------------------------------------------
+ AGGREGATE over 2 file(s), 70,351 px pooled
+
+   Pooled (micro over all pixels)
+     Pixel accuracy      : 47.26%
+     Mean class accuracy : 26.28%
+     mIoU (macro/class)  : 12.87%
+     Freq.-weighted IoU  : 39.55%
+     Macro P / R / F1    : 23.54% / 26.28% / 14.48%
+     Segment accuracy    : 30.21% (206 / 682)
+
+   Mean of per-file values (macro over files)
+     Pixel acc 34.70%   mIoU 9.65%   macro-F1 10.86%   fwIoU 29.03%
+
+   Per class (pooled)
+  Class                       GT px    Pred px    Prec  Recall      F1     IoU
+  background *               22,933        402  98.51%   1.73%   3.39%   1.73%
+  shale grey                 22,393     23,817  78.93%  83.95%  81.36%  68.58%
+  halite                     14,057     16,368  85.88% 100.00%  92.40%  85.88%
+  sandstone                   5,720          0     n/a   0.00%   0.00%   0.00%
+  siltstone                   4,515          0     n/a   0.00%   0.00%   0.00%
+  marl                          391          0     n/a   0.00%   0.00%   0.00%
+  unknown                       286          0     n/a   0.00%   0.00%   0.00%
+  13                             56          0     n/a   0.00%   0.00%   0.00%
+  bitumen                         0         22   0.00%     n/a   0.00%   0.00%
+  clay-shale                      0     12,832   0.00%     n/a   0.00%   0.00%
+  gas_good                        0      6,703   0.00%     n/a   0.00%   0.00%
+  sand                            0      6,300   0.00%     n/a   0.00%   0.00%
+  silt                            0      3,907   0.00%     n/a   0.00%   0.00%
+  (* background: shown but excluded from macro means)
+
+   Confusion matrix (pooled pixels; rows = GT)
+  GT \ Pred      backgrou.        13 clay-sha.  gas_good    halite      marl      sand sandstone shale gr.      silt siltstone   unknown
+  backgrou.            396         0    12,549     6,703       218         0        35         0       166     2,845         0         0
+  13                     0         0         0         0         0         0         0         0         0        56         0         0
+  clay-sha.              0         0         0         0         0         0         0         0         0         0         0         0
+  gas_good               0         0         0         0         0         0         0         0         0         0         0         0
+  halite                 0         0         0         0    14,057         0         0         0         0         0         0         0
+  marl                   0         0         0         0         0         0         0         0       391         0         0         0
+  sand                   0         0         0         0         0         0         0         0         0         0         0         0
+  sandstone              0         0         0         0       480         0     3,598         0     1,570        72         0         0
+  shale gr.              6         0         0         0       922         0     2,394         0    18,798       272         0         0
+  silt                   0         0         0         0         0         0         0         0         0         0         0         0
+  siltstone              0         0         0         0       691         0       273         0     2,892       659         0         0
+  unknown                0         0       283         0         0         0         0         0         0         3         0         0
+  (showing the 12 largest classes; full matrix in --json)
+================================================================================================

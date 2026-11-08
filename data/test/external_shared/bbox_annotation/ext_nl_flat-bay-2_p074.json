@@ -1,0 +1,25 @@
+{
+  "image_name": "ext_nl_flat-bay-2_p074.tif",
+  "width": 1274,
+  "height": 1880,
+  "bounding_boxes": {
+    "depth_column": [
+      344,
+      232,
+      368,
+      1879
+    ],
+    "interpreted_lithology_column": [
+      445,
+      232,
+      542,
+      1879
+    ],
+    "lithology_legend": [
+      10,
+      0,
+      1076,
+      202
+    ]
+  }
+}

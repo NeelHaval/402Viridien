@@ -1,0 +1,52 @@
+================================================================================================
+ BATCH SEGMENT CLASSIFICATION EVALUATION
+================================================================================================
+ File                                         PixAcc     mIoU      mF1    fwIoU   GT n  Pred n  SegAcc
+------------------------------------------------------------------------------------------------
+ 60808400140000_hadrian 2_masterlog_2in...    77.66%   24.84%   24.92%   77.12%    680     674  42.79%
+ 60811404100000_gc743_dc141_st00bp00_mu...     0.00%    0.00%    0.00%    0.00%      2       2   0.00%
+------------------------------------------------------------------------------------------------
+ AGGREGATE over 2 file(s), 47,986 px pooled
+
+   Pooled (micro over all pixels)
+     Pixel accuracy      : 77.10%
+     Mean class accuracy : 28.56%
+     mIoU (macro/class)  : 18.07%
+     Freq.-weighted IoU  : 76.57%
+     Macro P / R / F1    : 33.14% / 28.56% / 18.12%
+     Segment accuracy    : 42.67% (291 / 682)
+
+   Mean of per-file values (macro over files)
+     Pixel acc 38.83%   mIoU 12.42%   macro-F1 12.46%   fwIoU 38.56%
+
+   Per class (pooled)
+  Class                       GT px    Pred px    Prec  Recall      F1     IoU
+  shale grey                 22,393     22,619  98.91%  99.91%  99.41%  98.83%
+  halite                     14,057     14,069  99.91% 100.00%  99.96%  99.91%
+  sandstone                   5,720          0     n/a   0.00%   0.00%   0.00%
+  siltstone                   4,515          0     n/a   0.00%   0.00%   0.00%
+  background *                  568        568 100.00% 100.00% 100.00% 100.00%
+  marl                          391          0     n/a   0.00%   0.00%   0.00%
+  unknown                       286          0     n/a   0.00%   0.00%   0.00%
+  13                             56          0     n/a   0.00%   0.00%   0.00%
+  clay-shale                      0        286   0.00%     n/a   0.00%   0.00%
+  dolomitic clay                  0        391   0.00%     n/a   0.00%   0.00%
+  sand                            0      5,671   0.00%     n/a   0.00%   0.00%
+  silt                            0      4,382   0.00%     n/a   0.00%   0.00%
+  (* background: shown but excluded from macro means)
+
+   Confusion matrix (pooled pixels; rows = GT)
+  GT \ Pred      backgrou.        13 clay-sha. dolomiti.    halite      marl      sand sandstone shale gr.      silt siltstone   unknown
+  backgrou.            568         0         0         0         0         0         0         0         0         0         0         0
+  13                     0         0         0         0         0         0         0         0         0        56         0         0
+  clay-sha.              0         0         0         0         0         0         0         0         0         0         0         0
+  dolomiti.              0         0         0         0         0         0         0         0         0         0         0         0
+  halite                 0         0         0         0    14,057         0         0         0         0         0         0         0
+  marl                   0         0         0       391         0         0         0         0         0         0         0         0
+  sand                   0         0         0         0         0         0         0         0         0         0         0         0
+  sandstone              0         0         0         0         3         0     5,671         0        37         9         0         0
+  shale gr.              0         0         0         0         6         0         0         0    22,373        14         0         0
+  silt                   0         0         0         0         0         0         0         0         0         0         0         0
+  siltstone              0         0         0         0         3         0         0         0       209     4,303         0         0
+  unknown                0         0       286         0         0         0         0         0         0         0         0         0
+================================================================================================

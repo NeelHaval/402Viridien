@@ -1,0 +1,7682 @@
+{
+ "schema_version": 1,
+ "stem": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+ "image_name": "60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",
+ "written_by": {
+  "experiment": {
+   "batch": "it1_method_sweep",
+   "method": "column_adapted",
+   "mode": "oracle",
+   "legend_source": "detect"
+  }
+ },
+ "legend": [
+  {
+   "id": 0,
+   "box": [
+    55,
+    865,
+    119,
+    913
+   ],
+   "label_printed": "legend_0"
+  },
+  {
+   "id": 1,
+   "box": [
+    252,
+    864,
+    316,
+    913
+   ],
+   "label_printed": "Shale grey"
+  },
+  {
+   "id": 2,
+   "box": [
+    449,
+    864,
+    513,
+    913
+   ],
+   "label_printed": "Shale brown"
+  },
+  {
+   "id": 3,
+   "box": [
+    645,
+    864,
+    709,
+    913
+   ],
+   "label_printed": "Shale green"
+  },
+  {
+   "id": 4,
+   "box": [
+    842,
+    864,
+    906,
+    913
+   ],
+   "label_printed": "Silt"
+  },
+  {
+   "id": 5,
+   "box": [
+    1038,
+    864,
+    1102,
+    913
+   ],
+   "label_printed": "Siltstone"
+  },
+  {
+   "id": 6,
+   "box": [
+    1236,
+    865,
+    1300,
+    913
+   ],
+   "label_printed": "Sand"
+  },
+  {
+   "id": 7,
+   "box": [
+    1432,
+    864,
+    1496,
+    913
+   ],
+   "label_printed": "Sandstone"
+  },
+  {
+   "id": 8,
+   "box": [
+    55,
+    960,
+    119,
+    1008
+   ],
+   "label_printed": "Halite"
+  },
+  {
+   "id": 9,
+   "box": [
+    252,
+    960,
+    316,
+    1008
+   ],
+   "label_printed": "Anhydrite"
+  },
+  {
+   "id": 10,
+   "box": [
+    449,
+    960,
+    513,
+    1008
+   ],
+   "label_printed": "Gypsum"
+  },
+  {
+   "id": 11,
+   "box": [
+    645,
+    960,
+    709,
+    1008
+   ],
+   "label_printed": "Sylvite"
+  },
+  {
+   "id": 12,
+   "box": [
+    842,
+    960,
+    906,
+    1008
+   ],
+   "label_printed": "Bitumen"
+  },
+  {
+   "id": 13,
+   "box": [
+    1037,
+    960,
+    1101,
+    1008
+   ],
+   "label_printed": "Tuff"
+  },
+  {
+   "id": 14,
+   "box": [
+    1235,
+    960,
+    1299,
+    1008
+   ],
+   "label_printed": "Mud gain"
+  },
+  {
+   "id": 15,
+   "box": [
+    1432,
+    958,
+    1496,
+    1006
+   ],
+   "label_printed": "Mud loss"
+  },
+  {
+   "id": 16,
+   "box": [
+    55,
+    1054,
+    119,
+    1102
+   ],
+   "label_printed": "Limestone"
+  },
+  {
+   "id": 17,
+   "box": [
+    252,
+    1054,
+    316,
+    1102
+   ],
+   "label_printed": "Dolomitic clay"
+  },
+  {
+   "id": 18,
+   "box": [
+    449,
+    1053,
+    513,
+    1101
+   ],
+   "label_printed": "Marl"
+  },
+  {
+   "id": 19,
+   "box": [
+    645,
+    1054,
+    709,
+    1102
+   ],
+   "label_printed": "Dolomite"
+  },
+  {
+   "id": 20,
+   "box": [
+    841,
+    1053,
+    905,
+    1101
+   ],
+   "label_printed": "Sidewall core"
+  },
+  {
+   "id": 21,
+   "box": [
+    1038,
+    1053,
+    1102,
+    1101
+   ],
+   "label_printed": "Casing shoe"
+  },
+  {
+   "id": 22,
+   "box": [
+    1236,
+    1053,
+    1300,
+    1101
+   ],
+   "label_printed": "MDT"
+  },
+  {
+   "id": 23,
+   "box": [
+    1432,
+    1053,
+    1496,
+    1101
+   ],
+   "label_printed": "Core"
+  }
+ ],
+ "layers": [
+  {
+   "top_px": 1738,
+   "bottom_px": 15795,
+   "composition": [
+    {
+     "legend_id": 8,
+     "type": "Halite",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 16133,
+   "bottom_px": 18368,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18368,
+   "bottom_px": 18392,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18392,
+   "bottom_px": 18418,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18418,
+   "bottom_px": 18425,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18425,
+   "bottom_px": 18487,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18487,
+   "bottom_px": 18503,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18503,
+   "bottom_px": 18542,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18542,
+   "bottom_px": 18557,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18557,
+   "bottom_px": 18591,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18591,
+   "bottom_px": 18619,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18619,
+   "bottom_px": 18632,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18632,
+   "bottom_px": 18661,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18661,
+   "bottom_px": 18672,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18679,
+   "bottom_px": 18685,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18685,
+   "bottom_px": 18697,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Silt",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18697,
+   "bottom_px": 18711,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18711,
+   "bottom_px": 18737,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18737,
+   "bottom_px": 18747,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18747,
+   "bottom_px": 18784,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18784,
+   "bottom_px": 18795,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18795,
+   "bottom_px": 18812,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18812,
+   "bottom_px": 18818,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18818,
+   "bottom_px": 18844,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18844,
+   "bottom_px": 18857,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18857,
+   "bottom_px": 18873,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18873,
+   "bottom_px": 18886,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18886,
+   "bottom_px": 18906,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18906,
+   "bottom_px": 18920,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18920,
+   "bottom_px": 18964,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18964,
+   "bottom_px": 18978,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18978,
+   "bottom_px": 18999,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 18999,
+   "bottom_px": 19013,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19013,
+   "bottom_px": 19039,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19039,
+   "bottom_px": 19050,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19050,
+   "bottom_px": 19082,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19082,
+   "bottom_px": 19095,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19095,
+   "bottom_px": 19121,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19121,
+   "bottom_px": 19136,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19136,
+   "bottom_px": 19159,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19159,
+   "bottom_px": 19194,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19194,
+   "bottom_px": 19216,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19216,
+   "bottom_px": 19230,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19230,
+   "bottom_px": 19245,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19245,
+   "bottom_px": 19257,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19257,
+   "bottom_px": 19293,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19293,
+   "bottom_px": 19511,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19511,
+   "bottom_px": 19525,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19525,
+   "bottom_px": 19541,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19541,
+   "bottom_px": 19553,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19553,
+   "bottom_px": 19583,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19583,
+   "bottom_px": 19659,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19659,
+   "bottom_px": 19913,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19913,
+   "bottom_px": 19936,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19936,
+   "bottom_px": 19989,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19989,
+   "bottom_px": 20035,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20035,
+   "bottom_px": 20069,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20069,
+   "bottom_px": 20106,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20106,
+   "bottom_px": 20184,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20184,
+   "bottom_px": 20204,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20204,
+   "bottom_px": 20307,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20307,
+   "bottom_px": 20351,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20351,
+   "bottom_px": 20402,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20402,
+   "bottom_px": 20412,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20412,
+   "bottom_px": 20427,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20427,
+   "bottom_px": 20440,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20440,
+   "bottom_px": 20501,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20501,
+   "bottom_px": 20516,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20516,
+   "bottom_px": 20523,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20523,
+   "bottom_px": 20533,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20533,
+   "bottom_px": 20608,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20608,
+   "bottom_px": 20623,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20623,
+   "bottom_px": 20639,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20639,
+   "bottom_px": 20645,
+   "composition": [
+    {
+     "legend_id": 9,
+     "type": "Anhydrite",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20645,
+   "bottom_px": 20689,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20689,
+   "bottom_px": 20720,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20720,
+   "bottom_px": 20730,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20730,
+   "bottom_px": 20745,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20745,
+   "bottom_px": 20783,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20783,
+   "bottom_px": 20855,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20855,
+   "bottom_px": 20877,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20877,
+   "bottom_px": 20923,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20923,
+   "bottom_px": 20944,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20944,
+   "bottom_px": 20966,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20966,
+   "bottom_px": 21027,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21027,
+   "bottom_px": 21046,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21046,
+   "bottom_px": 21059,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21059,
+   "bottom_px": 21076,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21076,
+   "bottom_px": 21117,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21117,
+   "bottom_px": 21134,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21134,
+   "bottom_px": 21227,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21227,
+   "bottom_px": 21253,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21253,
+   "bottom_px": 21281,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21281,
+   "bottom_px": 21295,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21295,
+   "bottom_px": 21342,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21342,
+   "bottom_px": 21368,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21368,
+   "bottom_px": 21391,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21391,
+   "bottom_px": 21405,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21410,
+   "bottom_px": 21440,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21440,
+   "bottom_px": 21457,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21457,
+   "bottom_px": 21473,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21479,
+   "bottom_px": 21491,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21491,
+   "bottom_px": 21539,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21539,
+   "bottom_px": 21555,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21555,
+   "bottom_px": 21578,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21578,
+   "bottom_px": 21593,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21593,
+   "bottom_px": 21623,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21623,
+   "bottom_px": 21632,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21632,
+   "bottom_px": 21660,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21660,
+   "bottom_px": 21679,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21679,
+   "bottom_px": 21691,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21691,
+   "bottom_px": 21725,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21725,
+   "bottom_px": 21750,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21750,
+   "bottom_px": 21784,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21784,
+   "bottom_px": 21806,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21806,
+   "bottom_px": 21886,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21886,
+   "bottom_px": 22003,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22003,
+   "bottom_px": 22047,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22047,
+   "bottom_px": 22073,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22073,
+   "bottom_px": 22099,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22099,
+   "bottom_px": 22149,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22149,
+   "bottom_px": 22204,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22204,
+   "bottom_px": 22223,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22223,
+   "bottom_px": 22309,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22309,
+   "bottom_px": 22316,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22316,
+   "bottom_px": 22343,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22343,
+   "bottom_px": 22436,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22436,
+   "bottom_px": 22450,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22450,
+   "bottom_px": 22467,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22467,
+   "bottom_px": 22487,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22487,
+   "bottom_px": 22520,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22520,
+   "bottom_px": 22534,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22534,
+   "bottom_px": 22574,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22574,
+   "bottom_px": 22590,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22590,
+   "bottom_px": 22605,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22605,
+   "bottom_px": 22620,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22620,
+   "bottom_px": 22651,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22651,
+   "bottom_px": 22669,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22669,
+   "bottom_px": 22743,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22743,
+   "bottom_px": 22758,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22758,
+   "bottom_px": 22829,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22829,
+   "bottom_px": 22841,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22841,
+   "bottom_px": 23008,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23008,
+   "bottom_px": 23028,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23028,
+   "bottom_px": 23156,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23164,
+   "bottom_px": 23193,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23193,
+   "bottom_px": 23264,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23264,
+   "bottom_px": 23284,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23284,
+   "bottom_px": 23312,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23312,
+   "bottom_px": 23332,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23332,
+   "bottom_px": 23416,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23416,
+   "bottom_px": 23436,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23436,
+   "bottom_px": 23525,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23525,
+   "bottom_px": 23540,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23540,
+   "bottom_px": 23730,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23730,
+   "bottom_px": 23746,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23746,
+   "bottom_px": 23870,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23870,
+   "bottom_px": 23898,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23898,
+   "bottom_px": 23963,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23963,
+   "bottom_px": 23996,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23996,
+   "bottom_px": 24113,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24113,
+   "bottom_px": 24143,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24143,
+   "bottom_px": 24227,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24227,
+   "bottom_px": 24244,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24244,
+   "bottom_px": 24301,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24301,
+   "bottom_px": 24335,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24335,
+   "bottom_px": 24381,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24381,
+   "bottom_px": 24403,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24403,
+   "bottom_px": 24412,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24412,
+   "bottom_px": 24502,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24502,
+   "bottom_px": 24531,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24531,
+   "bottom_px": 24540,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24540,
+   "bottom_px": 24564,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24564,
+   "bottom_px": 24580,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24580,
+   "bottom_px": 24621,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24621,
+   "bottom_px": 24642,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24642,
+   "bottom_px": 24654,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24654,
+   "bottom_px": 24668,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24668,
+   "bottom_px": 24682,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24691,
+   "bottom_px": 24755,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24755,
+   "bottom_px": 24773,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24773,
+   "bottom_px": 24802,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24802,
+   "bottom_px": 24819,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24819,
+   "bottom_px": 24961,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24961,
+   "bottom_px": 24976,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 24976,
+   "bottom_px": 25142,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25142,
+   "bottom_px": 25157,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25157,
+   "bottom_px": 25172,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25172,
+   "bottom_px": 25185,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25185,
+   "bottom_px": 25269,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25269,
+   "bottom_px": 25291,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25291,
+   "bottom_px": 25306,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25306,
+   "bottom_px": 25321,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25321,
+   "bottom_px": 25403,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25403,
+   "bottom_px": 25424,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25424,
+   "bottom_px": 25440,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25440,
+   "bottom_px": 25469,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25469,
+   "bottom_px": 25683,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25683,
+   "bottom_px": 25699,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25699,
+   "bottom_px": 25712,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25712,
+   "bottom_px": 25782,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25782,
+   "bottom_px": 25809,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25809,
+   "bottom_px": 25960,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25960,
+   "bottom_px": 25988,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 25988,
+   "bottom_px": 26037,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26037,
+   "bottom_px": 26054,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26054,
+   "bottom_px": 26116,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26116,
+   "bottom_px": 26136,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26136,
+   "bottom_px": 26190,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26190,
+   "bottom_px": 26212,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26212,
+   "bottom_px": 26352,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26352,
+   "bottom_px": 26384,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26384,
+   "bottom_px": 26546,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26546,
+   "bottom_px": 26566,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26566,
+   "bottom_px": 26637,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26637,
+   "bottom_px": 26657,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 26657,
+   "bottom_px": 27926,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 27926,
+   "bottom_px": 27944,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 27944,
+   "bottom_px": 27960,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 27960,
+   "bottom_px": 27992,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 27992,
+   "bottom_px": 28054,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28054,
+   "bottom_px": 28069,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28069,
+   "bottom_px": 28153,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28153,
+   "bottom_px": 28161,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28161,
+   "bottom_px": 28286,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28286,
+   "bottom_px": 28299,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28299,
+   "bottom_px": 28329,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28329,
+   "bottom_px": 28344,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28344,
+   "bottom_px": 28412,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28412,
+   "bottom_px": 28426,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28426,
+   "bottom_px": 28448,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28448,
+   "bottom_px": 28470,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28470,
+   "bottom_px": 28527,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28527,
+   "bottom_px": 28543,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28543,
+   "bottom_px": 28581,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28581,
+   "bottom_px": 28595,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28595,
+   "bottom_px": 28606,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28606,
+   "bottom_px": 28612,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28612,
+   "bottom_px": 28627,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28627,
+   "bottom_px": 28659,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28659,
+   "bottom_px": 28677,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28677,
+   "bottom_px": 28689,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28689,
+   "bottom_px": 28708,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28708,
+   "bottom_px": 28730,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28730,
+   "bottom_px": 28746,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28746,
+   "bottom_px": 28760,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28760,
+   "bottom_px": 28780,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28780,
+   "bottom_px": 28804,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28804,
+   "bottom_px": 28819,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28819,
+   "bottom_px": 28832,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28832,
+   "bottom_px": 28843,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28843,
+   "bottom_px": 28881,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28881,
+   "bottom_px": 28903,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28903,
+   "bottom_px": 28917,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28917,
+   "bottom_px": 28961,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28961,
+   "bottom_px": 28978,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 28978,
+   "bottom_px": 29008,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29008,
+   "bottom_px": 29025,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29025,
+   "bottom_px": 29037,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29037,
+   "bottom_px": 29053,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29053,
+   "bottom_px": 29080,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29080,
+   "bottom_px": 29098,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29098,
+   "bottom_px": 29126,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29126,
+   "bottom_px": 29140,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29140,
+   "bottom_px": 29157,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29162,
+   "bottom_px": 29257,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29257,
+   "bottom_px": 29278,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29278,
+   "bottom_px": 29284,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29288,
+   "bottom_px": 29330,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29330,
+   "bottom_px": 29345,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29345,
+   "bottom_px": 29383,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29383,
+   "bottom_px": 29400,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29400,
+   "bottom_px": 29473,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29473,
+   "bottom_px": 29487,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29487,
+   "bottom_px": 29515,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29515,
+   "bottom_px": 29534,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29534,
+   "bottom_px": 29580,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29580,
+   "bottom_px": 29594,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29594,
+   "bottom_px": 29598,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29598,
+   "bottom_px": 29609,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29609,
+   "bottom_px": 29625,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29625,
+   "bottom_px": 29677,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29677,
+   "bottom_px": 29691,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29691,
+   "bottom_px": 29774,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29774,
+   "bottom_px": 29795,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29795,
+   "bottom_px": 29806,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29806,
+   "bottom_px": 29825,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29825,
+   "bottom_px": 29868,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29868,
+   "bottom_px": 29893,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29893,
+   "bottom_px": 29952,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 29952,
+   "bottom_px": 29996,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 30003,
+   "bottom_px": 30134,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 30134,
+   "bottom_px": 30150,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 30150,
+   "bottom_px": 31412,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31420,
+   "bottom_px": 31430,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31430,
+   "bottom_px": 31446,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31446,
+   "bottom_px": 31457,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31457,
+   "bottom_px": 31462,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31467,
+   "bottom_px": 31494,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31494,
+   "bottom_px": 31513,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31513,
+   "bottom_px": 31517,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31517,
+   "bottom_px": 31530,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31530,
+   "bottom_px": 31543,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Silt",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31543,
+   "bottom_px": 31553,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31553,
+   "bottom_px": 31563,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31563,
+   "bottom_px": 31576,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31576,
+   "bottom_px": 31599,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31599,
+   "bottom_px": 31655,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31655,
+   "bottom_px": 31731,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31731,
+   "bottom_px": 31829,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31829,
+   "bottom_px": 31872,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31872,
+   "bottom_px": 31882,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31882,
+   "bottom_px": 31938,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31938,
+   "bottom_px": 31971,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31971,
+   "bottom_px": 31990,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 31994,
+   "bottom_px": 32036,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32036,
+   "bottom_px": 32060,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32060,
+   "bottom_px": 32064,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Silt",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32064,
+   "bottom_px": 32101,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32101,
+   "bottom_px": 32250,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32250,
+   "bottom_px": 32265,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32265,
+   "bottom_px": 32284,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32284,
+   "bottom_px": 32298,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32298,
+   "bottom_px": 32332,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32332,
+   "bottom_px": 32542,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32542,
+   "bottom_px": 32557,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32557,
+   "bottom_px": 32573,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32573,
+   "bottom_px": 32626,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32626,
+   "bottom_px": 32646,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32646,
+   "bottom_px": 32802,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32802,
+   "bottom_px": 32819,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 32819,
+   "bottom_px": 33056,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33056,
+   "bottom_px": 33079,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33079,
+   "bottom_px": 33365,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33365,
+   "bottom_px": 33418,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33418,
+   "bottom_px": 33521,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33521,
+   "bottom_px": 33535,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33535,
+   "bottom_px": 33550,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33550,
+   "bottom_px": 33567,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33567,
+   "bottom_px": 33694,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33694,
+   "bottom_px": 33709,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33709,
+   "bottom_px": 33929,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 33929,
+   "bottom_px": 34002,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34002,
+   "bottom_px": 34405,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34405,
+   "bottom_px": 34427,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34427,
+   "bottom_px": 34495,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34495,
+   "bottom_px": 34520,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34520,
+   "bottom_px": 34532,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34532,
+   "bottom_px": 34550,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34550,
+   "bottom_px": 34576,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34576,
+   "bottom_px": 34660,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34660,
+   "bottom_px": 34718,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34718,
+   "bottom_px": 34862,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34862,
+   "bottom_px": 34878,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34878,
+   "bottom_px": 34914,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34914,
+   "bottom_px": 34979,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 34979,
+   "bottom_px": 35587,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 35587,
+   "bottom_px": 35603,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 35603,
+   "bottom_px": 35681,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 35681,
+   "bottom_px": 35694,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 35694,
+   "bottom_px": 37486,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37486,
+   "bottom_px": 37518,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37518,
+   "bottom_px": 37527,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37527,
+   "bottom_px": 37560,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37560,
+   "bottom_px": 37607,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37607,
+   "bottom_px": 37626,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37626,
+   "bottom_px": 37640,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37647,
+   "bottom_px": 37660,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37660,
+   "bottom_px": 37669,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37669,
+   "bottom_px": 37734,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37741,
+   "bottom_px": 37762,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37762,
+   "bottom_px": 37817,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37823,
+   "bottom_px": 37887,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37887,
+   "bottom_px": 37898,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37898,
+   "bottom_px": 37959,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37959,
+   "bottom_px": 37971,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 37971,
+   "bottom_px": 38010,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38010,
+   "bottom_px": 38163,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38163,
+   "bottom_px": 38181,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38181,
+   "bottom_px": 38244,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38244,
+   "bottom_px": 38260,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38260,
+   "bottom_px": 38414,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38414,
+   "bottom_px": 38435,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38435,
+   "bottom_px": 38461,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38461,
+   "bottom_px": 38514,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38514,
+   "bottom_px": 38565,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38565,
+   "bottom_px": 38693,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38699,
+   "bottom_px": 38713,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38713,
+   "bottom_px": 38729,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38729,
+   "bottom_px": 38785,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38785,
+   "bottom_px": 38809,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38809,
+   "bottom_px": 38869,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38869,
+   "bottom_px": 38898,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38898,
+   "bottom_px": 38926,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38926,
+   "bottom_px": 38940,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38940,
+   "bottom_px": 38960,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38960,
+   "bottom_px": 38974,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38974,
+   "bottom_px": 38996,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 38996,
+   "bottom_px": 39006,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39006,
+   "bottom_px": 39045,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39045,
+   "bottom_px": 39054,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39054,
+   "bottom_px": 39100,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39100,
+   "bottom_px": 39118,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39118,
+   "bottom_px": 39168,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39168,
+   "bottom_px": 39174,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39174,
+   "bottom_px": 39195,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39195,
+   "bottom_px": 39211,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39211,
+   "bottom_px": 39283,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39283,
+   "bottom_px": 39298,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39298,
+   "bottom_px": 39350,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39350,
+   "bottom_px": 39369,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39369,
+   "bottom_px": 39408,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39408,
+   "bottom_px": 39417,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39417,
+   "bottom_px": 39459,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39459,
+   "bottom_px": 39470,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39470,
+   "bottom_px": 39519,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39519,
+   "bottom_px": 39531,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39531,
+   "bottom_px": 39563,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39563,
+   "bottom_px": 39587,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39587,
+   "bottom_px": 39621,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39621,
+   "bottom_px": 39636,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39643,
+   "bottom_px": 39665,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39665,
+   "bottom_px": 39677,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39677,
+   "bottom_px": 39695,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39695,
+   "bottom_px": 39712,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39712,
+   "bottom_px": 39833,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39833,
+   "bottom_px": 39854,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39854,
+   "bottom_px": 39926,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39926,
+   "bottom_px": 39942,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 39950,
+   "bottom_px": 40157,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40157,
+   "bottom_px": 40173,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40173,
+   "bottom_px": 40248,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40248,
+   "bottom_px": 40265,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40265,
+   "bottom_px": 40319,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40330,
+   "bottom_px": 40345,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40345,
+   "bottom_px": 40360,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40360,
+   "bottom_px": 40390,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40390,
+   "bottom_px": 40403,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40403,
+   "bottom_px": 40579,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40579,
+   "bottom_px": 40596,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40596,
+   "bottom_px": 40661,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40661,
+   "bottom_px": 40677,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40683,
+   "bottom_px": 40692,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40692,
+   "bottom_px": 40709,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40709,
+   "bottom_px": 40795,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40795,
+   "bottom_px": 40813,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40813,
+   "bottom_px": 40843,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40843,
+   "bottom_px": 40851,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40857,
+   "bottom_px": 40874,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40874,
+   "bottom_px": 40888,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40888,
+   "bottom_px": 40917,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40917,
+   "bottom_px": 40939,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 40939,
+   "bottom_px": 41041,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41041,
+   "bottom_px": 41052,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41052,
+   "bottom_px": 41155,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41155,
+   "bottom_px": 41174,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41174,
+   "bottom_px": 41327,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41327,
+   "bottom_px": 41344,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41344,
+   "bottom_px": 41445,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41445,
+   "bottom_px": 41455,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41455,
+   "bottom_px": 41677,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41677,
+   "bottom_px": 41694,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41694,
+   "bottom_px": 41767,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41767,
+   "bottom_px": 41784,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41784,
+   "bottom_px": 41801,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41801,
+   "bottom_px": 41812,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41812,
+   "bottom_px": 41827,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41827,
+   "bottom_px": 41846,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41846,
+   "bottom_px": 41868,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41874,
+   "bottom_px": 41876,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41876,
+   "bottom_px": 41892,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41892,
+   "bottom_px": 41973,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41973,
+   "bottom_px": 41998,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 41998,
+   "bottom_px": 42041,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42041,
+   "bottom_px": 42057,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42057,
+   "bottom_px": 42084,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42084,
+   "bottom_px": 42106,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42106,
+   "bottom_px": 42120,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42120,
+   "bottom_px": 42192,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42196,
+   "bottom_px": 42206,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42206,
+   "bottom_px": 42213,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42213,
+   "bottom_px": 42230,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42230,
+   "bottom_px": 42249,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42249,
+   "bottom_px": 42261,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42261,
+   "bottom_px": 42271,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42271,
+   "bottom_px": 42283,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42283,
+   "bottom_px": 42288,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42293,
+   "bottom_px": 42351,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42351,
+   "bottom_px": 42360,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42360,
+   "bottom_px": 42394,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42394,
+   "bottom_px": 42399,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42406,
+   "bottom_px": 42419,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42419,
+   "bottom_px": 42433,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42433,
+   "bottom_px": 42449,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42449,
+   "bottom_px": 42469,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42469,
+   "bottom_px": 42478,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42478,
+   "bottom_px": 42502,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42502,
+   "bottom_px": 42527,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42527,
+   "bottom_px": 42557,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42557,
+   "bottom_px": 42568,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42568,
+   "bottom_px": 42618,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42618,
+   "bottom_px": 42634,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42634,
+   "bottom_px": 42689,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42689,
+   "bottom_px": 42702,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42702,
+   "bottom_px": 42718,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42718,
+   "bottom_px": 42728,
+   "composition": [
+    {
+     "legend_id": 6,
+     "type": "Sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42728,
+   "bottom_px": 42752,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42756,
+   "bottom_px": 42770,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42770,
+   "bottom_px": 42836,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42836,
+   "bottom_px": 42850,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42854,
+   "bottom_px": 42871,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42871,
+   "bottom_px": 42883,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42883,
+   "bottom_px": 42939,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42939,
+   "bottom_px": 42951,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 42951,
+   "bottom_px": 43119,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43119,
+   "bottom_px": 43208,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43212,
+   "bottom_px": 43363,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43363,
+   "bottom_px": 43401,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43401,
+   "bottom_px": 43443,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43443,
+   "bottom_px": 43462,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43462,
+   "bottom_px": 43486,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43490,
+   "bottom_px": 43507,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43507,
+   "bottom_px": 43544,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43549,
+   "bottom_px": 43558,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43558,
+   "bottom_px": 43582,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43582,
+   "bottom_px": 43598,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43598,
+   "bottom_px": 43666,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43666,
+   "bottom_px": 43679,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43679,
+   "bottom_px": 43727,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43727,
+   "bottom_px": 43743,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43743,
+   "bottom_px": 43795,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43795,
+   "bottom_px": 43820,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43820,
+   "bottom_px": 43842,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43842,
+   "bottom_px": 43864,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43870,
+   "bottom_px": 43889,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43889,
+   "bottom_px": 43923,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43923,
+   "bottom_px": 43962,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43962,
+   "bottom_px": 43989,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 43989,
+   "bottom_px": 44027,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44027,
+   "bottom_px": 44043,
+   "composition": [
+    {
+     "legend_id": 17,
+     "type": "Dolomitic clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44043,
+   "bottom_px": 44098,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44102,
+   "bottom_px": 44111,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44111,
+   "bottom_px": 44141,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44141,
+   "bottom_px": 44158,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44158,
+   "bottom_px": 44205,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44205,
+   "bottom_px": 44224,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44224,
+   "bottom_px": 44282,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44282,
+   "bottom_px": 44296,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44300,
+   "bottom_px": 44379,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44379,
+   "bottom_px": 44411,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44411,
+   "bottom_px": 44445,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44445,
+   "bottom_px": 44469,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44469,
+   "bottom_px": 44516,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44516,
+   "bottom_px": 44537,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44537,
+   "bottom_px": 44620,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44620,
+   "bottom_px": 44632,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44632,
+   "bottom_px": 44641,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44641,
+   "bottom_px": 44658,
+   "composition": [
+    {
+     "legend_id": 17,
+     "type": "Dolomitic clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44658,
+   "bottom_px": 44679,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44679,
+   "bottom_px": 44697,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44697,
+   "bottom_px": 44745,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44745,
+   "bottom_px": 44766,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44766,
+   "bottom_px": 44833,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44833,
+   "bottom_px": 44848,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44848,
+   "bottom_px": 44891,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44891,
+   "bottom_px": 44906,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44906,
+   "bottom_px": 44952,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 44952,
+   "bottom_px": 45048,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45048,
+   "bottom_px": 45115,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45115,
+   "bottom_px": 45149,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45149,
+   "bottom_px": 45162,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45162,
+   "bottom_px": 45188,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45188,
+   "bottom_px": 45201,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45201,
+   "bottom_px": 45250,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45250,
+   "bottom_px": 45258,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45258,
+   "bottom_px": 45381,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45381,
+   "bottom_px": 45399,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45399,
+   "bottom_px": 45480,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45480,
+   "bottom_px": 45506,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45511,
+   "bottom_px": 45556,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45556,
+   "bottom_px": 45583,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45583,
+   "bottom_px": 45619,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45619,
+   "bottom_px": 45637,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45637,
+   "bottom_px": 45669,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45669,
+   "bottom_px": 45700,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45700,
+   "bottom_px": 45771,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45771,
+   "bottom_px": 45805,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45805,
+   "bottom_px": 45820,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45820,
+   "bottom_px": 45939,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45939,
+   "bottom_px": 45967,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45967,
+   "bottom_px": 45992,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45992,
+   "bottom_px": 45996,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 45996,
+   "bottom_px": 46019,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46019,
+   "bottom_px": 46080,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46080,
+   "bottom_px": 46103,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46103,
+   "bottom_px": 46191,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46191,
+   "bottom_px": 46205,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46205,
+   "bottom_px": 46210,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46210,
+   "bottom_px": 46228,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46228,
+   "bottom_px": 46259,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46259,
+   "bottom_px": 46273,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46273,
+   "bottom_px": 46346,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46349,
+   "bottom_px": 46375,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46375,
+   "bottom_px": 46426,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46426,
+   "bottom_px": 46452,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46452,
+   "bottom_px": 46498,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46498,
+   "bottom_px": 46517,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46517,
+   "bottom_px": 46582,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46582,
+   "bottom_px": 46601,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46601,
+   "bottom_px": 46610,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46610,
+   "bottom_px": 46658,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46658,
+   "bottom_px": 46671,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46671,
+   "bottom_px": 46724,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46724,
+   "bottom_px": 46753,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46753,
+   "bottom_px": 46769,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46769,
+   "bottom_px": 46787,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46787,
+   "bottom_px": 46888,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46888,
+   "bottom_px": 46914,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46914,
+   "bottom_px": 46933,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46933,
+   "bottom_px": 46962,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46962,
+   "bottom_px": 46999,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 46999,
+   "bottom_px": 47029,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47029,
+   "bottom_px": 47152,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47152,
+   "bottom_px": 47175,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47175,
+   "bottom_px": 47279,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47279,
+   "bottom_px": 47297,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47297,
+   "bottom_px": 47364,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47364,
+   "bottom_px": 47409,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47409,
+   "bottom_px": 47525,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47525,
+   "bottom_px": 47528,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Gypsum",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47528,
+   "bottom_px": 47570,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47570,
+   "bottom_px": 47620,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47620,
+   "bottom_px": 47667,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47667,
+   "bottom_px": 47670,
+   "composition": [
+    {
+     "legend_id": 9,
+     "type": "Anhydrite",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47670,
+   "bottom_px": 47686,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47688,
+   "bottom_px": 47728,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47728,
+   "bottom_px": 47777,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47777,
+   "bottom_px": 47795,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47795,
+   "bottom_px": 47819,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47819,
+   "bottom_px": 47840,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47840,
+   "bottom_px": 47872,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47881,
+   "bottom_px": 47886,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47889,
+   "bottom_px": 47938,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47938,
+   "bottom_px": 47952,
+   "composition": [
+    {
+     "legend_id": 7,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47954,
+   "bottom_px": 48001,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48003,
+   "bottom_px": 48012,
+   "composition": [
+    {
+     "legend_id": 17,
+     "type": "Dolomitic clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48014,
+   "bottom_px": 48057,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48057,
+   "bottom_px": 48089,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48089,
+   "bottom_px": 48152,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48152,
+   "bottom_px": 48177,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48177,
+   "bottom_px": 48276,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48276,
+   "bottom_px": 48296,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48296,
+   "bottom_px": 48348,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48348,
+   "bottom_px": 48373,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48373,
+   "bottom_px": 48441,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48441,
+   "bottom_px": 48458,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48458,
+   "bottom_px": 48507,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48507,
+   "bottom_px": 48533,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48535,
+   "bottom_px": 48576,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48578,
+   "bottom_px": 48607,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48607,
+   "bottom_px": 48728,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48728,
+   "bottom_px": 48739,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48739,
+   "bottom_px": 48842,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48842,
+   "bottom_px": 48877,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48877,
+   "bottom_px": 48914,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48914,
+   "bottom_px": 48977,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48979,
+   "bottom_px": 49001,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49001,
+   "bottom_px": 49014,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49016,
+   "bottom_px": 49053,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49053,
+   "bottom_px": 49071,
+   "composition": [
+    {
+     "legend_id": 18,
+     "type": "Marl",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49073,
+   "bottom_px": 49101,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49104,
+   "bottom_px": 49111,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49111,
+   "bottom_px": 49212,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49212,
+   "bottom_px": 49234,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49234,
+   "bottom_px": 49382,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Shale grey",
+     "proportion": 1.0
+    }
+   ]
+  }
+ ]
+}
