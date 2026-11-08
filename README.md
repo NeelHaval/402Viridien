@@ -54,11 +54,14 @@ Open **Actions → Evaluate model → Run workflow**. Choose the code branch, da
 |---|---|---|
 | CI | Push or pull request | Windows/Linux tests, package build and demo end-to-end run |
 | Evaluate model | Manual | Selected real/synthetic/stress suite, metrics, CSVs and previews |
+| Stress testing | Manual | Bounded adversarial checks, JUnit/JSON reports and optional procedural degradation probes |
 | Release CLI | `v*` tag or manual build | Tested wheel/source archive; version tags publish a private GitHub Release |
 
 Model evaluation produces reviewable artifacts. It does not automatically replace a winning checkpoint. Update the tracked model config in a pull request after reviewing paired results.
 
 ## Current evidence
+
+For reproducible adversarial checks and model degradation runs, see the isolated [stress-testing guide](stress_testing/README.md). Start with `python stress_testing/run_stress.py --profile quick`; generated reports stay in `stress_testing/.runs/`.
 
 | Suite | Cases | Interpretation |
 |---|---:|---|

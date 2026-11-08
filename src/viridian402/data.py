@@ -118,6 +118,7 @@ def save_intervals(path: str | Path, rows: list[dict]) -> None:
 
 def load_boxes(path: str | Path | dict, image_size=None) -> dict:
     data = dict(path) if isinstance(path, dict) else json.loads(Path(path).read_text(encoding='utf-8-sig'))
+    if not isinstance(data,dict):raise ValueError('annotation must be a JSON object')
     boxes = data.get('bounding_boxes', data)
     if not isinstance(boxes, dict) or 'interpreted_lithology_column' not in boxes:
         raise ValueError('annotation needs interpreted_lithology_column')
@@ -140,11 +141,12 @@ def load_boxes(path: str | Path | dict, image_size=None) -> dict:
 def load_manifest(path: str | Path, check_leakage=True) -> dict:
     path = Path(path).resolve()
     manifest = json.loads(path.read_text(encoding='utf-8-sig'))
-    if manifest.get('schema_version') != 1 or not isinstance(manifest.get('records'), list):
+    if not isinstance(manifest,dict) or manifest.get('schema_version') != 1 or not isinstance(manifest.get('records'), list):
         raise ValueError('expected schema_version=1 and records list')
     ids, hashes, groups, hash_cache = set(), {}, {}, {}
     records = []
     for original in manifest['records']:
+        if not isinstance(original,dict):raise ValueError('each manifest record must be a JSON object')
         record = dict(original)
         rid = record.get('id')
         if not isinstance(rid, str) or not rid or rid in ids:

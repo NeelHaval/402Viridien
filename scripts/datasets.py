@@ -82,7 +82,9 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
                 raise ValueError("Duplicate archive member")
             seen.add(str(target).casefold())
         files={PurePosixPath(item.filename) for item in members if not item.is_dir()}
-        if any(parent in files for path in files for parent in path.parents):
+        file_names={path.as_posix().casefold() for path in files}
+        if any(parent.as_posix().casefold() in file_names
+               for item in members for parent in PurePosixPath(item.filename).parents):
             raise ValueError('Archive file/directory paths conflict')
         # Stage and CRC-check every member before touching an existing dataset.
         destination.parent.mkdir(parents=True,exist_ok=True)
@@ -102,8 +104,17 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
                     if parent==destination.parent:break
                     if parent.exists() and not parent.is_dir():
                         raise ValueError('Existing dataset file conflicts with an archive directory')
+            # Revalidate after staging: a destination ancestor may have been
+            # replaced since initial path validation. This closes that stable
+            # swap window, not every hostile concurrent filesystem race.
+            for relative in files:
+                target=destination.joinpath(*relative.parts)
+                if not target.resolve().is_relative_to(destination):
+                    raise ValueError('Archive destination path changed or escapes through a symlink')
             for relative in sorted(files):
                 target=destination.joinpath(*relative.parts)
+                if not target.resolve().is_relative_to(destination):
+                    raise ValueError('Archive destination path changed or escapes through a symlink')
                 if not target.exists():
                     target.parent.mkdir(parents=True,exist_ok=True)
                     staging.joinpath(*relative.parts).replace(target)
@@ -176,6 +187,9 @@ def pack(manifests, output):
                     portable_path(record[key])
                     if ('\\' in record[key] or ':' in record[key] or Path(record[key]).is_absolute() or PurePosixPath(record[key]).is_absolute()):
                         raise ValueError("Bundle manifests must use portable relative asset paths")
+                    lexical=manifest.parent/record[key]
+                    if lexical.absolute()!=lexical.resolve():
+                        raise ValueError('Portable bundles cannot contain symlinked asset references; copy the asset bytes first')
                     files.add((manifest.parent / record[key]).resolve())
     if any(not path.is_relative_to(base) for path in files):
         raise ValueError("All bundled files must be under the manifest directory")
