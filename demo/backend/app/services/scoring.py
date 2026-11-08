@@ -6,6 +6,7 @@ is returned for it, and a score that cannot be computed at all is None.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from fractions import Fraction
 
 import numpy as np
 import pandas as pd
@@ -109,8 +110,11 @@ def aggregate_scores(wells: list[dict]) -> dict[str, int | None] | None:
     out: dict[str, int | None] = {}
     for key in METRICS:
         rows = [(w['scores']['values'][key], w['scores']['logged_ft']) for w in wells if w['scores']['values'].get(key) is not None]
-        weight = sum(ft for _, ft in rows)
-        out[key] = round(sum(v * ft for v, ft in rows) / weight) if weight else None
+        # Exact rational accumulation avoids overflowing finite float weights
+        # and preserves the documented rounding at half-integer ties.
+        weighted=[(value,Fraction(feet)) for value,feet in rows]
+        weight=sum(feet for _,feet in weighted)
+        out[key] = round(sum(value*feet for value,feet in weighted)/weight) if weight else None
     return out
 
 

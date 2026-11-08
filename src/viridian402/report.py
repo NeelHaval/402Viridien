@@ -13,6 +13,13 @@ def _format(value):
     return "n/a" if value is None else f"{value:.4f}" if isinstance(value,float) else str(value)
 
 
+def _inline(value):
+    """Render dataset/model metadata as plain inline Markdown text."""
+    text=' '.join(str(value).split())
+    special='&<>`\\|[]!*_#()'
+    return ''.join(f'&#{ord(char)};' if char in special else char for char in text)
+
+
 def _sha256(path):
     result=hashlib.sha256()
     with Path(path).open("rb") as handle:
@@ -22,7 +29,7 @@ def _sha256(path):
 
 def render_summary(summary,cases):
     overall=summary["overall"]
-    lines=[f"# Run {summary['run_id']}","",f"Model: `{summary['model']}` · mode: `{summary['mode']}` · split: `{summary['split'] or 'all'}`","",
+    lines=[f"# Run {_inline(summary['run_id'])}","",f"Model: {_inline(summary['model'])} · mode: {_inline(summary['mode'])} · split: {_inline(summary['split'] or 'all')}","",
            f"Completed {overall['completed']}/{overall['cases']}; errors {overall['errors']}; labelled {overall['labelled_cases']}; unlabelled {overall['unlabelled_cases']}; empty predictions {overall.get('empty_predictions',0)}.","",
            "| Metric | Value |","|---|---:|"]
     for key in (*QUALITY_METRICS,"row_acc_weighted","macro_f1_pooled","coverage","unknown_rate","missing_depth_rate","depth_pairs","depth_eligible_boundaries","depth_coverage","seconds","latency_median_seconds","latency_p95_seconds","preview_seconds","peak_rss_mb"):
@@ -32,27 +39,27 @@ def render_summary(summary,cases):
         lines.extend(["", "Operational checks only. Supervised quality was not assessed because no truth is available."])
     elif summary['quality_gates'].get('min_score') is None:
         lines.extend(["", "No minimum accuracy score was configured. Passing checks confirms execution and nonempty labelled predictions; inspect the measured quality above."])
-    lines.extend(f"- {x}" for x in summary["quality_gates"]["failures"])
+    lines.extend(f"- {_inline(x)}" for x in summary["quality_gates"]["failures"])
     lines.extend(["","Null accuracy means missing or empty truth, not a successful prediction. Errors remain in the labelled denominator. Empty labelled predictions fail the default quality gate. Depth MAE requires matching explicit feet and known datum metadata.","",
                   "Depth MAE covers only matched boundaries with both depths available. Check depth_coverage and depth_pairs before interpreting MAE; comparison deltas are suppressed when the scored depth boundary set changes.","",
                   "ARI uses exact pixel counts from interval contingencies, rather than the legacy every-second-row sample. Mean score is the mean of per-case row accuracy × boundary F1. Weighted row accuracy uses labelled pixel counts.","",
                   "## Cases","","| ID | Source | Status | Score | Coverage | Boundary tolerance (px) | Prediction | Preview |","|---|---|---|---:|---:|---:|---|---|"])
     for case in cases:
-        ident=str(case["id"]).replace("|","\\|")
+        ident=_inline(case["id"])
         preview=f"[preview]({case['preview']})" if case.get("preview") else "n/a"
-        lines.append(f"| {ident} | {case.get('source')} | {case['status']} | {_format(case['metrics'].get('score'))} | {_format(case['metrics'].get('coverage'))} | {_format(case['metrics'].get('boundary_tolerance_pixels'))} | [CSV]({case['prediction']}) | {preview} |")
+        lines.append(f"| {ident} | {_inline(case.get('source'))} | {_inline(case['status'])} | {_format(case['metrics'].get('score'))} | {_format(case['metrics'].get('coverage'))} | {_format(case['metrics'].get('boundary_tolerance_pixels'))} | [CSV]({case['prediction']}) | {preview} |")
     lines.extend(["","## Source and group results",""])
     if overall.get("per_class"):
         lines.extend(["### Pooled class results","","| Class | Truth pixels | Predicted pixels | F1 |","|---|---:|---:|---:|"])
         for label,data in overall["per_class"].items():
-            lines.append(f"| {label} | {data['support_pixels']} | {data['predicted_pixels']} | {_format(data['f1'])} |")
+            lines.append(f"| {_inline(label)} | {data['support_pixels']} | {data['predicted_pixels']} | {_format(data['f1'])} |")
         lines.append("")
     for dimension,values in summary["by"].items():
-        lines.extend([f"### {dimension}","","| Value | Cases | Labelled | Errors | Score |","|---|---:|---:|---:|---:|"])
+        lines.extend([f"### {_inline(dimension)}","","| Value | Cases | Labelled | Errors | Score |","|---|---:|---:|---:|---:|"])
         for value,data in values.items():
-            lines.append(f"| {value} | {data['cases']} | {data['labelled_cases']} | {data['errors']} | {_format(data.get('score'))} |")
+            lines.append(f"| {_inline(value)} | {data['cases']} | {data['labelled_cases']} | {data['errors']} | {_format(data.get('score'))} |")
         lines.append("")
-    lines.extend(["## Runtime notes","",*summary.get("notes",[]),""])
+    lines.extend(["## Runtime notes","",*map(_inline,summary.get("notes",[])),""])
     return "\n".join(lines)
 
 
@@ -60,6 +67,8 @@ def _same(saved,computed,label):
     """Validate saved fields against their per-case recomputation."""
     if isinstance(saved,dict):
         if not isinstance(computed,dict): raise ValueError(f"run {label} is inconsistent")
+        if 'per_class' in label.split('.') and set(saved)!=set(computed):
+            raise ValueError(f'run {label} class fields differ from per-case recomputation')
         for key,value in saved.items():
             if key not in computed: raise ValueError(f"run {label}.{key} is unsupported")
             _same(value,computed[key],f"{label}.{key}")
@@ -104,7 +113,7 @@ def _validate_case(case):
 
 
 def _require_aggregate_fields(value,label):
-    required={*QUALITY_METRICS,"cases","labelled_cases","unlabelled_cases","completed","errors","completion_rate","row_acc_weighted","seconds","peak_rss_mb"}
+    required={*QUALITY_METRICS,"cases","labelled_cases","unlabelled_cases","completed","errors","completion_rate","row_acc_weighted","seconds","peak_rss_mb","per_class"}
     if not isinstance(value,dict) or not required<=set(value): raise ValueError(f"run {label} is missing required aggregate fields")
 
 

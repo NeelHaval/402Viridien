@@ -45,8 +45,12 @@ def get_well(well_id: str, db: Database = Depends(deps.db)) -> dict:
         raise ApiError(404, "unknown_well", f"no well with id {well_id}")
     ready = row["status"] == "ready" and row["csv_path"] and Path(row["csv_path"]).is_file()
     v = row["validation"] or {}
+    try:
+        column = build_column([pd.read_csv(row['csv_path'])]) if ready else []
+    except (OSError, ValueError, KeyError) as exc:
+        raise ApiError(409, 'invalid_result', 'Stored CSV cannot produce a bounded report; reprocess this well') from exc
     return {**summary(row), "total_depth_ft": row["total_depth_ft"],
-            "column": build_column([pd.read_csv(row["csv_path"])]) if ready else [],
+            "column": column,
             "validation": ValidationInfo(confidence=row["validation_confidence"], components=v.get("components", {}), flags=v.get("flags", [])),
             "warnings": row["warnings"] or [], "error": row["error"]}
 

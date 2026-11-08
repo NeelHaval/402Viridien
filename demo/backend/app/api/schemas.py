@@ -4,7 +4,7 @@ from __future__ import annotations
 import math
 from typing import Literal
 
-from pydantic import BaseModel, field_validator
+from pydantic import BaseModel, Field, field_validator
 
 Status = Literal["queued", "processing", "ready", "failed"]
 
@@ -92,7 +92,7 @@ class UploadResponse(BaseModel):
 class ReportRequest(BaseModel):
     """Polygon as [[lon, lat], ...]."""
 
-    polygon: list[tuple[float, float]]
+    polygon: list[tuple[float, float]] = Field(min_length=3, max_length=10_000)
 
     @field_validator("polygon")
     @classmethod
@@ -105,6 +105,14 @@ class ReportRequest(BaseModel):
                 raise ValueError("polygon coordinates must be finite numbers")
             if not (-180 <= lon <= 180 and -90 <= lat <= 90):
                 raise ValueError("polygon coordinates must be within lon -180..180 and lat -90..90")
+        # Use the same planar coordinates as point_in_polygon. Translation
+        # reduces cancellation for small selections; coordinate/vertex caps
+        # keep all terms finite, including full-world and dateline selections.
+        ox, oy = polygon[0]
+        twice_area = math.fsum((x1 - ox) * (y2 - oy) - (x2 - ox) * (y1 - oy)
+                              for (x1, y1), (x2, y2) in zip(polygon, polygon[1:] + polygon[:1]))
+        if twice_area == 0:
+            raise ValueError("polygon must enclose a nonzero area")
         return polygon
 
 

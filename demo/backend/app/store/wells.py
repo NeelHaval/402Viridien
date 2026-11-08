@@ -2,12 +2,30 @@
 from __future__ import annotations
 
 import json
+import math
 import sqlite3
 from datetime import datetime, timezone
 
 from app.store.db import Database
 
 JSON_COLUMNS = {"validation_json": "validation", "scores_json": "scores", "warnings_json": "warnings", "timings_json": "timings"}
+
+
+def _finite(value, name, minimum=None, maximum=None):
+    try:
+        if isinstance(value,bool) or not math.isfinite(value):raise ValueError()
+        if minimum is not None and value<minimum or maximum is not None and value>maximum:raise ValueError()
+    except (TypeError,ValueError,OverflowError) as exc:
+        raise ValueError(f"{name} must be finite and within its allowed range") from exc
+
+
+def _scores_json(scores):
+    if not isinstance(scores,dict) or not isinstance(scores.get("values"),dict):raise ValueError("scores must contain a values object")
+    for name in ("drilling","cost","price","co2"):
+        value=scores["values"].get(name)
+        if value is not None and (type(value) is not int or not 0<=value<=100):raise ValueError(f"score {name} must be an integer from 0 to 100 or null")
+    _finite(scores.get("logged_ft"),"logged_ft",minimum=0)
+    return json.dumps(scores,allow_nan=False)
 
 
 def now() -> str:
@@ -79,10 +97,12 @@ def mark_processing(db: Database, well_id: str) -> None:
 
 def mark_failed(db: Database, well_id: str, error: str, timings: dict | None = None) -> None:
     """Record a failure."""
+    try:stored_timings=json.dumps(timings,allow_nan=False) if timings else None
+    except (TypeError,ValueError,OverflowError,RecursionError):stored_timings=None
     with db.connect() as conn:
         conn.execute(
             "UPDATE wells SET status='failed', error=?, finished_at=?, timings_json=?, scores_json=NULL WHERE id=?",
-            (error, now(), json.dumps(timings) if timings else None, well_id),
+            (error, now(), stored_timings, well_id),
         )
 
 
@@ -90,19 +110,27 @@ def mark_ready(db: Database, well_id: str, *, name: str, lat: float | None, lon:
                total_depth_ft: float, csv_path: str, validation_confidence: float, validation: dict, scores: dict,
                warnings: list[str], timings: dict) -> None:
     """Store a finished well."""
+    _finite(total_depth_ft,"total_depth_ft")
+    _finite(validation_confidence,"validation_confidence",minimum=0,maximum=1)
+    if lat is not None:_finite(lat,"lat",minimum=-90,maximum=90)
+    if lon is not None:_finite(lon,"lon",minimum=-180,maximum=180)
+    stored_scores=_scores_json(scores)
+    stored_validation=json.dumps(validation,allow_nan=False)
+    stored_warnings=json.dumps(warnings,allow_nan=False)
+    stored_timings=json.dumps(timings,allow_nan=False)
     with db.connect() as conn:
         conn.execute(
             """UPDATE wells SET status='ready', error=NULL, name=?, lat=?, lon=?, block=?, total_depth_ft=?, finished_at=?,
                csv_path=?, validation_confidence=?, validation_json=?, scores_json=?, warnings_json=?, timings_json=? WHERE id=?""",
-            (name, lat, lon, block, total_depth_ft, now(), csv_path, validation_confidence, json.dumps(validation),
-             json.dumps(scores), json.dumps(warnings), json.dumps(timings), well_id),
+            (name, lat, lon, block, total_depth_ft, now(), csv_path, validation_confidence, stored_validation,
+             stored_scores, stored_warnings, stored_timings, well_id),
         )
 
 
 def set_scores(db: Database, well_id: str, scores: dict) -> None:
     """Replace the stored scores of a well."""
     with db.connect() as conn:
-        conn.execute("UPDATE wells SET scores_json=? WHERE id=?", (json.dumps(scores), well_id))
+        conn.execute("UPDATE wells SET scores_json=? WHERE id=?", (_scores_json(scores), well_id))
 
 
 def fail_interrupted(db: Database) -> int:

@@ -21,6 +21,18 @@ Maps and fonts need internet. Run one backend worker: the job queue is in-proces
 ## Tests
 `make test` runs pytest, the frontend typecheck and the build. `pytest -m model` runs only the real-OCR test (skipped when OCR or the dataset is missing). Tests stub the OCR model and layer 1 only in `backend/tests/conftest.py`.
 
+For reproducible adversarial tests and offline browser probes, see
+[the isolated stress guide](../stress_testing/README.md#test-the-current-backend-and-frontend).
+Its separate Python 3.12 environment is pinned in
+`stress_testing/requirements-demo.lock`. CI now checks the demo in addition to
+the original evaluation package.
+
+Duplicate uploads are idempotent only when their bbox input also matches;
+changed bboxes return `409 input_conflict` and preserve the first job.
+The queue defaults to 32 jobs including the running job (`APP_MAX_PENDING_JOBS`);
+when full, uploads return `503 queue_busy` for retry later. These limits do not
+provide a hard memory or whole-job deadline for native image/OCR processing.
+
 ## API (also under `/api`; errors are `{"error": {"code", "message"}}`)
 - `GET /health` model, database and reference-data status
 - `GET /wells[?status=]` wells for the map; `GET /wells/{id}` detail, column, validation; `GET /wells/{id}/csv` corrected CSV

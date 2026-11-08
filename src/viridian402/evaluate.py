@@ -167,7 +167,18 @@ def _terminate(proc):
     proc.wait(timeout=10)
 
 
-def _predict(model, request, config, timeout, max_worker_rss_mb=None):
+def _bounded_log_tail(path,limit=6000):
+    with Path(path).open('rb') as stream:
+        stream.seek(0,2)
+        stream.seek(max(0,stream.tell()-limit))
+        return stream.read(limit).decode('utf-8',errors='replace')
+
+
+def _predict(model, request, config, timeout, max_worker_rss_mb=None,
+             max_worker_log_bytes=1024**2,max_worker_output_bytes=16*1024**2):
+    for name,value in (('max_worker_log_bytes',max_worker_log_bytes),('max_worker_output_bytes',max_worker_output_bytes)):
+        if isinstance(value,bool) or not isinstance(value,int) or value<=0:
+            raise ValueError(f'{name} must be a positive integer')
     # Credential allowlist rather than fragile lists of known secret names.
     allowed = ("SYSTEMROOT","WINDIR","TEMP","TMP","PATH","PATHEXT","HOME","USERPROFILE","LOCALAPPDATA","APPDATA","VIRTUAL_ENV","CONDA_PREFIX","CUDA_VISIBLE_DEVICES")
     env = {k:v for k,v in os.environ.items() if k.upper() in allowed}
@@ -184,10 +195,15 @@ def _predict(model, request, config, timeout, max_worker_rss_mb=None):
             seen_children={}
             timed_out = False
             memory_exceeded=False
+            io_exceeded=None
             while proc.poll() is None:
                 elapsed = time.perf_counter()-started
                 if elapsed >= timeout:
                     timed_out = True; _terminate(proc); break
+                if (Path(temp)/'worker.log').stat().st_size>max_worker_log_bytes:
+                    io_exceeded='worker log budget exceeded';_terminate(proc);break
+                if output.exists() and output.stat().st_size>max_worker_output_bytes:
+                    io_exceeded='worker output budget exceeded';_terminate(proc);break
                 try:
                     tree = [psutil.Process(proc.pid)]
                     tree += tree[0].children(recursive=True)
@@ -202,17 +218,38 @@ def _predict(model, request, config, timeout, max_worker_rss_mb=None):
                 try:
                     if child.is_running(): child.kill()
                 except psutil.Error: pass
-            if seen_children: psutil.wait_procs(list(seen_children.values()),timeout=2)
+            if seen_children:
+                try:
+                    _,alive=psutil.wait_procs(list(seen_children.values()),timeout=2)
+                    if alive:io_exceeded='worker descendant cleanup unconfirmed'
+                except psutil.Error:
+                    # A Windows child may disappear between kill and wait.
+                    # Keep that race from aborting the parent evaluation.
+                    for child in seen_children.values():
+                        try:
+                            if child.is_running():io_exceeded='worker descendant cleanup unconfirmed'
+                        except psutil.NoSuchProcess:pass
+                        except psutil.Error:io_exceeded='worker descendant cleanup unconfirmed'
         elapsed = time.perf_counter()-started
+        if io_exceeded:return None,io_exceeded,elapsed,peak
         if timed_out: return None,f"hard timeout after {timeout:g} seconds",elapsed,peak
         if memory_exceeded: return None,f"sampled worker RSS {peak:.1f} MiB exceeded {max_worker_rss_mb:g} MiB limit",elapsed,peak
+        if (Path(temp)/'worker.log').stat().st_size>max_worker_log_bytes:
+            return None,'worker log budget exceeded',elapsed,peak
         if output.exists():
+            if output.stat().st_size>max_worker_output_bytes:return None,'worker output budget exceeded',elapsed,peak
             try:
                 result = json.loads(output.read_text(encoding="utf-8-sig"))
-                if "error" in result: return None,result["error"],elapsed,peak
-                if proc.returncode == 0: return result["rows"],None,elapsed,peak
-            except (ValueError,KeyError): pass
-        logtext = (Path(temp)/"worker.log").read_text(encoding="utf-8",errors="replace")[-6000:]
+                if not isinstance(result,dict):return None,'worker result must be a JSON object',elapsed,peak
+                if "error" in result:
+                    error=result['error']
+                    if not isinstance(error,str) or not error.strip():error='worker error must be nonempty text'
+                    return None,error[-12000:],elapsed,peak
+                if proc.returncode == 0:
+                    if not isinstance(result.get('rows'),list):return None,'worker rows must be a list',elapsed,peak
+                    return result["rows"],None,elapsed,peak
+            except (ValueError,KeyError,RecursionError): pass
+        logtext = _bounded_log_tail(Path(temp)/'worker.log')
         return None,f"worker exit {proc.returncode}: {logtext}",elapsed,peak
 
 

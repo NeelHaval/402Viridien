@@ -5,6 +5,7 @@ import pandas as pd
 from fastapi import APIRouter, Depends
 
 from app.api import deps
+from app.api.errors import ApiError
 from app.api.schemas import ReportRequest, ReportResponse, ReportWell, Scores
 from app.services.column import build_column
 from app.services.geo import point_in_polygon
@@ -23,8 +24,12 @@ def report(area: ReportRequest, db: Database = Depends(deps.db)) -> ReportRespon
     if not inside:
         return ReportResponse(wells=[], scores=None, column=[], data_quality=[])
     scores = aggregate_scores(inside)
+    try:
+        column = build_column([pd.read_csv(w['csv_path']) for w in inside])
+    except (OSError, ValueError, KeyError) as exc:
+        raise ApiError(409, 'invalid_result', 'Stored CSV cannot produce a bounded report; select fewer wells or reprocess invalid results') from exc
     return ReportResponse(
         wells=[ReportWell(id=w["id"], name=w["name"] or w["id"], lat=w["lat"], lon=w["lon"], scores=Scores(**w["scores"]["values"])) for w in inside],
         scores=Scores(**scores) if scores else None,
-        column=build_column([pd.read_csv(w["csv_path"]) for w in inside]),
+        column=column,
         data_quality=data_quality(inside))

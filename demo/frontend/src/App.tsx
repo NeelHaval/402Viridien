@@ -24,14 +24,17 @@ export default function App() {
   );
   const pending = useRef(new Set<string>());
   const requestId = useRef(0);
+  const refreshId = useRef(0);
   const opened = useRef<string | null>(null);
   const known = useRef<Well[]>([]);
   const failures = useRef(0);
   const timer = useRef<number>(undefined);
   const refresh = useCallback(async () => {
+    const currentRefresh = ++refreshId.current;
     window.clearTimeout(timer.current);
     try {
       const next = await api.wells();
+      if (currentRefresh !== refreshId.current) return;
       failures.current = 0;
       known.current = next;
       setWells(next);
@@ -49,10 +52,11 @@ export default function App() {
       }
       setPendingCount(pending.current.size);
     } catch (e) {
+      if (currentRefresh !== refreshId.current) return;
       failures.current += 1;
       setToast({ text: (e as Error).message, network: true });
     }
-    if (known.current.some(isBusy) || failures.current > 0)
+    if (pending.current.size > 0 || known.current.some(isBusy) || failures.current > 0)
       timer.current = window.setTimeout(
         () => void refresh(),
         Math.min(POLL_MS * 2 ** failures.current, MAX_BACKOFF_MS),
@@ -60,7 +64,10 @@ export default function App() {
   }, []);
   useEffect(() => {
     void refresh();
-    return () => window.clearTimeout(timer.current);
+    return () => {
+      ++refreshId.current;
+      window.clearTimeout(timer.current);
+    };
   }, [refresh]);
   const showWell = useCallback(async (well: Well) => {
     const id = ++requestId.current;

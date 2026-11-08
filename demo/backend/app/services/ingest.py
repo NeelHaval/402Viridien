@@ -5,6 +5,7 @@ import hashlib
 import json
 import logging
 import shutil
+import threading
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -20,12 +21,40 @@ from app.services import scoring
 from app.services.jobs import JobQueue
 from app.store import wells as repo
 from app.store.db import Database
+from app.tools.errors import InputConflict, ToolError
 from app.tools.preprocess import preprocess
 from app.tools.read_upload import read_upload
 from app.validation import apply_corrections, reference, submission_df, validate
 
 log = logging.getLogger("ingest")
 HASH_CHUNK = 1024 * 1024
+
+
+def canonical_bbox(bbox: dict | None) -> str:
+    """Stable input identity; an absent and an empty bbox both mean autodetect."""
+    if bbox is None:
+        return "{}"
+    if not isinstance(bbox,dict):
+        raise ToolError("bbox must be a JSON object",code="invalid_bbox")
+    try:
+        return json.dumps(bbox,sort_keys=True,separators=(",",":"),ensure_ascii=False,allow_nan=False)
+    except (TypeError,ValueError,RecursionError) as exc:
+        raise ToolError("bbox must be a finite JSON object",code="invalid_bbox") from exc
+
+
+def _check_bbox_bounds(bbox: dict | None, width: int, height: int) -> None:
+    if not bbox:
+        return
+    boxes=bbox.get("bounding_boxes",bbox)
+    if not isinstance(boxes,dict):
+        raise ToolError("bounding_boxes must be an object",code="invalid_bbox")
+    for name in ("depth_column","interpreted_lithology_column","lithology_legend"):
+        if name not in boxes:
+            continue
+        value=boxes[name]
+        if (not isinstance(value,list) or len(value)!=4 or any(type(v) is not int for v in value)
+                or not (0<=value[0]<value[2]<=width and 0<=value[1]<value[3]<=height)):
+            raise ToolError(f"{name} must be an integer box inside the uploaded image",code="invalid_bbox")
 
 
 class ModelUnavailable(Exception):
@@ -62,8 +91,11 @@ class IngestService:
     def __init__(self, settings: Settings, db: Database, model_state: Callable[[], ModelState]) -> None:
         """`model_state()` returns the current model status; the queue starts immediately."""
         self.settings, self.db, self._model_state = settings, db, model_state
+        # One app owns one service. The claim and file publication must be a
+        # single operation even when FastAPI dispatches concurrent uploads.
+        self._submit_lock=threading.Lock()
         configure_tools(settings)
-        self.jobs = JobQueue(self.process)
+        self.jobs = JobQueue(self.process,max_pending=settings.max_pending_jobs)
 
     def submit(self, src: Path, filename: str, bbox: dict | None = None, *, keep_source: bool = False) -> Submitted:
         """Validate a scan, store it under data/scans and queue it. Raises ToolError for bad files, ModelUnavailable without a model.
@@ -73,26 +105,72 @@ class IngestService:
         state = self._model_state()
         if not state.loaded:
             raise ModelUnavailable(state.error or "OCR model is not loaded")
-        read_upload(str(src)).close()
+        bbox_identity=canonical_bbox(bbox)
+        scan=read_upload(str(src))
+        try:
+            _check_bbox_bounds(bbox,scan.width,scan.height)
+        finally:
+            scan.close()
         file_hash = sha256_of(src)
         well_id = file_hash[:16]
-        existing = repo.get_by_hash(self.db, file_hash)
-        if existing and existing["status"] != "failed":
-            if not keep_source:
-                src.unlink(missing_ok=True)
-            return Submitted(existing["id"], existing["status"], False)
-        dest = self.settings.scans_dir / f"{well_id}{Path(filename).suffix.lower()}"
-        (shutil.copyfile if keep_source else shutil.move)(src, dest)
-        bbox_path = dest.with_suffix(".bbox.json")
-        bbox_path.unlink(missing_ok=True)
-        if bbox:
-            bbox_path.write_text(json.dumps(bbox))
-        if existing:
-            repo.requeue(self.db, existing["id"], str(dest), filename)
-        else:
-            repo.insert_queued(self.db, well_id=well_id, file_hash=file_hash, filename=filename, name=Path(filename).stem, scan_path=str(dest))
-        self.jobs.enqueue(well_id)
-        return Submitted(well_id, "queued", True)
+        with self._submit_lock:
+            existing = repo.get_by_hash(self.db, file_hash)
+            if existing:
+                dest=Path(existing["scan_path"])
+                saved_bbox=dest.with_suffix(".bbox.json")
+                try:
+                    prior=canonical_bbox(json.loads(saved_bbox.read_text(encoding="utf-8-sig")) if saved_bbox.is_file() else None)
+                except (OSError,ValueError,ToolError,RecursionError) as exc:
+                    raise InputConflict("the stored bbox cannot be verified; existing inputs were preserved") from exc
+                if prior!=bbox_identity:
+                    raise InputConflict("this scan already exists with different bounding boxes; existing inputs were preserved")
+                if existing["status"]!="failed":
+                    if not keep_source and src.resolve()!=dest.resolve():
+                        src.unlink(missing_ok=True)
+                    return Submitted(existing["id"],existing["status"],False)
+            else:
+                suffix=Path(filename).suffix.lower()
+                if suffix not in {".tif",".tiff",".png",".jpg",".jpeg"}:suffix=".scan"
+                dest = self.settings.scans_dir / f"{well_id}{suffix}"
+                bbox_path = dest.with_suffix(".bbox.json")
+                if dest.exists() or dest.is_symlink():
+                    raise InputConflict("a stored scan already occupies this path; existing inputs were preserved")
+                if bbox_path.exists() or bbox_path.is_symlink():
+                    # An orphan sidecar must not be silently attached to a new
+                    # scan after an interrupted or manually modified ingest.
+                    raise InputConflict("a stored bbox already occupies this path; existing inputs were preserved")
+            with self.jobs.admit() as admitted:
+                if existing:
+                    # A retry keeps the first scan and bbox. Restore a missing
+                    # scan from byte-identical input; never replace old bytes.
+                    if not dest.is_file():
+                        (shutil.copyfile if keep_source else shutil.move)(src,dest)
+                    elif sha256_of(dest)!=file_hash:
+                        raise InputConflict("the stored scan hash changed; existing inputs were preserved")
+                    elif not keep_source and src.resolve()!=dest.resolve():
+                        src.unlink(missing_ok=True)
+                    repo.requeue(self.db,existing["id"],str(dest),existing["source_filename"])
+                else:
+                    try:
+                        (shutil.copyfile if keep_source else shutil.move)(src, dest)
+                        if bbox:
+                            bbox_path.write_text(bbox_identity,encoding="utf-8")
+                        repo.insert_queued(self.db, well_id=well_id, file_hash=file_hash, filename=filename, name=Path(filename).stem, scan_path=str(dest))
+                    except Exception:
+                        # These paths did not exist before this admission.
+                        # A preparation failure leaves no orphan publication.
+                        if not keep_source and dest.is_file() and not src.exists():
+                            shutil.move(dest,src)
+                        else:
+                            dest.unlink(missing_ok=True)
+                        bbox_path.unlink(missing_ok=True)
+                        raise
+                try:
+                    admitted.enqueue(well_id)
+                except Exception as exc:
+                    repo.mark_failed(self.db,well_id,f"job scheduling failed: {type(exc).__name__}")
+                    raise
+            return Submitted(well_id, "queued", True)
 
     def process(self, well_id: str) -> None:
         """Run one queued well to `ready` or `failed`. Called on the worker thread."""

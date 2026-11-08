@@ -7,3 +7,9 @@ recursive-include docs *.md
 recursive-include data *.lock.json
 recursive-include examples *.json *.csv *.png *.py
 include .github/pull_request_template.md
+include stress_testing/*.py stress_testing/*.md
+include stress_testing/*.cjs stress_testing/requirements*.lock
+include stress_testing/verification.json
+include stress_testing/retest-0072114.json
+include stress_testing/checks/*.py
+include notebooks/main_pipeline.ipynb

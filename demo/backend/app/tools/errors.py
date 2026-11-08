@@ -30,6 +30,18 @@ class TooLarge(ToolError):
     default_code = "too_large"
 
 
+class InputConflict(ToolError):
+    """An existing scan has different immutable processing inputs."""
+
+    default_code = "input_conflict"
+
+
+class QueueBusy(ToolError):
+    """The bounded processing queue has no capacity for another scan."""
+
+    default_code = "queue_busy"
+
+
 class CorruptFile(ToolError):
     """The file is empty, truncated or otherwise undecodable."""
 

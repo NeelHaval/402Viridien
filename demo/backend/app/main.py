@@ -40,8 +40,10 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         app.state.ingest.shutdown()
 
     app = FastAPI(title="Stratum", lifespan=lifespan)
+    errors.install(app, cfg)
+    # CORS wraps body-limit responses too, so the separate development frontend
+    # can read a useful 413 rather than seeing an opaque browser network error.
     app.add_middleware(CORSMiddleware, allow_origins=list(cfg.cors_origins), allow_methods=["*"], allow_headers=["*"])
-    errors.install(app)
     api = APIRouter()
     for module in (health, wells, upload, report):
         api.include_router(module.router)

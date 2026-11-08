@@ -5,6 +5,66 @@ from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
+from starlette.formparsers import MultiPartException
+
+JSON_BODY_LIMIT = 1024 * 1024
+MULTIPART_OVERHEAD = 64 * 1024
+
+
+class RequestBodyLimitMiddleware:
+    """Limit incoming bytes before multipart parsing/spooling, even without a length header."""
+
+    def __init__(self, app, max_upload_bytes: int):
+        self.app = app
+        self.upload_limit = max_upload_bytes + JSON_BODY_LIMIT + MULTIPART_OVERHEAD
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] != "http":
+            return await self.app(scope, receive, send)
+        upload = scope.get("path", "").rstrip("/") in ("/upload", "/api/upload")
+        limit = self.upload_limit if upload else JSON_BODY_LIMIT
+        lengths = [value for key, value in scope.get("headers", []) if key.lower() == b"content-length"]
+        if lengths and (any(not value.isdigit() for value in lengths) or len(set(lengths)) != 1):
+            return await JSONResponse(body("invalid_request", "invalid Content-Length"), status_code=400)(scope, receive, send)
+        # Avoid converting an arbitrarily long attacker-supplied integer.
+        normalized_length = (lengths[0].lstrip(b"0") or b"0") if lengths else None
+        if normalized_length is not None and (len(normalized_length) > len(str(limit)) or int(normalized_length) > limit):
+            return await JSONResponse(body("too_large", "request body exceeds the configured limit"), status_code=413)(scope, receive, send)
+        total = 0
+        exceeded = False
+        replacement_sent = False
+
+        async def reject():
+            nonlocal replacement_sent
+            if not replacement_sent:
+                replacement_sent = True
+                await JSONResponse(body("too_large", "request body exceeds the configured limit"), status_code=413)(scope, receive, send)
+
+        async def limited_receive():
+            nonlocal total, exceeded
+            message = await receive()
+            if message["type"] == "http.request":
+                total += len(message.get("body", b""))
+                if total > limit:
+                    exceeded = True
+                    # Starlette closes partially spooled uploads when this
+                    # error interrupts form parsing. The wrapper preserves 413
+                    # even if a framework layer replaces its error response.
+                    raise MultiPartException("request body exceeds the configured limit")
+            return message
+
+        async def guarded_send(message):
+            if exceeded:
+                await reject()
+            else:
+                await send(message)
+
+        try:
+            await self.app(scope, limited_receive, guarded_send)
+        except Exception:
+            if not exceeded:
+                raise
+            await reject()
 
 
 class ApiError(Exception):
@@ -21,8 +81,10 @@ def body(code: str, message: str) -> dict:
     return {"error": {"code": code, "message": message}}
 
 
-def install(app: FastAPI) -> None:
+def install(app: FastAPI, settings=None) -> None:
     """Register handlers that turn every error into the standard shape."""
+    app.add_middleware(RequestBodyLimitMiddleware,
+                       max_upload_bytes=settings.max_upload_bytes if settings is not None else 500 * 1024 * 1024)
 
     @app.exception_handler(ApiError)
     async def _api(_: Request, exc: ApiError) -> JSONResponse:

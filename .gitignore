@@ -16,3 +16,5 @@ runs/
 *.safetensors
 *.zip
 !tests/fixtures/*.zip
+
+stress_testing/.runs/
