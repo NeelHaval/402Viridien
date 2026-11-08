@@ -1,0 +1,1542 @@
+{
+ "schema_version": 1,
+ "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+ "image_name": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+ "written_by": {
+  "legend_naming": {
+   "time": "2026-11-08T04:27:02",
+   "legend_source": "detect",
+   "segments": "cnn"
+  }
+ },
+ "legend": [
+  {
+   "id": 0,
+   "box": [
+    161,
+    958,
+    256,
+    1021
+   ],
+   "label_printed": "Siltstone"
+  },
+  {
+   "id": 1,
+   "box": [
+    635,
+    958,
+    731,
+    1021
+   ],
+   "label_printed": "Sandstone"
+  },
+  {
+   "id": 2,
+   "box": [
+    1109,
+    958,
+    1205,
+    1021
+   ],
+   "label_printed": "Halite"
+  },
+  {
+   "id": 3,
+   "box": [
+    1583,
+    958,
+    1679,
+    1021
+   ],
+   "label_printed": "Shale"
+  },
+  {
+   "id": 4,
+   "box": [
+    2057,
+    958,
+    2153,
+    1021
+   ],
+   "label_printed": "Clay"
+  },
+  {
+   "id": 5,
+   "box": [
+    161,
+    1054,
+    256,
+    1126
+   ],
+   "label_printed": "Limestone"
+  },
+  {
+   "id": 6,
+   "box": [
+    635,
+    1054,
+    731,
+    1126
+   ],
+   "label_printed": "Dolomite"
+  },
+  {
+   "id": 7,
+   "box": [
+    1109,
+    1054,
+    1205,
+    1126
+   ],
+   "label_printed": "Marl"
+  },
+  {
+   "id": 8,
+   "box": [
+    1583,
+    1054,
+    1679,
+    1126
+   ],
+   "label_printed": "Dolomitic limestone"
+  },
+  {
+   "id": 9,
+   "box": [
+    2057,
+    1054,
+    2153,
+    1126
+   ],
+   "label_printed": "Chalk"
+  },
+  {
+   "id": 10,
+   "box": [
+    161,
+    1159,
+    256,
+    1231
+   ],
+   "label_printed": "Gypsum"
+  },
+  {
+   "id": 11,
+   "box": [
+    635,
+    1159,
+    731,
+    1231
+   ],
+   "label_printed": "Anhydrite"
+  },
+  {
+   "id": 12,
+   "box": [
+    1109,
+    1159,
+    1205,
+    1231
+   ],
+   "label_printed": "Chert"
+  },
+  {
+   "id": 13,
+   "box": [
+    1583,
+    1159,
+    1679,
+    1231
+   ],
+   "label_printed": "Volcanics"
+  },
+  {
+   "id": 14,
+   "box": [
+    2057,
+    1159,
+    2153,
+    1231
+   ],
+   "label_printed": "Granite"
+  },
+  {
+   "id": 15,
+   "box": [
+    161,
+    1264,
+    256,
+    1336
+   ],
+   "label_printed": "Mud loss"
+  },
+  {
+   "id": 16,
+   "box": [
+    635,
+    1264,
+    731,
+    1336
+   ],
+   "label_printed": "Mud gain"
+  },
+  {
+   "id": 17,
+   "box": [
+    1109,
+    1264,
+    1205,
+    1336
+   ],
+   "label_printed": "Deviation survey"
+  },
+  {
+   "id": 18,
+   "box": [
+    1583,
+    1264,
+    1679,
+    1336
+   ],
+   "label_printed": "Shoe"
+  },
+  {
+   "id": 19,
+   "box": [
+    2057,
+    1264,
+    2153,
+    1336
+   ],
+   "label_printed": "Test"
+  },
+  {
+   "id": 20,
+   "box": [
+    161,
+    1369,
+    256,
+    1441
+   ],
+   "label_printed": "Gas"
+  },
+  {
+   "id": 21,
+   "box": [
+    635,
+    1369,
+    731,
+    1441
+   ],
+   "label_printed": "Oil and Gas"
+  },
+  {
+   "id": 22,
+   "box": [
+    1109,
+    1369,
+    1205,
+    1441
+   ],
+   "label_printed": "Oil"
+  },
+  {
+   "id": 23,
+   "box": [
+    1583,
+    1369,
+    1679,
+    1441
+   ],
+   "label_printed": "Dry"
+  },
+  {
+   "id": 24,
+   "box": [
+    2057,
+    1369,
+    2153,
+    1441
+   ],
+   "label_printed": "Fresh water"
+  }
+ ],
+ "layers": [
+  {
+   "top_px": 10083,
+   "bottom_px": 10275,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 10275,
+   "bottom_px": 10347,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 10347,
+   "bottom_px": 10563,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 10563,
+   "bottom_px": 10667,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 10667,
+   "bottom_px": 10827,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 10827,
+   "bottom_px": 10915,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Volcanics",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 10915,
+   "bottom_px": 11131,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11131,
+   "bottom_px": 11227,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11227,
+   "bottom_px": 11283,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Volcanics",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11283,
+   "bottom_px": 11619,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11619,
+   "bottom_px": 11683,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11683,
+   "bottom_px": 11763,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11763,
+   "bottom_px": 11843,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11843,
+   "bottom_px": 12803,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12803,
+   "bottom_px": 12883,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12883,
+   "bottom_px": 13307,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 13307,
+   "bottom_px": 13443,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Volcanics",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 13443,
+   "bottom_px": 13739,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 13739,
+   "bottom_px": 13835,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 13835,
+   "bottom_px": 15243,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15243,
+   "bottom_px": 15315,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15315,
+   "bottom_px": 16659,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 16659,
+   "bottom_px": 16931,
+   "composition": [
+    {
+     "legend_id": 8,
+     "type": "Dolomitic limestone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 16931,
+   "bottom_px": 17115,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17115,
+   "bottom_px": 17179,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Limestone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17179,
+   "bottom_px": 17243,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17243,
+   "bottom_px": 17427,
+   "composition": [
+    {
+     "legend_id": 5,
+     "type": "Limestone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17427,
+   "bottom_px": 19259,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19259,
+   "bottom_px": 19355,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19355,
+   "bottom_px": 19587,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19587,
+   "bottom_px": 19643,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 19643,
+   "bottom_px": 20259,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20259,
+   "bottom_px": 20347,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Siltstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20347,
+   "bottom_px": 20403,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Volcanics",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20403,
+   "bottom_px": 20451,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20451,
+   "bottom_px": 47403,
+   "composition": [
+    {
+     "legend_id": 2,
+     "type": "Halite",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 47403,
+   "bottom_px": 48731,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48731,
+   "bottom_px": 48795,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48795,
+   "bottom_px": 48851,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48851,
+   "bottom_px": 48915,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 48915,
+   "bottom_px": 49011,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49011,
+   "bottom_px": 49099,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49099,
+   "bottom_px": 49147,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Volcanics",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49147,
+   "bottom_px": 49275,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49275,
+   "bottom_px": 49363,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49363,
+   "bottom_px": 49515,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49515,
+   "bottom_px": 49595,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 49595,
+   "bottom_px": 50299,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 50299,
+   "bottom_px": 50363,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 50363,
+   "bottom_px": 50435,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 50435,
+   "bottom_px": 50531,
+   "composition": [
+    {
+     "legend_id": 8,
+     "type": "Dolomitic limestone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 50531,
+   "bottom_px": 50587,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 50587,
+   "bottom_px": 51227,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 51227,
+   "bottom_px": 51315,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 51315,
+   "bottom_px": 51547,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 51547,
+   "bottom_px": 51643,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 51643,
+   "bottom_px": 52811,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 52811,
+   "bottom_px": 52915,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 52915,
+   "bottom_px": 53555,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 53555,
+   "bottom_px": 53771,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 53771,
+   "bottom_px": 53843,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 53843,
+   "bottom_px": 54115,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 54115,
+   "bottom_px": 57531,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 57531,
+   "bottom_px": 57723,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 57723,
+   "bottom_px": 58763,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 58763,
+   "bottom_px": 58835,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 58835,
+   "bottom_px": 58891,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 58891,
+   "bottom_px": 59059,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 59059,
+   "bottom_px": 59163,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 59163,
+   "bottom_px": 59219,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 59219,
+   "bottom_px": 59275,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 59275,
+   "bottom_px": 59323,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 59323,
+   "bottom_px": 61651,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 61651,
+   "bottom_px": 61987,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 61987,
+   "bottom_px": 62075,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 62075,
+   "bottom_px": 62227,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 62227,
+   "bottom_px": 62691,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 62691,
+   "bottom_px": 62763,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 62763,
+   "bottom_px": 63123,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 63123,
+   "bottom_px": 63187,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 63187,
+   "bottom_px": 63531,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 63531,
+   "bottom_px": 63619,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 63619,
+   "bottom_px": 63811,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 63811,
+   "bottom_px": 63883,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 63883,
+   "bottom_px": 64395,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 64395,
+   "bottom_px": 64499,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 64499,
+   "bottom_px": 64563,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 64563,
+   "bottom_px": 64851,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 64851,
+   "bottom_px": 64939,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 64939,
+   "bottom_px": 65363,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 65363,
+   "bottom_px": 65603,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 65603,
+   "bottom_px": 65715,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 65715,
+   "bottom_px": 65763,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 65763,
+   "bottom_px": 66059,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 66059,
+   "bottom_px": 66203,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 66203,
+   "bottom_px": 66611,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 66611,
+   "bottom_px": 66763,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 66763,
+   "bottom_px": 66867,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 66867,
+   "bottom_px": 68675,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 68675,
+   "bottom_px": 68771,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 68771,
+   "bottom_px": 68907,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 68907,
+   "bottom_px": 69003,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69003,
+   "bottom_px": 69075,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69075,
+   "bottom_px": 69171,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69171,
+   "bottom_px": 69307,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69307,
+   "bottom_px": 69403,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69403,
+   "bottom_px": 69715,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69715,
+   "bottom_px": 69987,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 69987,
+   "bottom_px": 70051,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 70051,
+   "bottom_px": 70955,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 70955,
+   "bottom_px": 71067,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 71067,
+   "bottom_px": 71115,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 71115,
+   "bottom_px": 71179,
+   "composition": [
+    {
+     "legend_id": 4,
+     "type": "Clay",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 71179,
+   "bottom_px": 71435,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 71435,
+   "bottom_px": 71523,
+   "composition": [
+    {
+     "legend_id": 1,
+     "type": "Sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 71523,
+   "bottom_px": 71675,
+   "composition": [
+    {
+     "legend_id": 3,
+     "type": "Shale",
+     "proportion": 1.0
+    }
+   ]
+  }
+ ]
+}

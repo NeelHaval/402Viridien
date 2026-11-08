@@ -1,0 +1,62 @@
+================================================================================================
+ BATCH SEGMENT CLASSIFICATION EVALUATION
+================================================================================================
+ File                                         PixAcc     mIoU      mF1    fwIoU   GT n  Pred n  SegAcc
+------------------------------------------------------------------------------------------------
+ 60808400140000_hadrian 2_masterlog_2in...    43.08%   14.52%   17.67%   40.60%    680      39   9.26%
+ 60811404100000_gc743_dc141_st00bp00_mu...     0.00%    0.00%    0.00%    0.00%      2      65   0.00%
+------------------------------------------------------------------------------------------------
+ AGGREGATE over 2 file(s), 70,351 px pooled
+
+   Pooled (micro over all pixels)
+     Pixel accuracy      : 29.34%
+     Mean class accuracy : 25.48%
+     mIoU (macro/class)  : 7.99%
+     Freq.-weighted IoU  : 27.66%
+     Macro P / R / F1    : 19.12% / 25.48% / 9.72%
+     Segment accuracy    : 9.24% (63 / 682)
+
+   Mean of per-file values (macro over files)
+     Pixel acc 21.54%   mIoU 7.26%   macro-F1 8.84%   fwIoU 20.30%
+
+   Per class (pooled)
+  Class                       GT px    Pred px    Prec  Recall      F1     IoU
+  background *               22,933        402  98.51%   1.73%   3.39%   1.73%
+  shale grey                 22,393      2,482  98.99%  10.97%  19.75%  10.96%
+  halite                     14,057     14,264  98.55% 100.00%  99.27%  98.55%
+  sandstone                   5,720      5,644  58.01%  57.24%  57.62%  40.47%
+  siltstone                   4,515        661  69.44%  10.17%  17.74%   9.73%
+  marl                          391          0     n/a   0.00%   0.00%   0.00%
+  unknown                       286          0     n/a   0.00%   0.00%   0.00%
+  13                             56          0     n/a   0.00%   0.00%   0.00%
+  anhydrite                       0          6   0.00%     n/a   0.00%   0.00%
+  argillaceous limesto            0         14   0.00%     n/a   0.00%   0.00%
+  bitumen                         0         10   0.00%     n/a   0.00%   0.00%
+  bituminous limestone            0         12   0.00%     n/a   0.00%   0.00%
+  clay-shale                      0     12,836   0.00%     n/a   0.00%   0.00%
+  dolomite                        0          6   0.00%     n/a   0.00%   0.00%
+  fine sandstone                  0      2,647   0.00%     n/a   0.00%   0.00%
+  gypsum                          0         17   0.00%     n/a   0.00%   0.00%
+  legend_0                        0      2,489   0.00%     n/a   0.00%   0.00%
+  limestone                       0         29   0.00%     n/a   0.00%   0.00%
+  shale brown                     0     21,931   0.00%     n/a   0.00%   0.00%
+  silstone                        0        189   0.00%     n/a   0.00%   0.00%
+  silt                            0      6,712   0.00%     n/a   0.00%   0.00%
+  (* background: shown but excluded from macro means)
+
+   Confusion matrix (pooled pixels; rows = GT)
+  GT \ Pred      backgrou. clay-sha. fine san.    halite  legend_0      marl sandstone shale br. shale gr.      silt siltstone   unknown
+  backgrou.            396    12,553     2,607       207        22         0        30       171         0     6,699         7         0
+  clay-sha.              0         0         0         0         0         0         0         0         0         0         0         0
+  fine san.              0         0         0         0         0         0         0         0         0         0         0         0
+  halite                 0         0         0    14,057         0         0         0         0         0         0         0         0
+  legend_0               0         0         0         0         0         0         0         0         0         0         0         0
+  marl                   0         0         0         0         0         0         0       391         0         0         0         0
+  sandstone              0         0         0         0       518         0     3,274     1,845        20         0        63         0
+  shale br.              0         0         0         0         0         0         0         0         0         0         0         0
+  shale gr.              6         0         0         0     1,072         0     2,098    16,621     2,457         2       132         0
+  silt                   0         0         0         0         0         0         0         0         0         0         0         0
+  siltstone              0         0         0         0       877         0       242     2,903         5        11       459         0
+  unknown                0       283         0         0         0         0         0         0         0         0         0         0
+  (showing the 12 largest classes; full matrix in --json)
+================================================================================================

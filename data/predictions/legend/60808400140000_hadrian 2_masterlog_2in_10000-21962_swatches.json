@@ -1,0 +1,220 @@
+{
+ "swatches": [
+  {
+   "rock_name": "legend_0",
+   "bbox": [
+    52,
+    25,
+    116,
+    73
+   ]
+  },
+  {
+   "rock_name": "Shale grey",
+   "bbox": [
+    249,
+    24,
+    313,
+    73
+   ]
+  },
+  {
+   "rock_name": "Shale brown",
+   "bbox": [
+    446,
+    24,
+    510,
+    73
+   ]
+  },
+  {
+   "rock_name": "Shale green",
+   "bbox": [
+    642,
+    24,
+    706,
+    73
+   ]
+  },
+  {
+   "rock_name": "Silt",
+   "bbox": [
+    839,
+    24,
+    903,
+    73
+   ]
+  },
+  {
+   "rock_name": "Siltstone",
+   "bbox": [
+    1035,
+    24,
+    1099,
+    73
+   ]
+  },
+  {
+   "rock_name": "Sand",
+   "bbox": [
+    1233,
+    25,
+    1297,
+    73
+   ]
+  },
+  {
+   "rock_name": "Sandstone",
+   "bbox": [
+    1429,
+    24,
+    1493,
+    73
+   ]
+  },
+  {
+   "rock_name": "Halite",
+   "bbox": [
+    52,
+    120,
+    116,
+    168
+   ]
+  },
+  {
+   "rock_name": "Anhydrite",
+   "bbox": [
+    249,
+    120,
+    313,
+    168
+   ]
+  },
+  {
+   "rock_name": "Gypsum",
+   "bbox": [
+    446,
+    120,
+    510,
+    168
+   ]
+  },
+  {
+   "rock_name": "Sylvite",
+   "bbox": [
+    642,
+    120,
+    706,
+    168
+   ]
+  },
+  {
+   "rock_name": "Bitumen",
+   "bbox": [
+    839,
+    120,
+    903,
+    168
+   ]
+  },
+  {
+   "rock_name": "Tuff",
+   "bbox": [
+    1034,
+    120,
+    1098,
+    168
+   ]
+  },
+  {
+   "rock_name": "Mud gain",
+   "bbox": [
+    1232,
+    120,
+    1296,
+    168
+   ]
+  },
+  {
+   "rock_name": "Mud loss",
+   "bbox": [
+    1429,
+    118,
+    1493,
+    166
+   ]
+  },
+  {
+   "rock_name": "Limestone",
+   "bbox": [
+    52,
+    214,
+    116,
+    262
+   ]
+  },
+  {
+   "rock_name": "Dolomitic clay",
+   "bbox": [
+    249,
+    214,
+    313,
+    262
+   ]
+  },
+  {
+   "rock_name": "Marl",
+   "bbox": [
+    446,
+    213,
+    510,
+    261
+   ]
+  },
+  {
+   "rock_name": "Dolomite",
+   "bbox": [
+    642,
+    214,
+    706,
+    262
+   ]
+  },
+  {
+   "rock_name": "Sidewall core",
+   "bbox": [
+    838,
+    213,
+    902,
+    261
+   ]
+  },
+  {
+   "rock_name": "Casing shoe",
+   "bbox": [
+    1035,
+    213,
+    1099,
+    261
+   ]
+  },
+  {
+   "rock_name": "MDT",
+   "bbox": [
+    1233,
+    213,
+    1297,
+    261
+   ]
+  },
+  {
+   "rock_name": "Core",
+   "bbox": [
+    1429,
+    213,
+    1493,
+    261
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2247 @@
+{
+ "schema_version": 1,
+ "stem": "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev",
+ "image_name": "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev.tif",
+ "written_by": {
+  "experiment": {
+   "batch": "it1_method_sweep",
+   "method": "colour_hist",
+   "mode": "pipeline",
+   "legend_source": "detect"
+  }
+ },
+ "legend": [
+  {
+   "id": 0,
+   "box": [
+    107,
+    657,
+    171,
+    706
+   ],
+   "label_printed": "Clay-shale"
+  },
+  {
+   "id": 1,
+   "box": [
+    422,
+    657,
+    486,
+    706
+   ],
+   "label_printed": "Calcareous clay-shal"
+  },
+  {
+   "id": 2,
+   "box": [
+    736,
+    657,
+    800,
+    706
+   ],
+   "label_printed": "Marl"
+  },
+  {
+   "id": 3,
+   "box": [
+    1051,
+    657,
+    1115,
+    706
+   ],
+   "label_printed": "Dolomite"
+  },
+  {
+   "id": 4,
+   "box": [
+    1366,
+    657,
+    1430,
+    706
+   ],
+   "label_printed": "Limestone"
+  },
+  {
+   "id": 5,
+   "box": [
+    107,
+    727,
+    171,
+    776
+   ],
+   "label_printed": "Argillaceous limesto"
+  },
+  {
+   "id": 6,
+   "box": [
+    422,
+    727,
+    486,
+    776
+   ],
+   "label_printed": "Oolitic limestone"
+  },
+  {
+   "id": 7,
+   "box": [
+    736,
+    727,
+    800,
+    776
+   ],
+   "label_printed": "Bituminous limestone"
+  },
+  {
+   "id": 8,
+   "box": [
+    1051,
+    727,
+    1115,
+    776
+   ],
+   "label_printed": "Silt"
+  },
+  {
+   "id": 9,
+   "box": [
+    1366,
+    727,
+    1430,
+    776
+   ],
+   "label_printed": "Fine sand"
+  },
+  {
+   "id": 10,
+   "box": [
+    107,
+    798,
+    171,
+    846
+   ],
+   "label_printed": "Medium sand"
+  },
+  {
+   "id": 11,
+   "box": [
+    422,
+    797,
+    486,
+    846
+   ],
+   "label_printed": "Silstone"
+  },
+  {
+   "id": 12,
+   "box": [
+    736,
+    797,
+    800,
+    846
+   ],
+   "label_printed": "Fine sandstone"
+  },
+  {
+   "id": 13,
+   "box": [
+    1051,
+    798,
+    1115,
+    846
+   ],
+   "label_printed": "Argill and calc sand"
+  },
+  {
+   "id": 14,
+   "box": [
+    1366,
+    797,
+    1430,
+    846
+   ],
+   "label_printed": "Halite"
+  },
+  {
+   "id": 15,
+   "box": [
+    107,
+    868,
+    171,
+    916
+   ],
+   "label_printed": "Oil and Gas"
+  },
+  {
+   "id": 16,
+   "box": [
+    422,
+    868,
+    486,
+    916
+   ],
+   "label_printed": "Gas_Good"
+  },
+  {
+   "id": 17,
+   "box": [
+    736,
+    868,
+    800,
+    916
+   ],
+   "label_printed": "Dry"
+  },
+  {
+   "id": 18,
+   "box": [
+    1051,
+    868,
+    1115,
+    916
+   ],
+   "label_printed": "Fresh water"
+  },
+  {
+   "id": 19,
+   "box": [
+    1366,
+    868,
+    1430,
+    916
+   ],
+   "label_printed": "Salted water"
+  },
+  {
+   "id": 20,
+   "box": [
+    107,
+    938,
+    171,
+    986
+   ],
+   "label_printed": "Mud gain"
+  },
+  {
+   "id": 21,
+   "box": [
+    422,
+    938,
+    486,
+    986
+   ],
+   "label_printed": "Mud loss"
+  },
+  {
+   "id": 22,
+   "box": [
+    736,
+    938,
+    800,
+    986
+   ],
+   "label_printed": "Survey"
+  },
+  {
+   "id": 23,
+   "box": [
+    1051,
+    938,
+    1115,
+    986
+   ],
+   "label_printed": "FIT"
+  },
+  {
+   "id": 24,
+   "box": [
+    1366,
+    938,
+    1430,
+    986
+   ],
+   "label_printed": "Casing  shoe"
+  }
+ ],
+ "layers": [
+  {
+   "top_px": 1578,
+   "bottom_px": 1582,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 1582,
+   "bottom_px": 7986,
+   "composition": [
+    {
+     "legend_id": 17,
+     "type": "Dry",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 7986,
+   "bottom_px": 8271,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8271,
+   "bottom_px": 8333,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8333,
+   "bottom_px": 8747,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8747,
+   "bottom_px": 8759,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8759,
+   "bottom_px": 8788,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8788,
+   "bottom_px": 8803,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8803,
+   "bottom_px": 8944,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8944,
+   "bottom_px": 8954,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8954,
+   "bottom_px": 8965,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 8965,
+   "bottom_px": 11991,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 11991,
+   "bottom_px": 12010,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12010,
+   "bottom_px": 12016,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12016,
+   "bottom_px": 12022,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12022,
+   "bottom_px": 12166,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12166,
+   "bottom_px": 12187,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12187,
+   "bottom_px": 12195,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12195,
+   "bottom_px": 12311,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12311,
+   "bottom_px": 12332,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12332,
+   "bottom_px": 12355,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12355,
+   "bottom_px": 12511,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12511,
+   "bottom_px": 12517,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12517,
+   "bottom_px": 12523,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12523,
+   "bottom_px": 12529,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12529,
+   "bottom_px": 12547,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12547,
+   "bottom_px": 12553,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12553,
+   "bottom_px": 12571,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12571,
+   "bottom_px": 12577,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12577,
+   "bottom_px": 12595,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12595,
+   "bottom_px": 12601,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12601,
+   "bottom_px": 12607,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12607,
+   "bottom_px": 12625,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12625,
+   "bottom_px": 12637,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12637,
+   "bottom_px": 12867,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12867,
+   "bottom_px": 12880,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12880,
+   "bottom_px": 12896,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12896,
+   "bottom_px": 12902,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12902,
+   "bottom_px": 12908,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12908,
+   "bottom_px": 12988,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12988,
+   "bottom_px": 12994,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 12994,
+   "bottom_px": 13014,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 13014,
+   "bottom_px": 14575,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14575,
+   "bottom_px": 14588,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14588,
+   "bottom_px": 14598,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14598,
+   "bottom_px": 14604,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14604,
+   "bottom_px": 14610,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14610,
+   "bottom_px": 14628,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14628,
+   "bottom_px": 14634,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14634,
+   "bottom_px": 14652,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14652,
+   "bottom_px": 14658,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14658,
+   "bottom_px": 14664,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14664,
+   "bottom_px": 14670,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14670,
+   "bottom_px": 14676,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14676,
+   "bottom_px": 14687,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14687,
+   "bottom_px": 14699,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14699,
+   "bottom_px": 14709,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14709,
+   "bottom_px": 14720,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14720,
+   "bottom_px": 14855,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14855,
+   "bottom_px": 14861,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14861,
+   "bottom_px": 14867,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14867,
+   "bottom_px": 14873,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14873,
+   "bottom_px": 14891,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14891,
+   "bottom_px": 14897,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14897,
+   "bottom_px": 14939,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14939,
+   "bottom_px": 14945,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14945,
+   "bottom_px": 14986,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14986,
+   "bottom_px": 14992,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14992,
+   "bottom_px": 14998,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 14998,
+   "bottom_px": 15004,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15004,
+   "bottom_px": 15010,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15010,
+   "bottom_px": 15016,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15016,
+   "bottom_px": 15034,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15034,
+   "bottom_px": 15040,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15040,
+   "bottom_px": 15082,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15082,
+   "bottom_px": 15088,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15088,
+   "bottom_px": 15129,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15129,
+   "bottom_px": 15135,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15135,
+   "bottom_px": 15153,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15153,
+   "bottom_px": 15159,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15159,
+   "bottom_px": 15165,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15165,
+   "bottom_px": 15171,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15171,
+   "bottom_px": 15177,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15177,
+   "bottom_px": 15216,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15216,
+   "bottom_px": 15222,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15222,
+   "bottom_px": 15228,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15228,
+   "bottom_px": 15383,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15383,
+   "bottom_px": 15389,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15389,
+   "bottom_px": 15567,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15567,
+   "bottom_px": 15573,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15573,
+   "bottom_px": 15579,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15579,
+   "bottom_px": 15598,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15598,
+   "bottom_px": 15623,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15623,
+   "bottom_px": 15652,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15652,
+   "bottom_px": 15662,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15662,
+   "bottom_px": 15678,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15678,
+   "bottom_px": 15714,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15714,
+   "bottom_px": 15720,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15720,
+   "bottom_px": 15726,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15726,
+   "bottom_px": 15819,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15819,
+   "bottom_px": 15880,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15880,
+   "bottom_px": 15886,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15886,
+   "bottom_px": 15892,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15892,
+   "bottom_px": 15903,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15903,
+   "bottom_px": 15915,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 15915,
+   "bottom_px": 16007,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 16007,
+   "bottom_px": 16054,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 16054,
+   "bottom_px": 17085,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17085,
+   "bottom_px": 17094,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17094,
+   "bottom_px": 17139,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17139,
+   "bottom_px": 17452,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17452,
+   "bottom_px": 17466,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17466,
+   "bottom_px": 17519,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17519,
+   "bottom_px": 17532,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17532,
+   "bottom_px": 17544,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 17544,
+   "bottom_px": 20119,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20119,
+   "bottom_px": 20132,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20132,
+   "bottom_px": 20142,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20142,
+   "bottom_px": 20148,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20148,
+   "bottom_px": 20154,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20154,
+   "bottom_px": 20184,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20184,
+   "bottom_px": 20190,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20190,
+   "bottom_px": 20196,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20196,
+   "bottom_px": 20202,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20202,
+   "bottom_px": 20220,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20220,
+   "bottom_px": 20230,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20230,
+   "bottom_px": 20287,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20287,
+   "bottom_px": 20447,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20447,
+   "bottom_px": 20453,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20453,
+   "bottom_px": 20459,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20459,
+   "bottom_px": 20472,
+   "composition": [
+    {
+     "legend_id": 12,
+     "type": "Fine sandstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20472,
+   "bottom_px": 20486,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20486,
+   "bottom_px": 20763,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20763,
+   "bottom_px": 20832,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20832,
+   "bottom_px": 20838,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20838,
+   "bottom_px": 20844,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20844,
+   "bottom_px": 20850,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20850,
+   "bottom_px": 20856,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20856,
+   "bottom_px": 20862,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20862,
+   "bottom_px": 20868,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20868,
+   "bottom_px": 20880,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20880,
+   "bottom_px": 20886,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20886,
+   "bottom_px": 20910,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20910,
+   "bottom_px": 20920,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 20920,
+   "bottom_px": 21054,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21054,
+   "bottom_px": 21070,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21070,
+   "bottom_px": 21082,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21082,
+   "bottom_px": 21606,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21606,
+   "bottom_px": 21616,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21616,
+   "bottom_px": 21626,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21626,
+   "bottom_px": 21642,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21642,
+   "bottom_px": 21660,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21660,
+   "bottom_px": 21666,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21666,
+   "bottom_px": 21696,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21696,
+   "bottom_px": 21702,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21702,
+   "bottom_px": 21708,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21708,
+   "bottom_px": 21739,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 21739,
+   "bottom_px": 22007,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22007,
+   "bottom_px": 22089,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22089,
+   "bottom_px": 22100,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22100,
+   "bottom_px": 22422,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22422,
+   "bottom_px": 22434,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22434,
+   "bottom_px": 22446,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22446,
+   "bottom_px": 22460,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 22460,
+   "bottom_px": 23099,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23099,
+   "bottom_px": 23110,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23110,
+   "bottom_px": 23116,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23116,
+   "bottom_px": 23122,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23122,
+   "bottom_px": 23128,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23128,
+   "bottom_px": 23134,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23134,
+   "bottom_px": 23140,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23140,
+   "bottom_px": 23188,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23188,
+   "bottom_px": 23194,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23194,
+   "bottom_px": 23247,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23247,
+   "bottom_px": 23253,
+   "composition": [
+    {
+     "legend_id": 13,
+     "type": "Argill and calc sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23253,
+   "bottom_px": 23259,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23259,
+   "bottom_px": 23283,
+   "composition": [
+    {
+     "legend_id": 10,
+     "type": "Medium sand",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23283,
+   "bottom_px": 23293,
+   "composition": [
+    {
+     "legend_id": 11,
+     "type": "Silstone",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23293,
+   "bottom_px": 23715,
+   "composition": [
+    {
+     "legend_id": 0,
+     "type": "Clay-shale",
+     "proportion": 1.0
+    }
+   ]
+  },
+  {
+   "top_px": 23715,
+   "bottom_px": 24010,
+   "composition": [
+    {
+     "legend_id": 17,
+     "type": "Dry",
+     "proportion": 1.0
+    }
+   ]
+  }
+ ]
+}

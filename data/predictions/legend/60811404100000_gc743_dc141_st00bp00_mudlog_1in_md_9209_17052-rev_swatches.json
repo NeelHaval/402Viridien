@@ -1,0 +1,229 @@
+{
+ "swatches": [
+  {
+   "rock_name": "Clay-shale",
+   "bbox": [
+    28,
+    58,
+    92,
+    107
+   ]
+  },
+  {
+   "rock_name": "Calcareous clay-shal",
+   "bbox": [
+    343,
+    58,
+    407,
+    107
+   ]
+  },
+  {
+   "rock_name": "Marl",
+   "bbox": [
+    657,
+    58,
+    721,
+    107
+   ]
+  },
+  {
+   "rock_name": "Dolomite",
+   "bbox": [
+    972,
+    58,
+    1036,
+    107
+   ]
+  },
+  {
+   "rock_name": "Limestone",
+   "bbox": [
+    1287,
+    58,
+    1351,
+    107
+   ]
+  },
+  {
+   "rock_name": "Argillaceous limesto",
+   "bbox": [
+    28,
+    128,
+    92,
+    177
+   ]
+  },
+  {
+   "rock_name": "Oolitic limestone",
+   "bbox": [
+    343,
+    128,
+    407,
+    177
+   ]
+  },
+  {
+   "rock_name": "Bituminous limestone",
+   "bbox": [
+    657,
+    128,
+    721,
+    177
+   ]
+  },
+  {
+   "rock_name": "Silt",
+   "bbox": [
+    972,
+    128,
+    1036,
+    177
+   ]
+  },
+  {
+   "rock_name": "Fine sand",
+   "bbox": [
+    1287,
+    128,
+    1351,
+    177
+   ]
+  },
+  {
+   "rock_name": "Medium sand",
+   "bbox": [
+    28,
+    199,
+    92,
+    247
+   ]
+  },
+  {
+   "rock_name": "Silstone",
+   "bbox": [
+    343,
+    198,
+    407,
+    247
+   ]
+  },
+  {
+   "rock_name": "Fine sandstone",
+   "bbox": [
+    657,
+    198,
+    721,
+    247
+   ]
+  },
+  {
+   "rock_name": "Argill and calc sand",
+   "bbox": [
+    972,
+    199,
+    1036,
+    247
+   ]
+  },
+  {
+   "rock_name": "Halite",
+   "bbox": [
+    1287,
+    198,
+    1351,
+    247
+   ]
+  },
+  {
+   "rock_name": "Oil and Gas",
+   "bbox": [
+    28,
+    269,
+    92,
+    317
+   ]
+  },
+  {
+   "rock_name": "Gas_Good",
+   "bbox": [
+    343,
+    269,
+    407,
+    317
+   ]
+  },
+  {
+   "rock_name": "Dry",
+   "bbox": [
+    657,
+    269,
+    721,
+    317
+   ]
+  },
+  {
+   "rock_name": "Fresh water",
+   "bbox": [
+    972,
+    269,
+    1036,
+    317
+   ]
+  },
+  {
+   "rock_name": "Salted water",
+   "bbox": [
+    1287,
+    269,
+    1351,
+    317
+   ]
+  },
+  {
+   "rock_name": "Mud gain",
+   "bbox": [
+    28,
+    339,
+    92,
+    387
+   ]
+  },
+  {
+   "rock_name": "Mud loss",
+   "bbox": [
+    343,
+    339,
+    407,
+    387
+   ]
+  },
+  {
+   "rock_name": "Survey",
+   "bbox": [
+    657,
+    339,
+    721,
+    387
+   ]
+  },
+  {
+   "rock_name": "FIT",
+   "bbox": [
+    972,
+    339,
+    1036,
+    387
+   ]
+  },
+  {
+   "rock_name": "Casing  shoe",
+   "bbox": [
+    1287,
+    339,
+    1351,
+    387
+   ]
+  }
+ ]
+}

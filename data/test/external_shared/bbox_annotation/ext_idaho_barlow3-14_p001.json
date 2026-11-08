@@ -1,0 +1,25 @@
+{
+  "image_name": "ext_idaho_barlow3-14_p001.tif",
+  "width": 2251,
+  "height": 21751,
+  "bounding_boxes": {
+    "depth_column": [
+      404,
+      2510,
+      451,
+      21750
+    ],
+    "interpreted_lithology_column": [
+      451,
+      2510,
+      543,
+      21750
+    ],
+    "lithology_legend": [
+      34,
+      1427,
+      2157,
+      1681
+    ]
+  }
+}
