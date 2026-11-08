@@ -33,6 +33,25 @@ def _smooth_features(feat, radius=12):
     return uniform_filter1d(feat, size=max(1, radius * 2 + 1), axis=0, mode="nearest")
 
 
+class PrefixL2(rpt.costs.CostL2):
+    """Compute the L2 interval cost from cumulative sums in constant time."""
+    def fit(self, signal):
+        super().fit(signal)
+        values = np.asarray(self.signal, dtype=np.float64)
+        # Centering reduces cancellation on signals with a large common offset.
+        values = values - values.mean(axis=0)
+        self._sum = np.vstack((np.zeros(values.shape[1]), np.cumsum(values, axis=0)))
+        self._squares = np.r_[0., np.cumsum(np.einsum('ij,ij->i', values, values))]
+        return self
+
+    def error(self, start, end):
+        if end - start < self.min_size:
+            from ruptures.costs import NotEnoughPoints
+            raise NotEnoughPoints
+        total = self._sum[end] - self._sum[start]
+        return max(0., float(self._squares[end] - self._squares[start] - np.dot(total, total)/(end-start)))
+
+
 def segment(log, window, ctx):
     """Return stable full-image y intervals from PELT change points.
 
@@ -49,7 +68,7 @@ def segment(log, window, ctx):
         return [(y0, y1)]
     z = StandardScaler().fit_transform(samples)
     min_size = max(5, int(48 / stride))
-    algo = rpt.Pelt(model="l2", min_size=min_size, jump=4).fit(z)
+    algo = rpt.Pelt(custom_cost=PrefixL2(), min_size=min_size, jump=4).fit(z)
     penalty = 1.25 * np.log(max(2, len(z))) * max(1, z.shape[1])
     ends = algo.predict(pen=penalty)
     points = [0] + [min(len(feat), e * stride) for e in ends[:-1]] + [len(feat)]
