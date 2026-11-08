@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "repository": "NeelHaval/viridian402",
+  "payload_version": "dataset-review-20261108-v1",
+  "metadata_version": 2,
+  "root_receipt_sha256": "852491616c54b03774c5de51ecb2a5d235edd8bba840cb6a2189e4318979e0a6",
+  "autoLabelAllowed": false,
+  "independentAccuracyClaimAllowed": false,
+  "bundles": {
+    "review-manifest": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "DATASET.json",
+      "asset_id": 723334945,
+      "size": 1079186,
+      "sha256": "915b5e9da0218854c45bcb98f38287b110f5922847ccc43b99723aa80f8942e3"
+    },
+    "review-overlay": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "dataset-containment-overlay-v1.json",
+      "asset_id": 723394771,
+      "size": 242521,
+      "sha256": "129bbb2a159bf2c826a081c78a529a295da4e9ddc2d75af96fbc7e2b6ea05936"
+    },
+    "review-evidence": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "dataset-containment-evidence-v1.zip",
+      "asset_id": 723394889,
+      "size": 85216,
+      "sha256": "b11ae70ae34ae296985bf74d854216e9d64db2fdba9b69e6c4d3a046406a917e"
+    },
+    "review-metadata-v2": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "dataset-metadata-v2.zip",
+      "asset_id": 723430188,
+      "size": 151583,
+      "sha256": "088b82f10d7fd5d7244b36c061b242aced47810dd66e9be01f00008c13690d93"
+    },
+    "review-dev": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "outside-development-01.zip",
+      "asset_id": 723331915,
+      "size": 49315944,
+      "sha256": "dc6717db2ceca7dfaf743d6209acc9789df8da83074848a9d2b625c1f5aeb6a2"
+    },
+    "review-human": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "human-training-01.zip",
+      "asset_id": 723331747,
+      "size": 650537371,
+      "sha256": "7de4ac22266e7f6434fde62ad480d4bd28ff9e8e1379583e21af1cf9bdf12af7"
+    },
+    "review-synthetic": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "synthetic-01.zip",
+      "asset_id": 723335181,
+      "size": 1596747901,
+      "sha256": "0a68559664b8025aece2d614708948e34c9556fe73af4a5255e33244c9c4af51"
+    },
+    "review-unlabelled": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "outside-unlabelled-01.zip",
+      "asset_id": 723333496,
+      "size": 118818336,
+      "sha256": "b6347f6a37212f6ec0b7b355cde36d4e94d3456b7cf7dfca07660b154561030f"
+    },
+    "review-heldout-inputs": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "outside-heldout-inputs-01.zip",
+      "asset_id": 723332639,
+      "size": 82813465,
+      "sha256": "72380e67881bc3e67dfd494d9629cf05ddf9fd4a724f9283572b98255b381de4"
+    },
+    "review-heldout-references": {
+      "tag": "dataset-review-20261108-v1",
+      "asset_name": "outside-heldout-references-01.zip",
+      "asset_id": 723333450,
+      "size": 96678,
+      "sha256": "698a81e40ce69504740bf34a3d89201ae7d87514c42632e65898f0f0c4f7400d"
+    }
+  }
+}

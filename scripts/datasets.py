@@ -16,6 +16,7 @@ import stat
 import re
 import subprocess
 import tempfile
+import time
 import urllib.request
 import zipfile
 
@@ -26,12 +27,17 @@ def credential():
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if token:
         return token
+    if shutil.which('gh'):
+        result = subprocess.run(['gh', 'auth', 'token'], capture_output=True, text=True, timeout=30)
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout.strip()
     result = subprocess.run(["git", "credential", "fill"],
                             input="protocol=https\nhost=github.com\n\n", text=True,
-                            capture_output=True, timeout=60)
+                            capture_output=True, timeout=30,
+                            env={**os.environ, 'GIT_TERMINAL_PROMPT':'0', 'GCM_INTERACTIVE':'never'})
     values = dict(line.split("=", 1) for line in result.stdout.splitlines() if "=" in line)
     if not values.get("password"):
-        raise RuntimeError("Authenticate GitHub with Git Credential Manager or set GH_TOKEN")
+        raise RuntimeError("Run gh auth login, use Git Credential Manager, or set GH_TOKEN with repository read access")
     return values["password"]
 
 
@@ -82,7 +88,9 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
                 raise ValueError("Duplicate archive member")
             seen.add(str(target).casefold())
         files={PurePosixPath(item.filename) for item in members if not item.is_dir()}
-        if any(parent in files for path in files for parent in path.parents):
+        file_names={path.as_posix().casefold() for path in files}
+        if any(parent.as_posix().casefold() in file_names
+               for item in members for parent in PurePosixPath(item.filename).parents):
             raise ValueError('Archive file/directory paths conflict')
         # Stage and CRC-check every member before touching an existing dataset.
         destination.parent.mkdir(parents=True,exist_ok=True)
@@ -102,23 +110,50 @@ def safe_extract(archive, destination, max_bytes=3_000_000_000):
                     if parent==destination.parent:break
                     if parent.exists() and not parent.is_dir():
                         raise ValueError('Existing dataset file conflicts with an archive directory')
+            # Revalidate after staging: a destination ancestor may have been
+            # replaced since initial path validation. This closes that stable
+            # swap window, not every hostile concurrent filesystem race.
+            for relative in files:
+                target=destination.joinpath(*relative.parts)
+                if not target.resolve().is_relative_to(destination):
+                    raise ValueError('Archive destination path changed or escapes through a symlink')
             for relative in sorted(files):
                 target=destination.joinpath(*relative.parts)
+                if not target.resolve().is_relative_to(destination):
+                    raise ValueError('Archive destination path changed or escapes through a symlink')
                 if not target.exists():
                     target.parent.mkdir(parents=True,exist_ok=True)
                     staging.joinpath(*relative.parts).replace(target)
 
 
-def fetch(name, destination, lock_path):
+def fetch(name, destination, lock_path, *, extract=True, cache_dir=None, use_gh=False):
     lock = json.loads(Path(lock_path).read_text(encoding="utf-8"))
     entry = lock["bundles"][name]
     destination = Path(destination)
     destination.mkdir(parents=True, exist_ok=True)
     url = f"https://api.github.com/repos/{lock['repository']}/releases/assets/{int(entry['asset_id'])}"
-    cache = ROOT / "data" / "downloads"
+    cache = Path(cache_dir) if cache_dir is not None else ROOT / "data" / "downloads"
     cache.mkdir(parents=True, exist_ok=True)
-    archive = cache / f"{entry['sha256']}.zip"
-    if not archive.exists() or sha256(archive) != entry["sha256"]:
+    archive = cache / (entry['sha256'] + Path(entry['asset_name']).suffix)
+    if use_gh and shutil.which('gh') and (not archive.exists() or archive.stat().st_size!=entry['size'] or sha256(archive)!=entry['sha256']):
+        if Path(entry['asset_name']).name!=entry['asset_name']:
+            raise ValueError('Release asset name must be a plain filename')
+        print(f"Downloading {entry['asset_name']} ({entry['size']/1024**2:.1f} MiB)",flush=True)
+        with tempfile.TemporaryDirectory(prefix='release-download-',dir=cache) as temporary:
+            downloaded=Path(temporary)/entry['asset_name']
+            for attempt in range(3):
+                with downloaded.open('wb') as output:
+                    result=subprocess.run(['gh','api',url,'--header','Accept: application/octet-stream'],
+                        stdout=output,stderr=subprocess.PIPE,timeout=1800)
+                if result.returncode==0:break
+                if attempt<2:time.sleep(attempt+1)
+            else:
+                raise RuntimeError('Private download failed. Check gh auth login and repository access: '+
+                                   result.stderr.decode('utf-8',errors='replace').strip())
+            if downloaded.stat().st_size!=entry['size'] or sha256(downloaded)!=entry['sha256']:
+                raise ValueError('Dataset checksum or size mismatch')
+            downloaded.replace(archive)
+    if not archive.exists() or archive.stat().st_size!=entry['size'] or sha256(archive) != entry["sha256"]:
         opener = urllib.request.build_opener(SafeRedirect())
         temporary = archive.with_suffix(".part")
         try:
@@ -154,8 +189,10 @@ def fetch(name, destination, lock_path):
             temporary.replace(archive)
         finally:
             temporary.unlink(missing_ok=True)
-    safe_extract(archive, destination)
+    if extract:
+        safe_extract(archive, destination)
     print(f"Verified {name}: {entry['sha256']} -> {destination}")
+    return archive
 
 
 def pack(manifests, output):
@@ -176,6 +213,9 @@ def pack(manifests, output):
                     portable_path(record[key])
                     if ('\\' in record[key] or ':' in record[key] or Path(record[key]).is_absolute() or PurePosixPath(record[key]).is_absolute()):
                         raise ValueError("Bundle manifests must use portable relative asset paths")
+                    lexical=manifest.parent/record[key]
+                    if lexical.absolute()!=lexical.resolve():
+                        raise ValueError('Portable bundles cannot contain symlinked asset references; copy the asset bytes first')
                     files.add((manifest.parent / record[key]).resolve())
     if any(not path.is_relative_to(base) for path in files):
         raise ValueError("All bundled files must be under the manifest directory")
