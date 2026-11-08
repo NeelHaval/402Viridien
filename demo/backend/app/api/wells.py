@@ -49,7 +49,7 @@ def get_well(well_id: str, db: Database = Depends(deps.db), settings: Settings =
     ready = row["status"] == "ready" and row["csv_path"] and Path(row["csv_path"]).is_file()
     v = row["validation"] or {}
     return {**summary(row), "total_depth_ft": row["total_depth_ft"],
-            "result": result_metadata(row, settings),
+            "result": result_metadata(row, settings) if row["status"] in ("ready", "partial") else None,
             "pixel_column": pixel_column(row, settings) if row['status']=='partial' else [],
             "column": build_column([pd.read_csv(generated_path(row,'.csv', settings))]) if ready else [],
             "validation": ValidationInfo(confidence=row["validation_confidence"], components=v.get("components", {}), flags=v.get("flags", [])),

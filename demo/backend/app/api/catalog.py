@@ -26,20 +26,29 @@ def box_key(boxes):
     return json.dumps((boxes or {}).get('bounding_boxes',boxes),sort_keys=True,separators=(',',':'),allow_nan=False)
 
 @lru_cache(maxsize=256)
-def result_binding(path,mtime,size):
+def result_binding(path,mtime,size,sidecar=None,sidecar_mtime=None,sidecar_size=None):
     result=json.loads(Path(path).read_text(encoding='utf-8'))
     if result.get('engine')!='S19':return None
-    return result.get('source_image_sha256'),box_key(result.get('boxes'))
+    boxes=result.get('boxes')
+    if not isinstance(boxes,dict) or not boxes:
+        if sidecar is None:return None
+        boxes=json.loads(Path(sidecar).read_text(encoding='utf-8'))
+    normalized=boxes.get('bounding_boxes',boxes)
+    if not isinstance(normalized,dict) or not normalized:return None
+    return result.get('source_image_sha256'),box_key(boxes)
 
 def completed_jobs(db,settings):
     from app.store import wells as repo
-    matches={};root=settings.csv_dir.resolve()
+    matches={};root=settings.csv_dir.resolve();scans=settings.scans_dir.resolve()
     for job in repo.list_wells(db):
         if job['status'] not in ('ready','partial'):continue
         path=root/(job['id']+'.result.json')
         if not path.is_file() or path.is_symlink() or not path.resolve().is_relative_to(root):continue
         stat=path.stat()
-        try:key=result_binding(str(path),stat.st_mtime_ns,stat.st_size)
+        sidecar=scans/(job['id']+'.bbox.json');sidecar_args=(None,None,None)
+        if sidecar.is_file() and not sidecar.is_symlink() and sidecar.resolve().is_relative_to(scans):
+            version=sidecar.stat();sidecar_args=(str(sidecar),version.st_mtime_ns,version.st_size)
+        try:key=result_binding(str(path),stat.st_mtime_ns,stat.st_size,*sidecar_args)
         except (OSError,ValueError,KeyError):continue
         if key:matches[key]=job
     return matches
