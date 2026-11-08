@@ -35,6 +35,8 @@ python -m viridian402 evaluate --manifest examples/demo/manifest.json --model bu
 
 `doctor` uses local files and dependency imports. It neither contacts services nor executes your model. Missing optional real-data bundles are informational; selecting a missing suite makes readiness fail and prints its fetch command. Exit codes are 0 for ready, 1 for missing prerequisites and 2 for invalid arguments. Other commands use 1 for a failed evaluation gate and 2 for invalid input.
 
+For the independent randomized metric oracles and TIFF codec cases, install `python -m pip install -c requirements.lock -c requirements-legacy.lock -e ".[test,review]"` before running tests. The dedicated Linux CI job installs these optional review dependencies so those checks execute rather than skip. The basic Windows/Linux jobs use the small test environment.
+
 ## Add an interval model
 
 Start with a working model template. These commands work in both shells:
