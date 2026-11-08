@@ -92,8 +92,9 @@ def bounded_log(image, boxes, io):
             probe(item) if item.image.format == 'TIFF' else setattr(item, '_strip_backend', False)
         bytes_per_pixel = {'1': 1, 'L': 1, 'P': 1, 'I;16': 2, 'I;16B': 2, 'I;16L': 2}.get(item.mode, 4)
         decoded_bytes = item.size[0]*item.size[1]*bytes_per_pixel
-        if not item._strip_backend and decoded_bytes > 256_000_000:
-            raise InputError('decode_limit', 'Full-page decoding exceeds 256 MB estimated raster budget; supported TIFF strips required')
+        raster_budget = 512_000_000 if item.mode == '1' else 256_000_000
+        if not item._strip_backend and decoded_bytes > raster_budget:
+            raise InputError('decode_limit', f'Full-page decoding exceeds {raster_budget // 1_000_000} MB raster budget; supported TIFF strips required')
         return original_crop(item, box)
     io._crop = crop
     return log
