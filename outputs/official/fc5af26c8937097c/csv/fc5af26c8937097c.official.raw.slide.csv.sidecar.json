@@ -1,0 +1,34 @@
+{
+  "status": "OFFICIAL_EXPORT_FT_ASSUMED",
+  "unit_verified": false,
+  "depth_unit": "ft-assumed (automatic OCR, not verified)",
+  "calibrator_reported_unit": "ft",
+  "ft_assumed": false,
+  "warning": "ft-assumed (automatic OCR, not verified). Values have not been converted.",
+  "numeric_fit": {
+    "a": 0.13333354610843196,
+    "b": 902.412219371101,
+    "n_points": 157,
+    "rmse_px": 1.0908048100582117,
+    "method": "rapidocr+consensus+ft"
+  },
+  "calibration_hash": "48fd75ac20cc8d09b0e13822abc3f2976a709b68566b49ff10429f8c429dd31b",
+  "fit_receipt_sha256": "c842fc3c4777cf1a436d512796adfb6ef0df264acf30e8d452976448b1a9ec1b",
+  "fit_quality": {
+    "anchors": 157,
+    "rmse_pixels": 1.0908048100582117,
+    "anchor_span_pixels": 137021.0784505208
+  },
+  "original_prediction_sha256": "5bbb3af90fe4d52d2e977cb0527d3e1268cfe43f4a2fb7ae8f3278ceaa6b1684",
+  "image_sha256": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+  "annotation_sha256": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24",
+  "interval_label_cluster_identity_preserved": true,
+  "unit_conversion": false,
+  "new_inference": false,
+  "new_ocr": false,
+  "new_calibration": false,
+  "geometry_labels_clusters_sha256": "f39b0db12c973bc3ad54f9024cd0eccccc102428a51607de1897d3544d1fda3b",
+  "exporter_sha256": "37ef9f02e5262aa517c9f8944735d7d30c373f7b9afed9cce4000d3d19f1e259",
+  "file": "fc5af26c8937097c.official.raw.slide.csv",
+  "sha256": "eac0822d2a8ec81b718f9e89c5014c24569240c33bb4ba8b9cd1b8302251d3a4"
+}

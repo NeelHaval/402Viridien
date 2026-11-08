@@ -1,0 +1,32 @@
+{
+  "source_csv": "/srv/viridien/submission/20261108/bundle/official/c27f24013e5cc155/c27f24013e5cc155.official.raw.csv",
+  "source_sha256": "c8da8be71577ca5c45f6f8bc6abfc12f4508d4722ef1cb3a070de7f4ffad5d40",
+  "rows": 133,
+  "schema_policy": "two explicit formats; lower-depth alias only; no relabeling or scoring",
+  "coordinate_policy": "nonnegative full-image pixel coordinates; sorted, nonoverlapping, bottom exclusive",
+  "image_height_checked": 9624,
+  "notebook": {
+    "file": "c27f24013e5cc155.official.raw.notebook.csv",
+    "fields": [
+      "top_depth",
+      "bottom_depth",
+      "lithology",
+      "top_y",
+      "bottom_y",
+      "cluster_id"
+    ],
+    "sha256": "1c44c6aa3a96c2a2e09f5cd7029d5db90a44bb6c73dba76f3c5d82f9dc60653e"
+  },
+  "slide": {
+    "file": "c27f24013e5cc155.official.raw.slide.csv",
+    "fields": [
+      "top_y",
+      "bottom_y",
+      "lithology",
+      "cluster_id",
+      "top_depth",
+      "base_depth"
+    ],
+    "sha256": "41ba580f8081a6b7fbbe88c99be1d54daca85613478fa278cc63f79e8666b709"
+  }
+}
