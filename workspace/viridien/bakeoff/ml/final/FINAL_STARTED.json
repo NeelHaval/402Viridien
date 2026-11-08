@@ -1,0 +1,7 @@
+{
+ "started_utc": "2026-11-08T03:21:08.954722+00:00",
+ "command": "python -m harness.bench --strategy s11,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22 --suite viridien_eval,ext_dev,ext_test,ext_shared_verify --workers 4",
+ "dependency_hash": "5e14eccbdb1de22f7b9de4917a3c91cb08d853ec25f99af91922217a28bd841c",
+ "chosen_strategy": "s19",
+ "held_out_runs_allowed": 1
+}

@@ -1,0 +1,17 @@
+{
+ "date_utc": "2026-11-08",
+ "test_file": "test_pilot.py",
+ "passed": 7,
+ "failed": 0,
+ "pytest_reported_seconds": 0.02,
+ "peak_rss_kib": {
+  "prepare": 374960,
+  "legend_parser_fresh_cache": 603084,
+  "tests": 43552
+ },
+ "largest_measured_peak_gib": 0.5752,
+ "thread_limit": 3,
+ "torch_used": false,
+ "accuracy_test_run": false,
+ "reference_agreement_measured": false
+}

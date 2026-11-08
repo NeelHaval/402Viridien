@@ -1,0 +1,25 @@
+{
+  "key": "oneoff",
+  "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+  "family": "One-off layout (Allegheny)",
+  "rows": [
+    15662,
+    17262
+  ],
+  "iteration": 1,
+  "n_intervals": 52,
+  "agreed_share": 0.959375,
+  "labels": {
+    "Claystone": 0.841875,
+    "Silt": 0.158125
+  },
+  "calls_used": 7,
+  "seconds": 124.29531269999279,
+  "calibration": {
+    "a": 0.49951941747780937,
+    "b": 1895.2036456562146,
+    "n_points": 31,
+    "rmse_px": 2.170966744083813,
+    "method": "rapidocr+ransac"
+  }
+}

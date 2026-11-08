@@ -1,0 +1,35 @@
+sandbox=workspace-write
+You are a research agent. Use live web search heavily (papers, arXiv, GitHub, Hugging Face, benchmarks, docs) and open
+the sources; do not answer from memory. Today is 2026-11-07: prefer 2024-2026 work, but include older classics if they
+are still the best cheap option. Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/research
+Write ONE file, research/r7_efficiency.md (ID given below), and nothing else. Do not run heavy downloads or installs.
+
+THE TASK WE ARE SOLVING (Viridien HackTheBurgh challenge)
+Input: 51 scanned mud logs (TIFF), 2,600 to 313,800 px tall (median 44,550), about 1,000-1,700 px wide; 9 are 1-bit
+black-and-white (rock types shown only by hatch patterns), 36 RGB, 6 palette. Each comes with three boxes: the depth
+column (printed depth numbers), the interpreted lithology column (29-297 px wide, median 63, a vertical strip filled
+with colour and/or hatch patterns), and the legend (swatches + labels, e.g. Shale, Siltstone, Sand and Sandstone,
+Limestone, Coal; mixed with non-rock modifier/drilling symbols). Output per log: contiguous intervals
+top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id (+ an annotated image). Judged on accuracy and efficiency.
+Bonus: find the three boxes automatically. Only ONE labelled example exists (17 intervals), so methods must be
+zero-shot, few-shot from the legend swatches, or self-supervised. Hard cases: pattern-only rocks, same colour
+different rock, tiny legend text, legends mixing modifier symbols, long blank stretches, overprinted lines/text.
+Pipeline: (1) locate boxes, (2) parse legend (swatch crops + OCR labels, rock vs non-rock), (3) segment the column
+into intervals along depth, (4) cluster intervals by visual pattern, (5) name clusters by matching legend swatches,
+(6) OCR the depth column and fit row->depth, (7) run fast on huge images.
+Hardware: one RTX 4080 Laptop (12 GB), Windows, Python 3.12, torch 2.12+CUDA. Already tried / in our bake-off:
+dominant-colour runs, hand features + ruptures PELT, OpenCV template NCC, k-means + HMM Viterbi, DINOv2-small,
+SigLIP-base, a small CNN trained on synthetic columns made from legend swatches, the Typesafe JEV API (typed choice
+and box questions over images, ~0.4 s/call), a GPT vision LLM per cluster, rapidocr/easyocr for text.
+
+WHAT TO PRODUCE in r7_efficiency.md (be concrete, under 1,500 words):
+1. A table of candidate methods for YOUR topic: name | source (URL, year) | which pipeline step | why it could beat
+   what we have (accuracy / speed / cost) | downloadable now? (weights + licence) | GPU/CPU cost, model size | effort to
+   plug in (hours) | evidence quality (benchmark numbers you actually saw, or "claim only").
+2. Your top 3 recommendations, each with a 5-15 line implementation recipe for our harness (python, package names,
+   model ids) and the failure mode to watch.
+3. What NOT to bother with and why (hyped but wrong fit, too slow, licence, needs training data we don't have).
+Mark anything you could not verify. Every row must have a real URL you opened.
+
+YOUR TOPIC:
+Step (7): running fast and cheap on huge TIFFs and many crops. Image I/O (pyvips/libvips streaming, tifffile tiled/strip reads, memory maps, PIL crop-before-convert costs), downsampling choices, GPU batching, ONNX Runtime / TensorRT / torch.compile, fp16/int8 quantisation of DINOv2/SigLIP, caching embeddings, cascades (cheap model first, expensive only on ties), and cost comparison: local small models vs API calls (JEV, GPT vision, Gemini Flash, Claude Haiku) per log. Give numbers.

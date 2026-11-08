@@ -1,0 +1,30 @@
+{
+  "pid": 2264636,
+  "command": [
+    "bash",
+    "-c",
+    "code=0; \"$@\" || code=$?; printf \"%s\\n\" \"$code\" > whole_job.exit; exit \"$code\"",
+    "scoreboard-exit-supervisor",
+    "timeout",
+    "-k",
+    "10s",
+    "1800s",
+    "bash",
+    "/home/user/viridian402-jobs/v4-cpu-20261108T063000Z-f785e5/scoreboard-s20-mc765-fullcolumn/run_batch.sh",
+    "readiness_mc765_fullcolumn"
+  ],
+  "bounded_command": [
+    "timeout",
+    "-k",
+    "10s",
+    "1800s",
+    "bash",
+    "/home/user/viridian402-jobs/v4-cpu-20261108T063000Z-f785e5/scoreboard-s20-mc765-fullcolumn/run_batch.sh",
+    "readiness_mc765_fullcolumn"
+  ],
+  "whole_exit_receipt": "whole_job.exit",
+  "owner": "root/v4_wrapper scoreboard S20 only",
+  "started_utc": "2026-11-08T07:16:07Z",
+  "source_packet_sha256": "b16b9a177659db4fa25fd62e65cd16ffeb0cbfd2884fb24dae434d3f9c634acc",
+  "stop_rule": "Stop after first case failure or 300 seconds per case; whole lock wait plus job 1800 seconds"
+}

@@ -1,0 +1,29 @@
+sandbox=workspace-write
+Fix the mud-log legend parser for the legends it cannot read.
+
+Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read harness/legend.py, harness/io.py and SPEC.md first.
+legend.parse(log) returns LegendEntry(id, label, swatch_box, swatch rgb array, mean_rgb, is_lithology), cropped from the box log.boxes["lithology_legend"], and caches its results.
+
+Problem. On 11 of 51 logs, parse returns no entries with is_lithology=True:
+- 10 "Gulf 3-panel" legends, with panels headed Lithology / Modifiers / Show & drilling. Small swatches have their label to the right.
+- 60811407300100_bp_gc743_15607_dc141_st00bp01_mudlog_1md_10700-22872.
+Find the logs yourself: loop over io.list_logs() and look for an empty lithology set.
+One example is 60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400. Its left "LITHOLOGY SYMBOL" panel clearly holds Siltstone, Sandstone, Limestone, Halite, Shale, Gypsum, Anhydrite, Dolomite, Marl, Chert and others.
+Look at the legend crops (save PNGs and view them) to see why parsing fails: heading filtering, cell-size detection, panel columns, OCR pairing, or the is_lithology rule.
+
+Constraints:
+- Do NOT edit harness/legend.py; other jobs are using it right now. Write harness/legend_v2.py with the same parse(log) API and the same LegendEntry type (import it from harness.legend).
+- Use its own cache directory, so it never overwrites legend.py's cache.
+- No per-log special cases or log-name checks: the rules must be general.
+- In the Gulf 3-panel layout, only the Lithology panel's entries are lithology. Modifiers and shows are not: set is_lithology=False for them.
+- Regression: on the other 40 logs, legend_v2 must return the same set of lithology labels as legend.py, or a clearly better one. Report any difference per log.
+- It must stay fast: report seconds per legend, cached and uncached.
+
+Outputs:
+- harness/legend_v2.py
+- notes/legfix.md, with the cause of the failure, the fix, a per-log table (log, n_lith before, n_lith after, labels after) and the regression diff.
+- notes/legfix_sheets/<n>.png: one contact sheet per previously failing log, showing each extracted lithology swatch with its label, so a person can check them. View them yourself and fix what looks wrong.
+Use python -X utf8. Never write into the dataset folder.
+
+Reply in under 300 words: the cause, the fix, the before/after table, the regression result and the paths.

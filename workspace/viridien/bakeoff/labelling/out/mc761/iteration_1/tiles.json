@@ -1,0 +1,396 @@
+{
+  "S": [
+    [
+      0,
+      6759,
+      7332,
+      [
+        {
+          "top_y": 6759,
+          "bottom_y": 7045,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7045,
+          "bottom_y": 7154,
+          "label": "Sandstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7154,
+          "bottom_y": 7178,
+          "label": "Shale",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 7178,
+          "bottom_y": 7179,
+          "label": "Sandstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7179,
+          "bottom_y": 7332,
+          "label": "Shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      7272,
+      7846,
+      [
+        {
+          "top_y": 7272,
+          "bottom_y": 7373,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7373,
+          "bottom_y": 7400,
+          "label": "Sandstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7400,
+          "bottom_y": 7410,
+          "label": "Shale",
+          "confidence": 0.72
+        },
+        {
+          "top_y": 7410,
+          "bottom_y": 7411,
+          "label": "Sandstone",
+          "confidence": 0.9
+        },
+        {
+          "top_y": 7411,
+          "bottom_y": 7652,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7652,
+          "bottom_y": 7664,
+          "label": "Siltstone",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 7664,
+          "bottom_y": 7674,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7674,
+          "bottom_y": 7690,
+          "label": "Siltstone",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 7690,
+          "bottom_y": 7725,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7725,
+          "bottom_y": 7735,
+          "label": "Siltstone",
+          "confidence": 0.93
+        },
+        {
+          "top_y": 7735,
+          "bottom_y": 7768,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7768,
+          "bottom_y": 7780,
+          "label": "Siltstone",
+          "confidence": 0.85
+        },
+        {
+          "top_y": 7780,
+          "bottom_y": 7845,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7845,
+          "bottom_y": 7846,
+          "label": "Siltstone",
+          "confidence": 0.98
+        }
+      ]
+    ],
+    [
+      2,
+      7786,
+      8359,
+      [
+        {
+          "top_y": 7786,
+          "bottom_y": 7848,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7848,
+          "bottom_y": 7859,
+          "label": "Siltstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7859,
+          "bottom_y": 7880,
+          "label": "Sandstone",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 7880,
+          "bottom_y": 7881,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7881,
+          "bottom_y": 8095,
+          "label": "Sandstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 8095,
+          "bottom_y": 8096,
+          "label": "Shale",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 8096,
+          "bottom_y": 8097,
+          "label": "Sandstone",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 8097,
+          "bottom_y": 8132,
+          "label": "Shale",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 8132,
+          "bottom_y": 8135,
+          "label": "Sandstone",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 8135,
+          "bottom_y": 8221,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 8221,
+          "bottom_y": 8359,
+          "label": "Sandstone",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      6759,
+      7332,
+      [
+        {
+          "top_y": 6759,
+          "bottom_y": 7045,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7045,
+          "bottom_y": 7154,
+          "label": "Sandstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7154,
+          "bottom_y": 7178,
+          "label": "Shale",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 7178,
+          "bottom_y": 7179,
+          "label": "Sandstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7179,
+          "bottom_y": 7332,
+          "label": "Shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      7272,
+      7846,
+      [
+        {
+          "top_y": 7272,
+          "bottom_y": 7373,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7373,
+          "bottom_y": 7411,
+          "label": "Sandstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7411,
+          "bottom_y": 7652,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7652,
+          "bottom_y": 7664,
+          "label": "Siltstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7664,
+          "bottom_y": 7674,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7674,
+          "bottom_y": 7690,
+          "label": "Siltstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7690,
+          "bottom_y": 7725,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7725,
+          "bottom_y": 7735,
+          "label": "Siltstone",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 7735,
+          "bottom_y": 7768,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7768,
+          "bottom_y": 7780,
+          "label": "Siltstone",
+          "confidence": 0.85
+        },
+        {
+          "top_y": 7780,
+          "bottom_y": 7845,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 7845,
+          "bottom_y": 7846,
+          "label": "Siltstone",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      7786,
+      8359,
+      [
+        {
+          "top_y": 7786,
+          "bottom_y": 7848,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7848,
+          "bottom_y": 7858,
+          "label": "Siltstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7858,
+          "bottom_y": 7860,
+          "label": "Sandstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7860,
+          "bottom_y": 7881,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 7881,
+          "bottom_y": 8095,
+          "label": "Sandstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 8095,
+          "bottom_y": 8096,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 8096,
+          "bottom_y": 8097,
+          "label": "Sandstone",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 8097,
+          "bottom_y": 8132,
+          "label": "Shale",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 8132,
+          "bottom_y": 8135,
+          "label": "Sandstone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 8135,
+          "bottom_y": 8221,
+          "label": "Shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 8221,
+          "bottom_y": 8359,
+          "label": "Sandstone",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

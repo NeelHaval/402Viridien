@@ -1,0 +1,140 @@
+{
+  "case": {
+    "case_id": "bb8c1562f90f9fea",
+    "suite": "ext_dev",
+    "log": "ext_idaho_barlow3-14_p001",
+    "y0": 2510,
+    "y1": 8510,
+    "window": [
+      2510,
+      8510
+    ],
+    "family": "unknown",
+    "well": "ext_idaho_barlow3-14_p001",
+    "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+    "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p001.tif",
+    "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+    "column_box": [
+      451,
+      2510,
+      543,
+      21750
+    ],
+    "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\bb8c1562f90f9fea.csv",
+    "truth_sources": [
+      {
+        "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76"
+      }
+    ],
+    "truth_sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76",
+    "image_sha256": "1e5d86d6bf0cbf7047adca144abd3a016e7a4f74ccb198dbb0f25ffe5aacb311",
+    "annotation_sha256": "70ee2ab1683e09a064d4baf2090866705b9ccfdbc040dde73a6871ff538004c4",
+    "note": "DEV only. External test and verify splits not opened."
+  },
+  "strategy": "s20_v4",
+  "strict": null,
+  "owner_equivalent": null,
+  "pixel_only_scores": {
+    "row_acc": 0.0,
+    "boundary_f1": 0.005194805194805195,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+  },
+  "result_role": "pixel_only_pending_shared_depth",
+  "seconds": 0.20379780200892128,
+  "runtime_scope": "VM CPU inference on locally decoded lossless window; not comparable to local source-page IO",
+  "calibration": null,
+  "calibration_signature": [
+    [
+      2251,
+      21751
+    ],
+    [
+      404,
+      2510,
+      451,
+      21750
+    ],
+    "c5b10fba587f3ea920c8af97901ab9a6cd6fa9eff5f3536b483845dcf1926d42"
+  ],
+  "crop_rgb_sha256": "e54c605e4105c5b9bcbc611c57dd0c58df4fd69171a5ab8a2380449ab7e5aa21",
+  "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+  "source_sha256": {
+    "strategies/s20_v4.py": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+    "strategies/scoreboard_v4.py": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+    "harness/__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "harness/depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "emil/paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "labeltool/__init__.py": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "labeltool/common.py": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "labeltool/jev2.py": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "strategies/scoreboard_v4_snapshot/beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+    "strategies/scoreboard_v4_snapshot/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "strategies/scoreboard_v4_snapshot/log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+    "strategies/scoreboard_v4_snapshot/native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+    "strategies/scoreboard_v4_snapshot/README.md": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+    "labeltool/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419"
+  },
+  "prediction_sha256": "5acb22dad56fbae40b6f085b3358c665a3f1603aff4a44f93636657f400214db",
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.2.6",
+    "pillow": "12.0.0",
+    "scipy": "1.14.1",
+    "scikit-image": "0.24.0",
+    "scikit-learn": "1.8.0",
+    "opencv-python-headless": "4.12.0.88",
+    "rapidocr-onnxruntime": "1.4.4"
+  },
+  "affinity": [
+    0,
+    1
+  ],
+  "peak_rss_kib": 163728,
+  "diagnostics": {
+    "native_cache_present": false,
+    "native_entries": 0,
+    "legend_entries": 0,
+    "state_counts": {
+      "blank": 1,
+      "unknown": 1
+    },
+    "source_sha256": {
+      "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+      "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+      "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+      "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+    },
+    "inference_extent": "window"
+  },
+  "seed": 1108,
+  "host": "box-node-1a94fd244c84a1f2",
+  "contract": "hacktheburgh harness.score.score, min_layer_px=0; not interval-v2",
+  "image": "source_truth_prediction.png",
+  "boxes": {
+    "depth_column": [
+      404,
+      2510,
+      451,
+      21750
+    ],
+    "interpreted_lithology_column": [
+      451,
+      2510,
+      543,
+      21750
+    ],
+    "lithology_legend": [
+      34,
+      1427,
+      2157,
+      1681
+    ]
+  },
+  "explanation": "Strict row accuracy is limited by mismatched or merged legend labels; inspect paired intervals for lost contacts. This is development evidence only."
+}

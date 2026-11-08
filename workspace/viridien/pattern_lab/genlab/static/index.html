@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pattern generator</title>
+<style>
+:root{--ink:#1d2433;--muted:#5d6678;--line:#d9dde5;--bg:#f6f7f9;--card:#fff;--blue:#2457d6;--green:#16794a;--red:#c23b2a;--amber:#a86200;--strip:88px}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+header{background:var(--card);border-bottom:1px solid var(--line);padding:14px 20px;position:sticky;top:0;z-index:5}
+h1{font-size:19px;margin:0 0 2px}
+h2{font-size:17px;margin:26px 0 8px}
+h3{font-size:15px;margin:0}
+.live{color:var(--muted);font-size:13px}
+.live b{color:var(--ink)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:6px;vertical-align:1px}
+.dot.busy{background:var(--amber)}
+.dot.err{background:var(--red)}
+nav{display:flex;gap:4px;margin-top:10px;flex-wrap:wrap}
+nav button,.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:6px;font:inherit;font-size:14px;cursor:pointer;text-decoration:none}
+nav button[aria-selected=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+main{padding:8px 20px 60px;max-width:1400px}
+.lede{color:var(--muted);max-width:820px}
+.group{margin-top:22px}
+.group>h2{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;overflow-wrap:anywhere}
+.group>h2 small{color:var(--muted);font-weight:400;font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:10px 0}
+.card .meta{color:var(--muted);font-size:13px;margin:2px 0 8px}
+.chip{display:inline-block;font-size:12px;padding:1px 8px;border-radius:10px;background:#eef1f6;color:var(--ink);margin-right:4px}
+.chip.good{background:#e3f3ea;color:var(--green)}
+.chip.warn{background:#fdf0dc;color:var(--amber)}
+.chip.bad{background:#fbe6e3;color:var(--red)}
+.rows{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-start}
+.rows>div{min-width:0}
+.set h4{margin:0 0 4px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.strips{display:flex;gap:6px;align-items:flex-start;flex-wrap:wrap}
+.strip{width:var(--strip);display:flex;flex-direction:column;gap:3px}
+.strip img{width:100%;image-rendering:pixelated;border:1px solid var(--line);background:#fff;display:block}
+.strip .cap{font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.strip .repeat-cap{white-space:normal;overflow:visible}
+.vote{display:flex;gap:3px}
+.vote button{flex:1;font-size:11px;padding:2px 0;border:1px solid var(--line);background:#fff;border-radius:4px;cursor:pointer}
+.vote button.on.good{background:var(--green);color:#fff;border-color:var(--green)}
+.vote button.on.bad{background:var(--red);color:#fff;border-color:var(--red)}
+.coverage table{table-layout:fixed;font-size:12px;max-width:700px}
+.coverage th,.coverage td{padding:5px;overflow-wrap:anywhere}
+.coverage th:first-child{width:36%}
+.coverage .table-scroll{max-height:260px;overflow:auto;max-width:700px}
+.coverage thead{position:sticky;top:0;background:var(--card)}
+.note{font-size:13px;color:var(--muted);margin-top:8px}
+.note.warn{color:var(--amber)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:10px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.stat .n{font-size:26px;font-weight:650}
+.stat .l{font-size:13px;color:var(--muted)}
+  .tw{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;font-size:14px;margin:6px 0;width:100%}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.ok{color:var(--green);font-weight:600}
+.no{color:var(--red);font-weight:600}
+.bar{height:8px;border-radius:4px;background:#eef1f6;overflow:hidden;min-width:80px}
+.bar i{display:block;height:100%;background:var(--blue)}
+.columns{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start}
+.col{position:relative}
+.col img{display:block;width:var(--strip);image-rendering:pixelated;border:1px solid var(--line)}
+.col .bands{position:absolute;top:0;left:calc(var(--strip) + 3px);bottom:0;width:120px;display:none}
+.showlabels .col .bands{display:block}
+.showlabels .columns{gap:136px}
+.band{position:absolute;left:0;right:0;border-top:1px solid var(--line);font-size:10px;line-height:11px;color:var(--ink);padding-left:4px;overflow:hidden}
+.band i{position:absolute;left:0;top:0;bottom:0;width:3px}
+.thumbs{display:flex;gap:6px;flex-wrap:wrap}
+.thumbs img{width:56px;image-rendering:pixelated;border:1px solid var(--line)}
+.hide{display:none}
+input[type=search]{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;min-width:220px}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.toolbar select{font:inherit;padding:6px;max-width:100%;border:1px solid var(--line);border-radius:6px;background:white}
+.chip{max-width:100%;overflow-wrap:anywhere}
+.card h3{overflow-wrap:anywhere}
+@media (max-width:640px){header{padding:10px 12px}main{padding:6px 12px 40px}:root{--strip:64px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pattern generator</h1>
+  <div class="live" id="live">Loading…</div>
+  <nav role="tablist">
+    <button role="tab" data-tab="gen" aria-selected="true">Generated patterns</button>
+    <button role="tab" data-tab="cols" aria-selected="false">Generated columns</button>
+    <button role="tab" data-tab="acc" aria-selected="false">How accurate my labels are</button>
+    <button role="tab" data-tab="datasets" aria-selected="false">Dataset</button>
+  </nav>
+</header>
+<main>
+  <section id="gen"></section>
+  <section id="cols" class="hide"></section>
+  <section id="acc" class="hide"></section>
+  <section id="datasets" class="hide"><p>Loading dataset versions…</p></section>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+let state = null, built = null, myVotes = {};
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const short = n => n.length > 44 ? n.slice(0, 20) + '…' + n.slice(-20) : n;
+const crop = (doc, b) => `/crop?doc=${doc}&box=${b.join(',')}`;
+const pct = v => v == null ? '–' : (Math.round(v * 10) / 10) + '%';
+const COLOURS = ['#2457d6','#16794a','#c23b2a','#a86200','#7a3fb5','#0f7d8c','#b5367a','#4b5563'];
+
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x === b));
+  ['gen','cols','acc','datasets'].forEach(id => $('#' + id).classList.toggle('hide', id !== b.dataset.tab));
+  if (b.dataset.tab === 'datasets') renderDatasets();
+  localStorage.tab = b.dataset.tab;
+});
+if (localStorage.tab) document.querySelector(`nav button[data-tab=${localStorage.tab}]`)?.click();
+
+async function poll() {
+  try {
+    const s = await (await fetch('/state.json')).json();
+    live(s);
+    if (s.built_at && s.built_at !== built) { built = s.built_at; state = s; render(); }
+  } catch (e) { $('#live').innerHTML = '<span class="dot err"></span>Server not reachable. Start it with start-genlab.ps1.'; }
+  setTimeout(poll, 3000);
+}
+function live(s) {
+  const st = s.status || {};
+  const when = s.built_at ? new Date(s.built_at * 1000).toLocaleTimeString() : 'never';
+  const dot = st.error ? 'err' : st.building ? 'busy' : '';
+  $('#live').innerHTML = `<span class="dot ${dot}"></span>` +
+    (st.building ? 'Rebuilding from your newest labels… ' : '') +
+    `Built from <b>${s.human_boxes ?? 0}</b> boxes you accepted · <b>${s.pattern_count ?? 0}</b> patterns (<b>${s.human_pattern_count ?? 0}</b> from your boxes, <b>${s.verified_pattern_count ?? 0}</b> machine-verified, <b>${s.agent_made_pattern_count ?? 0}</b> agent-made, <b>${s.borrowed_pattern_count ?? 0}</b> borrowed, <b>${s.swatch_pattern_count ?? 0}</b> approved swatches, <b>${s.unlisted_pattern_count ?? 0}</b> not in legend) · ` +
+    `<b>${s.dataset?.samples ?? 0}</b> pattern strips + <b>${s.dataset?.columns ?? 0}</b> columns · updated ${when}. ` +
+    `It rebuilds by itself when labels or proposals change. <a class="btn" href="/dataset.zip">Download dataset</a>` +
+    (s.fleet && s.fleet.units != null ? `<div>Agent fleet: <b>${s.fleet.done ?? 0}/${s.fleet.units}</b> units done · <b>${s.fleet.live ?? 0}</b> live jobs</div>` : '') +
+    (s.coverage ? `<div>Generated legend entries: <b>${s.coverage.generated_entries}/${s.coverage.all_entries}</b> overall · <b>${s.coverage.generated_entries}/${s.coverage.training_entries}</b> in training documents. Not in legend: <b>${s.coverage.generated_unlisted_entries ?? 0}/${s.coverage.unlisted_entries ?? 0}</b> made proposals. Column row coverage: <b>${pct(s.coverage.estimated_row_coverage*100)}</b> overall · <b>${pct(s.coverage.training_estimated_row_coverage*100)}</b> in training documents (estimated from machine guesses; unlisted shares reported separately).</div>` : '') +
+    (st.error ? `<div class="no">Last rebuild failed; showing the previous result.</div>` : '');
+}
+
+function render() { renderGen(); renderCols(); renderAcc(); if (localStorage.tab === 'datasets') renderDatasets(); }
+
+let datasetSignature = '';
+async function renderDatasets() {
+  try {
+    const d = await (await fetch('/api/datasets')).json();
+    const signature = JSON.stringify(d);
+    if (signature === datasetSignature) return;
+    datasetSignature = signature;
+    const e = d.evaluation || {}, metric = r => r ? `${pct(r.accuracy)} · n=${r.n ?? 0}${r.flag ? ' · '+esc(r.flag) : ''}` : 'pending';
+    let h = `<h2>Versioned datasets</h2><p class="note">Promoted training version: <b>${esc(d.latest || 'none')}</b>. Eligibility changes trigger the next poll immediately. Promotion requires leak audits, near-chance shortcut probes and paired recognition confidence intervals. Recognition uses the supplied legend and column box; detector transfer is a separate task.</p>`;
+    const vv = d.versions || [];
+    const versionFiles = v => d.quarantine?.[v.version] ? 'Quarantined archive; excluded from training' : v.retained === false ? 'Pruned; metrics retained' :
+      `${v.download_ready === false ? 'ZIP preparing' : `<a href="/datasets/${v.version}.zip">ZIP</a>`} · <a href="/datasets/${v.version}/eval.md">Report</a>`;
+    if (vv.length) {
+      const points = key => vv.filter(v => v.metrics[key] != null).map(v => `${30 + vv.indexOf(v)*520/Math.max(1,vv.length-1)},${120-v.metrics[key]}`).join(' ');
+      h += `<svg role="img" aria-label="Legend recognition well mean in blue and discriminator accuracy in red over versions, zero to one hundred percent" viewBox="0 0 580 155" style="width:100%;max-width:720px;background:white;border:1px solid var(--line)"><path d="M30 20V120H560" stroke="#8a9099" fill="none"/><text x="2" y="26" font-size="11">100</text><text x="12" y="120" font-size="11">0</text><polyline points="${points('macro')}" stroke="#2457d6" fill="none" stroke-width="2"/><polyline points="${points('discriminator')}" stroke="#c23b2a" fill="none" stroke-width="2"/>${vv.map((v,i) => `<text x="${30+i*520/Math.max(1,vv.length-1)}" y="143" font-size="11">${esc(v.version)}</text>${['macro','discriminator'].map((k,j) => v.metrics[k] == null ? '' : `<circle cx="${30+i*520/Math.max(1,vv.length-1)}" cy="${120-v.metrics[k]}" r="3" fill="${j?'#c23b2a':'#2457d6'}"/>`).join('')}`).join('')}</svg><p class="note">Blue: legend recognition well mean, including finite references. Cohorts can differ between versions; promotion uses paired boxes. Red: discriminator (nearer 50% is better).</p>`;
+      h += `<div class="tw"><table><tr><th>Version</th><th>Patterns / samples</th><th>Recognition well mean % / real n</th><th>Discriminator %</th><th>Status</th><th>Files</th></tr>${vv.map(v => `<tr><td>${esc(v.version)}</td><td>${v.patterns} / ${v.samples}<div class="note">${esc(JSON.stringify(v.counts_by_source))}</div></td><td>${pct(v.metrics.macro)} / ${v.truth_n ?? 0}</td><td>${pct(v.metrics.discriminator)}</td><td>${esc(v.status)}<div class="no">${esc((v.publication.flags || []).join('; '))}</div></td><td>${versionFiles(v)}</td></tr>`).join('')}</table></div>`;
+    }
+    if (e.fake_to_real) {
+      h += `<h2>Latest evaluation: ${esc(e.version)}</h2><p class="note">Human-accepted validation boxes: ${e.truth_n} in ${(e.truth_wells || []).length} wells.</p>`;
+      if (e.closed_set_within_document) {
+        h += '<h3>Legend-conditioned recognition with finite support</h3><p class="note">Candidates are all entries in that document’s legend. A seam-only exclusion can supply its finite native legend for recognition while long repeats remain unverified and withheld. Finite references never enter synthetic training or augmentation. Macro includes every observed document class; chance averages 1 / candidate count per box.</p><div class="tw"><table><tr><th>Model / samples</th><th>Support n / real n</th><th>Top-1</th><th>Macro % / classes</th><th>Chance % / macro chance %</th></tr>';
+        for (const [alg, variants] of Object.entries(e.closed_set_within_document)) for (const [variant,r] of Object.entries(variants)) h += `<tr><td>${esc(alg)} / ${esc(variant)}</td><td>${r.train_n} / ${r.n}</td><td>${metric(r)}<div class="note">Well mean ${pct(r.well_macro?.estimate)}; 95% CI ${esc(JSON.stringify(r.well_macro?.ci95 || null))}</div></td><td>${pct(r.macro_accuracy)} / ${r.macro_classes}</td><td>${pct(r.chance)} / ${pct(r.macro_chance)}</td></tr>`;
+        h += '</table></div>';
+        const comparison = e.baseline_comparison, primary = comparison?.results?.['matcher/augmented'];
+        if (primary) h += `<p class="note">${esc(e.promotion_status)}. Against ${esc(comparison.baseline)} on ${comparison.common_n} unchanged eligible boxes: paired well-mean change ${primary.delta.estimate} points, 95% CI ${esc(JSON.stringify(primary.delta.ci95))}. Required lower bound: −2 points. Recognition coverage is separate from generation coverage.</p>`;
+        const support = e.closed_set_within_document.matcher?.augmented?.support_coverage;
+        const generated = e.generation_only_within_document?.matcher?.augmented;
+        if (support) h += `<p class="note">Recognition support: ${support.recognition_supported_boxes}/${support.truth_n} boxes, ${support.recognition_supported_classes}/${support.observed_classes} observed classes. Generation support: ${support.generation_supported_boxes}/${support.truth_n} boxes, ${support.generation_supported_classes}/${support.observed_classes} classes. ${support.finite_reference_classes} classes use finite legend references. Generation-only recognition: ${generated?.correct ?? '—'}/${generated?.n ?? '—'}; well mean ${pct(generated?.well_macro?.estimate)}. Recognition scores do not certify repeat geometry or detector utility.</p>`;
+      }
+      h += '<h3>Cross-log name generalisation</h3><p class="note">Candidates are names from training wells. Macro retains the legacy minimum of three real boxes per name. Unknown names count as misses and have zero chance.</p><div class="tw"><table><tr><th>Model / comparison</th><th>Train n</th><th>Real n</th><th>Macro % / classes / boxes</th><th>Top-1</th><th>Chance %</th></tr>';
+      for (const alg of Object.keys(e.fake_to_real)) {
+        const experiments = [['Augmented', e.fake_to_real[alg]], ['Clean',e.clean_vs_augmented[alg].clean], ['Legend only (paired)',e.ablation[alg].legend_only], ['Real learned (paired)',e.ablation[alg].real_learned]];
+        for (const [name,r] of experiments) h += `<tr><td>${esc(alg)} / ${name}</td><td>${r.train_n}</td><td>${r.n}</td><td>${pct(r.macro_accuracy)} / ${r.macro_classes} / ${r.macro_n}</td><td>${metric(r)}</td><td>${r.chance == null ? '—' : pct(r.chance)}</td></tr>`;
+      }
+      h += '</table></div><h3>Real versus fake discriminator</h3><p class="note">Balanced real/fake pairs; chance 50%.</p><div class="tw"><table><tr><th>Variant / source</th><th>Train n</th><th>Held real / fake n</th><th>Accuracy</th></tr>';
+      for (const [name,r] of Object.entries({Clean:e.discriminator.clean, Augmented:e.discriminator.augmented,...e.discriminator.by_source})) h += `<tr><td>${esc(name)}</td><td>${r.train_n || 0}</td><td>${r.real_n || 0} / ${r.fake_n || 0}</td><td>${metric(r)}</td></tr>`;
+      for (const probe of ['rail_only','edge_only']) for (const [variant,r] of Object.entries(e.discriminator[probe] || {})) h += `<tr><td>${esc(probe)} / ${esc(variant)}</td><td>${r.train_n || 0}</td><td>${r.real_n || 0} / ${r.fake_n || 0}</td><td>${metric(r)}<div class="note">95% well CI ${esc(JSON.stringify(r.well_macro?.ci95 || null))}</div></td></tr>`;
+      h += '</table></div><h3>Per class: cross-log augmented matcher</h3><div class="tw"><table><tr><th>Document class / name</th><th>Result</th></tr>' + e.fake_to_real.matcher.per_class.map(r => `<tr><td>${esc(r.class_id)} / ${esc(r.name)}</td><td>${metric(r)}</td></tr>`).join('') + '</table></div>';
+      h += '<h3>Confusions</h3><div class="tw"><table><tr><th>Human</th><th>Predicted</th><th>n</th></tr>' + e.fake_to_real.matcher.confusions.map(r => `<tr><td>${esc(r.actual)}</td><td>${esc(r.predicted)}</td><td>${r.n}</td></tr>`).join('') + '</table></div>';
+      h += '<h3>Owner Real / Wrong audit</h3><div class="tw"><table><tr><th>Source / method</th><th>Real / Wrong</th><th>Result</th></tr>' + (e.owner_audit.rows || []).map(r => `<tr><td>${esc(r.source)} / ${esc(r.method)}</td><td>${r.real} / ${r.wrong}</td><td>${metric(r)}</td></tr>`).join('') + '</table></div>';
+      h += '<p class="note">' + e.limits.map(esc).join(' ') + '</p>';
+    }
+    const feedback = d.feedback || {};
+    h += '<h2>Fleet feedback</h2><div class="tw"><table><tr><th>Class / name</th><th>Evidence</th><th>Suggested action</th></tr>' + (feedback.issues || []).map(r => `<tr><td>${esc(r.class_id)} / ${esc(r.name)}</td><td>${pct(r.accuracy)} · real n=${r.real_n} · Wrong=${r.wrong_ratings}</td><td>${esc(r.action)}</td></tr>`).join('') + '</table></div>';
+    h += '<h3>Label these next: no real column examples</h3><div class="tw" style="max-height:360px;overflow:auto"><table><tr><th>Class / name</th><th>Estimated column rows</th><th>Action</th></tr>' + (feedback.without_real_examples || []).map(r => `<tr><td>${esc(r.class_id)} / ${esc(r.name)}</td><td>${r.estimated_column_rows}</td><td>${esc(r.action)}</td></tr>`).join('') + '</table></div>';
+    const newest = vv[vv.length-1];
+    if (newest) h += `<h2>Sample sheets: ${esc(newest.version)}</h2><p class="note">Real crop, clean fake and augmented fake, at equal native pixel scale. Open a sheet to inspect it.</p>` + newest.sheets.map(s => `<a href="/datasets/${newest.version}/${s}"><img loading="lazy" style="display:block;max-width:100%;width:650px;margin:12px 0;border:1px solid var(--line)" alt="${esc(s)}" src="/datasets/${newest.version}/${s}"></a>`).join('');
+    h += `<p class="note">Loop checked: ${d.loop.checked_at ? new Date(d.loop.checked_at*1000).toLocaleString() : 'not started'}. ${esc(d.loop.error || d.loop.gate?.reason || '')}</p>`;
+    $('#datasets').innerHTML = h;
+  } catch (err) { $('#datasets').textContent = 'Dataset data unavailable: ' + err.message; }
+}
+setInterval(() => { if (localStorage.tab === 'datasets') renderDatasets(); }, 15000);
+
+function renderGen() {
+  const query = $('#q')?.value || '', source = $('#source')?.value || 'all';
+  const groups = {};
+  for (const c of state.cards) (groups[c.label.toLowerCase().replace(/\s+/g, '')] ||= []).push(c);
+  const keys = Object.keys(groups).sort((a, b) => sum(groups[b]) - sum(groups[a]));
+  let h = coverageTable() + `<p class="lede">Each card puts source crops on the left and generated strips on the right, at the same display width. Source chips identify accepted boxes, verified column crops, matching donor patterns, and reviewer-approved legend swatches.
+    Mark each generated strip <b>Real</b> if it could pass for your boxes or <b>Wrong</b> if not. Your marks are saved and counted per pattern.</p>
+    <div class="toolbar"><input type="search" id="q" placeholder="Filter by label or document"><select id="source" aria-label="Pattern source"><option value="all">All</option><option value="human">From your boxes</option><option value="machine-verified">Machine-verified</option><option value="agent-made">Agent-made</option><option value="borrowed">Borrowed</option><option value="swatch">Approved legend swatches</option><option value="unlisted">Not in legend</option></select></div>`;
+  for (const k of keys) {
+    const cards = groups[k];
+    h += `<div class="group" data-q="${esc(cards.map(c => c.label + ' ' + c.doc_name).join(' ').toLowerCase())}">
+      <h2>${esc(cards[0].label)} <small>${sum(cards)} boxes in ${cards.length} document${cards.length > 1 ? 's' : ''}</small></h2>`;
+    for (const c of cards) h += card(c);
+    h += '</div>';
+  }
+  $('#gen').innerHTML = h;
+  $('#q').value = query; $('#source').value = source;
+  function filter() {
+    document.querySelectorAll('#gen .group').forEach(g => {
+      g.querySelectorAll('.card').forEach(c => c.classList.toggle('hide',
+        !c.dataset.q.includes($('#q').value.toLowerCase()) || ($('#source').value !== 'all' && c.dataset.source !== $('#source').value)));
+      g.classList.toggle('hide', !g.querySelector('.card:not(.hide)'));
+    });
+  }
+  $('#q').oninput = filter; $('#source').onchange = filter; filter();
+  document.querySelectorAll('.vote button').forEach(b => b.onclick = () => vote(b));
+}
+const sum = cs => cs.reduce((a, c) => a + c.examples, 0);
+
+function coverageTable() {
+  const c = state.coverage;
+  if (!c) return '';
+  return `<div class="coverage"><h2>Coverage</h2><p class="note">${c.generated_patterns ?? c.generated_entries} generated patterns, including ${c.by_source?.['agent-made'] ?? 0} agent-made legend entries and ${c.generated_unlisted_entries ?? 0} not in legend. Share of column rows by lithology, estimated from machine guesses across all documents.</p>
+    <div class="table-scroll"><table><thead><tr><th>Lithology</th><th>Generated entries</th><th>All legend entries</th><th>Estimated share of column rows</th></tr></thead><tbody>
+    <tr><th colspan="4">Legend entries (all sources, including agent-made)</th></tr>
+    ${c.labels.map(r => `<tr><td>${esc(r.label)}</td><td class="num">${r.generated_entries}</td><td class="num">${r.all_entries}</td><td class="num">${pct(r.estimated_share_of_column_rows*100)}</td></tr>`).join('')}
+    <tr><th colspan="4">Not in legend · made proposals · shares within each document</th></tr>
+    ${(c.unlisted || []).map(r => `<tr><td>${esc(r.label)}<div class="cap">${esc(r.doc_id)}</div></td><td class="num">${r.generated_entries}</td><td class="num">${r.all_entries}</td><td class="num">${r.estimated_share_of_document_rows == null ? '–' : pct(r.estimated_share_of_document_rows*100)}</td></tr>`).join('')}
+    </tbody></table></div></div>`;
+}
+
+function card(c) {
+  const repeatSize = c.repeat_size || c.tile_size;
+  const machine = c.source === 'machine-verified';
+  const borrowed = c.source === 'borrowed', swatch = c.source === 'swatch';
+  const agent = c.source === 'agent-made' || c.source === 'unlisted';
+  const source = `<span class="chip">${agent ? `made by an agent, approved by an independent reviewer (${esc(c.method)})` : borrowed ? 'borrowed from ' + esc(short(c.donor.name)) : swatch ? 'legend swatch only (not seen in this column)' : machine ? `machine-verified against the legend (${c.column_matches} column matches)` : 'from your boxes'}</span>`;
+  const verdict = c.verdict ? `<span class="chip ${c.verdict.verdict === 'unsure' ? 'warn' : 'good'}" title="${esc(c.verdict.note)}">${esc(c.verdict.verdict)}${c.verdict.note ? ': ' + esc(c.verdict.note) : ''}</span>` : '';
+  const r = c.realism, few = c.examples < 3;
+  let quality;
+  if (agent) quality = `<span class="chip">round ${c.proposal_round} · independently approved</span>${c.looks_like ? `<span class="chip">looks like ${esc(c.looks_like)}</span>` : ''}`;
+  else if (borrowed) quality = `<span class="chip">${Math.round(c.donor.match * 100)}% swatch match to donor</span>`;
+  else if (swatch) quality = `<span class="chip">reviewer-approved swatch; seam tests passed</span>`;
+  else if (c.kind === 'quilt') quality = `<span class="chip warn">no clean repeat found: patched from real pieces</span>`;
+  else if (few) quality = `<span class="chip warn">only ${c.examples} box${c.examples > 1 ? 'es' : ''}: label 2 or 3 more to test it</span>`;
+  else if (r) quality = `<span class="chip ${r.median >= .95 ? 'good' : r.median >= .85 ? 'warn' : 'bad'}">${Math.round(r.median * 100)}% pixel match on ${r.crops ?? r.held_out} ${r.reused_training ? 'source crops (no held-out crops)' : machine ? 'held-out evidence crops' : 'boxes it did not learn from'}</span>`;
+  else quality = `<span class="chip">no held-out box tall enough to test</span>`;
+  const how = c.kind === 'tile' ? `repeat ${repeatSize[0]}×${repeatSize[1]} px${agent || borrowed || swatch || c.tile_source === 'legend swatch' ? '' : `, voted from ${c.voters} ${machine ? 'evidence crops' : 'of your boxes'}`}` : '';
+  const scores = c.tile_scores;
+  const tileChoice = scores ? `<span class="chip">${c.tile_source === 'legend swatch' ? `repeat taken from the legend swatch (matches your boxes ${Math.round(scores.legend_swatch.median*100)}%)` : 'repeat taken from the column'}</span><span class="chip">All source crops: column ${scores.column ? pct(scores.column.median*100) : '–'} · legend swatch ${scores.legend_swatch ? pct(scores.legend_swatch.median*100) : 'not seam-safe'}</span>` : '';
+  const votes = c.ratings.good + c.ratings.bad ? `<span class="chip">${c.ratings.good} real / ${c.ratings.bad} wrong by you</span>` : '';
+  const evidence = agent ? (c.evidence_kind === 'column' ? 'Column evidence' : 'Legend swatch') : borrowed ? 'Donor evidence' : swatch ? 'Legend swatch' : machine ? 'Column evidence' : 'Your boxes';
+  const real = c.real.map(b => `<div class="strip"><img loading="lazy" src="${crop(c.real_doc_id || c.doc_id, b)}" alt="${evidence} at rows ${b[1]}–${b[3]}"><span class="cap">rows ${b[1]}</span></div>`).join('');
+  const gen = c.samples.map(f => {
+    const v = myVotes[f];
+    return `<div class="strip"><img loading="lazy" src="/out/${f}" alt="Generated ${esc(c.label)}">
+      <div class="vote"><button class="good ${v === 'good' ? 'on' : ''}" data-f="${f}" data-v="good">Real</button><button class="bad ${v === 'bad' ? 'on' : ''}" data-f="${f}" data-v="bad">Wrong</button></div></div>`;
+  }).join('');
+  const sus = c.suspect_count ? `<div class="note warn"><b>${c.suspect_count} ${machine ? 'evidence crops' : 'of your boxes'} for ${esc(c.label)} look like a different pattern</b>, so I left them out. Check them in the labeller:
+     <div class="thumbs" style="margin-top:6px;align-items:flex-start">${c.suspects.slice(0, 8).map(s => `<figure style="margin:0;width:90px"><img loading="lazy" src="${crop(c.doc_id, [s.box[0], s.box[1], s.box[2], Math.min(s.box[3], s.box[1] + 160)])}" title="${esc(s.id)}: ${esc(s.reason)}"><figcaption class="cap" style="font-size:10px">rows ${s.box[1]}${s.looks_like ? `<br>looks like ${esc(s.looks_like)}` : ''}</figcaption></figure>`).join('')}</div></div>` : '';
+  return `<div class="card" data-source="${c.source}" data-q="${esc((c.label + ' ' + c.doc_name).toLowerCase())}">
+    <h3>${esc(c.label)} <span class="chip">${esc(short(c.doc_name))}</span></h3>
+    <div class="meta">${source} ${verdict} ${agent || borrowed || swatch ? '' : c.examples + (machine ? ' column crops · ' : ' boxes you accepted · ')}${esc(how)} ${quality} ${tileChoice} ${votes}</div>
+    <div class="rows">
+      <div class="set"><h4>${evidence}</h4><div class="strips">${real || '<span class="note">No source crop supplied</span>'}</div></div>
+      <div class="set"><h4>Generated</h4><div class="strips">${gen}</div></div>
+      ${c.repeat_preview ? `<div class="set"><h4>Learned repeat</h4><div class="strip"><img loading="lazy" src="/out/${c.repeat_preview}" alt="Learned repeat at strip scale, one period outlined"><span class="cap repeat-cap">repeat ${repeatSize[0]}×${repeatSize[1]} px</span></div></div>` : ''}
+    </div>${sus}</div>`;
+}
+
+async function vote(b) {
+  const f = b.dataset.f, v = myVotes[f] === b.dataset.v ? 'clear' : b.dataset.v;
+  myVotes[f] = v === 'clear' ? undefined : v; localStorage.votes = JSON.stringify(myVotes);
+  b.parentElement.querySelectorAll('button').forEach(x => x.classList.toggle('on', x.dataset.v === myVotes[f]));
+  await fetch('/rate', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({file: f, verdict: v})});
+}
+try { myVotes = JSON.parse(localStorage.votes || '{}'); } catch { myVotes = {}; }
+
+function renderCols() {
+  const docs = state.documents.filter(d => d.columns.length);
+  let h = `<p class="lede">Whole generated columns: layers stacked with the thicknesses and the label-to-label order seen in source crops, including verified machine evidence,
+    meeting with no drawn line between them, as in the real logs. Each column is saved with its true layer list (JSON) in the dataset.
+    A document is stacked once two of its patterns have at least 3 source crops each. Machine crop lengths are sampled windows, so they do not establish true geological layer thicknesses.</p>
+    <div class="toolbar"><label><input type="checkbox" id="showlabels"> Show the true labels beside each column</label></div>`;
+  if (!docs.length) h += '<p>No document has two patterns with 3 or more boxes yet.</p>';
+  for (const d of docs) {
+    const ids = [...new Set(d.columns.flatMap(c => c.layers.map(l => l.legend_id)))];
+    const colour = id => COLOURS[ids.indexOf(id) % COLOURS.length];
+    const real = d.real_window != null ? `<div class="col"><img loading="lazy" src="${crop(d.doc_id, [d.rails.x0, d.real_window, d.rails.x1, d.real_window_bottom ?? d.real_window + 1200])}" alt="Real column"><div class="cap" style="font-size:12px;color:var(--muted)">Real, rows ${d.real_window}</div></div>` : '';
+    const fakes = d.columns.map((c, i) => `<div class="col"><img loading="lazy" src="/out/${c.file}" alt="Generated column ${i + 1}">
+      <div class="bands">${c.layers.map(l => `<div class="band" style="top:${l.top / 1200 * 100}%;height:${(l.bottom - l.top) / 1200 * 100}%"><i style="background:${colour(l.legend_id)}"></i>${(l.bottom - l.top) > 30 ? esc(l.label) : ''}</div>`).join('')}</div>
+      <div class="cap" style="font-size:12px;color:var(--muted)">Generated ${i + 1}</div></div>`).join('');
+    const chk = d.fake_label_check;
+    const check = chk ? `<div class="note">Check: a simple matcher trained <b>only on generated strips</b> labels <b>${pct(chk.accuracy)}</b> of your ${chk.real_boxes} real boxes correctly.</div>` : '';
+    h += `<div class="card"><h3>${esc(short(d.name))}</h3><div class="meta">${d.patterns} patterns · ${d.column_count} columns in the dataset</div>
+      <div class="columns">${real}${fakes}</div>${check}</div>`;
+  }
+  $('#cols').innerHTML = h;
+  const box = $('#showlabels');
+  box.checked = localStorage.showlabels === '1'; $('#cols').classList.toggle('showlabels', box.checked);
+  box.onchange = () => { localStorage.showlabels = box.checked ? '1' : '0'; $('#cols').classList.toggle('showlabels', box.checked); };
+}
+
+function renderAcc() {
+  const a = state.accuracy, s = a.summary;
+  const reviewer = a.reviewer;
+  const auditRows = rows => rows.map(r => `<tr><td>${esc(r.source ? (r.source === 'unlisted' ? 'Not in legend' : 'Agent-made') : 'All')}${r.method ? ' / ' + esc(r.method) : ''}</td><td class="num">${r.real}</td><td class="num">${r.wrong}</td><td class="num">${r.total}</td><td class="num">${pct(r.percent_real)}</td></tr>`).join('');
+  let h = reviewer ? `<h2>Reviewer accuracy</h2><p class="note">Your latest Real/Wrong decision for each agent strip audits its independent reviewer. Cleared and unrated strips are excluded. Historical ratings retain source and method when recorded by this version.</p>
+    <div class="tw"><table><thead><tr><th>Source / method</th><th>Real</th><th>Wrong</th><th>Rated</th><th>% Real</th></tr></thead><tbody>
+    ${auditRows([reviewer.total, ...reviewer.by_source, ...reviewer.by_method, ...reviewer.by_source_method])}</tbody></table></div>` : '';
+  h += `<p class="lede">My saved label guesses scored against yours. Your labels are the truth here; every number updates as you label.</p>`;
+  for (const f of a.full) {
+    const low = f.by_tier.low, med = f.by_tier.medium;
+    h += `<h2>Your fully labelled log: ${esc(short(f.name))}</h2>
+    <div class="stats">
+      <div class="stat"><div class="n">${pct(f.row_accuracy)}</div><div class="l">of your labelled depth rows got the right label from me (${f.rows_scored.toLocaleString()} rows)</div></div>
+      <div class="stat"><div class="n">${pct(f.boundary.within_20px)}</div><div class="l">of your ${f.boundary.count} layer boundaries have one of mine within 20 px</div></div>
+      <div class="stat"><div class="n">${pct(f.boundary.within_5px)}</div><div class="l">within 5 px (median miss ${f.boundary.median_px} px)</div></div>
+      ${med && low ? `<div class="stat"><div class="n">${pct(med.accuracy)} / ${pct(low.accuracy)}</div><div class="l">right when I said "medium" / "low" confidence</div></div>` : ''}
+    </div>
+    ${med && low && med.accuracy < low.accuracy ? `<p class="note warn"><b>My confidence is upside down here:</b> guesses I marked medium are right less often than those I marked low.
+      Most medium guesses came from a colour matcher that reported zero distance and zero margin. It could not tell the patterns apart, but it still picked a label.</p>` : ''}
+    <div class="rows" style="gap:24px">
+      <div style="flex:1;min-width:280px"><h3>Which of my methods to trust</h3>
+        <div class="tw"><table><tr><th>Method</th><th class="num">Rows</th><th>Right</th></tr>
+        ${f.by_source.map(x => `<tr><td>${esc(x.source)}</td><td class="num">${x.rows.toLocaleString()}</td><td>${bar(x.accuracy)}</td></tr>`).join('')}</table></div>
+      </div>
+      <div style="flex:1;min-width:280px"><h3>What I confuse</h3>
+        <div class="tw"><table><tr><th>I said</th><th>You said</th><th class="num">Rows</th></tr>
+        ${f.confusion.filter(x => x.guessed !== x.actual).map(x => `<tr><td>${esc(x.guessed)}</td><td>${esc(x.actual)}</td><td class="num">${x.rows.toLocaleString()}</td></tr>`).join('')}</table></div>
+      </div>
+    </div>
+    <div class="rows" style="gap:24px">
+      <div style="flex:1;min-width:280px"><h3>Per label you used: how much I found</h3>
+        <div class="tw"><table><tr><th>Your label</th><th class="num">Rows</th><th>I got right</th></tr>
+        ${f.actual.map(x => `<tr><td>${esc(x.label)}</td><td class="num">${x.rows.toLocaleString()}</td><td>${bar(x.recall)}</td></tr>`).join('')}</table></div></div>
+      <div style="flex:1;min-width:280px"><h3>Per label I guessed: how often it was right</h3>
+        <div class="tw"><table><tr><th>My guess</th><th class="num">Rows</th><th>Right</th></tr>
+        ${f.predicted.map(x => `<tr><td>${esc(x.label)}</td><td class="num">${x.rows.toLocaleString()}</td><td>${bar(x.precision)}</td></tr>`).join('')}</table></div></div>
+    </div>
+    <h3 style="margin-top:14px">My biggest misses</h3>
+    <div class="strips" style="margin-top:6px">${f.worst.slice(0, 16).map(w => `<div class="strip"><img loading="lazy" src="${crop(f.doc_id, [f.column[0], w.top, f.column[2], Math.min(w.bottom, w.top + 200)])}">
+      <span class="cap no" title="${esc(w.reason)}">I said ${esc(w.pred)}</span><span class="cap ok">You: ${esc(w.true)}</span><span class="cap">rows ${w.top}</span></div>`).join('')}</div>`;
+  }
+  const rv = a.reviewed.filter(i => i.status === 'approved');
+  h += `<h2>Boxes you reviewed in the queue</h2>
+    <div class="stats">
+      <div class="stat"><div class="n">${s.queue_label_right}/${s.queue_label_total}</div><div class="l">queue guesses with the label you accepted (${s.accepted - s.queue_label_total} came with no guess)</div></div>
+      <div class="stat"><div class="n">${s.row_guess_right}/${s.row_guess_total}</div><div class="l">row-level guesses for those rows that matched you</div></div>
+      <div class="stat"><div class="n">${s.median_iou == null ? '–' : Math.round(s.median_iou * 100) + '%'}</div><div class="l">median overlap of my box with yours. Low means you had to move the box a lot.</div></div>
+      <div class="stat"><div class="n">${s.rejected}</div><div class="l">boxes you rejected</div></div>
+    </div>
+    <div class="tw"><table><tr><th>Your box</th><th>Document</th><th>You</th><th>Queue guess</th><th>Row guess</th><th class="num">Box overlap</th></tr>
+    ${a.reviewed.map(i => `<tr><td><img style="width:56px;image-rendering:pixelated;border:1px solid var(--line)" loading="lazy" src="${crop(i.doc_id, [i.box[0], i.box[1], i.box[2], Math.min(i.box[3], i.box[1] + 160)])}"></td>
+      <td>${esc(short(i.doc))}<div class="cap" style="font-size:12px;color:var(--muted)">rows ${i.box[1]}–${i.box[3]}</div></td>
+      <td>${i.status === 'rejected' ? '<span class="no">rejected</span>' : esc(i.human.join(', '))}${i.comments.length ? `<div class="cap" style="font-size:12px;color:var(--muted)">“${esc(i.comments[0])}”</div>` : ''}</td>
+      <td>${i.guess.length ? `<span class="${i.guess_ok ? 'ok' : 'no'}">${esc(i.guess.join(', '))}</span>` : '<span class="cap">none</span>'}</td>
+      <td>${i.row_guess ? `<span class="${i.row_guess_ok ? 'ok' : 'no'}">${esc(i.row_guess)}</span>` : '<span class="cap">none</span>'}</td>
+      <td class="num">${i.iou == null ? '–' : Math.round(i.iou * 100) + '%'}</td></tr>`).join('')}</table></div>`;
+  $('#acc').innerHTML = h;
+}
+const bar = v => `<div style="display:flex;gap:8px;align-items:center"><div class="bar" style="flex:1"><i style="width:${v || 0}%"></i></div><span style="min-width:44px;text-align:right">${pct(v)}</span></div>`;
+poll();
+</script>
+</body>
+</html>

@@ -1,0 +1,1241 @@
+{
+  "version": 1,
+  "digest": "59277d37691fd07c1289d3432732371384286e78902ed1c339850c036c94d845",
+  "layout": null,
+  "items": [
+    {
+      "box": [
+        17,
+        47,
+        101,
+        89
+      ],
+      "candidates": [
+        {
+          "text": "No Sample",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "No Sample",
+          "confidence": 0.9900316529803805,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "No Sample",
+          "confidence": 0.6309768137677597,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        313,
+        47,
+        397,
+        89
+      ],
+      "candidates": [
+        {
+          "text": "Limestone",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Limestone",
+          "confidence": 0.9989721708827548,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "No Sample",
+          "confidence": 0.9900316529803805,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Limestone",
+          "confidence": 0.9999940395266407,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "No Sample",
+          "confidence": 0.6309768137677597,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        604,
+        47,
+        688,
+        89
+      ],
+      "candidates": [
+        {
+          "text": "Volcanics",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Volcanics",
+          "confidence": 0.9970773259798685,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Limestone",
+          "confidence": 0.9986306892500983,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Volcanics",
+          "confidence": 0.999878124656174,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Limestone",
+          "confidence": 0.9999940395266407,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        17,
+        111,
+        101,
+        153
+      ],
+      "candidates": [
+        {
+          "text": "Cement",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Cement",
+          "confidence": 0.9971994161605835,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Cement",
+          "confidence": 0.9999772461938845,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        313,
+        112,
+        397,
+        153
+      ],
+      "candidates": [
+        {
+          "text": "Dolomite",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Dolomite",
+          "confidence": 0.9992901384830475,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Cement",
+          "confidence": 0.9971994161605835,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Dolomite",
+          "confidence": 0.9999111106600462,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Cement",
+          "confidence": 0.9999772461938845,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        604,
+        112,
+        688,
+        153
+      ],
+      "candidates": [
+        {
+          "text": "Basalt",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Basalt",
+          "confidence": 0.9977758328119913,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Dolomite",
+          "confidence": 0.9992901384830475,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Basalt",
+          "confidence": 0.9999947439621196,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Dolomite",
+          "confidence": 0.9999111106600462,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        17,
+        179,
+        102,
+        223
+      ],
+      "candidates": [
+        {
+          "text": "Aluvium / Conglomerate",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Alunguomerate",
+          "confidence": 0.9001607711498554,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "conglomerate",
+          "confidence": 0.7609153646494393,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        313,
+        179,
+        397,
+        221
+      ],
+      "candidates": [
+        {
+          "text": "Coal",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Coal",
+          "confidence": 0.998630166053772,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Alunguomerate",
+          "confidence": 0.9001607711498554,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Alunguomerate",
+          "confidence": 0.9001607711498554,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Coal",
+          "confidence": 0.999963641166687,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "conglomerate",
+          "confidence": 0.7609153646494393,
+          "engine": "easy",
+          "direction": "left"
+        },
+        {
+          "text": "conglomerate",
+          "confidence": 0.7609153646494393,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        605,
+        179,
+        689,
+        221
+      ],
+      "candidates": [
+        {
+          "text": "Igneous (Extrusive)",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Igneous (Extrusive)",
+          "confidence": 0.9811857060382241,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Coal",
+          "confidence": 0.998630166053772,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Igneous (Extrusive)",
+          "confidence": 0.9999228737597209,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Coal",
+          "confidence": 0.999963641166687,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        17,
+        244,
+        101,
+        286
+      ],
+      "candidates": [
+        {
+          "text": "Sand",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Sand",
+          "confidence": 0.9987965971231461,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Sand",
+          "confidence": 0.9999923706054688,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        313,
+        244,
+        397,
+        286
+      ],
+      "candidates": [
+        {
+          "text": "Quartzite",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Quartzite",
+          "confidence": 0.9996673067410787,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Sand",
+          "confidence": 0.9987965971231461,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Quartzite",
+          "confidence": 0.9999965031911162,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Sand",
+          "confidence": 0.9999923706054688,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        605,
+        244,
+        689,
+        286
+      ],
+      "candidates": [
+        {
+          "text": "Igneous (Intrusive)",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Igneous (lntrusive)",
+          "confidence": 0.9536698805658441,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Quartzite",
+          "confidence": 0.9996673067410787,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Igneous (Intrusive)",
+          "confidence": 0.9997945332724584,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Quartzite",
+          "confidence": 0.9999965031911162,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        17,
+        312,
+        101,
+        354
+      ],
+      "candidates": [
+        {
+          "text": "Siltstone",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Siltstone",
+          "confidence": 0.9543540080388387,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Siltstone",
+          "confidence": 0.9999735353626247,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        313,
+        312,
+        397,
+        354
+      ],
+      "candidates": [
+        {
+          "text": "Chert",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Chert",
+          "confidence": 0.9974297404289245,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Siltstone",
+          "confidence": 0.9543540080388387,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Chert",
+          "confidence": 0.9998821269920943,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Siltstone",
+          "confidence": 0.9999735353626247,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        605,
+        312,
+        689,
+        354
+      ],
+      "candidates": [
+        {
+          "text": "Tuff",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Tuff",
+          "confidence": 0.9637521207332611,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Chert",
+          "confidence": 0.9974297404289245,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Tuff",
+          "confidence": 0.9999624490737915,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Chert",
+          "confidence": 0.9998821269920943,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        17,
+        380,
+        101,
+        422
+      ],
+      "candidates": [
+        {
+          "text": "Claystone",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Claystone",
+          "confidence": 0.9978007475535074,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Claystone",
+          "confidence": 0.9999906619171852,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        313,
+        380,
+        397,
+        422
+      ],
+      "candidates": [
+        {
+          "text": "Anhydrite",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Anhydrite",
+          "confidence": 0.9956029587321811,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Claystone",
+          "confidence": 0.9978007475535074,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Anhydrite",
+          "confidence": 0.9999895095550071,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Claystone",
+          "confidence": 0.9999906619171852,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        604,
+        380,
+        688,
+        422
+      ],
+      "candidates": [
+        {
+          "text": "Metamorphics",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Metamorphics",
+          "confidence": 0.9988775352636973,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Anhydrite",
+          "confidence": 0.9956029587321811,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Metamorphics",
+          "confidence": 0.9999961113528444,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Anhydrite",
+          "confidence": 0.9999895095550071,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        17,
+        448,
+        101,
+        490
+      ],
+      "candidates": [
+        {
+          "text": "Shale",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Shale",
+          "confidence": 0.9960410833358765,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Shale",
+          "confidence": 0.9999849659984317,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        314,
+        450,
+        397,
+        490
+      ],
+      "candidates": [
+        {
+          "text": "Mudstone",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Mudstone",
+          "confidence": 0.9979568421840668,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Shale",
+          "confidence": 0.9960410833358765,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Mudstone",
+          "confidence": 0.9999979348035396,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Shale",
+          "confidence": 0.9999849659984317,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    }
+  ],
+  "ocr": [
+    {
+      "box": [
+        [
+          261.5725911458333,
+          8.203125
+        ],
+        [
+          426.1693522135417,
+          7.177734375
+        ],
+        [
+          426.1693522135417,
+          29.736328125
+        ],
+        [
+          261.5725911458333,
+          30.76171875
+        ]
+      ],
+      "text": "LITHOLOGY",
+      "confidence": 0.9976531068483988
+    },
+    {
+      "box": [
+        [
+          116.3709716796875,
+          52.8076171875
+        ],
+        [
+          216.491943359375,
+          54.345703125
+        ],
+        [
+          215.9677530924479,
+          75.3662109375
+        ],
+        [
+          115.84678141276042,
+          73.828125
+        ]
+      ],
+      "text": "No Sample",
+      "confidence": 0.9973600705464681
+    },
+    {
+      "box": [
+        [
+          416.73388671875,
+          53.3203125
+        ],
+        [
+          514.7580973307291,
+          54.8583984375
+        ],
+        [
+          514.7580973307291,
+          73.828125
+        ],
+        [
+          416.73388671875,
+          72.2900390625
+        ]
+      ],
+      "text": "Limestone",
+      "confidence": 0.9999392496214973
+    },
+    {
+      "box": [
+        [
+          708.709716796875,
+          52.8076171875
+        ],
+        [
+          799.3951822916666,
+          54.345703125
+        ],
+        [
+          798.8710123697916,
+          73.828125
+        ],
+        [
+          708.185546875,
+          72.2900390625
+        ]
+      ],
+      "text": "Volcanics",
+      "confidence": 0.9995578394995795
+    },
+    {
+      "box": [
+        [
+          116.89516194661458,
+          116.89453125
+        ],
+        [
+          189.23388671875,
+          118.4326171875
+        ],
+        [
+          188.70967610677084,
+          137.9150390625
+        ],
+        [
+          116.3709716796875,
+          136.376953125
+        ]
+      ],
+      "text": "Cement",
+      "confidence": 0.9997796912988027
+    },
+    {
+      "box": [
+        [
+          418.8306477864583,
+          116.3818359375
+        ],
+        [
+          503.225830078125,
+          117.4072265625
+        ],
+        [
+          503.225830078125,
+          137.9150390625
+        ],
+        [
+          418.8306477864583,
+          136.8896484375
+        ]
+      ],
+      "text": "Dolomite",
+      "confidence": 0.9999296218156815
+    },
+    {
+      "box": [
+        [
+          708.185546875,
+          116.89453125
+        ],
+        [
+          768.991943359375,
+          117.919921875
+        ],
+        [
+          768.4677734375,
+          137.40234375
+        ],
+        [
+          707.6612955729166,
+          136.376953125
+        ]
+      ],
+      "text": "Basalt",
+      "confidence": 0.9998666942119598
+    },
+    {
+      "box": [
+        [
+          116.89516194661458,
+          182.0068359375
+        ],
+        [
+          207.58064778645834,
+          182.0068359375
+        ],
+        [
+          207.58064778645834,
+          200.9765625
+        ],
+        [
+          116.89516194661458,
+          200.9765625
+        ]
+      ],
+      "text": "Aluvium /",
+      "confidence": 0.9953582021925185
+    },
+    {
+      "box": [
+        [
+          418.3064778645833,
+          182.0068359375
+        ],
+        [
+          463.9112955729167,
+          182.0068359375
+        ],
+        [
+          463.9112955729167,
+          204.052734375
+        ],
+        [
+          418.3064778645833,
+          204.052734375
+        ]
+      ],
+      "text": "Coal",
+      "confidence": 0.9996030479669571
+    },
+    {
+      "box": [
+        [
+          710.2823079427084,
+          193.798828125
+        ],
+        [
+          887.98388671875,
+          192.7734375
+        ],
+        [
+          887.98388671875,
+          214.8193359375
+        ],
+        [
+          710.2823079427084,
+          215.8447265625
+        ]
+      ],
+      "text": "Igneous (Extrusive)",
+      "confidence": 0.9910249961049933
+    },
+    {
+      "box": [
+        [
+          116.3709716796875,
+          203.02734375
+        ],
+        [
+          247.41937255859375,
+          204.052734375
+        ],
+        [
+          247.41937255859375,
+          226.0986328125
+        ],
+        [
+          116.3709716796875,
+          225.0732421875
+        ]
+      ],
+      "text": "Conglomerate",
+      "confidence": 0.9996969252824783
+    },
+    {
+      "box": [
+        [
+          115.84678141276042,
+          249.169921875
+        ],
+        [
+          165.6451619466146,
+          249.169921875
+        ],
+        [
+          165.6451619466146,
+          269.1650390625
+        ],
+        [
+          115.84678141276042,
+          269.1650390625
+        ]
+      ],
+      "text": "Sand",
+      "confidence": 0.9999236166477203
+    },
+    {
+      "box": [
+        [
+          418.3064778645833,
+          249.6826171875
+        ],
+        [
+          501.6532389322917,
+          249.6826171875
+        ],
+        [
+          501.6532389322917,
+          269.1650390625
+        ],
+        [
+          418.3064778645833,
+          269.1650390625
+        ]
+      ],
+      "text": "Quartzite",
+      "confidence": 0.9996366831991408
+    },
+    {
+      "box": [
+        [
+          711.8548990885416,
+          259.423828125
+        ],
+        [
+          880.6451822916666,
+          259.423828125
+        ],
+        [
+          880.6451822916666,
+          278.3935546875
+        ],
+        [
+          711.8548990885416,
+          278.3935546875
+        ]
+      ],
+      "text": "Igneous (Intrusive)",
+      "confidence": 0.9463649705836648
+    },
+    {
+      "box": [
+        [
+          115.84678141276042,
+          315.3076171875
+        ],
+        [
+          199.19356282552084,
+          316.3330078125
+        ],
+        [
+          199.19356282552084,
+          335.302734375
+        ],
+        [
+          115.84678141276042,
+          334.27734375
+        ]
+      ],
+      "text": "Siltstone",
+      "confidence": 0.9996976984871758
+    },
+    {
+      "box": [
+        [
+          417.2580973307292,
+          315.3076171875
+        ],
+        [
+          470.725830078125,
+          315.3076171875
+        ],
+        [
+          470.725830078125,
+          335.302734375
+        ],
+        [
+          417.2580973307292,
+          335.302734375
+        ]
+      ],
+      "text": "Chert",
+      "confidence": 0.9997771501541137
+    },
+    {
+      "box": [
+        [
+          708.709716796875,
+          325.048828125
+        ],
+        [
+          750.1210123697916,
+          325.048828125
+        ],
+        [
+          750.1210123697916,
+          345.556640625
+        ],
+        [
+          708.709716796875,
+          345.556640625
+        ]
+      ],
+      "text": "Tuff",
+      "confidence": 0.999205082654953
+    },
+    {
+      "box": [
+        [
+          116.89516194661458,
+          386.0595703125
+        ],
+        [
+          209.15323893229166,
+          387.59765625
+        ],
+        [
+          208.6290486653646,
+          408.6181640625
+        ],
+        [
+          116.3709716796875,
+          407.080078125
+        ]
+      ],
+      "text": "Claystone",
+      "confidence": 0.999436530801985
+    },
+    {
+      "box": [
+        [
+          417.7822672526042,
+          386.572265625
+        ],
+        [
+          507.9435628255208,
+          386.572265625
+        ],
+        [
+          507.9435628255208,
+          407.5927734375
+        ],
+        [
+          417.7822672526042,
+          407.5927734375
+        ]
+      ],
+      "text": "Anhydrite",
+      "confidence": 0.9686098827256097
+    },
+    {
+      "box": [
+        [
+          708.709716796875,
+          386.0595703125
+        ],
+        [
+          839.23388671875,
+          387.59765625
+        ],
+        [
+          839.23388671875,
+          408.10546875
+        ],
+        [
+          708.709716796875,
+          406.5673828125
+        ]
+      ],
+      "text": "Metamorphics",
+      "confidence": 0.9997740139563879
+    },
+    {
+      "box": [
+        [
+          115.84678141276042,
+          456.8115234375
+        ],
+        [
+          170.36290486653647,
+          456.8115234375
+        ],
+        [
+          170.36290486653647,
+          478.3447265625
+        ],
+        [
+          115.84678141276042,
+          478.3447265625
+        ]
+      ],
+      "text": "Shale",
+      "confidence": 0.9994148731231689
+    },
+    {
+      "box": [
+        [
+          419.3548583984375,
+          457.32421875
+        ],
+        [
+          510.0403238932292,
+          458.8623046875
+        ],
+        [
+          509.5161539713542,
+          477.83203125
+        ],
+        [
+          418.8306477864583,
+          476.2939453125
+        ]
+      ],
+      "text": "Mudstone",
+      "confidence": 0.9995212331414223
+    }
+  ]
+}

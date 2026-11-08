@@ -1,0 +1,218 @@
+{
+  "truth_available": false,
+  "selection": "Three fixed 768 px windows: start, middle, end. No labels used for selection.",
+  "images": [
+    {
+      "case": "c27f24013e5cc155",
+      "window": [
+        1206,
+        1974
+      ],
+      "source_shape": [
+        768,
+        47,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\c27f24013e5cc155_1.png",
+      "hashes": {
+        "image": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+        "annotation": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce",
+        "s19_combine": "c6ae117fc71d67eff4e45ff3ebc8f530f35daadb8875ac65fb83a252efd4f2d5",
+        "s24_benedek": "929e762cd3cdca2bb476ae6b2e9b9c9ad7d725de26959cc7261b9a4a3b11e69c"
+      }
+    },
+    {
+      "case": "c27f24013e5cc155",
+      "window": [
+        5031,
+        5799
+      ],
+      "source_shape": [
+        768,
+        47,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\c27f24013e5cc155_2.png",
+      "hashes": {
+        "image": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+        "annotation": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce",
+        "s19_combine": "c6ae117fc71d67eff4e45ff3ebc8f530f35daadb8875ac65fb83a252efd4f2d5",
+        "s24_benedek": "929e762cd3cdca2bb476ae6b2e9b9c9ad7d725de26959cc7261b9a4a3b11e69c"
+      }
+    },
+    {
+      "case": "c27f24013e5cc155",
+      "window": [
+        8856,
+        9624
+      ],
+      "source_shape": [
+        768,
+        47,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\c27f24013e5cc155_3.png",
+      "hashes": {
+        "image": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+        "annotation": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce",
+        "s19_combine": "c6ae117fc71d67eff4e45ff3ebc8f530f35daadb8875ac65fb83a252efd4f2d5",
+        "s24_benedek": "929e762cd3cdca2bb476ae6b2e9b9c9ad7d725de26959cc7261b9a4a3b11e69c"
+      }
+    },
+    {
+      "case": "49ab92322aa76b26",
+      "window": [
+        6473,
+        7241
+      ],
+      "source_shape": [
+        768,
+        183,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\49ab92322aa76b26_1.png",
+      "hashes": {
+        "image": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+        "annotation": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af",
+        "s19_combine": "8b77a53103b6eb9f78db1f1264e82cb05c5c221105343761b3b976ee80f38166",
+        "s24_benedek": "4c2236611346cc8dbb5abd037986a8c509fefc6efdf80e816c1719ab2d21b807"
+      }
+    },
+    {
+      "case": "49ab92322aa76b26",
+      "window": [
+        8266,
+        9034
+      ],
+      "source_shape": [
+        768,
+        183,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\49ab92322aa76b26_2.png",
+      "hashes": {
+        "image": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+        "annotation": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af",
+        "s19_combine": "8b77a53103b6eb9f78db1f1264e82cb05c5c221105343761b3b976ee80f38166",
+        "s24_benedek": "4c2236611346cc8dbb5abd037986a8c509fefc6efdf80e816c1719ab2d21b807"
+      }
+    },
+    {
+      "case": "49ab92322aa76b26",
+      "window": [
+        10060,
+        10828
+      ],
+      "source_shape": [
+        768,
+        183,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\49ab92322aa76b26_3.png",
+      "hashes": {
+        "image": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+        "annotation": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af",
+        "s19_combine": "8b77a53103b6eb9f78db1f1264e82cb05c5c221105343761b3b976ee80f38166",
+        "s24_benedek": "4c2236611346cc8dbb5abd037986a8c509fefc6efdf80e816c1719ab2d21b807"
+      }
+    },
+    {
+      "case": "fc5af26c8937097c",
+      "window": [
+        3506,
+        4274
+      ],
+      "source_shape": [
+        768,
+        61,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\fc5af26c8937097c_1.png",
+      "hashes": {
+        "image": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+        "annotation": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24",
+        "s19_combine": "5bbb3af90fe4d52d2e977cb0527d3e1268cfe43f4a2fb7ae8f3278ceaa6b1684",
+        "s24_benedek": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e"
+      }
+    },
+    {
+      "case": "fc5af26c8937097c",
+      "window": [
+        71674,
+        72442
+      ],
+      "source_shape": [
+        768,
+        61,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\fc5af26c8937097c_2.png",
+      "hashes": {
+        "image": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+        "annotation": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24",
+        "s19_combine": "5bbb3af90fe4d52d2e977cb0527d3e1268cfe43f4a2fb7ae8f3278ceaa6b1684",
+        "s24_benedek": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e"
+      }
+    },
+    {
+      "case": "fc5af26c8937097c",
+      "window": [
+        139842,
+        140610
+      ],
+      "source_shape": [
+        768,
+        61,
+        3
+      ],
+      "output_size": [
+        1024,
+        868
+      ],
+      "file": "pred_images\\fc5af26c8937097c_3.png",
+      "hashes": {
+        "image": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+        "annotation": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24",
+        "s19_combine": "5bbb3af90fe4d52d2e977cb0527d3e1268cfe43f4a2fb7ae8f3278ceaa6b1684",
+        "s24_benedek": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e"
+      }
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "completed_pairs": 3,
+  "rendered_windows": 9,
+  "rendered_pixels_per_source": 6912
+}

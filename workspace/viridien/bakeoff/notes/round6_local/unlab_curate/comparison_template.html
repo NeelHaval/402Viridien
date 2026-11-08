@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Unlabelled TEST checks</title>
+<style>
+*{box-sizing:border-box}body{margin:0;color:var(--foreground);font-family:var(--font-sans)}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:22px}label{font-size:13px;display:grid;gap:6px}
+select{width:100%;font:inherit;color:var(--foreground);background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px}
+.chart{height:340px;display:grid;grid-template-rows:repeat(4,1fr) 25px;gap:8px}
+.head{display:flex;justify-content:space-between;gap:16px;font-size:14px;margin-bottom:7px}.head strong{font-family:var(--font-mono)}
+.track{height:23px;position:relative;background:var(--secondary);border-radius:4px;overflow:hidden}.bar{position:absolute;top:0;height:23px;min-width:0}
+.zero{position:absolute;top:0;width:1px;height:23px;background:var(--foreground);opacity:.4}.support{font-size:12px;color:var(--muted);margin-top:3px}
+.axis{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);font-family:var(--font-mono)}
+.note{font-size:13px;color:var(--muted);line-height:1.5;margin:16px 0 0}.count{font-size:14px;margin:0 0 14px}
+@media(max-width:480px){.controls{grid-template-columns:1fr;gap:10px}.chart{height:365px}.head{font-size:13px}}
+</style>
+<p class="count" id="count"></p>
+<div class="controls"><label>Page style<select id="family" aria-label="Page style"></select></label>
+<label>Measure<select id="metric" aria-label="Measure"><option value="assigned_share">Assigned rows (%)</option><option value="failure_rate">Failed or empty runs (%)</option><option value="depth_fit_ok">Depth checks passed (%)</option><option value="scan_ari">Clean versus degraded agreement (ARI)</option></select></label></div>
+<div id="chart" class="chart" role="group" aria-label="Four strategy measurements"></div>
+<p class="note" id="note"></p>
+<p class="note">No rock labels are available. These checks do not measure rock-type accuracy. Each page has equal weight. Pages from one well are related evidence.</p>
+<script>
+const data=__RESULT_DATA__;
+const families=['All',...Object.keys(data.families)];
+const family=document.getElementById('family'),metric=document.getElementById('metric'),chart=document.getElementById('chart');
+families.forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;family.append(o)});
+function show(){
+ const rows=data.totals.filter(x=>x.family===family.value),key=metric.value,ari=key==='scan_ari';
+ document.getElementById('count').textContent=`${family.value==='All'?'All page styles':family.value} · ${rows[0]?.pages||0} TEST pages`;
+ chart.replaceChildren();
+ rows.forEach((r,i)=>{
+  const row=document.createElement('div'),head=document.createElement('div'),name=document.createElement('strong'),value=document.createElement('span');
+  head.className='head';name.textContent=r.strategy.match(/^s\d+/)[0];
+  const v=r[key];value.textContent=v===null?'Missing':ari?v.toFixed(3):(100*v).toFixed(1)+'%';
+  head.append(name,value);row.append(head);
+  const track=document.createElement('div');track.className='track';
+  if(v!==null){const bar=document.createElement('div');bar.className='bar';bar.style.background=`var(--chart-${i+1})`;
+   bar.style.left=ari?(v<0?(1+v)*50:50)+'%':'0';bar.style.width=(ari?Math.abs(v)*50:Math.max(0,Math.min(1,v))*100)+'%';
+   bar.title=`${name.textContent}: ${value.textContent}`;track.append(bar)}
+  if(ari){const zero=document.createElement('div');zero.className='zero';zero.style.left='50%';track.append(zero)}
+  row.append(track);const support=document.createElement('div');support.className='support';
+  support.textContent=ari?`${r.scan_eligible}/${r.pages} eligible pairs · ${r.scan_multiclass} pairs have multiple classes on both copies`:`${r.pages} pages in the denominator`;
+  row.append(support);chart.append(row);
+ });
+ const axis=document.createElement('div');axis.className='axis';(ari?['−1','0','1']:['0%','50%','100%']).forEach(t=>{const s=document.createElement('span');s.textContent=t;axis.append(s)});chart.append(axis);
+ document.getElementById('note').textContent=ari?'ARI uses only rows assigned on both copies. One constant class can also give ARI 1. Failed pairs have no ARI score. The fixed scan preset changes image quality, with pixel geometry retained.':key==='failure_rate'?'Failure includes execution errors and runs with no named, assigned output. Lower is better for this check.':key==='depth_fit_ok'?'The depth fit must increase, have a plausible feet-per-pixel scale, at least three anchors and a residual of at most 16 pixels. Missing fits do not pass.':'Coverage counts rows with a named rock assignment. A wrong rock name can still give full coverage.';
+}
+family.addEventListener('change',show);metric.addEventListener('change',show);show();
+</script></html>

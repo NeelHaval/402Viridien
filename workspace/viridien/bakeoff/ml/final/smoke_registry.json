@@ -1,0 +1,146 @@
+{
+ "version": 1,
+ "suites": {
+  "viridien_eval": {
+   "dataset": {
+    "default": "@dataset",
+    "env": "LITHOLOGY_DATASET"
+   },
+   "items": {
+    "default": "bakeoff/eval_set.json",
+    "env": "BENCH_VIRIDIEN_EVAL_ITEMS"
+   },
+   "truth": {
+    "default": "bakeoff/gt",
+    "env": "BENCH_VIRIDIEN_TRUTH"
+   },
+   "truth_mode": "consensus",
+   "metadata": {
+    "source": "viridien",
+    "family": "unknown"
+   }
+  },
+  "viridien_gold": {
+   "extends": "viridien_eval",
+   "items": {
+    "default": "bakeoff/eval_set.json",
+    "env": "BENCH_VIRIDIEN_GOLD_ITEMS"
+   },
+   "tier": "gold",
+   "truth_mode": "gold"
+  },
+  "synthetic": {
+   "extends": "viridien_eval",
+   "truth_mode": "synthetic",
+   "replicates": 3,
+   "items": {
+    "default": "bakeoff/eval_set.json",
+    "env": "BENCH_SYNTHETIC_ITEMS"
+   },
+   "truth": {
+    "default": "bakeoff/gt/synthetic",
+    "env": "BENCH_SYNTHETIC_TRUTH"
+   },
+   "seed": 0,
+   "height": 4000
+  },
+  "ext_dev": {
+   "dataset": {
+    "default": "external_tests",
+    "env": "BENCH_EXTERNAL_DATASET"
+   },
+   "items": {
+    "default": "external_tests/eval_set_dev.json",
+    "env": "BENCH_EXT_DEV_ITEMS"
+   },
+   "truth": {
+    "default": "external_tests/truth",
+    "env": "BENCH_EXTERNAL_TRUTH"
+   },
+   "manifest": {
+    "default": "external_tests/manifest.csv",
+    "env": "BENCH_EXTERNAL_MANIFEST"
+   },
+   "splits": {
+    "default": "external_tests/splits.json",
+    "env": "BENCH_EXTERNAL_SPLITS"
+   },
+   "truth_mode": "directory",
+   "metadata": {
+    "source": "external",
+    "family": "unknown"
+   }
+  },
+  "ext_test": {
+   "extends": "ext_dev",
+   "items": {
+    "default": "external_tests/eval_set_test.json",
+    "env": "BENCH_EXT_TEST_ITEMS"
+   }
+  },
+  "ext_shared": {
+   "extends": "ext_dev",
+   "split": "shared",
+   "items": {
+    "default": "external_tests/eval_set_shared.json",
+    "env": "BENCH_EXT_SHARED_ITEMS"
+   }
+  },
+  "round3": {
+   "optional": true,
+   "dataset": {
+    "default": "external_tests_round3",
+    "env": "BENCH_ROUND3_DATASET"
+   },
+   "items": {
+    "default": "external_tests_round3/eval_set.json",
+    "env": "BENCH_ROUND3_ITEMS"
+   },
+   "truth": {
+    "default": "external_tests_round3/truth",
+    "env": "BENCH_ROUND3_TRUTH"
+   },
+   "manifest": {
+    "default": "external_tests_round3/manifest.csv",
+    "env": "BENCH_ROUND3_MANIFEST"
+   },
+   "truth_mode": "directory",
+   "metadata": {
+    "source": "round3",
+    "family": "unknown"
+   }
+  },
+  "unlabelled": {
+   "optional": true,
+   "dataset": {
+    "default": "external_unlabelled",
+    "env": "BENCH_UNLABELLED_DATASET"
+   },
+   "items": {
+    "default": "external_unlabelled/eval_set.json",
+    "env": "BENCH_UNLABELLED_ITEMS"
+   },
+   "truth": null,
+   "manifest": {
+    "default": "external_unlabelled/manifest.csv",
+    "env": "BENCH_UNLABELLED_MANIFEST"
+   },
+   "truth_mode": "none",
+   "metadata": {
+    "source": "unlabelled",
+    "family": "unknown"
+   }
+  },
+  "ext_shared_verify": {
+   "extends": "ext_dev",
+   "items": {
+    "default": "external_tests/eval_set_shared_verify.json",
+    "env": "BENCH_EXT_SHARED_VERIFY_ITEMS"
+   }
+  },
+  "final_dev_smoke": {
+   "extends": "ext_dev",
+   "items": "/home/user/lith/viridien_work/bakeoff/ml/final/smoke_items.json"
+  }
+ }
+}

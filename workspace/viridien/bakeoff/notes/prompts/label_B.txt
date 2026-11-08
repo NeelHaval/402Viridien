@@ -1,0 +1,20 @@
+sandbox=workspace-write
+You are labeller B making a ground-truth dataset for a lithology bake-off. Working folder:
+C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md (sections Paths, Interval rows, Evaluation windows) and eval_set.json. Never open anything under gt/
+except the folder you write to, and never read other labellers' output.
+Task: for EVERY entry in eval_set.json (13 windows, including log06), label the interpreted lithology column
+(box interpreted_lithology_column from the log's annotation JSON) between rows y0 and y1, and write
+gt/silver/B/<log>.csv with columns top_y,bottom_y,lithology (full-image pixel rows, bottom exclusive, sorted,
+no overlaps; blank stretches get no row; lithology = the label text printed in that log's legend, spelled as printed).
+Method (you may write helper scripts under notes/label_B/ only):
+- Use code for pixel-exact boundaries (e.g. per-row colour / ink profile of the column changes), but decide every
+  interval's rock name by LOOKING at the images with your image viewer: crop the column window in chunks of about
+  1500 rows, upscale it so the fill pattern is visible, draw a y-pixel ruler beside it, and view it next to a crop of
+  the legend (lithology_legend box). The 1-bit logs (names starting 0000000009) have no colour: decide from the
+  hatch pattern (dashes = Shale/Clay, dots = Sand and Sandstone, short vertical bars = Siltstone, etc.) by comparing
+  with the legend swatches.
+- Images are huge; set PIL Image.MAX_IMAGE_PIXELS = None and crop before converting.
+- Skip thin overprints (drawn lines, text) that are not interval changes. Merge identical neighbours.
+- Write gt/silver/B/_notes.md: per log, how confident you are (high/medium/low), what was ambiguous.
+Reply with a table: log, intervals written, distinct lithologies, confidence.

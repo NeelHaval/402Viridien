@@ -1,0 +1,7 @@
+# S10 hybrid
+
+S2 PELT supplies bed boundaries. DINOv2-small CLS embeddings and Lab percentile distances rank tiled legend swatches; uncertain segments (margin below 0.025) are batched into up to eight JEV choice questions. API attempts are counted by the shared client. Blank nearly white segments are omitted. The four pipeline stages show the input, boundaries, legend tiles and predicted labels.
+
+The model is loaded from the local Hugging Face cache. The shared API client reads credentials at runtime and can fall back to local predictions when the service is unavailable. Runtime includes model loading on the first window. Synthetic tuning revealed that repeated texture can create false boundaries and similar monochrome patterns are difficult to separate.
+
+Synthetic (39 cases): score 0.767, row accuracy 0.915, boundary F1 0.834, no crashes. Final gold evaluation: log06 score and row accuracy 0, boundary F1 0.774, ARI 0.629; its monochrome shale is often matched to other swatches, and some gold label names differ from the exact parsed legend labels. The other 12 real windows have no gold labels. The first three JEV attempts failed due to proxy/network unavailability, after which the shared client suppressed attempts. The 0.025 margin is a provisional heuristic, not a statistically tuned threshold, since the service was unavailable. The inspected gb506 output also combines visibly alternating colours into coarse segments.

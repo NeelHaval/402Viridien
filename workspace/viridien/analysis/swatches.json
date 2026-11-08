@@ -1,0 +1,9226 @@
+{
+ "parser": "legend_v2",
+ "logs": {
+  "0000000009_d-582_0000020435-0001_log01_fe_1in_md": [
+   {
+    "label": "LImestone",
+    "file": "3e9d47baad66.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "b81ce307e0c1.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "79e98eabb1a2.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "a11ea2e656fb.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "43322e73ca19.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "4e6ee18c0743.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "aed4eaf8adce.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "ee3a95fd15a6.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "cfdd60fbad98.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "a053ef41ab16.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log02_fe_5in_md": [
+   {
+    "label": "LImestone",
+    "file": "730b1358b0d6.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "5ae302783fd5.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "dcbc3488fa5a.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "388072688b1d.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "e22d2528e9ad.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "fba951f1bfb7.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "4c06a8affea8.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "fefda2cab40d.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "8955dc9f7e27.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "5346f56bb8e0.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log03_chromatograph_ratio": [
+   {
+    "label": "LImestone",
+    "file": "55bf39bd6b1e.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "e644046a30d1.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "476dd50eecc8.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "1f02ee04b281.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "c8fc93c3a018.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "52bffd8308c9.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "b6c1c111745c.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "f037137c007c.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "de015b24397c.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "d0023093c1df.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log04_fe_5in_md": [
+   {
+    "label": "LImestone",
+    "file": "8b4bd5fc1f3c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "39ea09cc19c3.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "eb1ad6d8615e.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "6d2857048730.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "b3f30a61876c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "673a09c21461.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "2849c6979ec3.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "a2e7384fc096.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "4fe220ee6c2d.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "1f51f52e8821.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log05_chromatograph_ratio": [
+   {
+    "label": "LImestone",
+    "file": "29bddb7ccd30.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "5d093281d704.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "7d2a55caf521.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "a01d6c283fbc.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "5950b5ea59fd.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "8ab08ea559c4.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "f3f6e44c9411.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "c53403621894.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "8fb2fd7ded3e.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "1f424b27347a.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log06_fe_5in_md": [
+   {
+    "label": "LImestone",
+    "file": "5199e262ca98.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "b1a0a8073773.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "408625bdb11a.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "6c633bfbb0eb.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "d6b7852a297f.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "12251bda14f1.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "62de1f1f932b.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "a5c8941e354d.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "23d13861c9d0.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "6a14b7bd1e28.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log07_chromatograph_ratio": [
+   {
+    "label": "LImestone",
+    "file": "48cb1376de7e.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "63e08a518d7c.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "fec8e9d12e81.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "e8f15407f4aa.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "5f7661c50494.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "2f6ec8551440.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "190419387a8b.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "8b58439cd2fa.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "55462f23204d.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "1711cb3ef4e8.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log08_fe_5in_md": [
+   {
+    "label": "LImestone",
+    "file": "293cd6dad489.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "296f92f828b0.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "45aea2221838.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "c8cf3fed9729.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "26e899a933be.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "4fd9386f74fe.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "e209278d69cd.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "d8f90238c2f7.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "7a07761d4052.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "abb587f0e95e.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio": [
+   {
+    "label": "LImestone",
+    "file": "abadf782681f.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "82248bc9ec45.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     227,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrlte",
+    "file": "938d806fcfbc.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     246,
+     246,
+     246
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "ca2bd149ae8c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "Coal",
+    "file": "36f1c0e869e5.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "ecd1e92fa01f.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     237
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "8bc9396cb54b.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     238
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "10641ec60a2d.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     245,
+     245
+    ]
+   },
+   {
+    "label": "SIllty Sandstone",
+    "file": "a2dabbd23274.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     234
+    ]
+   },
+   {
+    "label": "Sand and Sandstone",
+    "file": "6577cf71a087.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     241
+    ]
+   }
+  ],
+  "60807402860000_gb506#2_md_mudlog": [
+   {
+    "label": "Clay/Shale",
+    "file": "5eecf0d74889.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     120,
+     240,
+     120
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "ff3c208b2c86.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     104,
+     207,
+     104
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "8134e4712438.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     188
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "362bfb5dbfce.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     248,
+     248,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "ea1684c503a3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     237,
+     237,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "2f086447cd97.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     172,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "1d1a486d006c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     114,
+     228
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "68a7fb05dc3b.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     240,
+     180,
+     180
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "7356f1e9856a.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     165,
+     165
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "b004438ccb1a.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     244,
+     183,
+     183
+    ]
+   },
+   {
+    "label": "Plastic Clay",
+    "file": "3f2ca6e3aaf3.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     116,
+     232,
+     116
+    ]
+   },
+   {
+    "label": "Diatomite",
+    "file": "a509236213ed.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     214,
+     214,
+     0
+    ]
+   }
+  ],
+  "60808400140000_hadrian 2_masterlog_2in_10000-21962": [
+   {
+    "label": "Shale grey",
+    "file": "9304be9c62ea.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     159,
+     159,
+     159
+    ]
+   },
+   {
+    "label": "Shale brown",
+    "file": "238b4fda8d22.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     166,
+     124,
+     80
+    ]
+   },
+   {
+    "label": "Shale green",
+    "file": "43c28de8d6a6.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     68,
+     202,
+     73
+    ]
+   },
+   {
+    "label": "I!S",
+    "file": "04dd561b4791.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     166,
+     103
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "5d037420579e.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     155,
+     96
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "1d69d2a4e8c7.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     176
+    ]
+   },
+   {
+    "label": "Sand",
+    "file": "3087d97d0b4e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     187
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "6c8e1083eac5.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     168,
+     189
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "e6b3744f6aaf.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     129,
+     145
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "e60b6c0f2437.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     168,
+     189
+    ]
+   },
+   {
+    "label": "Sylvite",
+    "file": "9d1efd4b62f7.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     153,
+     172
+    ]
+   },
+   {
+    "label": "Bitumen",
+    "file": "62cbcd3f2131.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     82,
+     82,
+     82
+    ]
+   },
+   {
+    "label": "Tuff",
+    "file": "1c6c2058b34e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     105,
+     105,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "a70949a8796b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     160,
+     201,
+     201
+    ]
+   },
+   {
+    "label": "Dolomitic clay",
+    "file": "8f9725252d96.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     143,
+     179,
+     187
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "6871f4babd3a.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     150,
+     187,
+     196
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "e6f961f7a54b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     85,
+     187
+    ]
+   },
+   {
+    "label": "MDT",
+    "file": "a54309dbf724.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     219,
+     219
+    ]
+   }
+  ],
+  "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev": [
+   {
+    "label": "Clay-shale",
+    "file": "0e25a728f2cb.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     209,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous clay-shal",
+    "file": "e6098430e349.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     190,
+     0
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "14f43c850e12.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "820feda64808.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     0,
+     187
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "dd2d3d650516.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     214,
+     214
+    ]
+   },
+   {
+    "label": "Argillaceous limesto",
+    "file": "6a81f56d168f.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     181,
+     181
+    ]
+   },
+   {
+    "label": "Oolitic limestone",
+    "file": "2f834cbe273e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     163,
+     163
+    ]
+   },
+   {
+    "label": "Bituminous limestone",
+    "file": "ce7e90e3d128.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     175,
+     175
+    ]
+   },
+   {
+    "label": "Silt",
+    "file": "609c654bd078.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     243,
+     243,
+     0
+    ]
+   },
+   {
+    "label": "Fine sand",
+    "file": "223f188bf82a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     231,
+     231,
+     0
+    ]
+   },
+   {
+    "label": "Medium sand",
+    "file": "0300445adb23.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     213,
+     213,
+     0
+    ]
+   },
+   {
+    "label": "Silstone",
+    "file": "d207b45a0cea.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     219,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "2410553578c5.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     219,
+     0
+    ]
+   },
+   {
+    "label": "Argill and calc sand",
+    "file": "c3419f321e84.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     192,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "e73c189b5b02.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     213,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811405120000_1inch tvd mudlog": [
+   {
+    "label": "Clay/Shale",
+    "file": "3c6968b1e6b7.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     164,
+     164,
+     164
+    ]
+   },
+   {
+    "label": "Sandy Clay/Shale",
+    "file": "095aad337d03.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     163,
+     163,
+     163
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "25a62f280826.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     121,
+     0
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "abe593f273ba.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     236,
+     236,
+     0
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "7a11afadbd76.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     239,
+     239,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "8a7974d478a3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     164,
+     218,
+     218
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "e5da0bbebfc6.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     106,
+     212
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "65ccd54645ac.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     231,
+     231,
+     231
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "02c39eeadf9e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     229
+    ]
+   },
+   {
+    "label": "Evaporites",
+    "file": "ed6cfd55b34f.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     159,
+     159,
+     159
+    ]
+   }
+  ],
+  "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400": [
+   {
+    "label": "Siltstone",
+    "file": "bc2a9f6b68c4.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     195,
+     195,
+     195
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "ca22dd9ba88f.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     253,
+     253,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "567b42b48f3b.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     245,
+     189,
+     189
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "e37e475c0a89.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     111,
+     217,
+     111
+    ]
+   },
+   {
+    "label": "Clay",
+    "file": "e1ab2291bfa0.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     125,
+     244,
+     125
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "d9987b694a65.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     242,
+     242
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "6a6628f00e58.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     122,
+     238
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "d2de841c01fa.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     123,
+     241,
+     123
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "5dd87ec617aa.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     242,
+     242
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "b313b599f4c6.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     244,
+     244
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "8ff0dbabd2c5.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     244,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "9dc9ab377c1c.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     233,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "a34889b99efe.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     250,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "363636371772.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "bb8876b9bc67.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     236,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811405800000_608114058000_g16786_001_00_00_md5_mud_show_2": [
+   {
+    "label": "Silstone",
+    "file": "99f598198b45.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     166,
+     166,
+     166
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "61a381213d3b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     217,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "8475c8cec452.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "37556605fe1c.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     115,
+     0
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "a669826d473e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     206,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "ff33a07f47d1.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "018945c25e55.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     180,
+     0,
+     180
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "563656619cf0.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     197,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "0c8e88bbf9d8.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "01c18b682d70.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     210,
+     210
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "7c1f2650d1ae.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "6dec09d61966.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "59a3593534da.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "8551be31439f.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     106,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "1c67805bc676.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811405800100_mdn-1_st00bp01_5 inch tvdmudlog_4560ft-22998ft": [
+   {
+    "label": "Silstone",
+    "file": "dc91b50b5b31.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     166,
+     166,
+     166
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "b280e9de6ea0.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     217,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "19ce7bbf42f2.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "116974505e5f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     115,
+     0
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "0bd0a076ec1f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     206,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "3d62e86eceb4.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "2d37be8cb373.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     180,
+     0,
+     180
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "fc56298fdc52.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     197,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "6c99c683aaa9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "781b85fc04d8.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     210,
+     210
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "a970482a2aef.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "dd7c30e3e65c.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     168,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "435e5a7860c4.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     200,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "1b0825f04fe7.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     105,
+     105,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "bb080272895e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811405800300_mdn-1_st01bp01_5 inch tvdmudlog_4560ft to 20251ft": [
+   {
+    "label": "Silstone",
+    "file": "e968e2a816ea.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     165,
+     165,
+     165
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "870f265d5d52.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "39913ddeec8a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "ac9daec8e876.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     120,
+     0
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "0b5ebd8a11cb.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     203,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "c2e2455b0619.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     213,
+     213
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "b750042cf779.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     0,
+     193
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "5875391571ca.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "b2e34e88242c.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     203,
+     203
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "bbf348f089c1.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     221,
+     221
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "5cd15a95ecf3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     224,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "371f721e52b2.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     165,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "1add23c11d45.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "10141cf777ca.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     105,
+     105,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "9d4eae4ac3a9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     91,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811405800500_608114058005_g16786_001_03_00_tvd5_mud": [
+   {
+    "label": "Silstone",
+    "file": "142f64059472.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     166,
+     166,
+     166
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "0a5dc82a1ddb.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     217,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "084472915519.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "ce46b12c5d9d.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     115,
+     0
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "1bf6d006a6a2.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     206,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "1958208a09c2.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "f0aefd09c3d3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     180,
+     0,
+     180
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "7ba2e5af2cf7.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     197,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "189d06405314.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "86737a431e68.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     210,
+     210
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "cce53412d761.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "02f1c5e0e70f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     168,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "94314bd9877a.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     200,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "b4e405d875e5.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     105,
+     105,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "43a1ff8dc362.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811406050000_608114060500_g31765 001 st00 bp00__master log_5640-28740_5 in_md": [
+   {
+    "label": "Siltstone",
+    "file": "f43d43ebd1e0.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     71,
+     0
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "4863381ff9af.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     225,
+     225,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "a65bbc16116d.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     205,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay-shale",
+    "file": "5b49612a862f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     112,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "637e3c458ec1.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "33aef22ed144.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     189
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "ca4e993cc7bd.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     169
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "de7adbf85a2b.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "a12ef88b97da.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     179,
+     179
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "9df0577daf61.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     204
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "1286b77a2c4f.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     216,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sandy Clay-Shale",
+    "file": "dcd30256dcd6.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     190,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "7ebcba1640b0.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     190,
+     190,
+     0
+    ]
+   },
+   {
+    "label": "Tar",
+    "file": "03bd4b3aaf1a.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "111fb7ff8bd7.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     88,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sylvite",
+    "file": "c64f2ce6efc1.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     182,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811406050100_ardennes_ocs-g31765 001 st00 bp01__master log_5640-36552_5 in_md": [
+   {
+    "label": "Siltstone",
+    "file": "daeb3c61cc07.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     71,
+     0
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "d9dd2940276b.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     225,
+     225,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "9c0a24adc243.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     205,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Clay-shale",
+    "file": "3258b722867f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     112,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "e1a1f0fea567.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "ed54f9952245.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     189
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "1560fe419f17.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     169
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "7e8f5ade6d28.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "3b3440043b21.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     179,
+     179
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "cfd4c339e1c0.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     204
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "45423b6e8527.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     216,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sandy Clay-Shale",
+    "file": "4dc1bdfa8320.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     190,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "75ae7fc364d2.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     190,
+     190,
+     0
+    ]
+   },
+   {
+    "label": "Tar",
+    "file": "9ca768a10b3b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "691e22a81d48.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     88,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sylvite",
+    "file": "cd5f04eebab5.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     182,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872": [
+   {
+    "label": "Clay Shale",
+    "file": "a99f60658e29.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous clay-shale",
+    "file": "462f2ed87a90.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     177,
+     0
+    ]
+   },
+   {
+    "label": "Silty clay-shale",
+    "file": "a84d6a125dec.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     179,
+     0
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "1797de6515ac.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     49,
+     118,
+     61
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "bfa142029a33.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Argillaceous limestone",
+    "file": "a295da863e76.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     166,
+     166
+    ]
+   },
+   {
+    "label": "Bituminous limestone",
+    "file": "1f3d3553839e.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     169,
+     169
+    ]
+   },
+   {
+    "label": "Oolic limestone",
+    "file": "849195bc7664.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     160,
+     160
+    ]
+   },
+   {
+    "label": "Coarsesandstone",
+    "file": "7e4a2781981c.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     196,
+     196,
+     0
+    ]
+   },
+   {
+    "label": "Medium sandstone",
+    "file": "c88d465ca896.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     216,
+     216,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "b9e5b899c544.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Fine sand",
+    "file": "ea6f6bdea4f9.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     228,
+     0
+    ]
+   },
+   {
+    "label": "Medium sand",
+    "file": "d9946e31cc98.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous sandstone",
+    "file": "44365e5d488a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic sandstone",
+    "file": "7d65bf120ce3.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     210,
+     210,
+     0
+    ]
+   },
+   {
+    "label": "Silt",
+    "file": "348beba46825.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     0
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "f743b8e318ce.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "fa36d585fd6e.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "d03a0fe781c1.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     178,
+     0,
+     178
+    ]
+   },
+   {
+    "label": "Fine Dolomite",
+    "file": "c7ed7ed0532b.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     172,
+     0,
+     172
+    ]
+   },
+   {
+    "label": "Sandy Dolomite",
+    "file": "742f4de4acd7.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     170,
+     0,
+     170
+    ]
+   },
+   {
+    "label": "Sandy and calcareous dolomite",
+    "file": "1d9b478f2d7e.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     150,
+     0,
+     150
+    ]
+   },
+   {
+    "label": "Argil and sandy dolomite",
+    "file": "df9274a94257.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     147,
+     0,
+     147
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "c9ffa39192a3.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "e03398c4e97c.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     158,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "3745379a34ae.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sylvite",
+    "file": "01da9247054f.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Coal-lignite",
+    "file": "1ad432897f52.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Basalt",
+    "file": "b3d4771105f2.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     106,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "3110e21cd0c3.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     92,
+     0,
+     0
+    ]
+   }
+  ],
+  "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643": [
+   {
+    "label": "Clay Shale",
+    "file": "7ef1a46231c3.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous clay-shale",
+    "file": "68d26f7fe394.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     177,
+     0
+    ]
+   },
+   {
+    "label": "Silty clay-shale",
+    "file": "f1f1abc60fc4.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     179,
+     0
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "9788e9cd4907.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     194,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "9ce3d4438f11.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Argillaceous limestone",
+    "file": "3c91f9f1e826.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     166,
+     166
+    ]
+   },
+   {
+    "label": "Bituminous limestone",
+    "file": "8650091731f7.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     168,
+     168
+    ]
+   },
+   {
+    "label": "Oolic limestone",
+    "file": "de1c617c6dc7.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     160,
+     160
+    ]
+   },
+   {
+    "label": "Coarse sandstone",
+    "file": "8c8012654151.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     196,
+     196,
+     0
+    ]
+   },
+   {
+    "label": "Medium sandstone",
+    "file": "87a55fff0255.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     216,
+     216,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "f101240c2fb4.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Fine sand",
+    "file": "0d94201f7684.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     228,
+     0
+    ]
+   },
+   {
+    "label": "Mediumsand",
+    "file": "3943a38d5a63.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous sandstone",
+    "file": "f0ef26e30c15.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic sandstone",
+    "file": "caef01b2c75f.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     210,
+     210,
+     0
+    ]
+   },
+   {
+    "label": "Silt",
+    "file": "054c3da986f5.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     0
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "27e2b147a18f.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "2a72e2de15f2.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "35d85f67b441.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     178,
+     0,
+     178
+    ]
+   },
+   {
+    "label": "Fine Dolomite",
+    "file": "a8350276e6d4.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     172,
+     0,
+     172
+    ]
+   },
+   {
+    "label": "Sandy Dolomite",
+    "file": "3e8ed74e931e.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     170,
+     0,
+     170
+    ]
+   },
+   {
+    "label": "Sandy and calcareous dolomite",
+    "file": "abbb8be1c692.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     150,
+     0,
+     150
+    ]
+   },
+   {
+    "label": "Argil and sandy dolomite",
+    "file": "6109be6dc5e6.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     147,
+     0,
+     147
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "916ecae32415.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "229c29f1cfb7.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     157,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "d40e6258b74c.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sylvite",
+    "file": "8a87c57e0d87.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Coal-lignite",
+    "file": "0ebf06fedc0f.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Basalt",
+    "file": "ada171da5be2.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     106,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "793861644f12.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     92,
+     0,
+     0
+    ]
+   }
+  ],
+  "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD": [
+   {
+    "label": "Breccia",
+    "file": "c2c6e0a3092a.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     100,
+     115,
+     186
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "7ffa49988c79.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     199,
+     200
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "7ea999f02535.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     198,
+     129,
+     156
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "e60b253bbb54.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     150,
+     130,
+     6
+    ]
+   },
+   {
+    "label": "Mudstone",
+    "file": "f0d22de1e00a.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     186,
+     188
+    ]
+   },
+   {
+    "label": "Gypsum, Anhyd.",
+    "file": "6ac3fa7b7d6f.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     214,
+     214,
+     214
+    ]
+   },
+   {
+    "label": "Pebbles",
+    "file": "911d7d0190f5.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     134,
+     114,
+     7
+    ]
+   },
+   {
+    "label": "Wackstone",
+    "file": "2d487386d01c.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     187,
+     189
+    ]
+   },
+   {
+    "label": "Salt (K-Na-Mg)",
+    "file": "a488148212a1.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     196,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Sand",
+    "file": "0320b37c6273.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     221,
+     219,
+     2
+    ]
+   },
+   {
+    "label": "Packstone",
+    "file": "eca0e10ef328.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     189,
+     191
+    ]
+   },
+   {
+    "label": "Extrusive Rocks",
+    "file": "4ea265cce77e.png",
+    "w": 42,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     1,
+     1
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "16cbd483f4c1.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     190,
+     4
+    ]
+   },
+   {
+    "label": "Grainstone",
+    "file": "3044d0729a1d.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     183,
+     186
+    ]
+   },
+   {
+    "label": "Intrusive Rocks",
+    "file": "a016c5b05a73.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     170,
+     1,
+     1
+    ]
+   },
+   {
+    "label": "Silt",
+    "file": "a224d56b8b31.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     240,
+     240,
+     1
+    ]
+   },
+   {
+    "label": "Boundstone",
+    "file": "63f90a4c3b25.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     181,
+     183
+    ]
+   },
+   {
+    "label": "Methamorphics",
+    "file": "840369d7946c.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     190,
+     190
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "756c1ddd5538.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     228,
+     0
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "48a9edd64e07.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     16,
+     167,
+     170
+    ]
+   },
+   {
+    "label": "Silty Clay",
+    "file": "df92d4e09ceb.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     221,
+     0
+    ]
+   },
+   {
+    "label": "Arg. Limestone",
+    "file": "fbd646ab42f7.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     9,
+     174,
+     171
+    ]
+   },
+   {
+    "label": "Claystone Sililicif.",
+    "file": "f6cfeba73392.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Sils. Limestone",
+    "file": "070ad6b74d36.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     166,
+     169
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "63f23ee1661a.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     191,
+     191
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "f75a0c93012b.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Dol. Limestone",
+    "file": "2e3aa610c715.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     184,
+     186
+    ]
+   },
+   {
+    "label": "Coal - Lignite",
+    "file": "be6eded1f66c.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     38,
+     38,
+     40
+    ]
+   },
+   {
+    "label": "Calc. Dolomite",
+    "file": "02cd7367bba8.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     165,
+     110,
+     131
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "865d457f0215.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     181,
+     181,
+     181
+    ]
+   }
+  ],
+  "60812400480000_ocs-g 26419 001 st00bp00_masterlog_7860-27400_5in_md_2": [
+   {
+    "label": "Claystone",
+    "file": "beaf608fa5c2.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "e229ef433913.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     124,
+     0
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "d78cef0ace26.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "72fdda92f35b.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     232,
+     232,
+     0
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "2dfb573b2f30.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "65206b98a2db.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     194,
+     194
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "a487bf51d81b.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     174,
+     0,
+     174
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "9aa499ae9ddc.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "06b272a2cb9f.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "5833b246fc15.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Salted water",
+    "file": "2238a2353c80.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     209,
+     209
+    ]
+   },
+   {
+    "label": "Oil_Good",
+    "file": "32559cef2a13.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Gas_Good",
+    "file": "f4c6657d5cfb.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     198,
+     198,
+     198
+    ]
+   }
+  ],
+  "60812400810000_ocs-g 16987 003 st00bp00_1inmd_mudlog_8921_15721": [
+   {
+    "label": "Volcanic cinder, tuf",
+    "file": "c2129762a409.png",
+    "w": 49,
+    "h": 28,
+    "mean_rgb": [
+     117,
+     117,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "db67e8c245d9.png",
+    "w": 49,
+    "h": 28,
+    "mean_rgb": [
+     221,
+     221,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous sandstone",
+    "file": "60c73a186de8.png",
+    "w": 50,
+    "h": 28,
+    "mean_rgb": [
+     214,
+     214,
+     0
+    ]
+   },
+   {
+    "label": "Medium sand",
+    "file": "72087a78febe.png",
+    "w": 49,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     0
+    ]
+   },
+   {
+    "label": "S",
+    "file": "f0ec8431eb24.png",
+    "w": 50,
+    "h": 28,
+    "mean_rgb": [
+     244,
+     244,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "68a467faa337.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     204
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "a3c4022b1471.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "d38eaae281d0.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     214,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous clay-shal",
+    "file": "c83b00149ede.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     194,
+     0
+    ]
+   },
+   {
+    "label": "Medium sand",
+    "file": "4ab8ebdf7883.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     213,
+     213,
+     0
+    ]
+   },
+   {
+    "label": "Clay-shale",
+    "file": "b7a481b069bd.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Fine sand",
+    "file": "b8076a23e0a1.png",
+    "w": 48,
+    "h": 28,
+    "mean_rgb": [
+     230,
+     230,
+     0
+    ]
+   },
+   {
+    "label": "Dry",
+    "file": "a2175543592f.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     230,
+     230,
+     230
+    ]
+   },
+   {
+    "label": "Gas_Good",
+    "file": "d1eeb81c72f0.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     209,
+     209
+    ]
+   },
+   {
+    "label": "Oil_Good",
+    "file": "115a9e43d4f6.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     200,
+     200,
+     200
+    ]
+   },
+   {
+    "label": "Oil_Poor",
+    "file": "a74f92e22be0.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     216,
+     216,
+     216
+    ]
+   }
+  ],
+  "60812401020000_xom_ocs-g_20351_ju103_st00bp00_mudlog_10200-30900ft_5in_tvd": [
+   {
+    "label": "Clay-shale",
+    "file": "5a8ce344943c.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     207,
+     0
+    ]
+   },
+   {
+    "label": "Silty clay-shale",
+    "file": "2a9013ed04eb.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     97,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "81e862487056.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     202
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "5665b1d8a735.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     142,
+     169
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "ead1eda18071.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     176,
+     0,
+     176
+    ]
+   },
+   {
+    "label": "Slaty shale",
+    "file": "510e97d8e682.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     65,
+     65
+    ]
+   },
+   {
+    "label": "Coarse sand",
+    "file": "7b91f46ff676.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     205,
+     205,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "a2bfdc8e833f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     182,
+     182
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "f7530085abf3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     113,
+     134
+    ]
+   },
+   {
+    "label": "Volcanic rock",
+    "file": "e6458ef1c8f0.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     110,
+     110,
+     0
+    ]
+   },
+   {
+    "label": "Calcareous clay-shal",
+    "file": "1a114095ea0c.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     46,
+     93,
+     93
+    ]
+   },
+   {
+    "label": "Fine sand",
+    "file": "c970c093d208.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     231,
+     231,
+     0
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "b47f3a687f3a.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     204
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "8e821d63b7f7.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     224,
+     151,
+     179
+    ]
+   },
+   {
+    "label": "Bitumen",
+    "file": "08e19a7a6f54.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "60817410140000_mc822#10 1-1200 mud log": [
+   {
+    "label": "Clay-shale",
+    "file": "597704f09a89.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     124,
+     124,
+     124
+    ]
+   },
+   {
+    "label": "Slaty shale",
+    "file": "92a5796f9f92.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     78,
+     78,
+     78
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "be777c29896c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     198
+    ]
+   },
+   {
+    "label": "Silty clay-shale",
+    "file": "28dc9f171f4e.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     115,
+     115,
+     115
+    ]
+   },
+   {
+    "label": "Sandy clay-shale",
+    "file": "cf452b4fa2ab.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     121,
+     121,
+     121
+    ]
+   },
+   {
+    "label": "Silstone",
+    "file": "da8d1314aae3.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     223,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "b4dd95fff2c7.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Medium sandstone",
+    "file": "11c23729f2a3.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     217,
+     217,
+     0
+    ]
+   },
+   {
+    "label": "Coarse sandstone",
+    "file": "44c6d30bbc05.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     0
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "737939f1a0f6.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     194,
+     194,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "19c8e5447486.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     202
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "13c2372d02db.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     214,
+     214
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "7a0ad941da92.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     199,
+     199
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "715b4ef803b6.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     172,
+     172
+    ]
+   },
+   {
+    "label": "Coal-lignite",
+    "file": "af4083e3224a.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "c8003becd848.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     81,
+     81,
+     212
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "2d5eb82af697.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     169
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "b448f7c313bb.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     225,
+     0,
+     225
+    ]
+   },
+   {
+    "label": "Volcanic rock",
+    "file": "0719db2e3d89.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     61,
+     0
+    ]
+   },
+   {
+    "label": "Oil_Good",
+    "file": "9364d9b2f531.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     188
+    ]
+   },
+   {
+    "label": "Oil_Moderate",
+    "file": "52457037ba8b.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     202,
+     202,
+     202
+    ]
+   }
+  ],
+  "60817410140100_mc822#10bp01 1-240 tvd mud log": [
+   {
+    "label": "Clay-shale",
+    "file": "98e75ac09b4f.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     126,
+     126,
+     126
+    ]
+   },
+   {
+    "label": "Slaty shale",
+    "file": "41877466e228.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     73,
+     73,
+     73
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "3a2a165ed893.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     202
+    ]
+   },
+   {
+    "label": "Silty clay-shale",
+    "file": "e5de145ca62b.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     118,
+     118,
+     118
+    ]
+   },
+   {
+    "label": "Sandy clay-shale",
+    "file": "fa119c5e6775.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     122,
+     122,
+     122
+    ]
+   },
+   {
+    "label": "Silstone",
+    "file": "d77b21c652c5.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     224,
+     224,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "0f9c8c03c8d0.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Medium sandstone",
+    "file": "485f9a4dea1c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     221,
+     221,
+     0
+    ]
+   },
+   {
+    "label": "Coarse sandstone",
+    "file": "8a646cf359c5.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "a734a953ae74.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "27e56b7d7b9b.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     200,
+     200
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "195d8249fad3.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     218,
+     218
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "098b11ba0e4c.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     199,
+     199
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "ca96c7c08e53.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     178,
+     178
+    ]
+   },
+   {
+    "label": "Coal-lignite",
+    "file": "d4826567cf02.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "3477da00ae70.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     80,
+     80,
+     209
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "c7759454b9d1.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     0,
+     227
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "9192ae94f842.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     170,
+     0,
+     170
+    ]
+   },
+   {
+    "label": "Volcanic rock",
+    "file": "132db46307bf.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     61,
+     0
+    ]
+   },
+   {
+    "label": "Oil_Good",
+    "file": "0c2b1905e03e.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     188
+    ]
+   },
+   {
+    "label": "Oil_Moderate",
+    "file": "6895ca0b2998.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     202,
+     202,
+     202
+    ]
+   }
+  ],
+  "60817411400100_mc761_1_st1_mudlog_1md_17133_22886": [
+   {
+    "label": "Anhydrite",
+    "file": "84546d5fb6c9.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     0,
+     110
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "b5fe22407496.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     225,
+     225,
+     0
+    ]
+   },
+   {
+    "label": "Marlstone",
+    "file": "910853b7d36c.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     198,
+     199
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "c34373582525.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     208,
+     111,
+     54
+    ]
+   },
+   {
+    "label": "Salt",
+    "file": "a1f125d4b15b.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     225,
+     0,
+     224
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "14f86072b2fb.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     102,
+     104,
+     99
+    ]
+   },
+   {
+    "label": "Breccia",
+    "file": "c9787fac1d31.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     189,
+     113
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "8417bc4ddd9d.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     208,
+     116
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "e7be21d82739.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     165,
+     162,
+     160
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "96eec503f103.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     2,
+     11,
+     168
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "9be267674913.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     164,
+     0,
+     83
+    ]
+   }
+  ],
+  "60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968": [
+   {
+    "label": "Anhydrite",
+    "file": "4a62587469a3.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     240,
+     0,
+     120
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "0cfc6f289fa3.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     238,
+     238,
+     0
+    ]
+   },
+   {
+    "label": "Marlstone",
+    "file": "44f05a4f3ee0.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     201
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "1acaf748c28a.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     214,
+     107,
+     53
+    ]
+   },
+   {
+    "label": "Salt",
+    "file": "d4e741fd08b9.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     0,
+     211
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "83cf5238e891.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     108,
+     108,
+     108
+    ]
+   },
+   {
+    "label": "Breccia",
+    "file": "397b881da2ef.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     187,
+     112
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "9566b0b8cc75.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     207,
+     207,
+     114
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "b15163b9446c.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     165,
+     165,
+     165
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "454adac3c2ee.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     177
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "a189cd93eaff.png",
+    "w": 31,
+    "h": 28,
+    "mean_rgb": [
+     179,
+     0,
+     90
+    ]
+   }
+  ],
+  "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775": [
+   {
+    "label": "Anhydrite",
+    "file": "da6ecc96f062.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     239,
+     0,
+     120
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "8f9fd5357c2b.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     225,
+     225,
+     0
+    ]
+   },
+   {
+    "label": "Marlstone",
+    "file": "4f33dbbf556e.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     199,
+     200
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "a776352b1e9f.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     200,
+     105,
+     51
+    ]
+   },
+   {
+    "label": "Salt",
+    "file": "b9ade07ae817.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     221,
+     0,
+     220
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "339cff5f33b9.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     102,
+     97,
+     95
+    ]
+   },
+   {
+    "label": "Breccia",
+    "file": "b00e8b08b425.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     189,
+     115
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "1056f3996aad.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     162,
+     167,
+     170
+    ]
+   },
+   {
+    "label": "Conglomerate",
+    "file": "205a37359240.png",
+    "w": 34,
+    "h": 28,
+    "mean_rgb": [
+     203,
+     203,
+     116
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "3e4bba1b3945.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     5,
+     5,
+     171
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "d18b2bd32e45.png",
+    "w": 30,
+    "h": 28,
+    "mean_rgb": [
+     176,
+     0,
+     89
+    ]
+   }
+  ],
+  "60817411420000_mc_540_#1_st00_bp00_masterlog_3400-24195_5in_md": [
+   {
+    "label": "Claystone",
+    "file": "6cb89b1d1076.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "62cfa96dcb50.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     124,
+     0
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "79942a8c7171.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "1e60f6a855bd.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     231,
+     231,
+     0
+    ]
+   },
+   {
+    "label": "Silstone",
+    "file": "a7dfa5775180.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     223,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "fd5595f547a0.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     194,
+     194
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "50a151a2ed30.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     175,
+     0,
+     175
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "71867ecda399.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "4fbe6248b0d6.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     214,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "16847245b80a.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     226,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Salted water",
+    "file": "a8423c74392b.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     210,
+     210,
+     210
+    ]
+   },
+   {
+    "label": "Oil_Good",
+    "file": "c956f99088f8.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Gas_Good",
+    "file": "a9fbb33a0fc6.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     198,
+     198,
+     198
+    ]
+   }
+  ],
+  "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms": [
+   {
+    "label": "Clay-shale",
+    "file": "d3ca2e4bdeee.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     122,
+     122,
+     122
+    ]
+   },
+   {
+    "label": "Slaty shale",
+    "file": "e178c76bf556.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     80,
+     80,
+     80
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "067c9b2056ca.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     0
+    ]
+   },
+   {
+    "label": "Silty clay-shale",
+    "file": "91c805843771.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     113,
+     113,
+     113
+    ]
+   },
+   {
+    "label": "Sandy clay-shale",
+    "file": "6c2d01c99139.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     120,
+     120,
+     120
+    ]
+   },
+   {
+    "label": "Silstone",
+    "file": "74cdebad36a9.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     223,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "1686052a0d98.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Medium sandstone",
+    "file": "2a0750d87e1e.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Coarse sandstone",
+    "file": "fc913dacdb5a.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "88f402237cf7.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "85920fb8e58b.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     200,
+     200
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "34d69566648f.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     214,
+     214
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "9dbb209c2a6f.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     199,
+     199
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "2185bf99fbe2.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     172,
+     172
+    ]
+   },
+   {
+    "label": "Coal-lignite",
+    "file": "0b1ae4238e08.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "bcccef37683c.png",
+    "w": 40,
+    "h": 28,
+    "mean_rgb": [
+     81,
+     81,
+     211
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "3695cc72cd3d.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     169
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "d37e14c699a3.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     227,
+     0,
+     227
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "3f2744a4e776.png",
+    "w": 39,
+    "h": 28,
+    "mean_rgb": [
+     103,
+     103,
+     0
+    ]
+   },
+   {
+    "label": "Oil_Good",
+    "file": "eaa21f9a0839.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     188
+    ]
+   },
+   {
+    "label": "Oil_Moderate",
+    "file": "3bd568513ef6.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     202,
+     202,
+     202
+    ]
+   }
+  ],
+  "60817412840000_mc_776_6_ml_mudlog_5757_23721_5in_md_final": [
+   {
+    "label": "Clay-shale",
+    "file": "e5346d96a4fa.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     206,
+     0
+    ]
+   },
+   {
+    "label": "Calc clay-shale",
+    "file": "871934800a55.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     190,
+     0
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "a25ec9342069.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     55,
+     55,
+     55
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "7baeb59087fb.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     186,
+     0,
+     186
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "c0f2afaf311b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     197,
+     197
+    ]
+   },
+   {
+    "label": "Argill limestone",
+    "file": "3d34e735a4a7.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     176,
+     176
+    ]
+   },
+   {
+    "label": "Oolitic limestone",
+    "file": "01b3d9883e15.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     161,
+     161
+    ]
+   },
+   {
+    "label": "Bituminous limestone",
+    "file": "fbad3c77c743.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     171,
+     171
+    ]
+   },
+   {
+    "label": "Silt",
+    "file": "9304e429c8f3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     241,
+     241,
+     0
+    ]
+   },
+   {
+    "label": "Fine sand",
+    "file": "d5c4ff38771b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     229,
+     229,
+     0
+    ]
+   },
+   {
+    "label": "Medium sand",
+    "file": "46441578f432.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     0
+    ]
+   },
+   {
+    "label": "Siltstone",
+    "file": "1db979df313d.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     224,
+     224,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "6c915e1ee69c.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     221,
+     221,
+     0
+    ]
+   },
+   {
+    "label": "Argill and calc sand",
+    "file": "3a06d17a9047.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     195,
+     195,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "72a969ca430e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     151,
+     160
+    ]
+   }
+  ],
+  "60818400600100_608184006001_g08037_002_01_00_5 inch mudlog_13452ft-19912ft": [
+   {
+    "label": "Siltstone",
+    "file": "fc99dc3a8d3a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     166,
+     166,
+     166
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "863763997beb.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     230,
+     230,
+     0
+    ]
+   },
+   {
+    "label": "Halite",
+    "file": "2bed5bfa76ae.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Shale",
+    "file": "f821209af85f.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     112,
+     0
+    ]
+   },
+   {
+    "label": "Claystone",
+    "file": "f037dbd4df2a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Limestone",
+    "file": "cb13df484829.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     196,
+     196
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "907abda828cf.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     180,
+     0,
+     180
+    ]
+   },
+   {
+    "label": "Marl",
+    "file": "ed0b0c95006b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     197,
+     0
+    ]
+   },
+   {
+    "label": "Dolomitic limestone",
+    "file": "38299f371933.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     187,
+     187
+    ]
+   },
+   {
+    "label": "Chalk",
+    "file": "b608e6213bea.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     210,
+     210
+    ]
+   },
+   {
+    "label": "Gypsum",
+    "file": "6f0bde512a49.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     228,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "02d80ccb087b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     168,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Chert",
+    "file": "5842427c8174.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     200,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "Volcanics",
+    "file": "5cd0b2a417cf.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     105,
+     105,
+     0
+    ]
+   },
+   {
+    "label": "Granite",
+    "file": "cc87bfb9fb4f.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     0,
+     0
+    ]
+   }
+  ],
+  "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378": [
+   {
+    "label": "Siltstone",
+    "file": "cca68da6f363.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     190,
+     190,
+     190
+    ]
+   },
+   {
+    "label": "Sandstone",
+    "file": "c9a3f4a6fe58.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     253,
+     253,
+     3
+    ]
+   },
+   {
+    "label": "Tuff",
+    "file": "c1061bf609f9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     184,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "Dolomite",
+    "file": "74a35a5d1d08.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     235,
+     121,
+     235
+    ]
+   },
+   {
+    "label": "Clay/Shale",
+    "file": "e7b524e87af4.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     125,
+     245,
+     125
+    ]
+   },
+   {
+    "label": "Anhydrite",
+    "file": "2238d783a32d.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     235,
+     7,
+     7
+    ]
+   }
+  ],
+  "Callaway 3-33 mudlog to TD.PDF": [
+   {
+    "label": "CEMENT CHALK",
+    "file": "5a2269a44b18.png",
+    "w": 92,
+    "h": 28,
+    "mean_rgb": [
+     198,
+     218,
+     219
+    ]
+   },
+   {
+    "label": "SALT-PEPPERSAND GRANITE SANDSTONE GYPSUM",
+    "file": "00cbb54af937.png",
+    "w": 88,
+    "h": 28,
+    "mean_rgb": [
+     168,
+     115,
+     156
+    ]
+   },
+   {
+    "label": "TILL TUFF WELDED TUFF",
+    "file": "8fc36c4825bd.png",
+    "w": 55,
+    "h": 28,
+    "mean_rgb": [
+     198,
+     80,
+     78
+    ]
+   },
+   {
+    "label": "CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE",
+    "file": "de7dd037a20d.png",
+    "w": 60,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     219,
+     161
+    ]
+   },
+   {
+    "label": "SHALE SHALE COLORED SHALE GRAY",
+    "file": "133fe442b07b.png",
+    "w": 58,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     173,
+     166
+    ]
+   }
+  ],
+  "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf": [
+   {
+    "label": "DOLOMITE",
+    "file": "26ebbc919f1c.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     83,
+     44,
+     114
+    ]
+   },
+   {
+    "label": "SHALEGRAY",
+    "file": "364b2dfcf06f.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     184,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "TILL",
+    "file": "fcbfcfb2a94d.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     133,
+     76,
+     54
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "33d327cc4c1c.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     117,
+     24
+    ]
+   },
+   {
+    "label": "CHERT",
+    "file": "73641d8cfda7.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     201,
+     201
+    ]
+   },
+   {
+    "label": "SHALE COLORED",
+    "file": "ae65195ef3dc.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     129,
+     76,
+     55
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "412b38cfcee3.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     130,
+     130,
+     130
+    ]
+   },
+   {
+    "label": "GYPSUM",
+    "file": "20f1a98ac626.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     98,
+     47,
+     130
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "194b479f3038.png",
+    "w": 16,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SILTSTONE",
+    "file": "d61283fe4d24.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     239,
+     120,
+     9
+    ]
+   },
+   {
+    "label": "TUFF",
+    "file": "96013ad71cce.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     26,
+     34
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "370bfc9d5cac.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     39,
+     119,
+     61
+    ]
+   },
+   {
+    "label": "MARLSTONE",
+    "file": "057d9f006792.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     224,
+     224,
+     224
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "77eb43e87fa1.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     231,
+     224,
+     16
+    ]
+   },
+   {
+    "label": "IGNEOUS",
+    "file": "65921f872382.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     113,
+     8,
+     33
+    ]
+   },
+   {
+    "label": "CHALK",
+    "file": "2debb6068d67.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     177,
+     137,
+     108
+    ]
+   },
+   {
+    "label": "CLAYSTONE",
+    "file": "31e99f191fb4.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     135,
+     188,
+     202
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "8998ef6e3d73.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     189,
+     119
+    ]
+   },
+   {
+    "label": "METAMORPHIC",
+    "file": "d49598b20cb7.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     139,
+     27,
+     29
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "310c5cf482db.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     127,
+     167,
+     177
+    ]
+   },
+   {
+    "label": "SHALE",
+    "file": "a2101e3320e6.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     211
+    ]
+   },
+   {
+    "label": "BRECCIA",
+    "file": "120945cec967.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     188
+    ]
+   },
+   {
+    "label": "CEMENT",
+    "file": "6070499cdcca.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     168,
+     168,
+     168
+    ]
+   }
+  ],
+  "Critter Creek 202-1807H_Mud_Vertical_PDF.pdf": [
+   {
+    "label": "DOLOMITE",
+    "file": "fbfe4a68d371.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     83,
+     44,
+     114
+    ]
+   },
+   {
+    "label": "SHALEGRAY",
+    "file": "ec5902aad7f2.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     184,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "TILL",
+    "file": "2592c979c834.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     133,
+     76,
+     54
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "a1ee4ed9d480.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     117,
+     24
+    ]
+   },
+   {
+    "label": "CHERT",
+    "file": "686e6227fbb5.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     201,
+     201
+    ]
+   },
+   {
+    "label": "SHALE COLORED",
+    "file": "884b95d992ac.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     129,
+     76,
+     55
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "1cecdfb7b155.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     130,
+     130,
+     130
+    ]
+   },
+   {
+    "label": "GYPSUM",
+    "file": "4dd7f9253d10.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     98,
+     47,
+     130
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "d5a685afdfcd.png",
+    "w": 16,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SILTSTONE",
+    "file": "de7d6cf01097.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     239,
+     120,
+     9
+    ]
+   },
+   {
+    "label": "TUFF",
+    "file": "799c430b8047.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     26,
+     34
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "a565700cfa91.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     39,
+     117,
+     60
+    ]
+   },
+   {
+    "label": "MARLSTONE",
+    "file": "1673ca758d84.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     223,
+     223
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "d988f02e2078.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     231,
+     224,
+     16
+    ]
+   },
+   {
+    "label": "IGNEOUS",
+    "file": "8ffaf418d452.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     113,
+     8,
+     33
+    ]
+   },
+   {
+    "label": "CHALK",
+    "file": "d239fed235c2.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     177,
+     137,
+     108
+    ]
+   },
+   {
+    "label": "CLAYSTONE",
+    "file": "fae564ed7d44.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     135,
+     188,
+     202
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "4e404fdfb858.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     189,
+     119
+    ]
+   },
+   {
+    "label": "METAMORPHIC",
+    "file": "ad8840b71838.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     139,
+     27,
+     29
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "61a27d6abf5d.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     127,
+     167,
+     177
+    ]
+   },
+   {
+    "label": "SHALE",
+    "file": "8c1d89d616aa.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     211
+    ]
+   },
+   {
+    "label": "BRECCIA",
+    "file": "be905f642e31.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     188
+    ]
+   },
+   {
+    "label": "CEMENT",
+    "file": "10a45e0dc51d.png",
+    "w": 243,
+    "h": 28,
+    "mean_rgb": [
+     168,
+     168,
+     168
+    ]
+   }
+  ],
+  "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft": [
+   {
+    "label": "Clay-S",
+    "file": "b5db90b81c65.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     208,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SCS",
+    "file": "e7fa962d250a.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     193,
+     0
+    ]
+   },
+   {
+    "label": "Clay-M",
+    "file": "586ad6cfc58b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Clay-CCS",
+    "file": "9e8cde1bcdb4.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SACS",
+    "file": "4e61e6db3645.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SIS",
+    "file": "6571e1b60fb8.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SS",
+    "file": "6b6633ba712d.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     243,
+     243,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FS",
+    "file": "102bafa440ee.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     232,
+     232,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MS",
+    "file": "f66d3d49526b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     0
+    ]
+   },
+   {
+    "label": "Sand-CS",
+    "file": "2d374dd7e1e3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FSS",
+    "file": "f6af5b2e8842.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MSS",
+    "file": "b3eb39a002ec.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     0
+    ]
+   },
+   {
+    "label": "Limestone-AL",
+    "file": "268762d5feaa.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "Limestone-SL",
+    "file": "cb2783e2db99.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     198
+    ]
+   },
+   {
+    "label": "Limestone-L",
+    "file": "1307df9e2519.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     203,
+     203
+    ]
+   },
+   {
+    "label": "Dolomites-AD",
+    "file": "640b80e43c46.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     163,
+     0,
+     163
+    ]
+   },
+   {
+    "label": "Dolomites-CD",
+    "file": "b5f6223d886a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     183,
+     0,
+     183
+    ]
+   },
+   {
+    "label": "Dolomites-D",
+    "file": "adb53f89c161.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     0,
+     192
+    ]
+   },
+   {
+    "label": "Others-H",
+    "file": "faed6c55de23.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-A",
+    "file": "adc00a816b66.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-GY",
+    "file": "aa2553017081.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-E",
+    "file": "77afb757620d.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     114,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-CL",
+    "file": "a36df0b6d5a0.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft": [
+   {
+    "label": "Clay-S",
+    "file": "9ea29c6cc2e1.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     208,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SCS",
+    "file": "bdd3cf8eb7b9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     193,
+     0
+    ]
+   },
+   {
+    "label": "Clay-M",
+    "file": "7ccd429a1bc3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Clay-CCS",
+    "file": "60b0325a98f9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SACS",
+    "file": "9ffddc58c7a0.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SIS",
+    "file": "574ee742fb05.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SS",
+    "file": "cf078b3854c9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     243,
+     243,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FS",
+    "file": "29c5acedb540.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     232,
+     232,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MS",
+    "file": "365e1870ce11.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     0
+    ]
+   },
+   {
+    "label": "Sand-CS",
+    "file": "365ca49b64db.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FSS",
+    "file": "db943365cbba.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MSS",
+    "file": "c7900503a1fc.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     0
+    ]
+   },
+   {
+    "label": "Limestone-AL",
+    "file": "7e723731f08b.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "Limestone-SL",
+    "file": "4946155cfd2a.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     198
+    ]
+   },
+   {
+    "label": "Limestone-L",
+    "file": "5e83b706c594.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     203,
+     203
+    ]
+   },
+   {
+    "label": "Dolomites-AD",
+    "file": "f3288cf189ac.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     163,
+     0,
+     163
+    ]
+   },
+   {
+    "label": "Dolomites-CD",
+    "file": "8ddd9aee3d1f.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     183,
+     0,
+     183
+    ]
+   },
+   {
+    "label": "Dolomites-D",
+    "file": "ec7ce019f6cc.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     0,
+     192
+    ]
+   },
+   {
+    "label": "Others-H",
+    "file": "f3e31b790e26.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-A",
+    "file": "9dca96702072.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-GY",
+    "file": "1fccffb5e2cc.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-E",
+    "file": "b3cc1c26b7dc.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     114,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-CL",
+    "file": "669254ef0522.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "MC765_P011_ST00BP00_5inchTVD_Depth_MudLog_3686-16495ft": [
+   {
+    "label": "Clay-S",
+    "file": "eac52ac9386b.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     208,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SCS",
+    "file": "a1d0d465a365.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     193,
+     0
+    ]
+   },
+   {
+    "label": "Clay-M",
+    "file": "04e4e637bced.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Clay-CCS",
+    "file": "ead43067fc8e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SACS",
+    "file": "8095bc15f323.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SIS",
+    "file": "3ef40f1b9eca.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SS",
+    "file": "14b9e568496e.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     243,
+     243,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FS",
+    "file": "783b3c9a4891.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     232,
+     232,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MS",
+    "file": "8bfbc27ec2d4.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     0
+    ]
+   },
+   {
+    "label": "Sand-CS",
+    "file": "5779fb3a2be9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FSS",
+    "file": "c3dc10653d44.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MSS",
+    "file": "0976765e8977.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     0
+    ]
+   },
+   {
+    "label": "Limestone-AL",
+    "file": "a36caa9f8875.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "Limestone-SL",
+    "file": "ca418cdd5d38.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     198
+    ]
+   },
+   {
+    "label": "Limestone-L",
+    "file": "7a525629fd16.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     203,
+     203
+    ]
+   },
+   {
+    "label": "Dolomites-AD",
+    "file": "57082a944a91.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     163,
+     0,
+     163
+    ]
+   },
+   {
+    "label": "Dolomites-CD",
+    "file": "83c0f61fc3a9.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     183,
+     0,
+     183
+    ]
+   },
+   {
+    "label": "Dolomites-D",
+    "file": "f89d443cd1de.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     0,
+     192
+    ]
+   },
+   {
+    "label": "Others-H",
+    "file": "b7a8c6064f9b.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-A",
+    "file": "6547ca896cf8.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-GY",
+    "file": "28c72bfb3d4d.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-E",
+    "file": "fb95d1c4bb5e.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     114,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-CL",
+    "file": "4774142b0d60.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft": [
+   {
+    "label": "Clay-S",
+    "file": "c662d1b3019d.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     208,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SCS",
+    "file": "9ac86a15e7f8.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     193,
+     0
+    ]
+   },
+   {
+    "label": "Clay-M",
+    "file": "d80aeeecd62a.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     201,
+     0
+    ]
+   },
+   {
+    "label": "Clay-CCS",
+    "file": "018ea853793b.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     189,
+     0
+    ]
+   },
+   {
+    "label": "Clay-SACS",
+    "file": "9776fd24400d.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SIS",
+    "file": "8ae8a06bc552.png",
+    "w": 38,
+    "h": 28,
+    "mean_rgb": [
+     220,
+     220,
+     0
+    ]
+   },
+   {
+    "label": "Sand-SS",
+    "file": "5441de39d0bb.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     243,
+     243,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FS",
+    "file": "701501db60f8.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     232,
+     232,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MS",
+    "file": "d588e86c7cb0.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     0
+    ]
+   },
+   {
+    "label": "Sand-CS",
+    "file": "af5c3e64f8c9.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FSS",
+    "file": "b52d30fbc0f3.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MSS",
+    "file": "d3a4330d73fb.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     0
+    ]
+   },
+   {
+    "label": "Limestone-AL",
+    "file": "848e54dbbbd9.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     184,
+     184
+    ]
+   },
+   {
+    "label": "Limestone-SL",
+    "file": "a2d31d4efb03.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     198,
+     198
+    ]
+   },
+   {
+    "label": "Limestone-L",
+    "file": "43baf1702dfa.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     203,
+     203
+    ]
+   },
+   {
+    "label": "Dolomites-AD",
+    "file": "fb5db330b221.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     163,
+     0,
+     163
+    ]
+   },
+   {
+    "label": "Dolomites-CD",
+    "file": "9b6a43bc6e23.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     183,
+     0,
+     183
+    ]
+   },
+   {
+    "label": "Dolomites-D",
+    "file": "8d8b2a8aa6ed.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     0,
+     192
+    ]
+   },
+   {
+    "label": "Others-H",
+    "file": "34b31b8e55dd.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     209,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-A",
+    "file": "bc7ab847ef70.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-GY",
+    "file": "3938f21fc0a5.png",
+    "w": 37,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-E",
+    "file": "8286006f97ce.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     114,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-CL",
+    "file": "798c3ccb7cef.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "Mudlog-Trail Mtn1Palisades": [
+   {
+    "label": "SHALE",
+    "file": "fae1fc2ced6b.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     119,
+     119,
+     119
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "c80443d3a78b.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     230,
+     230,
+     0
+    ]
+   },
+   {
+    "label": "SILTSTONE",
+    "file": "6160f4b5edcb.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     126,
+     34
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "b6e24e9b88e3.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "7a7e563fb45c.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     242,
+     242,
+     0
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "a937bafa2a15.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     104,
+     0
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "aba0b49ef62a.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     108,
+     217,
+     217
+    ]
+   },
+   {
+    "label": "VOLCANICS",
+    "file": "b7ec57cded36.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     226,
+     130,
+     35
+    ]
+   },
+   {
+    "label": "DOLOMITE",
+    "file": "b2d7dd3adb61.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     103,
+     206
+    ]
+   },
+   {
+    "label": "GRANITE",
+    "file": "0694b106bdbe.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     118,
+     0,
+     118
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "02f65bc3d82a.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     191,
+     191
+    ]
+   },
+   {
+    "label": "METAMORPHIC",
+    "file": "787ace890e4b.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     0,
+     219
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "7e1410b0bada.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     212,
+     212,
+     212
+    ]
+   },
+   {
+    "label": "TUFF",
+    "file": "38421d55e97d.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     210,
+     121,
+     33
+    ]
+   },
+   {
+    "label": "CHERT",
+    "file": "a94f503bea0c.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     233,
+     233,
+     233
+    ]
+   },
+   {
+    "label": "IGNEOUS",
+    "file": "139c8449e38f.png",
+    "w": 54,
+    "h": 28,
+    "mean_rgb": [
+     224,
+     224,
+     224
+    ]
+   }
+  ],
+  "Mudlog_MD_FREEMAN 3 24 ST": [
+   {
+    "label": "CHERT-GLASSY",
+    "file": "7f35ea91b923.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     235,
+     192,
+     192
+    ]
+   },
+   {
+    "label": "FELSIC SILIC DIKE",
+    "file": "30a85db004ea.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     156,
+     205,
+     132
+    ]
+   },
+   {
+    "label": "MARL-CALC",
+    "file": "eddd90ada4a1.png",
+    "w": 45,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     189,
+     222
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "48e82d44459a.png",
+    "w": 45,
+    "h": 28,
+    "mean_rgb": [
+     236,
+     236,
+     0
+    ]
+   },
+   {
+    "label": "CHERT-PORCEL",
+    "file": "f03052114ecc.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     192,
+     235
+    ]
+   },
+   {
+    "label": "METAMORPHICS",
+    "file": "8e2b68857dd0.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     208,
+     78,
+     125
+    ]
+   },
+   {
+    "label": "SANDSTONE-TUFFACE",
+    "file": "f95de0a07e46.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     203,
+     203,
+     0
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "ededd5ea16c5.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     132,
+     80,
+     73
+    ]
+   },
+   {
+    "label": "GABBRO",
+    "file": "e57152953ed5.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     182,
+     182,
+     219
+    ]
+   },
+   {
+    "label": "MUDSTONE",
+    "file": "54c17a4d2211.png",
+    "w": 45,
+    "h": 28,
+    "mean_rgb": [
+     149,
+     145,
+     124
+    ]
+   },
+   {
+    "label": "GLASSYTUFF",
+    "file": "ee8ac8124bbd.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     172,
+     154,
+     142
+    ]
+   },
+   {
+    "label": "OBSIDIAN",
+    "file": "4b783d8f7fb1.png",
+    "w": 45,
+    "h": 28,
+    "mean_rgb": [
+     91,
+     91,
+     91
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "fb1b16b80bde.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     193,
+     154
+    ]
+   },
+   {
+    "label": "GRANITE",
+    "file": "5f74395e7d9e.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     255,
+     162,
+     162
+    ]
+   },
+   {
+    "label": "PALEOSOL",
+    "file": "aad78078fa9a.png",
+    "w": 45,
+    "h": 28,
+    "mean_rgb": [
+     142,
+     139,
+     88
+    ]
+   },
+   {
+    "label": "BIOTITIZATION",
+    "file": "9267ed7ee069.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     180,
+     180,
+     180
+    ]
+   },
+   {
+    "label": "GRANITE WASH",
+    "file": "51130d4eee6a.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     204,
+     204,
+     0
+    ]
+   },
+   {
+    "label": "BRECCIA",
+    "file": "82bd03b69b4d.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     179,
+     179,
+     1
+    ]
+   },
+   {
+    "label": "CALCARENITE",
+    "file": "ba1f5fc3ea36.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     1,
+     213,
+     243
+    ]
+   },
+   {
+    "label": "GYPSUM",
+    "file": "5361bca53da0.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     154,
+     116,
+     192
+    ]
+   },
+   {
+    "label": "PORCELANEOUSCLYS",
+    "file": "a22e8611716a.png",
+    "w": 58,
+    "h": 28,
+    "mean_rgb": [
+     201,
+     201,
+     201
+    ]
+   },
+   {
+    "label": "CALCAREOUSTUFF",
+    "file": "54e87e9b987c.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     240,
+     214,
+     243
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "c3e6f7e5ba2f.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     101,
+     101,
+     101
+    ]
+   },
+   {
+    "label": "HALITE",
+    "file": "3e1c4a6bd125.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     29,
+     112,
+     29
+    ]
+   },
+   {
+    "label": "CALCILUTITE",
+    "file": "64bdcdc67b65.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     213,
+     255
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "21abfc86869d.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     219,
+     219,
+     0
+    ]
+   },
+   {
+    "label": "CARBONATES",
+    "file": "515979d48fcb.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     213,
+     213,
+     230
+    ]
+   },
+   {
+    "label": "CONGL.SAND",
+    "file": "74a7e34435c2.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     210,
+     210,
+     0
+    ]
+   },
+   {
+    "label": "IGNEOUS (ACIDIC)",
+    "file": "864e269ab577.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     216,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "CARBONACEOUSMAT",
+    "file": "d7373e40d06d.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     128,
+     128,
+     128
+    ]
+   },
+   {
+    "label": "CONGL.SANDSTONE",
+    "file": "a77bf9e4e7a9.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     188,
+     188,
+     21
+    ]
+   },
+   {
+    "label": "IGNEOUS (BASIC)",
+    "file": "3e01ef26018d.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     169,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "COQUINA",
+    "file": "372b22e310a2.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     255,
+     200,
+     0
+    ]
+   },
+   {
+    "label": "INTRUSIVES",
+    "file": "6a4338e76955.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     199,
+     185,
+     241
+    ]
+   },
+   {
+    "label": "QUARTZMONZONITE",
+    "file": "e2d1d3687a44.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     255,
+     189,
+     255
+    ]
+   },
+   {
+    "label": "CEMENTCONTAM.",
+    "file": "112727ab0828.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     171,
+     171,
+     171
+    ]
+   },
+   {
+    "label": "RECRYSTALLIZEDCALC",
+    "file": "dbea5273d89e.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     189,
+     228,
+     241
+    ]
+   },
+   {
+    "label": "DIATOMITE",
+    "file": "6c60b33b97f2.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     98,
+     215,
+     255
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "b2d56cb7ca7b.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     135,
+     225,
+     255
+    ]
+   },
+   {
+    "label": "RHYOLITE",
+    "file": "7ae6b2f28a1e.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     187,
+     221,
+     187
+    ]
+   },
+   {
+    "label": "CRYSTALLINE TUFF",
+    "file": "784c0fe4309d.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     150,
+     135,
+     125
+    ]
+   },
+   {
+    "label": "LITHIC TUFF",
+    "file": "c21b9842c780.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     199,
+     185,
+     175
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "6cda4ee2995c.png",
+    "w": 45,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     78,
+     0
+    ]
+   },
+   {
+    "label": "CHERT-ARGILL",
+    "file": "9c7f8894abc2.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     211,
+     192
+    ]
+   },
+   {
+    "label": "DOLOSTONE",
+    "file": "4f07ec196605.png",
+    "w": 44,
+    "h": 28,
+    "mean_rgb": [
+     226,
+     136,
+     181
+    ]
+   },
+   {
+    "label": "MARL-DOLO",
+    "file": "9250b9a95171.png",
+    "w": 47,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     193,
+     220
+    ]
+   },
+   {
+    "label": "SAND",
+    "file": "cba6f8871875.png",
+    "w": 43,
+    "h": 28,
+    "mean_rgb": [
+     250,
+     250,
+     12
+    ]
+   }
+  ],
+  "Rio_Lavaca_1748_Unit_1_241_MUD": [
+   {
+    "label": "DOLOMITE",
+    "file": "3f05ad138fd7.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     53,
+     126
+    ]
+   },
+   {
+    "label": "SHALE GRAY",
+    "file": "d92e209d0ba5.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     195,
+     195,
+     195
+    ]
+   },
+   {
+    "label": "TILL",
+    "file": "cb41625b5847.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     142,
+     84,
+     62
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "cbe19acc2981.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     226,
+     124,
+     29
+    ]
+   },
+   {
+    "label": "CHERT",
+    "file": "a2fd58f95e66.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     211
+    ]
+   },
+   {
+    "label": "SHALE COLORED",
+    "file": "a59c6fad93f2.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     84,
+     64
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "af1f538aa39a.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     140,
+     140
+    ]
+   },
+   {
+    "label": "GYPSUM",
+    "file": "44f61aa98188.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     54,
+     138
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "d8d5b203fbec.png",
+    "w": 18,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SILTSTONE",
+    "file": "0f294808209d.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     244,
+     129,
+     10
+    ]
+   },
+   {
+    "label": "TUFF",
+    "file": "08fe4e1fe945.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     32,
+     41
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "662a6f534e1f.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     38,
+     114,
+     58
+    ]
+   },
+   {
+    "label": "MARLSTONE",
+    "file": "197e77410749.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     222
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "b0dcb1344d93.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     180
+    ]
+   },
+   {
+    "label": "IGNEOUS",
+    "file": "85e295149177.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     123,
+     10,
+     40
+    ]
+   },
+   {
+    "label": "SIDERITEorLIMONITE",
+    "file": "841cdd897a2e.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     149,
+     120
+    ]
+   },
+   {
+    "label": "CLAYSTONE",
+    "file": "a360bcc81bde.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     144,
+     198,
+     212
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "b6a399a9a6ed.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     196,
+     195,
+     126
+    ]
+   },
+   {
+    "label": "METAMORPHIC",
+    "file": "ef58f7ebfc53.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     147,
+     31,
+     35
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "753bd61f3e3d.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     181,
+     192
+    ]
+   },
+   {
+    "label": "SHALE",
+    "file": "82aafbeee99d.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     127,
+     117,
+     70
+    ]
+   },
+   {
+    "label": "BRECCIA",
+    "file": "1f45032c9f20.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     193,
+     193
+    ]
+   },
+   {
+    "label": "CEMENT",
+    "file": "ddb7db7a1eff.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     177,
+     177,
+     177
+    ]
+   }
+  ],
+  "Rio_Nueces_3744_Unit_1_212_MUD_5IN": [
+   {
+    "label": "DOLOMITE",
+    "file": "3346572046a0.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     53,
+     126
+    ]
+   },
+   {
+    "label": "SHALE GRAY",
+    "file": "66904863a375.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     195,
+     195,
+     195
+    ]
+   },
+   {
+    "label": "TILL",
+    "file": "7c63fb78b542.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     142,
+     84,
+     62
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "24f108f4c765.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     226,
+     124,
+     29
+    ]
+   },
+   {
+    "label": "CHERT",
+    "file": "f54bd8d938a5.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     211
+    ]
+   },
+   {
+    "label": "SHALE COLORED",
+    "file": "3eb2e3db196c.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     84,
+     64
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "abbf2eab6812.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     140,
+     140
+    ]
+   },
+   {
+    "label": "GYPSUM",
+    "file": "e956389212e7.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     54,
+     138
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "0783528dd747.png",
+    "w": 18,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SILTSTONE",
+    "file": "332804bfb6fb.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     244,
+     129,
+     10
+    ]
+   },
+   {
+    "label": "TUFF",
+    "file": "53be2a06b1b5.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     32,
+     41
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "b563447c0b76.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     38,
+     114,
+     58
+    ]
+   },
+   {
+    "label": "MARLSTONE",
+    "file": "ae71bdced763.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     222
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "04cb0031463c.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     180
+    ]
+   },
+   {
+    "label": "IGNEOUS",
+    "file": "916c468a5277.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     123,
+     10,
+     40
+    ]
+   },
+   {
+    "label": "SIDERITEorLIMONITE",
+    "file": "7de0effb4de3.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     149,
+     120
+    ]
+   },
+   {
+    "label": "CLAYSTONE",
+    "file": "6f6ef384945e.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     144,
+     198,
+     212
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "0b24aa4028fd.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     196,
+     195,
+     126
+    ]
+   },
+   {
+    "label": "METAMORPHIC",
+    "file": "e991ba6bb00e.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     147,
+     31,
+     35
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "47d4e56c38f4.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     181,
+     192
+    ]
+   },
+   {
+    "label": "SHALE",
+    "file": "e5478a4bd1d9.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     127,
+     117,
+     70
+    ]
+   },
+   {
+    "label": "BRECCIA",
+    "file": "2fd17ac3d6b1.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     193,
+     193
+    ]
+   },
+   {
+    "label": "CEMENT",
+    "file": "1883b62eec5f.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     177,
+     177,
+     177
+    ]
+   }
+  ],
+  "Rio_Nueces_3744_Unit_1_222_5IN_MUD": [
+   {
+    "label": "DOLOMITE",
+    "file": "c33590e06953.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     95,
+     53,
+     126
+    ]
+   },
+   {
+    "label": "SHALE GRAY",
+    "file": "b80cfe873b0b.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     195,
+     195,
+     195
+    ]
+   },
+   {
+    "label": "TILL",
+    "file": "aa51292f3d57.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     142,
+     84,
+     62
+    ]
+   },
+   {
+    "label": "ANHYDRITE",
+    "file": "429d142d90e6.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     226,
+     124,
+     29
+    ]
+   },
+   {
+    "label": "CHERT",
+    "file": "872f9f0cea78.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     211,
+     211,
+     211
+    ]
+   },
+   {
+    "label": "SHALE COLORED",
+    "file": "2ad7e560229c.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     84,
+     64
+    ]
+   },
+   {
+    "label": "BENTONITE",
+    "file": "2dbf9310685d.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     140,
+     140
+    ]
+   },
+   {
+    "label": "GYPSUM",
+    "file": "38c13df42036.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     106,
+     54,
+     138
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "de37ff427a60.png",
+    "w": 18,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SILTSTONE",
+    "file": "dcfbae3d4111.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     244,
+     129,
+     10
+    ]
+   },
+   {
+    "label": "TUFF",
+    "file": "64413aff7913.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     32,
+     41
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "29fe1154910b.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     38,
+     114,
+     58
+    ]
+   },
+   {
+    "label": "MARLSTONE",
+    "file": "2abbe9c0943b.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     222,
+     222,
+     222
+    ]
+   },
+   {
+    "label": "SANDSTONE",
+    "file": "164254c9cce8.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     234,
+     234,
+     180
+    ]
+   },
+   {
+    "label": "IGNEOUS",
+    "file": "eaca00e9f902.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     123,
+     10,
+     40
+    ]
+   },
+   {
+    "label": "SIDERITEorLIMONITE",
+    "file": "c485544de16e.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     192,
+     149,
+     120
+    ]
+   },
+   {
+    "label": "CLAYSTONE",
+    "file": "f35317cbdb74.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     144,
+     198,
+     212
+    ]
+   },
+   {
+    "label": "CONGLOMERATE",
+    "file": "3f399b940369.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     196,
+     195,
+     126
+    ]
+   },
+   {
+    "label": "METAMORPHIC",
+    "file": "c1657166c5fb.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     147,
+     31,
+     35
+    ]
+   },
+   {
+    "label": "LIMESTONE",
+    "file": "b2c43311d7e7.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     140,
+     181,
+     192
+    ]
+   },
+   {
+    "label": "SHALE",
+    "file": "61bdd4fa24ea.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     127,
+     117,
+     70
+    ]
+   },
+   {
+    "label": "BRECCIA",
+    "file": "1b682b97c9ca.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     193,
+     193,
+     193
+    ]
+   },
+   {
+    "label": "CEMENT",
+    "file": "a3870469e1b7.png",
+    "w": 210,
+    "h": 28,
+    "mean_rgb": [
+     177,
+     177,
+     177
+    ]
+   }
+  ],
+  "Rio_San_Gabriel_2829_Unit_2_272_MUD": [
+   {
+    "label": "DOLO",
+    "file": "a91c1fda5746.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     92,
+     52,
+     132
+    ]
+   },
+   {
+    "label": "ANHYC",
+    "file": "00db12544bbe.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     230,
+     114,
+     0
+    ]
+   },
+   {
+    "label": ":D HBHHHEHHHRH",
+    "file": "612d5d464dae.png",
+    "w": 273,
+    "h": 28,
+    "mean_rgb": [
+     191,
+     189,
+     192
+    ]
+   },
+   {
+    "label": "GYPSL",
+    "file": "127f948c6721.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     100,
+     57,
+     144
+    ]
+   },
+   {
+    "label": "COAL",
+    "file": "74d203bab1a7.png",
+    "w": 21,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "SILTS",
+    "file": "8e9ea4932d00.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     247,
+     123,
+     0
+    ]
+   },
+   {
+    "label": "SALT",
+    "file": "8acbe12ebfbb.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     31,
+     129,
+     53
+    ]
+   },
+   {
+    "label": ":LSTONE",
+    "file": "7e33826039ce.png",
+    "w": 101,
+    "h": 28,
+    "mean_rgb": [
+     167,
+     167,
+     168
+    ]
+   },
+   {
+    "label": "SAND:",
+    "file": "4349ede808d2.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     249,
+     249,
+     187
+    ]
+   },
+   {
+    "label": "SIDER",
+    "file": "5c85c964580c.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     200,
+     147,
+     106
+    ]
+   },
+   {
+    "label": "CLAYS",
+    "file": "2e10e23eef31.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     133,
+     187,
+     200
+    ]
+   },
+   {
+    "label": "E",
+    "file": "d30434f8b069.png",
+    "w": 273,
+    "h": 28,
+    "mean_rgb": [
+     182,
+     179,
+     182
+    ]
+   },
+   {
+    "label": "SHALE",
+    "file": "5a7c0e9402d4.png",
+    "w": 63,
+    "h": 28,
+    "mean_rgb": [
+     129,
+     129,
+     71
+    ]
+   },
+   {
+    "label": "ESTONE",
+    "file": "d2f19087307b.png",
+    "w": 95,
+    "h": 28,
+    "mean_rgb": [
+     186,
+     185,
+     190
+    ]
+   }
+  ],
+  "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft": [
+   {
+    "label": "Clay-shale",
+    "file": "a8f9a9b504a2.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     205,
+     0
+    ]
+   },
+   {
+    "label": "Fine sandstone",
+    "file": "8f4c46ebee40.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     230,
+     230,
+     0
+    ]
+   }
+  ],
+  "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft": [
+   {
+    "label": "Clay-S",
+    "file": "81880bd117a6.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     202,
+     0
+    ]
+   },
+   {
+    "label": "Sand-FSS",
+    "file": "6fcf6380ef91.png",
+    "w": 35,
+    "h": 28,
+    "mean_rgb": [
+     223,
+     223,
+     0
+    ]
+   },
+   {
+    "label": "Limestone-L",
+    "file": "15a5b159ee0d.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     0,
+     208,
+     208
+    ]
+   },
+   {
+    "label": "Others-H",
+    "file": "392565685d12.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     210,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Others-S",
+    "file": "ac9228d289bd.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     195,
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MSS",
+    "file": "33eb380588f4.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     218,
+     218,
+     0
+    ]
+   },
+   {
+    "label": "Sand-MS",
+    "file": "791bcde541a0.png",
+    "w": 36,
+    "h": 28,
+    "mean_rgb": [
+     207,
+     207,
+     0
+    ]
+   }
+  ]
+ }
+}

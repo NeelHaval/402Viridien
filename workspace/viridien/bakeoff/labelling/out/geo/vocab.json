@@ -1,0 +1,316 @@
+{
+  "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+  "entries": [
+    {
+      "label": "Clay Shale",
+      "box": [
+        16,
+        66,
+        253,
+        143
+      ],
+      "pattern": "Bright green with black horizontal dashes."
+    },
+    {
+      "label": "Calcareous clay-shale",
+      "box": [
+        387,
+        66,
+        753,
+        143
+      ],
+      "pattern": "Bright green with black horizontal and vertical dashes."
+    },
+    {
+      "label": "Silty clay-shale",
+      "box": [
+        758,
+        66,
+        1049,
+        143
+      ],
+      "pattern": "Bright green with black horizontal bars and rows of small dots."
+    },
+    {
+      "label": "Marl",
+      "box": [
+        16,
+        157,
+        180,
+        234
+      ],
+      "pattern": "Mottled green and grey with black staggered horizontal bars."
+    },
+    {
+      "label": "Limestone",
+      "box": [
+        387,
+        157,
+        629,
+        234
+      ],
+      "pattern": "Cyan with black brickwork lines."
+    },
+    {
+      "label": "Argillaceous limestone",
+      "box": [
+        758,
+        157,
+        1135,
+        234
+      ],
+      "pattern": "Cyan with black brickwork lines and short horizontal bars."
+    },
+    {
+      "label": "Bituminous limestone",
+      "box": [
+        16,
+        248,
+        372,
+        325
+      ],
+      "pattern": "Cyan with black brickwork lines and solid black spots."
+    },
+    {
+      "label": "Oolic limestone",
+      "box": [
+        387,
+        248,
+        675,
+        325
+      ],
+      "pattern": "Cyan with black brickwork lines and outlined rounded squares."
+    },
+    {
+      "label": "Coarse sandstone",
+      "box": [
+        758,
+        248,
+        1088,
+        325
+      ],
+      "pattern": "Yellow with large scattered black grains."
+    },
+    {
+      "label": "Medium sandstone",
+      "box": [
+        16,
+        339,
+        346,
+        416
+      ],
+      "pattern": "Yellow with medium black horizontal grains."
+    },
+    {
+      "label": "Fine sandstone",
+      "box": [
+        387,
+        339,
+        673,
+        416
+      ],
+      "pattern": "Yellow with dense small black grains."
+    },
+    {
+      "label": "Fine sand",
+      "box": [
+        758,
+        339,
+        990,
+        416
+      ],
+      "pattern": "Yellow with scattered small black grains."
+    },
+    {
+      "label": "Medium sand",
+      "box": [
+        16,
+        430,
+        282,
+        507
+      ],
+      "pattern": "Yellow with scattered medium black dashes."
+    },
+    {
+      "label": "Calcareous sandstone",
+      "box": [
+        387,
+        430,
+        756,
+        507
+      ],
+      "pattern": "Yellow with black grains and vertical strokes."
+    },
+    {
+      "label": "Dolomitic sandstone",
+      "box": [
+        758,
+        430,
+        1109,
+        507
+      ],
+      "pattern": "Yellow with black grains and diagonal strokes."
+    },
+    {
+      "label": "Silt",
+      "box": [
+        16,
+        521,
+        163,
+        598
+      ],
+      "pattern": "Yellow with sparse small black dots."
+    },
+    {
+      "label": "Siltstone",
+      "box": [
+        387,
+        521,
+        598,
+        598
+      ],
+      "pattern": "Yellow with rows of small black dots."
+    },
+    {
+      "label": "Chert",
+      "box": [
+        758,
+        521,
+        941,
+        598
+      ],
+      "pattern": "Yellow with solid black triangular mounds."
+    },
+    {
+      "label": "Dolomite",
+      "box": [
+        16,
+        612,
+        230,
+        689
+      ],
+      "pattern": "Magenta with black horizontal lines and diagonal connecting strokes."
+    },
+    {
+      "label": "Fine Dolomite",
+      "box": [
+        387,
+        612,
+        658,
+        689
+      ],
+      "pattern": "Magenta with black horizontal lines, diagonal strokes and an F-like mark."
+    },
+    {
+      "label": "Sandy Dolomite",
+      "box": [
+        758,
+        612,
+        1060,
+        689
+      ],
+      "pattern": "Magenta with black horizontal lines, diagonal strokes and scattered dots."
+    },
+    {
+      "label": "Sandy and calcareous dolomite",
+      "box": [
+        16,
+        703,
+        384,
+        780
+      ],
+      "pattern": "Magenta with dense black diagonal brickwork and dots."
+    },
+    {
+      "label": "Argil and sandy dolomite",
+      "box": [
+        387,
+        703,
+        678,
+        780
+      ],
+      "pattern": "Magenta with dense black diagonal brickwork, dots and short horizontal dashes."
+    },
+    {
+      "label": "Halite",
+      "box": [
+        758,
+        703,
+        944,
+        780
+      ],
+      "pattern": "Red with black L-shaped marks."
+    },
+    {
+      "label": "Anhydrite",
+      "box": [
+        16,
+        794,
+        238,
+        871
+      ],
+      "pattern": "Red with a black interlocking rounded lattice."
+    },
+    {
+      "label": "Gypsum",
+      "box": [
+        387,
+        794,
+        595,
+        871
+      ],
+      "pattern": "Red with black V-shaped marks."
+    },
+    {
+      "label": "Sylvite",
+      "box": [
+        758,
+        794,
+        954,
+        871
+      ],
+      "pattern": "Red with black angular hooked marks."
+    },
+    {
+      "label": "Coal-lignite",
+      "box": [
+        16,
+        884,
+        257,
+        961
+      ],
+      "pattern": "Solid black with a grey lower edge."
+    },
+    {
+      "label": "Basalt",
+      "box": [
+        387,
+        884,
+        572,
+        961
+      ],
+      "pattern": "Olive yellow with black branching diagonal strokes."
+    },
+    {
+      "label": "Granite",
+      "box": [
+        758,
+        884,
+        961,
+        961
+      ],
+      "pattern": "Dark red with black crosses, dots and angular letter-like marks."
+    }
+  ],
+  "image_size": [
+    1149,
+    974
+  ],
+  "source_box": [
+    447,
+    498,
+    1213,
+    1147
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

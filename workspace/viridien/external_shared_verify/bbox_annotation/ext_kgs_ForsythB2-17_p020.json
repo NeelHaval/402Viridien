@@ -1,0 +1,25 @@
+{
+  "image_name": "ext_kgs_ForsythB2-17_p020.tif",
+  "width": 1277,
+  "height": 1829,
+  "bounding_boxes": {
+    "depth_column": [
+      377,
+      177,
+      407,
+      1824
+    ],
+    "interpreted_lithology_column": [
+      428,
+      177,
+      540,
+      1824
+    ],
+    "lithology_legend": [
+      10,
+      0,
+      1100,
+      147
+    ]
+  }
+}

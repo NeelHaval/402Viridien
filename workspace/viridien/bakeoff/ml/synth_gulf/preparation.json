@@ -1,0 +1,23 @@
+{
+ "windows": 2400,
+ "train_queries": 1920,
+ "held_queries": 480,
+ "seconds": 110.31602747700003,
+ "source_logs": 27,
+ "excluded_logs": [
+  "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+  "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+  "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+  "60807402860000_gb506#2_md_mudlog",
+  "60811405120000_1inch tvd mudlog",
+  "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+  "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+  "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+  "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+  "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+  "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+  "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+  "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft"
+ ],
+ "dev_items_sha256": "200b90ca5c31bdab3f6d05e7d688f18e121652eb884d5cf07ab514f792c29297"
+}

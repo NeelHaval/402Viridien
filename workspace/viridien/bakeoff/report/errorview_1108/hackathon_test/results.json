@@ -1,0 +1,1316 @@
+{
+  "policy": {
+    "label_weight": 0.7,
+    "boundary_weight": 0.3,
+    "min_layer_px": 25,
+    "class_rule": "clay_shale_equivalent_v1",
+    "csv_gate": "nonempty, valid challenge fields and finite depths",
+    "official": false,
+    "aggregation": "equal-log mean; same 13 logs for all candidates",
+    "rationale": "Additive credit for labels and contacts; optional removal of very thin layers."
+  },
+  "summary": [
+    {
+      "strategy": "s19_combine",
+      "logs": 13,
+      "csv_valid": 13,
+      "failures": 0,
+      "standard_product": 0.4430450428854324,
+      "additive_no_merge": 0.6084753933906553,
+      "demo_score": 0.6217507899693852,
+      "demo_labels": 0.6008991040374128,
+      "demo_boundaries": 0.6704047238106542
+    },
+    {
+      "strategy": "s20_v4",
+      "logs": 13,
+      "csv_valid": 13,
+      "failures": 0,
+      "standard_product": 0.44180243561722066,
+      "additive_no_merge": 0.6286815871758962,
+      "demo_score": 0.6372892049758545,
+      "demo_labels": 0.5871654681159341,
+      "demo_boundaries": 0.7542445909823355
+    },
+    {
+      "strategy": "s21_v4dino",
+      "logs": 13,
+      "csv_valid": 13,
+      "failures": 0,
+      "standard_product": 0.4950238661810577,
+      "additive_no_merge": 0.7028153019972986,
+      "demo_score": 0.7146955692276606,
+      "demo_labels": 0.6861657755008568,
+      "demo_boundaries": 0.7812650879235363
+    },
+    {
+      "strategy": "s23_v4dino_identity",
+      "logs": 13,
+      "csv_valid": 13,
+      "failures": 0,
+      "standard_product": 0.5643987188636903,
+      "additive_no_merge": 0.7528864094427472,
+      "demo_score": 0.7643075811851812,
+      "demo_labels": 0.7612426985777799,
+      "demo_boundaries": 0.7714589739357839
+    }
+  ],
+  "cases": [
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "strategy": "s19_combine",
+      "case_id": "6b663182fbfb4f87",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.1586746586746587,
+        "boundary_f1": 0.18848167539267016,
+        "cluster_ari": 0.2164480092944335,
+        "depth_mae_ft": 0.33333333333292914,
+        "score": 0.029907265509359755
+      },
+      "weighted": {
+        "row_acc": 0.1586746586746587,
+        "boundary_f1": 0.18848167539267016,
+        "weighted": 0.16761676369006212
+      },
+      "demo": {
+        "row_acc": 0.176989676989677,
+        "boundary_f1": 0.23529411764705882,
+        "weighted": 0.19448100918689154
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "strategy": "s19_combine",
+      "case_id": "098a11560a3b06db",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.12116666666666667,
+        "boundary_f1": 0.1724137931034483,
+        "cluster_ari": 0.0787036323864076,
+        "depth_mae_ft": null,
+        "score": 0.02089080459770115
+      },
+      "weighted": {
+        "row_acc": 0.12116666666666667,
+        "boundary_f1": 0.1724137931034483,
+        "weighted": 0.13654080459770115
+      },
+      "demo": {
+        "row_acc": 0.10783333333333334,
+        "boundary_f1": 0.19696969696969696,
+        "weighted": 0.13457424242424243
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "strategy": "s19_combine",
+      "case_id": "ee53c8e06c27030e",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.03233333333333333,
+        "boundary_f1": 0.1476510067114094,
+        "cluster_ari": 0.17992746647882263,
+        "depth_mae_ft": null,
+        "score": 0.004774049217002237
+      },
+      "weighted": {
+        "row_acc": 0.03233333333333333,
+        "boundary_f1": 0.1476510067114094,
+        "weighted": 0.06692863534675615
+      },
+      "demo": {
+        "row_acc": 0.008333333333333333,
+        "boundary_f1": 0.19298245614035087,
+        "weighted": 0.06372807017543859
+      }
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "strategy": "s19_combine",
+      "case_id": "ff55e97bd8089596",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.8555,
+        "boundary_f1": 0.89419795221843,
+        "cluster_ari": 0.4032770337408705,
+        "depth_mae_ft": null,
+        "score": 0.7649863481228669
+      },
+      "weighted": {
+        "row_acc": 0.8555,
+        "boundary_f1": 0.89419795221843,
+        "weighted": 0.867109385665529
+      },
+      "demo": {
+        "row_acc": 0.8761666666666666,
+        "boundary_f1": 0.7733333333333333,
+        "weighted": 0.8453166666666666
+      }
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "strategy": "s19_combine",
+      "case_id": "0de8d24f32217327",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9445,
+        "boundary_f1": 0.8527131782945736,
+        "cluster_ari": 0.7870336110487445,
+        "depth_mae_ft": null,
+        "score": 0.8053875968992248
+      },
+      "weighted": {
+        "row_acc": 0.9445,
+        "boundary_f1": 0.8527131782945736,
+        "weighted": 0.916963953488372
+      },
+      "demo": {
+        "row_acc": 0.969,
+        "boundary_f1": 0.8,
+        "weighted": 0.9182999999999999
+      }
+    },
+    {
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "strategy": "s19_combine",
+      "case_id": "03b2ef6b774533a9",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7615,
+        "boundary_f1": 0.8032786885245902,
+        "cluster_ari": 0.8768506041469213,
+        "depth_mae_ft": null,
+        "score": 0.6116967213114753
+      },
+      "weighted": {
+        "row_acc": 0.7615,
+        "boundary_f1": 0.8032786885245902,
+        "weighted": 0.774033606557377
+      },
+      "demo": {
+        "row_acc": 0.7646666666666667,
+        "boundary_f1": 0.8571428571428571,
+        "weighted": 0.7924095238095238
+      }
+    },
+    {
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "strategy": "s19_combine",
+      "case_id": "6fb4e860a31a7c9b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8118811881188119,
+        "cluster_ari": 0.7099476831651672,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8118811881188119,
+        "weighted": 0.24356435643564356
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8461538461538461,
+        "weighted": 0.25384615384615383
+      }
+    },
+    {
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "strategy": "s19_combine",
+      "case_id": "10855527e4ba883b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9656666666666667,
+        "boundary_f1": 0.6851851851851852,
+        "cluster_ari": 0.8836330653111542,
+        "depth_mae_ft": null,
+        "score": 0.6616604938271605
+      },
+      "weighted": {
+        "row_acc": 0.9656666666666667,
+        "boundary_f1": 0.6851851851851852,
+        "weighted": 0.8815222222222222
+      },
+      "demo": {
+        "row_acc": 0.9691666666666666,
+        "boundary_f1": 0.7384615384615385,
+        "weighted": 0.8999551282051281
+      }
+    },
+    {
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "strategy": "s19_combine",
+      "case_id": "df889653b4852560",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "weighted": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      },
+      "demo": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      }
+    },
+    {
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "strategy": "s19_combine",
+      "case_id": "aeeb0575acea0cf7",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.8855,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5885092015517016,
+        "depth_mae_ft": null,
+        "score": 0.1602333333333333
+      },
+      "weighted": {
+        "row_acc": 0.8855,
+        "boundary_f1": 0.18095238095238095,
+        "weighted": 0.6741357142857142
+      },
+      "demo": {
+        "row_acc": 0.9693333333333334,
+        "boundary_f1": 0.43243243243243246,
+        "weighted": 0.8082630630630631
+      }
+    },
+    {
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "strategy": "s19_combine",
+      "case_id": "926ccf2bec1ead2b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "weighted": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      },
+      "demo": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      }
+    },
+    {
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "strategy": "s19_combine",
+      "case_id": "dc6d9c7cccfe7e79",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9461077844311377,
+        "cluster_ari": 0.83716876033393,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9461077844311377,
+        "weighted": 0.2838323353293413
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8983050847457628,
+        "weighted": 0.26949152542372884
+      }
+    },
+    {
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "strategy": "s19_combine",
+      "case_id": "4d576b545c0ee20f",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9750681729645501,
+        "boundary_f1": 0.717948717948718,
+        "cluster_ari": 0.8704299423812076,
+        "depth_mae_ft": null,
+        "score": 0.7000489446924975
+      },
+      "weighted": {
+        "row_acc": 0.9750681729645501,
+        "boundary_f1": 0.717948717948718,
+        "weighted": 0.8979323364598004
+      },
+      "demo": {
+        "row_acc": 0.9701986754966887,
+        "boundary_f1": 0.7441860465116279,
+        "weighted": 0.9023948868011704
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "strategy": "s20_v4",
+      "case_id": "6b663182fbfb4f87",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.27256077256077255,
+        "boundary_f1": 0.3902439024390244,
+        "cluster_ari": 0.6168282361110693,
+        "depth_mae_ft": 0.6124999999992724,
+        "score": 0.10636517953591124
+      },
+      "weighted": {
+        "row_acc": 0.27256077256077255,
+        "boundary_f1": 0.3902439024390244,
+        "weighted": 0.3078657115242481
+      },
+      "demo": {
+        "row_acc": 0.27256077256077255,
+        "boundary_f1": 0.3902439024390244,
+        "weighted": 0.3078657115242481
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "strategy": "s20_v4",
+      "case_id": "098a11560a3b06db",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.3298333333333333,
+        "boundary_f1": 0.46153846153846156,
+        "cluster_ari": 0.341452190107324,
+        "depth_mae_ft": null,
+        "score": 0.15223076923076923
+      },
+      "weighted": {
+        "row_acc": 0.3298333333333333,
+        "boundary_f1": 0.46153846153846156,
+        "weighted": 0.36934487179487174
+      },
+      "demo": {
+        "row_acc": 0.3298333333333333,
+        "boundary_f1": 0.46153846153846156,
+        "weighted": 0.36934487179487174
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "strategy": "s20_v4",
+      "case_id": "ee53c8e06c27030e",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.35183333333333333,
+        "boundary_f1": 0.3,
+        "cluster_ari": 0.3045348218407671,
+        "depth_mae_ft": null,
+        "score": 0.10554999999999999
+      },
+      "weighted": {
+        "row_acc": 0.35183333333333333,
+        "boundary_f1": 0.3,
+        "weighted": 0.3362833333333333
+      },
+      "demo": {
+        "row_acc": 0.35183333333333333,
+        "boundary_f1": 0.3,
+        "weighted": 0.3362833333333333
+      }
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "strategy": "s20_v4",
+      "case_id": "ff55e97bd8089596",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.952,
+        "boundary_f1": 0.939297124600639,
+        "cluster_ari": 0.4781216098005908,
+        "depth_mae_ft": null,
+        "score": 0.8942108626198083
+      },
+      "weighted": {
+        "row_acc": 0.952,
+        "boundary_f1": 0.939297124600639,
+        "weighted": 0.9481891373801916
+      },
+      "demo": {
+        "row_acc": 0.952,
+        "boundary_f1": 0.8633093525179856,
+        "weighted": 0.9253928057553955
+      }
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "strategy": "s20_v4",
+      "case_id": "0de8d24f32217327",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9825,
+        "boundary_f1": 0.9473684210526315,
+        "cluster_ari": 0.9350794667211854,
+        "depth_mae_ft": null,
+        "score": 0.9307894736842105
+      },
+      "weighted": {
+        "row_acc": 0.9825,
+        "boundary_f1": 0.9473684210526315,
+        "weighted": 0.9719605263157894
+      },
+      "demo": {
+        "row_acc": 0.9995,
+        "boundary_f1": 0.9354838709677419,
+        "weighted": 0.9802951612903226
+      }
+    },
+    {
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "strategy": "s20_v4",
+      "case_id": "03b2ef6b774533a9",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7758333333333334,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9444218758071874,
+        "depth_mae_ft": null,
+        "score": 0.7758333333333334
+      },
+      "weighted": {
+        "row_acc": 0.7758333333333334,
+        "boundary_f1": 1.0,
+        "weighted": 0.8430833333333334
+      },
+      "demo": {
+        "row_acc": 0.7888333333333334,
+        "boundary_f1": 1.0,
+        "weighted": 0.8521833333333333
+      }
+    },
+    {
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "strategy": "s20_v4",
+      "case_id": "6fb4e860a31a7c9b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8627450980392157,
+        "cluster_ari": 0.7660487041893024,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8627450980392157,
+        "weighted": 0.25882352941176473
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8936170212765957,
+        "weighted": 0.2680851063829787
+      }
+    },
+    {
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "strategy": "s20_v4",
+      "case_id": "10855527e4ba883b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9703333333333334,
+        "boundary_f1": 0.7610619469026548,
+        "cluster_ari": 0.8851981832248182,
+        "depth_mae_ft": null,
+        "score": 0.7384837758112094
+      },
+      "weighted": {
+        "row_acc": 0.9703333333333334,
+        "boundary_f1": 0.7610619469026548,
+        "weighted": 0.9075519174041298
+      },
+      "demo": {
+        "row_acc": 0.9825,
+        "boundary_f1": 0.8,
+        "weighted": 0.92775
+      }
+    },
+    {
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "strategy": "s20_v4",
+      "case_id": "df889653b4852560",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "weighted": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      },
+      "demo": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      }
+    },
+    {
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "strategy": "s20_v4",
+      "case_id": "aeeb0575acea0cf7",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5874080960063506,
+        "depth_mae_ft": null,
+        "score": 0.1600825396825397
+      },
+      "weighted": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "weighted": 0.6735523809523809
+      },
+      "demo": {
+        "row_acc": 0.9681666666666666,
+        "boundary_f1": 0.3783783783783784,
+        "weighted": 0.7912301801801802
+      }
+    },
+    {
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "strategy": "s20_v4",
+      "case_id": "926ccf2bec1ead2b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "weighted": 0.3
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "weighted": 0.3
+      }
+    },
+    {
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "strategy": "s20_v4",
+      "case_id": "dc6d9c7cccfe7e79",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9887640449438202,
+        "cluster_ari": 0.9533346460749131,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9887640449438202,
+        "weighted": 0.296629213483146
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9565217391304348,
+        "weighted": 0.28695652173913044
+      }
+    },
+    {
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "strategy": "s20_v4",
+      "case_id": "4d576b545c0ee20f",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      },
+      "weighted": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "weighted": 0.9595766783534605
+      },
+      "demo": {
+        "row_acc": 0.987923646279704,
+        "boundary_f1": 0.8260869565217391,
+        "weighted": 0.9393726393523145
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "strategy": "s21_v4dino",
+      "case_id": "6b663182fbfb4f87",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.625,
+        "cluster_ari": 0.7606600593755758,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.48035298035298035
+      },
+      "weighted": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.625,
+        "weighted": 0.7254953379953379
+      },
+      "demo": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.625,
+        "weighted": 0.7254953379953379
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "strategy": "s21_v4dino",
+      "case_id": "098a11560a3b06db",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7693333333333333,
+        "boundary_f1": 0.4666666666666667,
+        "cluster_ari": 0.29056010354044437,
+        "depth_mae_ft": null,
+        "score": 0.35902222222222224
+      },
+      "weighted": {
+        "row_acc": 0.7693333333333333,
+        "boundary_f1": 0.4666666666666667,
+        "weighted": 0.6785333333333333
+      },
+      "demo": {
+        "row_acc": 0.7693333333333333,
+        "boundary_f1": 0.4666666666666667,
+        "weighted": 0.6785333333333333
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "strategy": "s21_v4dino",
+      "case_id": "ee53c8e06c27030e",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7141666666666666,
+        "boundary_f1": 0.3076923076923077,
+        "cluster_ari": 0.1860410080479543,
+        "depth_mae_ft": null,
+        "score": 0.21974358974358973
+      },
+      "weighted": {
+        "row_acc": 0.7141666666666666,
+        "boundary_f1": 0.3076923076923077,
+        "weighted": 0.592224358974359
+      },
+      "demo": {
+        "row_acc": 0.7141666666666666,
+        "boundary_f1": 0.3076923076923077,
+        "weighted": 0.592224358974359
+      }
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "strategy": "s21_v4dino",
+      "case_id": "ff55e97bd8089596",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9091666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "cluster_ari": 0.5124338432876435,
+        "depth_mae_ft": null,
+        "score": 0.8536227224008575
+      },
+      "weighted": {
+        "row_acc": 0.9091666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "weighted": 0.9180886923901392
+      },
+      "demo": {
+        "row_acc": 0.9411666666666667,
+        "boundary_f1": 0.8823529411764706,
+        "weighted": 0.9235225490196077
+      }
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "strategy": "s21_v4dino",
+      "case_id": "0de8d24f32217327",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9833333333333333,
+        "boundary_f1": 0.9863013698630136,
+        "cluster_ari": 0.9573247596780043,
+        "depth_mae_ft": null,
+        "score": 0.96986301369863
+      },
+      "weighted": {
+        "row_acc": 0.9833333333333333,
+        "boundary_f1": 0.9863013698630136,
+        "weighted": 0.9842237442922372
+      },
+      "demo": {
+        "row_acc": 0.9995,
+        "boundary_f1": 0.9830508474576272,
+        "weighted": 0.9945652542372881
+      }
+    },
+    {
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "strategy": "s21_v4dino",
+      "case_id": "03b2ef6b774533a9",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.774,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9625379404337044,
+        "depth_mae_ft": null,
+        "score": 0.774
+      },
+      "weighted": {
+        "row_acc": 0.774,
+        "boundary_f1": 1.0,
+        "weighted": 0.8417999999999999
+      },
+      "demo": {
+        "row_acc": 0.7888333333333334,
+        "boundary_f1": 1.0,
+        "weighted": 0.8521833333333333
+      }
+    },
+    {
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "strategy": "s21_v4dino",
+      "case_id": "6fb4e860a31a7c9b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.851063829787234,
+        "cluster_ari": 0.8609869808644061,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.851063829787234,
+        "weighted": 0.2553191489361702
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9047619047619048,
+        "weighted": 0.2714285714285714
+      }
+    },
+    {
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "strategy": "s21_v4dino",
+      "case_id": "10855527e4ba883b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9706666666666667,
+        "boundary_f1": 0.7610619469026548,
+        "cluster_ari": 0.8852885609366656,
+        "depth_mae_ft": null,
+        "score": 0.7387374631268436
+      },
+      "weighted": {
+        "row_acc": 0.9706666666666667,
+        "boundary_f1": 0.7610619469026548,
+        "weighted": 0.9077852507374631
+      },
+      "demo": {
+        "row_acc": 0.9825,
+        "boundary_f1": 0.8,
+        "weighted": 0.92775
+      }
+    },
+    {
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "strategy": "s21_v4dino",
+      "case_id": "df889653b4852560",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "weighted": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      },
+      "demo": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      }
+    },
+    {
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "strategy": "s21_v4dino",
+      "case_id": "aeeb0575acea0cf7",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5874080960063506,
+        "depth_mae_ft": null,
+        "score": 0.1600825396825397
+      },
+      "weighted": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "weighted": 0.6735523809523809
+      },
+      "demo": {
+        "row_acc": 0.9681666666666666,
+        "boundary_f1": 0.3783783783783784,
+        "weighted": 0.7912301801801802
+      }
+    },
+    {
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "strategy": "s21_v4dino",
+      "case_id": "926ccf2bec1ead2b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "weighted": 0.3
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "weighted": 0.3
+      }
+    },
+    {
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "strategy": "s21_v4dino",
+      "case_id": "dc6d9c7cccfe7e79",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9568734466868306,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "weighted": 0.3
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9824561403508771,
+        "weighted": 0.29473684210526313
+      }
+    },
+    {
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "strategy": "s21_v4dino",
+      "case_id": "4d576b545c0ee20f",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      },
+      "weighted": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "weighted": 0.9595766783534605
+      },
+      "demo": {
+        "row_acc": 0.987923646279704,
+        "boundary_f1": 0.8260869565217391,
+        "weighted": 0.9393726393523145
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "6b663182fbfb4f87",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.5882352941176471,
+        "cluster_ari": 0.7025804107851661,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.45209692268515794
+      },
+      "weighted": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.5882352941176471,
+        "weighted": 0.7144659262306321
+      },
+      "demo": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.5882352941176471,
+        "weighted": 0.7144659262306321
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "098a11560a3b06db",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7533333333333333,
+        "boundary_f1": 0.3870967741935484,
+        "cluster_ari": 0.2394099036201137,
+        "depth_mae_ft": null,
+        "score": 0.2916129032258064
+      },
+      "weighted": {
+        "row_acc": 0.7533333333333333,
+        "boundary_f1": 0.3870967741935484,
+        "weighted": 0.6434623655913978
+      },
+      "demo": {
+        "row_acc": 0.7533333333333333,
+        "boundary_f1": 0.3870967741935484,
+        "weighted": 0.6434623655913978
+      }
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "ee53c8e06c27030e",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.7061666666666667,
+        "boundary_f1": 0.3076923076923077,
+        "cluster_ari": 0.1722431603412789,
+        "depth_mae_ft": null,
+        "score": 0.2172820512820513
+      },
+      "weighted": {
+        "row_acc": 0.7061666666666667,
+        "boundary_f1": 0.3076923076923077,
+        "weighted": 0.5866243589743589
+      },
+      "demo": {
+        "row_acc": 0.7061666666666667,
+        "boundary_f1": 0.3076923076923077,
+        "weighted": 0.5866243589743589
+      }
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "ff55e97bd8089596",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9091666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "cluster_ari": 0.5124338432876435,
+        "depth_mae_ft": null,
+        "score": 0.8536227224008575
+      },
+      "weighted": {
+        "row_acc": 0.9091666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "weighted": 0.9180886923901392
+      },
+      "demo": {
+        "row_acc": 0.9411666666666667,
+        "boundary_f1": 0.8823529411764706,
+        "weighted": 0.9235225490196077
+      }
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "0de8d24f32217327",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9833333333333333,
+        "boundary_f1": 0.9863013698630136,
+        "cluster_ari": 0.9573247596780043,
+        "depth_mae_ft": null,
+        "score": 0.96986301369863
+      },
+      "weighted": {
+        "row_acc": 0.9833333333333333,
+        "boundary_f1": 0.9863013698630136,
+        "weighted": 0.9842237442922372
+      },
+      "demo": {
+        "row_acc": 0.9995,
+        "boundary_f1": 0.9830508474576272,
+        "weighted": 0.9945652542372881
+      }
+    },
+    {
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "03b2ef6b774533a9",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.774,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9625379404337044,
+        "depth_mae_ft": null,
+        "score": 0.774
+      },
+      "weighted": {
+        "row_acc": 0.774,
+        "boundary_f1": 1.0,
+        "weighted": 0.8417999999999999
+      },
+      "demo": {
+        "row_acc": 0.7888333333333334,
+        "boundary_f1": 1.0,
+        "weighted": 0.8521833333333333
+      }
+    },
+    {
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "6fb4e860a31a7c9b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8598130841121495,
+        "cluster_ari": 0.6564938090087417,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8598130841121495,
+        "weighted": 0.25794392523364484
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8936170212765957,
+        "weighted": 0.2680851063829787
+      }
+    },
+    {
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "10855527e4ba883b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9706666666666667,
+        "boundary_f1": 0.7610619469026548,
+        "cluster_ari": 0.8852885609366656,
+        "depth_mae_ft": null,
+        "score": 0.7387374631268436
+      },
+      "weighted": {
+        "row_acc": 0.9706666666666667,
+        "boundary_f1": 0.7610619469026548,
+        "weighted": 0.9077852507374631
+      },
+      "demo": {
+        "row_acc": 0.9825,
+        "boundary_f1": 0.8,
+        "weighted": 0.92775
+      }
+    },
+    {
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "df889653b4852560",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "weighted": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      },
+      "demo": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      }
+    },
+    {
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "aeeb0575acea0cf7",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5874080960063506,
+        "depth_mae_ft": null,
+        "score": 0.1600825396825397
+      },
+      "weighted": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "weighted": 0.6735523809523809
+      },
+      "demo": {
+        "row_acc": 0.9681666666666666,
+        "boundary_f1": 0.3783783783783784,
+        "weighted": 0.7912301801801802
+      }
+    },
+    {
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "926ccf2bec1ead2b",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "weighted": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      },
+      "demo": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "weighted": 1.0
+      }
+    },
+    {
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "dc6d9c7cccfe7e79",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9568734466868306,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "weighted": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "weighted": 0.3
+      },
+      "demo": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9824561403508771,
+        "weighted": 0.29473684210526313
+      }
+    },
+    {
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "strategy": "s23_v4dino_identity",
+      "case_id": "4d576b545c0ee20f",
+      "csv_valid": true,
+      "failed": false,
+      "standard": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      },
+      "weighted": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "weighted": 0.9595766783534605
+      },
+      "demo": {
+        "row_acc": 0.987923646279704,
+        "boundary_f1": 0.8260869565217391,
+        "weighted": 0.9393726393523145
+      }
+    }
+  ],
+  "limits": [
+    "Hypothetical quality rubric, not predicted judging marks.",
+    "25 pixels has a different physical thickness on different logs.",
+    "Thin-bed merging can hide real beds and can also reduce a score.",
+    "CSV validity is a separate gate, not free quality points.",
+    "Depth accuracy, clusters, full-document automation and runtime require separate review.",
+    "Development examples; no unseen-test accuracy claim."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+ "agreement": null,
+ "agreement_reason": "All 26 silver CSV files belong to eval logs. Their contents were not read.",
+ "boundary_uncertainty_px": 2,
+ "model_trained": false,
+ "benchmarks_run": false,
+ "logs": [
+  {
+   "log": "Callaway 3-33 mudlog to TD.PDF",
+   "window": [
+    5096,
+    6896
+   ],
+   "intervals": 1,
+   "labelled_rows": 1573,
+   "blank_rows": 227,
+   "high_grade_rows": 1573,
+   "medium_grade_rows": 0,
+   "parser_unknown_rows": 1573,
+   "training_rows": 0,
+   "training_intervals": 0
+  },
+  {
+   "log": "Mudlog_MD_FREEMAN 3 24 ST",
+   "window": [
+    1833,
+    2193
+   ],
+   "intervals": 9,
+   "labelled_rows": 206,
+   "blank_rows": 154,
+   "high_grade_rows": 178,
+   "medium_grade_rows": 28,
+   "parser_unknown_rows": 28,
+   "training_rows": 158,
+   "training_intervals": 5
+  }
+ ],
+ "totals": {
+  "intervals": 10,
+  "labelled_rows": 1779,
+  "blank_rows": 381,
+  "high_grade_rows": 1751,
+  "medium_grade_rows": 28,
+  "parser_unknown_rows": 1601,
+  "training_rows": 158,
+  "training_intervals": 5
+ }
+}

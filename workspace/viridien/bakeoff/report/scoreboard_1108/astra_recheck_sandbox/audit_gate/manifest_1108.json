@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "case_id": "synthetic",
+      "suite": "dev",
+      "log": "synthetic",
+      "y0": 0,
+      "y1": 10,
+      "window": [
+        0,
+        10
+      ],
+      "family": "f",
+      "well": "w",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate",
+      "column_box": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+      "image_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "annotation_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "truth_sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+          "sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    "s19_combine",
+    "s20_v4",
+    "s21_v4dino",
+    "s23_v4dino_identity"
+  ],
+  "source_hashes": {},
+  "freeze": {
+    "python": "3.12.7",
+    "executable": "C:\\Users\\hssil\\anaconda3\\python.exe",
+    "packages": {
+      "torch": "2.12.0+cu126",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "scikit-learn": "1.8.0",
+      "Pillow": "11.3.0",
+      "opencv-python": "4.11.0.86",
+      "rapidocr-onnxruntime": "1.4.4",
+      "easyocr": "1.7.2",
+      "ruptures": "1.1.10",
+      "tifffile": "2023.4.12"
+    },
+    "dino": {
+      "model": "facebook/dinov2-small",
+      "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
+    },
+    "note": "Pinned from pre-run CUDA smoke. Runtime DINO diagnostic hashes must match. Legacy records were input-validated at migration, not hash-checked at their original read time.",
+    "migration_utc": "2026-11-08T06:17:53Z",
+    "legacy_records": 13,
+    "migration_note": "Validated exact record identities, all declared current input bytes and all unchanged executed sources before adding metadata. Input validation is present-state evidence for legacy records; original read-time hashes were not asserted. Source change adds guards and provenance only."
+  }
+}

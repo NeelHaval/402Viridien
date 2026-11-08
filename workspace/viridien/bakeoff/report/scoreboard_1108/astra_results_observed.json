@@ -1,0 +1,22 @@
+{
+  "scores.json": {
+    "exists": false
+  },
+  "raw_results.json": {
+    "exists": true,
+    "sha256": "a4f0ff08d75a996f31db0b152e8a2f9bc9256e22bc2c1c8db5daf7c0f89ac25c",
+    "complete": null,
+    "records": 1,
+    "counts": {
+      "('viridien_eval', 's19_combine')": 1
+    },
+    "failures": {},
+    "summary": []
+  },
+  "audit_results.json": {
+    "exists": false
+  },
+  "report_data.json": {
+    "exists": false
+  }
+}

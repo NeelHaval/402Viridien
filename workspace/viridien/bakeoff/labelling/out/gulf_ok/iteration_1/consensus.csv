@@ -1,0 +1,9 @@
+top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id,agreed
+14696.0,14706.5,Silty clay-shale,11891,11912,2,true
+14706.5,14734.5,Clay-shale,11912,11968,0,false
+14734.5,14855.5,Slaty shale,11968,12210,3,true
+14855.5,14967.5,Silty clay-shale,12210,12434,2,true
+14967.5,15004.5,Sandy clay-shale,12434,12508,1,false
+15004.5,15308.0,Clay-shale,12508,13115,0,true
+15308.0,15318.5,Clay-shale,13115,13136,0,false
+15318.5,15496.0,Clay-shale,13136,13491,0,true

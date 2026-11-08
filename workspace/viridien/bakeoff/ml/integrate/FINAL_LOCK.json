@@ -1,0 +1,38 @@
+{
+ "started": 1794102841.8638577,
+ "sha256": {
+  "bakeoff/ml/integrate/core.py": "25aefc45df0c9966aaaa9771bd047794cab3661fc979afe42df9fc89316961d9",
+  "bakeoff/ml/integrate/selected.json": "791c872d001c0d2f752634efb9b7c00110567f73364c2b7838e559b1c59edde7",
+  "bakeoff/ml/integrate/confidence.npz": "828fc83335aa5d1dc8e223476caefb80ec296c81837c40250651964d9aa947f8",
+  "bakeoff/ml/integrate/experiment.py": "95bf6cba0ccd3d6a32c79efded7842dff82e8a0573d1933f2effc48b84860b6c",
+  "bakeoff/strategies/s18_best.py": "713ef4c7c4961a718663f2bc1527fc508ee6e50701b1d4a614acb82b25a33cfc",
+  "bakeoff/ml/boundary/boundary_net.pt": "5f547847661a92ed7d2fae161bdd6374a738d12fa42bc06cb749e1cd08178cb1",
+  "bakeoff/ml/boundary/model.py": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859",
+  "bakeoff/ml/match/matcher.npz": "40aa5350ac6c5aa40ab27558d553143b98083fa01d212205f0a36a134d91c7b1",
+  "bakeoff/ml/match/features.py": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+  "bakeoff/ml/match/selected.json": "c7507f5846e8d163795c122938dd2f80f9505f255c2a522f7e4f27cd91defe2a",
+  "bakeoff/strategies/s02_features_pelt.py": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e",
+  "bakeoff/strategies/s11_fft_legend.py": "a7579d209ffacd74cd52f0e7054bdb769151cdcddb31e425c2b9073e0a851c2c",
+  "bakeoff/strategies/s13_boundary_net.py": "fa8d28e72160e2286edca98b2f034ca775c30779779cccf24a1618aab04aaf51",
+  "bakeoff/strategies/s14_learned_match.py": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+  "bakeoff/harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+  "bakeoff/harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+  "bakeoff/harness/depth.py": "2f84c4dc6433cee1bd348087634fb3351968d66183175e3f19f46453f0ac6ee5",
+  "bakeoff/harness/score.py": "cffddf644fda7c38b5fa7753e60b52f1b581a7905f74bc6648d6298d1e9a8bb2"
+ },
+ "selection": {
+  "mode": "joint",
+  "variant": "joint",
+  "threshold": 0.4,
+  "gap": 16,
+  "blend": 1.0,
+  "penalty": 0.0,
+  "boundary_weight": 0.0,
+  "min_bed": 16,
+  "preserve": "rules",
+  "blank_ink": 0.006,
+  "reject": 2.0,
+  "rule_tolerance": 8
+ },
+ "baseline": "Archived ml/match/final_metrics.json; no baseline test reruns"
+}

@@ -1,0 +1,803 @@
+{
+  "version": 1,
+  "digest": "ac4270c46203ea7a88a8a40954ec2117b036246759e97dcea4b9a722ace71351",
+  "layout": null,
+  "items": [
+    {
+      "box": [
+        9,
+        21,
+        50,
+        45
+      ],
+      "candidates": [
+        {
+          "text": "OBSIDIAN",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "OBSIDIAN",
+          "confidence": 0.9931154698133469,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "OBSIDIAN",
+          "confidence": 0.9975855478328156,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        48,
+        50,
+        72
+      ],
+      "candidates": [
+        {
+          "text": "RHYOLITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "ROLITE",
+          "confidence": 0.7133149554332098,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "RHFOLITE",
+          "confidence": 0.31904981718898634,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        74,
+        51,
+        99
+      ],
+      "candidates": [
+        {
+          "text": "DACITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "DACITE",
+          "confidence": 0.9979230066140493,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "daCITE",
+          "confidence": 0.3652871412139392,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        103,
+        50,
+        126
+      ],
+      "candidates": [
+        {
+          "text": "MONZONITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "MONZONITE",
+          "confidence": 0.9875773323906792,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "MonzoniTe",
+          "confidence": 0.7444753091302794,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        130,
+        50,
+        154
+      ],
+      "candidates": [
+        {
+          "text": "GRANODIORITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "GRANODIORITE",
+          "confidence": 0.9988578061262766,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "GRaNodioRITE",
+          "confidence": 0.42145980806889854,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        157,
+        50,
+        181
+      ],
+      "candidates": [
+        {
+          "text": "DIORITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "DIORITE",
+          "confidence": 0.9971245527267456,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "dioRITE",
+          "confidence": 0.845604043951603,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        185,
+        50,
+        208
+      ],
+      "candidates": [
+        {
+          "text": "CLAYSTONE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "CLAYSTONE",
+          "confidence": 0.9946223431163363,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "CLAYSTONE",
+          "confidence": 0.9050478791606561,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        212,
+        50,
+        236
+      ],
+      "candidates": [
+        {
+          "text": "CLAY",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "CLAY",
+          "confidence": 0.9957372099161148,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "CLAY",
+          "confidence": 0.9907732009887695,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        239,
+        50,
+        263
+      ],
+      "candidates": [
+        {
+          "text": "CEMENT",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "CEMENT",
+          "confidence": 0.9961435596148173,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "CEMENT",
+          "confidence": 0.9915622269120608,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        8,
+        267,
+        50,
+        290
+      ],
+      "candidates": [
+        {
+          "text": "SAND",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "SAND",
+          "confidence": 0.9975933283567429,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "SAND",
+          "confidence": 0.9938333630561829,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        294,
+        50,
+        318
+      ],
+      "candidates": [
+        {
+          "text": "CONGLOMERATE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "CONGLOMERATE",
+          "confidence": 0.9974294751882553,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "CONGLCMERATE",
+          "confidence": 0.9019177042659209,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        321,
+        50,
+        345
+      ],
+      "candidates": [
+        {
+          "text": "WASH GRANITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "GRANITE WASH",
+          "confidence": 0.9903850108385086,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "GRANITE WASH",
+          "confidence": 0.9161694214113549,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        348,
+        50,
+        373
+      ],
+      "candidates": [
+        {
+          "text": "GRANITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "GRANITE",
+          "confidence": 0.9961399946893964,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "GRANITE",
+          "confidence": 0.995357641364324,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        8,
+        376,
+        50,
+        400
+      ],
+      "candidates": [
+        {
+          "text": "MEDIUM SAND",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "MEDIUM SAND",
+          "confidence": 0.951436232436787,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "MedilM SAND",
+          "confidence": 0.3979417769725986,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        9,
+        404,
+        50,
+        425
+      ],
+      "candidates": [
+        {
+          "text": "SAND COARSE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "COARSE SAND",
+          "confidence": 0.9888091900131919,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "COARSE SAND",
+          "confidence": 0.9554514186272504,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    }
+  ],
+  "ocr": [
+    {
+      "box": [
+        [
+          53.333333333333336,
+          25.0
+        ],
+        [
+          111.33333333333333,
+          25.0
+        ],
+        [
+          111.33333333333333,
+          40.0
+        ],
+        [
+          53.333333333333336,
+          40.0
+        ]
+      ],
+      "text": "OBSIDIAN",
+      "confidence": 0.98989587277174
+    },
+    {
+      "box": [
+        [
+          54.0,
+          51.666666666666664
+        ],
+        [
+          110.66666666666667,
+          51.666666666666664
+        ],
+        [
+          110.66666666666667,
+          67.66666666666667
+        ],
+        [
+          54.0,
+          67.66666666666667
+        ]
+      ],
+      "text": "RHYOLITE",
+      "confidence": 0.9967967942357063
+    },
+    {
+      "box": [
+        [
+          53.666666666666664,
+          79.0
+        ],
+        [
+          96.66666666666667,
+          79.0
+        ],
+        [
+          96.66666666666667,
+          95.33333333333333
+        ],
+        [
+          53.666666666666664,
+          95.33333333333333
+        ]
+      ],
+      "text": "DACITE",
+      "confidence": 0.9993893603483835
+    },
+    {
+      "box": [
+        [
+          51.666666666666664,
+          106.66666666666667
+        ],
+        [
+          117.33333333333333,
+          106.66666666666667
+        ],
+        [
+          117.33333333333333,
+          122.33333333333333
+        ],
+        [
+          51.666666666666664,
+          122.33333333333333
+        ]
+      ],
+      "text": "MONZONITE",
+      "confidence": 0.9590436220169067
+    },
+    {
+      "box": [
+        [
+          54.666666666666664,
+          134.66666666666666
+        ],
+        [
+          138.0,
+          134.66666666666666
+        ],
+        [
+          138.0,
+          149.0
+        ],
+        [
+          54.666666666666664,
+          149.0
+        ]
+      ],
+      "text": "GRANODIORITE",
+      "confidence": 0.9979728112618128
+    },
+    {
+      "box": [
+        [
+          53.333333333333336,
+          161.0
+        ],
+        [
+          103.66666666666667,
+          161.0
+        ],
+        [
+          103.66666666666667,
+          177.0
+        ],
+        [
+          53.333333333333336,
+          177.0
+        ]
+      ],
+      "text": "DIORITE",
+      "confidence": 0.9953091996056693
+    },
+    {
+      "box": [
+        [
+          53.666666666666664,
+          188.66666666666666
+        ],
+        [
+          117.33333333333333,
+          188.66666666666666
+        ],
+        [
+          117.33333333333333,
+          204.33333333333334
+        ],
+        [
+          53.666666666666664,
+          204.33333333333334
+        ]
+      ],
+      "text": "CLAYSTONE",
+      "confidence": 0.9985840121905009
+    },
+    {
+      "box": [
+        [
+          52.666666666666664,
+          215.0
+        ],
+        [
+          83.66666666666667,
+          215.0
+        ],
+        [
+          83.66666666666667,
+          232.33333333333334
+        ],
+        [
+          52.666666666666664,
+          232.33333333333334
+        ]
+      ],
+      "text": "CLAY",
+      "confidence": 0.9947429895401001
+    },
+    {
+      "box": [
+        [
+          53.333333333333336,
+          242.66666666666666
+        ],
+        [
+          97.66666666666667,
+          242.66666666666666
+        ],
+        [
+          97.66666666666667,
+          259.0
+        ],
+        [
+          53.333333333333336,
+          259.0
+        ]
+      ],
+      "text": "CEMENT",
+      "confidence": 0.994985431432724
+    },
+    {
+      "box": [
+        [
+          53.333333333333336,
+          269.6666666666667
+        ],
+        [
+          83.0,
+          269.6666666666667
+        ],
+        [
+          83.0,
+          287.3333333333333
+        ],
+        [
+          53.333333333333336,
+          287.3333333333333
+        ]
+      ],
+      "text": "SAND",
+      "confidence": 0.9941335022449493
+    },
+    {
+      "box": [
+        [
+          54.0,
+          298.0
+        ],
+        [
+          138.33333333333334,
+          298.0
+        ],
+        [
+          138.33333333333334,
+          312.6666666666667
+        ],
+        [
+          54.0,
+          312.6666666666667
+        ]
+      ],
+      "text": "CONGLOMERATE",
+      "confidence": 0.9878533681233724
+    },
+    {
+      "box": [
+        [
+          54.666666666666664,
+          325.3333333333333
+        ],
+        [
+          104.66666666666667,
+          325.3333333333333
+        ],
+        [
+          104.66666666666667,
+          340.3333333333333
+        ],
+        [
+          54.666666666666664,
+          340.3333333333333
+        ]
+      ],
+      "text": "GRANITE",
+      "confidence": 0.9886247430528913
+    },
+    {
+      "box": [
+        [
+          102.0,
+          324.6666666666667
+        ],
+        [
+          140.0,
+          324.6666666666667
+        ],
+        [
+          140.0,
+          341.0
+        ],
+        [
+          102.0,
+          341.0
+        ]
+      ],
+      "text": "WASH",
+      "confidence": 0.9892257302999496
+    },
+    {
+      "box": [
+        [
+          54.0,
+          352.3333333333333
+        ],
+        [
+          103.66666666666667,
+          352.3333333333333
+        ],
+        [
+          103.66666666666667,
+          368.3333333333333
+        ],
+        [
+          54.0,
+          368.3333333333333
+        ]
+      ],
+      "text": "GRANITE",
+      "confidence": 0.9910439508301871
+    },
+    {
+      "box": [
+        [
+          51.0,
+          378.3333333333333
+        ],
+        [
+          133.66666666666666,
+          378.3333333333333
+        ],
+        [
+          133.66666666666666,
+          397.0
+        ],
+        [
+          51.0,
+          397.0
+        ]
+      ],
+      "text": "MEDIUM SAND",
+      "confidence": 0.9905377301302823
+    },
+    {
+      "box": [
+        [
+          53.0,
+          407.0
+        ],
+        [
+          99.0,
+          407.0
+        ],
+        [
+          99.0,
+          423.0
+        ],
+        [
+          53.0,
+          423.0
+        ]
+      ],
+      "text": "COARSE",
+      "confidence": 0.9961381455262502
+    },
+    {
+      "box": [
+        [
+          94.0,
+          406.6666666666667
+        ],
+        [
+          132.33333333333334,
+          406.6666666666667
+        ],
+        [
+          132.33333333333334,
+          423.3333333333333
+        ],
+        [
+          94.0,
+          423.3333333333333
+        ]
+      ],
+      "text": "SAND",
+      "confidence": 0.9949106574058533
+    }
+  ]
+}

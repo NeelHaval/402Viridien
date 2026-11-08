@@ -1,0 +1,15 @@
+[
+  {
+    "top_y": 210,
+    "bottom_y": 2200,
+    "lithology": "ONITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9999769105683619,
+      "match_margin": 1.0,
+      "boundary_probability": 0.19767138361930847
+    }
+  }
+]

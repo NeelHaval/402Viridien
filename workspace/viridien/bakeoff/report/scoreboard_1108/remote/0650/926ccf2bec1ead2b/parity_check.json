@@ -1,0 +1,23 @@
+{
+  "case_id": "926ccf2bec1ead2b",
+  "exact_interval_dicts_equal": true,
+  "local_seconds": 5.1616045999981,
+  "local_numpy": "1.26.4",
+  "remote_numpy": "2.2.6",
+  "local_score": {
+    "row_acc": 0.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+  },
+  "remote_score": {
+    "row_acc": 0.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+  },
+  "crop_rgb_sha256": "907b78cccaefe9422512fe143ccb226def08fd71844bf2e4b98cdb4f74748e2c",
+  "scope": "One MC765 fixture only. Predecoded crop parity; no claim of all-data or all-package bitwise inference parity."
+}

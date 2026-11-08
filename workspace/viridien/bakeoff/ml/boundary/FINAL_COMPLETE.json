@@ -1,0 +1,23 @@
+{
+ "weights_sha256": "5f547847661a92ed7d2fae161bdd6374a738d12fa42bc06cb749e1cd08178cb1",
+ "config": {
+  "gap": 24,
+  "preserve": false,
+  "proposal_f1": 0.4458937882049002,
+  "threshold": 0.7,
+  "variant": "rich_real",
+  "kind": "rich"
+ },
+ "strategies": [
+  "s11",
+  "s12",
+  "s13"
+ ],
+ "source_sha256": {
+  "ml/boundary/model.py": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859",
+  "strategies/s13_boundary_net.py": "fa8d28e72160e2286edca98b2f034ca775c30779779cccf24a1618aab04aaf51",
+  "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+  "harness/score.py": "cffddf644fda7c38b5fa7753e60b52f1b581a7905f74bc6648d6298d1e9a8bb2",
+  "harness/depth.py": "2f84c4dc6433cee1bd348087634fb3351968d66183175e3f19f46453f0ac6ee5"
+ }
+}

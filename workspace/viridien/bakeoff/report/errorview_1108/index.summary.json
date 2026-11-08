@@ -1,0 +1,5945 @@
+{
+  "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+  "cases": [
+    {
+      "window": [
+        1503,
+        7503
+      ],
+      "metrics": {
+        "row_acc": 0.9769884942471235,
+        "boundary_f1": 0.9753086419753086,
+        "cluster_ari": 0.9308205673154372,
+        "depth_mae_ft": null,
+        "score": 0.9528653215496636
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5859,
+        "wrong": 91,
+        "missing": 0,
+        "boundary": 47,
+        "unlabelled": 3
+      },
+      "wrong_pct": 2.301150575287647,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 45
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 28
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 27
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 20
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Conglomerate",
+          "rows": 8
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Conglomerate",
+          "rows": 4
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 2
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Clay/Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 1
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "0",
+      "log": "60811405120000_1inch tvd mudlog",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "d54b1b64c32f152ae2174af52a8d288fc81bf98958c7d52e095d69ce02ce1992",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+        "prediction_sha256": "6f8de69de3a9e8ec434112a4edba206a75680c54eba4d7a52cf64c3e0de7d574",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00000-d1e66cf062.csv"
+      }
+    },
+    {
+      "window": [
+        7503,
+        13503
+      ],
+      "metrics": {
+        "row_acc": 0.8575241908575242,
+        "boundary_f1": 0.8384074941451991,
+        "cluster_ari": 0.6738929884955824,
+        "depth_mae_ft": null,
+        "score": 0.7189547080257463
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5140,
+        "wrong": 722,
+        "missing": 0,
+        "boundary": 132,
+        "unlabelled": 6
+      },
+      "wrong_pct": 14.247580914247582,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 300
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 148
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 107
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Conglomerate",
+          "rows": 90
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Conglomerate",
+          "rows": 77
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 41
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 41
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 26
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Clay/Shale",
+          "rows": 16
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 8
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "1",
+      "log": "60811405120000_1inch tvd mudlog",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "9beb5f44132c770762eef77778d462e0987d670ab4a5266e7e8454c5a8078109",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+        "prediction_sha256": "58f9e90ca3988d03a2d3667d7c2adf3fb67301050a86e07ac4efdce5ceb806e9",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00001-41f0abd53b.csv"
+      }
+    },
+    {
+      "window": [
+        10093,
+        16093
+      ],
+      "metrics": {
+        "row_acc": 0.972,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.952795091457582,
+        "depth_mae_ft": null,
+        "score": 0.972
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5832,
+        "wrong": 130,
+        "missing": 0,
+        "boundary": 38,
+        "unlabelled": 0
+      },
+      "wrong_pct": 2.8000000000000025,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 115
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 20
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Volcanics",
+          "rows": 11
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 11
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 4
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 3
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 2
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "2",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "11f5963ebaadc73068b071f7e0214b7e63220af7176e70151704aae94667d574",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "cae104ea6d0269a13221dcaf3228a0d3a968549ffe5bd5f53120ae03f962a310",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00002-b8165a55fb.csv"
+      }
+    },
+    {
+      "window": [
+        16093,
+        22093
+      ],
+      "metrics": {
+        "row_acc": 0.9685,
+        "boundary_f1": 0.968421052631579,
+        "cluster_ari": 0.9769504342320762,
+        "depth_mae_ft": null,
+        "score": 0.9379157894736843
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5811,
+        "wrong": 171,
+        "missing": 0,
+        "boundary": 18,
+        "unlabelled": 0
+      },
+      "wrong_pct": 3.1499999999999972,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 69
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 37
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Dolomitic limestone",
+          "rows": 37
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Marl",
+          "rows": 12
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 11
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 8
+        },
+        {
+          "truth": "Halite",
+          "prediction": "Shale",
+          "rows": 6
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Limestone",
+          "rows": 3
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 3
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 1
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomitic limestone",
+          "rows": 1
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Volcanics",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "3",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "a46c0d7dec448ccac9e3f221e9f3641b25ab48a89e75a37a1dc2965aff6f53ac",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "7dccd59ebdcf68871489e856f0134fa2bbc13e9a53677dcddfbaa755e44e3eb5",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00003-871c48ec9c.csv"
+      }
+    },
+    {
+      "window": [
+        22093,
+        28093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "4",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "6870718e39993b2e3acf26f467dbd49073286202d77a7fc5d48da088fa25df45",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "2b43d2563bdec50d96e293bdb26b2ebf20f67a9ca68c302a7f0743f8819f2ac7",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00004-2a70c54cc7.csv"
+      }
+    },
+    {
+      "window": [
+        28093,
+        34093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "5",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "a11b578e2aba636d62791c8440cb912bdfce50524b81bfaebcb6480f668ff64c",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "15c8e60e7da3f701a51f2d8d58e1c8d510ff52188e8d7ec515856f6e0412cc9b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00005-fff36231e4.csv"
+      }
+    },
+    {
+      "window": [
+        34093,
+        40093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "6",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "e0560d284137150c26d5af854c7585498f8b53d1cba3f01a661ab8b3ce7c186a",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "1c46e70f02a91c0a7b8badcf0b44d153b0f8805bf22f893841345907b3fe76d5",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00006-8c0ce6f555.csv"
+      }
+    },
+    {
+      "window": [
+        40093,
+        46093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "7",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "91f7316290ba16a5c7fdf23635621eb203fb7d2439b74988fc99244d303990a4",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "a6090290635a170a24ea1bdfdbfab06ca57446f08353eaab5b49cb30641f3126",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00007-a923fe9883.csv"
+      }
+    },
+    {
+      "window": [
+        46093,
+        52093
+      ],
+      "metrics": {
+        "row_acc": 0.9521028037383178,
+        "boundary_f1": 0.9523809523809523,
+        "cluster_ari": 0.9713908344771472,
+        "depth_mae_ft": null,
+        "score": 0.9067645749888741
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5705,
+        "wrong": 255,
+        "missing": 0,
+        "boundary": 32,
+        "unlabelled": 8
+      },
+      "wrong_pct": 4.789719626168221,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 123
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Dolomitic limestone",
+          "rows": 55
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 25
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Siltstone",
+          "rows": 24
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Volcanics",
+          "rows": 12
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 11
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 7
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 6
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Dolomitic limestone",
+          "rows": 6
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Volcanics",
+          "rows": 5
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 3
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 3
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomitic limestone",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 2
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "8",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "ddd641076ee55b144562d2ae923e7026b3795304db0a186b37ce2d509f230e6b",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "9c308b7f5f6f40942cab844ba9ae75b1ae712b254236cde26c7e583a2ef24d5b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00008-2dcac11160.csv"
+      }
+    },
+    {
+      "window": [
+        52093,
+        58093
+      ],
+      "metrics": {
+        "row_acc": 0.9854709418837675,
+        "boundary_f1": 0.9606299212598425,
+        "cluster_ari": 0.9538441434887014,
+        "depth_mae_ft": null,
+        "score": 0.9466728733056664
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5901,
+        "wrong": 40,
+        "missing": 0,
+        "boundary": 47,
+        "unlabelled": 12
+      },
+      "wrong_pct": 1.4529058116232507,
+      "confusions": [
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 23
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 20
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 14
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 13
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 13
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 1
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "9",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "6a485e039f6317a708671f058d82dfd7ade6354419af7d577439c38333d15fec",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "c3c1b81e684beb3cea1dfed58a2f731d9f950c3720c73b8690dfea0775b11985",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00009-1b9e5a4f29.csv"
+      }
+    },
+    {
+      "window": [
+        4404,
+        11195
+      ],
+      "metrics": {
+        "row_acc": 0.21045621045621046,
+        "boundary_f1": 0.3902439024390244,
+        "cluster_ari": 0.6168282361110693,
+        "depth_mae_ft": null,
+        "score": 0.08212925286096018
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1264,
+        "wrong": 4742,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 785
+      },
+      "wrong_pct": 78.95437895437895,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 3399
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 373
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "rows": 280
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "rows": 180
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 128
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 97
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "rows": 82
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 62
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 38
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 33
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "10",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "challenge:d582",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "adc1b3c077336552039042e8c21a5f3bb268868866570bce4ffe6b7f747bdebb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25",
+        "prediction_sha256": "4b63db08667ab6ab18232439c93f99baad1364f7ccadd1a410795928aad7adeb",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00010-5a96006a82.csv"
+      }
+    },
+    {
+      "window": [
+        2705,
+        8705
+      ],
+      "metrics": {
+        "row_acc": 0.4226666666666667,
+        "boundary_f1": 0.9942196531791907,
+        "cluster_ari": 0.7185770451629369,
+        "depth_mae_ft": null,
+        "score": 0.420223506743738
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1268,
+        "wrong": 1732,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 3000
+      },
+      "wrong_pct": 57.73333333333333,
+      "confusions": [
+        {
+          "truth": "Lmst",
+          "prediction": "I mst",
+          "rows": 1470
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Shale",
+          "rows": 195
+        },
+        {
+          "truth": "Shale",
+          "prediction": "I mst",
+          "rows": 31
+        },
+        {
+          "truth": "Sltst",
+          "prediction": "Sitst",
+          "rows": 26
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sitst",
+          "rows": 6
+        },
+        {
+          "truth": "Sltst",
+          "prediction": "Shale",
+          "rows": 4
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "11",
+      "log": "ext_kgs_386825",
+      "family": "external:kgs:386825",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "a55683933978a2da87c48bf1d01ab6da71fb0e9116b314465b6997b74c0db4b7",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "25d6487b2065aa43baa92539b3e841c616f526d114b3d5a1c95d3777748674a4",
+        "prediction_sha256": "5a8a63987a5d9afa397d31612fa45a238ef69bcf874f5013436575ddd3bc08f1",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00011-077026e3e8.csv"
+      }
+    },
+    {
+      "window": [
+        8705,
+        10200
+      ],
+      "metrics": {
+        "row_acc": 0.5333333333333333,
+        "boundary_f1": 0.8918918918918919,
+        "cluster_ari": 0.6477245863715178,
+        "depth_mae_ft": null,
+        "score": 0.47567567567567565
+      },
+      "tolerance_px": 14.950000000000001,
+      "counts": {
+        "correct": 600,
+        "wrong": 514,
+        "missing": 1,
+        "boundary": 10,
+        "unlabelled": 370
+      },
+      "wrong_pct": 46.666666666666664,
+      "confusions": [
+        {
+          "truth": "Lmst",
+          "prediction": "I mst",
+          "rows": 327
+        },
+        {
+          "truth": "Shale",
+          "prediction": "I mst",
+          "rows": 56
+        },
+        {
+          "truth": "Ss",
+          "prediction": "Conal",
+          "rows": 52
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clvst",
+          "rows": 31
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Shale",
+          "rows": 25
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Gvn",
+          "rows": 12
+        },
+        {
+          "truth": "Ss",
+          "prediction": "Shale",
+          "rows": 12
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Clvst",
+          "rows": 6
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Ss",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "",
+          "rows": 1
+        },
+        {
+          "truth": "Ss",
+          "prediction": "I mst",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "12",
+      "log": "ext_kgs_386825",
+      "family": "external:kgs:386825",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "d3a92ac5cdd1f290604ef5f5cfe6b71b65357255541fcf2827173237efbcb4aa",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "25d6487b2065aa43baa92539b3e841c616f526d114b3d5a1c95d3777748674a4",
+        "prediction_sha256": "7419e8c7b6548dc6d48e2a3bd5212b560ca756aa8d992be1fdd84aa0776da8c8",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00012-1b006a798c.csv"
+      }
+    },
+    {
+      "window": [
+        2510,
+        8510
+      ],
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.020618556701030927,
+        "cluster_ari": 0.12476677421629938,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 0,
+        "wrong": 5623,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 377
+      },
+      "wrong_pct": 100.0,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4760
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 687
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 83
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 61
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 32
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "13",
+      "log": "ext_idaho_barlow3-14_p001",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "cfc202a1bf3fb4a0122dce68b7ac07262c5067154f577d3d18c8338d844f181f",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "b16fcfda5a08d3e8db643e5fd89ae0c9eb63d5cc78a25910c4ef016fa25933af",
+        "prediction_sha256": "56dfcee76c92a6d48f0d856633193990fe6f939aac0c47d8c290adbf9331c39b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00013-7311b3d0af.csv"
+      }
+    },
+    {
+      "window": [
+        9130,
+        15130
+      ],
+      "metrics": {
+        "row_acc": 0.07413333333333333,
+        "boundary_f1": 0.27986348122866894,
+        "cluster_ari": 0.44651134606508003,
+        "depth_mae_ft": null,
+        "score": 0.02074721274175199
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 417,
+        "wrong": 5203,
+        "missing": 1,
+        "boundary": 4,
+        "unlabelled": 375
+      },
+      "wrong_pct": 92.58666666666666,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4176
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 820
+        },
+        {
+          "truth": "Ls ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 61
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 46
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Tuff dkav",
+          "rows": 28
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff It hlu",
+          "rows": 14
+        },
+        {
+          "truth": "Tuff ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 13
+        },
+        {
+          "truth": "Ls ltgy",
+          "prediction": "I s ltav",
+          "rows": 12
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 7
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 6
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst tn",
+          "rows": 4
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 3
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss crs",
+          "rows": 3
+        },
+        {
+          "truth": "Ls ltgy",
+          "prediction": "Sltst tn",
+          "rows": 2
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Ss crs",
+          "rows": 2
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Sltst tn",
+          "rows": 2
+        },
+        {
+          "truth": "Tuff ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "",
+          "rows": 1
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff It hlu",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff dkav",
+          "rows": 1
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Ss crs",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff dkav",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "14",
+      "log": "ext_idaho_barlow3-14_p001",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "6a9a3c967c01289f3593223fec20f15cdd9c0787f0a27408a0ee4b69c67cee71",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "b16fcfda5a08d3e8db643e5fd89ae0c9eb63d5cc78a25910c4ef016fa25933af",
+        "prediction_sha256": "df634cb99443c1ac83c9761039f1e4a060f6c191d0bc1fd649ee9e8c68f9f220",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00014-ead903c4c7.csv"
+      }
+    },
+    {
+      "window": [
+        15750,
+        21750
+      ],
+      "metrics": {
+        "row_acc": 0.19416666666666665,
+        "boundary_f1": 0.36363636363636365,
+        "cluster_ari": 0.6278372479632521,
+        "depth_mae_ft": null,
+        "score": 0.0706060606060606
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1165,
+        "wrong": 4835,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 80.58333333333334,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 3857
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 832
+        },
+        {
+          "truth": "Tuff white",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 45
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 42
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff It hlu",
+          "rows": 14
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 12
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst tn",
+          "rows": 8
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst tn",
+          "rows": 5
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss crs",
+          "rows": 5
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 5
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 2
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff It hlu",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "15",
+      "log": "ext_idaho_barlow3-14_p001",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "06ea4c7a1230241fa524dd6b6b742a03938bbd04678e20d9130fcf6bdcbfddea",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "b16fcfda5a08d3e8db643e5fd89ae0c9eb63d5cc78a25910c4ef016fa25933af",
+        "prediction_sha256": "24fc2d622a3b4254a167a6bafd9fdcbb6b09c021dbbc0904f9f2bb86a7c67737",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00015-641ea8dddb.csv"
+      }
+    },
+    {
+      "window": [
+        284,
+        6284
+      ],
+      "metrics": {
+        "row_acc": 0.052675585284280936,
+        "boundary_f1": 0.1867572156196944,
+        "cluster_ari": 0.539544648985981,
+        "depth_mae_ft": null,
+        "score": 0.009837545638830056
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 315,
+        "wrong": 5665,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 20
+      },
+      "wrong_pct": 94.7324414715719,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 3984
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 799
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 423
+        },
+        {
+          "truth": "Tuff white",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 163
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 104
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 48
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst tn",
+          "rows": 28
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 24
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "I s crm",
+          "rows": 19
+        },
+        {
+          "truth": "Sltst brn",
+          "prediction": "Sltst hrn",
+          "rows": 15
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff It hlu",
+          "rows": 15
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Tuff dkav",
+          "rows": 14
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst tn",
+          "rows": 6
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 6
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff It hlu",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst tn",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst tn",
+          "rows": 2
+        },
+        {
+          "truth": "Tuff white",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Sltst brn",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "16",
+      "log": "ext_idaho_barlow3-14_p002",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "985e97a5068151f7948258f02a6a24c4b6583ee6343718ac3ce4ea8389cfe308",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ed3752b6f5927a19e21647a11391afaf0faabae23afbd29494b0e1da16c2b81e",
+        "prediction_sha256": "7a4d7849bc8388adcef0d3fae96929a7d36b9088da666006401ed9ebf40d7e89",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00016-e4cb51f0eb.csv"
+      }
+    },
+    {
+      "window": [
+        7726,
+        13726
+      ],
+      "metrics": {
+        "row_acc": 0.35575942915392456,
+        "boundary_f1": 0.3044982698961938,
+        "cluster_ari": 0.7036995739898636,
+        "depth_mae_ft": null,
+        "score": 0.10832813067662754
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1745,
+        "wrong": 3160,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 1095
+      },
+      "wrong_pct": 64.42405708460754,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 847
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Rasalt",
+          "rows": 757
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 634
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 550
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 120
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Ss / Ss wh",
+          "rows": 105
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 59
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 43
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss / Ss wh",
+          "rows": 8
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss crs",
+          "rows": 8
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 6
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Ss crs",
+          "rows": 4
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Rasalt",
+          "rows": 4
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Rasalt",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss / Ss wh",
+          "rows": 2
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Ss / Ss wh",
+          "rows": 1
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Rasalt",
+          "rows": 1
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "17",
+      "log": "ext_idaho_barlow3-14_p002",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "a11a233383e1b4c965469522261a7775fe327b688869e2fb1da4032186559c47",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ed3752b6f5927a19e21647a11391afaf0faabae23afbd29494b0e1da16c2b81e",
+        "prediction_sha256": "5ecf3de53df94e112c5701b8be6271d58311dc092c35a9922834db3622399c9e",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00017-9366759ed8.csv"
+      }
+    },
+    {
+      "window": [
+        15169,
+        21169
+      ],
+      "metrics": {
+        "row_acc": 0.08699453551912568,
+        "boundary_f1": 0.2631578947368421,
+        "cluster_ari": 0.5059043828053654,
+        "depth_mae_ft": null,
+        "score": 0.022893298820822548
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 398,
+        "wrong": 4176,
+        "missing": 1,
+        "boundary": 0,
+        "unlabelled": 1425
+      },
+      "wrong_pct": 91.30054644808743,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 2177
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 806
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 626
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Ss / Ss wh",
+          "rows": 194
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 92
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 60
+        },
+        {
+          "truth": "Sltst dkgy",
+          "prediction": "Sltst dkav",
+          "rows": 58
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 44
+        },
+        {
+          "truth": "Sltst wh",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 42
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Rasalt",
+          "rows": 29
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 10
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst avan",
+          "rows": 9
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss / Ss wh",
+          "rows": 8
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss / Ss wh",
+          "rows": 4
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst wh",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 3
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst dkav",
+          "rows": 2
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst dkgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst dkgy",
+          "prediction": "Ss / Ss wh",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Rasalt",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "18",
+      "log": "ext_idaho_barlow3-14_p002",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "d4e285a750f3d27c9a2fedad363941d780d01c84c8070e92e978093880dcb83c",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ed3752b6f5927a19e21647a11391afaf0faabae23afbd29494b0e1da16c2b81e",
+        "prediction_sha256": "fe3034a89080f018395076f21e884afd70ecd3ae1326f03c1af1df4443e9720c",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00018-72c73bef7a.csv"
+      }
+    },
+    {
+      "window": [
+        1314,
+        1880
+      ],
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 5.66,
+      "counts": {
+        "correct": 0,
+        "wrong": 553,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 13
+      },
+      "wrong_pct": 100.0,
+      "confusions": [
+        {
+          "truth": "Clyst",
+          "prediction": "Clvst",
+          "rows": 553
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "19",
+      "log": "ext_nl_flat-bay-2_p071",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "36ca5b9047f91fabe2128a94e62d3642039421115be5c8b7988bb000f2e97b0f",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d0cce835a0f9d59aba876af1d3f02d94bef816176a54977f9675036d2db6e358",
+        "prediction_sha256": "d670d58ad24672c2ece7e158f002e6629ba1353a77f6cf4aa281f8945b9093c2",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p071.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00019-b434a5dc0b.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 1643,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 4
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "20",
+      "log": "ext_nl_flat-bay-2_p073",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "89b9a8bc238ad689b4ad3701da437e150b4b97439f0599a23347402cf882c914",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ad364c15840908c927d80da819aba7c07ba59e501ec143aed992312e0aa3784e",
+        "prediction_sha256": "f488ea5c69fa0642361867e1d3d930c1efcc618a41c01e6a05f4edada05ea555",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p073.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00020-979140ebd7.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.9411404046597179,
+        "boundary_f1": 0.5,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.47057020232985897
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 1535,
+        "wrong": 96,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 16
+      },
+      "wrong_pct": 5.885959534028206,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 95
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Salt",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "21",
+      "log": "ext_nl_flat-bay-2_p074",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "0c6528a769835519ae4ed71cf2854a1221f5f67c14a964bc2d1c4967dfc01735",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "68533437174301c5568bf8efe979e43ab498fc9d71a425cbdef9cabff2960765",
+        "prediction_sha256": "fcc296a6e041132717edd47c65d21424e5c0c230871091b23afd33acd34c7756",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p074.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00021-371baec428.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1877
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 16.45,
+      "counts": {
+        "correct": 1642,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 3
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "22",
+      "log": "ext_nl_flat-bay-2_p075",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "c12fed121ed279cc2b4b7457297024cbcbd29022872add0978df7adce531b0eb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ee4d83c746caead34a0b5a9a2138b9f78f18af08cc40e81d2df411be7e324be9",
+        "prediction_sha256": "3c836507e2a653ed5c14d1a8688a25bfcf571264f6ae48096b5d6222754eebdb",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p075.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00022-2cd84c2c8c.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.7939914163090128,
+        "boundary_f1": 0.42857142857142855,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.3402820355610055
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 1295,
+        "wrong": 336,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 16
+      },
+      "wrong_pct": 20.600858369098717,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 336
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "23",
+      "log": "ext_nl_flat-bay-2_p076",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "02745f5e79dde6643c01bea23d71091c89b5ce7143310b1b6b11a87e016f6ba5",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "18573181f0c06f7ae2ca7083c4545289f0d6ad19a0b9404bc2de54efaa2ab352",
+        "prediction_sha256": "d18113bc76d8d53724f855b119e37a21818e83efef8fb07b6b6bb9329813362d",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p076.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00023-21120aed7b.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.3951219512195122,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.716773126942661,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 648,
+        "wrong": 992,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 7
+      },
+      "wrong_pct": 60.48780487804878,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 728
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 264
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "24",
+      "log": "ext_nl_flat-bay-2_p077",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "f4221c5f7065bfaa0f6621653fddde5de2ab0f7a11c5b15978199b56fece9ec0",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "575f02e4481b730330b39aadcb139601f9bbc8b472d3b8c22701f364c3ea95a3",
+        "prediction_sha256": "f4c9865c41e29311b6d08e8d21a95fe528a36b9531c5d3817acfe990e2c68348",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p077.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00024-6fa5fd910d.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.16068167985392576,
+        "boundary_f1": 0.2,
+        "cluster_ari": 0.7149009782240185,
+        "depth_mae_ft": null,
+        "score": 0.032136335970785156
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 264,
+        "wrong": 1379,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 4
+      },
+      "wrong_pct": 83.93183201460742,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 1240
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 138
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Salt",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "25",
+      "log": "ext_nl_flat-bay-2_p078",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "7517246b552542ef52cf61bf4f839a57624a1af26f0c7830d461b4e1872e3fba",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d51bac84533c3fedfedc18bc323f12776440c5405958a1e13636df3ff0b11ee6",
+        "prediction_sha256": "6bc93df9faa51b6f4d43778df4a52ab3cf0236c03f62bc8009615758dd44538b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p078.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00025-c6214b2336.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.14647713226205192,
+        "boundary_f1": 0.5294117647058824,
+        "cluster_ari": 0.5999184851299604,
+        "depth_mae_ft": null,
+        "score": 0.07754671707990984
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 237,
+        "wrong": 1381,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 29
+      },
+      "wrong_pct": 85.3522867737948,
+      "confusions": [
+        {
+          "truth": "Gyp",
+          "prediction": "Gvp",
+          "rows": 852
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 285
+        },
+        {
+          "truth": "Clyst",
+          "prediction": "Clvst",
+          "rows": 168
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 75
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Clvst",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "26",
+      "log": "ext_nl_flat-bay-2_p079",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "9785ef6399e325cb30c2671f4656e8fc4d42a06d7e217fb1ab48174fbc8c7606",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d8a87464239ed2089473b56bf69df33a6044559730fcab0340786f5b5ef1c809",
+        "prediction_sha256": "8aface57222d164d5a1cff9f7095852adddf69b10c1f09de7b7a6f19e7a966f9",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p079.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00026-c218c0fbb5.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.3541409147095179,
+        "boundary_f1": 0.6363636363636364,
+        "cluster_ari": 0.6560168974208167,
+        "depth_mae_ft": null,
+        "score": 0.22536240026969323
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 573,
+        "wrong": 1045,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 29
+      },
+      "wrong_pct": 64.58590852904821,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 739
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 298
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Lmst",
+          "rows": 4
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Gvp",
+          "rows": 4
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "27",
+      "log": "ext_nl_flat-bay-2_p080",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "suite": "saved run",
+      "comparison_key": "d7a0d08e025fc88c31bba305d4506f3e567d14e9338fdaa082f7aa7c840a7300",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "0955920c149ef72d4bd972af8e43b50cc48c12b5be53163cdba032e9de425eb1",
+        "prediction_sha256": "71720242496fe57e4ae4349931ad30f4710bd6a58e7d10316124b43432550467",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p080.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00027-b65650a023.csv"
+      }
+    },
+    {
+      "window": [
+        1503,
+        7503
+      ],
+      "metrics": {
+        "row_acc": 0.9769884942471235,
+        "boundary_f1": 0.9753086419753086,
+        "cluster_ari": 0.9308205673154372,
+        "depth_mae_ft": null,
+        "score": 0.9528653215496636
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5859,
+        "wrong": 91,
+        "missing": 0,
+        "boundary": 47,
+        "unlabelled": 3
+      },
+      "wrong_pct": 2.301150575287647,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 45
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 28
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 27
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 20
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Conglomerate",
+          "rows": 8
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Conglomerate",
+          "rows": 4
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 2
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Clay/Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 1
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "28",
+      "log": "60811405120000_1inch tvd mudlog",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "d54b1b64c32f152ae2174af52a8d288fc81bf98958c7d52e095d69ce02ce1992",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+        "prediction_sha256": "6f8de69de3a9e8ec434112a4edba206a75680c54eba4d7a52cf64c3e0de7d574",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00000-d1e66cf062.csv"
+      }
+    },
+    {
+      "window": [
+        7503,
+        13503
+      ],
+      "metrics": {
+        "row_acc": 0.8575241908575242,
+        "boundary_f1": 0.8384074941451991,
+        "cluster_ari": 0.6738929884955824,
+        "depth_mae_ft": null,
+        "score": 0.7189547080257463
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5140,
+        "wrong": 722,
+        "missing": 0,
+        "boundary": 132,
+        "unlabelled": 6
+      },
+      "wrong_pct": 14.247580914247582,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 300
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 148
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 107
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Conglomerate",
+          "rows": 90
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Conglomerate",
+          "rows": 77
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 41
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 41
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 26
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Clay/Shale",
+          "rows": 16
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 8
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "29",
+      "log": "60811405120000_1inch tvd mudlog",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "9beb5f44132c770762eef77778d462e0987d670ab4a5266e7e8454c5a8078109",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+        "prediction_sha256": "58f9e90ca3988d03a2d3667d7c2adf3fb67301050a86e07ac4efdce5ceb806e9",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00001-41f0abd53b.csv"
+      }
+    },
+    {
+      "window": [
+        10093,
+        16093
+      ],
+      "metrics": {
+        "row_acc": 0.972,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9525535835581235,
+        "depth_mae_ft": null,
+        "score": 0.972
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5832,
+        "wrong": 92,
+        "missing": 38,
+        "boundary": 38,
+        "unlabelled": 0
+      },
+      "wrong_pct": 2.8000000000000025,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 84
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Unknown",
+          "rows": 31
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 20
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 11
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Unknown",
+          "rows": 7
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Volcanics",
+          "rows": 4
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 4
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 3
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 2
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "30",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "11f5963ebaadc73068b071f7e0214b7e63220af7176e70151704aae94667d574",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "20f1523df265d83fa88bd790bf1ebde5986fefee5dd3d64c2b29edb7986280c1",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00002-b8165a55fb.csv"
+      }
+    },
+    {
+      "window": [
+        16093,
+        22093
+      ],
+      "metrics": {
+        "row_acc": 0.9676666666666667,
+        "boundary_f1": 0.9896907216494846,
+        "cluster_ari": 0.9776092903390479,
+        "depth_mae_ft": null,
+        "score": 0.9576907216494845
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5806,
+        "wrong": 139,
+        "missing": 37,
+        "boundary": 18,
+        "unlabelled": 0
+      },
+      "wrong_pct": 3.2333333333333325,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 57
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 37
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Dolomitic limestone",
+          "rows": 24
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Unknown",
+          "rows": 13
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Marl",
+          "rows": 12
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Unknown",
+          "rows": 12
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 11
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 8
+        },
+        {
+          "truth": "Halite",
+          "prediction": "Unknown",
+          "rows": 6
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Unknown",
+          "rows": 6
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Limestone",
+          "rows": 3
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 3
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 1
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomitic limestone",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "31",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "a46c0d7dec448ccac9e3f221e9f3641b25ab48a89e75a37a1dc2965aff6f53ac",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "6573e19c7a9a16a871af272bfb3a4bbca2ebf7c7460c319a75a10c113c572608",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00003-871c48ec9c.csv"
+      }
+    },
+    {
+      "window": [
+        22093,
+        28093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "32",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "6870718e39993b2e3acf26f467dbd49073286202d77a7fc5d48da088fa25df45",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "2b43d2563bdec50d96e293bdb26b2ebf20f67a9ca68c302a7f0743f8819f2ac7",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00004-2a70c54cc7.csv"
+      }
+    },
+    {
+      "window": [
+        28093,
+        34093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "33",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "a11b578e2aba636d62791c8440cb912bdfce50524b81bfaebcb6480f668ff64c",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "15c8e60e7da3f701a51f2d8d58e1c8d510ff52188e8d7ec515856f6e0412cc9b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00005-fff36231e4.csv"
+      }
+    },
+    {
+      "window": [
+        34093,
+        40093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "34",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "e0560d284137150c26d5af854c7585498f8b53d1cba3f01a661ab8b3ce7c186a",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "1c46e70f02a91c0a7b8badcf0b44d153b0f8805bf22f893841345907b3fe76d5",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00006-8c0ce6f555.csv"
+      }
+    },
+    {
+      "window": [
+        40093,
+        46093
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 6000,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "35",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "91f7316290ba16a5c7fdf23635621eb203fb7d2439b74988fc99244d303990a4",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "a6090290635a170a24ea1bdfdbfab06ca57446f08353eaab5b49cb30641f3126",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00007-a923fe9883.csv"
+      }
+    },
+    {
+      "window": [
+        46093,
+        52093
+      ],
+      "metrics": {
+        "row_acc": 0.9359145527369827,
+        "boundary_f1": 0.9633507853403142,
+        "cluster_ari": 0.9684495197143175,
+        "depth_mae_ft": null,
+        "score": 0.9016140193906012
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5608,
+        "wrong": 227,
+        "missing": 131,
+        "boundary": 26,
+        "unlabelled": 8
+      },
+      "wrong_pct": 6.408544726301734,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 98
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Unknown",
+          "rows": 97
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Dolomitic limestone",
+          "rows": 55
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Unknown",
+          "rows": 25
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Siltstone",
+          "rows": 24
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 17
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Volcanics",
+          "rows": 12
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 11
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Unknown",
+          "rows": 9
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 7
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 6
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Dolomitic limestone",
+          "rows": 6
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Volcanics",
+          "rows": 4
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 3
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 3
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomitic limestone",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 2
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "36",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "ddd641076ee55b144562d2ae923e7026b3795304db0a186b37ce2d509f230e6b",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "315db1a8955ae5c89bfdc8929736a255781722480f0f9e488592aa9f31a322cb",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00008-2dcac11160.csv"
+      }
+    },
+    {
+      "window": [
+        52093,
+        58093
+      ],
+      "metrics": {
+        "row_acc": 0.9812959251837008,
+        "boundary_f1": 0.9606299212598425,
+        "cluster_ari": 0.9515063069975435,
+        "depth_mae_ft": null,
+        "score": 0.9426622273418228
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5876,
+        "wrong": 42,
+        "missing": 26,
+        "boundary": 44,
+        "unlabelled": 12
+      },
+      "wrong_pct": 1.870407481629921,
+      "confusions": [
+        {
+          "truth": "Sandstone",
+          "prediction": "Unknown",
+          "rows": 25
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 23
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 20
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 13
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 13
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 13
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 2
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 1
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 1
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Unknown",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "37",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "6a485e039f6317a708671f058d82dfd7ade6354419af7d577439c38333d15fec",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "f0c67305b2969c0c59cbdf2d62f42d20e0d2441f67d1e2153d5ebecb7c01bdbf",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00009-1b9e5a4f29.csv"
+      }
+    },
+    {
+      "window": [
+        4404,
+        11195
+      ],
+      "metrics": {
+        "row_acc": 0.21045621045621046,
+        "boundary_f1": 0.3902439024390244,
+        "cluster_ari": 0.6168282361110693,
+        "depth_mae_ft": null,
+        "score": 0.08212925286096018
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1264,
+        "wrong": 4742,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 785
+      },
+      "wrong_pct": 78.95437895437895,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 3399
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 373
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "rows": 280
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "rows": 180
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 128
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 97
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "rows": 82
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 62
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 38
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 33
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "38",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "challenge:d582",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "adc1b3c077336552039042e8c21a5f3bb268868866570bce4ffe6b7f747bdebb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25",
+        "prediction_sha256": "4b63db08667ab6ab18232439c93f99baad1364f7ccadd1a410795928aad7adeb",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00010-5a96006a82.csv"
+      }
+    },
+    {
+      "window": [
+        2705,
+        8705
+      ],
+      "metrics": {
+        "row_acc": 0.4226666666666667,
+        "boundary_f1": 0.9942196531791907,
+        "cluster_ari": 0.7185770451629369,
+        "depth_mae_ft": null,
+        "score": 0.420223506743738
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1268,
+        "wrong": 1732,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 3000
+      },
+      "wrong_pct": 57.73333333333333,
+      "confusions": [
+        {
+          "truth": "Lmst",
+          "prediction": "I mst",
+          "rows": 1470
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Shale",
+          "rows": 195
+        },
+        {
+          "truth": "Shale",
+          "prediction": "I mst",
+          "rows": 31
+        },
+        {
+          "truth": "Sltst",
+          "prediction": "Sitst",
+          "rows": 26
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sitst",
+          "rows": 6
+        },
+        {
+          "truth": "Sltst",
+          "prediction": "Shale",
+          "rows": 4
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "39",
+      "log": "ext_kgs_386825",
+      "family": "external:kgs:386825",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "a55683933978a2da87c48bf1d01ab6da71fb0e9116b314465b6997b74c0db4b7",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "25d6487b2065aa43baa92539b3e841c616f526d114b3d5a1c95d3777748674a4",
+        "prediction_sha256": "5a8a63987a5d9afa397d31612fa45a238ef69bcf874f5013436575ddd3bc08f1",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00011-077026e3e8.csv"
+      }
+    },
+    {
+      "window": [
+        8705,
+        10200
+      ],
+      "metrics": {
+        "row_acc": 0.5333333333333333,
+        "boundary_f1": 0.8918918918918919,
+        "cluster_ari": 0.6477245863715178,
+        "depth_mae_ft": null,
+        "score": 0.47567567567567565
+      },
+      "tolerance_px": 14.950000000000001,
+      "counts": {
+        "correct": 600,
+        "wrong": 502,
+        "missing": 13,
+        "boundary": 10,
+        "unlabelled": 370
+      },
+      "wrong_pct": 46.666666666666664,
+      "confusions": [
+        {
+          "truth": "Lmst",
+          "prediction": "I mst",
+          "rows": 327
+        },
+        {
+          "truth": "Shale",
+          "prediction": "I mst",
+          "rows": 56
+        },
+        {
+          "truth": "Ss",
+          "prediction": "Conal",
+          "rows": 52
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clvst",
+          "rows": 31
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Shale",
+          "rows": 25
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Unknown",
+          "rows": 12
+        },
+        {
+          "truth": "Ss",
+          "prediction": "Shale",
+          "rows": 12
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Clvst",
+          "rows": 6
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Ss",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "",
+          "rows": 1
+        },
+        {
+          "truth": "Ss",
+          "prediction": "I mst",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "40",
+      "log": "ext_kgs_386825",
+      "family": "external:kgs:386825",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "d3a92ac5cdd1f290604ef5f5cfe6b71b65357255541fcf2827173237efbcb4aa",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "25d6487b2065aa43baa92539b3e841c616f526d114b3d5a1c95d3777748674a4",
+        "prediction_sha256": "821601d0b930adf6d63028cce4e8f792eeeccc802918376f7f2bb0b9312f9c57",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00012-1b006a798c.csv"
+      }
+    },
+    {
+      "window": [
+        2510,
+        8510
+      ],
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.020618556701030927,
+        "cluster_ari": 0.12476677421629938,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 0,
+        "wrong": 5623,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 377
+      },
+      "wrong_pct": 100.0,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4760
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 687
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 83
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 61
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 32
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "41",
+      "log": "ext_idaho_barlow3-14_p001",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "cfc202a1bf3fb4a0122dce68b7ac07262c5067154f577d3d18c8338d844f181f",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "b16fcfda5a08d3e8db643e5fd89ae0c9eb63d5cc78a25910c4ef016fa25933af",
+        "prediction_sha256": "56dfcee76c92a6d48f0d856633193990fe6f939aac0c47d8c290adbf9331c39b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00013-7311b3d0af.csv"
+      }
+    },
+    {
+      "window": [
+        9130,
+        15130
+      ],
+      "metrics": {
+        "row_acc": 0.07413333333333333,
+        "boundary_f1": 0.27986348122866894,
+        "cluster_ari": 0.44651134606508003,
+        "depth_mae_ft": null,
+        "score": 0.02074721274175199
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 417,
+        "wrong": 5204,
+        "missing": 0,
+        "boundary": 4,
+        "unlabelled": 375
+      },
+      "wrong_pct": 92.58666666666666,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4176
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 820
+        },
+        {
+          "truth": "Ls ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 61
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 46
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Tuff dkav",
+          "rows": 28
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff It hlu",
+          "rows": 14
+        },
+        {
+          "truth": "Tuff ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 13
+        },
+        {
+          "truth": "Ls ltgy",
+          "prediction": "I s ltav",
+          "rows": 12
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 7
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 6
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst tn",
+          "rows": 4
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 3
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss crs",
+          "rows": 3
+        },
+        {
+          "truth": "Ls ltgy",
+          "prediction": "Sltst tn",
+          "rows": 2
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Ss crs",
+          "rows": 2
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Sltst tn",
+          "rows": 2
+        },
+        {
+          "truth": "Tuff ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss",
+          "rows": 1
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff It hlu",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff dkav",
+          "rows": 1
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Ss crs",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff dkav",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "42",
+      "log": "ext_idaho_barlow3-14_p001",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "6a9a3c967c01289f3593223fec20f15cdd9c0787f0a27408a0ee4b69c67cee71",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "b16fcfda5a08d3e8db643e5fd89ae0c9eb63d5cc78a25910c4ef016fa25933af",
+        "prediction_sha256": "c6387f8632fefcc555c098332815607e6ba03a65c98c090591a922476469b775",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00014-ead903c4c7.csv"
+      }
+    },
+    {
+      "window": [
+        15750,
+        21750
+      ],
+      "metrics": {
+        "row_acc": 0.19416666666666665,
+        "boundary_f1": 0.36363636363636365,
+        "cluster_ari": 0.6278372479632521,
+        "depth_mae_ft": null,
+        "score": 0.0706060606060606
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1165,
+        "wrong": 4835,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 80.58333333333334,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 3857
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 832
+        },
+        {
+          "truth": "Tuff white",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 45
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 42
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff It hlu",
+          "rows": 14
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 12
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst tn",
+          "rows": 8
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst tn",
+          "rows": 5
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss crs",
+          "rows": 5
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 5
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 2
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff It hlu",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "43",
+      "log": "ext_idaho_barlow3-14_p001",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "06ea4c7a1230241fa524dd6b6b742a03938bbd04678e20d9130fcf6bdcbfddea",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "b16fcfda5a08d3e8db643e5fd89ae0c9eb63d5cc78a25910c4ef016fa25933af",
+        "prediction_sha256": "24fc2d622a3b4254a167a6bafd9fdcbb6b09c021dbbc0904f9f2bb86a7c67737",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00015-641ea8dddb.csv"
+      }
+    },
+    {
+      "window": [
+        284,
+        6284
+      ],
+      "metrics": {
+        "row_acc": 0.052675585284280936,
+        "boundary_f1": 0.1867572156196944,
+        "cluster_ari": 0.539544648985981,
+        "depth_mae_ft": null,
+        "score": 0.009837545638830056
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 315,
+        "wrong": 5665,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 20
+      },
+      "wrong_pct": 94.7324414715719,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 3984
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 799
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 423
+        },
+        {
+          "truth": "Tuff white",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 163
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 104
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 48
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst tn",
+          "rows": 28
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 24
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "I s crm",
+          "rows": 19
+        },
+        {
+          "truth": "Sltst brn",
+          "prediction": "Sltst hrn",
+          "rows": 15
+        },
+        {
+          "truth": "Tuff lt blu",
+          "prediction": "Tuff It hlu",
+          "rows": 15
+        },
+        {
+          "truth": "Tuff dkgy",
+          "prediction": "Tuff dkav",
+          "rows": 14
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst tn",
+          "rows": 6
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 6
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff It hlu",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst tn",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst tn",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst tn",
+          "rows": 2
+        },
+        {
+          "truth": "Tuff white",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Sltst brn",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "44",
+      "log": "ext_idaho_barlow3-14_p002",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "985e97a5068151f7948258f02a6a24c4b6583ee6343718ac3ce4ea8389cfe308",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ed3752b6f5927a19e21647a11391afaf0faabae23afbd29494b0e1da16c2b81e",
+        "prediction_sha256": "7a4d7849bc8388adcef0d3fae96929a7d36b9088da666006401ed9ebf40d7e89",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00016-e4cb51f0eb.csv"
+      }
+    },
+    {
+      "window": [
+        7726,
+        13726
+      ],
+      "metrics": {
+        "row_acc": 0.35575942915392456,
+        "boundary_f1": 0.3044982698961938,
+        "cluster_ari": 0.7036995739898636,
+        "depth_mae_ft": null,
+        "score": 0.10832813067662754
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1745,
+        "wrong": 3160,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 1095
+      },
+      "wrong_pct": 64.42405708460754,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 847
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Rasalt",
+          "rows": 757
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 634
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 550
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 120
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Ss / Ss wh",
+          "rows": 105
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 59
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 43
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss / Ss wh",
+          "rows": 8
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss crs",
+          "rows": 8
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 6
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Ss crs",
+          "rows": 4
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Rasalt",
+          "rows": 4
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Rasalt",
+          "rows": 2
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss / Ss wh",
+          "rows": 2
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Ss / Ss wh",
+          "rows": 1
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Rasalt",
+          "rows": 1
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "45",
+      "log": "ext_idaho_barlow3-14_p002",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "a11a233383e1b4c965469522261a7775fe327b688869e2fb1da4032186559c47",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ed3752b6f5927a19e21647a11391afaf0faabae23afbd29494b0e1da16c2b81e",
+        "prediction_sha256": "5ecf3de53df94e112c5701b8be6271d58311dc092c35a9922834db3622399c9e",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00017-9366759ed8.csv"
+      }
+    },
+    {
+      "window": [
+        15169,
+        21169
+      ],
+      "metrics": {
+        "row_acc": 0.08699453551912568,
+        "boundary_f1": 0.2631578947368421,
+        "cluster_ari": 0.5059043828053654,
+        "depth_mae_ft": null,
+        "score": 0.022893298820822548
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 398,
+        "wrong": 4177,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 1425
+      },
+      "wrong_pct": 91.30054644808743,
+      "confusions": [
+        {
+          "truth": "Clyst gy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 2177
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 806
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 626
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Ss / Ss wh",
+          "rows": 194
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 92
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 60
+        },
+        {
+          "truth": "Sltst dkgy",
+          "prediction": "Sltst dkav",
+          "rows": 58
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 44
+        },
+        {
+          "truth": "Sltst wh",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 42
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Rasalt",
+          "rows": 29
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Tuff white / Tuuff Itav",
+          "rows": 10
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst avan",
+          "rows": 9
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss / Ss wh",
+          "rows": 8
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Ss crs",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss / Ss wh",
+          "rows": 4
+        },
+        {
+          "truth": "Ss crs",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 4
+        },
+        {
+          "truth": "Sltst wh",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 3
+        },
+        {
+          "truth": "Clyst gy",
+          "prediction": "Sltst dkav",
+          "rows": 2
+        },
+        {
+          "truth": "Basalt",
+          "prediction": "Clvst av / Clvst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst dkgy",
+          "prediction": "Sltst Itav / Sltst wh",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst dkgy",
+          "prediction": "Ss / Ss wh",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Rasalt",
+          "rows": 1
+        },
+        {
+          "truth": "Sltst ltgy",
+          "prediction": "Ss",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "46",
+      "log": "ext_idaho_barlow3-14_p002",
+      "family": "external:idaho:barlow3-14",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "d4e285a750f3d27c9a2fedad363941d780d01c84c8070e92e978093880dcb83c",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ed3752b6f5927a19e21647a11391afaf0faabae23afbd29494b0e1da16c2b81e",
+        "prediction_sha256": "6ca213f262c112ddf5311b27ebf457f09763a713c62248201b7bce1cf12a4978",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00018-72c73bef7a.csv"
+      }
+    },
+    {
+      "window": [
+        1314,
+        1880
+      ],
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 5.66,
+      "counts": {
+        "correct": 0,
+        "wrong": 553,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 13
+      },
+      "wrong_pct": 100.0,
+      "confusions": [
+        {
+          "truth": "Clyst",
+          "prediction": "Clvst",
+          "rows": 553
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "47",
+      "log": "ext_nl_flat-bay-2_p071",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "36ca5b9047f91fabe2128a94e62d3642039421115be5c8b7988bb000f2e97b0f",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d0cce835a0f9d59aba876af1d3f02d94bef816176a54977f9675036d2db6e358",
+        "prediction_sha256": "d670d58ad24672c2ece7e158f002e6629ba1353a77f6cf4aa281f8945b9093c2",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p071.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00019-b434a5dc0b.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 1643,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 4
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "48",
+      "log": "ext_nl_flat-bay-2_p073",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "89b9a8bc238ad689b4ad3701da437e150b4b97439f0599a23347402cf882c914",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ad364c15840908c927d80da819aba7c07ba59e501ec143aed992312e0aa3784e",
+        "prediction_sha256": "f488ea5c69fa0642361867e1d3d930c1efcc618a41c01e6a05f4edada05ea555",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p073.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00020-979140ebd7.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.9343960760269773,
+        "boundary_f1": 0.6153846153846154,
+        "cluster_ari": 0.9338470867412468,
+        "depth_mae_ft": null,
+        "score": 0.5750129698627553
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 1524,
+        "wrong": 96,
+        "missing": 11,
+        "boundary": 0,
+        "unlabelled": 16
+      },
+      "wrong_pct": 6.560392397302273,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 95
+        },
+        {
+          "truth": "Salt",
+          "prediction": "Unknown",
+          "rows": 11
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Salt",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "49",
+      "log": "ext_nl_flat-bay-2_p074",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "0c6528a769835519ae4ed71cf2854a1221f5f67c14a964bc2d1c4967dfc01735",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "68533437174301c5568bf8efe979e43ab498fc9d71a425cbdef9cabff2960765",
+        "prediction_sha256": "55baf292c6bb0e74e7097c69213e57a796299cf0a44b3247143a1d560a4fb08c",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p074.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00021-371baec428.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1877
+      ],
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 16.45,
+      "counts": {
+        "correct": 1642,
+        "wrong": 0,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 3
+      },
+      "wrong_pct": 0.0,
+      "confusions": [],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "50",
+      "log": "ext_nl_flat-bay-2_p075",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "c12fed121ed279cc2b4b7457297024cbcbd29022872add0978df7adce531b0eb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "ee4d83c746caead34a0b5a9a2138b9f78f18af08cc40e81d2df411be7e324be9",
+        "prediction_sha256": "3c836507e2a653ed5c14d1a8688a25bfcf571264f6ae48096b5d6222754eebdb",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p075.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00022-2cd84c2c8c.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.7939914163090128,
+        "boundary_f1": 0.42857142857142855,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.3402820355610055
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 1295,
+        "wrong": 336,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 16
+      },
+      "wrong_pct": 20.600858369098717,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 336
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "51",
+      "log": "ext_nl_flat-bay-2_p076",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "02745f5e79dde6643c01bea23d71091c89b5ce7143310b1b6b11a87e016f6ba5",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "18573181f0c06f7ae2ca7083c4545289f0d6ad19a0b9404bc2de54efaa2ab352",
+        "prediction_sha256": "d18113bc76d8d53724f855b119e37a21818e83efef8fb07b6b6bb9329813362d",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p076.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00023-21120aed7b.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.3951219512195122,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.716773126942661,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 648,
+        "wrong": 992,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 7
+      },
+      "wrong_pct": 60.48780487804878,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 728
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 264
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "52",
+      "log": "ext_nl_flat-bay-2_p077",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "f4221c5f7065bfaa0f6621653fddde5de2ab0f7a11c5b15978199b56fece9ec0",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "575f02e4481b730330b39aadcb139601f9bbc8b472d3b8c22701f364c3ea95a3",
+        "prediction_sha256": "f4c9865c41e29311b6d08e8d21a95fe528a36b9531c5d3817acfe990e2c68348",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p077.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00024-6fa5fd910d.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.16068167985392576,
+        "boundary_f1": 0.2,
+        "cluster_ari": 0.7149009782240185,
+        "depth_mae_ft": null,
+        "score": 0.032136335970785156
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 264,
+        "wrong": 1379,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 4
+      },
+      "wrong_pct": 83.93183201460742,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 1240
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 138
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Salt",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "53",
+      "log": "ext_nl_flat-bay-2_p078",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "7517246b552542ef52cf61bf4f839a57624a1af26f0c7830d461b4e1872e3fba",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d51bac84533c3fedfedc18bc323f12776440c5405958a1e13636df3ff0b11ee6",
+        "prediction_sha256": "6bc93df9faa51b6f4d43778df4a52ab3cf0236c03f62bc8009615758dd44538b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p078.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00025-c6214b2336.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.14647713226205192,
+        "boundary_f1": 0.5294117647058824,
+        "cluster_ari": 0.5999184851299604,
+        "depth_mae_ft": null,
+        "score": 0.07754671707990984
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 237,
+        "wrong": 1381,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 29
+      },
+      "wrong_pct": 85.3522867737948,
+      "confusions": [
+        {
+          "truth": "Gyp",
+          "prediction": "Gvp",
+          "rows": 852
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 285
+        },
+        {
+          "truth": "Clyst",
+          "prediction": "Clvst",
+          "rows": 168
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 75
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Clvst",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "54",
+      "log": "ext_nl_flat-bay-2_p079",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "9785ef6399e325cb30c2671f4656e8fc4d42a06d7e217fb1ab48174fbc8c7606",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d8a87464239ed2089473b56bf69df33a6044559730fcab0340786f5b5ef1c809",
+        "prediction_sha256": "8aface57222d164d5a1cff9f7095852adddf69b10c1f09de7b7a6f19e7a966f9",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p079.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00026-c218c0fbb5.csv"
+      }
+    },
+    {
+      "window": [
+        232,
+        1879
+      ],
+      "metrics": {
+        "row_acc": 0.3541409147095179,
+        "boundary_f1": 0.6363636363636364,
+        "cluster_ari": 0.6560168974208167,
+        "depth_mae_ft": null,
+        "score": 0.22536240026969323
+      },
+      "tolerance_px": 16.47,
+      "counts": {
+        "correct": 573,
+        "wrong": 1045,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 29
+      },
+      "wrong_pct": 64.58590852904821,
+      "confusions": [
+        {
+          "truth": "Anhy",
+          "prediction": "Gvp",
+          "rows": 739
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Anhv",
+          "rows": 298
+        },
+        {
+          "truth": "Anhy",
+          "prediction": "Lmst",
+          "rows": 4
+        },
+        {
+          "truth": "Lmst",
+          "prediction": "Gvp",
+          "rows": 4
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "55",
+      "log": "ext_nl_flat-bay-2_p080",
+      "family": "external:nl:flat-bay-2",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "suite": "saved run",
+      "comparison_key": "d7a0d08e025fc88c31bba305d4506f3e567d14e9338fdaa082f7aa7c840a7300",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "0955920c149ef72d4bd972af8e43b50cc48c12b5be53163cdba032e9de425eb1",
+        "prediction_sha256": "71720242496fe57e4ae4349931ad30f4710bd6a58e7d10316124b43432550467",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p080.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00027-b65650a023.csv"
+      }
+    },
+    {
+      "window": [
+        1503,
+        14851
+      ],
+      "metrics": {
+        "row_acc": 0.9226154769046191,
+        "boundary_f1": 0.880248833592535,
+        "cluster_ari": 0.02771585041812561,
+        "depth_mae_ft": null,
+        "score": 0.8121311973997114
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 12304,
+        "wrong": 839,
+        "missing": 0,
+        "boundary": 193,
+        "unlabelled": 12
+      },
+      "wrong_pct": 7.738452309538091,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 353
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 200
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sandy Clay/Shale",
+          "rows": 136
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Conglomerate",
+          "rows": 101
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Conglomerate",
+          "rows": 76
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 64
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 44
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 28
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Clay/Shale",
+          "rows": 19
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 11
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "56",
+      "log": "60811405120000_1inch tvd mudlog",
+      "family": "Gulf 1inch",
+      "strategy": "v4 beds",
+      "suite": "human development",
+      "comparison_key": "6196ea99b93c9f75c178a891805b18739f851d981fdd1963d0e092dc074a2933",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+        "prediction_sha256": "18ed5f2f0f0527126b2947b2f0e4ec8bfcb3fe53856e7215f8ad6437e059a26e",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\60811405120000_1inch_tvd_mudlog.csv"
+      }
+    },
+    {
+      "window": [
+        10093,
+        58782
+      ],
+      "metrics": {
+        "row_acc": 0.9849185313032937,
+        "boundary_f1": 0.9701230228471002,
+        "cluster_ari": 0.38007454465007146,
+        "depth_mae_ft": null,
+        "score": 0.9554921428460775
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 47935,
+        "wrong": 597,
+        "missing": 0,
+        "boundary": 137,
+        "unlabelled": 20
+      },
+      "wrong_pct": 1.5081468696706346,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Volcanics",
+          "rows": 320
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Dolomitic limestone",
+          "rows": 92
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Chalk",
+          "rows": 71
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 44
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 42
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 29
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale",
+          "rows": 27
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Siltstone",
+          "rows": 24
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Volcanics",
+          "rows": 17
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Volcanics",
+          "rows": 12
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Marl",
+          "rows": 12
+        },
+        {
+          "truth": "Limestone",
+          "prediction": "Shale",
+          "rows": 11
+        },
+        {
+          "truth": "Halite",
+          "prediction": "Shale",
+          "rows": 6
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Dolomitic limestone",
+          "rows": 6
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Chalk",
+          "rows": 5
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 5
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomitic limestone",
+          "rows": 4
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Limestone",
+          "rows": 3
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 2
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 2
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "57",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "Shenzi",
+      "strategy": "v4 beds",
+      "suite": "human development",
+      "comparison_key": "63b3efcb321a289310f37afd56a83e6fe9aad72408df6c8d188629f723f5271c",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+        "prediction_sha256": "2aeab98eb9139abac0b0bca2f8cf7e8e277f288a748bdfd58b320e845d3c278b",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv"
+      }
+    },
+    {
+      "window": [
+        4409,
+        10415
+      ],
+      "metrics": {
+        "row_acc": 0.21045621045621046,
+        "boundary_f1": 0.358974358974359,
+        "cluster_ari": 0.13600110339547122,
+        "depth_mae_ft": null,
+        "score": 0.07554838324069094
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1264,
+        "wrong": 4742,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 78.95437895437895,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 3399
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 373
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "rows": 280
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "rows": 180
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 128
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 97
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "rows": 82
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 62
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 38
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 33
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "58",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "D-582",
+      "strategy": "v4 beds",
+      "suite": "human development",
+      "comparison_key": "ac049b144315396864f1486c4ad80097462c116484ddc4c74c30ba1d47271dbf",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25",
+        "prediction_sha256": "d202ebc527e0eb11d26a9ac2ac102bf42d217272f4f328c88e643a2012ac592c",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv"
+      }
+    },
+    {
+      "window": [
+        1738,
+        24773
+      ],
+      "metrics": {
+        "row_acc": 0.9849086576648134,
+        "boundary_f1": 0.9553072625698324,
+        "cluster_ari": 0.8601951127600614,
+        "depth_mae_ft": null,
+        "score": 0.9408903936351011
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 22320,
+        "wrong": 167,
+        "missing": 0,
+        "boundary": 175,
+        "unlabelled": 373
+      },
+      "wrong_pct": 1.5091342335186608,
+      "confusions": [
+        {
+          "truth": "Siltstone",
+          "prediction": "Shale grey",
+          "rows": 130
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sand",
+          "rows": 51
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale grey",
+          "rows": 44
+        },
+        {
+          "truth": "Shale grey",
+          "prediction": "Siltstone",
+          "rows": 39
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 27
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 18
+        },
+        {
+          "truth": "Shale grey",
+          "prediction": "Sandstone",
+          "rows": 16
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "I!S",
+          "rows": 9
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "I!S",
+          "rows": 7
+        },
+        {
+          "truth": "Shale grey",
+          "prediction": "Sand",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "59",
+      "log": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+      "family": "Hadrian",
+      "strategy": "v4 beds",
+      "suite": "Hadrian unreviewed",
+      "comparison_key": "11c1d273ca99d81233bbf17c121de9d6c1dd80bee10a7ccbaf626d0fe605ba2d",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "4221a76315dafdd21992438be65d5e62484b2becfb417db1acbf75068c96e67d",
+        "prediction_sha256": "549615bc01e4b0f7f14590d67c4396bc5fc5373cb0a06d591e558645fb61b9a0",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_labels\\2026-11-07\\labelling\\labels\\60808400140000_hadrian 2_masterlog_2in_10000-21962.json",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\60808400140000_hadrian_2_masterlog_2in_10000-21962.csv"
+      }
+    },
+    {
+      "window": [
+        4404,
+        11195
+      ],
+      "metrics": {
+        "row_acc": 0.04395604395604396,
+        "boundary_f1": 0.18848167539267016,
+        "cluster_ari": 0.2164480092944335,
+        "depth_mae_ft": 0.33333333333292914,
+        "score": 0.008284908808469018
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 264,
+        "wrong": 5323,
+        "missing": 419,
+        "boundary": 0,
+        "unlabelled": 785
+      },
+      "wrong_pct": 95.6043956043956,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "Limestone",
+          "rows": 1622
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "rows": 1096
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay",
+          "rows": 689
+        },
+        {
+          "truth": "Shale",
+          "prediction": "",
+          "rows": 402
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "rows": 385
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 367
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 347
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sand and",
+          "rows": 332
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 247
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 74
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sand and",
+          "rows": 48
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 43
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Limestone",
+          "rows": 26
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and",
+          "rows": 24
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Anhydrite",
+          "rows": 20
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "",
+          "rows": 9
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "",
+          "rows": 8
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Coal",
+          "rows": 3
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "60",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s19_combine",
+      "suite": "viridien_eval",
+      "comparison_key": "adc1b3c077336552039042e8c21a5f3bb268868866570bce4ffe6b7f747bdebb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+        "prediction_sha256": "2c017e9d7a43eebb124d756fcee752a5a7a8b8f1ee00c6465fa769287ece1eae",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\6b663182fbfb4f87.csv"
+      }
+    },
+    {
+      "window": [
+        4404,
+        11195
+      ],
+      "metrics": {
+        "row_acc": 0.21045621045621046,
+        "boundary_f1": 0.3902439024390244,
+        "cluster_ari": 0.6168282361110693,
+        "depth_mae_ft": 0.6124999999992724,
+        "score": 0.08212925286096018
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1264,
+        "wrong": 4742,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 785
+      },
+      "wrong_pct": 78.95437895437895,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 3399
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 373
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "rows": 280
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "rows": 180
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 128
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 97
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "rows": 82
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 62
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 38
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 35
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 33
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "61",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s20_v4",
+      "suite": "viridien_eval",
+      "comparison_key": "adc1b3c077336552039042e8c21a5f3bb268868866570bce4ffe6b7f747bdebb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+        "prediction_sha256": "78ffa5139888c089737c559dc3db11851e43623ac88e34d49cd897230a3895d0",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\6b663182fbfb4f87.csv"
+      }
+    },
+    {
+      "window": [
+        4404,
+        11195
+      ],
+      "metrics": {
+        "row_acc": 0.13320013320013321,
+        "boundary_f1": 0.625,
+        "cluster_ari": 0.7606600593755758,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.08325008325008326
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 800,
+        "wrong": 5206,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 785
+      },
+      "wrong_pct": 86.67998667998667,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 3816
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "rows": 1167
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 168
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Clay / Shale",
+          "rows": 35
+        },
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 20
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "62",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s21_v4dino",
+      "suite": "viridien_eval",
+      "comparison_key": "adc1b3c077336552039042e8c21a5f3bb268868866570bce4ffe6b7f747bdebb",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+        "prediction_sha256": "46804784ad62940a38d6276f622fbba03a7e930be92e2694c49f32d1c1d37bdf",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\6b663182fbfb4f87.csv"
+      }
+    },
+    {
+      "window": [
+        4387,
+        10387
+      ],
+      "metrics": {
+        "row_acc": 0.030166666666666668,
+        "boundary_f1": 0.1724137931034483,
+        "cluster_ari": 0.0787036323864076,
+        "depth_mae_ft": null,
+        "score": 0.005201149425287357
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 181,
+        "wrong": 5493,
+        "missing": 326,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 96.98333333333333,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 1168
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Halite",
+          "rows": 965
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Sand and",
+          "rows": 918
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Limestone",
+          "rows": 888
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay",
+          "rows": 546
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 351
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 277
+        },
+        {
+          "truth": "Shale",
+          "prediction": "",
+          "rows": 252
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 222
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Siltstone",
+          "rows": 109
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "",
+          "rows": 74
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and",
+          "rows": 28
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Limestone",
+          "rows": 21
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "63",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s19_combine",
+      "suite": "viridien_eval",
+      "comparison_key": "5fdfafc255b5b115559f742803b36880a8964cb40467618ec0cbd946e9747e30",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+        "prediction_sha256": "8958c5153ec2cff5ba0be3b5f9a11ae86b3e588414e3ba5eb1b53df23e8473b5",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\098a11560a3b06db.csv"
+      }
+    },
+    {
+      "window": [
+        4387,
+        10387
+      ],
+      "metrics": {
+        "row_acc": 0.2638333333333333,
+        "boundary_f1": 0.46153846153846156,
+        "cluster_ari": 0.341452190107324,
+        "depth_mae_ft": null,
+        "score": 0.12176923076923077
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1583,
+        "wrong": 4417,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 73.61666666666666,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 2157
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 722
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 501
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 396
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Halite",
+          "rows": 367
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 86
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 83
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 54
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 38
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Dolomite",
+          "rows": 13
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "64",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s20_v4",
+      "suite": "viridien_eval",
+      "comparison_key": "5fdfafc255b5b115559f742803b36880a8964cb40467618ec0cbd946e9747e30",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+        "prediction_sha256": "fd2d041649a41edf210df4eab07b97761a137276c2b0a52b8904eb007e09dcc4",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\098a11560a3b06db.csv"
+      }
+    },
+    {
+      "window": [
+        4387,
+        10387
+      ],
+      "metrics": {
+        "row_acc": 0.33366666666666667,
+        "boundary_f1": 0.4666666666666667,
+        "cluster_ari": 0.29056010354044437,
+        "depth_mae_ft": null,
+        "score": 0.1557111111111111
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 2002,
+        "wrong": 3998,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 66.63333333333334,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 2614
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 1274
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 85
+        },
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 25
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "65",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s21_v4dino",
+      "suite": "viridien_eval",
+      "comparison_key": "5fdfafc255b5b115559f742803b36880a8964cb40467618ec0cbd946e9747e30",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+        "prediction_sha256": "1fdc4d755d3772706450fbbfc4ce0a28fbee01bceef8c915d3db587a75231399",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\098a11560a3b06db.csv"
+      }
+    },
+    {
+      "window": [
+        4384,
+        10384
+      ],
+      "metrics": {
+        "row_acc": 0.01633333333333333,
+        "boundary_f1": 0.1476510067114094,
+        "cluster_ari": 0.17992746647882263,
+        "depth_mae_ft": null,
+        "score": 0.002411633109619687
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 98,
+        "wrong": 5667,
+        "missing": 235,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 98.36666666666667,
+      "confusions": [
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Sand and",
+          "rows": 1645
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 1360
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Limestone",
+          "rows": 814
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Halite",
+          "rows": 770
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sandstone",
+          "rows": 270
+        },
+        {
+          "truth": "Shale",
+          "prediction": "",
+          "rows": 186
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "rows": 176
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 164
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and",
+          "rows": 157
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Siltstone",
+          "rows": 114
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Clay",
+          "rows": 96
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Anhydrite",
+          "rows": 92
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "",
+          "rows": 49
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Coal",
+          "rows": 9
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "66",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s19_combine",
+      "suite": "viridien_eval",
+      "comparison_key": "0b6b28f0940509b60b3528bf76a456a964c298d4b0e37d0ae6f5266c253a6df4",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+        "prediction_sha256": "515dd72a97b7acd4cfb251cae196680393ebc58ebfdde034ded2d8463e8e06de",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ee53c8e06c27030e.csv"
+      }
+    },
+    {
+      "window": [
+        4384,
+        10384
+      ],
+      "metrics": {
+        "row_acc": 0.35183333333333333,
+        "boundary_f1": 0.3,
+        "cluster_ari": 0.3045348218407671,
+        "depth_mae_ft": null,
+        "score": 0.10554999999999999
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 2111,
+        "wrong": 3889,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 64.81666666666666,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "rows": 1554
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Halite",
+          "rows": 848
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "rows": 555
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Halite",
+          "rows": 453
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 373
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "SIllty Sandstone",
+          "rows": 83
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Siltstone",
+          "rows": 23
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "67",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s20_v4",
+      "suite": "viridien_eval",
+      "comparison_key": "0b6b28f0940509b60b3528bf76a456a964c298d4b0e37d0ae6f5266c253a6df4",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+        "prediction_sha256": "9a61811b4945a6a8167b26586447f737e55cdfaa471e60e302adbf51ecf89a98",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\ee53c8e06c27030e.csv"
+      }
+    },
+    {
+      "window": [
+        4384,
+        10384
+      ],
+      "metrics": {
+        "row_acc": 0.43116666666666664,
+        "boundary_f1": 0.3076923076923077,
+        "cluster_ari": 0.1860410080479543,
+        "depth_mae_ft": null,
+        "score": 0.13266666666666665
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 2587,
+        "wrong": 3413,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "wrong_pct": 56.88333333333333,
+      "confusions": [
+        {
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "rows": 1698
+        },
+        {
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "rows": 1607
+        },
+        {
+          "truth": "Sand and Sandstone",
+          "prediction": "Clay / Shale",
+          "rows": 83
+        },
+        {
+          "truth": "Shale",
+          "prediction": "LImestone",
+          "rows": 25
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "68",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "strategy": "s21_v4dino",
+      "suite": "viridien_eval",
+      "comparison_key": "0b6b28f0940509b60b3528bf76a456a964c298d4b0e37d0ae6f5266c253a6df4",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+        "prediction_sha256": "4b736ea06f7fae60c7dd27c26702d6fc8daca54a9c3218c7ca80162041768b30",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\ee53c8e06c27030e.csv"
+      }
+    },
+    {
+      "window": [
+        1728,
+        7728
+      ],
+      "metrics": {
+        "row_acc": 0.3,
+        "boundary_f1": 0.89419795221843,
+        "cluster_ari": 0.4032770337408705,
+        "depth_mae_ft": null,
+        "score": 0.268259385665529
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1800,
+        "wrong": 4112,
+        "missing": 0,
+        "boundary": 88,
+        "unlabelled": 0
+      },
+      "wrong_pct": 70.0,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Shale",
+          "rows": 3333
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Diatomite",
+          "rows": 289
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Diatomite",
+          "rows": 254
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 196
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 92
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 36
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "69",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "family": "Geoservices grid",
+      "strategy": "s19_combine",
+      "suite": "viridien_eval",
+      "comparison_key": "a108bb4abe350d4678f59739bf96f175694555fa5180819341fc7a45a543b5c9",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+        "prediction_sha256": "9151d8eef5d8c777dce130c8bfa038b54be876d71d0a243845063ba4967553e0",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ff55e97bd8089596.csv"
+      }
+    },
+    {
+      "window": [
+        1728,
+        7728
+      ],
+      "metrics": {
+        "row_acc": 0.386,
+        "boundary_f1": 0.939297124600639,
+        "cluster_ari": 0.4781216098005908,
+        "depth_mae_ft": null,
+        "score": 0.36256869009584664
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 2316,
+        "wrong": 3625,
+        "missing": 0,
+        "boundary": 59,
+        "unlabelled": 0
+      },
+      "wrong_pct": 61.4,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Shale",
+          "rows": 3396
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 132
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 51
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Diatomite",
+          "rows": 40
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Diatomite",
+          "rows": 34
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 20
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Plastic Clay",
+          "rows": 11
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "70",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "family": "Geoservices grid",
+      "strategy": "s20_v4",
+      "suite": "viridien_eval",
+      "comparison_key": "a108bb4abe350d4678f59739bf96f175694555fa5180819341fc7a45a543b5c9",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+        "prediction_sha256": "79018019d3ad5521627a67b49efa3f577f8438f2de2c3a2baa50a7e4a4e87926",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\ff55e97bd8089596.csv"
+      }
+    },
+    {
+      "window": [
+        1728,
+        7728
+      ],
+      "metrics": {
+        "row_acc": 0.2991666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "cluster_ari": 0.5124338432876435,
+        "depth_mae_ft": null,
+        "score": 0.2808896034297964
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 1795,
+        "wrong": 4193,
+        "missing": 0,
+        "boundary": 12,
+        "unlabelled": 0
+      },
+      "wrong_pct": 70.08333333333333,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Shale",
+          "rows": 3660
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Diatomite",
+          "rows": 311
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Diatomite",
+          "rows": 108
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Shale",
+          "rows": 71
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 44
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 11
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "71",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "family": "Geoservices grid",
+      "strategy": "s21_v4dino",
+      "suite": "viridien_eval",
+      "comparison_key": "a108bb4abe350d4678f59739bf96f175694555fa5180819341fc7a45a543b5c9",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+        "prediction_sha256": "3f3047ddffdd294d176724c2036adcbf86981543867b102ee939f036687fb8ac",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\ff55e97bd8089596.csv"
+      }
+    },
+    {
+      "window": [
+        1501,
+        7501
+      ],
+      "metrics": {
+        "row_acc": 0.9445,
+        "boundary_f1": 0.8527131782945736,
+        "cluster_ari": 0.7870336110487445,
+        "depth_mae_ft": null,
+        "score": 0.8053875968992248
+      },
+      "tolerance_px": 20,
+      "counts": {
+        "correct": 5667,
+        "wrong": 237,
+        "missing": 0,
+        "boundary": 96,
+        "unlabelled": 0
+      },
+      "wrong_pct": 5.549999999999999,
+      "confusions": [
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sandstone",
+          "rows": 165
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Sand Clay/Shale",
+          "rows": 64
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Clay/Shale",
+          "rows": 27
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Limestone",
+          "rows": 25
+        },
+        {
+          "truth": "Clay/Shale",
+          "prediction": "Siltstone",
+          "rows": 25
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Limestone",
+          "rows": 13
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Siltstone",
+          "rows": 7
+        },
+        {
+          "truth": "Sandstone",
+          "prediction": "Sand Clay/Shale",
+          "rows": 6
+        },
+        {
+          "truth": "Siltstone",
+          "prediction": "Sandstone",
+          "rows": 1
+        }
+      ],
+      "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "min_layer_px": 0,
+      "id": "72",
+      "log": "60811405120000_1inch tvd mudlog",
+      "family": "Gulf 3-panel",
+      "strategy": "s19_combine",
+      "suite": "viridien_eval",
+      "comparison_key": "3b3e9ec434d6162eb6d8ff27936eacd6ff0c3a349dee48fdfc9cd9f76e380d2d",
+      "inference_error": null,
+      "provenance": {
+        "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+        "prediction_sha256": "5a471f81055483305c7831b6aa5d5306cd2c927a916b9ea9ca2c3535f96d3ce4",
+        "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+        "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\0de8d24f32217327.csv"
+      }
+    }
+  ]
+}

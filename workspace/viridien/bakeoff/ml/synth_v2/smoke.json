@@ -1,0 +1,48 @@
+{
+ "records": [
+  {
+   "family": "Gulf 3-panel",
+   "seconds": 0.44971332899990557,
+   "rows": 27,
+   "height": 6000
+  },
+  {
+   "family": "Geoservices grid",
+   "seconds": 0.49407331600014004,
+   "rows": 27,
+   "height": 6000
+  },
+  {
+   "family": "D-582 1-bit grid",
+   "seconds": 0.5127446930000588,
+   "rows": 44,
+   "height": 6000
+  },
+  {
+   "family": "MC765 colour grid",
+   "seconds": 0.3723960550000811,
+   "rows": 29,
+   "height": 6000
+  },
+  {
+   "family": "MC761 mineral/lithology",
+   "seconds": 0.2642528209999,
+   "rows": 26,
+   "height": 6000
+  },
+  {
+   "family": "Texas 'Rock Types' box",
+   "seconds": 0.31750513699989824,
+   "rows": 32,
+   "height": 6000
+  },
+  {
+   "family": "One-off layout",
+   "seconds": 0.23807296500012853,
+   "rows": 27,
+   "height": 6000
+  }
+ ],
+ "peak_rss_gb": 0.4509544372558594,
+ "note": "Synthetic speed check only. No scores or selection."
+}

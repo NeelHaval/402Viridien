@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-11-08T06:52:44.697198+00:00",
+  "ended_utc": "2026-11-08T06:53:55.762757+00:00",
+  "command": [
+    "C:\\Users\\hssil\\anaconda3\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pytest",
+    "harness",
+    "strategies/test_scoreboard_v4.py",
+    "strategies/test_s21_v4dino.py",
+    "strategies/test_s21_fusion.py",
+    "strategies/test_s23_identity.py",
+    "strategies/test_grading_policy.py",
+    "strategies/test_legend_identity.py",
+    "strategies/test_challenge_export.py",
+    "report/scoreboard_1108/test_scoreboard.py",
+    "report/scoreboard_1108/test_report.py",
+    "report/scoreboard_1108/test_report_gate.py",
+    "report/scoreboard_1108/test_report_integrity.py",
+    "report/scoreboard_1108/test_report_policy_gate.py",
+    "report/scoreboard_1108/test_rescore_policy.py",
+    "report/scoreboard_1108/test_saved_audit_guards.py",
+    "-q",
+    "--tb=short"
+  ],
+  "cwd": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff",
+  "exit_code": 1,
+  "log": "final_checks.log",
+  "timeout_seconds": 300
+}

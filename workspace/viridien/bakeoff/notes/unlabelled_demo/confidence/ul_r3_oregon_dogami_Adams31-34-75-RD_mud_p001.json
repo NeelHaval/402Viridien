@@ -1,0 +1,1653 @@
+[
+  {
+    "top_y": 2510,
+    "bottom_y": 2720,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9967646647067298,
+      "match_margin": 0.0020690787406194566,
+      "boundary_probability": 0.18821099400520325
+    }
+  },
+  {
+    "top_y": 2720,
+    "bottom_y": 2743,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5360628962516785,
+      "match_margin": 0.01871669292449951,
+      "boundary_probability": 0.9279048442840576
+    }
+  },
+  {
+    "top_y": 2743,
+    "bottom_y": 3614,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8566794454298665,
+      "match_margin": 0.07561397258230795,
+      "boundary_probability": 0.4516252875328064
+    }
+  },
+  {
+    "top_y": 3614,
+    "bottom_y": 3623,
+    "lithology": "Clay",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9958027005195618,
+      "match_margin": 0.000517427921295166,
+      "boundary_probability": 0.5727413892745972
+    }
+  },
+  {
+    "top_y": 3623,
+    "bottom_y": 3713,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.801009656323327,
+      "match_margin": 0.13179975085788298,
+      "boundary_probability": 0.892229437828064
+    }
+  },
+  {
+    "top_y": 3713,
+    "bottom_y": 3754,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9786158204078674,
+      "match_margin": 0.004431962966918945,
+      "boundary_probability": 0.5987733006477356
+    }
+  },
+  {
+    "top_y": 3754,
+    "bottom_y": 3771,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.827322781085968,
+      "match_margin": 0.07539999485015869,
+      "boundary_probability": 0.6175774335861206
+    }
+  },
+  {
+    "top_y": 3771,
+    "bottom_y": 3803,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1778324842453003,
+      "match_margin": 0.09334182739257812,
+      "boundary_probability": 0.877023458480835
+    }
+  },
+  {
+    "top_y": 3803,
+    "bottom_y": 3960,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9461033678358528,
+      "match_margin": 0.023214382350824403,
+      "boundary_probability": 0.9286432266235352
+    }
+  },
+  {
+    "top_y": 3960,
+    "bottom_y": 3976,
+    "lithology": "Marl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7425978183746338,
+      "match_margin": 0.015728235244750977,
+      "boundary_probability": 0.946563720703125
+    }
+  },
+  {
+    "top_y": 3976,
+    "bottom_y": 4134,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7584189694521208,
+      "match_margin": 0.10398773673319917,
+      "boundary_probability": 0.4278077185153961
+    }
+  },
+  {
+    "top_y": 4134,
+    "bottom_y": 4205,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7584189694521208,
+      "match_margin": 0.10398773673319917,
+      "boundary_probability": 0.8981404304504395
+    }
+  },
+  {
+    "top_y": 4205,
+    "bottom_y": 4239,
+    "lithology": "Shale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5016746520996094,
+      "match_margin": 0.0014309883117675781,
+      "boundary_probability": 0.6911529302597046
+    }
+  },
+  {
+    "top_y": 4239,
+    "bottom_y": 4295,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9279567854745048,
+      "match_margin": 0.023937208311898384,
+      "boundary_probability": 0.7499242424964905
+    }
+  },
+  {
+    "top_y": 4295,
+    "bottom_y": 4312,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.349856972694397,
+      "match_margin": 0.2474459409713745,
+      "boundary_probability": 0.9409018158912659
+    }
+  },
+  {
+    "top_y": 4312,
+    "bottom_y": 4472,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7197139478744344,
+      "match_margin": 0.12694056617452742,
+      "boundary_probability": 0.7507901191711426
+    }
+  },
+  {
+    "top_y": 4472,
+    "bottom_y": 4641,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7197139478744344,
+      "match_margin": 0.12694056617452742,
+      "boundary_probability": 0.4451994299888611
+    }
+  },
+  {
+    "top_y": 4641,
+    "bottom_y": 4649,
+    "lithology": "Marl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5373489856719971,
+      "match_margin": 0.07229387760162354,
+      "boundary_probability": 0.7438127994537354
+    }
+  },
+  {
+    "top_y": 4649,
+    "bottom_y": 4828,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8454059535564658,
+      "match_margin": 0.06869707260717883,
+      "boundary_probability": 0.9746212363243103
+    }
+  },
+  {
+    "top_y": 4828,
+    "bottom_y": 4852,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3111921548843384,
+      "match_margin": 0.016544461250305176,
+      "boundary_probability": 0.8959169387817383
+    }
+  },
+  {
+    "top_y": 4852,
+    "bottom_y": 4946,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.792716032647072,
+      "match_margin": 0.11635258920649261,
+      "boundary_probability": 0.7918895483016968
+    }
+  },
+  {
+    "top_y": 4946,
+    "bottom_y": 4986,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3314799666404724,
+      "match_margin": 0.2481279969215393,
+      "boundary_probability": 0.9037033319473267
+    }
+  },
+  {
+    "top_y": 4986,
+    "bottom_y": 5112,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8005502635524386,
+      "match_margin": 0.04251054970044943,
+      "boundary_probability": 0.8830347657203674
+    }
+  },
+  {
+    "top_y": 5112,
+    "bottom_y": 5163,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4177215099334717,
+      "match_margin": 0.10076111555099487,
+      "boundary_probability": 0.6809577345848083
+    }
+  },
+  {
+    "top_y": 5163,
+    "bottom_y": 5642,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.896133355407476,
+      "match_margin": 0.05982095774628671,
+      "boundary_probability": 0.993327260017395
+    }
+  },
+  {
+    "top_y": 5642,
+    "bottom_y": 5679,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16130447387695312,
+      "match_margin": 0.08125758171081543,
+      "boundary_probability": 0.9767186641693115
+    }
+  },
+  {
+    "top_y": 5679,
+    "bottom_y": 5824,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6972594365794608,
+      "match_margin": 0.06971310031540856,
+      "boundary_probability": 0.9822866916656494
+    }
+  },
+  {
+    "top_y": 5824,
+    "bottom_y": 6055,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6972594365794608,
+      "match_margin": 0.06971310031540856,
+      "boundary_probability": 0.8238041400909424
+    }
+  },
+  {
+    "top_y": 6055,
+    "bottom_y": 6086,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.821666955947876,
+      "match_margin": 0.00904691219329834,
+      "boundary_probability": 0.6879001259803772
+    }
+  },
+  {
+    "top_y": 6086,
+    "bottom_y": 6174,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.661523004824465,
+      "match_margin": 0.1501229703426361,
+      "boundary_probability": 0.5090492963790894
+    }
+  },
+  {
+    "top_y": 6174,
+    "bottom_y": 6190,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44509053230285645,
+      "match_margin": 0.09079748392105103,
+      "boundary_probability": 0.4237326383590698
+    }
+  },
+  {
+    "top_y": 6190,
+    "bottom_y": 6327,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6961170809112326,
+      "match_margin": 0.14721503135931757,
+      "boundary_probability": 0.9224587678909302
+    }
+  },
+  {
+    "top_y": 6327,
+    "bottom_y": 6347,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36127787828445435,
+      "match_margin": 0.1647791862487793,
+      "boundary_probability": 0.9448378086090088
+    }
+  },
+  {
+    "top_y": 6347,
+    "bottom_y": 6376,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9614683389663696,
+      "match_margin": 0.010284066200256348,
+      "boundary_probability": 0.8650345802307129
+    }
+  },
+  {
+    "top_y": 6376,
+    "bottom_y": 6394,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.288748562335968,
+      "match_margin": 0.002878248691558838,
+      "boundary_probability": 0.9518237113952637
+    }
+  },
+  {
+    "top_y": 6394,
+    "bottom_y": 6477,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9056597825992538,
+      "match_margin": 0.06414520812321856,
+      "boundary_probability": 0.9226830005645752
+    }
+  },
+  {
+    "top_y": 6477,
+    "bottom_y": 6502,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4169992208480835,
+      "match_margin": 0.00942450761795044,
+      "boundary_probability": 0.6078051924705505
+    }
+  },
+  {
+    "top_y": 6502,
+    "bottom_y": 6664,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9331872161523795,
+      "match_margin": 0.017621803062933483,
+      "boundary_probability": 0.935405969619751
+    }
+  },
+  {
+    "top_y": 6664,
+    "bottom_y": 6680,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.46077466011047363,
+      "match_margin": 0.28478503227233887,
+      "boundary_probability": 0.9579108953475952
+    }
+  },
+  {
+    "top_y": 6680,
+    "bottom_y": 7001,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8622819034852715,
+      "match_margin": 0.031350021050355115,
+      "boundary_probability": 0.8412105441093445
+    }
+  },
+  {
+    "top_y": 7001,
+    "bottom_y": 7025,
+    "lithology": "Shale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4519423842430115,
+      "match_margin": 0.03313511610031128,
+      "boundary_probability": 0.9623229503631592
+    }
+  },
+  {
+    "top_y": 7025,
+    "bottom_y": 7175,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9664976784161159,
+      "match_margin": 0.01511162462688631,
+      "boundary_probability": 0.6566532850265503
+    }
+  },
+  {
+    "top_y": 7175,
+    "bottom_y": 7340,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9664976784161159,
+      "match_margin": 0.01511162462688631,
+      "boundary_probability": 0.8996398448944092
+    }
+  },
+  {
+    "top_y": 7340,
+    "bottom_y": 7356,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44641804695129395,
+      "match_margin": 0.04389035701751709,
+      "boundary_probability": 0.950461745262146
+    }
+  },
+  {
+    "top_y": 7356,
+    "bottom_y": 7513,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.967417506920664,
+      "match_margin": 0.023963777517017504,
+      "boundary_probability": 0.7789807319641113
+    }
+  },
+  {
+    "top_y": 7513,
+    "bottom_y": 7831,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.967417506920664,
+      "match_margin": 0.023963777517017504,
+      "boundary_probability": 0.8678621053695679
+    }
+  },
+  {
+    "top_y": 7831,
+    "bottom_y": 7859,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3956791162490845,
+      "match_margin": 0.040178656578063965,
+      "boundary_probability": 0.9526628255844116
+    }
+  },
+  {
+    "top_y": 7859,
+    "bottom_y": 7956,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8728241723837312,
+      "match_margin": 0.06540300674045207,
+      "boundary_probability": 0.9731417894363403
+    }
+  },
+  {
+    "top_y": 7956,
+    "bottom_y": 7985,
+    "lithology": "Sandstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2044638991355896,
+      "match_margin": 0.02401268482208252,
+      "boundary_probability": 0.9669392704963684
+    }
+  },
+  {
+    "top_y": 7985,
+    "bottom_y": 8086,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5888953810871238,
+      "match_margin": 0.21662342784428357,
+      "boundary_probability": 0.9447181820869446
+    }
+  },
+  {
+    "top_y": 8086,
+    "bottom_y": 8103,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.338580846786499,
+      "match_margin": 0.20215767621994019,
+      "boundary_probability": 0.955941379070282
+    }
+  },
+  {
+    "top_y": 8103,
+    "bottom_y": 8354,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8701551665822823,
+      "match_margin": 0.050420780580832214,
+      "boundary_probability": 0.9871371984481812
+    }
+  },
+  {
+    "top_y": 8354,
+    "bottom_y": 8380,
+    "lithology": "Marl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3185719847679138,
+      "match_margin": 0.07506734132766724,
+      "boundary_probability": 0.968336820602417
+    }
+  },
+  {
+    "top_y": 8380,
+    "bottom_y": 8479,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.941627581914266,
+      "match_margin": 0.02884319514939271,
+      "boundary_probability": 0.9281762838363647
+    }
+  },
+  {
+    "top_y": 8479,
+    "bottom_y": 8498,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.341877281665802,
+      "match_margin": 0.22308361530303955,
+      "boundary_probability": 0.9795615673065186
+    }
+  },
+  {
+    "top_y": 8498,
+    "bottom_y": 8533,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.06940698623657227,
+      "match_margin": 0.049537479877471924,
+      "boundary_probability": 0.9172639846801758
+    }
+  },
+  {
+    "top_y": 8533,
+    "bottom_y": 8596,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8209843919390724,
+      "match_margin": 0.0966333387390016,
+      "boundary_probability": 0.9695038199424744
+    }
+  },
+  {
+    "top_y": 8596,
+    "bottom_y": 8615,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.26618748903274536,
+      "match_margin": 0.19206750392913818,
+      "boundary_probability": 0.9258934259414673
+    }
+  },
+  {
+    "top_y": 8615,
+    "bottom_y": 8662,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5437712073326111,
+      "match_margin": 0.12086933851242065,
+      "boundary_probability": 0.929816722869873
+    }
+  },
+  {
+    "top_y": 8662,
+    "bottom_y": 8683,
+    "lithology": "Dolostone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3608766794204712,
+      "match_margin": 0.10785096883773804,
+      "boundary_probability": 0.9370890855789185
+    }
+  },
+  {
+    "top_y": 8683,
+    "bottom_y": 8701,
+    "lithology": "Shale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.37152552604675293,
+      "match_margin": 0.08357948064804077,
+      "boundary_probability": 0.8653147220611572
+    }
+  },
+  {
+    "top_y": 8701,
+    "bottom_y": 9022,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9944005382023868,
+      "match_margin": 0.0033511632699461114,
+      "boundary_probability": 0.9424822926521301
+    }
+  },
+  {
+    "top_y": 9022,
+    "bottom_y": 9038,
+    "lithology": "Dolostone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6792200803756714,
+      "match_margin": 0.008977770805358887,
+      "boundary_probability": 0.9501615762710571
+    }
+  },
+  {
+    "top_y": 9038,
+    "bottom_y": 9532,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9292627766064787,
+      "match_margin": 0.03632859107453812,
+      "boundary_probability": 0.9542244672775269
+    }
+  },
+  {
+    "top_y": 9532,
+    "bottom_y": 9548,
+    "lithology": "CLAYSTONE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6697952747344971,
+      "match_margin": 0.06080353260040283,
+      "boundary_probability": 0.7650189399719238
+    }
+  },
+  {
+    "top_y": 9548,
+    "bottom_y": 9707,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8564886210849451,
+      "match_margin": 0.07991942519661765,
+      "boundary_probability": 0.9430499076843262
+    }
+  },
+  {
+    "top_y": 9707,
+    "bottom_y": 9727,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1798079013824463,
+      "match_margin": 0.20474272966384888,
+      "boundary_probability": 0.8786396980285645
+    }
+  },
+  {
+    "top_y": 9727,
+    "bottom_y": 9793,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9421234546285687,
+      "match_margin": 0.03318703987381677,
+      "boundary_probability": 0.7475751638412476
+    }
+  },
+  {
+    "top_y": 9793,
+    "bottom_y": 9816,
+    "lithology": "Dolostone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5879116654396057,
+      "match_margin": 0.0973706841468811,
+      "boundary_probability": 0.9947526454925537
+    }
+  },
+  {
+    "top_y": 9816,
+    "bottom_y": 9832,
+    "lithology": "Lignite",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5071265697479248,
+      "match_margin": 0.162059485912323,
+      "boundary_probability": 0.8731870651245117
+    }
+  },
+  {
+    "top_y": 9832,
+    "bottom_y": 9879,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7681766561099461,
+      "match_margin": 0.0104984862463815,
+      "boundary_probability": 0.9960837960243225
+    }
+  },
+  {
+    "top_y": 9879,
+    "bottom_y": 9902,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7681766561099461,
+      "match_margin": 0.0104984862463815,
+      "boundary_probability": 0.9047991037368774
+    }
+  },
+  {
+    "top_y": 9902,
+    "bottom_y": 9918,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28338372707366943,
+      "match_margin": 0.17668163776397705,
+      "boundary_probability": 0.8780012130737305
+    }
+  },
+  {
+    "top_y": 9918,
+    "bottom_y": 10110,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.899040418677032,
+      "match_margin": 0.024289829966922638,
+      "boundary_probability": 0.9822700023651123
+    }
+  },
+  {
+    "top_y": 10110,
+    "bottom_y": 10119,
+    "lithology": "Basalt",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.43014323711395264,
+      "match_margin": 0.3452199697494507,
+      "boundary_probability": 0.9925862550735474
+    }
+  },
+  {
+    "top_y": 10119,
+    "bottom_y": 10386,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7772983119240573,
+      "match_margin": 0.06436955131415933,
+      "boundary_probability": 0.8079309463500977
+    }
+  },
+  {
+    "top_y": 10386,
+    "bottom_y": 10418,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7772983119240573,
+      "match_margin": 0.06436955131415933,
+      "boundary_probability": 0.43754249811172485
+    }
+  },
+  {
+    "top_y": 10418,
+    "bottom_y": 10515,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3113287380061199,
+      "match_margin": 0.09553269135583309,
+      "boundary_probability": 0.43645334243774414
+    }
+  },
+  {
+    "top_y": 10515,
+    "bottom_y": 10547,
+    "lithology": "Sandstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4741034507751465,
+      "match_margin": 0.019518256187438965,
+      "boundary_probability": 0.7097533941268921
+    }
+  },
+  {
+    "top_y": 10547,
+    "bottom_y": 10564,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.13667833805084229,
+      "match_margin": 0.13046550750732422,
+      "boundary_probability": 0.4754776954650879
+    }
+  },
+  {
+    "top_y": 10564,
+    "bottom_y": 10601,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18332666158676147,
+      "match_margin": 0.11943656206130981,
+      "boundary_probability": 0.8856388926506042
+    }
+  },
+  {
+    "top_y": 10601,
+    "bottom_y": 10664,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5593484498205639,
+      "match_margin": 0.1245333826731122,
+      "boundary_probability": 0.958574652671814
+    }
+  },
+  {
+    "top_y": 10664,
+    "bottom_y": 10685,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3585324287414551,
+      "match_margin": 0.0020583271980285645,
+      "boundary_probability": 0.8776928782463074
+    }
+  },
+  {
+    "top_y": 10685,
+    "bottom_y": 10715,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.816135048866272,
+      "match_margin": 0.01299065351486206,
+      "boundary_probability": 0.9222958087921143
+    }
+  },
+  {
+    "top_y": 10715,
+    "bottom_y": 10723,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6264510154724121,
+      "match_margin": 0.06793761253356934,
+      "boundary_probability": 0.9515005350112915
+    }
+  },
+  {
+    "top_y": 10723,
+    "bottom_y": 10830,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7140456538334071,
+      "match_margin": 0.15652153425127546,
+      "boundary_probability": 0.5509179830551147
+    }
+  },
+  {
+    "top_y": 10830,
+    "bottom_y": 10867,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7242196798324585,
+      "match_margin": 0.0032395124435424805,
+      "boundary_probability": 0.6050680875778198
+    }
+  },
+  {
+    "top_y": 10867,
+    "bottom_y": 10896,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.463092565536499,
+      "match_margin": 0.03368020057678223,
+      "boundary_probability": 0.6587526798248291
+    }
+  },
+  {
+    "top_y": 10896,
+    "bottom_y": 11230,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9793388354849187,
+      "match_margin": 0.010160278190265992,
+      "boundary_probability": 0.8313488960266113
+    }
+  },
+  {
+    "top_y": 11230,
+    "bottom_y": 12073,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9793388354849187,
+      "match_margin": 0.010160278190265992,
+      "boundary_probability": 0.8969217538833618
+    }
+  },
+  {
+    "top_y": 12073,
+    "bottom_y": 12089,
+    "lithology": "Clay",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8749364614486694,
+      "match_margin": 0.01256793737411499,
+      "boundary_probability": 0.9595541954040527
+    }
+  },
+  {
+    "top_y": 12089,
+    "bottom_y": 12352,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9119185381515851,
+      "match_margin": 0.04046036580669565,
+      "boundary_probability": 0.701606035232544
+    }
+  },
+  {
+    "top_y": 12352,
+    "bottom_y": 12381,
+    "lithology": "Volcanic",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4139059782028198,
+      "match_margin": 0.37763679027557373,
+      "boundary_probability": 0.9107303619384766
+    }
+  },
+  {
+    "top_y": 12381,
+    "bottom_y": 12413,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.997573557437635,
+      "match_margin": 0.0010970129686243002,
+      "boundary_probability": 0.9414112567901611
+    }
+  },
+  {
+    "top_y": 12413,
+    "bottom_y": 12483,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.997573557437635,
+      "match_margin": 0.0010970129686243002,
+      "boundary_probability": 0.8700503706932068
+    }
+  },
+  {
+    "top_y": 12483,
+    "bottom_y": 12516,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9478849768638611,
+      "match_margin": 0.003694474697113037,
+      "boundary_probability": 0.9082503318786621
+    }
+  },
+  {
+    "top_y": 12516,
+    "bottom_y": 12564,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8989666104316711,
+      "match_margin": 0.05637514591217041,
+      "boundary_probability": 0.9430254101753235
+    }
+  },
+  {
+    "top_y": 12564,
+    "bottom_y": 12587,
+    "lithology": "Shale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47679078578948975,
+      "match_margin": 0.07365226745605469,
+      "boundary_probability": 0.8653160929679871
+    }
+  },
+  {
+    "top_y": 12587,
+    "bottom_y": 12615,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9794451594352722,
+      "match_margin": 0.004584312438964844,
+      "boundary_probability": 0.9064562320709229
+    }
+  },
+  {
+    "top_y": 12615,
+    "bottom_y": 12714,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9960224014340024,
+      "match_margin": 0.0022950389168480134,
+      "boundary_probability": 0.6471875905990601
+    }
+  },
+  {
+    "top_y": 12714,
+    "bottom_y": 12731,
+    "lithology": "Sandstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2587737441062927,
+      "match_margin": 0.0468021035194397,
+      "boundary_probability": 0.9839411973953247
+    }
+  },
+  {
+    "top_y": 12731,
+    "bottom_y": 12749,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2042202353477478,
+      "match_margin": 0.06269752979278564,
+      "boundary_probability": 0.5609389543533325
+    }
+  },
+  {
+    "top_y": 12749,
+    "bottom_y": 12772,
+    "lithology": "Tuff",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23140954971313477,
+      "match_margin": 0.012022852897644043,
+      "boundary_probability": 0.7161695957183838
+    }
+  },
+  {
+    "top_y": 12772,
+    "bottom_y": 12814,
+    "lithology": "Volcanic",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2489912509918213,
+      "match_margin": 0.4072917699813843,
+      "boundary_probability": 0.9255921840667725
+    }
+  },
+  {
+    "top_y": 12814,
+    "bottom_y": 12905,
+    "lithology": "MICA",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3389351963996887,
+      "match_margin": 0.1416603922843933,
+      "boundary_probability": 0.019763266667723656
+    }
+  },
+  {
+    "top_y": 12905,
+    "bottom_y": 12919,
+    "lithology": "Volcanic",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3687148690223694,
+      "match_margin": 0.124062180519104,
+      "boundary_probability": 0.6881046295166016
+    }
+  },
+  {
+    "top_y": 12919,
+    "bottom_y": 12927,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.46884775161743164,
+      "match_margin": 0.16867470741271973,
+      "boundary_probability": 0.8289642333984375
+    }
+  },
+  {
+    "top_y": 12927,
+    "bottom_y": 13088,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.760577602133359,
+      "match_margin": 0.13489935312369095,
+      "boundary_probability": 0.9940005540847778
+    }
+  },
+  {
+    "top_y": 13088,
+    "bottom_y": 13219,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.760577602133359,
+      "match_margin": 0.13489935312369095,
+      "boundary_probability": 0.8105837106704712
+    }
+  },
+  {
+    "top_y": 13219,
+    "bottom_y": 13240,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27484214305877686,
+      "match_margin": 0.03867483139038086,
+      "boundary_probability": 0.9386465549468994
+    }
+  },
+  {
+    "top_y": 13240,
+    "bottom_y": 13258,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.941529393196106,
+      "match_margin": 0.031162738800048828,
+      "boundary_probability": 0.6561851501464844
+    }
+  },
+  {
+    "top_y": 13258,
+    "bottom_y": 13286,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11003702878952026,
+      "match_margin": 0.020759761333465576,
+      "boundary_probability": 0.7631745934486389
+    }
+  },
+  {
+    "top_y": 13286,
+    "bottom_y": 13422,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8219844365821165,
+      "match_margin": 0.08006082913454837,
+      "boundary_probability": 0.9661626219749451
+    }
+  },
+  {
+    "top_y": 13422,
+    "bottom_y": 13448,
+    "lithology": "CONGLOMEI",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.25681984424591064,
+      "match_margin": 0.03262484073638916,
+      "boundary_probability": 0.9626356959342957
+    }
+  },
+  {
+    "top_y": 13448,
+    "bottom_y": 13592,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8099720941649543,
+      "match_margin": 0.055359919865926144,
+      "boundary_probability": 0.8882161378860474
+    }
+  },
+  {
+    "top_y": 13592,
+    "bottom_y": 13611,
+    "lithology": "CLAYSTONE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.463276743888855,
+      "match_margin": 0.09043794870376587,
+      "boundary_probability": 0.9391918182373047
+    }
+  },
+  {
+    "top_y": 13611,
+    "bottom_y": 13756,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5516303025442978,
+      "match_margin": 0.10953057264459554,
+      "boundary_probability": 0.850635290145874
+    }
+  },
+  {
+    "top_y": 13756,
+    "bottom_y": 13765,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6390916109085083,
+      "match_margin": 0.0007563233375549316,
+      "boundary_probability": 0.9483318328857422
+    }
+  },
+  {
+    "top_y": 13765,
+    "bottom_y": 13933,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6809711062908173,
+      "match_margin": 0.1075915522575378,
+      "boundary_probability": 0.8766369223594666
+    }
+  },
+  {
+    "top_y": 13933,
+    "bottom_y": 14015,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6809711062908173,
+      "match_margin": 0.1075915522575378,
+      "boundary_probability": 0.8333737850189209
+    }
+  },
+  {
+    "top_y": 14015,
+    "bottom_y": 14039,
+    "lithology": "Marl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23160874843597412,
+      "match_margin": 0.06811237335205078,
+      "boundary_probability": 0.8684413433074951
+    }
+  },
+  {
+    "top_y": 14039,
+    "bottom_y": 14062,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9917556643486023,
+      "match_margin": 0.005982697010040283,
+      "boundary_probability": 0.9689792394638062
+    }
+  },
+  {
+    "top_y": 14062,
+    "bottom_y": 14070,
+    "lithology": "Clay",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.998740553855896,
+      "match_margin": 7.593631744384766e-05,
+      "boundary_probability": 0.6458898782730103
+    }
+  },
+  {
+    "top_y": 14070,
+    "bottom_y": 14096,
+    "lithology": "DIATOMITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24094486236572266,
+      "match_margin": 0.029758095741271973,
+      "boundary_probability": 0.9904149770736694
+    }
+  },
+  {
+    "top_y": 14096,
+    "bottom_y": 14123,
+    "lithology": "SAN",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.33379340171813965,
+      "match_margin": 0.19982856512069702,
+      "boundary_probability": 0.9859322309494019
+    }
+  },
+  {
+    "top_y": 14123,
+    "bottom_y": 14155,
+    "lithology": "MICA",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2782965898513794,
+      "match_margin": 0.3610503077507019,
+      "boundary_probability": 0.9936229586601257
+    }
+  },
+  {
+    "top_y": 14155,
+    "bottom_y": 14612,
+    "lithology": "Limestone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9959626544747885,
+      "match_margin": 0.0020598461382759226,
+      "boundary_probability": 0.9984598159790039
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "top_y": 0,
+    "bottom_y": 1099,
+    "lithology": "le",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "rt",
+    "raw_descriptor_gap": 0.07262751149847228,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 1099,
+    "bottom_y": 2200,
+    "lithology": "st",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "rt",
+    "raw_descriptor_gap": 0.06910449269747149,
+    "raw_descriptor_agrees": false
+  }
+]

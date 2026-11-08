@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "events": [
+    {
+      "generation": 0,
+      "pid": 22100,
+      "worker_started_utc": "2026-11-08T07:51:15.789281+00:00",
+      "stop": {
+        "stop_requested_utc": "2026-11-08T08:01:24.684974+00:00",
+        "stop_requested_perf": 161739.1017045,
+        "scope": "strategy_run",
+        "hard_cap_seconds": 600,
+        "stop_confirmed_utc": "2026-11-08T08:01:24.946571+00:00",
+        "stop_confirmed_perf": 161739.3632271,
+        "worker_terminated": true,
+        "pid": 22100,
+        "whole_attempt_elapsed_seconds": 600.7054919000075,
+        "run_wall_observed_upper_bound_seconds": 599.5121899000078
+      },
+      "exit_code": 1,
+      "worker_ended_utc": "2026-11-08T08:01:25.068522+00:00",
+      "durable_keys": 1,
+      "timeout_recorded": true
+    }
+  ],
+  "starts": 1
+}

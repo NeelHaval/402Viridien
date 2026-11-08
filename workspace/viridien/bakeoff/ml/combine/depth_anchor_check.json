@@ -1,0 +1,16 @@
+{
+ "source": "saved OCR anchors; no image or truth opened",
+ "before": {
+  "a": 3.6642898746326136,
+  "b": -2052.9148167758685,
+  "n_points": 3,
+  "rmse_px": 5.592030032560778,
+  "method": "rapidocr+consensus+ft"
+ },
+ "after": {
+  "a": 0.13323255503150858,
+  "b": 3876.300846512558,
+  "n_points": 3,
+  "rmse_px": 0.16929114112713622
+ }
+}

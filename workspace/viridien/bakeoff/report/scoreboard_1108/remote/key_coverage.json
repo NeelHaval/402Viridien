@@ -1,0 +1,14 @@
+{
+  "manifest_digest": "1da7b757c9846b7cf1b7d79a1f01519195d3011a6c4041ac02c05f6798795301",
+  "remote_records": 58,
+  "retained_local_records": 10,
+  "total_s20_records": 68,
+  "expected_cases": 68,
+  "duplicate_keys": [],
+  "missing_keys": [],
+  "extra_keys": [],
+  "all_remote_rows_bound_to_final_consumer_digest": true,
+  "source_shard_sha256": "b57fac86186a86c431d145821e9b7722eadc1959d342b4f2a7a7aff22d3b3bed",
+  "original_execution_receipts_preserved": true,
+  "last_rebind_status": "Final guarded consumer rebind complete. No model, OCR or VM job was run."
+}

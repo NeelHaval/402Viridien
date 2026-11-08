@@ -1,0 +1,2521 @@
+{
+  "policy": "clay_shale_equivalent_v1",
+  "source_preview": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\accepted_preview.json",
+  "source_sha256": "de85405489838ea911d3a6a56216582fe896a0e35023cafc43a71f4276827e90",
+  "cohort": "13 Viridien development logs, all four strategies; fixed complete preview cohort",
+  "summaries": [
+    {
+      "strategy": "s19_combine",
+      "logs": 13,
+      "metrics": {
+        "row_acc": 0.5923007306389135,
+        "boundary_f1": 0.6462162731447196,
+        "score": 0.4430450428854324,
+        "cluster_ari": 0.6486099238337969
+      },
+      "failures": 0
+    },
+    {
+      "strategy": "s20_v4",
+      "logs": 13,
+      "metrics": {
+        "row_acc": 0.5776486321405863,
+        "boundary_f1": 0.7477584822582859,
+        "score": 0.44180243561722066,
+        "cluster_ari": 0.7507470790719756
+      },
+      "failures": 0
+    },
+    {
+      "strategy": "s21_v4dino",
+      "logs": 13,
+      "metrics": {
+        "row_acc": 0.6741361190126884,
+        "boundary_f1": 0.7697333956280556,
+        "score": 0.4950238661810577,
+        "cluster_ari": 0.7621076151469042
+      },
+      "failures": 0
+    },
+    {
+      "strategy": "s23_v4dino_identity",
+      "logs": 13,
+      "metrics": {
+        "row_acc": 0.7492130420896116,
+        "boundary_f1": 0.7614575999333973,
+        "score": 0.5643987188636903,
+        "cluster_ari": 0.7369137022182056
+      },
+      "failures": 0
+    }
+  ],
+  "expected_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\example\\example.csv",
+  "exports": [
+    {
+      "strategy": "s20_v4",
+      "csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\errorview_1108\\score_check\\s20_v4\\6b663182fbfb4f87.notebook.csv",
+      "slide_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\errorview_1108\\score_check\\s20_v4\\6b663182fbfb4f87.slide.csv",
+      "predicted_beds": 25,
+      "expected_beds": 17,
+      "window": [
+        4409,
+        10415
+      ],
+      "metrics": {
+        "row_acc": 0.27256077256077255,
+        "boundary_f1": 0.358974358974359,
+        "cluster_ari": 0.6180165095778934,
+        "depth_mae_ft": 0.5142857142849867,
+        "score": 0.09784232861155938
+      },
+      "strict_metrics": {
+        "row_acc": 0.21045621045621046,
+        "boundary_f1": 0.358974358974359,
+        "cluster_ari": 0.6180165095778934,
+        "depth_mae_ft": 0.5142857142849867,
+        "score": 0.07554838324069094
+      },
+      "column_window": [
+        4404,
+        11195
+      ],
+      "column_metrics": {
+        "row_acc": 0.27256077256077255,
+        "boundary_f1": 0.3902439024390244,
+        "cluster_ari": 0.6168282361110693,
+        "depth_mae_ft": 0.6124999999992724,
+        "score": 0.10636517953591124
+      },
+      "overlap_examples": [
+        {
+          "expected": {
+            "top_depth": 25400.0,
+            "bottom_depth": 25420.0,
+            "lithology": "Shale",
+            "top_y": 4409,
+            "bottom_y": 4809,
+            "cluster_id": 0
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25400.0,
+              "bottom_depth": 25401.3,
+              "lithology": "Clay / Shale",
+              "top_y": 4404,
+              "bottom_y": 4429,
+              "cluster_id": 0,
+              "overlap_rows": 20
+            },
+            {
+              "top_depth": 25401.3,
+              "bottom_depth": 25410.9,
+              "lithology": "SIllty Sandstone",
+              "top_y": 4429,
+              "bottom_y": 4622,
+              "cluster_id": 1,
+              "overlap_rows": 193
+            },
+            {
+              "top_depth": 25410.9,
+              "bottom_depth": 25415.7,
+              "lithology": "Clay / Shale",
+              "top_y": 4622,
+              "bottom_y": 4718,
+              "cluster_id": 0,
+              "overlap_rows": 96
+            },
+            {
+              "top_depth": 25415.7,
+              "bottom_depth": 25420.5,
+              "lithology": "SIllty Sandstone",
+              "top_y": 4718,
+              "bottom_y": 4814,
+              "cluster_id": 1,
+              "overlap_rows": 91
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25420.0,
+            "bottom_depth": 25430.0,
+            "lithology": "Siltstone",
+            "top_y": 4809,
+            "bottom_y": 5010,
+            "cluster_id": 1
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25415.7,
+              "bottom_depth": 25420.5,
+              "lithology": "SIllty Sandstone",
+              "top_y": 4718,
+              "bottom_y": 4814,
+              "cluster_id": 1,
+              "overlap_rows": 5
+            },
+            {
+              "top_depth": 25420.5,
+              "bottom_depth": 25430.1,
+              "lithology": "Siltstone",
+              "top_y": 4814,
+              "bottom_y": 5007,
+              "cluster_id": 2,
+              "overlap_rows": 193
+            },
+            {
+              "top_depth": 25430.1,
+              "bottom_depth": 25473.4,
+              "lithology": "SIllty Sandstone",
+              "top_y": 5007,
+              "bottom_y": 5873,
+              "cluster_id": 1,
+              "overlap_rows": 3
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25430.0,
+            "bottom_depth": 25490.0,
+            "lithology": "Shale",
+            "top_y": 5010,
+            "bottom_y": 6211,
+            "cluster_id": 0
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25430.1,
+              "bottom_depth": 25473.4,
+              "lithology": "SIllty Sandstone",
+              "top_y": 5007,
+              "bottom_y": 5873,
+              "cluster_id": 1,
+              "overlap_rows": 863
+            },
+            {
+              "top_depth": 25473.4,
+              "bottom_depth": 25478.2,
+              "lithology": "Clay / Shale",
+              "top_y": 5873,
+              "bottom_y": 5970,
+              "cluster_id": 0,
+              "overlap_rows": 97
+            },
+            {
+              "top_depth": 25478.2,
+              "bottom_depth": 25490.2,
+              "lithology": "SIllty Sandstone",
+              "top_y": 5970,
+              "bottom_y": 6210,
+              "cluster_id": 1,
+              "overlap_rows": 240
+            },
+            {
+              "top_depth": 25490.2,
+              "bottom_depth": 25502.2,
+              "lithology": "Siltstone",
+              "top_y": 6210,
+              "bottom_y": 6451,
+              "cluster_id": 2,
+              "overlap_rows": 1
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25490.0,
+            "bottom_depth": 25500.0,
+            "lithology": "Siltstone",
+            "top_y": 6211,
+            "bottom_y": 6411,
+            "cluster_id": 1
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25490.2,
+              "bottom_depth": 25502.2,
+              "lithology": "Siltstone",
+              "top_y": 6210,
+              "bottom_y": 6451,
+              "cluster_id": 2,
+              "overlap_rows": 200
+            }
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "top": 4409,
+          "bottom": 4429,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25400.0,
+          "bottom_depth": 25401.0
+        },
+        {
+          "top": 4429,
+          "bottom": 4622,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25401.0,
+          "bottom_depth": 25410.65
+        },
+        {
+          "top": 4622,
+          "bottom": 4718,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25410.65,
+          "bottom_depth": 25415.45
+        },
+        {
+          "top": 4718,
+          "bottom": 4809,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25415.45,
+          "bottom_depth": 25420.0
+        },
+        {
+          "top": 4809,
+          "bottom": 4814,
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25420.0,
+          "bottom_depth": 25420.248756218905
+        },
+        {
+          "top": 4814,
+          "bottom": 5007,
+          "truth": "Siltstone",
+          "prediction": "Siltstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25420.248756218905,
+          "bottom_depth": 25429.850746268658
+        },
+        {
+          "top": 5007,
+          "bottom": 5010,
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25429.850746268658,
+          "bottom_depth": 25430.0
+        },
+        {
+          "top": 5010,
+          "bottom": 5873,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25430.0,
+          "bottom_depth": 25473.114071606993
+        },
+        {
+          "top": 5873,
+          "bottom": 5970,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25473.114071606993,
+          "bottom_depth": 25477.96003330558
+        },
+        {
+          "top": 5970,
+          "bottom": 6210,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25477.96003330558,
+          "bottom_depth": 25489.95004163197
+        },
+        {
+          "top": 6210,
+          "bottom": 6211,
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25489.95004163197,
+          "bottom_depth": 25490.0
+        },
+        {
+          "top": 6211,
+          "bottom": 6411,
+          "truth": "Siltstone",
+          "prediction": "Siltstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25490.0,
+          "bottom_depth": 25500.0
+        },
+        {
+          "top": 6411,
+          "bottom": 6451,
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25500.0,
+          "bottom_depth": 25502.0
+        },
+        {
+          "top": 6451,
+          "bottom": 6611,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25502.0,
+          "bottom_depth": 25510.0
+        },
+        {
+          "top": 6611,
+          "bottom": 6644,
+          "truth": "Sandstone",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25510.0,
+          "bottom_depth": 25511.65
+        },
+        {
+          "top": 6644,
+          "bottom": 6811,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25511.65,
+          "bottom_depth": 25520.0
+        },
+        {
+          "top": 6811,
+          "bottom": 6836,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25520.0,
+          "bottom_depth": 25521.243781094527
+        },
+        {
+          "top": 6836,
+          "bottom": 6932,
+          "truth": "Siltstone",
+          "prediction": "Siltstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25521.243781094527,
+          "bottom_depth": 25526.01990049751
+        },
+        {
+          "top": 6932,
+          "bottom": 7012,
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Halite/Salt",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25526.01990049751,
+          "bottom_depth": 25530.0
+        },
+        {
+          "top": 7012,
+          "bottom": 7029,
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Halite/Salt",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25530.0,
+          "bottom_depth": 25530.85
+        },
+        {
+          "top": 7029,
+          "bottom": 7212,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25530.85,
+          "bottom_depth": 25540.0
+        },
+        {
+          "top": 7212,
+          "bottom": 7269,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25540.0,
+          "bottom_depth": 25542.85
+        },
+        {
+          "top": 7269,
+          "bottom": 7412,
+          "truth": "Siltstone",
+          "prediction": "Siltstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25542.85,
+          "bottom_depth": 25550.0
+        },
+        {
+          "top": 7412,
+          "bottom": 7414,
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25550.0,
+          "bottom_depth": 25550.1
+        },
+        {
+          "top": 7414,
+          "bottom": 7612,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25550.1,
+          "bottom_depth": 25560.0
+        },
+        {
+          "top": 7612,
+          "bottom": 7703,
+          "truth": "Sandstone",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25560.0,
+          "bottom_depth": 25564.55
+        },
+        {
+          "top": 7703,
+          "bottom": 7812,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25564.55,
+          "bottom_depth": 25570.0
+        },
+        {
+          "top": 7812,
+          "bottom": 7847,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25570.0,
+          "bottom_depth": 25571.741293532337
+        },
+        {
+          "top": 7847,
+          "bottom": 8013,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25571.741293532337,
+          "bottom_depth": 25580.0
+        },
+        {
+          "top": 8013,
+          "bottom": 8040,
+          "truth": "Siltstone",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25580.0,
+          "bottom_depth": 25581.35
+        },
+        {
+          "top": 8040,
+          "bottom": 8213,
+          "truth": "Siltstone",
+          "prediction": "Siltstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25581.35,
+          "bottom_depth": 25590.0
+        },
+        {
+          "top": 8213,
+          "bottom": 8232,
+          "truth": "Shale",
+          "prediction": "Siltstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Siltstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25590.0,
+          "bottom_depth": 25590.948813982523
+        },
+        {
+          "top": 8232,
+          "bottom": 8329,
+          "truth": "Shale",
+          "prediction": "Dolomite",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Dolomite",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25590.948813982523,
+          "bottom_depth": 25595.792759051186
+        },
+        {
+          "top": 8329,
+          "bottom": 9014,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25595.792759051186,
+          "bottom_depth": 25630.0
+        },
+        {
+          "top": 9014,
+          "bottom": 9051,
+          "truth": "Sandstone",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25630.0,
+          "bottom_depth": 25631.85
+        },
+        {
+          "top": 9051,
+          "bottom": 9214,
+          "truth": "Sandstone",
+          "prediction": "Halite",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Halite/Salt",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25631.85,
+          "bottom_depth": 25640.0
+        },
+        {
+          "top": 9214,
+          "bottom": 9243,
+          "truth": "Shale",
+          "prediction": "Halite",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Halite/Salt",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25640.0,
+          "bottom_depth": 25641.448551448553
+        },
+        {
+          "top": 9243,
+          "bottom": 10206,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25641.448551448553,
+          "bottom_depth": 25689.55044955045
+        },
+        {
+          "top": 10206,
+          "bottom": 10215,
+          "truth": "Shale",
+          "prediction": "Halite",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Halite/Salt",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25689.55044955045,
+          "bottom_depth": 25690.0
+        },
+        {
+          "top": 10215,
+          "bottom": 10415,
+          "truth": "Siltstone",
+          "prediction": "Halite",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Halite/Salt",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25690.0,
+          "bottom_depth": 25700.0
+        }
+      ]
+    },
+    {
+      "strategy": "s21_v4dino",
+      "csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\errorview_1108\\score_check\\s21_v4dino\\6b663182fbfb4f87.notebook.csv",
+      "slide_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\errorview_1108\\score_check\\s21_v4dino\\6b663182fbfb4f87.slide.csv",
+      "predicted_beds": 16,
+      "expected_beds": 17,
+      "window": [
+        4409,
+        10415
+      ],
+      "metrics": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.6,
+        "cluster_ari": 0.7601618861067719,
+        "depth_mae_ft": 0.3999999999994341,
+        "score": 0.4611388611388611
+      },
+      "strict_metrics": {
+        "row_acc": 0.13320013320013321,
+        "boundary_f1": 0.6,
+        "cluster_ari": 0.7601618861067719,
+        "depth_mae_ft": 0.3999999999994341,
+        "score": 0.07992007992007992
+      },
+      "column_window": [
+        4404,
+        11195
+      ],
+      "column_metrics": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.625,
+        "cluster_ari": 0.7606600593755758,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.48035298035298035
+      },
+      "overlap_examples": [
+        {
+          "expected": {
+            "top_depth": 25400.0,
+            "bottom_depth": 25420.0,
+            "lithology": "Shale",
+            "top_y": 4409,
+            "bottom_y": 4809,
+            "cluster_id": 0
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25400.0,
+              "bottom_depth": 25401.3,
+              "lithology": "SIllty Sandstone",
+              "top_y": 4404,
+              "bottom_y": 4429,
+              "cluster_id": 0,
+              "overlap_rows": 20
+            },
+            {
+              "top_depth": 25401.3,
+              "bottom_depth": 25420.5,
+              "lithology": "Clay / Shale",
+              "top_y": 4429,
+              "bottom_y": 4814,
+              "cluster_id": 1,
+              "overlap_rows": 380
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25420.0,
+            "bottom_depth": 25430.0,
+            "lithology": "Siltstone",
+            "top_y": 4809,
+            "bottom_y": 5010,
+            "cluster_id": 1
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25401.3,
+              "bottom_depth": 25420.5,
+              "lithology": "Clay / Shale",
+              "top_y": 4429,
+              "bottom_y": 4814,
+              "cluster_id": 1,
+              "overlap_rows": 5
+            },
+            {
+              "top_depth": 25420.5,
+              "bottom_depth": 25430.1,
+              "lithology": "Sand and Sandstone",
+              "top_y": 4814,
+              "bottom_y": 5007,
+              "cluster_id": 2,
+              "overlap_rows": 193
+            },
+            {
+              "top_depth": 25430.1,
+              "bottom_depth": 25490.2,
+              "lithology": "Clay / Shale",
+              "top_y": 5007,
+              "bottom_y": 6210,
+              "cluster_id": 1,
+              "overlap_rows": 3
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25430.0,
+            "bottom_depth": 25490.0,
+            "lithology": "Shale",
+            "top_y": 5010,
+            "bottom_y": 6211,
+            "cluster_id": 0
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25430.1,
+              "bottom_depth": 25490.2,
+              "lithology": "Clay / Shale",
+              "top_y": 5007,
+              "bottom_y": 6210,
+              "cluster_id": 1,
+              "overlap_rows": 1200
+            },
+            {
+              "top_depth": 25490.2,
+              "bottom_depth": 25502.2,
+              "lithology": "Sand and Sandstone",
+              "top_y": 6210,
+              "bottom_y": 6451,
+              "cluster_id": 2,
+              "overlap_rows": 1
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25490.0,
+            "bottom_depth": 25500.0,
+            "lithology": "Siltstone",
+            "top_y": 6211,
+            "bottom_y": 6411,
+            "cluster_id": 1
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25490.2,
+              "bottom_depth": 25502.2,
+              "lithology": "Sand and Sandstone",
+              "top_y": 6210,
+              "bottom_y": 6451,
+              "cluster_id": 2,
+              "overlap_rows": 200
+            }
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "top": 4409,
+          "bottom": 4429,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25400.0,
+          "bottom_depth": 25401.0
+        },
+        {
+          "top": 4429,
+          "bottom": 4809,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25401.0,
+          "bottom_depth": 25420.0
+        },
+        {
+          "top": 4809,
+          "bottom": 4814,
+          "truth": "Siltstone",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25420.0,
+          "bottom_depth": 25420.248756218905
+        },
+        {
+          "top": 4814,
+          "bottom": 5007,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25420.248756218905,
+          "bottom_depth": 25429.850746268658
+        },
+        {
+          "top": 5007,
+          "bottom": 5010,
+          "truth": "Siltstone",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25429.850746268658,
+          "bottom_depth": 25430.0
+        },
+        {
+          "top": 5010,
+          "bottom": 6210,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25430.0,
+          "bottom_depth": 25489.95004163197
+        },
+        {
+          "top": 6210,
+          "bottom": 6211,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25489.95004163197,
+          "bottom_depth": 25490.0
+        },
+        {
+          "top": 6211,
+          "bottom": 6411,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25490.0,
+          "bottom_depth": 25500.0
+        },
+        {
+          "top": 6411,
+          "bottom": 6451,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25500.0,
+          "bottom_depth": 25502.0
+        },
+        {
+          "top": 6451,
+          "bottom": 6595,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25502.0,
+          "bottom_depth": 25509.2
+        },
+        {
+          "top": 6595,
+          "bottom": 6611,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25509.2,
+          "bottom_depth": 25510.0
+        },
+        {
+          "top": 6611,
+          "bottom": 6811,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25510.0,
+          "bottom_depth": 25520.0
+        },
+        {
+          "top": 6811,
+          "bottom": 7012,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25520.0,
+          "bottom_depth": 25530.0
+        },
+        {
+          "top": 7012,
+          "bottom": 7212,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25530.0,
+          "bottom_depth": 25540.0
+        },
+        {
+          "top": 7212,
+          "bottom": 7412,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25540.0,
+          "bottom_depth": 25550.0
+        },
+        {
+          "top": 7412,
+          "bottom": 7414,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25550.0,
+          "bottom_depth": 25550.1
+        },
+        {
+          "top": 7414,
+          "bottom": 7606,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25550.1,
+          "bottom_depth": 25559.7
+        },
+        {
+          "top": 7606,
+          "bottom": 7612,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25559.7,
+          "bottom_depth": 25560.0
+        },
+        {
+          "top": 7612,
+          "bottom": 7812,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25560.0,
+          "bottom_depth": 25570.0
+        },
+        {
+          "top": 7812,
+          "bottom": 7847,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25570.0,
+          "bottom_depth": 25571.741293532337
+        },
+        {
+          "top": 7847,
+          "bottom": 8013,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25571.741293532337,
+          "bottom_depth": 25580.0
+        },
+        {
+          "top": 8013,
+          "bottom": 8040,
+          "truth": "Siltstone",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25580.0,
+          "bottom_depth": 25581.35
+        },
+        {
+          "top": 8040,
+          "bottom": 8213,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25581.35,
+          "bottom_depth": 25590.0
+        },
+        {
+          "top": 8213,
+          "bottom": 8232,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25590.0,
+          "bottom_depth": 25590.948813982523
+        },
+        {
+          "top": 8232,
+          "bottom": 9003,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25590.948813982523,
+          "bottom_depth": 25629.4506866417
+        },
+        {
+          "top": 9003,
+          "bottom": 9014,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25629.4506866417,
+          "bottom_depth": 25630.0
+        },
+        {
+          "top": 9014,
+          "bottom": 9214,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25630.0,
+          "bottom_depth": 25640.0
+        },
+        {
+          "top": 9214,
+          "bottom": 9243,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25640.0,
+          "bottom_depth": 25641.448551448553
+        },
+        {
+          "top": 9243,
+          "bottom": 10206,
+          "truth": "Shale",
+          "prediction": "Clay / Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay/Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25641.448551448553,
+          "bottom_depth": 25689.55044955045
+        },
+        {
+          "top": 10206,
+          "bottom": 10215,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25689.55044955045,
+          "bottom_depth": 25690.0
+        },
+        {
+          "top": 10215,
+          "bottom": 10415,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25690.0,
+          "bottom_depth": 25700.0
+        }
+      ]
+    },
+    {
+      "strategy": "s23_v4dino_identity",
+      "csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\errorview_1108\\score_check\\s23_v4dino_identity\\6b663182fbfb4f87.notebook.csv",
+      "slide_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\errorview_1108\\score_check\\s23_v4dino_identity\\6b663182fbfb4f87.slide.csv",
+      "predicted_beds": 18,
+      "expected_beds": 17,
+      "window": [
+        4409,
+        10415
+      ],
+      "metrics": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.5625,
+        "cluster_ari": 0.7013884962125815,
+        "depth_mae_ft": 0.3999999999994341,
+        "score": 0.4323176823176823
+      },
+      "strict_metrics": {
+        "row_acc": 0.15734265734265734,
+        "boundary_f1": 0.5625,
+        "cluster_ari": 0.7013884962125815,
+        "depth_mae_ft": 0.3999999999994341,
+        "score": 0.08850524475524475
+      },
+      "column_window": [
+        4404,
+        11195
+      ],
+      "column_metrics": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.5882352941176471,
+        "cluster_ari": 0.7025804107851661,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.45209692268515794
+      },
+      "overlap_examples": [
+        {
+          "expected": {
+            "top_depth": 25400.0,
+            "bottom_depth": 25420.0,
+            "lithology": "Shale",
+            "top_y": 4409,
+            "bottom_y": 4809,
+            "cluster_id": 0
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25400.0,
+              "bottom_depth": 25401.3,
+              "lithology": "SIllty Sandstone",
+              "top_y": 4404,
+              "bottom_y": 4429,
+              "cluster_id": 0,
+              "overlap_rows": 20
+            },
+            {
+              "top_depth": 25401.3,
+              "bottom_depth": 25420.5,
+              "lithology": "Clay",
+              "top_y": 4429,
+              "bottom_y": 4814,
+              "cluster_id": 1,
+              "overlap_rows": 380
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25420.0,
+            "bottom_depth": 25430.0,
+            "lithology": "Siltstone",
+            "top_y": 4809,
+            "bottom_y": 5010,
+            "cluster_id": 1
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25401.3,
+              "bottom_depth": 25420.5,
+              "lithology": "Clay",
+              "top_y": 4429,
+              "bottom_y": 4814,
+              "cluster_id": 1,
+              "overlap_rows": 5
+            },
+            {
+              "top_depth": 25420.5,
+              "bottom_depth": 25430.1,
+              "lithology": "Sand and Sandstone",
+              "top_y": 4814,
+              "bottom_y": 5007,
+              "cluster_id": 2,
+              "overlap_rows": 193
+            },
+            {
+              "top_depth": 25430.1,
+              "bottom_depth": 25439.7,
+              "lithology": "Clay",
+              "top_y": 5007,
+              "bottom_y": 5199,
+              "cluster_id": 1,
+              "overlap_rows": 3
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25430.0,
+            "bottom_depth": 25490.0,
+            "lithology": "Shale",
+            "top_y": 5010,
+            "bottom_y": 6211,
+            "cluster_id": 0
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25430.1,
+              "bottom_depth": 25439.7,
+              "lithology": "Clay",
+              "top_y": 5007,
+              "bottom_y": 5199,
+              "cluster_id": 1,
+              "overlap_rows": 189
+            },
+            {
+              "top_depth": 25439.7,
+              "bottom_depth": 25447.0,
+              "lithology": "Shale",
+              "top_y": 5199,
+              "bottom_y": 5344,
+              "cluster_id": 3,
+              "overlap_rows": 145
+            },
+            {
+              "top_depth": 25447.0,
+              "bottom_depth": 25490.2,
+              "lithology": "Clay",
+              "top_y": 5344,
+              "bottom_y": 6210,
+              "cluster_id": 1,
+              "overlap_rows": 866
+            },
+            {
+              "top_depth": 25490.2,
+              "bottom_depth": 25502.2,
+              "lithology": "Sand and Sandstone",
+              "top_y": 6210,
+              "bottom_y": 6451,
+              "cluster_id": 2,
+              "overlap_rows": 1
+            }
+          ]
+        },
+        {
+          "expected": {
+            "top_depth": 25490.0,
+            "bottom_depth": 25500.0,
+            "lithology": "Siltstone",
+            "top_y": 6211,
+            "bottom_y": 6411,
+            "cluster_id": 1
+          },
+          "predicted_overlaps": [
+            {
+              "top_depth": 25490.2,
+              "bottom_depth": 25502.2,
+              "lithology": "Sand and Sandstone",
+              "top_y": 6210,
+              "bottom_y": 6451,
+              "cluster_id": 2,
+              "overlap_rows": 200
+            }
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "top": 4409,
+          "bottom": 4429,
+          "truth": "Shale",
+          "prediction": "SIllty Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Silty Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25400.0,
+          "bottom_depth": 25401.0
+        },
+        {
+          "top": 4429,
+          "bottom": 4809,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25401.0,
+          "bottom_depth": 25420.0
+        },
+        {
+          "top": 4809,
+          "bottom": 4814,
+          "truth": "Siltstone",
+          "prediction": "Clay",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25420.0,
+          "bottom_depth": 25420.248756218905
+        },
+        {
+          "top": 4814,
+          "bottom": 5007,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25420.248756218905,
+          "bottom_depth": 25429.850746268658
+        },
+        {
+          "top": 5007,
+          "bottom": 5010,
+          "truth": "Siltstone",
+          "prediction": "Clay",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25429.850746268658,
+          "bottom_depth": 25430.0
+        },
+        {
+          "top": 5010,
+          "bottom": 5199,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25430.0,
+          "bottom_depth": 25439.442131557036
+        },
+        {
+          "top": 5199,
+          "bottom": 5344,
+          "truth": "Shale",
+          "prediction": "Shale",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Shale",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25439.442131557036,
+          "bottom_depth": 25446.6860949209
+        },
+        {
+          "top": 5344,
+          "bottom": 6210,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25446.6860949209,
+          "bottom_depth": 25489.95004163197
+        },
+        {
+          "top": 6210,
+          "bottom": 6211,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25489.95004163197,
+          "bottom_depth": 25490.0
+        },
+        {
+          "top": 6211,
+          "bottom": 6411,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25490.0,
+          "bottom_depth": 25500.0
+        },
+        {
+          "top": 6411,
+          "bottom": 6451,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25500.0,
+          "bottom_depth": 25502.0
+        },
+        {
+          "top": 6451,
+          "bottom": 6595,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25502.0,
+          "bottom_depth": 25509.2
+        },
+        {
+          "top": 6595,
+          "bottom": 6611,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25509.2,
+          "bottom_depth": 25510.0
+        },
+        {
+          "top": 6611,
+          "bottom": 6811,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25510.0,
+          "bottom_depth": 25520.0
+        },
+        {
+          "top": 6811,
+          "bottom": 7012,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25520.0,
+          "bottom_depth": 25530.0
+        },
+        {
+          "top": 7012,
+          "bottom": 7212,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25530.0,
+          "bottom_depth": 25540.0
+        },
+        {
+          "top": 7212,
+          "bottom": 7412,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25540.0,
+          "bottom_depth": 25550.0
+        },
+        {
+          "top": 7412,
+          "bottom": 7414,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25550.0,
+          "bottom_depth": 25550.1
+        },
+        {
+          "top": 7414,
+          "bottom": 7606,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25550.1,
+          "bottom_depth": 25559.7
+        },
+        {
+          "top": 7606,
+          "bottom": 7612,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25559.7,
+          "bottom_depth": 25560.0
+        },
+        {
+          "top": 7612,
+          "bottom": 7812,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25560.0,
+          "bottom_depth": 25570.0
+        },
+        {
+          "top": 7812,
+          "bottom": 7847,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25570.0,
+          "bottom_depth": 25571.741293532337
+        },
+        {
+          "top": 7847,
+          "bottom": 8013,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25571.741293532337,
+          "bottom_depth": 25580.0
+        },
+        {
+          "top": 8013,
+          "bottom": 8040,
+          "truth": "Siltstone",
+          "prediction": "Clay",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25580.0,
+          "bottom_depth": 25581.35
+        },
+        {
+          "top": 8040,
+          "bottom": 8213,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25581.35,
+          "bottom_depth": 25590.0
+        },
+        {
+          "top": 8213,
+          "bottom": 8232,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25590.0,
+          "bottom_depth": 25590.948813982523
+        },
+        {
+          "top": 8232,
+          "bottom": 9003,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25590.948813982523,
+          "bottom_depth": 25629.4506866417
+        },
+        {
+          "top": 9003,
+          "bottom": 9014,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25629.4506866417,
+          "bottom_depth": 25630.0
+        },
+        {
+          "top": 9014,
+          "bottom": 9214,
+          "truth": "Sandstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Sandstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25630.0,
+          "bottom_depth": 25640.0
+        },
+        {
+          "top": 9214,
+          "bottom": 9243,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25640.0,
+          "bottom_depth": 25641.448551448553
+        },
+        {
+          "top": 9243,
+          "bottom": 10206,
+          "truth": "Shale",
+          "prediction": "Clay",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Clay",
+          "confidence": null,
+          "kind": "correct",
+          "top_depth": 25641.448551448553,
+          "bottom_depth": 25689.55044955045
+        },
+        {
+          "top": 10206,
+          "bottom": 10215,
+          "truth": "Shale",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Shale",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25689.55044955045,
+          "bottom_depth": 25690.0
+        },
+        {
+          "top": 10215,
+          "bottom": 10415,
+          "truth": "Siltstone",
+          "prediction": "Sand and Sandstone",
+          "truth_canonical": "Siltstone",
+          "prediction_canonical": "Sandstone",
+          "confidence": null,
+          "kind": "wrong",
+          "top_depth": 25690.0,
+          "bottom_depth": 25700.0
+        }
+      ]
+    }
+  ],
+  "verified_cases": [
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s19_combine",
+      "prediction_sha256": "2c017e9d7a43eebb124d756fcee752a5a7a8b8f1ee00c6465fa769287ece1eae",
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "metrics": {
+        "row_acc": 0.1586746586746587,
+        "boundary_f1": 0.18848167539267016,
+        "cluster_ari": 0.2164480092944335,
+        "depth_mae_ft": 0.33333333333292914,
+        "score": 0.029907265509359755
+      }
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s19_combine",
+      "prediction_sha256": "8958c5153ec2cff5ba0be3b5f9a11ae86b3e588414e3ba5eb1b53df23e8473b5",
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "metrics": {
+        "row_acc": 0.12116666666666667,
+        "boundary_f1": 0.1724137931034483,
+        "cluster_ari": 0.0787036323864076,
+        "depth_mae_ft": null,
+        "score": 0.02089080459770115
+      }
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s19_combine",
+      "prediction_sha256": "515dd72a97b7acd4cfb251cae196680393ebc58ebfdde034ded2d8463e8e06de",
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "metrics": {
+        "row_acc": 0.03233333333333333,
+        "boundary_f1": 0.1476510067114094,
+        "cluster_ari": 0.17992746647882263,
+        "depth_mae_ft": null,
+        "score": 0.004774049217002237
+      }
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s19_combine",
+      "prediction_sha256": "9151d8eef5d8c777dce130c8bfa038b54be876d71d0a243845063ba4967553e0",
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "metrics": {
+        "row_acc": 0.8555,
+        "boundary_f1": 0.89419795221843,
+        "cluster_ari": 0.4032770337408705,
+        "depth_mae_ft": null,
+        "score": 0.7649863481228669
+      }
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s19_combine",
+      "prediction_sha256": "5a471f81055483305c7831b6aa5d5306cd2c927a916b9ea9ca2c3535f96d3ce4",
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "metrics": {
+        "row_acc": 0.9445,
+        "boundary_f1": 0.8527131782945736,
+        "cluster_ari": 0.7870336110487445,
+        "depth_mae_ft": null,
+        "score": 0.8053875968992248
+      }
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s19_combine",
+      "prediction_sha256": "761a5d26304032c31288f159724caa9fac90c520d7577f132096a4727b4ef16f",
+      "truth_sha256": "20b8292e7d637378e182388ebd225a0deffb242b14c946549b7564c882736b3d",
+      "metrics": {
+        "row_acc": 0.7615,
+        "boundary_f1": 0.8032786885245902,
+        "cluster_ari": 0.8768506041469213,
+        "depth_mae_ft": null,
+        "score": 0.6116967213114753
+      }
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s19_combine",
+      "prediction_sha256": "bb1216605a75992db11b995f026cfe261313c53583f18e40001a8c3d7f8e68bb",
+      "truth_sha256": "9e6bcdc19394f3bb06dee58641bc2ca682762f0f83168d0716e08e85a2f2330b",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8118811881188119,
+        "cluster_ari": 0.7099476831651672,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s19_combine",
+      "prediction_sha256": "409eba5c9c2f7571cbf7e982fd8fa61f63478de8d89b6c52e934843e80406f94",
+      "truth_sha256": "ecc3d938a422346f27aeab2ae6968623ceb8a964a32cda9dd0d7c7e691408ee0",
+      "metrics": {
+        "row_acc": 0.9656666666666667,
+        "boundary_f1": 0.6851851851851852,
+        "cluster_ari": 0.8836330653111542,
+        "depth_mae_ft": null,
+        "score": 0.6616604938271605
+      }
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s19_combine",
+      "prediction_sha256": "01e02a22935cfd76a79df6cbcf7e50afb058825b983fabcd9177e74823c67c6e",
+      "truth_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      }
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s19_combine",
+      "prediction_sha256": "66d9fac7819a9aa05c6cc60c7dcc97e8b8e3cac16593ab55fc6f527d9b5a5cea",
+      "truth_sha256": "e3ff2b62d3dbee2595b94ca604465185534147f00adb03a3916a4ba9ed9cc7f3",
+      "metrics": {
+        "row_acc": 0.8855,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5885092015517016,
+        "depth_mae_ft": null,
+        "score": 0.1602333333333333
+      }
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s19_combine",
+      "prediction_sha256": "7752f9c7b3e45b277741b4eac741b188dccae68e2a281d08df81760007f805f8",
+      "truth_sha256": "bab06c9630eb6752708d13eac5e990a46c673a6366c4b50062f02f3b140bbaea",
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      }
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s19_combine",
+      "prediction_sha256": "418ad7c14215d6b3afad93f693faa10d8943c16e160eb0bf86e8c1592322f5e3",
+      "truth_sha256": "19d4f53dad2f325e3864bff58b80e98a871f598fb7ac96cd21cf7e0d81060644",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9461077844311377,
+        "cluster_ari": 0.83716876033393,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s19_combine",
+      "prediction_sha256": "801812690bc98fa91d87befde092bb2bb4632101932781df2b74b7e15e549cdd",
+      "truth_sha256": "b3d099e6e304c5350f7c4aae7a6606077cc3ec69504a96574c31707e3f9a645e",
+      "metrics": {
+        "row_acc": 0.9750681729645501,
+        "boundary_f1": 0.717948717948718,
+        "cluster_ari": 0.8704299423812076,
+        "depth_mae_ft": null,
+        "score": 0.7000489446924975
+      }
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s20_v4",
+      "prediction_sha256": "78ffa5139888c089737c559dc3db11851e43623ac88e34d49cd897230a3895d0",
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "metrics": {
+        "row_acc": 0.27256077256077255,
+        "boundary_f1": 0.3902439024390244,
+        "cluster_ari": 0.6168282361110693,
+        "depth_mae_ft": 0.6124999999992724,
+        "score": 0.10636517953591124
+      }
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s20_v4",
+      "prediction_sha256": "fd2d041649a41edf210df4eab07b97761a137276c2b0a52b8904eb007e09dcc4",
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "metrics": {
+        "row_acc": 0.3298333333333333,
+        "boundary_f1": 0.46153846153846156,
+        "cluster_ari": 0.341452190107324,
+        "depth_mae_ft": null,
+        "score": 0.15223076923076923
+      }
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s20_v4",
+      "prediction_sha256": "9a61811b4945a6a8167b26586447f737e55cdfaa471e60e302adbf51ecf89a98",
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "metrics": {
+        "row_acc": 0.35183333333333333,
+        "boundary_f1": 0.3,
+        "cluster_ari": 0.3045348218407671,
+        "depth_mae_ft": null,
+        "score": 0.10554999999999999
+      }
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s20_v4",
+      "prediction_sha256": "79018019d3ad5521627a67b49efa3f577f8438f2de2c3a2baa50a7e4a4e87926",
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "metrics": {
+        "row_acc": 0.952,
+        "boundary_f1": 0.939297124600639,
+        "cluster_ari": 0.4781216098005908,
+        "depth_mae_ft": null,
+        "score": 0.8942108626198083
+      }
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s20_v4",
+      "prediction_sha256": "0b30a5f8261dce930a2c95b22e86a18cd05b5495edae93fe10c396dce5ca7fd4",
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "metrics": {
+        "row_acc": 0.9825,
+        "boundary_f1": 0.9473684210526315,
+        "cluster_ari": 0.9350794667211854,
+        "depth_mae_ft": null,
+        "score": 0.9307894736842105
+      }
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s20_v4",
+      "prediction_sha256": "a50ca5c5e4e2dafa4cc13458bc2c079d0f52473ea124987bed21d91d994982b6",
+      "truth_sha256": "20b8292e7d637378e182388ebd225a0deffb242b14c946549b7564c882736b3d",
+      "metrics": {
+        "row_acc": 0.7758333333333334,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9444218758071874,
+        "depth_mae_ft": null,
+        "score": 0.7758333333333334
+      }
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s20_v4",
+      "prediction_sha256": "479bf1e47cb8c7955e5de18b02ece72a25cf593dd5946efa690452f846ee1f2d",
+      "truth_sha256": "9e6bcdc19394f3bb06dee58641bc2ca682762f0f83168d0716e08e85a2f2330b",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8627450980392157,
+        "cluster_ari": 0.7660487041893024,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s20_v4",
+      "prediction_sha256": "fe7010f50c2f17b0d7576d49ee750c6f6e96b388869127f6778ed102de401a1b",
+      "truth_sha256": "ecc3d938a422346f27aeab2ae6968623ceb8a964a32cda9dd0d7c7e691408ee0",
+      "metrics": {
+        "row_acc": 0.9703333333333334,
+        "boundary_f1": 0.7610619469026548,
+        "cluster_ari": 0.8851981832248182,
+        "depth_mae_ft": null,
+        "score": 0.7384837758112094
+      }
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s20_v4",
+      "prediction_sha256": "cb64bc91d58ffd7a507d7c03d440253a81578a76b00037fd451b2b1d50111a5f",
+      "truth_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      }
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s20_v4",
+      "prediction_sha256": "26daba1969ea759040acd0350376f63a65b6732656ff4f0757af613c243c7911",
+      "truth_sha256": "e3ff2b62d3dbee2595b94ca604465185534147f00adb03a3916a4ba9ed9cc7f3",
+      "metrics": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5874080960063506,
+        "depth_mae_ft": null,
+        "score": 0.1600825396825397
+      }
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s20_v4",
+      "prediction_sha256": "b066aaff0ffac4e8e40029e869c6c78d5da8ea54e0f6841945f606522d5c83c7",
+      "truth_sha256": "bab06c9630eb6752708d13eac5e990a46c673a6366c4b50062f02f3b140bbaea",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s20_v4",
+      "prediction_sha256": "7e654e346a820adb0aa14b4df7b3b9729427edf7c0283ff8b7751777fa80086f",
+      "truth_sha256": "19d4f53dad2f325e3864bff58b80e98a871f598fb7ac96cd21cf7e0d81060644",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9887640449438202,
+        "cluster_ari": 0.9533346460749131,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s20_v4",
+      "prediction_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+      "truth_sha256": "b3d099e6e304c5350f7c4aae7a6606077cc3ec69504a96574c31707e3f9a645e",
+      "metrics": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      }
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "46804784ad62940a38d6276f622fbba03a7e930be92e2694c49f32d1c1d37bdf",
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "metrics": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.625,
+        "cluster_ari": 0.7606600593755758,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.48035298035298035
+      }
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "1fdc4d755d3772706450fbbfc4ce0a28fbee01bceef8c915d3db587a75231399",
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "metrics": {
+        "row_acc": 0.7693333333333333,
+        "boundary_f1": 0.4666666666666667,
+        "cluster_ari": 0.29056010354044437,
+        "depth_mae_ft": null,
+        "score": 0.35902222222222224
+      }
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "4b736ea06f7fae60c7dd27c26702d6fc8daca54a9c3218c7ca80162041768b30",
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "metrics": {
+        "row_acc": 0.7141666666666666,
+        "boundary_f1": 0.3076923076923077,
+        "cluster_ari": 0.1860410080479543,
+        "depth_mae_ft": null,
+        "score": 0.21974358974358973
+      }
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "3f3047ddffdd294d176724c2036adcbf86981543867b102ee939f036687fb8ac",
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "metrics": {
+        "row_acc": 0.9091666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "cluster_ari": 0.5124338432876435,
+        "depth_mae_ft": null,
+        "score": 0.8536227224008575
+      }
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "9909e6c3b0da88404793f018ee6bb287d95b603884aa41b3941d95105aa32684",
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "metrics": {
+        "row_acc": 0.9833333333333333,
+        "boundary_f1": 0.9863013698630136,
+        "cluster_ari": 0.9573247596780043,
+        "depth_mae_ft": null,
+        "score": 0.96986301369863
+      }
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "9784e9fe211d138ce3d02f1123e5c3e71c467cf69671d54e9b981253399252cb",
+      "truth_sha256": "20b8292e7d637378e182388ebd225a0deffb242b14c946549b7564c882736b3d",
+      "metrics": {
+        "row_acc": 0.774,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9625379404337044,
+        "depth_mae_ft": null,
+        "score": 0.774
+      }
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "83af17c982a3b25ad0d80feb30c81303981d2bc54fa68d49a70180e0f7821688",
+      "truth_sha256": "9e6bcdc19394f3bb06dee58641bc2ca682762f0f83168d0716e08e85a2f2330b",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.851063829787234,
+        "cluster_ari": 0.8609869808644061,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "f0644bde25703dac66ac6111aa5d2b543c21b1d049379e039e1b0849d736c47b",
+      "truth_sha256": "ecc3d938a422346f27aeab2ae6968623ceb8a964a32cda9dd0d7c7e691408ee0",
+      "metrics": {
+        "row_acc": 0.9706666666666667,
+        "boundary_f1": 0.7610619469026548,
+        "cluster_ari": 0.8852885609366656,
+        "depth_mae_ft": null,
+        "score": 0.7387374631268436
+      }
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "bc194bd50c44efe9feb8f050bd2697f2118d0b02bc4c1feebae9c1f7b346b024",
+      "truth_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      }
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "26daba1969ea759040acd0350376f63a65b6732656ff4f0757af613c243c7911",
+      "truth_sha256": "e3ff2b62d3dbee2595b94ca604465185534147f00adb03a3916a4ba9ed9cc7f3",
+      "metrics": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5874080960063506,
+        "depth_mae_ft": null,
+        "score": 0.1600825396825397
+      }
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "b066aaff0ffac4e8e40029e869c6c78d5da8ea54e0f6841945f606522d5c83c7",
+      "truth_sha256": "bab06c9630eb6752708d13eac5e990a46c673a6366c4b50062f02f3b140bbaea",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "050963d7fedb7d9766d69d1f74d8aece1aad85823914609f87ef6f6e15f023be",
+      "truth_sha256": "19d4f53dad2f325e3864bff58b80e98a871f598fb7ac96cd21cf7e0d81060644",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9568734466868306,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s21_v4dino",
+      "prediction_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+      "truth_sha256": "b3d099e6e304c5350f7c4aae7a6606077cc3ec69504a96574c31707e3f9a645e",
+      "metrics": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      }
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "d03f206c14d02903e179bfc08d292d75b33080c6bc9dcec9a3f8d02b30198b08",
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "metrics": {
+        "row_acc": 0.7685647685647685,
+        "boundary_f1": 0.5882352941176471,
+        "cluster_ari": 0.7025804107851661,
+        "depth_mae_ft": 0.4899999999994179,
+        "score": 0.45209692268515794
+      }
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "1c16b53606b60876d24984a639ea9409279f46c9bdc91931af284308097db289",
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "metrics": {
+        "row_acc": 0.7533333333333333,
+        "boundary_f1": 0.3870967741935484,
+        "cluster_ari": 0.2394099036201137,
+        "depth_mae_ft": null,
+        "score": 0.2916129032258064
+      }
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "0e4c0d6e807065f105998165afb83087a43a9beb2aae3e899a36b2d2d874f184",
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "metrics": {
+        "row_acc": 0.7061666666666667,
+        "boundary_f1": 0.3076923076923077,
+        "cluster_ari": 0.1722431603412789,
+        "depth_mae_ft": null,
+        "score": 0.2172820512820513
+      }
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "3f3047ddffdd294d176724c2036adcbf86981543867b102ee939f036687fb8ac",
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "metrics": {
+        "row_acc": 0.9091666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "cluster_ari": 0.5124338432876435,
+        "depth_mae_ft": null,
+        "score": 0.8536227224008575
+      }
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "9909e6c3b0da88404793f018ee6bb287d95b603884aa41b3941d95105aa32684",
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "metrics": {
+        "row_acc": 0.9833333333333333,
+        "boundary_f1": 0.9863013698630136,
+        "cluster_ari": 0.9573247596780043,
+        "depth_mae_ft": null,
+        "score": 0.96986301369863
+      }
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "9784e9fe211d138ce3d02f1123e5c3e71c467cf69671d54e9b981253399252cb",
+      "truth_sha256": "20b8292e7d637378e182388ebd225a0deffb242b14c946549b7564c882736b3d",
+      "metrics": {
+        "row_acc": 0.774,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9625379404337044,
+        "depth_mae_ft": null,
+        "score": 0.774
+      }
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "d5d7174d7e9c4bb33d30306791fb50bbcff7826de31fbd972c2d47a097a70b65",
+      "truth_sha256": "9e6bcdc19394f3bb06dee58641bc2ca682762f0f83168d0716e08e85a2f2330b",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.8598130841121495,
+        "cluster_ari": 0.6564938090087417,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "f0644bde25703dac66ac6111aa5d2b543c21b1d049379e039e1b0849d736c47b",
+      "truth_sha256": "ecc3d938a422346f27aeab2ae6968623ceb8a964a32cda9dd0d7c7e691408ee0",
+      "metrics": {
+        "row_acc": 0.9706666666666667,
+        "boundary_f1": 0.7610619469026548,
+        "cluster_ari": 0.8852885609366656,
+        "depth_mae_ft": null,
+        "score": 0.7387374631268436
+      }
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "bc194bd50c44efe9feb8f050bd2697f2118d0b02bc4c1feebae9c1f7b346b024",
+      "truth_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      }
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "26daba1969ea759040acd0350376f63a65b6732656ff4f0757af613c243c7911",
+      "truth_sha256": "e3ff2b62d3dbee2595b94ca604465185534147f00adb03a3916a4ba9ed9cc7f3",
+      "metrics": {
+        "row_acc": 0.8846666666666667,
+        "boundary_f1": 0.18095238095238095,
+        "cluster_ari": 0.5874080960063506,
+        "depth_mae_ft": null,
+        "score": 0.1600825396825397
+      }
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "7752f9c7b3e45b277741b4eac741b188dccae68e2a281d08df81760007f805f8",
+      "truth_sha256": "bab06c9630eb6752708d13eac5e990a46c673a6366c4b50062f02f3b140bbaea",
+      "metrics": {
+        "row_acc": 1.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 1.0
+      }
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "050963d7fedb7d9766d69d1f74d8aece1aad85823914609f87ef6f6e15f023be",
+      "truth_sha256": "19d4f53dad2f325e3864bff58b80e98a871f598fb7ac96cd21cf7e0d81060644",
+      "metrics": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 0.9568734466868306,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s23_v4dino_identity",
+      "prediction_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+      "truth_sha256": "b3d099e6e304c5350f7c4aae7a6606077cc3ec69504a96574c31707e3f9a645e",
+      "metrics": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      }
+    }
+  ],
+  "limitations": [
+    "This is a local score, not an official challenge grade.",
+    "The complete all-suite evaluation is still pending. No held-out accuracy claim.",
+    "Row accuracy ignores unlabelled truth rows. Clay/Shale equivalence is owner configured.",
+    "CSV exports replay saved inference outputs; inference was not rerun."
+  ]
+}

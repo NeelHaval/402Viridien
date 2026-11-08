@@ -1,0 +1,24 @@
+{
+  "key": "mc765b",
+  "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "family": "MC765 colour grid (5 inch, colour shift)",
+  "rows": [
+    78761,
+    80361
+  ],
+  "iteration": 1,
+  "n_intervals": 1,
+  "agreed_share": 1.0,
+  "labels": {
+    "Clay-S": 1.0
+  },
+  "calls_used": 6,
+  "seconds": 43.81073070000275,
+  "calibration": {
+    "a": 0.09985675027333625,
+    "b": 3338.9076350147952,
+    "n_points": 63,
+    "rmse_px": 0.4551792732566272,
+    "method": "rapidocr+ransac"
+  }
+}

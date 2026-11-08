@@ -1,0 +1,29 @@
+{
+ "weights_bytes": 50859,
+ "sha256": {
+  "boundary_net.pt": "3da50cfe123db78ffa4fe04feead6f45940e9ce29ea836f434737cd36ef439e9",
+  "matcher.npz": "5a72e53cc092c836a0c5b5d88d040f9380046c576c3298e12a0d3e0197129b5c",
+  "selected.json": "e4b412c6e1b3a17edbc9aa28bca2af3b4d8a8fd2e56825b184e78927e89ace68"
+ },
+ "selected": {
+  "key": "b0.7_t0.4_m1.0",
+  "boundary_fraction": 0.7,
+  "threshold": 0.4,
+  "matcher_fraction": 1.0,
+  "macro": {
+   "dev": {
+    "score": 0.20631207248034458,
+    "row_acc": 0.42183094032415,
+    "boundary_f1": 0.4989912937469825,
+    "cluster_ari": 0.7872498836522537
+   },
+   "synthetic": {
+    "score": 0.6216246810749979,
+    "row_acc": 0.7320424171540171,
+    "boundary_f1": 0.8158283275277968,
+    "cluster_ari": 0.8566206493750721
+   }
+  },
+  "objective": 0.3101402246290079
+ }
+}

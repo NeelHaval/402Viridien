@@ -1,0 +1,50 @@
+sandbox=workspace-write
+Build and run a per-legend-family CLASSIFICATION benchmark: given one patch of a mud-log lithology column and that log's legend, which rock is it?
+Compare JEV (Typesafe vision API) against local classifiers and a vision LLM, for every family of legend.
+
+Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md, harness/*.py and strategies/_jev.py first. strategies/_jev.py shows how to call JEV (it reads the key itself; never print or store it).
+Read strategies/s01, s05, s06, s07, s08, s11 to reuse their colour, DINOv2, SigLIP, CNN, JEV and FFT-hatch code; import or copy, but do not edit them.
+Write only under classify/ (create it). Do not edit harness/, strategies/, gt/ or eval_set.json.
+
+Ground truth comes from two sources. Keep them separate in every table.
+- TRUE: gt/gold/0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv. This is the organisers' answer: 1-bit hatch patterns, 17 intervals, labels Shale/Siltstone/Sandstone. The scorer aliases "Sand and Sandstone" to Sandstone.
+- CONSENSUS: labelling/out/<key>/consensus.csv. A parallel job is writing these now, with one window per legend family; keys and logs are in ../analysis/mix_manifest.json. Use only rows with agreed=true.
+  If they are not there yet, build and test everything on TRUE first. Then poll every 3 minutes for up to 100 minutes for labelling/out/summary.json, and run on what exists.
+  Note in the report that CONSENSUS was made by gpt-6.1-sol and gpt-6.1-terra labellers, so a Terra classifier is not independent of it.
+
+Patches: one per interval, from its central rows. Use at most 160 rows tall, skip intervals under 12 rows, use the full column width.
+Cap at 40 patches per window, stratified by label. The label set is that log's legend rock entries.
+For logs where harness legend.parse finds no rock entries, take the names from labelling/out/<key>/vocab.json, and give VLMs the legend crop image.
+
+Classifiers. Each gets the patch plus the same legend, and returns ranked labels.
+1. colour: nearest Lab dominant colour against the parsed swatches.
+2. fft_hatch: S11's hatch and colour descriptor, nearest swatch.
+3. dinov2: patch embedding vs swatch embeddings, cosine, GPU if available.
+4. siglip: S6's approach.
+5. cnn_synth: S7's model, if it can be reused without retraining for over 5 minutes; else skip and say so.
+6. jev_choice: one JEV call per patch. The image is the legend rock entries plus the patch. It is a choice question over the vocabulary, using the probabilities for the ranking.
+7. jev_gallery: one JEV call per patch. The image is a gallery of the cropped swatches, each with its name, plus the patch.
+8. terra: gpt-6.1-terra via codex exec -i (same pattern as strategies/s09_vlm_terra.py, CODEX_HOME=C:/Users/hssil/.codex-accounts/kira181204, effort low).
+   Batch 8 patches per image (a numbered grid plus the legend) to save calls. Cap: 60 Terra calls in total.
+Cache every API response on disk, and log the calls, seconds per patch, peak RSS and GPU memory.
+
+Metrics, per family and per classifier: top-1, top-3, macro-F1, n patches, sec/patch, calls/patch. Report TRUE (log06) and CONSENSUS separately.
+Also report a confidence-gated hybrid: use the best local classifier, and ask JEV only when that classifier's top-1 margin is low. Pick the threshold on log06 TRUE only and report the share of patches sent to JEV.
+
+Outputs:
+- classify/bench.py and classify/out/results.csv (one row per patch x classifier, with predicted, rank of truth and probabilities).
+- classify/out/summary.csv
+- classify/out/heatmap.png: family x classifier top-1, with n in each cell.
+- classify/out/examples_<family>.png: 6 patches with truth and each classifier's guess, wrong ones in red.
+- classify/report.html: self-contained, embedded webp, under 15 MB, flat and readable on a phone, honest about small n and the bias of the ground truth.
+  Check that it opens with headless Edge: "/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless=new --screenshot=<new path> file:///<path>.
+Use python -X utf8. Read only the needed rows of the TIFFs (io.read_rgb with y0, y1).
+
+Reply in under 450 words:
+- the summary table (family x classifier top-1/top-3, with n)
+- costs and latency per classifier
+- where JEV wins or loses and why, with examples
+- the hybrid result
+- caveats
+- the paths of the outputs

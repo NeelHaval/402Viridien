@@ -1,0 +1,17 @@
+{
+ "module": "harness.legend",
+ "version": 13,
+ "module_sha256": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+ "purpose": "Read printed names only. No rock class was assigned by OCR.",
+ "cache": "parser_cache/out/_cache/legend",
+ "threads": {
+  "omp": 3,
+  "mkl": 3,
+  "openblas": 3,
+  "opencv": 3,
+  "rapidocr_intra": 2,
+  "rapidocr_inter": 2
+ },
+ "inherited_lithology_weights": false,
+ "ocr_pretraining_overlap": "Not audited"
+}

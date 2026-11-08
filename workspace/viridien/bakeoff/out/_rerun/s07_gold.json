@@ -1,0 +1,251 @@
+{
+  "strategy": "s07_synth_cnn",
+  "name": "S7 swatch-trained CNN",
+  "set": "eval",
+  "gt": "gold",
+  "logs": [
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "window": [
+        4404,
+        11195
+      ],
+      "scored": true,
+      "legend_seconds": 0.01958829999784939,
+      "depth_seconds": 0.0011871000024257228,
+      "api_calls": 0,
+      "seconds": 11.464622600004077,
+      "peak_rss_gb": 1.3328933715820312,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.0,
+      "boundary_f1": 0.0,
+      "cluster_ari": 0.0,
+      "depth_mae_ft": null,
+      "score": 0.0,
+      "csv": "0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "png": "0000000009_d-582_0000020435-0001_log06_fe_5in_md.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "window": [
+        4387,
+        10387
+      ],
+      "scored": false,
+      "legend_seconds": 0.016361800007871352,
+      "depth_seconds": 0.0010559000074863434,
+      "api_calls": 0,
+      "seconds": 4.823241300007794,
+      "peak_rss_gb": 1.3400955200195312,
+      "peak_gpu_gb": 0.171875,
+      "csv": "0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+      "png": "0000000009_d-582_0000020435-0001_log02_fe_5in_md.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "window": [
+        4384,
+        10384
+      ],
+      "scored": false,
+      "legend_seconds": 0.01645989999815356,
+      "depth_seconds": 0.0011298000026727095,
+      "api_calls": 0,
+      "seconds": 4.115225699992152,
+      "peak_rss_gb": 1.3479270935058594,
+      "peak_gpu_gb": 0.171875,
+      "csv": "0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+      "png": "0000000009_d-582_0000020435-0001_log04_fe_5in_md.png"
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "key": "60807402860000_gb506#2_md_mudlog",
+      "window": [
+        1728,
+        7728
+      ],
+      "scored": false,
+      "legend_seconds": 0.018061100010527298,
+      "depth_seconds": 0.001013999994029291,
+      "api_calls": 0,
+      "seconds": 3.6751320000039414,
+      "peak_rss_gb": 1.34747314453125,
+      "peak_gpu_gb": 0.171875,
+      "csv": "60807402860000_gb506#2_md_mudlog.csv",
+      "png": "60807402860000_gb506#2_md_mudlog.png"
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "key": "60811405120000_1inch tvd mudlog",
+      "window": [
+        1501,
+        7501
+      ],
+      "scored": false,
+      "legend_seconds": 0.01726510000298731,
+      "depth_seconds": 0.0014891000028001145,
+      "api_calls": 0,
+      "seconds": 3.7034168999962276,
+      "peak_rss_gb": 1.3503875732421875,
+      "peak_gpu_gb": 0.171875,
+      "csv": "60811405120000_1inch tvd mudlog.csv",
+      "png": "60811405120000_1inch tvd mudlog.png"
+    },
+    {
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "key": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "window": [
+        2343,
+        8343
+      ],
+      "scored": false,
+      "legend_seconds": 0.02820400000200607,
+      "depth_seconds": 0.0016724000015528873,
+      "api_calls": 0,
+      "seconds": 4.4007921000011265,
+      "peak_rss_gb": 1.3024940490722656,
+      "peak_gpu_gb": 0.171875,
+      "csv": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.csv",
+      "png": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.png"
+    },
+    {
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "key": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "window": [
+        11438,
+        17438
+      ],
+      "scored": false,
+      "legend_seconds": 0.031516900009592064,
+      "depth_seconds": 0.0010135000047739595,
+      "api_calls": 0,
+      "seconds": 4.184648599999491,
+      "peak_rss_gb": 1.3154373168945312,
+      "peak_gpu_gb": 0.171875,
+      "csv": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.csv",
+      "png": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.png"
+    },
+    {
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "key": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "window": [
+        2927,
+        8927
+      ],
+      "scored": false,
+      "legend_seconds": 0.023569799988763407,
+      "depth_seconds": 0.0013397999864537269,
+      "api_calls": 0,
+      "seconds": 3.6246326999971643,
+      "peak_rss_gb": 1.3082275390625,
+      "peak_gpu_gb": 0.171875,
+      "csv": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886.csv",
+      "png": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886.png"
+    },
+    {
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "key": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "window": [
+        2699,
+        8699
+      ],
+      "scored": false,
+      "legend_seconds": 0.027546600002096966,
+      "depth_seconds": 0.0009390000050188974,
+      "api_calls": 0,
+      "seconds": 4.136571399998502,
+      "peak_rss_gb": 1.6259536743164062,
+      "peak_gpu_gb": 0.171875,
+      "csv": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.csv",
+      "png": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.png"
+    },
+    {
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "key": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "window": [
+        5480,
+        11480
+      ],
+      "scored": false,
+      "legend_seconds": 0.02416920001269318,
+      "depth_seconds": 0.0010664000001270324,
+      "api_calls": 0,
+      "seconds": 4.616768100007903,
+      "peak_rss_gb": 1.3130645751953125,
+      "peak_gpu_gb": 0.171875,
+      "csv": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.csv",
+      "png": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.png"
+    },
+    {
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "key": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "window": [
+        7623,
+        13623
+      ],
+      "scored": false,
+      "legend_seconds": 0.02227139999740757,
+      "depth_seconds": 0.0010457000025780872,
+      "api_calls": 0,
+      "seconds": 4.37784859999374,
+      "peak_rss_gb": 1.3120574951171875,
+      "peak_gpu_gb": 0.171875,
+      "csv": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.csv",
+      "png": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.png"
+    },
+    {
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "key": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "window": [
+        7363,
+        13363
+      ],
+      "scored": false,
+      "legend_seconds": 0.021524399999179877,
+      "depth_seconds": 0.0013487000105669722,
+      "api_calls": 0,
+      "seconds": 4.227973500004737,
+      "peak_rss_gb": 1.3129463195800781,
+      "peak_gpu_gb": 0.171875,
+      "csv": "Rio_Nueces_3744_Unit_1_212_MUD_5IN.csv",
+      "png": "Rio_Nueces_3744_Unit_1_212_MUD_5IN.png"
+    },
+    {
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "key": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "window": [
+        1698,
+        6832
+      ],
+      "scored": false,
+      "legend_seconds": 0.0054250999965006486,
+      "depth_seconds": 0.0010910999990301207,
+      "api_calls": 0,
+      "seconds": 5.08104099999764,
+      "peak_rss_gb": 1.3101730346679688,
+      "peak_gpu_gb": 0.171875,
+      "csv": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.csv",
+      "png": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.png"
+    }
+  ],
+  "mean": {
+    "score": 0.0,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "seconds": 4.802454961538808,
+    "peak_rss_gb": 1.3476254389836237,
+    "peak_gpu_gb": 0.171875,
+    "api_calls": 0,
+    "legend_seconds": 0.020920276925048362,
+    "depth_seconds": 0.0011840384630396818,
+    "crashes": 0,
+    "n_windows": 13,
+    "n_scored": 1
+  },
+  "gpu_measurement": "PyTorch peak reserved allocator bytes; RSS includes child processes"
+}

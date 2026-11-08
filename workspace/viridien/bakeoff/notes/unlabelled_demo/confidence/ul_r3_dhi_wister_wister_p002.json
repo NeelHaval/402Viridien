@@ -1,0 +1,158 @@
+[
+  {
+    "top_y": 0,
+    "bottom_y": 1829,
+    "lithology": "Claystone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 5.3822994232177734e-05,
+      "match_margin": 0.034770190715789795,
+      "boundary_probability": 0.14764006435871124
+    }
+  },
+  {
+    "top_y": 1829,
+    "bottom_y": 1863,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5573506355285645,
+      "match_margin": 0.35877561569213867,
+      "boundary_probability": 0.8592110872268677
+    }
+  },
+  {
+    "top_y": 1863,
+    "bottom_y": 1899,
+    "lithology": "Igneous (lntrusive",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9678067564964294,
+      "match_margin": 0.0009717345237731934,
+      "boundary_probability": 0.9552329778671265
+    }
+  },
+  {
+    "top_y": 1899,
+    "bottom_y": 1932,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5278199911117554,
+      "match_margin": 0.444303035736084,
+      "boundary_probability": 0.9298675060272217
+    }
+  },
+  {
+    "top_y": 1932,
+    "bottom_y": 2101,
+    "lithology": "Claystone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2191327775018455,
+      "match_margin": 0.2969044947765283,
+      "boundary_probability": 0.8844126462936401
+    }
+  },
+  {
+    "top_y": 2101,
+    "bottom_y": 2272,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.019295334815979004,
+      "match_margin": 0.02243340015411377,
+      "boundary_probability": 0.9966339468955994
+    }
+  },
+  {
+    "top_y": 2272,
+    "bottom_y": 2342,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7678971784455436,
+      "match_margin": 0.10464856028556824,
+      "boundary_probability": 0.9973567724227905
+    }
+  },
+  {
+    "top_y": 2342,
+    "bottom_y": 2516,
+    "lithology": "Claystone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45149223386556253,
+      "match_margin": 0.0741699372214833,
+      "boundary_probability": 0.6478760242462158
+    }
+  },
+  {
+    "top_y": 2516,
+    "bottom_y": 2649,
+    "lithology": "Siltstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.512926393433621,
+      "match_margin": 0.3590871485552394,
+      "boundary_probability": 0.4550877511501312
+    }
+  },
+  {
+    "top_y": 2649,
+    "bottom_y": 2752,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.749837285106622,
+      "match_margin": 0.12185834102260251,
+      "boundary_probability": 0.9877879619598389
+    }
+  },
+  {
+    "top_y": 2752,
+    "bottom_y": 2779,
+    "lithology": "Metamorphic",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.993572473526001,
+      "match_margin": 0.00019735097885131836,
+      "boundary_probability": 0.4642229974269867
+    }
+  },
+  {
+    "top_y": 2779,
+    "bottom_y": 2829,
+    "lithology": "Mudstone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9674311447143554,
+      "match_margin": 0.0034741723537445868,
+      "boundary_probability": 0.4532517194747925
+    }
+  }
+]

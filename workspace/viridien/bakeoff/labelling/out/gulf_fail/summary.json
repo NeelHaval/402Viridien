@@ -1,0 +1,25 @@
+{
+  "key": "gulf_fail",
+  "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "family": "Gulf 3-panel, parser failed",
+  "rows": [
+    30618,
+    32218
+  ],
+  "iteration": 1,
+  "n_intervals": 3,
+  "agreed_share": 1.0,
+  "labels": {
+    "Halite": 0.9925,
+    "Shale": 0.0075
+  },
+  "calls_used": 7,
+  "seconds": 52.08055869999225,
+  "calibration": {
+    "a": 0.3332895600870725,
+    "b": 3515.951472809422,
+    "n_points": 42,
+    "rmse_px": 0.5486205721040028,
+    "method": "rapidocr+ransac"
+  }
+}

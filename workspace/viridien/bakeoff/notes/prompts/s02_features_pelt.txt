@@ -1,0 +1,19 @@
+sandbox=workspace-write
+You are implementing ONE strategy in a lithology-extraction bake-off. Working folder:
+C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md first, then the harness package (harness/*.py) to learn the real API (it may differ slightly from
+SPEC.md; the code wins). Write ONLY your strategy file(s) named below plus notes/<your strategy id>.md. Do not edit
+harness/, SPEC.md, eval_set.json or other strategies, and never read anything under gt/ except through the
+runner's printed metrics.
+Develop and test with the runner:
+  python -m harness.run --strategy <id> --set synthetic        (exact labels, use freely for tuning)
+  python -m harness.run --strategy <id> --set eval --gt gold     (log06 only)
+Silver labels may appear later under gt/silver; you may run --gt silver/A or --gt silver/B to see aggregate
+scores, but do NOT tune on them per log (no log-name special cases, no per-log constants).
+Look at your own output PNGs in out/<id>/ with your image viewer and fix visible failure modes. Respect the
+runtime budget in SPEC.md. Return stage images for the pipeline view (3-6 stages that explain your method).
+When done, run the full eval once more and reply with: the metrics table it printed (per log + mean), seconds per
+window, what worked, what failed (with the log names), and ideas you did not have time for. Keep it under 400 words.
+
+YOUR STRATEGY: id=s02_features_pelt, file strategies/s02_features_pelt.py
+S2 hand-made features + change points (CPU only). Per row on a downsampled column, over a window of about one pattern repeat: Lab colour mean, ink fraction, horizontal vs vertical stroke density (Sobel), dominant vertical period via autocorrelation. Change points with ruptures PELT (choose cost and penalty on synthetic data). Cluster segments with agglomerative clustering (distance threshold). Name clusters by the same features on tiled is_lithology swatches. Expose segment(log, window, ctx) -> list[(y0, y1)] as a reusable function: S8, S9, S10 import it. Finish segment() early and keep its signature stable.

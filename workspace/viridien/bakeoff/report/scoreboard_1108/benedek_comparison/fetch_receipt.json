@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/NeelHaval/viridian402.git",
+  "checkout": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_source_20261108T1001",
+  "command": [
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "--no-checkout",
+    "--no-tags",
+    "https://github.com/NeelHaval/viridian402.git",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_source_20261108T1001"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 1.9036249999771826,
+  "live_model_modified": false,
+  "dataset_opened": false
+}

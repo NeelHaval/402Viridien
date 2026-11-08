@@ -1,0 +1,14 @@
+{
+ "schema": "viridien.synthetic-publication.v1",
+ "status": "experimental",
+ "tag": "viridien-workspace-2026-11-08",
+ "pattern_samples": 1556,
+ "pattern_classes": 389,
+ "columns": 132,
+ "use": "Review and regression work only. Not independent real-world accuracy evidence.",
+ "limitations": [
+  "Earlier v1-v5 builders bypassed an exact-pixel quarantine check.",
+  "Rail, seam, unlabelled-gap and bed-thickness defects were found by reviewers.",
+  "Ongoing fixes are not certified by this source snapshot."
+ ]
+}

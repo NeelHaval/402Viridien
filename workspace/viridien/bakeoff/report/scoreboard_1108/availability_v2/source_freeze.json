@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-08T08:57:26.349032+00:00",
+  "scope": "Availability V2 and cached JEV checkpoint only",
+  "sources": {
+    "harness/run.py": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+    "harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "report/scoreboard_1108/availability_v2/build_report.py": "6bc715d785b8d0a51c0ecdd15f7b674882b48742c08691e7beef8518c357e177",
+    "report/scoreboard_1108/availability_v2/freeze_release.py": "423a246499383622dd9c5fd72373fc8fef39b90deb76de4588cd28f4ebee3d69",
+    "report/scoreboard_1108/availability_v2/make_overview.py": "fa4132e4e5aa0d0c3faa054311224d6e3e0c355894e758f4d6b1def337b00d4f",
+    "report/scoreboard_1108/availability_v2/parent_audit.py": "e7ba3e7f0b08d4dc71a4b7f6ee37164f00567932d0bac3f1e9b7a08ccf0036c1",
+    "report/scoreboard_1108/availability_v2/report_contract.py": "5fb4d712def2c6c0da34c15587ac6bcffb078056869ffdf08b0270b68d4661cd",
+    "report/scoreboard_1108/availability_v2/run_checks.py": "5dda50cd67d359683fed98fac66e9f1dd2ffb2a4b66d7f008309e655e7034bf9",
+    "report/scoreboard_1108/availability_v2/test_report_audit.py": "06a4b0f6a30f9c621aeb60e4b55bcc68a4ed3c41b693fcb3010bee798ca579e8",
+    "report/scoreboard_1108/availability_v2/test_report_contract.py": "e456424d3bc1776bb6b6c4f5e261864858552adeb53184fc9ad163da8a726888",
+    "report/scoreboard_1108/jev_comparison/availability_v2/audit_checkpoint.py": "244c2d766035bfa78d663a3af0aa8600eef2fc50737e269f2c724f9ff9104f02",
+    "report/scoreboard_1108/jev_comparison/availability_v2/build_checkpoint.py": "90d38f9539506fcee5403d980c908875738060592b39e46d89c47d2d356fd805",
+    "report/scoreboard_1108/jev_comparison/availability_v2/make_overview.py": "4b0d2c5f3a6d5455ac54292b01127fa91cd2650ad0772c994c6c9a588bcba36f",
+    "strategies/AGENTS.md": "befc6a54fb244709798350fe96f63403a751c25cc03d0c88422e0c764033d7f5",
+    "strategies/grading_availability_v2.py": "80c35cfde8c12c5a4ee6c44de2639ee3c78796a57a6218ea125f28e86d5b2175",
+    "strategies/grading_policy.py": "637f91e7752d22fd9b16aaf9b2faa7c9b505a3e26a2486df486eb8b45b4a8df6",
+    "strategies/SCORING_CONTRACT_V2.md": "18efedf4c0cf35e4910ac80de84a92b4f7216781827ba62e44bba3e5ceb16c27",
+    "strategies/test_grading_availability_v2.py": "bf75f8d9916c9c482f459ebf58cad997d77927c1fb052d5c3266d9ce036608a8",
+    "strategies/test_grading_policy.py": "3282faff37fadeebb310a157ae67781331fa5f218b1887a64a0ee1890afe8172"
+  },
+  "historical_source_freeze_replaced": false,
+  "Astra_review": "Earlier baseline and S23 only; no new review of Availability V2"
+}

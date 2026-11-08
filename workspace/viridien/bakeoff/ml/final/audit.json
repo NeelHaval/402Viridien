@@ -1,0 +1,194 @@
+{
+ "audited_utc": "2026-11-08T03:20:52.328349+00:00",
+ "dev_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+ "training_wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "clean_checkpoints": [
+  {
+   "lane": "combine",
+   "path": "bakeoff/ml/combine/boundary_net.pt",
+   "sha256": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810",
+   "metadata": {
+    "channels": 32,
+    "hidden": 24,
+    "training_wells": [
+     "386825",
+     "4304150011",
+     "barlow3-14",
+     "flat-bay-2",
+     "storm"
+    ],
+    "held_well": null,
+    "steps": 450,
+    "seed": 1905,
+    "synthetic_fraction": 0.35,
+    "dev_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631"
+   }
+  },
+  {
+   "lane": "synth_v2",
+   "path": "bakeoff/ml/synth_v2/boundary_net.pt",
+   "sha256": "3da50cfe123db78ffa4fe04feead6f45940e9ce29ea836f434737cd36ef439e9",
+   "metadata": {
+    "channels": 32,
+    "hidden": 24,
+    "held_well": null,
+    "training_wells": [
+     "386825",
+     "4304150011",
+     "barlow3-14",
+     "flat-bay-2",
+     "storm"
+    ],
+    "steps": 1500,
+    "synthetic_fraction": 0.7,
+    "inherited_weights": false
+   }
+  },
+  {
+   "lane": "boundary_v2",
+   "path": "bakeoff/ml/boundary_v2/boundary_net.pt",
+   "sha256": "4b714c193b14c9208030d7017119d7d7c89f12e053a13f8d69190c5a33f4e9da",
+   "metadata": {
+    "channels": 32,
+    "hidden": 24,
+    "config": {
+     "variant": "synth",
+     "threshold": 0.45,
+     "gap": 12,
+     "preserve": false
+    },
+    "steps": 650,
+    "training_wells": [
+     "386825",
+     "4304150011",
+     "barlow3-14",
+     "flat-bay-2",
+     "storm"
+    ],
+    "dev_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+    "initialization": "random; no inherited weights"
+   }
+  }
+ ],
+ "clean_final_real_checkpoint_sha256": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222",
+ "statuses": {
+  "s11": "fixed_baseline",
+  "s13": "historical_contamination",
+  "s14": "historical_contamination",
+  "s15": "historical_contamination",
+  "s16": "historical_contamination",
+  "s17": "historical_contamination",
+  "s18": "historical_contamination",
+  "s19": "clean_refit",
+  "s20": "historical_contamination",
+  "s21": "clean_refit",
+  "s22": "clean_refit"
+ },
+ "readiness_hash_checks": {
+  "combine": {
+   "checked": 16,
+   "changed_after_review": [
+    "ml/integrate/core.py",
+    "harness/depth.py"
+   ]
+  },
+  "synth_v2": {
+   "checked": 28,
+   "changed_after_review": []
+  },
+  "legend_v4": {
+   "checked": 19,
+   "changed_after_review": []
+  }
+ },
+ "missing_files": [],
+ "suites": {
+  "viridien_eval": {
+   "windows": 13,
+   "wells": 11
+  },
+  "ext_dev": {
+   "windows": 51,
+   "wells": 5
+  },
+  "ext_test": {
+   "windows": 20,
+   "wells": 3
+  },
+  "ext_shared_verify": {
+   "windows": 8,
+   "wells": 1
+  }
+ },
+ "new_data": {
+  "external_tests_round3": {
+   "manifest_records": 32,
+   "summary": {
+    "logs": 32,
+    "source_documents": 1,
+    "windows": 32,
+    "truth_intervals": 250,
+    "by_source": {
+     "nwt_orogo": {
+      "logs": 32,
+      "wells": 1,
+      "windows": 32,
+      "truth_intervals": 250
+     }
+    }
+   }
+  },
+  "external_unlabelled": {
+   "manifest_records": 651,
+   "summary": {
+    "pages": 643,
+    "by_family": {
+     "bw_hatch": 383,
+     "wellsight_striplog": 240,
+     "other": 20
+    },
+    "by_source": {
+     "coso_forge": 275,
+     "dhi_wister": 9,
+     "mississippi": 235,
+     "nwt_orogo": 25,
+     "oregon_dogami": 67,
+     "precision_wl": 6,
+     "singles": 12,
+     "stratagraph": 11,
+     "utah_forge": 3
+    },
+    "failures": [],
+    "draft_boxes": 0
+   },
+   "round4": {
+    "new_logs": 8,
+    "new_pages": 8,
+    "appended_this_run": 1,
+    "unlabelled_pages_by_family": {
+     "bw_hatch": 8,
+     "colour_grid": 0,
+     "geoservices_grid": 0,
+     "gulf_3panel": 0
+    },
+    "new_truth_logs": 0,
+    "new_truth_windows": 0,
+    "new_truth_intervals": 0,
+    "failures": []
+   }
+  }
+ },
+ "limits": [
+  "Old S13-S18 and deployed S20 remain contaminated. They are historical comparisons only.",
+  "Old Emil local weights used six eval images; default Drive provenance is incomplete. S12 is not requested.",
+  "Earlier final scores already exist. Clean refits do not remove inherited design exposure.",
+  "No sealed image or truth was opened. Only declared split metadata was read.",
+  "No real non-eval in-domain interval truth is present. Source-held synthetic checks provide the permitted in-domain evidence."
+ ]
+}

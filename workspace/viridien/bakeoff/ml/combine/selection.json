@@ -1,0 +1,3612 @@
+{
+ "ranking": [
+  {
+   "id": 24,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 8,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35,
+    "model_mix": 0.5
+   },
+   "objective": 0.5119405001755071,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8502999802121491,
+     "boundary_f1": 0.5740785361192152,
+     "cluster_ari": 0.8306080918928431,
+     "score": 0.5106688613931747
+    },
+    "window_macro": {
+     "row_acc": 0.8848012510927372,
+     "boundary_f1": 0.5611555397144692,
+     "cluster_ari": 0.8688619186501153,
+     "score": 0.5145136501867453
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8756666666666666,
+      "boundary_f1": 0.9354145166838665,
+      "cluster_ari": 0.686555045485995,
+      "score": 0.820333218667584
+     },
+     "4304150011": {
+      "row_acc": 0.9296301018491688,
+      "boundary_f1": 0.7017814840260761,
+      "cluster_ari": 0.861248513527772,
+      "score": 0.6568526918064083
+     },
+     "barlow3-14": {
+      "row_acc": 0.6972905427256996,
+      "boundary_f1": 0.3590813338621855,
+      "cluster_ari": 0.8039720804685407,
+      "score": 0.27470317948225936
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7670771476100556,
+      "boundary_f1": 0.3768237934904602,
+      "cluster_ari": 0.8469115416188413,
+      "score": 0.3153784259410929
+     },
+     "storm": {
+      "row_acc": 0.9818354422091556,
+      "boundary_f1": 0.497291552533488,
+      "cluster_ari": 0.9543532783630672,
+      "score": 0.48607679106852913
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7469210317517083,
+     "boundary_f1": 0.6557899824114246,
+     "cluster_ari": 0.8129934667886359,
+     "score": 0.5157554165225043
+    },
+    "window_macro": {
+     "row_acc": 0.7469210317517083,
+     "boundary_f1": 0.6557899824114245,
+     "cluster_ari": 0.8129934667886358,
+     "score": 0.5157554165225043
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5242917982719755,
+      "boundary_f1": 0.3615866915356505,
+      "cluster_ari": 0.5606298546605514,
+      "score": 0.19123984715263712
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7378449651146207,
+      "boundary_f1": 0.4845899054724789,
+      "cluster_ari": 0.8061133519011285,
+      "score": 0.37002851349762866
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7013025979471593,
+      "boundary_f1": 0.6931541856313023,
+      "cluster_ari": 0.84210001326965,
+      "score": 0.4926383676270764
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8557287754314721,
+      "boundary_f1": 0.7425893300312804,
+      "cluster_ari": 0.902215848614495,
+      "score": 0.6489496877200996
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6612535674954184,
+      "boundary_f1": 0.603439384886529,
+      "cluster_ari": 0.8115517489007469,
+      "score": 0.4042379833808045
+     },
+     "One-off layout": {
+      "row_acc": 0.8533276707951951,
+      "boundary_f1": 0.7856121511731717,
+      "cluster_ari": 0.8489048459941494,
+      "score": 0.6734949002601477
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8946978472061166,
+      "boundary_f1": 0.9195582281495595,
+      "cluster_ari": 0.9194386041797307,
+      "score": 0.8296986160191365
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 25,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35,
+    "model_mix": 0.5
+   },
+   "objective": 0.510077163058805,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8452919251757429,
+     "boundary_f1": 0.569928174276517,
+     "cluster_ari": 0.8210363066373084,
+     "score": 0.50364465163723
+    },
+    "window_macro": {
+     "row_acc": 0.8813306404391532,
+     "boundary_f1": 0.5623369192815085,
+     "cluster_ari": 0.8634266930568821,
+     "score": 0.513642081370203
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8711666666666666,
+      "boundary_f1": 0.9286096256684492,
+      "cluster_ari": 0.6683178760990443,
+      "score": 0.8097682709447416
+     },
+     "4304150011": {
+      "row_acc": 0.9300267662620604,
+      "boundary_f1": 0.7197669377258155,
+      "cluster_ari": 0.8619993648112549,
+      "score": 0.67473125208833
+     },
+     "barlow3-14": {
+      "row_acc": 0.6926190248417169,
+      "boundary_f1": 0.35160856191416845,
+      "cluster_ari": 0.7949580727263111,
+      "score": 0.26743891184522733
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7512900242244028,
+      "boundary_f1": 0.36207953266776793,
+      "cluster_ari": 0.8280975894601086,
+      "score": 0.28987071498437295
+     },
+     "storm": {
+      "row_acc": 0.981357143883868,
+      "boundary_f1": 0.4875762134063842,
+      "cluster_ari": 0.9518086300898232,
+      "score": 0.47641410832347836
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7471745790923071,
+     "boundary_f1": 0.6736226874238466,
+     "cluster_ari": 0.8152950597844033,
+     "score": 0.5293746973235299
+    },
+    "window_macro": {
+     "row_acc": 0.7471745790923071,
+     "boundary_f1": 0.6736226874238465,
+     "cluster_ari": 0.8152950597844033,
+     "score": 0.52937469732353
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5271177046943157,
+      "boundary_f1": 0.37196856260304717,
+      "cluster_ari": 0.568111492335312,
+      "score": 0.19761146982051284
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7302731712074778,
+      "boundary_f1": 0.5112713793603998,
+      "cluster_ari": 0.8045856429287066,
+      "score": 0.38594466733537686
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7029911803783144,
+      "boundary_f1": 0.7134049444420961,
+      "cluster_ari": 0.8448512273915045,
+      "score": 0.5072243829014259
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8558479979994759,
+      "boundary_f1": 0.7601998627733922,
+      "cluster_ari": 0.9039436688468854,
+      "score": 0.6639648631960461
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6646237080785006,
+      "boundary_f1": 0.627130261237905,
+      "cluster_ari": 0.8156341355166431,
+      "score": 0.424192755892933
+     },
+     "One-off layout": {
+      "row_acc": 0.8539491397217488,
+      "boundary_f1": 0.7935689117615113,
+      "cluster_ari": 0.8502857009353684,
+      "score": 0.6811655640840143
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8954191515663168,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9196535505364035,
+      "score": 0.8455191780344008
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 22,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 8,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35,
+    "model_mix": 0.25
+   },
+   "objective": 0.5053359593218936,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8480759542121653,
+     "boundary_f1": 0.5738772102048709,
+     "cluster_ari": 0.8168237969655447,
+     "score": 0.5067351584188852
+    },
+    "window_macro": {
+     "row_acc": 0.8861939325057813,
+     "boundary_f1": 0.5585725557649652,
+     "cluster_ari": 0.8630692400658212,
+     "score": 0.5120324872875188
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8522222222222222,
+      "boundary_f1": 0.9288075260615306,
+      "cluster_ari": 0.6363398330084187,
+      "score": 0.7933994406305619
+     },
+     "4304150011": {
+      "row_acc": 0.9303397190293743,
+      "boundary_f1": 0.6905923572510447,
+      "cluster_ari": 0.8579735405363458,
+      "score": 0.6461087242449554
+     },
+     "barlow3-14": {
+      "row_acc": 0.7005667086437192,
+      "boundary_f1": 0.3820657088611889,
+      "cluster_ari": 0.8073791999676393,
+      "score": 0.2903970781657468
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7733382033201031,
+      "boundary_f1": 0.3620536071516464,
+      "cluster_ari": 0.8223528302070539,
+      "score": 0.30820621135682724
+     },
+     "storm": {
+      "row_acc": 0.9839129178454074,
+      "boundary_f1": 0.505866851698944,
+      "cluster_ari": 0.9600735811082662,
+      "score": 0.4955643376963343
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.743270433441458,
+     "boundary_f1": 0.6387794482018806,
+     "cluster_ari": 0.802019102781533,
+     "score": 0.5011383620309185
+    },
+    "window_macro": {
+     "row_acc": 0.743270433441458,
+     "boundary_f1": 0.6387794482018804,
+     "cluster_ari": 0.8020191027815331,
+     "score": 0.5011383620309184
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5458204292370138,
+      "boundary_f1": 0.36372633789716363,
+      "cluster_ari": 0.5231764035778943,
+      "score": 0.2034708741040037
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7333409515629618,
+      "boundary_f1": 0.48508760040518745,
+      "cluster_ari": 0.7906631969731168,
+      "score": 0.36597858797357957
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.6635119499414602,
+      "boundary_f1": 0.6748104269523513,
+      "cluster_ari": 0.8162800950939407,
+      "score": 0.45622798934826997
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.817768574802817,
+      "boundary_f1": 0.6648146656415045,
+      "cluster_ari": 0.8940628942737617,
+      "score": 0.5735149621018684
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6846810177809041,
+      "boundary_f1": 0.5784137807062008,
+      "cluster_ari": 0.8182833926841747,
+      "score": 0.4027110830702096
+     },
+     "One-off layout": {
+      "row_acc": 0.8635015020942797,
+      "boundary_f1": 0.7962884839045832,
+      "cluster_ari": 0.8552284624366253,
+      "score": 0.6865256346646081
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8942686086707702,
+      "boundary_f1": 0.9083148419061732,
+      "cluster_ari": 0.9164392744312178,
+      "score": 0.8195394029538904
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 23,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35,
+    "model_mix": 0.25
+   },
+   "objective": 0.5043351817043793,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8460538402492521,
+     "boundary_f1": 0.5712230943585824,
+     "cluster_ari": 0.8103310832422658,
+     "score": 0.502125156241689
+    },
+    "window_macro": {
+     "row_acc": 0.8859273864979098,
+     "boundary_f1": 0.5637555798541072,
+     "cluster_ari": 0.8615780284645074,
+     "score": 0.5162762437683291
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8445555555555555,
+      "boundary_f1": 0.9172733891518019,
+      "cluster_ari": 0.6117046955662249,
+      "score": 0.7758508069409052
+     },
+     "4304150011": {
+      "row_acc": 0.9314460006224714,
+      "boundary_f1": 0.7185516576820925,
+      "cluster_ari": 0.8601138829616016,
+      "score": 0.6738125528287506
+     },
+     "barlow3-14": {
+      "row_acc": 0.6970852855505086,
+      "boundary_f1": 0.3734384170330984,
+      "cluster_ari": 0.8002140848595164,
+      "score": 0.2818369949829825
+     },
+     "flat-bay-2": {
+      "row_acc": 0.77326569995577,
+      "boundary_f1": 0.35557590557590557,
+      "cluster_ari": 0.8204254443762841,
+      "score": 0.2978323262310401
+     },
+     "storm": {
+      "row_acc": 0.9839166595619544,
+      "boundary_f1": 0.4912761023500139,
+      "cluster_ari": 0.9591973084477026,
+      "score": 0.4812931002247662
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7429984054230642,
+     "boundary_f1": 0.6526116192712855,
+     "cluster_ari": 0.8032956273444984,
+     "score": 0.5109652580924504
+    },
+    "window_macro": {
+     "row_acc": 0.7429984054230642,
+     "boundary_f1": 0.6526116192712855,
+     "cluster_ari": 0.8032956273444983,
+     "score": 0.5109652580924503
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5467107198221687,
+      "boundary_f1": 0.3719625575368067,
+      "cluster_ari": 0.5252263016861117,
+      "score": 0.20834726235002732
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7349634001487925,
+      "boundary_f1": 0.5109792482663998,
+      "cluster_ari": 0.7907161804014718,
+      "score": 0.3848371430620085
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.6647051596456217,
+      "boundary_f1": 0.6872075976828554,
+      "cluster_ari": 0.8198065489241432,
+      "score": 0.46457109222185083
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.817453769593043,
+      "boundary_f1": 0.6785251356878033,
+      "cluster_ari": 0.8965898340308328,
+      "score": 0.5847512571159449
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6801157713193932,
+      "boundary_f1": 0.5909927691428406,
+      "cluster_ari": 0.8212009919367556,
+      "score": 0.4097514356366924
+     },
+     "One-off layout": {
+      "row_acc": 0.8626173412748265,
+      "boundary_f1": 0.8057376583111878,
+      "cluster_ari": 0.8540139705420252,
+      "score": 0.6942469963497184
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8944226761576041,
+      "boundary_f1": 0.9228763682711052,
+      "cluster_ari": 0.915515563890149,
+      "score": 0.8302516199109106
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 1,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.5001742957368673,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8943023437041522,
+     "boundary_f1": 0.5659935433426628,
+     "cluster_ari": 0.8057843661436006,
+     "score": 0.5092138250911409
+    },
+    "window_macro": {
+     "row_acc": 0.9104301056363545,
+     "boundary_f1": 0.5533757664220964,
+     "cluster_ari": 0.8458866579364934,
+     "score": 0.509782784470904
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8634444444444445,
+      "boundary_f1": 0.9240043843624406,
+      "cluster_ari": 0.6499028198244929,
+      "score": 0.7975307108350587
+     },
+     "4304150011": {
+      "row_acc": 0.9160760273458041,
+      "boundary_f1": 0.6995446072982305,
+      "cluster_ari": 0.8327016414409081,
+      "score": 0.6461113150161175
+     },
+     "barlow3-14": {
+      "row_acc": 0.897430030284697,
+      "boundary_f1": 0.37924676771017335,
+      "cluster_ari": 0.7924574610617614,
+      "score": 0.3360132559498427
+     },
+     "flat-bay-2": {
+      "row_acc": 0.8116065178001199,
+      "boundary_f1": 0.3362493715434892,
+      "cluster_ari": 0.8003110326495976,
+      "score": 0.28598413305061343
+     },
+     "storm": {
+      "row_acc": 0.9829546986456954,
+      "boundary_f1": 0.49092258579898057,
+      "cluster_ari": 0.9535488757412437,
+      "score": 0.4804297106040727
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7176570448548807,
+     "boundary_f1": 0.6155004743855107,
+     "cluster_ari": 0.7559336291808186,
+     "score": 0.47305570767404687
+    },
+    "window_macro": {
+     "row_acc": 0.7176570448548806,
+     "boundary_f1": 0.6155004743855107,
+     "cluster_ari": 0.7559336291808186,
+     "score": 0.47305570767404687
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5976010798344794,
+      "boundary_f1": 0.3536392296745068,
+      "cluster_ari": 0.5060993115975009,
+      "score": 0.21926442921295977
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7173087872718072,
+      "boundary_f1": 0.4752169095418523,
+      "cluster_ari": 0.7526525792291229,
+      "score": 0.3812991381312268
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5489909282225681,
+      "boundary_f1": 0.6419449171922588,
+      "cluster_ari": 0.7506869111520357,
+      "score": 0.35860125572697993
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.7739785689903854,
+      "boundary_f1": 0.637335747662115,
+      "cluster_ari": 0.8042474189761196,
+      "score": 0.517779994977007
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6586347171449729,
+      "boundary_f1": 0.468995109602747,
+      "cluster_ari": 0.7227850810692336,
+      "score": 0.3282207544876679
+     },
+     "One-off layout": {
+      "row_acc": 0.8508127537190163,
+      "boundary_f1": 0.8084950387539903,
+      "cluster_ari": 0.8401019131311326,
+      "score": 0.692326040941906
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.876272478800935,
+      "boundary_f1": 0.9228763682711052,
+      "cluster_ari": 0.9149621891105859,
+      "score": 0.8138983402405807
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 0,
+   "config": {
+    "mode": "cnn",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.49907147653596134,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8958983902475038,
+     "boundary_f1": 0.5670302890864275,
+     "cluster_ari": 0.8079919610178756,
+     "score": 0.5096411427376675
+    },
+    "window_macro": {
+     "row_acc": 0.9099309257294382,
+     "boundary_f1": 0.5496300047735649,
+     "cluster_ari": 0.844794561023398,
+     "score": 0.5045596416158015
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8657777777777778,
+      "boundary_f1": 0.9240043843624406,
+      "cluster_ari": 0.657192383430495,
+      "score": 0.7996466528640441
+     },
+     "4304150011": {
+      "row_acc": 0.9116805220172362,
+      "boundary_f1": 0.67635182461471,
+      "cluster_ari": 0.8266355444443155,
+      "score": 0.6214274602802932
+     },
+     "barlow3-14": {
+      "row_acc": 0.9070834592324807,
+      "boundary_f1": 0.38065677437965983,
+      "cluster_ari": 0.8035341468269347,
+      "score": 0.3422828550910721
+     },
+     "flat-bay-2": {
+      "row_acc": 0.8118056399603402,
+      "boundary_f1": 0.3520018738597974,
+      "cluster_ari": 0.7985459909997874,
+      "score": 0.29336476766071573
+     },
+     "storm": {
+      "row_acc": 0.9831445522496841,
+      "boundary_f1": 0.5021365882155296,
+      "cluster_ari": 0.9540517393878454,
+      "score": 0.4914839777922118
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7138788142562752,
+     "boundary_f1": 0.6239812363964067,
+     "cluster_ari": 0.7551463170940043,
+     "score": 0.46736247793084296
+    },
+    "window_macro": {
+     "row_acc": 0.7138788142562752,
+     "boundary_f1": 0.6239812363964066,
+     "cluster_ari": 0.7551463170940043,
+     "score": 0.4673624779308428
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.6016914258923601,
+      "boundary_f1": 0.34314608026696297,
+      "cluster_ari": 0.512607042365152,
+      "score": 0.21363644363777565
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7218463704201622,
+      "boundary_f1": 0.5311917193939186,
+      "cluster_ari": 0.758732517798704,
+      "score": 0.3920973487667258
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5578915362954465,
+      "boundary_f1": 0.6389220667819739,
+      "cluster_ari": 0.7514813117072686,
+      "score": 0.36376463120985764
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.7780144870401778,
+      "boundary_f1": 0.6642800282506166,
+      "cluster_ari": 0.8252625527747238,
+      "score": 0.5300149066884918
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6435376693219411,
+      "boundary_f1": 0.4878283648333704,
+      "cluster_ari": 0.7205893297272637,
+      "score": 0.31451000980059834
+     },
+     "One-off layout": {
+      "row_acc": 0.8513802991409833,
+      "boundary_f1": 0.8094275689514934,
+      "cluster_ari": 0.8393777060113989,
+      "score": 0.6933519516794568
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8427899116828549,
+      "boundary_f1": 0.8930728262965105,
+      "cluster_ari": 0.8779737592735192,
+      "score": 0.7641620537329946
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 2,
+   "config": {
+    "mode": "cnn",
+    "threshold": 0.55,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.4986327974807744,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8861810549837708,
+     "boundary_f1": 0.5672633132381492,
+     "cluster_ari": 0.791926727719342,
+     "score": 0.5060161587868562
+    },
+    "window_macro": {
+     "row_acc": 0.9034493406996538,
+     "boundary_f1": 0.5508815257599916,
+     "cluster_ari": 0.8357380950819189,
+     "score": 0.5024213271517365
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8768888888888888,
+      "boundary_f1": 0.9310280893668305,
+      "cluster_ari": 0.6712885311968363,
+      "score": 0.8162038667943924
+     },
+     "4304150011": {
+      "row_acc": 0.912240746106872,
+      "boundary_f1": 0.6753011188690828,
+      "cluster_ari": 0.8272395834023791,
+      "score": 0.6219952804745829
+     },
+     "barlow3-14": {
+      "row_acc": 0.8467328714387573,
+      "boundary_f1": 0.34053213419143585,
+      "cluster_ari": 0.6854592505894486,
+      "score": 0.28556841363378604
+     },
+     "flat-bay-2": {
+      "row_acc": 0.8127175723171655,
+      "boundary_f1": 0.3886331438244006,
+      "cluster_ari": 0.8220306306267642,
+      "score": 0.3165758625072348
+     },
+     "storm": {
+      "row_acc": 0.9823251961671702,
+      "boundary_f1": 0.5008220799389961,
+      "cluster_ari": 0.9536156427812816,
+      "score": 0.4897373705242854
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.713117380564387,
+     "boundary_f1": 0.6382890686277892,
+     "cluster_ari": 0.7599559285635644,
+     "score": 0.476482713562529
+    },
+    "window_macro": {
+     "row_acc": 0.713117380564387,
+     "boundary_f1": 0.6382890686277891,
+     "cluster_ari": 0.7599559285635643,
+     "score": 0.476482713562529
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.6105117789609568,
+      "boundary_f1": 0.37307081963875294,
+      "cluster_ari": 0.5369254017202675,
+      "score": 0.23522075409831042
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7122977593090511,
+      "boundary_f1": 0.5323800735234493,
+      "cluster_ari": 0.7554892260562255,
+      "score": 0.38680951086109566
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5633490412588652,
+      "boundary_f1": 0.6745726876609229,
+      "cluster_ari": 0.774935324104129,
+      "score": 0.38800339834327974
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.7765240248456182,
+      "boundary_f1": 0.6555080984260551,
+      "cluster_ari": 0.8231588960656565,
+      "score": 0.5210653147413996
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6422687749028776,
+      "boundary_f1": 0.5194463953523297,
+      "cluster_ari": 0.7239407573357365,
+      "score": 0.34190681061981193
+     },
+     "One-off layout": {
+      "row_acc": 0.8439176125738191,
+      "boundary_f1": 0.8144780740019985,
+      "cluster_ari": 0.8269182472550852,
+      "score": 0.6927846129345846
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8429526720995216,
+      "boundary_f1": 0.898567331791016,
+      "cluster_ari": 0.8783236474078512,
+      "score": 0.7695885933392216
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 3,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.55,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.49826862793035015,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8846305845545208,
+     "boundary_f1": 0.5631292159528358,
+     "cluster_ari": 0.7911130628262433,
+     "score": 0.5029032141642642
+    },
+    "window_macro": {
+     "row_acc": 0.9036677560754569,
+     "boundary_f1": 0.5504037315005377,
+     "cluster_ari": 0.8377758544436226,
+     "score": 0.503907732249629
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8745555555555555,
+      "boundary_f1": 0.9310280893668305,
+      "cluster_ari": 0.6639989675908342,
+      "score": 0.8140879247654069
+     },
+     "4304150011": {
+      "row_acc": 0.9155904998014531,
+      "boundary_f1": 0.6931556661266808,
+      "cluster_ari": 0.8336455667529379,
+      "score": 0.6419898297948882
+     },
+     "barlow3-14": {
+      "row_acc": 0.8383530746954685,
+      "boundary_f1": 0.34306442267688037,
+      "cluster_ari": 0.6805747975651296,
+      "score": 0.2837566411244574
+     },
+     "flat-bay-2": {
+      "row_acc": 0.8125184501569452,
+      "boundary_f1": 0.3588235294117647,
+      "cluster_ari": 0.8242332036623703,
+      "score": 0.2960173885036287
+     },
+     "storm": {
+      "row_acc": 0.9821353425631815,
+      "boundary_f1": 0.48957437218202304,
+      "cluster_ari": 0.9531127785599445,
+      "score": 0.4786642866329397
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7207111424070805,
+     "boundary_f1": 0.6298708463397789,
+     "cluster_ari": 0.7644143738010843,
+     "score": 0.48436486922860805
+    },
+    "window_macro": {
+     "row_acc": 0.7207111424070803,
+     "boundary_f1": 0.6298708463397789,
+     "cluster_ari": 0.7644143738010841,
+     "score": 0.484364869228608
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.6158158253016301,
+      "boundary_f1": 0.3836580960988083,
+      "cluster_ari": 0.5259384066926084,
+      "score": 0.24325079125223512
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7161094999911054,
+      "boundary_f1": 0.48023221909470043,
+      "cluster_ari": 0.7567347206849827,
+      "score": 0.3854768259138135
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5540144054082089,
+      "boundary_f1": 0.6753418073154914,
+      "cluster_ari": 0.7746570637958835,
+      "score": 0.3812483013040697
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.7724881067958257,
+      "boundary_f1": 0.6285638178375536,
+      "cluster_ari": 0.8040426252657346,
+      "score": 0.508833688092806
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6594649268328417,
+      "boundary_f1": 0.5099285770068026,
+      "cluster_ari": 0.734463697926662,
+      "score": 0.3655200968548456
+     },
+     "One-off layout": {
+      "row_acc": 0.8508127537190163,
+      "boundary_f1": 0.8084950387539903,
+      "cluster_ari": 0.8401019131311326,
+      "score": 0.692326040941906
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.876272478800935,
+      "boundary_f1": 0.9228763682711052,
+      "cluster_ari": 0.9149621891105859,
+      "score": 0.8138983402405807
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 27,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35,
+    "model_mix": 0.75
+   },
+   "objective": 0.4977312517541934,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8213269224509236,
+     "boundary_f1": 0.5439479441188624,
+     "cluster_ari": 0.820659367794615,
+     "score": 0.46400438313323783
+    },
+    "window_macro": {
+     "row_acc": 0.8626715926267545,
+     "boundary_f1": 0.5297883458909283,
+     "cluster_ari": 0.8678651731408975,
+     "score": 0.4712687383600437
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8324444444444445,
+      "boundary_f1": 0.9087394353533537,
+      "cluster_ari": 0.6095692530687312,
+      "score": 0.7599013766508822
+     },
+     "4304150011": {
+      "row_acc": 0.9149007158418924,
+      "boundary_f1": 0.6838135725558087,
+      "cluster_ari": 0.8456085526877763,
+      "score": 0.6306715399874576
+     },
+     "barlow3-14": {
+      "row_acc": 0.6791015379523627,
+      "boundary_f1": 0.3393086955697644,
+      "cluster_ari": 0.783735929213074,
+      "score": 0.2546567022366335
+     },
+     "flat-bay-2": {
+      "row_acc": 0.699651201881318,
+      "boundary_f1": 0.359156162464986,
+      "cluster_ari": 0.9137975524297148,
+      "score": 0.2573598770954389
+     },
+     "storm": {
+      "row_acc": 0.9805367121346009,
+      "boundary_f1": 0.4287218546503994,
+      "cluster_ari": 0.9505855515737789,
+      "score": 0.41743241969577694
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7525627644612405,
+     "boundary_f1": 0.7682853741338764,
+     "cluster_ari": 0.8375408591299409,
+     "score": 0.5989118576170601
+    },
+    "window_macro": {
+     "row_acc": 0.7525627644612405,
+     "boundary_f1": 0.7682853741338763,
+     "cluster_ari": 0.8375408591299409,
+     "score": 0.5989118576170601
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5206905470928255,
+      "boundary_f1": 0.4291694605114538,
+      "cluster_ari": 0.599326775836821,
+      "score": 0.23902471831654792
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7677582974194466,
+      "boundary_f1": 0.6569134705164116,
+      "cluster_ari": 0.8567185906281051,
+      "score": 0.5158313572277323
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7205554219338207,
+      "boundary_f1": 0.8193556808688388,
+      "cluster_ari": 0.8719498816834664,
+      "score": 0.592275264760365
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8432788029023194,
+      "boundary_f1": 0.8381064591010411,
+      "cluster_ari": 0.9062904687182778,
+      "score": 0.7070276929610079
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6601624160330171,
+      "boundary_f1": 0.8233976671476673,
+      "cluster_ari": 0.8636032005528577,
+      "score": 0.5397420120545391
+     },
+     "One-off layout": {
+      "row_acc": 0.8543128176507003,
+      "boundary_f1": 0.8732399910031491,
+      "cluster_ari": 0.8450180539838191,
+      "score": 0.7475602479354385
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9011810481965538,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9198790425062393,
+      "score": 0.85092171006379
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 16,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.4975664799800263,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.87436270325571,
+     "boundary_f1": 0.530833222700751,
+     "cluster_ari": 0.802379164080997,
+     "score": 0.46736229693189424
+    },
+    "window_macro": {
+     "row_acc": 0.8924804923187133,
+     "boundary_f1": 0.5049557911847725,
+     "cluster_ari": 0.8435790529343137,
+     "score": 0.4543573144766504
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.847388888888889,
+      "boundary_f1": 0.9187875574407918,
+      "cluster_ari": 0.6395884139318813,
+      "score": 0.780140970503908
+     },
+     "4304150011": {
+      "row_acc": 0.8943218176159353,
+      "boundary_f1": 0.6306274493852134,
+      "cluster_ari": 0.8089198193908106,
+      "score": 0.5631241276150787
+     },
+     "barlow3-14": {
+      "row_acc": 0.8521854935133524,
+      "boundary_f1": 0.32384729745508195,
+      "cluster_ari": 0.7030464323745357,
+      "score": 0.2716293028192475
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7962672279807508,
+      "boundary_f1": 0.35570987654320985,
+      "cluster_ari": 0.9116687352172141,
+      "score": 0.30709087197671703
+     },
+     "storm": {
+      "row_acc": 0.9816500882796225,
+      "boundary_f1": 0.42519393267945793,
+      "cluster_ari": 0.9486724194905432,
+      "score": 0.4148262117445198
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7337214717202174,
+     "boundary_f1": 0.7572574266816424,
+     "cluster_ari": 0.7997300504829546,
+     "score": 0.5881790291244224
+    },
+    "window_macro": {
+     "row_acc": 0.7337214717202173,
+     "boundary_f1": 0.7572574266816426,
+     "cluster_ari": 0.7997300504829545,
+     "score": 0.5881790291244224
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5602733534315351,
+      "boundary_f1": 0.4484520272755568,
+      "cluster_ari": 0.5579960434140412,
+      "score": 0.2621135975940221
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7481472541370601,
+      "boundary_f1": 0.6318280618590214,
+      "cluster_ari": 0.8319059951617135,
+      "score": 0.5289669125334947
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5793593959695109,
+      "boundary_f1": 0.7888593010303535,
+      "cluster_ari": 0.7918914521669769,
+      "score": 0.4556033239331691
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8000004871198162,
+      "boundary_f1": 0.7821083178087821,
+      "cluster_ari": 0.851163213980609,
+      "score": 0.6563604854428963
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.698657685397137,
+      "boundary_f1": 0.8057056079754289,
+      "cluster_ari": 0.7691909150719348,
+      "score": 0.5955816571530358
+     },
+     "One-off layout": {
+      "row_acc": 0.8705131648836613,
+      "boundary_f1": 0.9004782254782255,
+      "cluster_ari": 0.8723388863760887,
+      "score": 0.7851342490841179
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8790989611028005,
+      "boundary_f1": 0.9433704453441295,
+      "cluster_ari": 0.9236238472093178,
+      "score": 0.8334929781302213
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 26,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 8,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35,
+    "model_mix": 0.75
+   },
+   "objective": 0.49582361051876833,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8232839394896901,
+     "boundary_f1": 0.5449628229687702,
+     "cluster_ari": 0.8225730907194935,
+     "score": 0.46567150359496196
+    },
+    "window_macro": {
+     "row_acc": 0.8645954021424567,
+     "boundary_f1": 0.5280001200148746,
+     "cluster_ari": 0.8692656474513699,
+     "score": 0.4703164743262659
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8339444444444445,
+      "boundary_f1": 0.9006720782054638,
+      "cluster_ari": 0.6150758106924604,
+      "score": 0.7539474557039365
+     },
+     "4304150011": {
+      "row_acc": 0.916446161606405,
+      "boundary_f1": 0.6686787294447751,
+      "cluster_ari": 0.846490185345346,
+      "score": 0.6172981226466652
+     },
+     "barlow3-14": {
+      "row_acc": 0.6791991594270484,
+      "boundary_f1": 0.3488213907139836,
+      "cluster_ari": 0.782986910549636,
+      "score": 0.261990979367004
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7057192113843954,
+      "boundary_f1": 0.37371615312791784,
+      "cluster_ari": 0.9149705170113656,
+      "score": 0.27338341397349036
+     },
+     "storm": {
+      "row_acc": 0.9811107205861569,
+      "boundary_f1": 0.43292576335171035,
+      "cluster_ari": 0.9533420299986592,
+      "score": 0.42173754628371396
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7558233000426162,
+     "boundary_f1": 0.7488168226573472,
+     "cluster_ari": 0.8356709146401224,
+     "score": 0.5862799312901873
+    },
+    "window_macro": {
+     "row_acc": 0.7558233000426162,
+     "boundary_f1": 0.748816822657347,
+     "cluster_ari": 0.8356709146401228,
+     "score": 0.5862799312901872
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.520296199526823,
+      "boundary_f1": 0.41932663278538135,
+      "cluster_ari": 0.5961131917425609,
+      "score": 0.23379854467395114
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7865716533406863,
+      "boundary_f1": 0.6295964956955667,
+      "cluster_ari": 0.8571484378620223,
+      "score": 0.5034000673312978
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.717270239480844,
+      "boundary_f1": 0.7874546205428558,
+      "cluster_ari": 0.8686824696875255,
+      "score": 0.5696555446966546
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8431595803343157,
+      "boundary_f1": 0.8208409395328901,
+      "cluster_ari": 0.904569009368652,
+      "score": 0.6927503312056073
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.668692866128591,
+      "boundary_f1": 0.7966028116763412,
+      "cluster_ari": 0.8585004151865082,
+      "score": 0.5265543538063507
+     },
+     "One-off layout": {
+      "row_acc": 0.8543128176507003,
+      "boundary_f1": 0.8683380302188354,
+      "cluster_ari": 0.8450180539838191,
+      "score": 0.7427059120303617
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9004597438363534,
+      "boundary_f1": 0.9195582281495595,
+      "cluster_ari": 0.9196648246497694,
+      "score": 0.8350947652870877
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 17,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.55,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.4927311184844,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8708684044189872,
+     "boundary_f1": 0.5241979169137557,
+     "cluster_ari": 0.7920388259115374,
+     "score": 0.45951077275538255
+    },
+    "window_macro": {
+     "row_acc": 0.8946825539841474,
+     "boundary_f1": 0.5106520932429485,
+     "cluster_ari": 0.8461857923498143,
+     "score": 0.4609771354477461
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8330555555555555,
+      "boundary_f1": 0.875011944577162,
+      "cluster_ari": 0.6000229378278081,
+      "score": 0.7326769867813346
+     },
+     "4304150011": {
+      "row_acc": 0.90548895113601,
+      "boundary_f1": 0.6498391187832182,
+      "cluster_ari": 0.8270490860191676,
+      "score": 0.5889372288807193
+     },
+     "barlow3-14": {
+      "row_acc": 0.8400631200993977,
+      "boundary_f1": 0.30442388309978424,
+      "cluster_ari": 0.6681310907544554,
+      "score": 0.2531535821048458
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7943736728309572,
+      "boundary_f1": 0.3680555555555555,
+      "cluster_ari": 0.9165677527939157,
+      "score": 0.3095855557454929
+     },
+     "storm": {
+      "row_acc": 0.9813607224730153,
+      "boundary_f1": 0.4236590825530585,
+      "cluster_ari": 0.9484232621623396,
+      "score": 0.41320051026452015
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7312688368519265,
+     "boundary_f1": 0.7696887021925161,
+     "cluster_ari": 0.8002958048290773,
+     "score": 0.5923921556714525
+    },
+    "window_macro": {
+     "row_acc": 0.7312688368519265,
+     "boundary_f1": 0.7696887021925162,
+     "cluster_ari": 0.8002958048290774,
+     "score": 0.5923921556714525
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5762433200379086,
+      "boundary_f1": 0.4833231457453538,
+      "cluster_ari": 0.5786669397126971,
+      "score": 0.28616187373342744
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7384901360815045,
+      "boundary_f1": 0.6408468758623557,
+      "cluster_ari": 0.8341922468920386,
+      "score": 0.5286015767061814
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5894933040582014,
+      "boundary_f1": 0.8372235421384029,
+      "cluster_ari": 0.8031842415964636,
+      "score": 0.4962244053696201
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.800922796147594,
+      "boundary_f1": 0.7870102785930958,
+      "cluster_ari": 0.8531639131693508,
+      "score": 0.6618688085638114
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6818147995889438,
+      "boundary_f1": 0.8181014247190718,
+      "cluster_ari": 0.7639875305769516,
+      "score": 0.5882103999488437
+     },
+     "One-off layout": {
+      "row_acc": 0.8530898083076432,
+      "boundary_f1": 0.8779452029452028,
+      "cluster_ari": 0.8458456745112425,
+      "score": 0.7524563146091734
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8788276937416893,
+      "boundary_f1": 0.9433704453441295,
+      "cluster_ari": 0.9230300873447969,
+      "score": 0.8332217107691101
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 5,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.7,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.49255689803562724,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8750367394625471,
+     "boundary_f1": 0.553102453511537,
+     "cluster_ari": 0.7699131655797056,
+     "score": 0.49071288644451655
+    },
+    "window_macro": {
+     "row_acc": 0.8981470186876664,
+     "boundary_f1": 0.548341797565423,
+     "cluster_ari": 0.8262628338275033,
+     "score": 0.500343994630323
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8640555555555556,
+      "boundary_f1": 0.903125,
+      "cluster_ari": 0.6380815528558885,
+      "score": 0.7802972222222222
+     },
+     "4304150011": {
+      "row_acc": 0.914604505403694,
+      "boundary_f1": 0.6994033001365498,
+      "cluster_ari": 0.8325766845670886,
+      "score": 0.645609434266482
+     },
+     "barlow3-14": {
+      "row_acc": 0.8084683769843188,
+      "boundary_f1": 0.3159692979798104,
+      "cluster_ari": 0.6133029254967527,
+      "score": 0.25287266960193416
+     },
+     "flat-bay-2": {
+      "row_acc": 0.8062091013056966,
+      "boundary_f1": 0.3588235294117647,
+      "cluster_ari": 0.8133867885307124,
+      "score": 0.29757280880524495
+     },
+     "storm": {
+      "row_acc": 0.9818461580634706,
+      "boundary_f1": 0.4881911400295601,
+      "cluster_ari": 0.9522178764480855,
+      "score": 0.47721229732669934
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7273572580980516,
+     "boundary_f1": 0.6447043589093637,
+     "cluster_ari": 0.7704965584515936,
+     "score": 0.49808893280895933
+    },
+    "window_macro": {
+     "row_acc": 0.7273572580980515,
+     "boundary_f1": 0.6447043589093637,
+     "cluster_ari": 0.7704965584515934,
+     "score": 0.49808893280895916
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.622576555527765,
+      "boundary_f1": 0.39269581556957606,
+      "cluster_ari": 0.5453443729327881,
+      "score": 0.2499047681441444
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7272298654362488,
+      "boundary_f1": 0.48107250101483734,
+      "cluster_ari": 0.7619237755148851,
+      "score": 0.39006662318535557
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5814745540150309,
+      "boundary_f1": 0.7122321085011217,
+      "cluster_ari": 0.7831864828229081,
+      "score": 0.42206561214432775
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.7697805564223157,
+      "boundary_f1": 0.6478902408984969,
+      "cluster_ari": 0.8030743915888922,
+      "score": 0.523049184562003
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6635853636070577,
+      "boundary_f1": 0.547668439356419,
+      "cluster_ari": 0.7455361867416678,
+      "score": 0.39549187665484786
+     },
+     "One-off layout": {
+      "row_acc": 0.8505814328770084,
+      "boundary_f1": 0.8084950387539903,
+      "cluster_ari": 0.8394485104494275,
+      "score": 0.6921461247314555
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.876272478800935,
+      "boundary_f1": 0.9228763682711052,
+      "cluster_ari": 0.9149621891105859,
+      "score": 0.8138983402405807
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 18,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 8,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.49243404780609623,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8003918857755126,
+     "boundary_f1": 0.5473164745883415,
+     "cluster_ari": 0.785145101609414,
+     "score": 0.45792133636532134
+    },
+    "window_macro": {
+     "row_acc": 0.8447132731675562,
+     "boundary_f1": 0.5355898683015695,
+     "cluster_ari": 0.8388227242325575,
+     "score": 0.46721357495937865
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.825388888888889,
+      "boundary_f1": 0.9162299239222316,
+      "cluster_ari": 0.6160291413431591,
+      "score": 0.7591636329482483
+     },
+     "4304150011": {
+      "row_acc": 0.8954564323813817,
+      "boundary_f1": 0.7011935540068532,
+      "cluster_ari": 0.8520872841706371,
+      "score": 0.6316593564809801
+     },
+     "barlow3-14": {
+      "row_acc": 0.6017729686968497,
+      "boundary_f1": 0.3300028254174134,
+      "cluster_ari": 0.7377717808204188,
+      "score": 0.22157710097457747
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7042646360645691,
+      "boundary_f1": 0.37037176396263316,
+      "cluster_ari": 0.7826119803997216,
+      "score": 0.2721074308531615
+     },
+     "storm": {
+      "row_acc": 0.9750765028458737,
+      "boundary_f1": 0.418784305632576,
+      "cluster_ari": 0.9372253213131333,
+      "score": 0.40509916056963924
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7576363304423607,
+     "boundary_f1": 0.7625199473028811,
+     "cluster_ari": 0.8355762841212089,
+     "score": 0.5959721821284208
+    },
+    "window_macro": {
+     "row_acc": 0.7576363304423607,
+     "boundary_f1": 0.7625199473028811,
+     "cluster_ari": 0.8355762841212089,
+     "score": 0.5959721821284207
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5265221569326072,
+      "boundary_f1": 0.43261949515856735,
+      "cluster_ari": 0.5931703067623361,
+      "score": 0.24431309115183367
+     },
+     "Geoservices grid": {
+      "row_acc": 0.8259830546269765,
+      "boundary_f1": 0.67696086199322,
+      "cluster_ari": 0.8784499835813948,
+      "score": 0.5647768744571703
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7146009611996308,
+      "boundary_f1": 0.7872951057893512,
+      "cluster_ari": 0.8762363430667133,
+      "score": 0.5628909204341953
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.83007175321739,
+      "boundary_f1": 0.8201847852583147,
+      "cluster_ari": 0.8955294929420033,
+      "score": 0.6846357327927014
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6620181543977497,
+      "boundary_f1": 0.8315776815776816,
+      "cluster_ari": 0.8624919854155374,
+      "score": 0.5466292162180684
+     },
+     "One-off layout": {
+      "row_acc": 0.8211229536179135,
+      "boundary_f1": 0.8713665501165502,
+      "cluster_ari": 0.8187792424715569,
+      "score": 0.7175379956717438
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9231352791042573,
+      "boundary_f1": 0.9176351512264825,
+      "cluster_ari": 0.9243766346089207,
+      "score": 0.851021444173233
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 7,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4900060708706716,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7987569040204967,
+     "boundary_f1": 0.5394563723563859,
+     "cluster_ari": 0.7816569010382249,
+     "score": 0.4499493354082039
+    },
+    "window_macro": {
+     "row_acc": 0.8431664304067773,
+     "boundary_f1": 0.5270663274716005,
+     "cluster_ari": 0.8367006765743338,
+     "score": 0.45865413908575003
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8227222222222221,
+      "boundary_f1": 0.9187875574407918,
+      "cluster_ari": 0.6045911415554401,
+      "score": 0.757787842190016
+     },
+     "4304150011": {
+      "row_acc": 0.8935748521630875,
+      "boundary_f1": 0.6934288164101828,
+      "cluster_ari": 0.8497382987467906,
+      "score": 0.6224283826251918
+     },
+     "barlow3-14": {
+      "row_acc": 0.6019255330266977,
+      "boundary_f1": 0.31902211635381283,
+      "cluster_ari": 0.7373157556096949,
+      "score": 0.2127269110692556
+     },
+     "flat-bay-2": {
+      "row_acc": 0.700721613065003,
+      "boundary_f1": 0.34797352176738144,
+      "cluster_ari": 0.7805394014475563,
+      "score": 0.252504531896644
+     },
+     "storm": {
+      "row_acc": 0.974840299625473,
+      "boundary_f1": 0.41806984980976103,
+      "cluster_ari": 0.9360999078316427,
+      "score": 0.4042990092599123
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7565765167868014,
+     "boundary_f1": 0.7826132208885879,
+     "cluster_ari": 0.8346779574386858,
+     "score": 0.6101762772580747
+    },
+    "window_macro": {
+     "row_acc": 0.7565765167868013,
+     "boundary_f1": 0.7826132208885879,
+     "cluster_ari": 0.8346779574386858,
+     "score": 0.6101762772580748
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5247042046538203,
+      "boundary_f1": 0.44171473978162773,
+      "cluster_ari": 0.5983085602704529,
+      "score": 0.2484841107843403
+     },
+     "Geoservices grid": {
+      "row_acc": 0.815501557498172,
+      "boundary_f1": 0.7023793521007143,
+      "cluster_ari": 0.8778119257892794,
+      "score": 0.5775430113585432
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7283192643826384,
+      "boundary_f1": 0.8323958570669098,
+      "cluster_ari": 0.8652340753755826,
+      "score": 0.6049375631802038
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8291059063409493,
+      "boundary_f1": 0.8257687967633789,
+      "cluster_ari": 0.8947007050931436,
+      "score": 0.688000733675925
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6525653952743979,
+      "boundary_f1": 0.8668523606023606,
+      "cluster_ari": 0.863169929186133,
+      "score": 0.5648574560715134
+     },
+     "One-off layout": {
+      "row_acc": 0.8211229536179135,
+      "boundary_f1": 0.8713665501165502,
+      "cluster_ari": 0.8187792424715569,
+      "score": 0.7175379956717438
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9247163357397176,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9247412638846516,
+      "score": 0.8698730700642541
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 13,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "strong",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4900060708706716,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7987569040204967,
+     "boundary_f1": 0.5394563723563859,
+     "cluster_ari": 0.7816569010382249,
+     "score": 0.4499493354082039
+    },
+    "window_macro": {
+     "row_acc": 0.8431664304067773,
+     "boundary_f1": 0.5270663274716005,
+     "cluster_ari": 0.8367006765743338,
+     "score": 0.45865413908575003
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8227222222222221,
+      "boundary_f1": 0.9187875574407918,
+      "cluster_ari": 0.6045911415554401,
+      "score": 0.757787842190016
+     },
+     "4304150011": {
+      "row_acc": 0.8935748521630875,
+      "boundary_f1": 0.6934288164101828,
+      "cluster_ari": 0.8497382987467906,
+      "score": 0.6224283826251918
+     },
+     "barlow3-14": {
+      "row_acc": 0.6019255330266977,
+      "boundary_f1": 0.31902211635381283,
+      "cluster_ari": 0.7373157556096949,
+      "score": 0.2127269110692556
+     },
+     "flat-bay-2": {
+      "row_acc": 0.700721613065003,
+      "boundary_f1": 0.34797352176738144,
+      "cluster_ari": 0.7805394014475563,
+      "score": 0.252504531896644
+     },
+     "storm": {
+      "row_acc": 0.974840299625473,
+      "boundary_f1": 0.41806984980976103,
+      "cluster_ari": 0.9360999078316427,
+      "score": 0.4042990092599123
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7565765167868014,
+     "boundary_f1": 0.7826132208885879,
+     "cluster_ari": 0.8346779574386858,
+     "score": 0.6101762772580747
+    },
+    "window_macro": {
+     "row_acc": 0.7565765167868013,
+     "boundary_f1": 0.7826132208885879,
+     "cluster_ari": 0.8346779574386858,
+     "score": 0.6101762772580748
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5247042046538203,
+      "boundary_f1": 0.44171473978162773,
+      "cluster_ari": 0.5983085602704529,
+      "score": 0.2484841107843403
+     },
+     "Geoservices grid": {
+      "row_acc": 0.815501557498172,
+      "boundary_f1": 0.7023793521007143,
+      "cluster_ari": 0.8778119257892794,
+      "score": 0.5775430113585432
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7283192643826384,
+      "boundary_f1": 0.8323958570669098,
+      "cluster_ari": 0.8652340753755826,
+      "score": 0.6049375631802038
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8291059063409493,
+      "boundary_f1": 0.8257687967633789,
+      "cluster_ari": 0.8947007050931436,
+      "score": 0.688000733675925
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6525653952743979,
+      "boundary_f1": 0.8668523606023606,
+      "cluster_ari": 0.863169929186133,
+      "score": 0.5648574560715134
+     },
+     "One-off layout": {
+      "row_acc": 0.8211229536179135,
+      "boundary_f1": 0.8713665501165502,
+      "cluster_ari": 0.8187792424715569,
+      "score": 0.7175379956717438
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9247163357397176,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9247412638846516,
+      "score": 0.8698730700642541
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 20,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.05,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4893599208011617,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7976619736619378,
+     "boundary_f1": 0.5423305763630926,
+     "cluster_ari": 0.815418723497902,
+     "score": 0.4513583605968458
+    },
+    "window_macro": {
+     "row_acc": 0.8453283904990845,
+     "boundary_f1": 0.5406452515522641,
+     "cluster_ari": 0.8735644131083787,
+     "score": 0.47072766710885233
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8209444444444445,
+      "boundary_f1": 0.8888670338316287,
+      "cluster_ari": 0.5857626083909798,
+      "score": 0.7344614695340501
+     },
+     "4304150011": {
+      "row_acc": 0.9050781201369438,
+      "boundary_f1": 0.7170830440853324,
+      "cluster_ari": 0.8647910367866974,
+      "score": 0.6499298004436727
+     },
+     "barlow3-14": {
+      "row_acc": 0.6058675404202408,
+      "boundary_f1": 0.3051221090169201,
+      "cluster_ari": 0.738594834170185,
+      "score": 0.20590256323680775
+     },
+     "flat-bay-2": {
+      "row_acc": 0.6763609154594055,
+      "boundary_f1": 0.37546296296296294,
+      "cluster_ari": 0.9388019304094564,
+      "score": 0.25255667806517157
+     },
+     "storm": {
+      "row_acc": 0.9800588478486543,
+      "boundary_f1": 0.42511773191861874,
+      "cluster_ari": 0.9491432077321917,
+      "score": 0.41394129170452704
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7505313953687034,
+     "boundary_f1": 0.7909491805075846,
+     "cluster_ari": 0.8362739262642883,
+     "score": 0.6033646014141094
+    },
+    "window_macro": {
+     "row_acc": 0.7505313953687034,
+     "boundary_f1": 0.7909491805075847,
+     "cluster_ari": 0.8362739262642882,
+     "score": 0.6033646014141093
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5866313709416007,
+      "boundary_f1": 0.5594016958925682,
+      "cluster_ari": 0.6764378045793037,
+      "score": 0.34144516345847453
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7700236671521128,
+      "boundary_f1": 0.7001666204452582,
+      "cluster_ari": 0.8788265868678805,
+      "score": 0.5428898973770834
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7314961207607192,
+      "boundary_f1": 0.8776068960279485,
+      "cluster_ari": 0.8738968941106453,
+      "score": 0.6390564535529246
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8223566996601573,
+      "boundary_f1": 0.7921022196757491,
+      "cluster_ari": 0.8894567081126232,
+      "score": 0.6554112905069137
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6432796582355823,
+      "boundary_f1": 0.8493994431494433,
+      "cluster_ari": 0.8542735928007876,
+      "score": 0.5378733650944111
+     },
+     "One-off layout": {
+      "row_acc": 0.77554556583943,
+      "boundary_f1": 0.8386522736522736,
+      "cluster_ari": 0.7568876161208983,
+      "score": 0.6531194931741545
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9243866849913213,
+      "boundary_f1": 0.9193151147098516,
+      "cluster_ari": 0.9241382812578793,
+      "score": 0.8537565467348035
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 9,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.55,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.486579826498766,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.794292930756946,
+     "boundary_f1": 0.5327315605862069,
+     "cluster_ari": 0.7680600302867953,
+     "score": 0.44160681087556364
+    },
+    "window_macro": {
+     "row_acc": 0.840838813548119,
+     "boundary_f1": 0.5233365091222824,
+     "cluster_ari": 0.8304457635364577,
+     "score": 0.45400006158240613
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8120555555555555,
+      "boundary_f1": 0.899021268586486,
+      "cluster_ari": 0.5782712788862291,
+      "score": 0.7320437083045779
+     },
+     "4304150011": {
+      "row_acc": 0.8930893246187366,
+      "boundary_f1": 0.6863169266895974,
+      "cluster_ari": 0.847539675276537,
+      "score": 0.6162104337337562
+     },
+     "barlow3-14": {
+      "row_acc": 0.5970963783066375,
+      "boundary_f1": 0.29727175155836033,
+      "cluster_ari": 0.6919860064090604,
+      "score": 0.1998462506745178
+     },
+     "flat-bay-2": {
+      "row_acc": 0.6946724614849347,
+      "boundary_f1": 0.3644471677559913,
+      "cluster_ari": 0.7866498294706787,
+      "score": 0.2571796225017483
+     },
+     "storm": {
+      "row_acc": 0.9745509338188658,
+      "boundary_f1": 0.4166006883405996,
+      "cluster_ari": 0.9358533613914715,
+      "score": 0.40275403916321817
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7614068162771155,
+     "boundary_f1": 0.7978258788315001,
+     "cluster_ari": 0.8390381474599804,
+     "score": 0.6214988733683733
+    },
+    "window_macro": {
+     "row_acc": 0.7614068162771155,
+     "boundary_f1": 0.7978258788315001,
+     "cluster_ari": 0.8390381474599804,
+     "score": 0.6214988733683734
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5619541556383552,
+      "boundary_f1": 0.47677587636553476,
+      "cluster_ari": 0.6297204656699237,
+      "score": 0.2831379174992224
+     },
+     "Geoservices grid": {
+      "row_acc": 0.8034572866648387,
+      "boundary_f1": 0.7043237965451588,
+      "cluster_ari": 0.8723401645170475,
+      "score": 0.5690762038456075
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7370292656012633,
+      "boundary_f1": 0.8726651895576044,
+      "cluster_ari": 0.8622283895923365,
+      "score": 0.6430300752325484
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8290664593153213,
+      "boundary_f1": 0.8361867012989305,
+      "cluster_ari": 0.8981991829802323,
+      "score": 0.6960285165547645
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6493810861017879,
+      "boundary_f1": 0.8931649369149369,
+      "cluster_ari": 0.865677603158642,
+      "score": 0.5762270109721733
+     },
+     "One-off layout": {
+      "row_acc": 0.8245143922396355,
+      "boundary_f1": 0.8638497613497614,
+      "cluster_ari": 0.8209537222815496,
+      "score": 0.7133905867711544
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9244450683786066,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9241475040201309,
+      "score": 0.8696018027031429
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 4,
+   "config": {
+    "mode": "cnn",
+    "threshold": 0.7,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.0
+   },
+   "objective": 0.482927747191194,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8753106907341145,
+     "boundary_f1": 0.5423756612729373,
+     "cluster_ari": 0.7683816381080641,
+     "score": 0.4818050547381034
+    },
+    "window_macro": {
+     "row_acc": 0.8975314725194887,
+     "boundary_f1": 0.5318380743394873,
+     "cluster_ari": 0.82358936064701,
+     "score": 0.48506590702623054
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8662222222222222,
+      "boundary_f1": 0.9065411490683231,
+      "cluster_ari": 0.6445196279278065,
+      "score": 0.7852716528640442
+     },
+     "4304150011": {
+      "row_acc": 0.912412548161027,
+      "boundary_f1": 0.6648145650029162,
+      "cluster_ari": 0.8282754459083227,
+      "score": 0.6110430925398965
+     },
+     "barlow3-14": {
+      "row_acc": 0.8094716845292772,
+      "boundary_f1": 0.30434838927107205,
+      "cluster_ari": 0.6042276720018395,
+      "score": 0.24391292330355496
+     },
+     "flat-bay-2": {
+      "row_acc": 0.8064109870905862,
+      "boundary_f1": 0.3367003367003367,
+      "cluster_ari": 0.8121607600186226,
+      "score": 0.28048334883219117
+     },
+     "storm": {
+      "row_acc": 0.9820360116674594,
+      "boundary_f1": 0.49947386632203866,
+      "cluster_ari": 0.9527246846837294,
+      "score": 0.48831425615083024
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7147241294575891,
+     "boundary_f1": 0.6527224655336709,
+     "cluster_ari": 0.7625167040545495,
+     "score": 0.4862958245504657
+    },
+    "window_macro": {
+     "row_acc": 0.714724129457589,
+     "boundary_f1": 0.6527224655336707,
+     "cluster_ari": 0.7625167040545494,
+     "score": 0.48629582455046566
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.6134720775471457,
+      "boundary_f1": 0.3805111578533558,
+      "cluster_ari": 0.5551248628761595,
+      "score": 0.24025467216939878
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7251753564384336,
+      "boundary_f1": 0.5341310223332216,
+      "cluster_ari": 0.7631323255859069,
+      "score": 0.3923893767635427
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.5903751620879093,
+      "boundary_f1": 0.7099904618944867,
+      "cluster_ari": 0.7835241644409816,
+      "score": 0.42739619750769337
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.7738164744721082,
+      "boundary_f1": 0.6760791338577716,
+      "cluster_ari": 0.8254098942926354,
+      "score": 0.534065486587045
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6294029917130393,
+      "boundary_f1": 0.5557968569123904,
+      "cluster_ari": 0.7333191839008206,
+      "score": 0.36002331025981094
+     },
+     "One-off layout": {
+      "row_acc": 0.8318889287894101,
+      "boundary_f1": 0.8084867885989482,
+      "cluster_ari": 0.8046845905594845,
+      "score": 0.6788471542283788
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.8389379151550771,
+      "boundary_f1": 0.9040618372855215,
+      "cluster_ari": 0.8724219067258582,
+      "score": 0.7710945743373901
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 12,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "none",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.47490006043941346,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7987569040204967,
+     "boundary_f1": 0.5116472609737464,
+     "cluster_ari": 0.7816569010382249,
+     "score": 0.42239926193122096
+    },
+    "window_macro": {
+     "row_acc": 0.8431664304067773,
+     "boundary_f1": 0.50406160832362,
+     "cluster_ari": 0.8367006765743338,
+     "score": 0.4355096229578366
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8227222222222221,
+      "boundary_f1": 0.9041394335511983,
+      "cluster_ari": 0.6045911415554401,
+      "score": 0.7458805374001451
+     },
+     "4304150011": {
+      "row_acc": 0.8935748521630875,
+      "boundary_f1": 0.6911702054559198,
+      "cluster_ari": 0.8497382987467906,
+      "score": 0.6202353156750915
+     },
+     "barlow3-14": {
+      "row_acc": 0.6019255330266977,
+      "boundary_f1": 0.3181101830552198,
+      "cluster_ari": 0.7373157556096949,
+      "score": 0.21194402646500574
+     },
+     "flat-bay-2": {
+      "row_acc": 0.700721613065003,
+      "boundary_f1": 0.22674663299663297,
+      "cluster_ari": 0.7805394014475563,
+      "score": 0.12963742085595018
+     },
+     "storm": {
+      "row_acc": 0.974840299625473,
+      "boundary_f1": 0.41806984980976103,
+      "cluster_ari": 0.9360999078316427,
+      "score": 0.4042990092599123
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7565765167868014,
+     "boundary_f1": 0.8081267921432671,
+     "cluster_ari": 0.8346779574386858,
+     "score": 0.6324024559639908
+    },
+    "window_macro": {
+     "row_acc": 0.7565765167868013,
+     "boundary_f1": 0.8081267921432672,
+     "cluster_ari": 0.8346779574386858,
+     "score": 0.6324024559639907
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5247042046538203,
+      "boundary_f1": 0.43520530395530393,
+      "cluster_ari": 0.5983085602704529,
+      "score": 0.24620449617965448
+     },
+     "Geoservices grid": {
+      "row_acc": 0.815501557498172,
+      "boundary_f1": 0.7945223893753304,
+      "cluster_ari": 0.8778119257892794,
+      "score": 0.6508150875043263
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7283192643826384,
+      "boundary_f1": 0.839538714209767,
+      "cluster_ari": 0.8652340753755826,
+      "score": 0.6093134932397276
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8291059063409493,
+      "boundary_f1": 0.906726225843873,
+      "cluster_ari": 0.8947007050931436,
+      "score": 0.7660761977620862
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6525653952743979,
+      "boundary_f1": 0.8717134717134717,
+      "cluster_ari": 0.863169929186133,
+      "score": 0.566996851326143
+     },
+     "One-off layout": {
+      "row_acc": 0.8211229536179135,
+      "boundary_f1": 0.8713665501165502,
+      "cluster_ari": 0.8187792424715569,
+      "score": 0.7175379956717438
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9247163357397176,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9247412638846516,
+      "score": 0.8698730700642541
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 14,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4714894048313752,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.8070591155672847,
+     "boundary_f1": 0.5552718028577812,
+     "cluster_ari": 0.7899564045264453,
+     "score": 0.4676440158553189
+    },
+    "window_macro": {
+     "row_acc": 0.8509067434808496,
+     "boundary_f1": 0.5474815013350213,
+     "cluster_ari": 0.8412790689823583,
+     "score": 0.4826274347225266
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8248888888888889,
+      "boundary_f1": 0.9073756432246998,
+      "cluster_ari": 0.5933843280233158,
+      "score": 0.7484078521059654
+     },
+     "4304150011": {
+      "row_acc": 0.9035867649741889,
+      "boundary_f1": 0.7146062564074986,
+      "cluster_ari": 0.8589708775227194,
+      "score": 0.6509985328581845
+     },
+     "barlow3-14": {
+      "row_acc": 0.625229984707524,
+      "boundary_f1": 0.37571907082206474,
+      "cluster_ari": 0.8222093378688435,
+      "score": 0.25924928979564515
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7102262608533132,
+      "boundary_f1": 0.3191987744258833,
+      "cluster_ari": 0.7577519557405132,
+      "score": 0.23590468021930341
+     },
+     "storm": {
+      "row_acc": 0.9713636784125088,
+      "boundary_f1": 0.4594592694087594,
+      "cluster_ari": 0.917465523476835,
+      "score": 0.4436597242974959
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7303965475341924,
+     "boundary_f1": 0.623257479263873,
+     "cluster_ari": 0.7837982597796381,
+     "score": 0.483025571759544
+    },
+    "window_macro": {
+     "row_acc": 0.7303965475341924,
+     "boundary_f1": 0.623257479263873,
+     "cluster_ari": 0.7837982597796382,
+     "score": 0.483025571759544
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5735924065803126,
+      "boundary_f1": 0.3306982392054146,
+      "cluster_ari": 0.5047370066685805,
+      "score": 0.1976856558255067
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7033336465416231,
+      "boundary_f1": 0.4923968611548535,
+      "cluster_ari": 0.7688126894708561,
+      "score": 0.34831183527890963
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.675698254185373,
+      "boundary_f1": 0.6191942518807677,
+      "cluster_ari": 0.8092661073356253,
+      "score": 0.42373079429926924
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8229788510209727,
+      "boundary_f1": 0.6657441470144309,
+      "cluster_ari": 0.8908309431712823,
+      "score": 0.5733425397027184
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.5926571959750003,
+      "boundary_f1": 0.5327667162907437,
+      "cluster_ari": 0.7670820825027294,
+      "score": 0.32105264444954434
+     },
+     "One-off layout": {
+      "row_acc": 0.8228577638882073,
+      "boundary_f1": 0.7991257710297958,
+      "cluster_ari": 0.8316818396417824,
+      "score": 0.6644769861685296
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9216577145478579,
+      "boundary_f1": 0.9228763682711052,
+      "cluster_ari": 0.9141771496666117,
+      "score": 0.8525785465923302
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 6,
+   "config": {
+    "mode": "cnn",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.47133372525889167,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7980135685421024,
+     "boundary_f1": 0.5163809917519362,
+     "cluster_ari": 0.7815109270107737,
+     "score": 0.42429929502856734
+    },
+    "window_macro": {
+     "row_acc": 0.8399112458249243,
+     "boundary_f1": 0.5056028811952032,
+     "cluster_ari": 0.8350399606382671,
+     "score": 0.4335078800048084
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8217222222222222,
+      "boundary_f1": 0.912689996465182,
+      "cluster_ari": 0.6058506473700513,
+      "score": 0.7512776795883901
+     },
+     "4304150011": {
+      "row_acc": 0.8813387853225582,
+      "boundary_f1": 0.6829029591634633,
+      "cluster_ari": 0.8428749130466245,
+      "score": 0.6062849940134502
+     },
+     "barlow3-14": {
+      "row_acc": 0.6000103513757761,
+      "boundary_f1": 0.31400874532655393,
+      "cluster_ari": 0.7339796952883101,
+      "score": 0.21024935493592323
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7117754491677724,
+      "boundary_f1": 0.251147504456328,
+      "cluster_ari": 0.7879891448582325,
+      "score": 0.14625807217387388
+     },
+     "storm": {
+      "row_acc": 0.9752210346221826,
+      "boundary_f1": 0.4211557533481533,
+      "cluster_ari": 0.9368602344906501,
+      "score": 0.4074263744311992
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7498466017842373,
+     "boundary_f1": 0.788511259714147,
+     "cluster_ari": 0.8289245130977688,
+     "score": 0.6124370159498647
+    },
+    "window_macro": {
+     "row_acc": 0.7498466017842373,
+     "boundary_f1": 0.788511259714147,
+     "cluster_ari": 0.8289245130977686,
+     "score": 0.6124370159498648
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5319625595833359,
+      "boundary_f1": 0.4220647106516671,
+      "cluster_ari": 0.5968604347872213,
+      "score": 0.24209028820050252
+     },
+     "Geoservices grid": {
+      "row_acc": 0.8196443775240633,
+      "boundary_f1": 0.7802113164613164,
+      "cluster_ari": 0.8765253190639882,
+      "score": 0.646262562739677
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7183918567506621,
+      "boundary_f1": 0.8272715509128553,
+      "cluster_ari": 0.8823840325661946,
+      "score": 0.5904700168326548
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8306395123468322,
+      "boundary_f1": 0.912739221562751,
+      "cluster_ari": 0.8967730885603719,
+      "score": 0.7717336947716388
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.642348030942918,
+      "boundary_f1": 0.8243631490342017,
+      "cluster_ari": 0.8435293859917435,
+      "score": 0.5266422541426053
+     },
+     "One-off layout": {
+      "row_acc": 0.7912778487586026,
+      "boundary_f1": 0.8443625818625818,
+      "cluster_ari": 0.7895264819806687,
+      "score": 0.6692514743354061
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9146620265832475,
+      "boundary_f1": 0.908566287513656,
+      "cluster_ari": 0.9168728487341941,
+      "score": 0.8406088206265688
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 15,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.55,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.0,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4708115966206429,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7998927504923157,
+     "boundary_f1": 0.5513465579374466,
+     "cluster_ari": 0.7780768297130252,
+     "score": 0.4634507686521368
+    },
+    "window_macro": {
+     "row_acc": 0.8450641285046006,
+     "boundary_f1": 0.5453314110044467,
+     "cluster_ari": 0.835487163730677,
+     "score": 0.47979061063375905
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8248888888888889,
+      "boundary_f1": 0.9073756432246998,
+      "cluster_ari": 0.5933843280233158,
+      "score": 0.7484078521059654
+     },
+     "4304150011": {
+      "row_acc": 0.9029891926119107,
+      "boundary_f1": 0.7100671308157415,
+      "cluster_ari": 0.8536095055967888,
+      "score": 0.6486690146961438
+     },
+     "barlow3-14": {
+      "row_acc": 0.613576198953425,
+      "boundary_f1": 0.3334378121138422,
+      "cluster_ari": 0.7204511543340016,
+      "score": 0.23290461998062162
+     },
+     "flat-bay-2": {
+      "row_acc": 0.687465149677359,
+      "boundary_f1": 0.34774114774114767,
+      "cluster_ari": 0.8059097343154837,
+      "score": 0.24537805615159003
+     },
+     "storm": {
+      "row_acc": 0.9705443223299949,
+      "boundary_f1": 0.4581110557918019,
+      "cluster_ari": 0.9170294262955357,
+      "score": 0.44189430032636284
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7341576060532239,
+     "boundary_f1": 0.6368369914304916,
+     "cluster_ari": 0.7920435434565565,
+     "score": 0.4928940805261612
+    },
+    "window_macro": {
+     "row_acc": 0.7341576060532239,
+     "boundary_f1": 0.6368369914304914,
+     "cluster_ari": 0.7920435434565564,
+     "score": 0.4928940805261611
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5960146958458543,
+      "boundary_f1": 0.3595257914142372,
+      "cluster_ari": 0.5219746249390559,
+      "score": 0.21966362358882321
+     },
+     "Geoservices grid": {
+      "row_acc": 0.6934546304646428,
+      "boundary_f1": 0.4982298633646673,
+      "cluster_ari": 0.7684630814888328,
+      "score": 0.3499956452390997
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.6889973432717706,
+      "boundary_f1": 0.6454788368610047,
+      "cluster_ari": 0.8363592599200631,
+      "score": 0.45094028289004545
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8157840752026232,
+      "boundary_f1": 0.6658258463608362,
+      "cluster_ari": 0.8943690756036379,
+      "score": 0.564962367229381
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.5987001143897062,
+      "boundary_f1": 0.5568758277911595,
+      "cluster_ari": 0.7752733546218509,
+      "score": 0.3366398364647148
+     },
+     "One-off layout": {
+      "row_acc": 0.8244946686501121,
+      "boundary_f1": 0.8090464059504309,
+      "cluster_ari": 0.8336882579558429,
+      "score": 0.6754782616787337
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9216577145478579,
+      "boundary_f1": 0.9228763682711052,
+      "cluster_ari": 0.9141771496666117,
+      "score": 0.8525785465923302
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 11,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.7,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.46963837354411087,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.781256501735064,
+     "boundary_f1": 0.5110666259488058,
+     "cluster_ari": 0.7463322756879336,
+     "score": 0.4165426251528313
+    },
+    "window_macro": {
+     "row_acc": 0.8335476156901448,
+     "boundary_f1": 0.5145917794260487,
+     "cluster_ari": 0.8225713509333931,
+     "score": 0.44296854277425013
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.7901666666666667,
+      "boundary_f1": 0.8288057952487482,
+      "cluster_ari": 0.5216505325171417,
+      "score": 0.655215723873442
+     },
+     "4304150011": {
+      "row_acc": 0.8905869903516963,
+      "boundary_f1": 0.680201946661574,
+      "cluster_ari": 0.8431147425885344,
+      "score": 0.6091644553049985
+     },
+     "barlow3-14": {
+      "row_acc": 0.5672716972710868,
+      "boundary_f1": 0.26104044236399043,
+      "cluster_ari": 0.6136343204283855,
+      "score": 0.16356341332239588
+     },
+     "flat-bay-2": {
+      "row_acc": 0.6831762302910976,
+      "boundary_f1": 0.36815466623807996,
+      "cluster_ari": 0.8179452155334159,
+      "score": 0.25121843500565816
+     },
+     "storm": {
+      "row_acc": 0.9750809240947725,
+      "boundary_f1": 0.41713027923163626,
+      "cluster_ari": 0.9353165673721906,
+      "score": 0.4035510982576618
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.765772956610242,
+     "boundary_f1": 0.8060542831625364,
+     "cluster_ari": 0.8358248939126278,
+     "score": 0.6289256187179494
+    },
+    "window_macro": {
+     "row_acc": 0.7657729566102421,
+     "boundary_f1": 0.8060542831625364,
+     "cluster_ari": 0.8358248939126279,
+     "score": 0.6289256187179495
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5865535949136003,
+      "boundary_f1": 0.4886541120861673,
+      "cluster_ari": 0.6418813711991141,
+      "score": 0.30190942988519937
+     },
+     "Geoservices grid": {
+      "row_acc": 0.806441227637061,
+      "boundary_f1": 0.716357958035842,
+      "cluster_ari": 0.8732753746387808,
+      "score": 0.575571147601718
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7462361717111016,
+      "boundary_f1": 0.9006066731685927,
+      "cluster_ari": 0.8669138454034021,
+      "score": 0.6710168094661798
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8296327506496164,
+      "boundary_f1": 0.838079402823985,
+      "cluster_ari": 0.8959682132930146,
+      "score": 0.6957523755726666
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6617508777684545,
+      "boundary_f1": 0.903077790945438,
+      "cluster_ari": 0.8583710099196172,
+      "score": 0.5945886985175619
+     },
+     "One-off layout": {
+      "row_acc": 0.8053510052132546,
+      "boundary_f1": 0.8577891552891553,
+      "cluster_ari": 0.7922163319798704,
+      "score": 0.6940390672791775
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9244450683786066,
+      "boundary_f1": 0.937814889788574,
+      "cluster_ari": 0.9221481109545954,
+      "score": 0.8696018027031429
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 8,
+   "config": {
+    "mode": "cnn",
+    "threshold": 0.55,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4659981122664011,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7935119584784811,
+     "boundary_f1": 0.5076608168062602,
+     "cluster_ari": 0.7653430264358383,
+     "score": 0.4146097553187797
+    },
+    "window_macro": {
+     "row_acc": 0.8368649693741786,
+     "boundary_f1": 0.500993473956331,
+     "cluster_ari": 0.8258950604614684,
+     "score": 0.4280303900164551
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.8110555555555555,
+      "boundary_f1": 0.8893939393939394,
+      "cluster_ari": 0.5795179826288905,
+      "score": 0.7223796296296296
+     },
+     "4304150011": {
+      "row_acc": 0.8779400925121007,
+      "boundary_f1": 0.6772398893378319,
+      "cluster_ari": 0.8363749141289386,
+      "score": 0.5997823577098865
+     },
+     "barlow3-14": {
+      "row_acc": 0.5951811966557159,
+      "boundary_f1": 0.2913123494404007,
+      "cluster_ari": 0.6820386498082582,
+      "score": 0.19738186698504165
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7084512788534579,
+      "boundary_f1": 0.26067131398013754,
+      "cluster_ari": 0.7921698975626243,
+      "score": 0.1476235179348357
+     },
+     "storm": {
+      "row_acc": 0.9749316688155754,
+      "boundary_f1": 0.4196865918789918,
+      "cluster_ari": 0.936613688050479,
+      "score": 0.40588140433450504
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7526154245971828,
+     "boundary_f1": 0.7999256198796351,
+     "cluster_ari": 0.8283592182539478,
+     "score": 0.6201631831092652
+    },
+    "window_macro": {
+     "row_acc": 0.7526154245971828,
+     "boundary_f1": 0.7999256198796351,
+     "cluster_ari": 0.8283592182539474,
+     "score": 0.6201631831092652
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5662672722527687,
+      "boundary_f1": 0.4306875544600876,
+      "cluster_ari": 0.608205412354514,
+      "score": 0.26171481290926346
+     },
+     "Geoservices grid": {
+      "row_acc": 0.8205666865518411,
+      "boundary_f1": 0.785503714122135,
+      "cluster_ari": 0.877761350135585,
+      "score": 0.6519527620878739
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7282363242666343,
+      "boundary_f1": 0.8651997977655873,
+      "cluster_ari": 0.882710135998273,
+      "score": 0.6280470142960598
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8306000653212043,
+      "boundary_f1": 0.9328521152050563,
+      "cluster_ari": 0.9004011672280652,
+      "score": 0.7872498752085759
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6383941512034045,
+      "boundary_f1": 0.8542242601453127,
+      "cluster_ari": 0.8436938465321702,
+      "score": 0.5399534527354972
+     },
+     "One-off layout": {
+      "row_acc": 0.7757069453032702,
+      "boundary_f1": 0.8244297369297371,
+      "cluster_ari": 0.7759865390719624,
+      "score": 0.639451290233164
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9085365272811567,
+      "boundary_f1": 0.906582160529529,
+      "cluster_ari": 0.9097560764570631,
+      "score": 0.8327730742944225
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 21,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.15,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.46131677916506564,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.789047624540655,
+     "boundary_f1": 0.5016583283480645,
+     "cluster_ari": 0.793499510212137,
+     "score": 0.41481082718127527
+    },
+    "window_macro": {
+     "row_acc": 0.8419293212682178,
+     "boundary_f1": 0.5343634327034567,
+     "cluster_ari": 0.8766187190491987,
+     "score": 0.4657861837921795
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.7912222222222223,
+      "boundary_f1": 0.7121621621621621,
+      "cluster_ari": 0.49225194675705664,
+      "score": 0.5733612612612613
+     },
+     "4304150011": {
+      "row_acc": 0.9044058512293806,
+      "boundary_f1": 0.744622826594059,
+      "cluster_ari": 0.9026219161268643,
+      "score": 0.6776725920030515
+     },
+     "barlow3-14": {
+      "row_acc": 0.5984634165823713,
+      "boundary_f1": 0.28373731384379397,
+      "cluster_ari": 0.7043636160171257,
+      "score": 0.18917813606803924
+     },
+     "flat-bay-2": {
+      "row_acc": 0.6730646649443665,
+      "boundary_f1": 0.37307347670250895,
+      "cluster_ari": 0.9363930237117974,
+      "score": 0.2494420757639989
+     },
+     "storm": {
+      "row_acc": 0.9780819677249348,
+      "boundary_f1": 0.394695862437798,
+      "cluster_ari": 0.9318670484478413,
+      "score": 0.38440007081002503
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7411284307992829,
+     "boundary_f1": 0.8009440210673073,
+     "cluster_ari": 0.823720387507045,
+     "score": 0.6008346351164368
+    },
+    "window_macro": {
+     "row_acc": 0.7411284307992828,
+     "boundary_f1": 0.8009440210673072,
+     "cluster_ari": 0.8237203875070449,
+     "score": 0.6008346351164368
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5720579787249359,
+      "boundary_f1": 0.6257532185163764,
+      "cluster_ari": 0.6562499293449494,
+      "score": 0.3714726760647693
+     },
+     "Geoservices grid": {
+      "row_acc": 0.7337630084869949,
+      "boundary_f1": 0.7203575406361784,
+      "cluster_ari": 0.8769884775384779,
+      "score": 0.5156615189838756
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7456241401124718,
+      "boundary_f1": 0.8815534139063551,
+      "cluster_ari": 0.8773214215771405,
+      "score": 0.6545010747767676
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8105715509835831,
+      "boundary_f1": 0.7739525452760746,
+      "cluster_ari": 0.8379472289720135,
+      "score": 0.6346314234714098
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.643346324902249,
+      "boundary_f1": 0.8408524346024345,
+      "cluster_ari": 0.8508886587400043,
+      "score": 0.5316819121029581
+     },
+     "One-off layout": {
+      "row_acc": 0.758149327393424,
+      "boundary_f1": 0.8394819994819995,
+      "cluster_ari": 0.7443036904514942,
+      "score": 0.6397455674649771
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9243866849913213,
+      "boundary_f1": 0.9246569950517319,
+      "cluster_ari": 0.922343305925235,
+      "score": 0.8581482729503002
+     }
+    }
+   },
+   "eligible": true
+  },
+  {
+   "id": 10,
+   "config": {
+    "mode": "cnn",
+    "threshold": 0.7,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 16,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.4469282342489276,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7815131735732184,
+     "boundary_f1": 0.48011398282343565,
+     "cluster_ari": 0.7458299301964356,
+     "score": 0.3869447116766844
+    },
+    "window_macro": {
+     "row_acc": 0.8302260836138897,
+     "boundary_f1": 0.48732931114014755,
+     "cluster_ari": 0.8196094803835976,
+     "score": 0.41479778160915837
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.7891666666666666,
+      "boundary_f1": 0.818103818103818,
+      "cluster_ari": 0.5228201631317273,
+      "score": 0.644940797940798
+     },
+     "4304150011": {
+      "row_acc": 0.8760353306073388,
+      "boundary_f1": 0.6705378359805348,
+      "cluster_ari": 0.8330770918705549,
+      "score": 0.5925922084719656
+     },
+     "barlow3-14": {
+      "row_acc": 0.5706145733434403,
+      "boundary_f1": 0.2486416965421783,
+      "cluster_ari": 0.6126302817240304,
+      "score": 0.1576253547820118
+     },
+     "flat-bay-2": {
+      "row_acc": 0.6974933290180277,
+      "boundary_f1": 0.24457070707070708,
+      "cluster_ari": 0.8260112329130145,
+      "score": 0.13493270096756896
+     },
+     "storm": {
+      "row_acc": 0.9742559682306189,
+      "boundary_f1": 0.4187158564199404,
+      "cluster_ari": 0.9346108813428509,
+      "score": 0.40463249622107766
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7509875180596224,
+     "boundary_f1": 0.8125999127944324,
+     "cluster_ari": 0.8211196009084614,
+     "score": 0.626878801965657
+    },
+    "window_macro": {
+     "row_acc": 0.7509875180596224,
+     "boundary_f1": 0.8125999127944323,
+     "cluster_ari": 0.8211196009084615,
+     "score": 0.626878801965657
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5793562248691002,
+      "boundary_f1": 0.4506925482646447,
+      "cluster_ari": 0.6237425452856363,
+      "score": 0.2821133086857739
+     },
+     "Geoservices grid": {
+      "row_acc": 0.8221714280512836,
+      "boundary_f1": 0.8128672756390148,
+      "cluster_ari": 0.8791368499952102,
+      "score": 0.6709864974494586
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7250726437542063,
+      "boundary_f1": 0.8935680332739157,
+      "cluster_ari": 0.8602071861204372,
+      "score": 0.6451624125889005
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8222687872110549,
+      "boundary_f1": 0.9278789293495175,
+      "cluster_ari": 0.8891343493470316,
+      "score": 0.77621178374606
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6303298507431475,
+      "boundary_f1": 0.8702717081393553,
+      "cluster_ari": 0.8376856601262571,
+      "score": 0.5460684300561979
+     },
+     "One-off layout": {
+      "row_acc": 0.7686888832574074,
+      "boundary_f1": 0.8219527694527696,
+      "cluster_ari": 0.7500866394190875,
+      "score": 0.6307413975089614
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9090248085311567,
+      "boundary_f1": 0.9109681254418097,
+      "cluster_ari": 0.90784397606557,
+      "score": 0.836867783724247
+     }
+    }
+   },
+   "eligible": false
+  },
+  {
+   "id": 19,
+   "config": {
+    "mode": "joint",
+    "threshold": 0.4,
+    "gap": 16,
+    "blend": 1.0,
+    "penalty": 0.0,
+    "boundary_weight": 0.0,
+    "min_bed": 32,
+    "preserve": "rules",
+    "blank_ink": 0.006,
+    "reject": 2.0,
+    "rule_tolerance": 8,
+    "boundary_fraction": 0.35,
+    "matcher_fraction": 0.35
+   },
+   "objective": 0.43862704850356293,
+   "dev": {
+    "well_macro": {
+     "row_acc": 0.7803735205540858,
+     "boundary_f1": 0.46052068628784076,
+     "cluster_ari": 0.7482103689532633,
+     "score": 0.3730937186510538
+    },
+    "window_macro": {
+     "row_acc": 0.8384394011010099,
+     "boundary_f1": 0.4967254101331821,
+     "cluster_ari": 0.8468032889261777,
+     "score": 0.4321415717932274
+    },
+    "by_well": {
+     "386825": {
+      "row_acc": 0.7512777777777777,
+      "boundary_f1": 0.6918865805727119,
+      "cluster_ari": 0.38931525856517546,
+      "score": 0.5227809595108865
+     },
+     "4304150011": {
+      "row_acc": 0.9018661686896983,
+      "boundary_f1": 0.7257690434709068,
+      "cluster_ari": 0.9010595967169609,
+      "score": 0.6619729333125997
+     },
+     "barlow3-14": {
+      "row_acc": 0.5852367429494553,
+      "boundary_f1": 0.27888855044875643,
+      "cluster_ari": 0.6965018437238063,
+      "score": 0.18102833306555544
+     },
+     "flat-bay-2": {
+      "row_acc": 0.7045214932949752,
+      "boundary_f1": 0.21100720006087237,
+      "cluster_ari": 0.874300567544791,
+      "score": 0.12246653282151347
+     },
+     "storm": {
+      "row_acc": 0.9589654200585228,
+      "boundary_f1": 0.3950520568859566,
+      "cluster_ari": 0.879874578215583,
+      "score": 0.37721983454471386
+     }
+    }
+   },
+   "synthetic": {
+    "well_macro": {
+     "row_acc": 0.7624174653155761,
+     "boundary_f1": 0.8116572420350247,
+     "cluster_ari": 0.8420352414001183,
+     "score": 0.6352270380610904
+    },
+    "window_macro": {
+     "row_acc": 0.7624174653155759,
+     "boundary_f1": 0.8116572420350247,
+     "cluster_ari": 0.8420352414001183,
+     "score": 0.6352270380610902
+    },
+    "by_well": {
+     "D-582 1-bit grid": {
+      "row_acc": 0.5473181539790716,
+      "boundary_f1": 0.49834984822729916,
+      "cluster_ari": 0.6249998818002412,
+      "score": 0.29387463676891473
+     },
+     "Geoservices grid": {
+      "row_acc": 0.8156528860828294,
+      "boundary_f1": 0.7508953930200061,
+      "cluster_ari": 0.8810152476055274,
+      "score": 0.621057211381879
+     },
+     "Gulf 3-panel": {
+      "row_acc": 0.7484792177408711,
+      "boundary_f1": 0.8879446211683054,
+      "cluster_ari": 0.875284902720351,
+      "score": 0.6655184550078942
+     },
+     "MC761 mineral/lithology": {
+      "row_acc": 0.8271554425831913,
+      "boundary_f1": 0.8551740184480122,
+      "cluster_ari": 0.8940706559401792,
+      "score": 0.7108673426550948
+     },
+     "MC765 colour grid": {
+      "row_acc": 0.6517640063855089,
+      "boundary_f1": 0.8746235246235248,
+      "cluster_ari": 0.8723031028482571,
+      "score": 0.5636540148578556
+     },
+     "One-off layout": {
+      "row_acc": 0.8223707834790246,
+      "boundary_f1": 0.8816229603729604,
+      "cluster_ari": 0.8228406294435645,
+      "score": 0.7268094967401199
+     },
+     "Texas 'Rock Types' box": {
+      "row_acc": 0.9241817669585345,
+      "boundary_f1": 0.9329903283850652,
+      "cluster_ari": 0.9237322694427078,
+      "score": 0.864808109015874
+     }
+    }
+   },
+   "eligible": true
+  }
+ ],
+ "optimistic_selection_estimate": true,
+ "objective": "0.75 ext_dev well-macro score + 0.25 source-held synthetic family-macro score",
+ "selected": {
+  "id": 24,
+  "config": {
+   "mode": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 8,
+   "preserve": "rules",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8,
+   "boundary_fraction": 0.35,
+   "matcher_fraction": 0.35,
+   "model_mix": 0.5
+  },
+  "objective": 0.5119405001755071,
+  "dev": {
+   "well_macro": {
+    "row_acc": 0.8502999802121491,
+    "boundary_f1": 0.5740785361192152,
+    "cluster_ari": 0.8306080918928431,
+    "score": 0.5106688613931747
+   },
+   "window_macro": {
+    "row_acc": 0.8848012510927372,
+    "boundary_f1": 0.5611555397144692,
+    "cluster_ari": 0.8688619186501153,
+    "score": 0.5145136501867453
+   },
+   "by_well": {
+    "386825": {
+     "row_acc": 0.8756666666666666,
+     "boundary_f1": 0.9354145166838665,
+     "cluster_ari": 0.686555045485995,
+     "score": 0.820333218667584
+    },
+    "4304150011": {
+     "row_acc": 0.9296301018491688,
+     "boundary_f1": 0.7017814840260761,
+     "cluster_ari": 0.861248513527772,
+     "score": 0.6568526918064083
+    },
+    "barlow3-14": {
+     "row_acc": 0.6972905427256996,
+     "boundary_f1": 0.3590813338621855,
+     "cluster_ari": 0.8039720804685407,
+     "score": 0.27470317948225936
+    },
+    "flat-bay-2": {
+     "row_acc": 0.7670771476100556,
+     "boundary_f1": 0.3768237934904602,
+     "cluster_ari": 0.8469115416188413,
+     "score": 0.3153784259410929
+    },
+    "storm": {
+     "row_acc": 0.9818354422091556,
+     "boundary_f1": 0.497291552533488,
+     "cluster_ari": 0.9543532783630672,
+     "score": 0.48607679106852913
+    }
+   }
+  },
+  "synthetic": {
+   "well_macro": {
+    "row_acc": 0.7469210317517083,
+    "boundary_f1": 0.6557899824114246,
+    "cluster_ari": 0.8129934667886359,
+    "score": 0.5157554165225043
+   },
+   "window_macro": {
+    "row_acc": 0.7469210317517083,
+    "boundary_f1": 0.6557899824114245,
+    "cluster_ari": 0.8129934667886358,
+    "score": 0.5157554165225043
+   },
+   "by_well": {
+    "D-582 1-bit grid": {
+     "row_acc": 0.5242917982719755,
+     "boundary_f1": 0.3615866915356505,
+     "cluster_ari": 0.5606298546605514,
+     "score": 0.19123984715263712
+    },
+    "Geoservices grid": {
+     "row_acc": 0.7378449651146207,
+     "boundary_f1": 0.4845899054724789,
+     "cluster_ari": 0.8061133519011285,
+     "score": 0.37002851349762866
+    },
+    "Gulf 3-panel": {
+     "row_acc": 0.7013025979471593,
+     "boundary_f1": 0.6931541856313023,
+     "cluster_ari": 0.84210001326965,
+     "score": 0.4926383676270764
+    },
+    "MC761 mineral/lithology": {
+     "row_acc": 0.8557287754314721,
+     "boundary_f1": 0.7425893300312804,
+     "cluster_ari": 0.902215848614495,
+     "score": 0.6489496877200996
+    },
+    "MC765 colour grid": {
+     "row_acc": 0.6612535674954184,
+     "boundary_f1": 0.603439384886529,
+     "cluster_ari": 0.8115517489007469,
+     "score": 0.4042379833808045
+    },
+    "One-off layout": {
+     "row_acc": 0.8533276707951951,
+     "boundary_f1": 0.7856121511731717,
+     "cluster_ari": 0.8489048459941494,
+     "score": 0.6734949002601477
+    },
+    "Texas 'Rock Types' box": {
+     "row_acc": 0.8946978472061166,
+     "boundary_f1": 0.9195582281495595,
+     "cluster_ari": 0.9194386041797307,
+     "score": 0.8296986160191365
+    }
+   }
+  },
+  "eligible": true
+ },
+ "architecture_constraint": "joint decoder; clean synthetic-mixed boundary and matcher",
+ "blend_check_complete": true,
+ "blend_check_reason": "Mixed models lost dev accuracy; test nonzero blends on allowed CV only"
+}

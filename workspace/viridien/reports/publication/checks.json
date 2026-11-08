@@ -1,0 +1,30 @@
+{
+  "schema": "viridien.publication-checks.v1",
+  "source_python_files": 406,
+  "syntax_errors": 0,
+  "real_snapshot": "8b8884c431cb8ce8aac5",
+  "real_asset_files_checked": 2961,
+  "publication_boundary_tests": 9,
+  "core_harness": {
+    "passed": 123,
+    "skipped": 9
+  },
+  "javascript": {
+    "passed": 21,
+    "failed": 0
+  },
+  "experimental_pattern_suite": {
+    "passed": 169,
+    "failed": 12,
+    "errors": 8,
+    "skipped": 2
+  },
+  "shared_example": {
+    "windows": 17,
+    "wells": 3,
+    "failures": 0
+  },
+  "browser": "not run",
+  "clean_environment_install": "not run",
+  "sealed_verify": "not run"
+}

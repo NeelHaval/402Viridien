@@ -1,0 +1,636 @@
+{
+ "ext_test": {
+  "mean": {
+   "score": 0.11162552495023222,
+   "row_acc": 0.2458226114815262,
+   "boundary_f1": 0.40992724972449385,
+   "cluster_ari": 0.6020553748821331,
+   "depth_mae_ft": 21.8205173664807,
+   "seconds": 1.3499674608999725,
+   "peak_rss_gb": 0.4134410858154297,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 20,
+   "n_scored": 20
+  },
+  "logs": [
+   {
+    "log": "ext_idaho_irvin1-19_p001",
+    "window": [
+     2510,
+     8510
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.035326358000020264,
+    "seconds": 3.91455168199991,
+    "peak_rss_gb": 0.4102516174316406,
+    "row_acc": 0.0,
+    "boundary_f1": 0.26450116009280744,
+    "cluster_ari": 0.9354553354792191,
+    "depth_mae_ft": 0.18936676188611587,
+    "score": 0.0,
+    "n_intervals": 57
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p001",
+    "window": [
+     9130,
+     15130
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.01561924300017381,
+    "seconds": 4.221274370999936,
+    "peak_rss_gb": 0.4120826721191406,
+    "row_acc": 0.0245,
+    "boundary_f1": 0.5278450363196125,
+    "cluster_ari": 0.4951733243103691,
+    "depth_mae_ft": 0.4769138228816513,
+    "score": 0.012932203389830508,
+    "n_intervals": 115
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p001",
+    "window": [
+     15750,
+     21750
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.012024997000025905,
+    "seconds": 3.6402844649999224,
+    "peak_rss_gb": 0.41210174560546875,
+    "row_acc": 0.0,
+    "boundary_f1": 0.5911330049261084,
+    "cluster_ari": 0.483094899891529,
+    "depth_mae_ft": 0.452721165520569,
+    "score": 0.0,
+    "n_intervals": 125
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p002",
+    "window": [
+     284,
+     6284
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.015394651999940834,
+    "seconds": 3.352293140000029,
+    "peak_rss_gb": 0.4138641357421875,
+    "row_acc": 0.09646464646464646,
+    "boundary_f1": 0.28013029315960913,
+    "cluster_ari": 0.7270428972482182,
+    "depth_mae_ft": 0.42413874302520677,
+    "score": 0.027022669693679467,
+    "n_intervals": 87
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p002",
+    "window": [
+     7913,
+     13913
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.01715373100000761,
+    "seconds": 3.6860845440000958,
+    "peak_rss_gb": 0.4140357971191406,
+    "row_acc": 0.31055276381909547,
+    "boundary_f1": 0.5034642032332564,
+    "cluster_ari": 0.7054120191300118,
+    "depth_mae_ft": 0.4086344554686815,
+    "score": 0.15635219979806655,
+    "n_intervals": 112
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p002",
+    "window": [
+     15542,
+     21542
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.011712791000036304,
+    "seconds": 3.2939566249999643,
+    "peak_rss_gb": 0.4140510559082031,
+    "row_acc": 0.06438746438746439,
+    "boundary_f1": 0.521551724137931,
+    "cluster_ari": 0.6141884485397787,
+    "depth_mae_ft": 0.3698919445678182,
+    "score": 0.033581393064151685,
+    "n_intervals": 122
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p002",
+    "window": [
+     555,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.016122703000064575,
+    "seconds": 0.36215267199986556,
+    "peak_rss_gb": 0.4123077392578125,
+    "row_acc": 0.700952380952381,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": 384.39999364216874,
+    "score": 0.3504761904761905,
+    "n_intervals": 10
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p003",
+    "window": [
+     330,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.00949059300000954,
+    "seconds": 0.2733855039998616,
+    "peak_rss_gb": 0.4124641418457031,
+    "row_acc": 0.45575757575757575,
+    "boundary_f1": 0.6153846153846154,
+    "cluster_ari": 0.16292974427664655,
+    "depth_mae_ft": 0.3774385727435856,
+    "score": 0.28046620046620047,
+    "n_intervals": 5
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p004",
+    "window": [
+     330,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.008722701000124289,
+    "seconds": 0.3319774409999354,
+    "peak_rss_gb": 0.4124641418457031,
+    "row_acc": 0.0,
+    "boundary_f1": 0.13953488372093023,
+    "cluster_ari": 0.0955162201698654,
+    "depth_mae_ft": 0.8008284254049917,
+    "score": 0.0,
+    "n_intervals": 4
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p005",
+    "window": [
+     330,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.012807991000045149,
+    "seconds": 0.37539636599990445,
+    "peak_rss_gb": 0.4124641418457031,
+    "row_acc": 0.3054545454545455,
+    "boundary_f1": 0.19047619047619047,
+    "cluster_ari": 0.24699524343802673,
+    "depth_mae_ft": 0.8516208066060548,
+    "score": 0.05818181818181818,
+    "n_intervals": 7
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p006",
+    "window": [
+     330,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.01323884199996428,
+    "seconds": 0.556414919999952,
+    "peak_rss_gb": 0.4124641418457031,
+    "row_acc": 0.02666666666666667,
+    "boundary_f1": 0.37735849056603776,
+    "cluster_ari": 0.07717632742011883,
+    "depth_mae_ft": 0.9500092830693575,
+    "score": 0.010062893081761008,
+    "n_intervals": 13
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p007",
+    "window": [
+     330,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.015237368000043716,
+    "seconds": 0.5212620980000793,
+    "peak_rss_gb": 0.4124641418457031,
+    "row_acc": 0.01090909090909091,
+    "boundary_f1": 0.38596491228070173,
+    "cluster_ari": 0.18146719811956807,
+    "depth_mae_ft": 0.4816102876525706,
+    "score": 0.004210526315789474,
+    "n_intervals": 13
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p008",
+    "window": [
+     330,
+     1980
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.007319041000073412,
+    "seconds": 0.4583091389999936,
+    "peak_rss_gb": 0.4124641418457031,
+    "row_acc": 0.024242424242424242,
+    "boundary_f1": 0.5306122448979592,
+    "cluster_ari": 0.362009916079457,
+    "depth_mae_ft": 0.4232582572326814,
+    "score": 0.012863327149041436,
+    "n_intervals": 16
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p054",
+    "window": [
+     1191,
+     1819
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.006332546999828992,
+    "seconds": 0.21017643599998337,
+    "peak_rss_gb": 0.4146766662597656,
+    "row_acc": 0.6852589641434262,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.988834681097223,
+    "depth_mae_ft": 0.3419689676428632,
+    "score": 0.5482071713147411,
+    "n_intervals": 3
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p055",
+    "window": [
+     177,
+     1814
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.008754959999805578,
+    "seconds": 0.5268594399999529,
+    "peak_rss_gb": 0.4148979187011719,
+    "row_acc": 0.0,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.9878397749807698,
+    "depth_mae_ft": 0.6691357602488495,
+    "score": 0.0,
+    "n_intervals": 2
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p056",
+    "window": [
+     177,
+     1812
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.006720965999875261,
+    "seconds": 0.23462774099994022,
+    "peak_rss_gb": 0.41507720947265625,
+    "row_acc": 0.11706102117061021,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.9939851945250245,
+    "depth_mae_ft": 0.5100481307242433,
+    "score": 0.0390203403902034,
+    "n_intervals": 5
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p057",
+    "window": [
+     177,
+     1814
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.007662888000140811,
+    "seconds": 0.2993537320000996,
+    "peak_rss_gb": 0.41507720947265625,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "n_intervals": 1
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p058",
+    "window": [
+     177,
+     1814
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.006771461999960593,
+    "seconds": 0.22125507099985953,
+    "peak_rss_gb": 0.41507720947265625,
+    "row_acc": 0.15485074626865672,
+    "boundary_f1": 0.47058823529411764,
+    "cluster_ari": 0.9874833854667815,
+    "depth_mae_ft": 0.38185235880143864,
+    "score": 0.07287093942054433,
+    "n_intervals": 7
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p059",
+    "window": [
+     177,
+     1813
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.008289965999892956,
+    "seconds": 0.33906083400006537,
+    "peak_rss_gb": 0.4152679443359375,
+    "row_acc": 0.9393939393939394,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9965028874700566,
+    "depth_mae_ft": 0.2598812110071094,
+    "score": 0.6262626262626263,
+    "n_intervals": 6
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p060",
+    "window": [
+     177,
+     596
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.006602653999834729,
+    "seconds": 0.18067299700010153,
+    "peak_rss_gb": 0.4152679443359375,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "n_intervals": 2
+   }
+  ]
+ },
+ "viridien_eval": {
+  "mean": {
+   "score": 0.3468418133685199,
+   "row_acc": 0.5281489434072365,
+   "boundary_f1": 0.6684236235077635,
+   "cluster_ari": 0.6790092947424962,
+   "depth_mae_ft": 0.26666666666642413,
+   "seconds": 1.11121840823078,
+   "peak_rss_gb": 0.5944789006159856,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 13,
+   "n_scored": 13
+  },
+  "logs": [
+   {
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "window": [
+     4404,
+     11195
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.08411479500000496,
+    "seconds": 1.0460768289999578,
+    "peak_rss_gb": 0.4812965393066406,
+    "row_acc": 0.008158508158508158,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.6810550291420411,
+    "depth_mae_ft": 0.26666666666642413,
+    "score": 0.005439005439005438,
+    "n_intervals": 18
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+    "window": [
+     4387,
+     10387
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.06379827699993257,
+    "seconds": 0.9766770119999819,
+    "peak_rss_gb": 0.48681640625,
+    "row_acc": 0.010166666666666666,
+    "boundary_f1": 0.65,
+    "cluster_ari": 0.6507605615926176,
+    "depth_mae_ft": null,
+    "score": 0.006608333333333333,
+    "n_intervals": 21
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+    "window": [
+     4384,
+     10384
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.04254176000017651,
+    "seconds": 1.2254554769999686,
+    "peak_rss_gb": 0.4922142028808594,
+    "row_acc": 0.009833333333333333,
+    "boundary_f1": 0.5581395348837209,
+    "cluster_ari": 0.48778933770312827,
+    "depth_mae_ft": null,
+    "score": 0.005488372093023256,
+    "n_intervals": 22
+   },
+   {
+    "log": "60807402860000_gb506#2_md_mudlog",
+    "window": [
+     1728,
+     7728
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.08563928600005966,
+    "seconds": 1.8103375719999804,
+    "peak_rss_gb": 0.4922752380371094,
+    "row_acc": 0.37133333333333335,
+    "boundary_f1": 0.6867469879518072,
+    "cluster_ari": 0.3366103374447475,
+    "depth_mae_ft": null,
+    "score": 0.25501204819277107,
+    "n_intervals": 139
+   },
+   {
+    "log": "60811405120000_1inch tvd mudlog",
+    "window": [
+     1501,
+     7501
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.08428858799993577,
+    "seconds": 1.2987977440000122,
+    "peak_rss_gb": 0.5109405517578125,
+    "row_acc": 0.922,
+    "boundary_f1": 0.688,
+    "cluster_ari": 0.7520876135418715,
+    "depth_mae_ft": null,
+    "score": 0.634336,
+    "n_intervals": 46
+   },
+   {
+    "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+    "window": [
+     2343,
+     8343
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.21544368099989697,
+    "seconds": 1.280310352000015,
+    "peak_rss_gb": 0.5977096557617188,
+    "row_acc": 0.7735,
+    "boundary_f1": 0.7758620689655172,
+    "cluster_ari": 0.8638319310238287,
+    "depth_mae_ft": null,
+    "score": 0.6001293103448275,
+    "n_intervals": 65
+   },
+   {
+    "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+    "window": [
+     11438,
+     17438
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.22697715200001767,
+    "seconds": 0.8726491120000901,
+    "peak_rss_gb": 0.4729881286621094,
+    "row_acc": 0.8863333333333333,
+    "boundary_f1": 0.6601941747572816,
+    "cluster_ari": 0.6105510622996773,
+    "depth_mae_ft": null,
+    "score": 0.5851521035598706,
+    "n_intervals": 36
+   },
+   {
+    "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+    "window": [
+     2927,
+     8927
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.046328494000135834,
+    "seconds": 0.8343913819999216,
+    "peak_rss_gb": 0.4729881286621094,
+    "row_acc": 0.9438333333333333,
+    "boundary_f1": 0.4861111111111111,
+    "cluster_ari": 0.7936180981159532,
+    "depth_mae_ft": null,
+    "score": 0.45880787037037035,
+    "n_intervals": 36
+   },
+   {
+    "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+    "window": [
+     2699,
+     8699
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.4955756350000229,
+    "seconds": 1.7984716599999047,
+    "peak_rss_gb": 0.7457275390625,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0,
+    "n_intervals": 1
+   },
+   {
+    "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+    "window": [
+     5480,
+     11480
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.3803769179999108,
+    "seconds": 0.5207620880000832,
+    "peak_rss_gb": 0.6375999450683594,
+    "row_acc": 0.004166666666666667,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9796964743486725,
+    "depth_mae_ft": null,
+    "score": 0.004166666666666667,
+    "n_intervals": 20
+   },
+   {
+    "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+    "window": [
+     7623,
+     13623
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.43952503400009846,
+    "seconds": 0.6352584610001486,
+    "peak_rss_gb": 0.6607856750488281,
+    "row_acc": 0.8213333333333334,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "n_intervals": 14
+   },
+   {
+    "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+    "window": [
+     7363,
+     13363
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 1.6197613019999153,
+    "seconds": 1.7258712919999653,
+    "peak_rss_gb": 1.1921272277832031,
+    "row_acc": 0.954,
+    "boundary_f1": 0.8944099378881988,
+    "cluster_ari": 0.8223964079216494,
+    "depth_mae_ft": null,
+    "score": 0.8532670807453416,
+    "n_intervals": 73
+   },
+   {
+    "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+    "window": [
+     1698,
+     6832
+    ],
+    "api_calls": 0,
+    "scored": true,
+    "preprocess_seconds": 0.08632866899984037,
+    "seconds": 0.42078032600011284,
+    "peak_rss_gb": 0.4847564697265625,
+    "row_acc": 0.1612777561355668,
+    "boundary_f1": 0.6233766233766234,
+    "cluster_ari": 0.8487239785182638,
+    "depth_mae_ft": null,
+    "score": 0.10053678304554814,
+    "n_intervals": 25
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "n_logs": 51,
+  "jev_used": 0,
+  "errors": 0,
+  "depth_column_iou": 0.128269675028843,
+  "depth_column_baseline_iou": 0.128269675028843,
+  "interpreted_lithology_column_iou": 0.03425038200651121,
+  "interpreted_lithology_column_baseline_iou": 0.03425038200651121,
+  "lithology_legend_iou": 0.15331163400306466,
+  "lithology_legend_baseline_iou": 0.15331163400306466
+}

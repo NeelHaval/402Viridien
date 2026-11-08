@@ -1,0 +1,16 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,439,Chalk,0,1895.2,2114.5
+439,652,Methamorphics,3,2114.5,2220.9
+652,760,Chalk,0,2220.9,2274.8
+760,1225,Methamorphics,3,2274.8,2507.1
+1225,1615,Chalk,0,2507.1,2701.9
+1615,2084,Silty Clay,2,2701.9,2936.2
+2084,2178,Chalk,0,2936.2,2983.2
+2178,2280,Silty Clay,2,2983.2,3034.1
+2280,2443,Methamorphics,3,3034.1,3115.5
+2443,2754,Extrusive Rocks,1,3115.5,3270.9
+2754,3015,Methamorphics,3,3270.9,3401.3
+3015,3108,Conglomerate,4,3401.3,3447.7
+3108,3414,Chalk,0,3447.7,3600.6
+3414,3816,Extrusive Rocks,1,3600.6,3801.4
+3816,4000,Methamorphics,3,3801.4,3893.3

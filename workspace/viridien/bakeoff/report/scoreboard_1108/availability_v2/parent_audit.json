@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-08T08:41:38.102775+00:00",
+  "derived_sha256": "6502e4df226becf194b95c5f2d49dd75075f1a5c897dae17c059504b73102db8",
+  "audit_source_sha256": "e7ba3e7f0b08d4dc71a4b7f6ee37164f00567932d0bac3f1e9b7a08ccf0036c1",
+  "records": 272,
+  "checks": {
+    "assertions": 31986,
+    "csv_hashes": 340,
+    "metric_cells": 5440,
+    "summary_metrics": 2240,
+    "paired_product_cis": 72
+  },
+  "errors": [],
+  "inference_started": false,
+  "original_scores_unchanged": true,
+  "selection_promoted": false
+}

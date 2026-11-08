@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s19_combine",
+      "family": "D-582",
+      "suite": "human development",
+      "window": [
+        4409,
+        10415
+      ],
+      "display_name": "D-582 log06",
+      "image_name": "d582-log06-s19_combine"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s20_v4",
+      "family": "D-582",
+      "suite": "human development",
+      "window": [
+        4409,
+        10415
+      ],
+      "display_name": "D-582 log06",
+      "image_name": "d582-log06-s20_v4"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s21_v4dino",
+      "family": "D-582",
+      "suite": "human development",
+      "window": [
+        4409,
+        10415
+      ],
+      "display_name": "D-582 log06",
+      "image_name": "d582-log06-s21_v4dino"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s23_v4dino_identity",
+      "family": "D-582",
+      "suite": "human development",
+      "window": [
+        4409,
+        10415
+      ],
+      "display_name": "D-582 log06",
+      "image_name": "d582-log06-s23_v4dino_identity"
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\0de8d24f32217327.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405120000_1inch tvd mudlog.json",
+      "strategy": "s19_combine",
+      "family": "Gulf 1inch",
+      "suite": "human development",
+      "window": [
+        1503,
+        7501
+      ],
+      "display_name": "Gulf 1inch",
+      "image_name": "gulf-1inch-s19_combine"
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\0de8d24f32217327.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405120000_1inch tvd mudlog.json",
+      "strategy": "s20_v4",
+      "family": "Gulf 1inch",
+      "suite": "human development",
+      "window": [
+        1503,
+        7501
+      ],
+      "display_name": "Gulf 1inch",
+      "image_name": "gulf-1inch-s20_v4"
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\0de8d24f32217327.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405120000_1inch tvd mudlog.json",
+      "strategy": "s21_v4dino",
+      "family": "Gulf 1inch",
+      "suite": "human development",
+      "window": [
+        1503,
+        7501
+      ],
+      "display_name": "Gulf 1inch",
+      "image_name": "gulf-1inch-s21_v4dino"
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\0de8d24f32217327.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405120000_1inch tvd mudlog.json",
+      "strategy": "s23_v4dino_identity",
+      "family": "Gulf 1inch",
+      "suite": "human development",
+      "window": [
+        1503,
+        7501
+      ],
+      "display_name": "Gulf 1inch",
+      "image_name": "gulf-1inch-s23_v4dino_identity"
+    }
+  ]
+}

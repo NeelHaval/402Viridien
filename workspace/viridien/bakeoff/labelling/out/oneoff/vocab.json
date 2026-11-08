@@ -1,0 +1,316 @@
+{
+  "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+  "entries": [
+    {
+      "label": "Breccia",
+      "box": [
+        11,
+        67,
+        223,
+        133
+      ],
+      "pattern": "Lavender with scattered black outlined angular fragments."
+    },
+    {
+      "label": "Conglomerate",
+      "box": [
+        11,
+        136,
+        260,
+        202
+      ],
+      "pattern": "Mustard yellow with black rounded pebbles and short vertical marks."
+    },
+    {
+      "label": "Pebbles",
+      "box": [
+        11,
+        205,
+        195,
+        271
+      ],
+      "pattern": "Mustard yellow with black elongated pebble outlines."
+    },
+    {
+      "label": "Sand",
+      "box": [
+        11,
+        274,
+        171,
+        340
+      ],
+      "pattern": "Bright yellow with scattered black dots."
+    },
+    {
+      "label": "Sandstone",
+      "box": [
+        11,
+        343,
+        228,
+        408
+      ],
+      "pattern": "Yellow with black dots and short vertical strokes."
+    },
+    {
+      "label": "Silt",
+      "box": [
+        11,
+        412,
+        147,
+        477
+      ],
+      "pattern": "Yellow with spaced groups of small black dots."
+    },
+    {
+      "label": "Claystone",
+      "box": [
+        11,
+        481,
+        223,
+        546
+      ],
+      "pattern": "Green with staggered horizontal black dashes."
+    },
+    {
+      "label": "Silty Clay",
+      "box": [
+        11,
+        550,
+        209,
+        615
+      ],
+      "pattern": "Green with horizontal black dashes alternating with dotted rows."
+    },
+    {
+      "label": "Claystone Silicif.",
+      "box": [
+        11,
+        618,
+        289,
+        684
+      ],
+      "pattern": "Green with horizontal black dashes and small crosslike marks."
+    },
+    {
+      "label": "Marl",
+      "box": [
+        11,
+        687,
+        161,
+        753
+      ],
+      "pattern": "Green with horizontal black dashes bearing short upright ticks."
+    },
+    {
+      "label": "Coal - Lignite",
+      "box": [
+        11,
+        756,
+        250,
+        821
+      ],
+      "pattern": "Black with dense small pale dots and dashes."
+    },
+    {
+      "label": "Limestone",
+      "box": [
+        289,
+        67,
+        505,
+        133
+      ],
+      "pattern": "Cyan with black staggered brickwork."
+    },
+    {
+      "label": "Mudstone",
+      "box": [
+        289,
+        136,
+        496,
+        202
+      ],
+      "pattern": "Cyan brickwork with a black M symbol."
+    },
+    {
+      "label": "Wackstone",
+      "box": [
+        289,
+        205,
+        508,
+        271
+      ],
+      "pattern": "Cyan brickwork with a black W symbol."
+    },
+    {
+      "label": "Packstone",
+      "box": [
+        289,
+        274,
+        505,
+        340
+      ],
+      "pattern": "Cyan brickwork with a black P symbol."
+    },
+    {
+      "label": "Grainstone",
+      "box": [
+        289,
+        343,
+        512,
+        408
+      ],
+      "pattern": "Cyan brickwork with a black G symbol."
+    },
+    {
+      "label": "Boundstone",
+      "box": [
+        289,
+        412,
+        519,
+        477
+      ],
+      "pattern": "Cyan brickwork with a black B symbol."
+    },
+    {
+      "label": "Chalk",
+      "box": [
+        289,
+        481,
+        450,
+        546
+      ],
+      "pattern": "Cyan with rows of black crosslike shapes between pale rounded gaps."
+    },
+    {
+      "label": "Arg. Limestone",
+      "box": [
+        289,
+        550,
+        547,
+        615
+      ],
+      "pattern": "Cyan brickwork with short yellow horizontal marks inside the bricks."
+    },
+    {
+      "label": "Sils. Limestone",
+      "box": [
+        289,
+        618,
+        546,
+        684
+      ],
+      "pattern": "Cyan brickwork with black triangular peaked marks."
+    },
+    {
+      "label": "Dol. Limestone",
+      "box": [
+        289,
+        687,
+        547,
+        753
+      ],
+      "pattern": "Cyan brickwork with small black diagonal marks inside the bricks."
+    },
+    {
+      "label": "Calc. Dolomite",
+      "box": [
+        288,
+        756,
+        543,
+        821
+      ],
+      "pattern": "Pink brickwork with small black diagonal ticks."
+    },
+    {
+      "label": "Dolomite",
+      "box": [
+        567,
+        67,
+        765,
+        133
+      ],
+      "pattern": "Pink with horizontal black lines crossed by staggered diagonal strokes."
+    },
+    {
+      "label": "Gypsum/Anhyd.",
+      "box": [
+        567,
+        136,
+        835,
+        202
+      ],
+      "pattern": "White with repeated black downward chevrons."
+    },
+    {
+      "label": "Salt (K-Na-Mg)",
+      "box": [
+        567,
+        205,
+        822,
+        271
+      ],
+      "pattern": "White with staggered rows of short horizontal black dashes."
+    },
+    {
+      "label": "Extrusive Rocks",
+      "box": [
+        567,
+        274,
+        830,
+        340
+      ],
+      "pattern": "Red with scattered small black crosses and dots."
+    },
+    {
+      "label": "Intrusive Rocks",
+      "box": [
+        567,
+        343,
+        824,
+        409
+      ],
+      "pattern": "Red with large closely spaced black plus signs."
+    },
+    {
+      "label": "Metamorphics",
+      "box": [
+        567,
+        412,
+        834,
+        477
+      ],
+      "pattern": "White with parallel diagonal black hatching."
+    },
+    {
+      "label": "Volcanics",
+      "box": [
+        567,
+        618,
+        770,
+        684
+      ],
+      "pattern": "White with repeated small black three-pronged mound shapes."
+    },
+    {
+      "label": "Chert",
+      "box": [
+        567,
+        756,
+        728,
+        821
+      ],
+      "pattern": "White with staggered rows of solid black three-lobed shapes."
+    }
+  ],
+  "image_size": [
+    874,
+    831
+  ],
+  "source_box": [
+    477,
+    590,
+    1060,
+    1144
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

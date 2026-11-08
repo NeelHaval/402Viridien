@@ -1,0 +1,131 @@
+[
+  {
+    "top_px": 8500,
+    "bottom_px": 8700,
+    "top_ft": 9460.2,
+    "bottom_ft": 9560.1,
+    "top_m": 2883.5,
+    "bottom_m": 2913.9,
+    "composition": [
+      {
+        "legend_id": 0,
+        "type": "shale",
+        "proportion": 1,
+        "x_range": [
+          1244,
+          1307
+        ]
+      }
+    ],
+    "flags": []
+  },
+  {
+    "top_px": 8800,
+    "bottom_px": 9000,
+    "top_ft": 9610.0,
+    "bottom_ft": 9709.9,
+    "top_m": 2929.1,
+    "bottom_m": 2959.6,
+    "composition": [
+      {
+        "legend_id": 0,
+        "type": "shale",
+        "proportion": 1,
+        "x_range": [
+          1244,
+          1307
+        ]
+      }
+    ],
+    "flags": []
+  },
+  {
+    "top_px": 9100,
+    "bottom_px": 9300,
+    "top_ft": 9759.8,
+    "bottom_ft": 9859.7,
+    "top_m": 2974.8,
+    "bottom_m": 3005.2,
+    "composition": [
+      {
+        "legend_id": 0,
+        "type": "shale",
+        "proportion": 1,
+        "x_range": [
+          1244,
+          1307
+        ]
+      }
+    ],
+    "flags": []
+  },
+  {
+    "top_px": 9400,
+    "bottom_px": 9600,
+    "top_ft": 9909.6,
+    "bottom_ft": 10009.5,
+    "top_m": 3020.4,
+    "bottom_m": 3050.9,
+    "composition": [
+      {
+        "legend_id": 0,
+        "type": "shale",
+        "proportion": 1,
+        "x_range": [
+          1244,
+          1307
+        ]
+      }
+    ],
+    "flags": []
+  },
+  {
+    "top_px": 9700,
+    "bottom_px": 9900,
+    "top_ft": 10059.4,
+    "bottom_ft": 10159.3,
+    "top_m": 3066.1,
+    "bottom_m": 3096.5,
+    "composition": [
+      {
+        "legend_id": 0,
+        "type": "shale",
+        "proportion": 1,
+        "x_range": [
+          1244,
+          1307
+        ]
+      }
+    ],
+    "flags": []
+  },
+  {
+    "top_px": 10300,
+    "bottom_px": 10500,
+    "top_ft": 10359.0,
+    "bottom_ft": 10458.8,
+    "top_m": 3157.4,
+    "bottom_m": 3187.9,
+    "composition": [
+      {
+        "legend_id": 0,
+        "type": "shale",
+        "proportion": 0.8,
+        "x_range": [
+          1244,
+          1294
+        ]
+      },
+      {
+        "legend_id": 2,
+        "type": "sandstone",
+        "proportion": 0.2,
+        "x_range": [
+          1294,
+          1307
+        ]
+      }
+    ],
+    "flags": []
+  }
+]

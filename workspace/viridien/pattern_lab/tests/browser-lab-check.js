@@ -1,0 +1,35 @@
+async page => {
+  await page.setViewportSize({width:1440,height:1000});
+  await page.reload();
+  await page.waitForFunction(()=>window.Strata?.state.doc && window.PatternLab);
+  await page.evaluate(()=>Strata.select('import-637-0'));
+  await page.getByRole('button',{name:'Pattern lab',exact:true}).click();
+  await page.getByRole('button',{name:'Approve sample',exact:true}).waitFor();
+  await page.waitForFunction(()=>!Array.from(document.querySelectorAll('.plab button')).find(b=>b.textContent==='Approve sample').disabled);
+  const scale=await page.locator('.plab-pair img').first().evaluate(e=>({native:e.naturalWidth,display:e.getBoundingClientRect().width}));
+  if(scale.native!==50||scale.display!==50)throw Error('The real crop is not shown at native scale: '+JSON.stringify(scale));
+  await page.getByRole('spinbutton',{name:'Seed',exact:true}).fill('7');
+  await page.getByRole('spinbutton',{name:'Height (px)',exact:true}).fill('600');
+  await page.getByRole('spinbutton',{name:'Variation (0 to 1)',exact:true}).fill('0.15');
+  if(!await page.getByRole('button',{name:'Approve sample',exact:true}).isDisabled())throw Error('Changed settings did not block approval');
+  await page.getByRole('button',{name:'Generate sample',exact:true}).click();
+  await page.waitForFunction(()=>document.querySelectorAll('.plab-pair img')[1].naturalHeight===600);
+  await page.waitForFunction(()=>!Array.from(document.querySelectorAll('.plab button')).find(b=>b.textContent==='Approve sample').disabled);
+  await page.getByRole('textbox',{name:'Review comment',exact:true}).fill('Automated endpoint check in the isolated test store.');
+  await page.getByRole('button',{name:'Approve sample',exact:true}).click();
+  await page.waitForFunction(()=>document.querySelector('.plab-status').textContent==='Sample approval saved.');
+  await page.getByRole('spinbutton',{name:'Samples per approved example',exact:true}).fill('1');
+  await page.getByRole('button',{name:'Export dataset',exact:true}).click();
+  const download=page.getByRole('link',{name:'Download dataset',exact:true});
+  await download.waitFor({timeout:30000});
+  const url=await download.getAttribute('href');
+  const response=await page.request.get(url);
+  const zip=await response.body();
+  if(!response.ok()||zip[0]!==80||zip[1]!==75)throw Error('Dataset ZIP did not download');
+  await page.screenshot({path:'output/playwright/strata-pattern-lab-desktop.png',fullPage:false});
+  await page.setViewportSize({width:390,height:844});
+  const width=await page.evaluate(()=>({page:document.documentElement.scrollWidth,viewport:innerWidth}));
+  if(width.page>width.viewport+2)throw Error('Pattern lab has phone overflow: '+JSON.stringify(width));
+  await page.screenshot({path:'output/playwright/strata-pattern-lab-phone.png',fullPage:false});
+  return {result:'PASS',nativeSourceScale:scale,generatedSize:[180,600],reviewSaved:true,datasetZipBytes:zip.length,phoneWidth:width};
+}

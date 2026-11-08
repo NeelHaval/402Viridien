@@ -1,0 +1,116 @@
+{
+  "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+  "entries": [
+    {
+      "label": "Limestone",
+      "box": [
+        87,
+        164,
+        332,
+        401
+      ],
+      "pattern": "Black rectangular brickwork on white."
+    },
+    {
+      "label": "Dolomite",
+      "box": [
+        443,
+        164,
+        677,
+        401
+      ],
+      "pattern": "Black brickwork with slanted vertical joints on white."
+    },
+    {
+      "label": "Anhydrite",
+      "box": [
+        786,
+        164,
+        1019,
+        411
+      ],
+      "pattern": "Black broken diagonal lines rising to the right on white."
+    },
+    {
+      "label": "Halite",
+      "box": [
+        1128,
+        165,
+        1362,
+        401
+      ],
+      "pattern": "Black tall inverted-L marks on white."
+    },
+    {
+      "label": "Coal",
+      "box": [
+        99,
+        479,
+        332,
+        739
+      ],
+      "pattern": "Solid black fill."
+    },
+    {
+      "label": "Clay",
+      "box": [
+        442,
+        480,
+        677,
+        748
+      ],
+      "pattern": "Staggered short black horizontal dashes on white."
+    },
+    {
+      "label": "Shale",
+      "box": [
+        784,
+        480,
+        1019,
+        739
+      ],
+      "pattern": "Staggered short black horizontal dashes on white."
+    },
+    {
+      "label": "Siltstone",
+      "box": [
+        1127,
+        480,
+        1362,
+        739
+      ],
+      "pattern": "Pairs of short black vertical lines in staggered rows on white."
+    },
+    {
+      "label": "Silty Sandstone",
+      "box": [
+        86,
+        841,
+        335,
+        1160
+      ],
+      "pattern": "Black horizontal dashes interspersed with dots on white."
+    },
+    {
+      "label": "Sand and Sandstone",
+      "box": [
+        427,
+        841,
+        678,
+        1160
+      ],
+      "pattern": "Regular rows of small black dots on white."
+    }
+  ],
+  "image_size": [
+    1482,
+    1550
+  ],
+  "source_box": [
+    1925,
+    1513,
+    3017,
+    2655
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

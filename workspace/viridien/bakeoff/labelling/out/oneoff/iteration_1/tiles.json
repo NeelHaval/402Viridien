@@ -1,0 +1,708 @@
+{
+  "S": [
+    [
+      0,
+      15662,
+      16235,
+      [
+        {
+          "top_y": 15662,
+          "bottom_y": 15684,
+          "label": "Claystone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 15684,
+          "bottom_y": 15696,
+          "label": "Silt",
+          "confidence": 0.88
+        },
+        {
+          "top_y": 15696,
+          "bottom_y": 15833,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15833,
+          "bottom_y": 15842,
+          "label": "Silt",
+          "confidence": 0.89
+        },
+        {
+          "top_y": 15842,
+          "bottom_y": 15897,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15897,
+          "bottom_y": 15909,
+          "label": "Silt",
+          "confidence": 0.89
+        },
+        {
+          "top_y": 15909,
+          "bottom_y": 15977,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15977,
+          "bottom_y": 15996,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 15996,
+          "bottom_y": 15997,
+          "label": "Claystone",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 15997,
+          "bottom_y": 16017,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 16017,
+          "bottom_y": 16108,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16108,
+          "bottom_y": 16109,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16109,
+          "bottom_y": 16217,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16217,
+          "bottom_y": 16229,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 16229,
+          "bottom_y": 16235,
+          "label": "Claystone",
+          "confidence": 0.97
+        }
+      ]
+    ],
+    [
+      1,
+      16175,
+      16749,
+      [
+        {
+          "top_y": 16175,
+          "bottom_y": 16217,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16217,
+          "bottom_y": 16229,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16229,
+          "bottom_y": 16246,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16246,
+          "bottom_y": 16258,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16258,
+          "bottom_y": 16286,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16286,
+          "bottom_y": 16298,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16298,
+          "bottom_y": 16342,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16342,
+          "bottom_y": 16346,
+          "label": "Silt",
+          "confidence": 0.75
+        },
+        {
+          "top_y": 16346,
+          "bottom_y": 16385,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16385,
+          "bottom_y": 16397,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 16397,
+          "bottom_y": 16409,
+          "label": "Claystone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 16409,
+          "bottom_y": 16410,
+          "label": "Silt",
+          "confidence": 0.64
+        },
+        {
+          "top_y": 16410,
+          "bottom_y": 16418,
+          "label": "Claystone",
+          "confidence": 0.8
+        },
+        {
+          "top_y": 16418,
+          "bottom_y": 16421,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16421,
+          "bottom_y": 16537,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16537,
+          "bottom_y": 16549,
+          "label": "Silt",
+          "confidence": 0.86
+        },
+        {
+          "top_y": 16549,
+          "bottom_y": 16550,
+          "label": "Claystone",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16550,
+          "bottom_y": 16551,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 16551,
+          "bottom_y": 16610,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16610,
+          "bottom_y": 16621,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 16621,
+          "bottom_y": 16633,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16633,
+          "bottom_y": 16646,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16646,
+          "bottom_y": 16677,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16677,
+          "bottom_y": 16686,
+          "label": "Silt",
+          "confidence": 0.91
+        },
+        {
+          "top_y": 16686,
+          "bottom_y": 16718,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16718,
+          "bottom_y": 16719,
+          "label": "Silt",
+          "confidence": 0.77
+        },
+        {
+          "top_y": 16719,
+          "bottom_y": 16749,
+          "label": "Claystone",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      16689,
+      17262,
+      [
+        {
+          "top_y": 16689,
+          "bottom_y": 16718,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16718,
+          "bottom_y": 16719,
+          "label": "Silt",
+          "confidence": 0.79
+        },
+        {
+          "top_y": 16719,
+          "bottom_y": 16788,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16788,
+          "bottom_y": 16795,
+          "label": "Silt",
+          "confidence": 0.91
+        },
+        {
+          "top_y": 16795,
+          "bottom_y": 16808,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16808,
+          "bottom_y": 16831,
+          "label": "Silt",
+          "confidence": 0.8
+        },
+        {
+          "top_y": 16831,
+          "bottom_y": 16832,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16832,
+          "bottom_y": 16844,
+          "label": "Silt",
+          "confidence": 0.93
+        },
+        {
+          "top_y": 16844,
+          "bottom_y": 16899,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16899,
+          "bottom_y": 16949,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 16949,
+          "bottom_y": 17224,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 17224,
+          "bottom_y": 17225,
+          "label": "Silt",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 17225,
+          "bottom_y": 17262,
+          "label": "Claystone",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      15662,
+      16235,
+      [
+        {
+          "top_y": 15662,
+          "bottom_y": 15684,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15684,
+          "bottom_y": 15696,
+          "label": "Silt",
+          "confidence": 0.86
+        },
+        {
+          "top_y": 15696,
+          "bottom_y": 15833,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15833,
+          "bottom_y": 15842,
+          "label": "Silt",
+          "confidence": 0.85
+        },
+        {
+          "top_y": 15842,
+          "bottom_y": 15897,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15897,
+          "bottom_y": 15909,
+          "label": "Silt",
+          "confidence": 0.85
+        },
+        {
+          "top_y": 15909,
+          "bottom_y": 15977,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 15977,
+          "bottom_y": 15996,
+          "label": "Silt",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 15996,
+          "bottom_y": 15997,
+          "label": "Claystone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 15997,
+          "bottom_y": 16017,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16017,
+          "bottom_y": 16108,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16108,
+          "bottom_y": 16109,
+          "label": "Silt",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 16109,
+          "bottom_y": 16217,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16217,
+          "bottom_y": 16229,
+          "label": "Silt",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 16229,
+          "bottom_y": 16235,
+          "label": "Claystone",
+          "confidence": 0.98
+        }
+      ]
+    ],
+    [
+      1,
+      16175,
+      16749,
+      [
+        {
+          "top_y": 16175,
+          "bottom_y": 16217,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16217,
+          "bottom_y": 16229,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16229,
+          "bottom_y": 16246,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16246,
+          "bottom_y": 16258,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16258,
+          "bottom_y": 16286,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16286,
+          "bottom_y": 16298,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16298,
+          "bottom_y": 16342,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16342,
+          "bottom_y": 16346,
+          "label": "Silt",
+          "confidence": 0.75
+        },
+        {
+          "top_y": 16346,
+          "bottom_y": 16385,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16385,
+          "bottom_y": 16409,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16409,
+          "bottom_y": 16410,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16410,
+          "bottom_y": 16418,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16418,
+          "bottom_y": 16537,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16537,
+          "bottom_y": 16549,
+          "label": "Silt",
+          "confidence": 0.9
+        },
+        {
+          "top_y": 16549,
+          "bottom_y": 16550,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16550,
+          "bottom_y": 16551,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16551,
+          "bottom_y": 16612,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16612,
+          "bottom_y": 16619,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16619,
+          "bottom_y": 16621,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16621,
+          "bottom_y": 16633,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16633,
+          "bottom_y": 16678,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16678,
+          "bottom_y": 16684,
+          "label": "Silt",
+          "confidence": 0.9
+        },
+        {
+          "top_y": 16684,
+          "bottom_y": 16718,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16718,
+          "bottom_y": 16719,
+          "label": "Silt",
+          "confidence": 0.8
+        },
+        {
+          "top_y": 16719,
+          "bottom_y": 16749,
+          "label": "Claystone",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      16689,
+      17262,
+      [
+        {
+          "top_y": 16689,
+          "bottom_y": 16718,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16718,
+          "bottom_y": 16719,
+          "label": "Silt",
+          "confidence": 0.8
+        },
+        {
+          "top_y": 16719,
+          "bottom_y": 16788,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16788,
+          "bottom_y": 16795,
+          "label": "Silt",
+          "confidence": 0.93
+        },
+        {
+          "top_y": 16795,
+          "bottom_y": 16808,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16808,
+          "bottom_y": 16831,
+          "label": "Silt",
+          "confidence": 0.8
+        },
+        {
+          "top_y": 16831,
+          "bottom_y": 16832,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16832,
+          "bottom_y": 16844,
+          "label": "Silt",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 16844,
+          "bottom_y": 16899,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 16899,
+          "bottom_y": 16938,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 16938,
+          "bottom_y": 16947,
+          "label": "Claystone",
+          "confidence": 0.78
+        },
+        {
+          "top_y": 16947,
+          "bottom_y": 16949,
+          "label": "Silt",
+          "confidence": 0.87
+        },
+        {
+          "top_y": 16949,
+          "bottom_y": 17224,
+          "label": "Claystone",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 17224,
+          "bottom_y": 17225,
+          "label": "Silt",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 17225,
+          "bottom_y": 17262,
+          "label": "Claystone",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

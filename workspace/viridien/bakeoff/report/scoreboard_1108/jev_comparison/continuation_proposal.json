@@ -1,0 +1,18 @@
+{
+  "status": "private_unlaunched_proposal",
+  "authority": "No execution until the manager confirms secure environment injection and explicit single-owner release. Pattern Labeller owns the approved future API client.",
+  "api_envonly_worker_status": "Unapproved launcher proposal; do not run as a competing API client. Use the Pattern Labeller owner's approved client unless that owner explicitly adopts this wrapper.",
+  "files_sha256": {
+    "continue_jev.py": "a508135a89cc9582443ae491e8bed72eac94ba22c85ce1dfa2d59f3ed60dba20",
+    "api_envonly_worker.py": "e96273de829eb4bc6c3252eb6814fb83f1bc73ed48d712e7deed6e92ea21e670",
+    "test_continuation.py": "5d91d9de469e3d8d728dcdb8d1e6e05caae99ad3ae0446a2bf72dbacce647c3c"
+  },
+  "existing_hold_receipt": "viridien_work/pattern_lab/data/jev-e2e-20261108/api-hold.json",
+  "required_next_steps": [
+    "Verify released ownership and the live checkpoint with the manager and Pattern Labeller owner.",
+    "Use the Pattern Labeller owner's approved environment-only client and secure injection.",
+    "Revalidate this proposal, its hashes and mocked tests after any authorised modification.",
+    "Retain completed case receipts and decision caches; do not repeat requests with uncertain outcomes.",
+    "Run one paired replay after a bounded pass instead of transferring every earlier case after each new case."
+  ]
+}

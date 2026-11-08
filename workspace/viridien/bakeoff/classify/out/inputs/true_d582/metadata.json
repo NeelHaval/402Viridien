@@ -1,0 +1,38 @@
+{
+  "key": "true_d582",
+  "source": "TRUE",
+  "family": "D-582 1-bit grid",
+  "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+  "rows": null,
+  "vocabulary": [
+    "LImestone",
+    "Dolomite",
+    "Anhydrlte",
+    "Halite",
+    "Coal",
+    "Clay",
+    "Shale",
+    "Siltstone",
+    "SIllty Sandstone",
+    "Sand and Sandstone"
+  ],
+  "parser_failed": false,
+  "n_accepted": 17,
+  "n_selected": 17,
+  "excluded": [],
+  "mode": "1",
+  "legend_box": [
+    1943,
+    1513,
+    3035,
+    2655
+  ],
+  "column_box": [
+    2991,
+    4404,
+    3237,
+    11195
+  ],
+  "truth_sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+}

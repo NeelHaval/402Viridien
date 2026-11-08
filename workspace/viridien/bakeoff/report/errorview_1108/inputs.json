@@ -1,0 +1,2481 @@
+{
+  "cases": [
+    {
+      "id": "human:60811405120000_1inch tvd mudlog__y1503_7503",
+      "log": "60811405120000_1inch tvd mudlog",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "source": "human",
+      "group": "challenge:60811405120000_1inch tvd mudlog",
+      "split": "dev",
+      "window": [
+        1503,
+        7503
+      ],
+      "truth_window": [
+        1503,
+        14851
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "2 beds relabelled; 1 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "TVD",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00000-d1e66cf062.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405120000_1inch tvd mudlog__y7503_13503",
+      "log": "60811405120000_1inch tvd mudlog",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "source": "human",
+      "group": "challenge:60811405120000_1inch tvd mudlog",
+      "split": "dev",
+      "window": [
+        7503,
+        13503
+      ],
+      "truth_window": [
+        1503,
+        14851
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "2 beds relabelled; 1 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "TVD",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00001-41f0abd53b.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y10093_16093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        10093,
+        16093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00002-b8165a55fb.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y16093_22093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        16093,
+        22093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00003-871c48ec9c.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y22093_28093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        22093,
+        28093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00004-2a70c54cc7.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y28093_34093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        28093,
+        34093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00005-fff36231e4.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y34093_40093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        34093,
+        40093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00006-8c0ce6f555.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y40093_46093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        40093,
+        46093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00007-a923fe9883.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y46093_52093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        46093,
+        52093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00008-2dcac11160.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y52093_58093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        52093,
+        58093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00009-1b9e5a4f29.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "organizer:0000000009_d-582_0000020435-0001_log06_fe_5in_md__y4404_11195",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "source": "organizer",
+      "group": "challenge:d582",
+      "split": "dev",
+      "window": [
+        4404,
+        11195
+      ],
+      "truth_window": [
+        4404,
+        11195
+      ],
+      "tags": [
+        "visible_development",
+        "family:d582",
+        "organizer_example"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "organizer_example",
+        "caveat": "Repeatedly used development page"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "MD",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "challenge:d582",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00010-5a96006a82.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_kgs_386825__y2705_8705",
+      "log": "ext_kgs_386825",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_kgs_386825.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_kgs_386825.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+      "source": "external_labelled",
+      "group": "external:kgs:386825",
+      "split": "dev",
+      "window": [
+        2705,
+        8705
+      ],
+      "truth_window": [
+        2705,
+        9830
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-kgs"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.kgs.ku.edu/PRS/Scans/kcc_logs_2016/386825.pdf",
+        "notes": "Depth OLS RMSE=0.000143 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Lmst | Sltst",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:kgs:386825",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00011-077026e3e8.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_kgs_386825__y8705_10200",
+      "log": "ext_kgs_386825",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_kgs_386825.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_kgs_386825.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+      "source": "external_labelled",
+      "group": "external:kgs:386825",
+      "split": "dev",
+      "window": [
+        8705,
+        10200
+      ],
+      "truth_window": [
+        5705,
+        10200
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-kgs"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.kgs.ku.edu/PRS/Scans/kcc_logs_2016/386825.pdf",
+        "notes": "Depth OLS RMSE=0.000143 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Lmst | Sltst",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:kgs:386825",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00012-1b006a798c.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p001__y2510_8510",
+      "log": "ext_idaho_barlow3-14_p001",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        2510,
+        8510
+      ],
+      "truth_window": [
+        2510,
+        21750
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "899 mixed-width intervals: exact dominant-width label; ties alphabetical; 1 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0001338 ft; raster edges rounded to nearest row; Legend parse missing: Clyst gy | Ls ltgy | Sltst ltgy | Tuff dkgy | Tuff lt blu | Tuff ltgy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00013-7311b3d0af.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p001__y9130_15130",
+      "log": "ext_idaho_barlow3-14_p001",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        9130,
+        15130
+      ],
+      "truth_window": [
+        2884,
+        21750
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "899 mixed-width intervals: exact dominant-width label; ties alphabetical; 1 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0001338 ft; raster edges rounded to nearest row; Legend parse missing: Clyst gy | Ls ltgy | Sltst ltgy | Tuff dkgy | Tuff lt blu | Tuff ltgy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00014-ead903c4c7.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p001__y15750_21750",
+      "log": "ext_idaho_barlow3-14_p001",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        15750,
+        21750
+      ],
+      "truth_window": [
+        2884,
+        21750
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "899 mixed-width intervals: exact dominant-width label; ties alphabetical; 1 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0001338 ft; raster edges rounded to nearest row; Legend parse missing: Clyst gy | Ls ltgy | Sltst ltgy | Tuff dkgy | Tuff lt blu | Tuff ltgy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00015-641ea8dddb.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p002__y284_6284",
+      "log": "ext_idaho_barlow3-14_p002",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        284,
+        6284
+      ],
+      "truth_window": [
+        284,
+        20794
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "Original legend from p1 pasted above page; y shift=284; 1247 mixed-width intervals: exact dominant-width label; ties alphabetical; 146 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0009813 ft; raster edges rounded to nearest row; Legend parse missing: Basalt | Clyst gy | Sltst brn | Sltst dkgy | Sltst ltgy | Tuff dkgy | Tuff lt blu",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00016-e4cb51f0eb.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p002__y7726_13726",
+      "log": "ext_idaho_barlow3-14_p002",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        7726,
+        13726
+      ],
+      "truth_window": [
+        284,
+        20794
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "Original legend from p1 pasted above page; y shift=284; 1247 mixed-width intervals: exact dominant-width label; ties alphabetical; 146 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0009813 ft; raster edges rounded to nearest row; Legend parse missing: Basalt | Clyst gy | Sltst brn | Sltst dkgy | Sltst ltgy | Tuff dkgy | Tuff lt blu",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00017-9366759ed8.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p002__y15169_21169",
+      "log": "ext_idaho_barlow3-14_p002",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        15169,
+        21169
+      ],
+      "truth_window": [
+        284,
+        21169
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "Original legend from p1 pasted above page; y shift=284; 1247 mixed-width intervals: exact dominant-width label; ties alphabetical; 146 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0009813 ft; raster edges rounded to nearest row; Legend parse missing: Basalt | Clyst gy | Sltst brn | Sltst dkgy | Sltst ltgy | Tuff dkgy | Tuff lt blu",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00018-72c73bef7a.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p071__y1314_1880",
+      "log": "ext_nl_flat-bay-2_p071",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p071.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p071.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p071.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        1314,
+        1880
+      ],
+      "truth_window": [
+        1314,
+        1880
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 1 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004557 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Clyst",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00019-b434a5dc0b.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p073__y232_1879",
+      "log": "ext_nl_flat-bay-2_p073",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p073.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p073.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p073.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 2 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004777 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00020-979140ebd7.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p074__y232_1879",
+      "log": "ext_nl_flat-bay-2_p074",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p074.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p074.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p074.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 6 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004521 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00021-371baec428.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p075__y232_1877",
+      "log": "ext_nl_flat-bay-2_p075",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p075.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p075.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p075.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1877
+      ],
+      "truth_window": [
+        232,
+        1877
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 1 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.05624 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00022-2cd84c2c8c.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p076__y232_1879",
+      "log": "ext_nl_flat-bay-2_p076",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p076.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p076.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p076.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 7 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004523 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00023-21120aed7b.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p077__y232_1879",
+      "log": "ext_nl_flat-bay-2_p077",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p077.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p077.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p077.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 5 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004531 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00024-6fa5fd910d.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p078__y232_1879",
+      "log": "ext_nl_flat-bay-2_p078",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p078.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p078.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p078.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 3 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004777 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00025-c6214b2336.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p079__y232_1879",
+      "log": "ext_nl_flat-bay-2_p079",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p079.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p079.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p079.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 14 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.00452 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy | Clyst | Gyp",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00026-c218c0fbb5.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p080__y232_1879",
+      "log": "ext_nl_flat-bay-2_p080",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p080.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p080.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p080.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 27 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004935 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [baseline/20261108T054058Z-30b4921c23]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\baseline\\20261108T054058Z-30b4921c23\\predictions\\00027-b65650a023.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405120000_1inch tvd mudlog__y1503_7503",
+      "log": "60811405120000_1inch tvd mudlog",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "source": "human",
+      "group": "challenge:60811405120000_1inch tvd mudlog",
+      "split": "dev",
+      "window": [
+        1503,
+        7503
+      ],
+      "truth_window": [
+        1503,
+        14851
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "2 beds relabelled; 1 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "TVD",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00000-d1e66cf062.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405120000_1inch tvd mudlog__y7503_13503",
+      "log": "60811405120000_1inch tvd mudlog",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "source": "human",
+      "group": "challenge:60811405120000_1inch tvd mudlog",
+      "split": "dev",
+      "window": [
+        7503,
+        13503
+      ],
+      "truth_window": [
+        1503,
+        14851
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "2 beds relabelled; 1 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "TVD",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405120000_1inch tvd mudlog",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00001-41f0abd53b.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y10093_16093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        10093,
+        16093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00002-b8165a55fb.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y16093_22093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        16093,
+        22093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00003-871c48ec9c.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y22093_28093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        22093,
+        28093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00004-2a70c54cc7.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y28093_34093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        28093,
+        34093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00005-fff36231e4.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y34093_40093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        34093,
+        40093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00006-8c0ce6f555.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y40093_46093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        40093,
+        46093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00007-a923fe9883.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y46093_52093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        46093,
+        52093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00008-2dcac11160.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "human:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400__y52093_58093",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "source": "human",
+      "group": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "split": "dev",
+      "window": [
+        52093,
+        58093
+      ],
+      "truth_window": [
+        10093,
+        58782
+      ],
+      "tags": [
+        "visible_development",
+        "family:gulf",
+        "human_labelled",
+        "partial_truth"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "human_with_AI_review",
+        "annotator": "Neel Haval (NeelHaval)",
+        "snapshot": "2026-11-08T01:39Z",
+        "notes": "231 depth anchors added from detected 100 ft ticks; legend 0 renamed to Halite; legend 5 renamed to Chalk; legend 10 renamed to Granite; legend 13 renamed to Test; 3 non-rock or overlapping beds removed; 1 beds relabelled; 2 missing thin beds inserted",
+        "caveat": "AI reviewed amendments; partial Shenzi; dominant-width ambiguous beds retained"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00009-1b9e5a4f29.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "organizer:0000000009_d-582_0000020435-0001_log06_fe_5in_md__y4404_11195",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "source": "organizer",
+      "group": "challenge:d582",
+      "split": "dev",
+      "window": [
+        4404,
+        11195
+      ],
+      "truth_window": [
+        4404,
+        11195
+      ],
+      "tags": [
+        "visible_development",
+        "family:d582",
+        "organizer_example"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "organizer_example",
+        "caveat": "Repeatedly used development page"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "MD",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "challenge:d582",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00010-5a96006a82.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_kgs_386825__y2705_8705",
+      "log": "ext_kgs_386825",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_kgs_386825.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_kgs_386825.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+      "source": "external_labelled",
+      "group": "external:kgs:386825",
+      "split": "dev",
+      "window": [
+        2705,
+        8705
+      ],
+      "truth_window": [
+        2705,
+        9830
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-kgs"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.kgs.ku.edu/PRS/Scans/kcc_logs_2016/386825.pdf",
+        "notes": "Depth OLS RMSE=0.000143 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Lmst | Sltst",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:kgs:386825",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00011-077026e3e8.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_kgs_386825__y8705_10200",
+      "log": "ext_kgs_386825",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_kgs_386825.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_kgs_386825.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_kgs_386825.csv",
+      "source": "external_labelled",
+      "group": "external:kgs:386825",
+      "split": "dev",
+      "window": [
+        8705,
+        10200
+      ],
+      "truth_window": [
+        5705,
+        10200
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-kgs"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.kgs.ku.edu/PRS/Scans/kcc_logs_2016/386825.pdf",
+        "notes": "Depth OLS RMSE=0.000143 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Lmst | Sltst",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:kgs:386825",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00012-1b006a798c.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p001__y2510_8510",
+      "log": "ext_idaho_barlow3-14_p001",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        2510,
+        8510
+      ],
+      "truth_window": [
+        2510,
+        21750
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "899 mixed-width intervals: exact dominant-width label; ties alphabetical; 1 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0001338 ft; raster edges rounded to nearest row; Legend parse missing: Clyst gy | Ls ltgy | Sltst ltgy | Tuff dkgy | Tuff lt blu | Tuff ltgy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00013-7311b3d0af.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p001__y9130_15130",
+      "log": "ext_idaho_barlow3-14_p001",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        9130,
+        15130
+      ],
+      "truth_window": [
+        2884,
+        21750
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "899 mixed-width intervals: exact dominant-width label; ties alphabetical; 1 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0001338 ft; raster edges rounded to nearest row; Legend parse missing: Clyst gy | Ls ltgy | Sltst ltgy | Tuff dkgy | Tuff lt blu | Tuff ltgy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00014-ead903c4c7.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p001__y15750_21750",
+      "log": "ext_idaho_barlow3-14_p001",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p001.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        15750,
+        21750
+      ],
+      "truth_window": [
+        2884,
+        21750
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "899 mixed-width intervals: exact dominant-width label; ties alphabetical; 1 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0001338 ft; raster edges rounded to nearest row; Legend parse missing: Clyst gy | Ls ltgy | Sltst ltgy | Tuff dkgy | Tuff lt blu | Tuff ltgy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00015-641ea8dddb.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p002__y284_6284",
+      "log": "ext_idaho_barlow3-14_p002",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        284,
+        6284
+      ],
+      "truth_window": [
+        284,
+        20794
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "Original legend from p1 pasted above page; y shift=284; 1247 mixed-width intervals: exact dominant-width label; ties alphabetical; 146 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0009813 ft; raster edges rounded to nearest row; Legend parse missing: Basalt | Clyst gy | Sltst brn | Sltst dkgy | Sltst ltgy | Tuff dkgy | Tuff lt blu",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00016-e4cb51f0eb.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p002__y7726_13726",
+      "log": "ext_idaho_barlow3-14_p002",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        7726,
+        13726
+      ],
+      "truth_window": [
+        284,
+        20794
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "Original legend from p1 pasted above page; y shift=284; 1247 mixed-width intervals: exact dominant-width label; ties alphabetical; 146 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0009813 ft; raster edges rounded to nearest row; Legend parse missing: Basalt | Clyst gy | Sltst brn | Sltst dkgy | Sltst ltgy | Tuff dkgy | Tuff lt blu",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00017-9366759ed8.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_idaho_barlow3-14_p002__y15169_21169",
+      "log": "ext_idaho_barlow3-14_p002",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_idaho_barlow3-14_p002.csv",
+      "source": "external_labelled",
+      "group": "external:idaho:barlow3-14",
+      "split": "dev",
+      "window": [
+        15169,
+        21169
+      ],
+      "truth_window": [
+        284,
+        21169
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-idaho"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://ogcc.idaho.gov/wp-content/uploads/2022.11.10_1107520040_Barlow3-14_MUD_PTS.pdf",
+        "notes": "Original legend from p1 pasted above page; y shift=284; 1247 mixed-width intervals: exact dominant-width label; ties alphabetical; 146 ambiguous-alias intervals excluded from scoring; Depth OLS RMSE=0.0009813 ft; raster edges rounded to nearest row; Legend parse missing: Basalt | Clyst gy | Sltst brn | Sltst dkgy | Sltst ltgy | Tuff dkgy | Tuff lt blu",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "ft",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:idaho:barlow3-14",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00018-72c73bef7a.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p071__y1314_1880",
+      "log": "ext_nl_flat-bay-2_p071",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p071.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p071.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p071.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        1314,
+        1880
+      ],
+      "truth_window": [
+        1314,
+        1880
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 1 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004557 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Clyst",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00019-b434a5dc0b.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p073__y232_1879",
+      "log": "ext_nl_flat-bay-2_p073",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p073.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p073.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p073.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 2 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004777 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00020-979140ebd7.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p074__y232_1879",
+      "log": "ext_nl_flat-bay-2_p074",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p074.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p074.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p074.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 6 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004521 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00021-371baec428.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p075__y232_1877",
+      "log": "ext_nl_flat-bay-2_p075",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p075.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p075.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p075.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1877
+      ],
+      "truth_window": [
+        232,
+        1877
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 1 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.05624 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00022-2cd84c2c8c.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p076__y232_1879",
+      "log": "ext_nl_flat-bay-2_p076",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p076.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p076.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p076.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 7 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004523 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00023-21120aed7b.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p077__y232_1879",
+      "log": "ext_nl_flat-bay-2_p077",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p077.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p077.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p077.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 5 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004531 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00024-6fa5fd910d.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p078__y232_1879",
+      "log": "ext_nl_flat-bay-2_p078",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p078.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p078.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p078.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 3 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004777 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00025-c6214b2336.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p079__y232_1879",
+      "log": "ext_nl_flat-bay-2_p079",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p079.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p079.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p079.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 14 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.00452 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy | Clyst | Gyp",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00026-c218c0fbb5.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "id": "external_labelled:ext_nl_flat-bay-2_p080__y232_1879",
+      "log": "ext_nl_flat-bay-2_p080",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\images\\ext_nl_flat-bay-2_p080.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\bbox_annotation\\ext_nl_flat-bay-2_p080.json",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\external_shared\\truth\\ext_nl_flat-bay-2_p080.csv",
+      "source": "external_labelled",
+      "group": "external:nl:flat-bay-2",
+      "split": "dev",
+      "window": [
+        232,
+        1879
+      ],
+      "truth_window": [
+        232,
+        1879
+      ],
+      "tags": [
+        "visible_development",
+        "family:external-nl",
+        "unit_metadata_conflict"
+      ],
+      "fresh_holdout": false,
+      "label_provenance": {
+        "kind": "pdf_vector_extraction",
+        "source_url": "https://www.gov.nl.ca/em/files/publications-energy-fwr-vulcan-minerals-flat-bay-2.pdf",
+        "notes": "Original legend from p70 pasted above page; y shift=232; 27 mixed-width intervals: exact dominant-width label; ties alphabetical; Metric source; truth depths converted to ft (m/0.3048); Depth OLS RMSE=0.004935 ft; raster edges rounded to nearest row; Unclassified raster overlays are preserved with alpha; their individual symbols are not decoded. Rock truth describes the underlying vector tiles.; Legend parse missing: Anhy",
+        "caveat": "Shared development; different task from scanned challenge logs"
+      },
+      "depth_unit": "ft",
+      "depth_datum": "unknown",
+      "image_depth_unit": "m",
+      "strategy": "viridian402.v4:predict [blank-d6/20261108T055048Z-72a633d1b9]",
+      "family": "external:nl:flat-bay-2",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\viridian402-fixes\\runs\\v4-measured\\blank-d6\\20261108T055048Z-72a633d1b9\\predictions\\00027-b65650a023.csv",
+      "inference_error": null,
+      "suite": "saved run"
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\60811405120000_1inch_tvd_mudlog.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405120000_1inch tvd mudlog.json",
+      "strategy": "v4 beds",
+      "family": "Gulf 1inch",
+      "suite": "human development",
+      "window": [
+        1503,
+        14851
+      ]
+    },
+    {
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "strategy": "v4 beds",
+      "family": "Shenzi",
+      "suite": "human development",
+      "window": [
+        10093,
+        58782
+      ]
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "v4 beds",
+      "family": "D-582",
+      "suite": "human development",
+      "window": [
+        4409,
+        10415
+      ]
+    },
+    {
+      "log": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_labels\\2026-11-07\\labelling\\labels\\60808400140000_hadrian 2_masterlog_2in_10000-21962.json",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\analysis\\categories\\beds_csv\\60808400140000_hadrian_2_masterlog_2in_10000-21962.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60808400140000_hadrian 2_masterlog_2in_10000-21962.json",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60808400140000_hadrian 2_masterlog_2in_10000-21962.json",
+      "strategy": "v4 beds",
+      "family": "Hadrian",
+      "suite": "Hadrian unreviewed",
+      "window": [
+        1738,
+        24773
+      ]
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s19_combine",
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.04395604395604396,
+        "boundary_f1": 0.18848167539267016,
+        "score": 0.008284908808469018
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s20_v4",
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.21045621045621046,
+        "boundary_f1": 0.3902439024390244,
+        "score": 0.08212925286096018
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\6b663182fbfb4f87.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "strategy": "s21_v4dino",
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.13320013320013321,
+        "boundary_f1": 0.625,
+        "score": 0.08325008325008326
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\098a11560a3b06db.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "strategy": "s19_combine",
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.030166666666666668,
+        "boundary_f1": 0.1724137931034483,
+        "score": 0.005201149425287357
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\098a11560a3b06db.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "strategy": "s20_v4",
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.2638333333333333,
+        "boundary_f1": 0.46153846153846156,
+        "score": 0.12176923076923077
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\098a11560a3b06db.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "strategy": "s21_v4dino",
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.33366666666666667,
+        "boundary_f1": 0.4666666666666667,
+        "score": 0.1557111111111111
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ee53c8e06c27030e.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "strategy": "s19_combine",
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.01633333333333333,
+        "boundary_f1": 0.1476510067114094,
+        "score": 0.002411633109619687
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\ee53c8e06c27030e.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "strategy": "s20_v4",
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.35183333333333333,
+        "boundary_f1": 0.3,
+        "score": 0.10554999999999999
+      },
+      "inference_error": null
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\ee53c8e06c27030e.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "strategy": "s21_v4dino",
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.43116666666666664,
+        "boundary_f1": 0.3076923076923077,
+        "score": 0.13266666666666665
+      },
+      "inference_error": null
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ff55e97bd8089596.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "strategy": "s19_combine",
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60807402860000_gb506#2_md_mudlog.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.3,
+        "boundary_f1": 0.89419795221843,
+        "score": 0.268259385665529
+      },
+      "inference_error": null
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\ff55e97bd8089596.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "strategy": "s20_v4",
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60807402860000_gb506#2_md_mudlog.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.386,
+        "boundary_f1": 0.939297124600639,
+        "score": 0.36256869009584664
+      },
+      "inference_error": null
+    },
+    {
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\ff55e97bd8089596.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "strategy": "s21_v4dino",
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60807402860000_gb506#2_md_mudlog.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.2991666666666667,
+        "boundary_f1": 0.9389067524115756,
+        "score": 0.2808896034297964
+      },
+      "inference_error": null
+    },
+    {
+      "log": "60811405120000_1inch tvd mudlog",
+      "truth": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+      "prediction": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\0de8d24f32217327.csv",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "strategy": "s19_combine",
+      "window": [
+        1501,
+        7501
+      ],
+      "family": "Gulf 3-panel",
+      "suite": "viridien_eval",
+      "legend_json": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\legend\\60811405120000_1inch tvd mudlog.json",
+      "scoreboard_metrics": {
+        "row_acc": 0.9445,
+        "boundary_f1": 0.8527131782945736,
+        "score": 0.8053875968992248
+      },
+      "inference_error": null
+    }
+  ]
+}

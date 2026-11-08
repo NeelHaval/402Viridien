@@ -1,0 +1,60 @@
+/* All rules stay inside the mounted lab. The editor can set the --plab-* tokens. */
+.plab {
+  --plab-surface: #fff;
+  --plab-ink: #172b31;
+  --plab-muted: #455e66;
+  --plab-line: #b9c7cb;
+  --plab-accent: #00634d;
+  --plab-focus: #b54605;
+  color: var(--plab-ink);
+  background: var(--plab-surface);
+  font: inherit;
+  line-height: 1.45;
+  padding: 18px;
+  container-type: inline-size;
+}
+.plab, .plab * { box-sizing: border-box; }
+.plab h2 { font: inherit; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px; }
+.plab p { margin: 8px 0 14px; max-width: 72ch; overflow-wrap: anywhere; }
+.plab .plab-labels { font-weight: 650; }
+.plab .plab-detail { color: var(--plab-muted); font-size: .875rem; }
+.plab label { display: block; font-size: .875rem; font-weight: 600; margin-bottom: 5px; }
+.plab input, .plab textarea, .plab button {
+  font: inherit;
+  color: inherit;
+  min-height: 40px;
+  border: 1px solid var(--plab-line);
+  border-radius: 5px;
+}
+.plab input, .plab textarea {
+  background: var(--plab-surface);
+  padding: 7px 9px;
+  width: 100%;
+  caret-color: var(--plab-accent);
+  font-variant-numeric: tabular-nums;
+}
+.plab textarea { resize: vertical; min-height: 64px; }
+.plab button { background: var(--plab-accent); color: #fff; padding: 8px 14px; cursor: pointer; }
+.plab button:hover:enabled { filter: brightness(.9); }
+.plab button:disabled { opacity: .55; cursor: default; }
+.plab button.plab-secondary { background: var(--plab-surface); color: var(--plab-ink); }
+.plab :focus-visible { outline: 3px solid var(--plab-focus); outline-offset: 3px; }
+.plab ::selection { background: #bde9db; color: var(--plab-ink); }
+.plab a { color: var(--plab-accent); text-underline-offset: 3px; }
+.plab .plab-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; margin: 18px 0 10px; }
+.plab .plab-field { flex: 1 1 110px; min-width: 0; }
+.plab .plab-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 20px 0 14px; }
+.plab figure { min-width: 0; margin: 0; }
+.plab figcaption { font-size: .875rem; font-weight: 650; margin-bottom: 8px; }
+.plab .plab-image-viewport { border: 1px solid var(--plab-line); background: #edf1f2; height: 360px; overflow: auto; scrollbar-color: #6c858c #edf1f2; }
+.plab img { display: block; width: 180px; max-width: none; height: auto; }
+.plab .plab-status { min-height: 2.9em; }
+.plab .plab-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 24px; }
+.plab .plab-export { border-top: 1px solid var(--plab-line); padding-top: 18px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.plab .plab-export label { flex: 1 1 180px; margin: 0; }
+.plab .plab-export input { width: 76px; }
+@container (max-width: 340px) {
+  .plab .plab-pair { gap: 10px; }
+  .plab .plab-image-viewport { height: 260px; }
+  .plab .plab-controls button { width: 100%; }
+}

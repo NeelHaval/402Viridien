@@ -1,0 +1,15 @@
+[
+  {
+    "top_y": 30,
+    "bottom_y": 505,
+    "lithology": "DOLOMT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5243789972757038,
+      "match_margin": 0.2482481180994135,
+      "boundary_probability": 0.8123664855957031
+    }
+  }
+]

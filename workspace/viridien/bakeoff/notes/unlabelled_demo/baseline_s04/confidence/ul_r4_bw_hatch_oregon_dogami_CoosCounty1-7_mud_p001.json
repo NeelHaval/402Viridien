@@ -1,0 +1,152 @@
+[
+  {
+    "top_y": 1050,
+    "bottom_y": 2645,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "S:!+Y S:ale",
+    "raw_descriptor_gap": 0.7847285022264484,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 2645,
+    "bottom_y": 4008,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.7136539444772344,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 4008,
+    "bottom_y": 4621,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "S:!+Y S:ale",
+    "raw_descriptor_gap": 0.7348039812207223,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 4621,
+    "bottom_y": 4963,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.42520344436384666,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 4963,
+    "bottom_y": 11720,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "S:!+Y S:ale",
+    "raw_descriptor_gap": 0.5498586507758954,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 11720,
+    "bottom_y": 12201,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.8125777332097853,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 12201,
+    "bottom_y": 13649,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "S:!+Y S:ale",
+    "raw_descriptor_gap": 0.07437042061392966,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 13649,
+    "bottom_y": 13920,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.6868370263273381,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 13920,
+    "bottom_y": 15301,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.626564198859689,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 15301,
+    "bottom_y": 15624,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "\u3016a?g\uff07",
+    "raw_descriptor_gap": 0.2880045036385819,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 15624,
+    "bottom_y": 17298,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.19636648862435477,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 17298,
+    "bottom_y": 17746,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.5634996956869631,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 17746,
+    "bottom_y": 18918,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.5876904714684179,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 18918,
+    "bottom_y": 24193,
+    "lithology": "10",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "0\":(",
+    "raw_descriptor_gap": 0.7149080969866786,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 24193,
+    "bottom_y": 24300,
+    "lithology": "S:!+Y S:ale",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "S:!+Y S:ale",
+    "raw_descriptor_gap": 0.8402852436321125,
+    "raw_descriptor_agrees": true
+  }
+]

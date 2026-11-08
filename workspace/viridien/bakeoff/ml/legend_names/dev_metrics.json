@@ -1,0 +1,4375 @@
+{
+ "s11": {
+  "mean": {
+   "score": 0.17099759729834996,
+   "row_acc": 0.4388260250498825,
+   "boundary_f1": 0.3518572435866085,
+   "cluster_ari": 0.6563354245058672,
+   "depth_mae_ft": null,
+   "seconds": null,
+   "peak_rss_gb": null,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 59,
+   "n_scored": 59
+  },
+  "well_macro": {
+   "row_acc": 0.35747852904101185,
+   "boundary_f1": 0.2915480513168321,
+   "cluster_ari": 0.5391837330775794
+  },
+  "logs": [
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     2705,
+     8705
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.08791208791208792,
+    "cluster_ari": 0.03831301220794976,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     8705,
+     10200
+    ],
+    "scored": true,
+    "row_acc": 0.26666666666666666,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.34482918868310647,
+    "depth_mae_ft": null,
+    "score": 0.08888888888888888
+   },
+   {
+    "log": "ext_utah_4304150011_p135",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7911111111111111,
+    "boundary_f1": 0.18181818181818182,
+    "cluster_ari": 0.9439861123930612,
+    "depth_mae_ft": null,
+    "score": 0.14383838383838385
+   },
+   {
+    "log": "ext_utah_4304150011_p136",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5615686274509804,
+    "boundary_f1": 0.2,
+    "cluster_ari": 0.8467870736763232,
+    "depth_mae_ft": null,
+    "score": 0.11231372549019608
+   },
+   {
+    "log": "ext_utah_4304150011_p137",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.39450980392156865,
+    "boundary_f1": 0.5263157894736842,
+    "cluster_ari": 0.7203129669617782,
+    "depth_mae_ft": null,
+    "score": 0.20763673890608875
+   },
+   {
+    "log": "ext_utah_4304150011_p138",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7239215686274509,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.7960228958437661,
+    "depth_mae_ft": null,
+    "score": 0.4826143790849673
+   },
+   {
+    "log": "ext_utah_4304150011_p139",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5623529411764706,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.5741533002951293,
+    "depth_mae_ft": null,
+    "score": 0.16067226890756303
+   },
+   {
+    "log": "ext_utah_4304150011_p140",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4549019607843137,
+    "boundary_f1": 0.5882352941176471,
+    "cluster_ari": 0.5693102296434751,
+    "depth_mae_ft": null,
+    "score": 0.26758938869665516
+   },
+   {
+    "log": "ext_utah_4304150011_p141",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.504313725490196,
+    "boundary_f1": 0.32,
+    "cluster_ari": 0.5385819637819418,
+    "depth_mae_ft": null,
+    "score": 0.16138039215686273
+   },
+   {
+    "log": "ext_utah_4304150011_p142",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8494117647058823,
+    "boundary_f1": 0.16666666666666666,
+    "cluster_ari": 0.7737823015145683,
+    "depth_mae_ft": null,
+    "score": 0.14156862745098037
+   },
+   {
+    "log": "ext_utah_4304150011_p143",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.38901960784313727,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.7629990594033815,
+    "depth_mae_ft": null,
+    "score": 0.2593464052287582
+   },
+   {
+    "log": "ext_utah_4304150011_p144",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6941176470588235,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.966282850272647,
+    "depth_mae_ft": null,
+    "score": 0.46274509803921565
+   },
+   {
+    "log": "ext_utah_4304150011_p145",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7545098039215686,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.9586301108003599,
+    "depth_mae_ft": null,
+    "score": 0.5487344028520499
+   },
+   {
+    "log": "ext_utah_4304150011_p146",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7325490196078431,
+    "boundary_f1": 0.42105263157894735,
+    "cluster_ari": 0.7873601922493522,
+    "depth_mae_ft": null,
+    "score": 0.30844169246646025
+   },
+   {
+    "log": "ext_utah_4304150011_p147",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4,
+    "boundary_f1": 0.4,
+    "cluster_ari": 0.7796771820989853,
+    "depth_mae_ft": null,
+    "score": 0.16000000000000003
+   },
+   {
+    "log": "ext_utah_4304150011_p148",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9924020451599995,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p149",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.31058823529411766,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9627833284073868,
+    "depth_mae_ft": null,
+    "score": 0.31058823529411766
+   },
+   {
+    "log": "ext_utah_4304150011_p150",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.15294117647058825,
+    "boundary_f1": 0.375,
+    "cluster_ari": 0.7697712104625684,
+    "depth_mae_ft": null,
+    "score": 0.05735294117647059
+   },
+   {
+    "log": "ext_utah_4304150011_p151",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.6,
+    "cluster_ari": 0.8058192869258186,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p152",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6282352941176471,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.9470518169438513,
+    "depth_mae_ft": null,
+    "score": 0.4568983957219252
+   },
+   {
+    "log": "ext_utah_4304150011_p153",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6517647058823529,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.7054657009097398,
+    "depth_mae_ft": null,
+    "score": 0.32588235294117646
+   },
+   {
+    "log": "ext_utah_4304150011_p154",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9247058823529412,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.6021782582867585,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p155",
+    "well": "4304150011",
+    "window": [
+     355,
+     790
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p015",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.985781990521327,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.985781990521327
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p016",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.3485124468731026,
+    "boundary_f1": 0.4888888888888889,
+    "cluster_ari": 0.2461141189735542,
+    "depth_mae_ft": null,
+    "score": 0.17038386291573906
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p017",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.1408621736490589,
+    "boundary_f1": 0.3,
+    "cluster_ari": 0.646783637958317,
+    "depth_mae_ft": null,
+    "score": 0.042258652094717665
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p018",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.21052631578947367,
+    "cluster_ari": 0.1861463584340855,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p019",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.5701275045537341,
+    "boundary_f1": 0.3157894736842105,
+    "cluster_ari": 0.30195970356801705,
+    "depth_mae_ft": null,
+    "score": 0.18004026459591602
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p020",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8463873709775349,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.8495653391731492,
+    "depth_mae_ft": null,
+    "score": 0.42319368548876746
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p021",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.2756527018822101,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.6563083963170561,
+    "depth_mae_ft": null,
+    "score": 0.1722829386763813
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p022",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1768
+    ],
+    "scored": true,
+    "row_acc": 0.35678391959798994,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.859728076272702,
+    "depth_mae_ft": null,
+    "score": 0.11892797319932998
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     2510,
+     8510
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.02570694087403599,
+    "cluster_ari": 0.015659546539390078,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     9130,
+     15130
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.08365019011406843,
+    "cluster_ari": 0.16689575511183316,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     15750,
+     21750
+    ],
+    "scored": true,
+    "row_acc": 0.14116666666666666,
+    "boundary_f1": 0.19834710743801653,
+    "cluster_ari": 0.45397580986420655,
+    "depth_mae_ft": null,
+    "score": 0.028
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     284,
+     6284
+    ],
+    "scored": true,
+    "row_acc": 0.010033444816053512,
+    "boundary_f1": 0.09285714285714286,
+    "cluster_ari": 0.3994737533836948,
+    "depth_mae_ft": null,
+    "score": 0.0009316770186335405
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     7726,
+     13726
+    ],
+    "scored": true,
+    "row_acc": 0.3074413863404689,
+    "boundary_f1": 0.14393939393939395,
+    "cluster_ari": 0.3806511399946565,
+    "depth_mae_ft": null,
+    "score": 0.044252926821734165
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     15169,
+     21169
+    ],
+    "scored": true,
+    "row_acc": 0.08087431693989071,
+    "boundary_f1": 0.08,
+    "cluster_ari": 0.2634808179923941,
+    "depth_mae_ft": null,
+    "score": 0.006469945355191257
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p071",
+    "well": "flat-bay-2",
+    "window": [
+     1314,
+     1880
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p073",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p074",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.9068056407112202,
+    "boundary_f1": 0.2,
+    "cluster_ari": 0.7263691588721469,
+    "depth_mae_ft": null,
+    "score": 0.18136112814224403
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p075",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1877
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p076",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.7645616186388718,
+    "boundary_f1": 0.26666666666666666,
+    "cluster_ari": 0.7378742153673636,
+    "depth_mae_ft": null,
+    "score": 0.20388309830369916
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p077",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.3951219512195122,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.9469232480967165,
+    "depth_mae_ft": null,
+    "score": 0.11289198606271778
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p078",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.16068167985392576,
+    "boundary_f1": 0.4,
+    "cluster_ari": 0.9877156069665578,
+    "depth_mae_ft": null,
+    "score": 0.06427267194157031
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p079",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.13411619283065512,
+    "boundary_f1": 0.21428571428571427,
+    "cluster_ari": 0.673691068134435,
+    "depth_mae_ft": null,
+    "score": 0.028739184177997524
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p080",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.2904820766378245,
+    "boundary_f1": 0.37735849056603776,
+    "cluster_ari": 0.4081143782800503,
+    "depth_mae_ft": null,
+    "score": 0.10961587797653755
+   },
+   {
+    "log": "ext_nl_storm_p071",
+    "well": "storm",
+    "window": [
+     1191,
+     1825
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p072",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.4560975609756098,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9854187960290168,
+    "depth_mae_ft": null,
+    "score": 0.3040650406504065
+   },
+   {
+    "log": "ext_nl_storm_p073",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p074",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.603164942178941,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9902618110660114,
+    "depth_mae_ft": null,
+    "score": 0.40210996145262734
+   },
+   {
+    "log": "ext_nl_storm_p075",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.23119950279676818,
+    "boundary_f1": 0.3,
+    "cluster_ari": 0.847013759782443,
+    "depth_mae_ft": null,
+    "score": 0.06935985083903046
+   },
+   {
+    "log": "ext_nl_storm_p076",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p077",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.17391304347826086,
+    "cluster_ari": 0.4828109923411558,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p078",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.07142857142857142,
+    "cluster_ari": 0.17272999121634108,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p079",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.8268506900878294,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p080",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.40476190476190477,
+    "boundary_f1": 0.2,
+    "cluster_ari": 0.5200271425746638,
+    "depth_mae_ft": null,
+    "score": 0.08095238095238096
+   },
+   {
+    "log": "ext_nl_storm_p081",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.5598746081504702,
+    "boundary_f1": 0.23728813559322035,
+    "cluster_ari": 0.3141372178656187,
+    "depth_mae_ft": null,
+    "score": 0.13285160193400988
+   },
+   {
+    "log": "ext_nl_storm_p082",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.6160547604231488,
+    "boundary_f1": 0.5161290322580645,
+    "cluster_ari": 0.6408924505825446,
+    "depth_mae_ft": null,
+    "score": 0.3179637473151736
+   },
+   {
+    "log": "ext_nl_storm_p083",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.7301488833746899,
+    "boundary_f1": 0.3448275862068966,
+    "cluster_ari": 0.6765676681660905,
+    "depth_mae_ft": null,
+    "score": 0.25177547702575515
+   }
+  ]
+ },
+ "s13": {
+  "mean": {
+   "score": 0.26923055439338334,
+   "row_acc": 0.46167615831435316,
+   "boundary_f1": 0.5550984892173204,
+   "cluster_ari": 0.7676047050151061,
+   "depth_mae_ft": null,
+   "seconds": null,
+   "peak_rss_gb": null,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 59,
+   "n_scored": 59
+  },
+  "well_macro": {
+   "row_acc": 0.3723490604089741,
+   "boundary_f1": 0.49890711546602845,
+   "cluster_ari": 0.6377435710303817
+  },
+  "logs": [
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     2705,
+     8705
+    ],
+    "scored": true,
+    "row_acc": 0.018666666666666668,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.14519986836178764,
+    "depth_mae_ft": null,
+    "score": 0.009333333333333334
+   },
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     8705,
+     10200
+    ],
+    "scored": true,
+    "row_acc": 0.14666666666666667,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.30726911313592026,
+    "depth_mae_ft": null,
+    "score": 0.0838095238095238
+   },
+   {
+    "log": "ext_utah_4304150011_p135",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8,
+    "boundary_f1": 0.18181818181818182,
+    "cluster_ari": 0.9755269841595364,
+    "depth_mae_ft": null,
+    "score": 0.14545454545454548
+   },
+   {
+    "log": "ext_utah_4304150011_p136",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5749019607843138,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.9655191424862714,
+    "depth_mae_ft": null,
+    "score": 0.33535947712418307
+   },
+   {
+    "log": "ext_utah_4304150011_p137",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.43137254901960786,
+    "boundary_f1": 0.9285714285714286,
+    "cluster_ari": 0.8873641559346728,
+    "depth_mae_ft": null,
+    "score": 0.4005602240896359
+   },
+   {
+    "log": "ext_utah_4304150011_p138",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5874509803921568,
+    "boundary_f1": 0.5882352941176471,
+    "cluster_ari": 0.6374463539828149,
+    "depth_mae_ft": null,
+    "score": 0.3455594002306805
+   },
+   {
+    "log": "ext_utah_4304150011_p139",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5874509803921568,
+    "boundary_f1": 0.45454545454545453,
+    "cluster_ari": 0.6274668544659393,
+    "depth_mae_ft": null,
+    "score": 0.2670231729055258
+   },
+   {
+    "log": "ext_utah_4304150011_p140",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5254901960784314,
+    "boundary_f1": 0.9090909090909091,
+    "cluster_ari": 0.7972278651734467,
+    "depth_mae_ft": null,
+    "score": 0.47771836007130125
+   },
+   {
+    "log": "ext_utah_4304150011_p141",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4203921568627451,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.6051811990304478,
+    "depth_mae_ft": null,
+    "score": 0.2802614379084967
+   },
+   {
+    "log": "ext_utah_4304150011_p142",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8933333333333333,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.9775092984094951,
+    "depth_mae_ft": null,
+    "score": 0.44666666666666666
+   },
+   {
+    "log": "ext_utah_4304150011_p143",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.38745098039215686,
+    "boundary_f1": 0.7368421052631579,
+    "cluster_ari": 0.8669651083382376,
+    "depth_mae_ft": null,
+    "score": 0.28549019607843135
+   },
+   {
+    "log": "ext_utah_4304150011_p144",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6941176470588235,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9942212142690967,
+    "depth_mae_ft": null,
+    "score": 0.6941176470588235
+   },
+   {
+    "log": "ext_utah_4304150011_p145",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7647058823529411,
+    "boundary_f1": 0.8333333333333334,
+    "cluster_ari": 0.9859455807264684,
+    "depth_mae_ft": null,
+    "score": 0.6372549019607843
+   },
+   {
+    "log": "ext_utah_4304150011_p146",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7866666666666666,
+    "boundary_f1": 0.6086956521739131,
+    "cluster_ari": 0.8787890167390551,
+    "depth_mae_ft": null,
+    "score": 0.47884057971014493
+   },
+   {
+    "log": "ext_utah_4304150011_p147",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5168627450980392,
+    "boundary_f1": 0.7407407407407407,
+    "cluster_ari": 0.7978839549304533,
+    "depth_mae_ft": null,
+    "score": 0.3828612926652142
+   },
+   {
+    "log": "ext_utah_4304150011_p148",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9924329913809361,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p149",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.31607843137254904,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9933644446296637,
+    "depth_mae_ft": null,
+    "score": 0.31607843137254904
+   },
+   {
+    "log": "ext_utah_4304150011_p150",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.16392156862745097,
+    "boundary_f1": 0.7777777777777778,
+    "cluster_ari": 0.9506356350293657,
+    "depth_mae_ft": null,
+    "score": 0.12749455337690632
+   },
+   {
+    "log": "ext_utah_4304150011_p151",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.9333333333333333,
+    "cluster_ari": 0.9789623335710383,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p152",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6329411764705882,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9622494055373478,
+    "depth_mae_ft": null,
+    "score": 0.42196078431372547
+   },
+   {
+    "log": "ext_utah_4304150011_p153",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6956862745098039,
+    "boundary_f1": 0.75,
+    "cluster_ari": 0.9050979803261562,
+    "depth_mae_ft": null,
+    "score": 0.5217647058823529
+   },
+   {
+    "log": "ext_utah_4304150011_p154",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9647058823529412,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.9647058823529412
+   },
+   {
+    "log": "ext_utah_4304150011_p155",
+    "well": "4304150011",
+    "window": [
+     355,
+     790
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p015",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9715639810426541,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.6477093206951027
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p016",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.45476624165148755,
+    "boundary_f1": 0.819672131147541,
+    "cluster_ari": 0.4063711879316262,
+    "depth_mae_ft": null,
+    "score": 0.3727592144684324
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p017",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.19429265330904674,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.6588801762518557,
+    "depth_mae_ft": null,
+    "score": 0.1295284355393645
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p018",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.38095238095238093,
+    "cluster_ari": 0.33777497442615995,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p019",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.7134183363691561,
+    "boundary_f1": 0.7924528301886793,
+    "cluster_ari": 0.5503181769669527,
+    "depth_mae_ft": null,
+    "score": 0.565350379764237
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p020",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9198542805100182,
+    "boundary_f1": 0.8571428571428571,
+    "cluster_ari": 0.8425875647756121,
+    "depth_mae_ft": null,
+    "score": 0.7884465261514441
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p021",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.31997571341833636,
+    "boundary_f1": 0.7692307692307693,
+    "cluster_ari": 0.6277263874215032,
+    "depth_mae_ft": null,
+    "score": 0.24613516416795106
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p022",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1768
+    ],
+    "scored": true,
+    "row_acc": 0.3957286432160804,
+    "boundary_f1": 0.5263157894736842,
+    "cluster_ari": 0.5481759113814247,
+    "depth_mae_ft": null,
+    "score": 0.20827823327162126
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     2510,
+     8510
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.07518796992481203,
+    "cluster_ari": 0.3098825415205116,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     9130,
+     15130
+    ],
+    "scored": true,
+    "row_acc": 0.06026666666666667,
+    "boundary_f1": 0.29152542372881357,
+    "cluster_ari": 0.39368711516602756,
+    "depth_mae_ft": null,
+    "score": 0.017569265536723166
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     15750,
+     21750
+    ],
+    "scored": true,
+    "row_acc": 0.17216666666666666,
+    "boundary_f1": 0.31906614785992216,
+    "cluster_ari": 0.5356244758856171,
+    "depth_mae_ft": null,
+    "score": 0.0549325551232166
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     284,
+     6284
+    ],
+    "scored": true,
+    "row_acc": 0.05284280936454849,
+    "boundary_f1": 0.22296173044925124,
+    "cluster_ari": 0.6062454722296705,
+    "depth_mae_ft": null,
+    "score": 0.01178192421771963
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     7726,
+     13726
+    ],
+    "scored": true,
+    "row_acc": 0.3467889908256881,
+    "boundary_f1": 0.32764505119453924,
+    "cluster_ari": 0.664062282781256,
+    "depth_mae_ft": null,
+    "score": 0.11362369665278517
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     15169,
+     21169
+    ],
+    "scored": true,
+    "row_acc": 0.032131147540983604,
+    "boundary_f1": 0.21016949152542372,
+    "cluster_ari": 0.37322357227732567,
+    "depth_mae_ft": null,
+    "score": 0.006752986940816893
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p071",
+    "well": "flat-bay-2",
+    "window": [
+     1314,
+     1880
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p073",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p074",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.9405272838749233,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.4702636419374617
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p075",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1877
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p076",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.7927651747394237,
+    "boundary_f1": 0.5333333333333333,
+    "cluster_ari": 0.9944410798447731,
+    "depth_mae_ft": null,
+    "score": 0.42280809319435925
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p077",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.3951219512195122,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p078",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.16068167985392576,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.08034083992696288
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p079",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.13782447466007416,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.5239625507223297,
+    "depth_mae_ft": null,
+    "score": 0.07517698617822227
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p080",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.326946847960445,
+    "boundary_f1": 0.6229508196721312,
+    "cluster_ari": 0.8511808656153268,
+    "depth_mae_ft": null,
+    "score": 0.20367180692617884
+   },
+   {
+    "log": "ext_nl_storm_p071",
+    "well": "storm",
+    "window": [
+     1191,
+     1825
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p072",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.4585365853658537,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9951277374525688,
+    "depth_mae_ft": null,
+    "score": 0.3056910569105691
+   },
+   {
+    "log": "ext_nl_storm_p073",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p074",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.6049908703590993,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9951247515618059,
+    "depth_mae_ft": null,
+    "score": 0.40332724690606614
+   },
+   {
+    "log": "ext_nl_storm_p075",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.24860161591050342,
+    "boundary_f1": 0.47619047619047616,
+    "cluster_ari": 0.9844827859001831,
+    "depth_mae_ft": null,
+    "score": 0.11838172186214448
+   },
+   {
+    "log": "ext_nl_storm_p076",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.4,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p077",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9526661495397513,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p078",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.5569620253164557,
+    "cluster_ari": 0.6063566199343502,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p079",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.8362609786700126,
+    "boundary_f1": 0.48484848484848486,
+    "cluster_ari": 0.7070187852519757,
+    "depth_mae_ft": null,
+    "score": 0.40545986844606674
+   },
+   {
+    "log": "ext_nl_storm_p080",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.39473684210526316,
+    "boundary_f1": 0.5205479452054794,
+    "cluster_ari": 0.7958616717100959,
+    "depth_mae_ft": null,
+    "score": 0.2054794520547945
+   },
+   {
+    "log": "ext_nl_storm_p081",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.7561128526645768,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.8439845993308596,
+    "depth_mae_ft": null,
+    "score": 0.4410658307210032
+   },
+   {
+    "log": "ext_nl_storm_p082",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.7442439327940261,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.9697238249607864,
+    "depth_mae_ft": null,
+    "score": 0.40595123606946876
+   },
+   {
+    "log": "ext_nl_storm_p083",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.8988833746898263,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.9819278344327612,
+    "depth_mae_ft": null,
+    "score": 0.5618021091811414
+   }
+  ]
+ },
+ "s14": {
+  "mean": {
+   "score": 0.18489589011282376,
+   "row_acc": 0.4661375527853527,
+   "boundary_f1": 0.3557302222898877,
+   "cluster_ari": 0.6516521998410146,
+   "depth_mae_ft": null,
+   "seconds": null,
+   "peak_rss_gb": null,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 59,
+   "n_scored": 59
+  },
+  "well_macro": {
+   "row_acc": 0.39763904228304575,
+   "boundary_f1": 0.28791479463030617,
+   "cluster_ari": 0.5433476519268402
+  },
+  "logs": [
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     2705,
+     8705
+    ],
+    "scored": true,
+    "row_acc": 0.06,
+    "boundary_f1": 0.10869565217391304,
+    "cluster_ari": 0.060171454921041825,
+    "depth_mae_ft": null,
+    "score": 0.006521739130434782
+   },
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     8705,
+     10200
+    ],
+    "scored": true,
+    "row_acc": 0.32,
+    "boundary_f1": 0.2926829268292683,
+    "cluster_ari": 0.34678940145289433,
+    "depth_mae_ft": null,
+    "score": 0.09365853658536585
+   },
+   {
+    "log": "ext_utah_4304150011_p135",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7911111111111111,
+    "boundary_f1": 0.18181818181818182,
+    "cluster_ari": 0.9439861123930612,
+    "depth_mae_ft": null,
+    "score": 0.14383838383838385
+   },
+   {
+    "log": "ext_utah_4304150011_p136",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5207843137254902,
+    "boundary_f1": 0.36363636363636365,
+    "cluster_ari": 0.8519219447034271,
+    "depth_mae_ft": null,
+    "score": 0.18937611408199642
+   },
+   {
+    "log": "ext_utah_4304150011_p137",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.3184313725490196,
+    "boundary_f1": 0.6,
+    "cluster_ari": 0.6706292376676349,
+    "depth_mae_ft": null,
+    "score": 0.19105882352941175
+   },
+   {
+    "log": "ext_utah_4304150011_p138",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7239215686274509,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.7960228958437661,
+    "depth_mae_ft": null,
+    "score": 0.4826143790849673
+   },
+   {
+    "log": "ext_utah_4304150011_p139",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4682352941176471,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.5612386738300154,
+    "depth_mae_ft": null,
+    "score": 0.133781512605042
+   },
+   {
+    "log": "ext_utah_4304150011_p140",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5843137254901961,
+    "boundary_f1": 0.5882352941176471,
+    "cluster_ari": 0.7275287545232968,
+    "depth_mae_ft": null,
+    "score": 0.3437139561707036
+   },
+   {
+    "log": "ext_utah_4304150011_p141",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.42196078431372547,
+    "boundary_f1": 0.32,
+    "cluster_ari": 0.42026638986546805,
+    "depth_mae_ft": null,
+    "score": 0.13502745098039215
+   },
+   {
+    "log": "ext_utah_4304150011_p142",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8494117647058823,
+    "boundary_f1": 0.16666666666666666,
+    "cluster_ari": 0.7737823015145683,
+    "depth_mae_ft": null,
+    "score": 0.14156862745098037
+   },
+   {
+    "log": "ext_utah_4304150011_p143",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4337254901960784,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.80199962170329,
+    "depth_mae_ft": null,
+    "score": 0.2891503267973856
+   },
+   {
+    "log": "ext_utah_4304150011_p144",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6941176470588235,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.966282850272647,
+    "depth_mae_ft": null,
+    "score": 0.46274509803921565
+   },
+   {
+    "log": "ext_utah_4304150011_p145",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7192156862745098,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.9586301108003599,
+    "depth_mae_ft": null,
+    "score": 0.523065953654189
+   },
+   {
+    "log": "ext_utah_4304150011_p146",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8094117647058824,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.8266472081628302,
+    "depth_mae_ft": null,
+    "score": 0.2698039215686274
+   },
+   {
+    "log": "ext_utah_4304150011_p147",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4,
+    "boundary_f1": 0.4,
+    "cluster_ari": 0.7848773838179999,
+    "depth_mae_ft": null,
+    "score": 0.16000000000000003
+   },
+   {
+    "log": "ext_utah_4304150011_p148",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9924020451599995,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p149",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.31058823529411766,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9627833284073868,
+    "depth_mae_ft": null,
+    "score": 0.31058823529411766
+   },
+   {
+    "log": "ext_utah_4304150011_p150",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.15294117647058825,
+    "boundary_f1": 0.375,
+    "cluster_ari": 0.668888381512149,
+    "depth_mae_ft": null,
+    "score": 0.05735294117647059
+   },
+   {
+    "log": "ext_utah_4304150011_p151",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.777748131785352,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p152",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6282352941176471,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.9470518169438513,
+    "depth_mae_ft": null,
+    "score": 0.4568983957219252
+   },
+   {
+    "log": "ext_utah_4304150011_p153",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6517647058823529,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.8160377585029367,
+    "depth_mae_ft": null,
+    "score": 0.5214117647058824
+   },
+   {
+    "log": "ext_utah_4304150011_p154",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9647058823529412,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p155",
+    "well": "4304150011",
+    "window": [
+     355,
+     790
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p015",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.985781990521327,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.985781990521327
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p016",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.48755312689738917,
+    "boundary_f1": 0.4888888888888889,
+    "cluster_ari": 0.29568342054885854,
+    "depth_mae_ft": null,
+    "score": 0.23835930648316803
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p017",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.4335154826958106,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.7852597652618039,
+    "depth_mae_ft": null,
+    "score": 0.14450516089860352
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p018",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.018214936247723135,
+    "boundary_f1": 0.11764705882352941,
+    "cluster_ari": 0.19996319193370002,
+    "depth_mae_ft": null,
+    "score": 0.0021429336762027215
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p019",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.7710989678202793,
+    "boundary_f1": 0.3157894736842105,
+    "cluster_ari": 0.3693149369203824,
+    "depth_mae_ft": null,
+    "score": 0.24350493720640398
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p020",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9289617486338798,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.8495653391731492,
+    "depth_mae_ft": null,
+    "score": 0.4644808743169399
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p021",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.533090467516697,
+    "boundary_f1": 0.5806451612903226,
+    "cluster_ari": 0.7462864525278979,
+    "depth_mae_ft": null,
+    "score": 0.309536400493566
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p022",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1768
+    ],
+    "scored": true,
+    "row_acc": 0.9396984924623115,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.859728076272702,
+    "depth_mae_ft": null,
+    "score": 0.31323283082077047
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     2510,
+     8510
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     9130,
+     15130
+    ],
+    "scored": true,
+    "row_acc": 0.008,
+    "boundary_f1": 0.06896551724137931,
+    "cluster_ari": 0.12505715104618834,
+    "depth_mae_ft": null,
+    "score": 0.0005517241379310345
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     15750,
+     21750
+    ],
+    "scored": true,
+    "row_acc": 0.14116666666666666,
+    "boundary_f1": 0.15384615384615385,
+    "cluster_ari": 0.5026121209504281,
+    "depth_mae_ft": null,
+    "score": 0.02171794871794872
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     284,
+     6284
+    ],
+    "scored": true,
+    "row_acc": 0.010033444816053512,
+    "boundary_f1": 0.06521739130434782,
+    "cluster_ari": 0.3140059441114558,
+    "depth_mae_ft": null,
+    "score": 0.0006543550966991421
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     7726,
+     13726
+    ],
+    "scored": true,
+    "row_acc": 0.28134556574923547,
+    "boundary_f1": 0.14393939393939395,
+    "cluster_ari": 0.45180471269973965,
+    "depth_mae_ft": null,
+    "score": 0.04049671022148087
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     15169,
+     21169
+    ],
+    "scored": true,
+    "row_acc": 0.013114754098360656,
+    "boundary_f1": 0.08,
+    "cluster_ari": 0.3052072005607416,
+    "depth_mae_ft": null,
+    "score": 0.0010491803278688525
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p071",
+    "well": "flat-bay-2",
+    "window": [
+     1314,
+     1880
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p073",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p074",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.9068056407112202,
+    "boundary_f1": 0.2,
+    "cluster_ari": 0.7263691588721469,
+    "depth_mae_ft": null,
+    "score": 0.18136112814224403
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p075",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1877
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p076",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.7645616186388718,
+    "boundary_f1": 0.26666666666666666,
+    "cluster_ari": 0.7287517882224132,
+    "depth_mae_ft": null,
+    "score": 0.20388309830369916
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p077",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.3951219512195122,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.9469232480967165,
+    "depth_mae_ft": null,
+    "score": 0.11289198606271778
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p078",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.16068167985392576,
+    "boundary_f1": 0.4,
+    "cluster_ari": 0.9877156069665578,
+    "depth_mae_ft": null,
+    "score": 0.06427267194157031
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p079",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.13411619283065512,
+    "boundary_f1": 0.21428571428571427,
+    "cluster_ari": 0.6720097371199674,
+    "depth_mae_ft": null,
+    "score": 0.028739184177997524
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p080",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.2904820766378245,
+    "boundary_f1": 0.4074074074074074,
+    "cluster_ari": 0.4474151460341253,
+    "depth_mae_ft": null,
+    "score": 0.1183445497413359
+   },
+   {
+    "log": "ext_nl_storm_p071",
+    "well": "storm",
+    "window": [
+     1191,
+     1825
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p072",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.4560975609756098,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9854187960290168,
+    "depth_mae_ft": null,
+    "score": 0.3040650406504065
+   },
+   {
+    "log": "ext_nl_storm_p073",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p074",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.603164942178941,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9902618110660114,
+    "depth_mae_ft": null,
+    "score": 0.40210996145262734
+   },
+   {
+    "log": "ext_nl_storm_p075",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.23119950279676818,
+    "boundary_f1": 0.3,
+    "cluster_ari": 0.847013759782443,
+    "depth_mae_ft": null,
+    "score": 0.06935985083903046
+   },
+   {
+    "log": "ext_nl_storm_p076",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p077",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.03705991352686844,
+    "boundary_f1": 0.09090909090909091,
+    "cluster_ari": 0.28199760258155987,
+    "depth_mae_ft": null,
+    "score": 0.003369083047897131
+   },
+   {
+    "log": "ext_nl_storm_p078",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.05827067669172932,
+    "boundary_f1": 0.07142857142857142,
+    "cluster_ari": 0.17272999121634108,
+    "depth_mae_ft": null,
+    "score": 0.00416219119226638
+   },
+   {
+    "log": "ext_nl_storm_p079",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.8268506900878294,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p080",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.3151629072681704,
+    "boundary_f1": 0.2,
+    "cluster_ari": 0.5200271425746638,
+    "depth_mae_ft": null,
+    "score": 0.06303258145363409
+   },
+   {
+    "log": "ext_nl_storm_p081",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.4846394984326019,
+    "boundary_f1": 0.23728813559322035,
+    "cluster_ari": 0.29844084442785795,
+    "depth_mae_ft": null,
+    "score": 0.11499920301790553
+   },
+   {
+    "log": "ext_nl_storm_p082",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.6160547604231488,
+    "boundary_f1": 0.5161290322580645,
+    "cluster_ari": 0.6408924505825446,
+    "depth_mae_ft": null,
+    "score": 0.3179637473151736
+   },
+   {
+    "log": "ext_nl_storm_p083",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.847394540942928,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.7413385912564808,
+    "depth_mae_ft": null,
+    "score": 0.2421127259836937
+   }
+  ]
+ },
+ "s15": {
+  "mean": {
+   "score": 0.29409957614953885,
+   "row_acc": 0.5033652828984697,
+   "boundary_f1": 0.5534406996864507,
+   "cluster_ari": 0.8130482766052511,
+   "depth_mae_ft": null,
+   "seconds": null,
+   "peak_rss_gb": null,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 59,
+   "n_scored": 59
+  },
+  "well_macro": {
+   "row_acc": 0.4347819687345191,
+   "boundary_f1": 0.48945564470120645,
+   "cluster_ari": 0.6933577378974102
+  },
+  "logs": [
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     2705,
+     8705
+    ],
+    "scored": true,
+    "row_acc": 0.15033333333333335,
+    "boundary_f1": 0.37383177570093457,
+    "cluster_ari": 0.1441532488949432,
+    "depth_mae_ft": null,
+    "score": 0.056199376947040504,
+    "parser_ceiling": 0.435
+   },
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     8705,
+     10200
+    ],
+    "scored": true,
+    "row_acc": 0.30044444444444446,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.34291664957898366,
+    "depth_mae_ft": null,
+    "score": 0.1716825396825397,
+    "parser_ceiling": 0.68
+   },
+   {
+    "log": "ext_utah_4304150011_p135",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8,
+    "boundary_f1": 0.18181818181818182,
+    "cluster_ari": 0.9755269841595364,
+    "depth_mae_ft": null,
+    "score": 0.14545454545454548,
+    "parser_ceiling": 0.8
+   },
+   {
+    "log": "ext_utah_4304150011_p136",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5749019607843138,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.9655191424862714,
+    "depth_mae_ft": null,
+    "score": 0.33535947712418307,
+    "parser_ceiling": 0.6235294117647059
+   },
+   {
+    "log": "ext_utah_4304150011_p137",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.476078431372549,
+    "boundary_f1": 0.9629629629629629,
+    "cluster_ari": 0.9441784429014131,
+    "depth_mae_ft": null,
+    "score": 0.4584458968772694,
+    "parser_ceiling": 0.49411764705882355
+   },
+   {
+    "log": "ext_utah_4304150011_p138",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5874509803921568,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.6435244724488548,
+    "depth_mae_ft": null,
+    "score": 0.3916339869281045,
+    "parser_ceiling": 0.7411764705882353
+   },
+   {
+    "log": "ext_utah_4304150011_p139",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5874509803921568,
+    "boundary_f1": 0.45454545454545453,
+    "cluster_ari": 0.6274668544659393,
+    "depth_mae_ft": null,
+    "score": 0.2670231729055258,
+    "parser_ceiling": 0.6941176470588235
+   },
+   {
+    "log": "ext_utah_4304150011_p140",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5819607843137254,
+    "boundary_f1": 0.9523809523809523,
+    "cluster_ari": 0.9452027089041513,
+    "depth_mae_ft": null,
+    "score": 0.5542483660130718,
+    "parser_ceiling": 0.5882352941176471
+   },
+   {
+    "log": "ext_utah_4304150011_p141",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.4203921568627451,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.5959442815200388,
+    "depth_mae_ft": null,
+    "score": 0.2627450980392157,
+    "parser_ceiling": 0.5529411764705883
+   },
+   {
+    "log": "ext_utah_4304150011_p142",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8933333333333333,
+    "boundary_f1": 0.6153846153846154,
+    "cluster_ari": 0.9760455775886916,
+    "depth_mae_ft": null,
+    "score": 0.5497435897435897,
+    "parser_ceiling": 0.9058823529411765
+   },
+   {
+    "log": "ext_utah_4304150011_p143",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.38745098039215686,
+    "boundary_f1": 0.7368421052631579,
+    "cluster_ari": 0.8669651083382376,
+    "depth_mae_ft": null,
+    "score": 0.28549019607843135,
+    "parser_ceiling": 0.4588235294117647
+   },
+   {
+    "log": "ext_utah_4304150011_p144",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6941176470588235,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9942212142690967,
+    "depth_mae_ft": null,
+    "score": 0.6941176470588235,
+    "parser_ceiling": 0.6941176470588235
+   },
+   {
+    "log": "ext_utah_4304150011_p145",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7647058823529411,
+    "boundary_f1": 0.8333333333333334,
+    "cluster_ari": 0.9859455807264684,
+    "depth_mae_ft": null,
+    "score": 0.6372549019607843,
+    "parser_ceiling": 0.7764705882352941
+   },
+   {
+    "log": "ext_utah_4304150011_p146",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7984313725490196,
+    "boundary_f1": 0.6086956521739131,
+    "cluster_ari": 0.8772005022870781,
+    "depth_mae_ft": null,
+    "score": 0.4860017050298381,
+    "parser_ceiling": 0.8352941176470589
+   },
+   {
+    "log": "ext_utah_4304150011_p147",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.5168627450980392,
+    "boundary_f1": 0.7692307692307693,
+    "cluster_ari": 0.8084930986554493,
+    "depth_mae_ft": null,
+    "score": 0.39758672699849174,
+    "parser_ceiling": 0.6
+   },
+   {
+    "log": "ext_utah_4304150011_p148",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9924329913809361,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p149",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.31607843137254904,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9933644446296637,
+    "depth_mae_ft": null,
+    "score": 0.31607843137254904,
+    "parser_ceiling": 0.3176470588235294
+   },
+   {
+    "log": "ext_utah_4304150011_p150",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.16392156862745097,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.9408592562432839,
+    "depth_mae_ft": null,
+    "score": 0.1311372549019608,
+    "parser_ceiling": 0.16470588235294117
+   },
+   {
+    "log": "ext_utah_4304150011_p151",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.9333333333333333,
+    "cluster_ari": 0.9789623335710383,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.0
+   },
+   {
+    "log": "ext_utah_4304150011_p152",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6329411764705882,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9622494055373478,
+    "depth_mae_ft": null,
+    "score": 0.42196078431372547,
+    "parser_ceiling": 0.6352941176470588
+   },
+   {
+    "log": "ext_utah_4304150011_p153",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.6603921568627451,
+    "boundary_f1": 0.75,
+    "cluster_ari": 0.8437906454875116,
+    "depth_mae_ft": null,
+    "score": 0.49529411764705883,
+    "parser_ceiling": 0.7176470588235294
+   },
+   {
+    "log": "ext_utah_4304150011_p154",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9647058823529412,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9977248920011429,
+    "depth_mae_ft": null,
+    "score": 0.6431372549019607,
+    "parser_ceiling": 0.9647058823529412
+   },
+   {
+    "log": "ext_utah_4304150011_p155",
+    "well": "4304150011",
+    "window": [
+     355,
+     790
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p015",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9715639810426541,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.6477093206951027,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p016",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.5828779599271403,
+    "boundary_f1": 0.8666666666666667,
+    "cluster_ari": 0.5737179318286146,
+    "depth_mae_ft": null,
+    "score": 0.5051608986035216,
+    "parser_ceiling": 0.7273831208257437
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p017",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.4474802671523983,
+    "boundary_f1": 0.6956521739130435,
+    "cluster_ari": 0.814808034382748,
+    "depth_mae_ft": null,
+    "score": 0.3112906206277553,
+    "parser_ceiling": 0.4918032786885246
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p018",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.009107468123861567,
+    "boundary_f1": 0.47619047619047616,
+    "cluster_ari": 0.3201254878093603,
+    "depth_mae_ft": null,
+    "score": 0.004336889582791222,
+    "parser_ceiling": 0.0734669095324833
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p019",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8227079538554949,
+    "boundary_f1": 0.6938775510204082,
+    "cluster_ari": 0.5985210746445268,
+    "depth_mae_ft": null,
+    "score": 0.5708585802262618,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p020",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9526411657559198,
+    "boundary_f1": 0.8571428571428571,
+    "cluster_ari": 0.8875582180108803,
+    "depth_mae_ft": null,
+    "score": 0.8165495706479312,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p021",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.5853066180935034,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.8534733075334243,
+    "depth_mae_ft": null,
+    "score": 0.4256775404316388,
+    "parser_ceiling": 0.6350941105039466
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p022",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1768
+    ],
+    "scored": true,
+    "row_acc": 0.9258793969849246,
+    "boundary_f1": 0.7142857142857143,
+    "cluster_ari": 0.843184408880116,
+    "depth_mae_ft": null,
+    "score": 0.6613424264178033,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     2510,
+     8510
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.04580152671755725,
+    "cluster_ari": 0.26728544481690863,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     9130,
+     15130
+    ],
+    "scored": true,
+    "row_acc": 0.06275555555555555,
+    "boundary_f1": 0.2560553633217993,
+    "cluster_ari": 0.5069627702923514,
+    "depth_mae_ft": null,
+    "score": 0.016068896578239136,
+    "parser_ceiling": 0.07733333333333334
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     15750,
+     21750
+    ],
+    "scored": true,
+    "row_acc": 0.17933333333333334,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.6426056229551462,
+    "depth_mae_ft": null,
+    "score": 0.051238095238095235,
+    "parser_ceiling": 0.205
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     284,
+     6284
+    ],
+    "scored": true,
+    "row_acc": 0.0645484949832776,
+    "boundary_f1": 0.22296173044925124,
+    "cluster_ari": 0.7586651859839683,
+    "depth_mae_ft": null,
+    "score": 0.014391844139366386,
+    "parser_ceiling": 0.08979933110367894
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     7726,
+     13726
+    ],
+    "scored": true,
+    "row_acc": 0.3431192660550459,
+    "boundary_f1": 0.32764505119453924,
+    "cluster_ari": 0.6827958267232228,
+    "depth_mae_ft": null,
+    "score": 0.11242132949243824,
+    "parser_ceiling": 0.37920489296636084
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     15169,
+     21169
+    ],
+    "scored": true,
+    "row_acc": 0.04852459016393443,
+    "boundary_f1": 0.20408163265306123,
+    "cluster_ari": 0.4479791008474113,
+    "depth_mae_ft": null,
+    "score": 0.009902977584476414,
+    "parser_ceiling": 0.14426229508196722
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p071",
+    "well": "flat-bay-2",
+    "window": [
+     1314,
+     1880
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p073",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p074",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.9405272838749233,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.4702636419374617,
+    "parser_ceiling": 0.9411404046597179
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p075",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1877
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p076",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.7927651747394237,
+    "boundary_f1": 0.5333333333333333,
+    "cluster_ari": 0.9633506364053563,
+    "depth_mae_ft": null,
+    "score": 0.42280809319435925,
+    "parser_ceiling": 0.7939914163090128
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p077",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.3951219512195122,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.3951219512195122
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p078",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.16068167985392576,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.08034083992696288,
+    "parser_ceiling": 0.16068167985392576
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p079",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.13782447466007416,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.7163937119495211,
+    "depth_mae_ft": null,
+    "score": 0.07517698617822227,
+    "parser_ceiling": 0.14709517923362175
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p080",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.326946847960445,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.7007400941179215,
+    "depth_mae_ft": null,
+    "score": 0.21796456530696331,
+    "parser_ceiling": 0.35661310259579726
+   },
+   {
+    "log": "ext_nl_storm_p071",
+    "well": "storm",
+    "window": [
+     1191,
+     1825
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p072",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.4585365853658537,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9951277374525688,
+    "depth_mae_ft": null,
+    "score": 0.3056910569105691,
+    "parser_ceiling": 0.45914634146341465
+   },
+   {
+    "log": "ext_nl_storm_p073",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p074",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.6049908703590993,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9951247515618059,
+    "depth_mae_ft": null,
+    "score": 0.40332724690606614,
+    "parser_ceiling": 0.6055995130858186
+   },
+   {
+    "log": "ext_nl_storm_p075",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.24860161591050342,
+    "boundary_f1": 0.47619047619047616,
+    "cluster_ari": 0.9844827859001831,
+    "depth_mae_ft": null,
+    "score": 0.11838172186214448,
+    "parser_ceiling": 0.25419515226848977
+   },
+   {
+    "log": "ext_nl_storm_p076",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.0,
+    "boundary_f1": 0.4,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p077",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.07967881408276714,
+    "boundary_f1": 0.6451612903225806,
+    "cluster_ari": 0.9330800302950121,
+    "depth_mae_ft": null,
+    "score": 0.05140568650501106,
+    "parser_ceiling": 0.13341568869672638
+   },
+   {
+    "log": "ext_nl_storm_p078",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.13345864661654136,
+    "boundary_f1": 0.5205479452054794,
+    "cluster_ari": 0.6674719576142734,
+    "depth_mae_ft": null,
+    "score": 0.06947162426614481,
+    "parser_ceiling": 0.23308270676691728
+   },
+   {
+    "log": "ext_nl_storm_p079",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.9429109159347553,
+    "boundary_f1": 0.46875,
+    "cluster_ari": 0.718565386185148,
+    "depth_mae_ft": null,
+    "score": 0.44198949184441655,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p080",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.4868421052631579,
+    "boundary_f1": 0.5205479452054794,
+    "cluster_ari": 0.8410023701472065,
+    "depth_mae_ft": null,
+    "score": 0.2534246575342466,
+    "parser_ceiling": 0.5639097744360902
+   },
+   {
+    "log": "ext_nl_storm_p081",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9178683385579938,
+    "boundary_f1": 0.5633802816901409,
+    "cluster_ari": 0.8927051996670202,
+    "depth_mae_ft": null,
+    "score": 0.5171089231312641,
+    "parser_ceiling": 0.954858934169279
+   },
+   {
+    "log": "ext_nl_storm_p082",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8083385189794648,
+    "boundary_f1": 0.5625,
+    "cluster_ari": 0.9736001452073691,
+    "depth_mae_ft": null,
+    "score": 0.45469041692594897,
+    "parser_ceiling": 0.8133167392657125
+   },
+   {
+    "log": "ext_nl_storm_p083",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.9956575682382134,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.9878332624216744,
+    "depth_mae_ft": null,
+    "score": 0.6222859801488834,
+    "parser_ceiling": 1.0
+   }
+  ]
+ },
+ "s16": {
+  "mean": {
+   "score": 0.4773249963877959,
+   "row_acc": 0.8131438615367681,
+   "boundary_f1": 0.5534406996864507,
+   "cluster_ari": 0.8130482766052511,
+   "depth_mae_ft": null,
+   "seconds": null,
+   "peak_rss_gb": null,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": null,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 59,
+   "n_scored": 59
+  },
+  "well_macro": {
+   "row_acc": 0.7235005583067168,
+   "boundary_f1": 0.48945564470120645,
+   "cluster_ari": 0.6933577378974102
+  },
+  "logs": [
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     2705,
+     8705
+    ],
+    "scored": true,
+    "row_acc": 0.6833333333333333,
+    "boundary_f1": 0.37383177570093457,
+    "cluster_ari": 0.1441532488949432,
+    "depth_mae_ft": null,
+    "score": 0.2554517133956386,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "window": [
+     8705,
+     10200
+    ],
+    "scored": true,
+    "row_acc": 0.5768888888888889,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.34291664957898366,
+    "depth_mae_ft": null,
+    "score": 0.32965079365079364,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p135",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9955555555555555,
+    "boundary_f1": 0.18181818181818182,
+    "cluster_ari": 0.9755269841595364,
+    "depth_mae_ft": null,
+    "score": 0.181010101010101,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p136",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9458823529411765,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.9655191424862714,
+    "depth_mae_ft": null,
+    "score": 0.551764705882353,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p137",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9796078431372549,
+    "boundary_f1": 0.9629629629629629,
+    "cluster_ari": 0.9441784429014131,
+    "depth_mae_ft": null,
+    "score": 0.9433260711692084,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p138",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8454901960784313,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.6435244724488548,
+    "depth_mae_ft": null,
+    "score": 0.5636601307189542,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p139",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7701960784313725,
+    "boundary_f1": 0.45454545454545453,
+    "cluster_ari": 0.6274668544659393,
+    "depth_mae_ft": null,
+    "score": 0.35008912655971475,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p140",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9796078431372549,
+    "boundary_f1": 0.9523809523809523,
+    "cluster_ari": 0.9452027089041513,
+    "depth_mae_ft": null,
+    "score": 0.9329598506069093,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p141",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7898039215686274,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.5959442815200388,
+    "depth_mae_ft": null,
+    "score": 0.4936274509803922,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p142",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.96,
+    "boundary_f1": 0.6153846153846154,
+    "cluster_ari": 0.9760455775886916,
+    "depth_mae_ft": null,
+    "score": 0.5907692307692308,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p143",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.7827450980392157,
+    "boundary_f1": 0.7368421052631579,
+    "cluster_ari": 0.8669651083382376,
+    "depth_mae_ft": null,
+    "score": 0.5767595459236325,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p144",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.996078431372549,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9942212142690967,
+    "depth_mae_ft": null,
+    "score": 0.996078431372549,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p145",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9725490196078431,
+    "boundary_f1": 0.8333333333333334,
+    "cluster_ari": 0.9859455807264684,
+    "depth_mae_ft": null,
+    "score": 0.8104575163398693,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p146",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8909803921568628,
+    "boundary_f1": 0.6086956521739131,
+    "cluster_ari": 0.8772005022870781,
+    "depth_mae_ft": null,
+    "score": 0.5423358908780904,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p147",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8462745098039216,
+    "boundary_f1": 0.7692307692307693,
+    "cluster_ari": 0.8084930986554493,
+    "depth_mae_ft": null,
+    "score": 0.6509803921568628,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p148",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9984313725490196,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9924329913809361,
+    "depth_mae_ft": null,
+    "score": 0.9984313725490196,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p149",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9388235294117647,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9933644446296637,
+    "depth_mae_ft": null,
+    "score": 0.9388235294117647,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p150",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8933333333333333,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.9408592562432839,
+    "depth_mae_ft": null,
+    "score": 0.7146666666666667,
+    "parser_ceiling": 0.9411764705882353
+   },
+   {
+    "log": "ext_utah_4304150011_p151",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9882352941176471,
+    "boundary_f1": 0.9333333333333333,
+    "cluster_ari": 0.9789623335710383,
+    "depth_mae_ft": null,
+    "score": 0.9223529411764706,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p152",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9741176470588235,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9622494055373478,
+    "depth_mae_ft": null,
+    "score": 0.6494117647058824,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p153",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.8956862745098039,
+    "boundary_f1": 0.75,
+    "cluster_ari": 0.8437906454875116,
+    "depth_mae_ft": null,
+    "score": 0.6717647058823529,
+    "parser_ceiling": 0.9529411764705882
+   },
+   {
+    "log": "ext_utah_4304150011_p154",
+    "well": "4304150011",
+    "window": [
+     355,
+     1630
+    ],
+    "scored": true,
+    "row_acc": 0.9694117647058823,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9977248920011429,
+    "depth_mae_ft": null,
+    "score": 0.6462745098039215,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_utah_4304150011_p155",
+    "well": "4304150011",
+    "window": [
+     355,
+     790
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p015",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9715639810426541,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.6477093206951027,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p016",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.7826350941105039,
+    "boundary_f1": 0.8666666666666667,
+    "cluster_ari": 0.5737179318286146,
+    "depth_mae_ft": null,
+    "score": 0.6782837482291034,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p017",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9374620522161505,
+    "boundary_f1": 0.6956521739130435,
+    "cluster_ari": 0.814808034382748,
+    "depth_mae_ft": null,
+    "score": 0.6521475145851482,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p018",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8943533697632058,
+    "boundary_f1": 0.47619047619047616,
+    "cluster_ari": 0.3201254878093603,
+    "depth_mae_ft": null,
+    "score": 0.425882557030098,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p019",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8227079538554949,
+    "boundary_f1": 0.6938775510204082,
+    "cluster_ari": 0.5985210746445268,
+    "depth_mae_ft": null,
+    "score": 0.5708585802262618,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p020",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9526411657559198,
+    "boundary_f1": 0.8571428571428571,
+    "cluster_ari": 0.8875582180108803,
+    "depth_mae_ft": null,
+    "score": 0.8165495706479312,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p021",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9192471159684275,
+    "boundary_f1": 0.7272727272727273,
+    "cluster_ari": 0.8534733075334243,
+    "depth_mae_ft": null,
+    "score": 0.6685433570679472,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_ForsythB2-17_p022",
+    "well": "ForsythB2-17",
+    "window": [
+     177,
+     1768
+    ],
+    "scored": true,
+    "row_acc": 0.9258793969849246,
+    "boundary_f1": 0.7142857142857143,
+    "cluster_ari": 0.843184408880116,
+    "depth_mae_ft": null,
+    "score": 0.6613424264178033,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     2510,
+     8510
+    ],
+    "scored": true,
+    "row_acc": 0.02881024364218389,
+    "boundary_f1": 0.04580152671755725,
+    "cluster_ari": 0.26728544481690863,
+    "depth_mae_ft": null,
+    "score": 0.0013195531439168192,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     9130,
+     15130
+    ],
+    "scored": true,
+    "row_acc": 0.10737777777777778,
+    "boundary_f1": 0.2560553633217993,
+    "cluster_ari": 0.5069627702923514,
+    "depth_mae_ft": null,
+    "score": 0.027494655901576317,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "window": [
+     15750,
+     21750
+    ],
+    "scored": true,
+    "row_acc": 0.212,
+    "boundary_f1": 0.2857142857142857,
+    "cluster_ari": 0.6426056229551462,
+    "depth_mae_ft": null,
+    "score": 0.06057142857142857,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     284,
+     6284
+    ],
+    "scored": true,
+    "row_acc": 0.2317725752508361,
+    "boundary_f1": 0.22296173044925124,
+    "cluster_ari": 0.7586651859839683,
+    "depth_mae_ft": null,
+    "score": 0.05167641444860572,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     7726,
+     13726
+    ],
+    "scored": true,
+    "row_acc": 0.6742099898063201,
+    "boundary_f1": 0.32764505119453924,
+    "cluster_ari": 0.6827958267232228,
+    "depth_mae_ft": null,
+    "score": 0.22090156662596153,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "window": [
+     15169,
+     21169
+    ],
+    "scored": true,
+    "row_acc": 0.21530054644808744,
+    "boundary_f1": 0.20408163265306123,
+    "cluster_ari": 0.4479791008474113,
+    "depth_mae_ft": null,
+    "score": 0.043938887030221925,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p071",
+    "well": "flat-bay-2",
+    "window": [
+     1314,
+     1880
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p073",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p074",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.9405272838749233,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.4702636419374617,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p075",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1877
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p076",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.8369098712446352,
+    "boundary_f1": 0.5333333333333333,
+    "cluster_ari": 0.9633506364053563,
+    "depth_mae_ft": null,
+    "score": 0.44635193133047213,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p077",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.3951219512195122,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p078",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.16068167985392576,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.08034083992696288,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p079",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.34487021013597036,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.7163937119495211,
+    "depth_mae_ft": null,
+    "score": 0.18811102371052926,
+    "parser_ceiling": 0.47342398022249693
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p080",
+    "well": "flat-bay-2",
+    "window": [
+     232,
+     1879
+    ],
+    "scored": true,
+    "row_acc": 0.4042027194066749,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.7007400941179215,
+    "depth_mae_ft": null,
+    "score": 0.2694684796044499,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p071",
+    "well": "storm",
+    "window": [
+     1191,
+     1825
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p072",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.999390243902439,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9951277374525688,
+    "depth_mae_ft": null,
+    "score": 0.666260162601626,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p073",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p074",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9993913572732805,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9951247515618059,
+    "depth_mae_ft": null,
+    "score": 0.6662609048488537,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p075",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9944064636420137,
+    "boundary_f1": 0.47619047619047616,
+    "cluster_ari": 0.9844827859001831,
+    "depth_mae_ft": null,
+    "score": 0.4735268874485779,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p076",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 1.0,
+    "boundary_f1": 0.4,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.4,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p077",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9376158122297714,
+    "boundary_f1": 0.6451612903225806,
+    "cluster_ari": 0.9330800302950121,
+    "depth_mae_ft": null,
+    "score": 0.6049134272450138,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p078",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8796992481203008,
+    "boundary_f1": 0.5205479452054794,
+    "cluster_ari": 0.6674719576142734,
+    "depth_mae_ft": null,
+    "score": 0.45792563600782776,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p079",
+    "well": "storm",
+    "window": [
+     177,
+     1823
+    ],
+    "scored": true,
+    "row_acc": 0.9429109159347553,
+    "boundary_f1": 0.46875,
+    "cluster_ari": 0.718565386185148,
+    "depth_mae_ft": null,
+    "score": 0.44198949184441655,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p080",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.8690476190476191,
+    "boundary_f1": 0.5205479452054794,
+    "cluster_ari": 0.8410023701472065,
+    "depth_mae_ft": null,
+    "score": 0.4523809523809524,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p081",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9316614420062695,
+    "boundary_f1": 0.5633802816901409,
+    "cluster_ari": 0.8927051996670202,
+    "depth_mae_ft": null,
+    "score": 0.524879685637335,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p082",
+    "well": "storm",
+    "window": [
+     177,
+     1824
+    ],
+    "scored": true,
+    "row_acc": 0.9943995021779714,
+    "boundary_f1": 0.5625,
+    "cluster_ari": 0.9736001452073691,
+    "depth_mae_ft": null,
+    "score": 0.5593497199751089,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_storm_p083",
+    "well": "storm",
+    "window": [
+     177,
+     1822
+    ],
+    "scored": true,
+    "row_acc": 0.9956575682382134,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.9878332624216744,
+    "depth_mae_ft": null,
+    "score": 0.6222859801488834,
+    "parser_ceiling": 1.0
+   }
+  ]
+ }
+}

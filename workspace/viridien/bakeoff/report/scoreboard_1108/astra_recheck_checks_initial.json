@@ -1,0 +1,272 @@
+{
+  "pytest_exit": 0,
+  "fusion_cpu": "passed",
+  "manifest": {
+    "sha256": "b352bde5f9b34aa86d875d1c75aa882b4cfc24bbb5fa0213afef53ed7f784205",
+    "digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+    "cases": 68,
+    "candidates": [
+      "s19_combine",
+      "s20_v4",
+      "s21_v4dino",
+      "s23_v4dino_identity"
+    ],
+    "expected": 272,
+    "freeze": {
+      "python": "3.12.7",
+      "executable": "C:\\Users\\hssil\\anaconda3\\python.exe",
+      "packages": {
+        "torch": "2.12.0+cu126",
+        "transformers": "4.57.0",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1",
+        "scikit-learn": "1.8.0",
+        "Pillow": "11.3.0",
+        "opencv-python": "4.11.0.86",
+        "rapidocr-onnxruntime": "1.4.4",
+        "easyocr": "1.7.2",
+        "ruptures": "1.1.10",
+        "tifffile": "2023.4.12"
+      },
+      "dino": {
+        "model": "facebook/dinov2-small",
+        "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+        "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
+      },
+      "note": "Pinned from pre-run CUDA smoke. Runtime DINO diagnostic hashes must match. Legacy records were input-validated at migration, not hash-checked at their original read time.",
+      "migration_utc": "2026-11-08T06:17:53Z",
+      "legacy_records": 13,
+      "migration_note": "Validated exact record identities, all declared current input bytes and all unchanged executed sources before adding metadata. Input validation is present-state evidence for legacy records; original read-time hashes were not asserted. Source change adds guards and provenance only."
+    }
+  },
+  "baseline_hash_checks": {
+    "harness/BENCH.md": {
+      "before": "ea2484ffbe1ff3d482a7db0a28967d2069fc33707a19b1bd3a5456aedd573a0c",
+      "now": "ea2484ffbe1ff3d482a7db0a28967d2069fc33707a19b1bd3a5456aedd573a0c",
+      "same": true
+    },
+    "harness/run.py": {
+      "before": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+      "now": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+      "same": true
+    },
+    "harness/bench.py": {
+      "before": "581416df2cf0bb7c1d841d3c5971ae981e103a48b53d79683554754860af474b",
+      "now": "581416df2cf0bb7c1d841d3c5971ae981e103a48b53d79683554754860af474b",
+      "same": true
+    },
+    "harness/score.py": {
+      "before": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "now": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+      "same": true
+    },
+    "harness/depth.py": {
+      "before": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+      "now": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+      "same": true
+    },
+    "harness/io.py": {
+      "before": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+      "now": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+      "same": true
+    },
+    "harness/legend.py": {
+      "before": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+      "now": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+      "same": true
+    },
+    "harness/legend_v3.py": {
+      "before": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+      "now": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+      "same": true
+    },
+    "ml/combine/runtime.py": {
+      "before": "9de34dbf973b7f5870cd0dfb62b3c56025a4713a7ca562319c4d5c460ea4503d",
+      "now": "9de34dbf973b7f5870cd0dfb62b3c56025a4713a7ca562319c4d5c460ea4503d",
+      "same": true
+    },
+    "strategies/s19_combine.py": {
+      "before": "dbeea29bc0e56f768ac8bc99ebf57689e93a6932c3cd31f6c760ab61992d955d",
+      "now": "dbeea29bc0e56f768ac8bc99ebf57689e93a6932c3cd31f6c760ab61992d955d",
+      "same": true
+    },
+    "strategies/s14_learned_match.py": {
+      "before": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+      "now": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+      "same": true
+    },
+    "strategies/s20_v4.py": {
+      "before": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+      "now": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+      "same": true
+    },
+    "strategies/scoreboard_v4.py": {
+      "before": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+      "now": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+      "same": true
+    },
+    "strategies/s21_v4dino.py": {
+      "before": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22",
+      "now": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22",
+      "same": true
+    },
+    "strategies/test_scoreboard_v4.py": {
+      "before": "07e5d33b13dfd9f82b01e5fdefbdb4bb4677e3d943c2e53edcb4abecda21170b",
+      "now": "07e5d33b13dfd9f82b01e5fdefbdb4bb4677e3d943c2e53edcb4abecda21170b",
+      "same": true
+    },
+    "strategies/test_s21_v4dino.py": {
+      "before": "bf96a5e8a45c965e52e019c43cf7fcbf933d5210fc8042a6ba7e0146cb734cd1",
+      "now": "bf96a5e8a45c965e52e019c43cf7fcbf933d5210fc8042a6ba7e0146cb734cd1",
+      "same": true
+    },
+    "strategies/scoreboard_v4_snapshot/beds.py": {
+      "before": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+      "now": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+      "same": true
+    },
+    "strategies/scoreboard_v4_snapshot/legend_classify.py": {
+      "before": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+      "now": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+      "same": true
+    },
+    "strategies/scoreboard_v4_snapshot/log_scale.json": {
+      "before": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+      "now": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+      "same": true
+    },
+    "strategies/scoreboard_v4_snapshot/native_swatches.pkl": {
+      "before": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+      "now": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+      "same": true
+    },
+    "strategies/scoreboard_v4_snapshot/README.md": {
+      "before": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+      "now": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+      "same": true
+    },
+    "strategies/s02_features_pelt.py": {
+      "before": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e",
+      "now": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e",
+      "same": true
+    }
+  },
+  "source_hash_checks": {
+    "count": 53,
+    "mismatches": []
+  },
+  "input_hash_checks": {
+    "count": 264,
+    "mismatches": []
+  },
+  "image_suffixes": [
+    ".tif",
+    ".tiff"
+  ],
+  "dev_map": {
+    "matches": true,
+    "counts": {
+      "KGS 386825": 2,
+      "Utah 4304150011": 21,
+      "Idaho Barlow 3-14": 6,
+      "Flat Bay 2": 9,
+      "Storm": 13
+    },
+    "logs": 46
+  },
+  "report_source_freeze": {
+    "build_report.py": true,
+    "report_inputs.py": true,
+    "reviewed_dev_wells.json": true,
+    "audit_saved_predictions.py": true
+  },
+  "preserved_history": [
+    {
+      "checkpoint": "checkpoint_pre_m2_055519.json",
+      "sha256": "dfbd518925c494c9339330ab492b98cfa0f181b283b26a3a12be0d17a1a69251",
+      "manifest": "manifest_pre_m2_055519.json",
+      "manifest_sha256": "bc96b4101a09f228f7a4a1484c48db78979f6f5fe6854c86217002f2b408ab40",
+      "records": 7,
+      "strategies": [
+        "s19_combine",
+        "s20_v4",
+        "s21_v4dino"
+      ],
+      "migration_notes": [
+        "absent"
+      ],
+      "old_digests_match": true,
+      "current_case_identity_match": true
+    },
+    {
+      "checkpoint": "checkpoint_pre_m2_055733.json",
+      "sha256": "e56c8b6c36be6768db4dc51b4349e08e91029be8613365376dfe146833825cb4",
+      "manifest": "manifest_pre_m2_055733.json",
+      "manifest_sha256": "4325d33df7439c8d47913d2017ff11bce3d0e4d9d39b15c269e007ba8b592bf8",
+      "records": 8,
+      "strategies": [
+        "s19_combine",
+        "s20_v4",
+        "s21_v4dino"
+      ],
+      "migration_notes": [
+        "absent",
+        "legacy input and identity validated at migration; original read-time hash guard absent"
+      ],
+      "old_digests_match": true,
+      "current_case_identity_match": true
+    },
+    {
+      "checkpoint": "checkpoint_pre_m2_061752.json",
+      "sha256": "60b3ffad3ca9799c7c128f25c6785aa821404e9921230a8cbefbe1186b1c1d12",
+      "manifest": "manifest_pre_m2_061752.json",
+      "manifest_sha256": "0f9423281b70c16a3ba378391125fb32296cce3b6bf36b98615ce08c7f1fb980",
+      "records": 13,
+      "strategies": [
+        "s19_combine",
+        "s20_v4",
+        "s21_v4dino"
+      ],
+      "migration_notes": [
+        "absent",
+        "legacy input and identity validated at migration; original read-time hash guard absent"
+      ],
+      "old_digests_match": true,
+      "current_case_identity_match": true
+    }
+  ],
+  "unfrozen_cache_probe": {
+    "input_pixel_sha256": "17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1",
+    "first": {
+      "items": [
+        {
+          "label": "Clay"
+        }
+      ]
+    },
+    "second": {
+      "items": [
+        {
+          "label": "Shale"
+        }
+      ]
+    },
+    "different": true,
+    "cache_paths_in_manifest": []
+  },
+  "integrity_gate_probe": {
+    "replay_exit": 0,
+    "report_record_gate": "valid",
+    "report_audit_binding": "valid",
+    "runner_rejection": "Resume manifest digest mismatch",
+    "model_pin": "wrong in every synthetic record"
+  },
+  "pairing_agreement": {
+    "runner_units": 5,
+    "report_units": 5,
+    "paired_cases": 51,
+    "runner_delta": 0.302536231884058,
+    "report_delta": -0.302536231884058,
+    "opposite_declared_direction_agrees": true
+  }
+}

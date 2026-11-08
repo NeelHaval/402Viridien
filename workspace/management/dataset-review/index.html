@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dataset review</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<main id="app">
+  <header class="topbar">
+    <div><h1>Review the evaluation data</h1><p id="catalog-status">Load the data catalogue to start.</p></div>
+    <div class="file-actions">
+      <label class="button secondary">Load catalogue<input id="load-catalog" type="file" accept=".json,application/json" hidden></label>
+      <label class="button secondary">Load review<input id="load-review" type="file" accept=".json,application/json" hidden></label>
+      <button id="export-review">Save review</button>
+    </div>
+  </header>
+  <p id="notice" class="notice" role="status" aria-live="polite">Review decisions stay in this browser. Save the review file before you close it.</p>
+  <section id="summary" class="summary" aria-label="Data counts"></section>
+  <details class="source-details"><summary>Counts and sources</summary><div id="source-summary"></div></details>
+  <section class="filters" aria-label="Filter records">
+    <label>Find a record<input id="search" type="search" placeholder="ID, well, issue or label"></label>
+    <label>Family<select id="family"><option value="">All families</option></select></label>
+    <label>Source<select id="source"><option value="">All sources</option><option value="current">Current</option><option value="synthetic">Synthetic</option><option value="outside">Outside</option></select></label>
+    <label>Evidence<select id="evidence"><option value="">All evidence</option><option value="accuracy">Accuracy-evaluable</option><option value="diagnostic">Synthetic diagnostic</option><option value="robustness">Unlabelled robustness</option><option value="blocked">Blocked</option><option value="sealed">Sealed</option></select></label>
+    <label>Review<select id="review-filter"><option value="">All decisions</option><option value="unreviewed">Unreviewed</option><option value="flag">Flagged</option><option value="exclude">Excluded</option><option value="accept">Accepted</option></select></label>
+    <label>Order<select id="sort"><option value="priority">Needs review first</option><option value="id">Record ID</option><option value="family">Family</option></select></label>
+    <label class="check"><input id="issues-only" type="checkbox">With issues only</label>
+  </section>
+  <section id="crop-review" class="crop-review" hidden aria-label="Review model suggestions"></section>
+  <div class="section-bar"><h2>Compare the same family</h2><button id="clear-pins" class="secondary">Clear comparison</button></div>
+  <p class="hint">Open a record to inspect it. Pin records from the same family to compare them. Different y values can describe different geology.</p>
+  <section id="comparison" class="comparison" aria-label="Current, synthetic and outside comparison"></section>
+  <section id="inspector" class="inspector" hidden aria-label="Selected record"></section>
+  <details class="source-details"><summary>Compare family coverage and independent groups</summary><div id="family-summary"></div></details>
+  <div class="section-bar"><div><h2>Review records</h2><p id="results-status" aria-live="polite"></p></div><button id="export-selection" class="secondary">Save filtered record list</button></div>
+  <p class="hint">Keys: J next, K previous, F flag, A accept, X exclude. Keys apply when you are not typing.</p>
+  <section id="records" class="records" aria-label="Record contact sheet"></section>
+  <nav class="pagination" aria-label="Record pages"><button id="prev-page" class="secondary">Previous page</button><span id="page-status"></span><button id="next-page" class="secondary">Next page</button></nav>
+  <footer><p>Acceptance is a visual review decision. It does not prove label accuracy or make a runnable harness manifest. Sealed assets stay hidden. Save the review file for the dataset owner.</p></footer>
+</main>
+<script src="catalog.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

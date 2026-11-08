@@ -1,0 +1,44 @@
+{
+  "observed_utc": "2026-11-08T06:25:35.698864+00:00",
+  "artifacts": {
+    "raw_results.json": {
+      "exists": true,
+      "sha256": "1aded9bcc519efda9602126d0444e4e3ebe2abb4842e0ad65c3cdc4835603d6a",
+      "snapshot": "astra_recheck_snapshot_raw_results.json",
+      "records": 21,
+      "by_strategy": {
+        "s19_combine": 6,
+        "s20_v4": 5,
+        "s21_v4dino": 5,
+        "s23_v4dino_identity": 5
+      },
+      "by_suite": {
+        "viridien_eval": 21
+      },
+      "complete": null,
+      "unique_keys": 21,
+      "manifest_identity_mismatches": [],
+      "record_digest_mismatches": 0,
+      "model_pin_mismatches": [],
+      "retained_baseline_records": 13,
+      "retained_baseline_value_mismatches": [],
+      "migration_note_counts": {
+        "legacy input and identity validated at migration; original read-time hash guard absent": 8,
+        "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present": 5,
+        "absent": 8
+      }
+    },
+    "scores.json": {
+      "exists": false
+    },
+    "report_data.json": {
+      "exists": false
+    },
+    "audit_saved_predictions.json": {
+      "exists": false
+    },
+    "result_audit.json": {
+      "exists": false
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "1195460dd0d251cd",
+    "suite": "human_qa",
+    "log": "60811405120000_1inch tvd mudlog",
+    "y0": 1503,
+    "y1": 14851,
+    "window": [
+      1503,
+      14851
+    ],
+    "family": "Gulf 3-panel",
+    "well": "60811405120000_1inch tvd mudlog",
+    "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+    "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+    "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+    "column_box": [
+      953,
+      1205,
+      1000,
+      15029
+    ],
+    "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\1195460dd0d251cd.csv",
+    "truth_sources": [
+      {
+        "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+        "sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9"
+      }
+    ],
+    "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+    "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+    "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+    "note": "QA truth; Shenzi boundaries may be machine anchored. Strict scorer labels, no synonyms."
+  },
+  "strategy": "s20_v4",
+  "strict": {
+    "row_acc": 0.9226154769046191,
+    "boundary_f1": 0.880248833592535,
+    "cluster_ari": 0.8041059007606666,
+    "depth_mae_ft": 2.2095406360424583,
+    "score": 0.8121311973997114
+  },
+  "owner_equivalent": {
+    "row_acc": 0.9226154769046191,
+    "boundary_f1": 0.880248833592535,
+    "cluster_ari": 0.8041059007606666,
+    "depth_mae_ft": 2.2095406360424583,
+    "score": 0.8121311973997114
+  },
+  "seconds": 0.5118939480162226,
+  "runtime_scope": "VM CPU inference on locally decoded lossless window; not comparable to local source-page IO",
+  "calibration": {
+    "a": 0.4992350664109276,
+    "b": 14103.443418512674,
+    "n_points": 62,
+    "rmse_px": 0.6005519320803487,
+    "method": "rapidocr+consensus+ft"
+  },
+  "calibration_signature": [
+    [
+      1535,
+      15029
+    ],
+    [
+      236,
+      1205,
+      316,
+      15029
+    ],
+    "def07061d84333f357b5d2c78f5edf2800f3ee7744dd7bc17119ecda27dbccd4"
+  ],
+  "crop_rgb_sha256": "5d23f9da02426cf717ed93aaf17279f6eb04618d73e62f5040d77a69ee5ab404",
+  "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+  "source_sha256": {
+    "strategies/s20_v4.py": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+    "strategies/scoreboard_v4.py": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+    "harness/__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "harness/depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "emil/paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "labeltool/__init__.py": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "labeltool/common.py": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "labeltool/jev2.py": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "strategies/scoreboard_v4_snapshot/beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+    "strategies/scoreboard_v4_snapshot/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "strategies/scoreboard_v4_snapshot/log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+    "strategies/scoreboard_v4_snapshot/native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+    "strategies/scoreboard_v4_snapshot/README.md": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+    "labeltool/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419"
+  },
+  "prediction_sha256": "1ab183d448ce531b1b000764d49c11994f3eeacfe4007788e1a493d29ce56845",
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.2.6",
+    "pillow": "12.0.0",
+    "scipy": "1.14.1",
+    "scikit-image": "0.24.0",
+    "scikit-learn": "1.8.0",
+    "opencv-python-headless": "4.12.0.88",
+    "rapidocr-onnxruntime": "1.4.4"
+  },
+  "affinity": [
+    0,
+    1
+  ],
+  "peak_rss_kib": 169224,
+  "diagnostics": {
+    "native_cache_present": true,
+    "native_entries": 10,
+    "legend_entries": 10,
+    "state_counts": {
+      "ok": 288
+    },
+    "source_sha256": {
+      "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+      "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+      "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+      "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+    },
+    "inference_extent": "window"
+  },
+  "seed": 1108,
+  "host": "box-node-1a94fd244c84a1f2",
+  "contract": "hacktheburgh harness.score.score, min_layer_px=0; not interval-v2",
+  "image": "source_truth_prediction.png",
+  "boxes": {
+    "depth_column": [
+      236,
+      1205,
+      316,
+      15029
+    ],
+    "interpreted_lithology_column": [
+      953,
+      1205,
+      1000,
+      15029
+    ],
+    "lithology_legend": [
+      12,
+      596,
+      1525,
+      1003
+    ]
+  },
+  "explanation": "Strict row accuracy is limited by mismatched or merged legend labels; inspect paired intervals for lost contacts. This is development evidence only."
+}

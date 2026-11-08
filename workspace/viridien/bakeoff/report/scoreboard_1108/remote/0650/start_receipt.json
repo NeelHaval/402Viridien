@@ -1,0 +1,17 @@
+{
+  "pid": 2108621,
+  "command": [
+    "timeout",
+    "-k",
+    "10s",
+    "1800s",
+    "bash",
+    "/home/user/viridian402-jobs/v4-cpu-20261108T063000Z-f785e5/scoreboard-s20-0650/run_batch.sh",
+    "926ccf2bec1ead2b"
+  ],
+  "owner": "root/v4_wrapper scoreboard S20 only",
+  "started_utc": "2026-11-08T06:46:35Z",
+  "source_packet_sha256": "c100f092f8fa05944f609197dc105c33d9b10a5518dc78b554e2565a99e513a2",
+  "stop_rule": "Stop after first case failure or 300 seconds per case; whole lock wait plus job 1800 seconds",
+  "remote_job": "/home/user/viridian402-jobs/v4-cpu-20261108T063000Z-f785e5/scoreboard-s20-0650"
+}

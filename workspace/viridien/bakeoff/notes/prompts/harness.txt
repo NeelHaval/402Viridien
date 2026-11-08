@@ -1,0 +1,32 @@
+sandbox=workspace-write
+You are building the shared harness for a lithology-extraction bake-off. Working folder:
+C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md there first and follow it exactly. Build `harness/` (io.py, legend.py, depth.py, score.py, viz.py,
+synth.py, run.py, report.py, __init__.py) with the API in SPEC.md. Do not touch `strategies/`, `gt/` or eval_set.json.
+
+Requirements beyond SPEC.md:
+1. legend.parse: find swatches inside the legend box as rectangles (connected components / contour boxes with
+   swatch-like size and aspect, filled or patterned, both 1-bit and colour legends), OCR the label text next to
+   or below each swatch with rapidocr_onnxruntime (upscale the crop 2-3x first; legends have tiny text), and set
+   is_lithology False for entries in sections titled Modifiers / Show / Drilling / Fossil / Accessories /
+   Technical / Mineral when such section headings exist (OCR the headings), and for empty swatches. Save a debug
+   PNG per log in out/_cache/legend/ with numbered boxes and labels. Check it on at least these logs by LOOKING
+   at the debug PNGs (use your image viewer): log06, 60811407300100_bp_gc743..., 60807402860000_gb506#2_md_mudlog,
+   Critter Creek 201..., Rio_Nueces_3744_Unit_1_212_MUD_5IN, 608114075800 - Allegheny..., 60817411400100_mc761_1_st1_mudlog_1md_17133_22886.
+2. depth.calibrate: OCR the depth column box in strips (rotate 90 degrees too when the numbers are vertical, as in
+   the 1-bit D-582 logs), keep numeric tokens, fit depth = a*y + b with RANSAC, report rmse_px and n_points. Support
+   engine="easyocr" (GPU) as an alternative. Verify on log06: the example CSV says row 4409 -> 25400 ft and
+   row 10415 -> 25690 ft (about 20 px per ft). Print calibration results for all 13 eval logs into
+   notes/depth_check.md (a, b, n_points, rmse, seconds, engine).
+3. score.py with unit tests in harness/test_score.py (perfect prediction = 1.0; shifted boundaries; blanks).
+4. viz.render as in SPEC.md, and report.py which builds report/index.html (static, flat style, white background,
+   images by relative path) from out/*/metrics.json: a leaderboard table (strategy, score, row_acc, boundary_f1,
+   cluster_ari, depth_mae_ft, s/window, peak RAM, peak GPU, API calls, crashes), a scatter PNG of score vs seconds
+   (matplotlib, log x axis, one labelled point per strategy), and per-log galleries comparing all strategies.
+5. A trivial reference strategy `harness/_dummy.py` (one interval = the whole window, most common legend colour)
+   to prove run.py works end to end: run `python -m harness.run --strategy _dummy --set eval --gt gold` (gold only
+   has log06; the runner must skip logs without GT for scoring but still render) and also --set synthetic.
+6. GT loader: CSVs may lack depth columns; silver CSVs have columns top_y,bottom_y,lithology at least.
+Keep memory low (strip reads). When finished, reply with: files written, the legend parse quality per checked log
+(how many swatches found vs visible, label errors), the depth calibration table, the dummy run metrics, and any
+known gaps.

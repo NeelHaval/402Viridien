@@ -1,0 +1,7 @@
+# S7 synthetic CNN
+
+The model trains from the current log's lithology swatches and a white blank class. Training samples use periodically extended swatches, spatial jitter, occasional rotation, ink lines, intensity noise, and binary thresholding for 1-bit inputs. A small four-layer convolutional network classifies overlapping patches; logits are pooled across the track, decoded with a Viterbi change penalty, and boundaries are moved to nearby horizontal ink or white-space transitions. Training is capped at 20 seconds, below the requested 25 seconds. The pipeline image shows the swatches, input, patch classifications, and smoothed classes.
+
+On the first synthetic cases, some boundaries and conspicuously distinct textures were recovered, but similar dashed swatches were confused and sparse motifs were fragmented. Reduced scale and rotation jitter and stronger temporal smoothing were added after viewing the synthetic image. The synthetic run was interrupted after the first three logs; those results are from the earlier version.
+
+The gold image reveals a substantial domain gap: track textures differ in scale and appearance from legend samples, and the predicted labels can be completely wrong even where boundaries roughly agree. Legend labels may also differ from gold wording. Potential improvements include multiscale patch inference, learning texture statistics instead of repeating tiny swatches, and better handling of mixtures, blank space, and drawn rules.

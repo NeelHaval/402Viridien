@@ -1,0 +1,26 @@
+{
+ "steps": 450,
+ "seed": 100,
+ "training_wells": [
+  "386825",
+  "4304150011",
+  "ForsythB2-17",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "real_windows": 59,
+ "synthetic_columns": 0,
+ "dev_items_sha256": "567345671c9376298432e92e621538a6a1cee9db6fcba9e05e30c8254125e9bf",
+ "config": {
+  "gap": 24,
+  "preserve": false,
+  "proposal_f1": 0.4458937882049002,
+  "threshold": 0.7,
+  "variant": "rich_real",
+  "kind": "rich"
+ },
+ "seconds": 25.520450074996916,
+ "peak_rss_gb": 0.5023765563964844,
+ "weights_sha256": "5f547847661a92ed7d2fae161bdd6374a738d12fa42bc06cb749e1cd08178cb1"
+}

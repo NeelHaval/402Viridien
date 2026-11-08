@@ -1,0 +1,906 @@
+[
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_CC23-04-65_mud_p001",
+    "source": "oregon_dogami",
+    "well": "CC23-04-65",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_CC23-04-65_mud_p001",
+    "legend_labels": [
+      "S4Ad",
+      "c! ard",
+      "c",
+      "tr",
+      "Yat",
+      "iatru",
+      "Coal",
+      "L",
+      "Satl Limatt. Chert"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1110,
+        "y1": 5110,
+        "intervals": 113,
+        "seconds": 0.049263530992902815,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC23-04-65_mud_p001_001110.png"
+      },
+      {
+        "y0": 5110,
+        "y1": 9110,
+        "intervals": 93,
+        "seconds": 0.04729152299114503,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC23-04-65_mud_p001_005110.png"
+      },
+      {
+        "y0": 9110,
+        "y1": 13110,
+        "intervals": 101,
+        "seconds": 0.047423092008102685,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC23-04-65_mud_p001_009110.png"
+      },
+      {
+        "y0": 13110,
+        "y1": 13700,
+        "intervals": 22,
+        "seconds": 0.03267891297582537,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC23-04-65_mud_p001_013110.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.245071276993258,
+    "status": "predicted",
+    "intervals": 326,
+    "labelled_row_fraction": 1.0,
+    "seconds": 2.469932780979434
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_CC33-03-65_mud_p001",
+    "source": "oregon_dogami",
+    "well": "CC33-03-65",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_CC33-03-65_mud_p001",
+    "legend_labels": [
+      "Sand",
+      "Sh",
+      "s",
+      "it+t. sandy Congl",
+      "L",
+      "Lirm!le",
+      "Yot",
+      "Intru",
+      "t",
+      "S+lt Limeil. Chert"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1520,
+        "y1": 5520,
+        "intervals": 119,
+        "seconds": 0.05141755100339651,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC33-03-65_mud_p001_001520.png"
+      },
+      {
+        "y0": 5520,
+        "y1": 9520,
+        "intervals": 96,
+        "seconds": 0.053361384983872995,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC33-03-65_mud_p001_005520.png"
+      },
+      {
+        "y0": 9520,
+        "y1": 13520,
+        "intervals": 66,
+        "seconds": 0.050291248015128076,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC33-03-65_mud_p001_009520.png"
+      },
+      {
+        "y0": 13520,
+        "y1": 14400,
+        "intervals": 5,
+        "seconds": 0.024697660002857447,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC33-03-65_mud_p001_013520.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.0200654540094547,
+    "status": "predicted",
+    "intervals": 283,
+    "labelled_row_fraction": 0.9393633540372671,
+    "seconds": 2.2421867529919837
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_CC43-34-65-RD_mud-r_p001",
+    "source": "oregon_dogami",
+    "well": "CC43-34-65-RD",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_CC43-34-65-RD_mud-r_p001",
+    "legend_labels": [
+      "S+hd",
+      "C!! 4:d",
+      "s",
+      "or Cou",
+      "taic",
+      "t. 1",
+      "c",
+      "Silt Sohdy Congl Llujiltt"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1110,
+        "y1": 5110,
+        "intervals": 86,
+        "seconds": 0.05044456699397415,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC43-34-65-RD_mud-r_p001_001110.png"
+      },
+      {
+        "y0": 5110,
+        "y1": 9110,
+        "intervals": 90,
+        "seconds": 0.051071678986772895,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC43-34-65-RD_mud-r_p001_005110.png"
+      },
+      {
+        "y0": 9110,
+        "y1": 9220,
+        "intervals": 3,
+        "seconds": 0.026783290988532826,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC43-34-65-RD_mud-r_p001_009110.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 1.5603773449838627,
+    "status": "predicted",
+    "intervals": 177,
+    "labelled_row_fraction": 1.0,
+    "seconds": 1.726097098988248
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001",
+    "source": "oregon_dogami",
+    "well": "CoosCounty1-7",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001",
+    "legend_labels": [
+      "LoGY 1",
+      "Coc",
+      "l+Y",
+      "Corg",
+      "i",
+      "E"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1050,
+        "y1": 5050,
+        "intervals": 64,
+        "seconds": 0.047457617009058595,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001_001050.png"
+      },
+      {
+        "y0": 5050,
+        "y1": 9050,
+        "intervals": 48,
+        "seconds": 0.04554094502236694,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001_005050.png"
+      },
+      {
+        "y0": 9050,
+        "y1": 13050,
+        "intervals": 65,
+        "seconds": 0.046688927977811545,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001_009050.png"
+      },
+      {
+        "y0": 13050,
+        "y1": 17050,
+        "intervals": 73,
+        "seconds": 0.046801669988781214,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001_013050.png"
+      },
+      {
+        "y0": 17050,
+        "y1": 21050,
+        "intervals": 81,
+        "seconds": 0.04814778800937347,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001_017050.png"
+      },
+      {
+        "y0": 21050,
+        "y1": 24300,
+        "intervals": 67,
+        "seconds": 0.04704721400048584,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CoosCounty1-7_mud_p001_021050.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.9682012739940546,
+    "status": "predicted",
+    "intervals": 393,
+    "labelled_row_fraction": 0.9993548387096775,
+    "seconds": 3.2760835140070412
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_Hammerberg1-RD_mud-R_p001",
+    "source": "oregon_dogami",
+    "well": "Hammerberg1-RD",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_Hammerberg1-RD_mud-R_p001",
+    "legend_labels": [
+      "Sand",
+      "C",
+      "Silt sandy Congl",
+      "Lignite or Coal",
+      "Vol",
+      "Inttu",
+      "L",
+      "Salt Limett. Chert"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1570,
+        "y1": 5570,
+        "intervals": 86,
+        "seconds": 0.05372520998935215,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Hammerberg1-RD_mud-R_p001_001570.png"
+      },
+      {
+        "y0": 5570,
+        "y1": 9570,
+        "intervals": 110,
+        "seconds": 0.055565097980434075,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Hammerberg1-RD_mud-R_p001_005570.png"
+      },
+      {
+        "y0": 9570,
+        "y1": 13570,
+        "intervals": 109,
+        "seconds": 0.054788374982308596,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Hammerberg1-RD_mud-R_p001_009570.png"
+      },
+      {
+        "y0": 13570,
+        "y1": 14180,
+        "intervals": 10,
+        "seconds": 0.029618934990139678,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Hammerberg1-RD_mud-R_p001_013570.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.0637021849979647,
+    "status": "predicted",
+    "intervals": 312,
+    "labelled_row_fraction": 0.9767644726407613,
+    "seconds": 2.294762624980649
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001",
+    "source": "oregon_dogami",
+    "well": "Keys1",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001",
+    "legend_labels": [
+      "S.ad",
+      "Silt S..dt Co.g",
+      "L",
+      "le 1",
+      "anik",
+      "Iatrw",
+      "L",
+      "t"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1560,
+        "y1": 5560,
+        "intervals": 149,
+        "seconds": 0.051903267012676224,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001_001560.png"
+      },
+      {
+        "y0": 5560,
+        "y1": 9560,
+        "intervals": 145,
+        "seconds": 0.05056428199168295,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001_005560.png"
+      },
+      {
+        "y0": 9560,
+        "y1": 13560,
+        "intervals": 98,
+        "seconds": 0.049817674997029826,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001_009560.png"
+      },
+      {
+        "y0": 13560,
+        "y1": 17560,
+        "intervals": 67,
+        "seconds": 0.04946413802099414,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001_013560.png"
+      },
+      {
+        "y0": 17560,
+        "y1": 21560,
+        "intervals": 78,
+        "seconds": 0.04935564397601411,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001_017560.png"
+      },
+      {
+        "y0": 21560,
+        "y1": 23650,
+        "intervals": 24,
+        "seconds": 0.03762023599119857,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_Keys1_mud1_p001_021560.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 4.167232152976794,
+    "status": "predicted",
+    "intervals": 557,
+    "labelled_row_fraction": 0.9661385242191036,
+    "seconds": 4.495716623991029
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_OM12C-03-65_mud_p001",
+    "source": "oregon_dogami",
+    "well": "OM12C-03-65",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_OM12C-03-65_mud_p001",
+    "legend_labels": [
+      "Iatu",
+      "l",
+      "c",
+      "L",
+      "e",
+      "Ynte",
+      "i",
+      "Sh ilkmort, Chert"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1490,
+        "y1": 5490,
+        "intervals": 96,
+        "seconds": 0.051923645980423316,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_OM12C-03-65_mud_p001_001490.png"
+      },
+      {
+        "y0": 5490,
+        "y1": 9490,
+        "intervals": 20,
+        "seconds": 0.04411302399239503,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_OM12C-03-65_mud_p001_005490.png"
+      },
+      {
+        "y0": 9490,
+        "y1": 13490,
+        "intervals": 16,
+        "seconds": 0.04264880498521961,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_OM12C-03-65_mud_p001_009490.png"
+      },
+      {
+        "y0": 13490,
+        "y1": 16480,
+        "intervals": 14,
+        "seconds": 0.037828467990038916,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_OM12C-03-65_mud_p001_013490.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.674632472015219,
+    "status": "predicted",
+    "intervals": 143,
+    "labelled_row_fraction": 0.9089392928619079,
+    "seconds": 2.8912892430089414
+  },
+  {
+    "id": "ul_r4_bw_hatch_oregon_dogami_CC12-19-65_mud_p001",
+    "source": "oregon_dogami",
+    "well": "CC12-19-65",
+    "strategy": "s19",
+    "legend_page": "ul_r4_bw_hatch_oregon_dogami_CC12-19-65_mud_p001",
+    "legend_labels": [
+      "SANDISANDSTONE",
+      "Limestone",
+      "Tuff",
+      "I  Lignite",
+      "Shale",
+      "DIATOMITE",
+      "Dolomite",
+      "GLAUCONTTE",
+      "Conglomerate",
+      "Siltstone",
+      "Basalt",
+      "MICAI",
+      "pyaite"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1390,
+        "y1": 5390,
+        "intervals": 38,
+        "seconds": 0.049756281019654125,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC12-19-65_mud_p001_001390.png"
+      },
+      {
+        "y0": 5390,
+        "y1": 9390,
+        "intervals": 51,
+        "seconds": 0.05211538600269705,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC12-19-65_mud_p001_005390.png"
+      },
+      {
+        "y0": 9390,
+        "y1": 13050,
+        "intervals": 44,
+        "seconds": 0.0473014329909347,
+        "overlay": "overlays/ul_r4_bw_hatch_oregon_dogami_CC12-19-65_mud_p001_009390.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 1.5780354159942362,
+    "status": "predicted",
+    "intervals": 131,
+    "labelled_row_fraction": 0.9810463121783877,
+    "seconds": 1.7674205070070457
+  },
+  {
+    "id": "ul_r3_oregon_dogami_Adams24-34-75_mud_p001",
+    "source": "oregon_dogami",
+    "well": "Adams24-34-75_mud",
+    "strategy": "s19",
+    "legend_page": "ul_r3_oregon_dogami_Adams24-34-75_mud_p001",
+    "legend_labels": [
+      "Sand",
+      "M",
+      "J",
+      "Silt sandy Coal",
+      "IL",
+      "le",
+      "vaie",
+      "Intry",
+      "L",
+      "Solt Limest. Chert"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1950,
+        "y1": 5950,
+        "intervals": 115,
+        "seconds": 0.06864637500257231,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams24-34-75_mud_p001_001950.png"
+      },
+      {
+        "y0": 5950,
+        "y1": 9950,
+        "intervals": 86,
+        "seconds": 0.06803740598843433,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams24-34-75_mud_p001_005950.png"
+      },
+      {
+        "y0": 9950,
+        "y1": 13950,
+        "intervals": 53,
+        "seconds": 0.06816832200274803,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams24-34-75_mud_p001_009950.png"
+      },
+      {
+        "y0": 13950,
+        "y1": 15800,
+        "intervals": 16,
+        "seconds": 0.04268402000889182,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams24-34-75_mud_p001_013950.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.400525953999022,
+    "status": "predicted",
+    "intervals": 267,
+    "labelled_row_fraction": 0.9368953068592057,
+    "seconds": 2.6938164249877445
+  },
+  {
+    "id": "ul_r3_oregon_dogami_Adams31-34-75-RD_mud_p001",
+    "source": "oregon_dogami",
+    "well": "Adams31-34-75-RD_mud",
+    "strategy": "s19",
+    "legend_page": "ul_r3_oregon_dogami_Adams31-34-75-RD_mud_p001",
+    "legend_labels": [
+      "SAN",
+      "CLAYSTONE",
+      "Limestone",
+      "Tuff",
+      "Sandstone",
+      "Clay",
+      "Dolostone",
+      "Shale",
+      "DIATOMITE",
+      "Volcanic",
+      "MICA",
+      "Marl",
+      "Siltstone",
+      "CONGLOMEI",
+      "Basalt",
+      "Lignite"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 2510,
+        "y1": 6510,
+        "intervals": 38,
+        "seconds": 0.0743622469890397,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams31-34-75-RD_mud_p001_002510.png"
+      },
+      {
+        "y0": 6510,
+        "y1": 10510,
+        "intervals": 41,
+        "seconds": 0.07440945599228144,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams31-34-75-RD_mud_p001_006510.png"
+      },
+      {
+        "y0": 10510,
+        "y1": 14510,
+        "intervals": 50,
+        "seconds": 0.07341575299506076,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams31-34-75-RD_mud_p001_010510.png"
+      },
+      {
+        "y0": 14510,
+        "y1": 15000,
+        "intervals": 1,
+        "seconds": 0.02428337899618782,
+        "overlay": "overlays/ul_r3_oregon_dogami_Adams31-34-75-RD_mud_p001_014510.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 1.981925725005567,
+    "status": "predicted",
+    "intervals": 127,
+    "labelled_row_fraction": 0.9689351481184948,
+    "seconds": 2.2755199880048167
+  },
+  {
+    "id": "ul_r3_dhi_wister_wister_p002",
+    "source": "dhi_wister",
+    "well": "wister",
+    "strategy": "s19",
+    "legend_page": "ul_r3_dhi_wister_wister_p001",
+    "legend_labels": [
+      "Limestone",
+      "Volcanic",
+      "Cement",
+      "Dolomite",
+      "Basalt",
+      "Conglomerate",
+      "Coal",
+      "Igneous (Extrusive",
+      "Sand",
+      "Quartzite",
+      "Igneous (lntrusive",
+      "Siltstone",
+      "Chert",
+      "Tuff",
+      "Claystone",
+      "Anhydrite",
+      "Metamorphic",
+      "Shale",
+      "Mudstone"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 0,
+        "y1": 2829,
+        "intervals": 12,
+        "seconds": 0.04642336899996735,
+        "overlay": "overlays/ul_r3_dhi_wister_wister_p002_000000.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 0.3241202970093582,
+    "status": "predicted",
+    "intervals": 12,
+    "labelled_row_fraction": 1.0,
+    "seconds": 0.4495656249928288
+  },
+  {
+    "id": "ul_r3_precision_wl_log-01_p001",
+    "source": "precision_wl",
+    "well": "log-01",
+    "strategy": "s19",
+    "legend_page": "ul_r3_precision_wl_log-01_p001",
+    "legend_labels": [
+      "nd",
+      "le",
+      "st",
+      "ne",
+      "ol",
+      "mite",
+      "rl",
+      "Da",
+      "nit",
+      "BA",
+      "rt"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1660,
+        "y1": 2200,
+        "intervals": 5,
+        "seconds": 0.043467595998663455,
+        "overlay": "overlays/ul_r3_precision_wl_log-01_p001_001660.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 0.10046007501659915,
+    "status": "predicted",
+    "intervals": 5,
+    "labelled_row_fraction": 1.0,
+    "seconds": 0.18448721899767406
+  },
+  {
+    "id": "ul_r3_precision_wl_log-01_p002",
+    "source": "precision_wl",
+    "well": "log-01",
+    "strategy": "s19",
+    "legend_page": "ul_r3_precision_wl_log-01_p001",
+    "legend_labels": [
+      "nd",
+      "le",
+      "st",
+      "ne",
+      "ol",
+      "mite",
+      "rl",
+      "Da",
+      "nit",
+      "BA",
+      "rt"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 0,
+        "y1": 2200,
+        "intervals": 20,
+        "seconds": 0.04978256800677627,
+        "overlay": "overlays/ul_r3_precision_wl_log-01_p002_000000.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 0.30684637898229994,
+    "status": "predicted",
+    "intervals": 20,
+    "labelled_row_fraction": 1.0,
+    "seconds": 0.3982653550046962
+  },
+  {
+    "id": "ul_r3_stratagraph_Measured_Depth_Log_Example_p002",
+    "source": "stratagraph",
+    "well": "Measured_Depth_Log_Example",
+    "strategy": "s19",
+    "legend_page": "ul_r3_stratagraph_Measured_Depth_Log_Example_p001",
+    "legend_labels": [
+      "ONITE"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 210,
+        "y1": 2200,
+        "intervals": 1,
+        "seconds": 0.05989597999723628,
+        "overlay": "overlays/ul_r3_stratagraph_Measured_Depth_Log_Example_p002_000210.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 0.16971396398730576,
+    "status": "predicted",
+    "intervals": 1,
+    "labelled_row_fraction": 1.0,
+    "seconds": 0.2698036429937929
+  },
+  {
+    "id": "ul_r3_mississippi_mdl123045000360000a-001_p001",
+    "source": "mississippi",
+    "well": "2304500036",
+    "strategy": "s19",
+    "legend_page": "ul_r3_mississippi_mdl123045000360000a-001_p001",
+    "legend_labels": [
+      "Anhydrite",
+      "ATDRT",
+      "DOLOMT"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 265,
+        "y1": 680,
+        "intervals": 6,
+        "seconds": 0.035308238002471626,
+        "overlay": "overlays/ul_r3_mississippi_mdl123045000360000a-001_p001_000265.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 0.056447129987645894,
+    "status": "predicted",
+    "intervals": 6,
+    "labelled_row_fraction": 1.0,
+    "seconds": 0.1082167050044518
+  },
+  {
+    "id": "ul_r3_mississippi_mdl123045000360000a-002_p001",
+    "source": "mississippi",
+    "well": "2304500036",
+    "strategy": "s19",
+    "legend_page": "ul_r3_mississippi_mdl123045000360000a-001_p001",
+    "legend_labels": [
+      "Anhydrite",
+      "ATDRT",
+      "DOLOMT"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 30,
+        "y1": 505,
+        "intervals": 1,
+        "seconds": 0.03757488998235203,
+        "overlay": "overlays/ul_r3_mississippi_mdl123045000360000a-002_p001_000030.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 0.0675772370013874,
+    "status": "predicted",
+    "intervals": 1,
+    "labelled_row_fraction": 1.0,
+    "seconds": 0.12155382399214432
+  },
+  {
+    "id": "ul_r3_utah_forge_mud_log_p001",
+    "source": "utah_forge",
+    "well": "mud_log",
+    "strategy": "s19",
+    "legend_page": "ul_r3_utah_forge_mud_log_p001",
+    "legend_labels": [
+      "OBSIDIAN",
+      "ROLITE",
+      "DACITE",
+      "MONZONITE",
+      "GRANODIORITE",
+      "DIORITE",
+      "CLAYSTONE",
+      "Clay",
+      "CEMENT",
+      "Sand",
+      "Conglomerate",
+      "Granite WASH",
+      "Granite",
+      "MEDIUM Sand",
+      "COARSE Sand"
+    ],
+    "confidence": "unverified",
+    "windows": [
+      {
+        "y0": 1415,
+        "y1": 5415,
+        "intervals": 40,
+        "seconds": 0.10111311700893566,
+        "overlay": "overlays/ul_r3_utah_forge_mud_log_p001_001415.png"
+      },
+      {
+        "y0": 5415,
+        "y1": 9415,
+        "intervals": 33,
+        "seconds": 0.10242831500363536,
+        "overlay": "overlays/ul_r3_utah_forge_mud_log_p001_005415.png"
+      },
+      {
+        "y0": 9415,
+        "y1": 13415,
+        "intervals": 24,
+        "seconds": 0.10100547401816584,
+        "overlay": "overlays/ul_r3_utah_forge_mud_log_p001_009415.png"
+      },
+      {
+        "y0": 13415,
+        "y1": 17415,
+        "intervals": 24,
+        "seconds": 0.09473828200134449,
+        "overlay": "overlays/ul_r3_utah_forge_mud_log_p001_013415.png"
+      },
+      {
+        "y0": 17415,
+        "y1": 17500,
+        "intervals": 1,
+        "seconds": 0.042689681984484196,
+        "overlay": "overlays/ul_r3_utah_forge_mud_log_p001_017415.png"
+      }
+    ],
+    "warnings": [
+      "The boxes were set by hand. Scan drift can move the column outside the box.",
+      "S19 confidence is unverified. Each label needs a human check.",
+      "A single label cannot show all rocks in a mixed column."
+    ],
+    "inference_seconds": 2.4498517899774015,
+    "status": "predicted",
+    "intervals": 118,
+    "labelled_row_fraction": 1.0,
+    "seconds": 2.9551675750117283
+  }
+]

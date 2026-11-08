@@ -1,0 +1,21 @@
+{
+ "windows": 10000,
+ "train": 8000,
+ "held": 2000,
+ "height": 1024,
+ "dev_windows": 51,
+ "dev_wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "real_queries": 245,
+ "style_queries": {
+  "train": 5983,
+  "held": 1495
+ },
+ "dev_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+ "inherited_weights": false
+}

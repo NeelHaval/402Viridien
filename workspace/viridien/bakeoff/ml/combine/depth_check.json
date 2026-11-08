@@ -1,0 +1,968 @@
+[
+ {
+  "log": "ext_kgs_386825",
+  "old": {
+   "a": 0.13332661739005316,
+   "b": 3839.697072046107,
+   "n_points": 16,
+   "rmse_px": 1.9035158029297732,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13332661739005316,
+   "b": 3839.697072046107,
+   "n_points": 16,
+   "rmse_px": 1.9035158029297732,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.3141546987851113,
+  "new_endpoint_mae_ft": 0.3141546987851113,
+  "changed": false,
+  "seconds": 0.0003880909935105592
+ },
+ {
+  "log": "ext_utah_4304150011_p135",
+  "old": {
+   "a": 0.13334001671191195,
+   "b": 5902.826227609118,
+   "n_points": 3,
+   "rmse_px": 0.1514703223602384,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.13334001671191195,
+   "b": 5902.826227609118,
+   "n_points": 3,
+   "rmse_px": 0.1514703223602384,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.19455829988985443,
+  "new_endpoint_mae_ft": 0.19455829988985443,
+  "changed": false,
+  "seconds": 0.7680394449853338
+ },
+ {
+  "log": "ext_utah_4304150011_p136",
+  "old": {
+   "a": 0.13334001580604715,
+   "b": 6072.820511124508,
+   "n_points": 3,
+   "rmse_px": 0.15147391889255113,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13334001580604715,
+   "b": 6072.820511124508,
+   "n_points": 3,
+   "rmse_px": 0.15147391889255113,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.17671016305318213,
+  "new_endpoint_mae_ft": 0.17671016305318213,
+  "changed": false,
+  "seconds": 0.34684433601796627
+ },
+ {
+  "log": "ext_utah_4304150011_p137",
+  "old": {
+   "a": 0.13342007112796306,
+   "b": 6242.767591649818,
+   "n_points": 4,
+   "rmse_px": 0.08799792167398551,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13342007112796306,
+   "b": 6242.767591649818,
+   "n_points": 4,
+   "rmse_px": 0.08799792167398551,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.19105050061055712,
+  "new_endpoint_mae_ft": 0.19105050061055712,
+  "changed": false,
+  "seconds": 0.00010811298852786422
+ },
+ {
+  "log": "ext_utah_4304150011_p138",
+  "old": {
+   "a": 0.1333400448256611,
+   "b": 6412.823340351238,
+   "n_points": 3,
+   "rmse_px": 7.193062038674275e-06,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.1333400448256611,
+   "b": 6412.823340351238,
+   "n_points": 3,
+   "rmse_px": 7.193062038674275e-06,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.16048849189453243,
+  "new_endpoint_mae_ft": 0.16048849189453243,
+  "changed": false,
+  "seconds": 0.3620249800151214
+ },
+ {
+  "log": "ext_utah_4304150011_p139",
+  "old": {
+   "a": 0.13328293552645687,
+   "b": 6582.910641954816,
+   "n_points": 3,
+   "rmse_px": 0.07573335596123738,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.13328293552645687,
+   "b": 6582.910641954816,
+   "n_points": 3,
+   "rmse_px": 0.07573335596123738,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.1846150642978349,
+  "new_endpoint_mae_ft": 0.1846150642978349,
+  "changed": false,
+  "seconds": 0.3805129200045485
+ },
+ {
+  "log": "ext_utah_4304150011_p140",
+  "old": {
+   "a": 0.1333400493472391,
+   "b": 6752.840472725362,
+   "n_points": 3,
+   "rmse_px": 3.5965310729297257e-06,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.1333400493472391,
+   "b": 6752.840472725362,
+   "n_points": 3,
+   "rmse_px": 3.5965310729297257e-06,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.1775820684424616,
+  "new_endpoint_mae_ft": 0.1775820684424616,
+  "changed": false,
+  "seconds": 0.3557497470173985
+ },
+ {
+  "log": "ext_utah_4304150011_p141",
+  "old": {
+   "a": 0.1334544067159887,
+   "b": 6922.739993390271,
+   "n_points": 3,
+   "rmse_px": 1.5167715973946468e-12,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.1334544067159887,
+   "b": 6922.739993390271,
+   "n_points": 3,
+   "rmse_px": 1.5167715973946468e-12,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.19200896044942511,
+  "new_endpoint_mae_ft": 0.19200896044942511,
+  "changed": false,
+  "seconds": 0.3623981729906518
+ },
+ {
+  "log": "ext_utah_4304150011_p142",
+  "old": {
+   "a": 0.13334003102991246,
+   "b": 7092.879050454904,
+   "n_points": 4,
+   "rmse_px": 0.1606674312682926,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.13334003102991246,
+   "b": 7092.879050454904,
+   "n_points": 4,
+   "rmse_px": 0.1606674312682926,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.23021769090710223,
+  "new_endpoint_mae_ft": 0.23021769090710223,
+  "changed": false,
+  "seconds": 0.0001035250024870038
+ },
+ {
+  "log": "ext_utah_4304150011_p143",
+  "old": {
+   "a": 0.13339719761663005,
+   "b": 7262.821693483407,
+   "n_points": 3,
+   "rmse_px": 0.0757333559652216,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13339719761663005,
+   "b": 7262.821693483407,
+   "n_points": 3,
+   "rmse_px": 0.0757333559652216,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.21397708586643532,
+  "new_endpoint_mae_ft": 0.21397708586643532,
+  "changed": false,
+  "seconds": 0.3828874869795982
+ },
+ {
+  "log": "ext_utah_4304150011_p144",
+  "old": {
+   "a": 0.1332258534392194,
+   "b": 7432.989328316939,
+   "n_points": 3,
+   "rmse_px": 0.15147152117259674,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.1332258534392194,
+   "b": 7432.989328316939,
+   "n_points": 3,
+   "rmse_px": 0.15147152117259674,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.24561882246674335,
+  "new_endpoint_mae_ft": 0.24561882246674335,
+  "changed": false,
+  "seconds": 0.48815297198598273
+ },
+ {
+  "log": "ext_utah_4304150011_p145",
+  "old": {
+   "a": 0.1333400493472391,
+   "b": 7602.840473629632,
+   "n_points": 3,
+   "rmse_px": 5.994218526339823e-06,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.1333400493472391,
+   "b": 7602.840473629632,
+   "n_points": 3,
+   "rmse_px": 5.994218526339823e-06,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.18042781420393794,
+  "new_endpoint_mae_ft": 0.18042781420393794,
+  "changed": false,
+  "seconds": 0.39624880100018345
+ },
+ {
+  "log": "ext_utah_4304150011_p146",
+  "old": {
+   "a": 0.13339719399523195,
+   "b": 7772.780262371351,
+   "n_points": 3,
+   "rmse_px": 0.07573815134040801,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13339719399523195,
+   "b": 7772.780262371351,
+   "n_points": 3,
+   "rmse_px": 0.07573815134040801,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.16878290388240202,
+  "new_endpoint_mae_ft": 0.16878290388240202,
+  "changed": false,
+  "seconds": 0.40062811798998155
+ },
+ {
+  "log": "ext_utah_4304150011_p147",
+  "old": {
+   "a": 0.13335146345811924,
+   "b": 7942.857011712087,
+   "n_points": 4,
+   "rmse_px": 0.13441641572535235,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.13335146345811924,
+   "b": 7942.857011712087,
+   "n_points": 4,
+   "rmse_px": 0.13441641572535235,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.2070407934946464,
+  "new_endpoint_mae_ft": 0.2070407934946464,
+  "changed": false,
+  "seconds": 0.00011208100477233529
+ },
+ {
+  "log": "ext_utah_4304150011_p148",
+  "old": {
+   "a": 0.13334001761571032,
+   "b": 8112.851930160012,
+   "n_points": 3,
+   "rmse_px": 0.15147152120421797,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13334001761571032,
+   "b": 8112.851930160012,
+   "n_points": 3,
+   "rmse_px": 0.15147152120421797,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.18968828943025073,
+  "new_endpoint_mae_ft": 0.18968828943025073,
+  "changed": false,
+  "seconds": 0.3972007959964685
+ },
+ {
+  "log": "ext_utah_4304150011_p149",
+  "old": {
+   "a": 0.13334005025155474,
+   "b": 8282.874748582397,
+   "n_points": 3,
+   "rmse_px": 4.795374705850762e-06,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13334005025155474,
+   "b": 8282.874748582397,
+   "n_points": 3,
+   "rmse_px": 4.795374705850762e-06,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.21409585907379855,
+  "new_endpoint_mae_ft": 0.21409585907379855,
+  "changed": false,
+  "seconds": 0.41700926699559204
+ },
+ {
+  "log": "ext_utah_4304150011_p150",
+  "old": {
+   "a": 0.13334001671087875,
+   "b": 8452.854790782376,
+   "n_points": 3,
+   "rmse_px": 0.1514727200484113,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.13334001671087875,
+   "b": 8452.854790782376,
+   "n_points": 3,
+   "rmse_px": 0.1514727200484113,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.1920880553858145,
+  "new_endpoint_mae_ft": 0.1920880553858145,
+  "changed": false,
+  "seconds": 0.4273715040180832
+ },
+ {
+  "log": "ext_utah_4304150011_p151",
+  "old": {
+   "a": 0.13339719399523206,
+   "b": 8622.808838696246,
+   "n_points": 3,
+   "rmse_px": 0.07573815134046157,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13339719399523206,
+   "b": 8622.808838696246,
+   "n_points": 3,
+   "rmse_px": 0.07573815134046157,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.19722759574176507,
+  "new_endpoint_mae_ft": 0.19722759574176507,
+  "changed": false,
+  "seconds": 0.41273954400094226
+ },
+ {
+  "log": "ext_utah_4304150011_p152",
+  "old": {
+   "a": 0.1331648890287968,
+   "b": 8792.976511146539,
+   "n_points": 4,
+   "rmse_px": 0.44987966347295133,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.1331648890287968,
+   "b": 8792.976511146539,
+   "n_points": 4,
+   "rmse_px": 0.44987966347295133,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.17800228790486017,
+  "new_endpoint_mae_ft": 0.17800228790486017,
+  "changed": false,
+  "seconds": 9.896702249534428e-05
+ },
+ {
+  "log": "ext_utah_4304150011_p153",
+  "old": {
+   "a": 0.13339719761663005,
+   "b": 8962.821693483407,
+   "n_points": 3,
+   "rmse_px": 0.0757333559652216,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "new": {
+   "a": 0.13339719761663005,
+   "b": 8962.821693483407,
+   "n_points": 3,
+   "rmse_px": 0.0757333559652216,
+   "method": "rapidocr+consensus+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.22831025276673245,
+  "new_endpoint_mae_ft": 0.22831025276673245,
+  "changed": false,
+  "seconds": 0.36893614099244587
+ },
+ {
+  "log": "ext_utah_4304150011_p154",
+  "old": {
+   "a": 0.13328293552645684,
+   "b": 9132.953469727514,
+   "n_points": 3,
+   "rmse_px": 0.07573335596127757,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13328293552645684,
+   "b": 9132.953469727514,
+   "n_points": 3,
+   "rmse_px": 0.07573335596127757,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.2508745788682063,
+  "new_endpoint_mae_ft": 0.2508745788682063,
+  "changed": false,
+  "seconds": 0.41904320000321604
+ },
+ {
+  "log": "ext_utah_4304150011_p155",
+  "old": {
+   "a": 0.13334727215008513,
+   "b": 9302.8730632202,
+   "n_points": 3,
+   "rmse_px": 0.1582533825694708,
+   "method": "rapidocr+consensus+clean-retry+ft-assumed"
+  },
+  "new": {
+   "a": 0.13334727215008513,
+   "b": 9302.8730632202,
+   "n_points": 3,
+   "rmse_px": 0.1582533825694708,
+   "method": "rapidocr+consensus+clean-retry+ft-assumed"
+  },
+  "old_endpoint_mae_ft": 0.21146209741891653,
+  "new_endpoint_mae_ft": 0.21146209741891653,
+  "changed": false,
+  "seconds": 0.17788298899540678
+ },
+ {
+  "log": "ext_idaho_barlow3-14_p001",
+  "old": {
+   "a": 0.13333698882757816,
+   "b": -134.47381005520174,
+   "n_points": 33,
+   "rmse_px": 0.5333006690365857,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13333698882757816,
+   "b": -134.47381005520174,
+   "n_points": 33,
+   "rmse_px": 0.5333006690365857,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.23171445248449252,
+  "new_endpoint_mae_ft": 0.23171445248449252,
+  "changed": false,
+  "seconds": 0.003153455996653065
+ },
+ {
+  "log": "ext_idaho_barlow3-14_p002",
+  "old": {
+   "a": 0.13333390481932636,
+   "b": 2727.7519439833113,
+   "n_points": 34,
+   "rmse_px": 0.7494597854338878,
+   "method": "rapidocr+consensus+ft"
+  },
+  "new": {
+   "a": 0.13333390481932636,
+   "b": 2727.7519439833113,
+   "n_points": 34,
+   "rmse_px": 0.7494597854338878,
+   "method": "rapidocr+consensus+ft"
+  },
+  "old_endpoint_mae_ft": 0.2810107384843115,
+  "new_endpoint_mae_ft": 0.2810107384843115,
+  "changed": false,
+  "seconds": 0.0026720289897639304
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p071",
+  "old": {
+   "a": 0.13336747540703756,
+   "b": 202.00726941652613,
+   "n_points": 4,
+   "rmse_px": 1.9691137908567693e-13,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13336747540703756,
+   "b": 202.00726941652613,
+   "n_points": 4,
+   "rmse_px": 1.9691137908567693e-13,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.1577270392836283,
+  "new_endpoint_mae_ft": 0.1577270392836283,
+  "changed": false,
+  "seconds": 0.00014486399595625699
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p073",
+  "old": {
+   "a": 0.13338970334932415,
+   "b": 635.1633080551329,
+   "n_points": 13,
+   "rmse_px": 0.19382794709423032,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13338970334932415,
+   "b": 635.1633080551329,
+   "n_points": 13,
+   "rmse_px": 0.19382794709423032,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.13776476249702796,
+  "new_endpoint_mae_ft": 0.13776476249702796,
+  "changed": false,
+  "seconds": 6.882098386995494e-05
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p074",
+  "old": {
+   "a": 0.13328341547613362,
+   "b": 851.9305693549785,
+   "n_points": 13,
+   "rmse_px": 0.20532936305991925,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13328341547613362,
+   "b": 851.9305693549785,
+   "n_points": 13,
+   "rmse_px": 0.20532936305991925,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.19808008907972408,
+  "new_endpoint_mae_ft": 0.19808008907972408,
+  "changed": false,
+  "seconds": 7.368798833340406e-05
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p075",
+  "old": {
+   "a": 0.13333161159667672,
+   "b": 1068.3053461453956,
+   "n_points": 13,
+   "rmse_px": 0.6166590596196626,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13333161159667672,
+   "b": 1068.3053461453956,
+   "n_points": 13,
+   "rmse_px": 0.6166590596196626,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.12918388378250256,
+  "new_endpoint_mae_ft": 0.12918388378250256,
+  "changed": false,
+  "seconds": 6.18459889665246e-05
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p076",
+  "old": {
+   "a": 0.13338475185915027,
+   "b": 1284.7650381073975,
+   "n_points": 13,
+   "rmse_px": 0.2062182178730585,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13338475185915027,
+   "b": 1284.7650381073975,
+   "n_points": 13,
+   "rmse_px": 0.2062182178730585,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.2120064220006108,
+  "new_endpoint_mae_ft": 0.2120064220006108,
+  "changed": false,
+  "seconds": 7.14849738869816e-05
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p077",
+  "old": {
+   "a": 0.1333352763460721,
+   "b": 1501.4654357385546,
+   "n_points": 13,
+   "rmse_px": 0.28710304444015305,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.1333352763460721,
+   "b": 1501.4654357385546,
+   "n_points": 13,
+   "rmse_px": 0.28710304444015305,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.19040401883760297,
+  "new_endpoint_mae_ft": 0.19040401883760297,
+  "changed": false,
+  "seconds": 7.276699761860073e-05
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p078",
+  "old": {
+   "a": 0.13338970818311682,
+   "b": 1717.8532454674228,
+   "n_points": 13,
+   "rmse_px": 0.17150865676799423,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13338970818311682,
+   "b": 1717.8532454674228,
+   "n_points": 13,
+   "rmse_px": 0.17150865676799423,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.21369946633118767,
+  "new_endpoint_mae_ft": 0.21369946633118767,
+  "changed": false,
+  "seconds": 6.0824997490271926e-05
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p079",
+  "old": {
+   "a": 0.13336248401944475,
+   "b": 1934.3376233667946,
+   "n_points": 13,
+   "rmse_px": 0.24420709495308654,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13336248401944475,
+   "b": 1934.3376233667946,
+   "n_points": 13,
+   "rmse_px": 0.24420709495308654,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.189898697706935,
+  "new_endpoint_mae_ft": 0.189898697706935,
+  "changed": false,
+  "seconds": 0.0001006399979814887
+ },
+ {
+  "log": "ext_nl_flat-bay-2_p080",
+  "old": {
+   "a": 0.13333035523897743,
+   "b": 2151.0401335718734,
+   "n_points": 13,
+   "rmse_px": 0.21520005240932935,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13333035523897743,
+   "b": 2151.0401335718734,
+   "n_points": 13,
+   "rmse_px": 0.21520005240932935,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.22137419535857183,
+  "new_endpoint_mae_ft": 0.22137419535857183,
+  "changed": false,
+  "seconds": 0.00011153798550367355
+ },
+ {
+  "log": "ext_nl_storm_p071",
+  "old": {
+   "a": 0.13322302111346712,
+   "b": 5.4932917494010285,
+   "n_points": 5,
+   "rmse_px": 0.09428091797675013,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13322302111346712,
+   "b": 5.4932917494010285,
+   "n_points": 5,
+   "rmse_px": 0.09428091797675013,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.18417625824331196,
+  "new_endpoint_mae_ft": 0.18417625824331196,
+  "changed": false,
+  "seconds": 5.659600719809532e-05
+ },
+ {
+  "log": "ext_nl_storm_p072",
+  "old": {
+   "a": 0.13342310186423761,
+   "b": 225.08898354565463,
+   "n_points": 13,
+   "rmse_px": 0.9483874297056956,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13342310186423761,
+   "b": 225.08898354565463,
+   "n_points": 13,
+   "rmse_px": 0.9483874297056956,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.2527774565253438,
+  "new_endpoint_mae_ft": 0.2527774565253438,
+  "changed": false,
+  "seconds": 5.578499985858798e-05
+ },
+ {
+  "log": "ext_nl_storm_p073",
+  "old": {
+   "a": 0.13337726209773795,
+   "b": 444.4704869003599,
+   "n_points": 13,
+   "rmse_px": 0.3999780267330957,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13337726209773795,
+   "b": 444.4704869003599,
+   "n_points": 13,
+   "rmse_px": 0.3999780267330957,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.23789888576624207,
+  "new_endpoint_mae_ft": 0.23789888576624207,
+  "changed": false,
+  "seconds": 5.197699647396803e-05
+ },
+ {
+  "log": "ext_nl_storm_p074",
+  "old": {
+   "a": 0.1334633632380376,
+   "b": 663.9995247854043,
+   "n_points": 14,
+   "rmse_px": 1.0633904771198932,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.1334633632380376,
+   "b": 663.9995247854043,
+   "n_points": 14,
+   "rmse_px": 1.0633904771198932,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.1890798382384844,
+  "new_endpoint_mae_ft": 0.1890798382384844,
+  "changed": false,
+  "seconds": 5.375200998969376e-05
+ },
+ {
+  "log": "ext_nl_storm_p075",
+  "old": {
+   "a": 0.13333033035179456,
+   "b": 883.8094762727777,
+   "n_points": 13,
+   "rmse_px": 0.2951201389709306,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13333033035179456,
+   "b": 883.8094762727777,
+   "n_points": 13,
+   "rmse_px": 0.2951201389709306,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.1867654074134819,
+  "new_endpoint_mae_ft": 0.1867654074134819,
+  "changed": false,
+  "seconds": 6.99019874446094e-05
+ },
+ {
+  "log": "ext_nl_storm_p076",
+  "old": {
+   "a": 0.13352552289532174,
+   "b": 1103.2497585633755,
+   "n_points": 14,
+   "rmse_px": 1.1397919726786179,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13352552289532174,
+   "b": 1103.2497585633755,
+   "n_points": 14,
+   "rmse_px": 1.1397919726786179,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.18051858320671954,
+  "new_endpoint_mae_ft": 0.18051858320671954,
+  "changed": false,
+  "seconds": 5.3620984544977546e-05
+ },
+ {
+  "log": "ext_nl_storm_p077",
+  "old": {
+   "a": 0.13335011538711264,
+   "b": 1322.9222774837208,
+   "n_points": 13,
+   "rmse_px": 0.2703847197385425,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13335011538711264,
+   "b": 1322.9222774837208,
+   "n_points": 13,
+   "rmse_px": 0.2703847197385425,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.19109102761774466,
+  "new_endpoint_mae_ft": 0.19109102761774466,
+  "changed": false,
+  "seconds": 7.445202209055424e-05
+ },
+ {
+  "log": "ext_nl_storm_p078",
+  "old": {
+   "a": 0.13338966099684058,
+   "b": 1542.5288842875427,
+   "n_points": 13,
+   "rmse_px": 0.3300534433704077,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13338966099684058,
+   "b": 1542.5288842875427,
+   "n_points": 13,
+   "rmse_px": 0.3300534433704077,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.20541726874677793,
+  "new_endpoint_mae_ft": 0.20541726874677793,
+  "changed": false,
+  "seconds": 0.0001225809974130243
+ },
+ {
+  "log": "ext_nl_storm_p079",
+  "old": {
+   "a": 0.13341424115641426,
+   "b": 1762.2066858561673,
+   "n_points": 14,
+   "rmse_px": 0.4580846667477759,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13341424115641426,
+   "b": 1762.2066858561673,
+   "n_points": 14,
+   "rmse_px": 0.4580846667477759,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.17116275943685022,
+  "new_endpoint_mae_ft": 0.17116275943685022,
+  "changed": false,
+  "seconds": 0.00011872401228174567
+ },
+ {
+  "log": "ext_nl_storm_p080",
+  "old": {
+   "a": 0.13336990636376653,
+   "b": 1981.684513740134,
+   "n_points": 13,
+   "rmse_px": 0.22769442126872244,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13336990636376653,
+   "b": 1981.684513740134,
+   "n_points": 13,
+   "rmse_px": 0.22769442126872244,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.2210862096612265,
+  "new_endpoint_mae_ft": 0.2210862096612265,
+  "changed": false,
+  "seconds": 0.00012682902161031961
+ },
+ {
+  "log": "ext_nl_storm_p081",
+  "old": {
+   "a": 0.13336001991077423,
+   "b": 2201.319020195806,
+   "n_points": 13,
+   "rmse_px": 0.2244693281100866,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13336001991077423,
+   "b": 2201.319020195806,
+   "n_points": 13,
+   "rmse_px": 0.2244693281100866,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.17795258207826237,
+  "new_endpoint_mae_ft": 0.17795258207826237,
+  "changed": false,
+  "seconds": 0.00012042702292092144
+ },
+ {
+  "log": "ext_nl_storm_p082",
+  "old": {
+   "a": 0.13331800895267043,
+   "b": 2421.0320720740397,
+   "n_points": 13,
+   "rmse_px": 0.17299155776546005,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13331800895267043,
+   "b": 2421.0320720740397,
+   "n_points": 13,
+   "rmse_px": 0.17299155776546005,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.20059501681866246,
+  "new_endpoint_mae_ft": 0.20059501681866246,
+  "changed": false,
+  "seconds": 8.975900709629059e-05
+ },
+ {
+  "log": "ext_nl_storm_p083",
+  "old": {
+   "a": 0.13333421383023983,
+   "b": 2640.655188692479,
+   "n_points": 13,
+   "rmse_px": 0.4083870043422885,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "new": {
+   "a": 0.13333421383023983,
+   "b": 2640.655188692479,
+   "n_points": 13,
+   "rmse_px": 0.4083870043422885,
+   "method": "rapidocr+consensus+m-to-ft"
+  },
+  "old_endpoint_mae_ft": 0.18667253004161047,
+  "new_endpoint_mae_ft": 0.18667253004161047,
+  "changed": false,
+  "seconds": 8.933799108490348e-05
+ }
+]

@@ -1,0 +1,192 @@
+{
+  "S": [
+    [
+      0,
+      44966,
+      45539,
+      [
+        {
+          "top_y": 44966,
+          "bottom_y": 45467,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45467,
+          "bottom_y": 45497,
+          "label": "TUFF",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 45497,
+          "bottom_y": 45539,
+          "label": "SHALE",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      45479,
+      46053,
+      [
+        {
+          "top_y": 45479,
+          "bottom_y": 45497,
+          "label": "TUFF",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 45497,
+          "bottom_y": 45541,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45541,
+          "bottom_y": 45653,
+          "label": "TUFF",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45653,
+          "bottom_y": 46053,
+          "label": "SHALE",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      45993,
+      46566,
+      [
+        {
+          "top_y": 45993,
+          "bottom_y": 46216,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 46216,
+          "bottom_y": 46271,
+          "label": "LIMESTONE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 46271,
+          "bottom_y": 46336,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 46336,
+          "bottom_y": 46337,
+          "label": "LIMESTONE",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 46337,
+          "bottom_y": 46566,
+          "label": "SHALE",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      44966,
+      45539,
+      [
+        {
+          "top_y": 44966,
+          "bottom_y": 45467,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45467,
+          "bottom_y": 45497,
+          "label": "TUFF",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45497,
+          "bottom_y": 45539,
+          "label": "SHALE",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      45479,
+      46053,
+      [
+        {
+          "top_y": 45479,
+          "bottom_y": 45497,
+          "label": "TUFF",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45497,
+          "bottom_y": 45541,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45541,
+          "bottom_y": 45653,
+          "label": "TUFF",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 45653,
+          "bottom_y": 46053,
+          "label": "SHALE",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      45993,
+      46566,
+      [
+        {
+          "top_y": 45993,
+          "bottom_y": 46216,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 46216,
+          "bottom_y": 46271,
+          "label": "LIMESTONE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 46271,
+          "bottom_y": 46336,
+          "label": "SHALE",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 46336,
+          "bottom_y": 46337,
+          "label": "LIMESTONE",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 46337,
+          "bottom_y": 46566,
+          "label": "SHALE",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

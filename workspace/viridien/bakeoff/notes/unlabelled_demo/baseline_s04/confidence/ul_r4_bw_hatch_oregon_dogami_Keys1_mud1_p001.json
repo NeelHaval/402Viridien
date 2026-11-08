@@ -1,0 +1,62 @@
+[
+  {
+    "top_y": 1560,
+    "bottom_y": 7276,
+    "lithology": "<anik",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "Iatr#.",
+    "raw_descriptor_gap": 0.7594631985734952,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 7276,
+    "bottom_y": 7781,
+    "lithology": "S.ad",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "<anik",
+    "raw_descriptor_gap": 0.4512076090143414,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 7781,
+    "bottom_y": 8871,
+    "lithology": "<anik",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "<anik",
+    "raw_descriptor_gap": 0.45346048822104845,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 8871,
+    "bottom_y": 10775,
+    "lithology": "S.ad",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "<anik",
+    "raw_descriptor_gap": 0.01827019725520801,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 10775,
+    "bottom_y": 11838,
+    "lithology": "<anik",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "Iatr#.",
+    "raw_descriptor_gap": 0.19160376690325748,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 11838,
+    "bottom_y": 22910,
+    "lithology": "S.ad",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "S.ad",
+    "raw_descriptor_gap": 0.4951656229681581,
+    "raw_descriptor_agrees": true
+  }
+]

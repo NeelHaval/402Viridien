@@ -1,0 +1,2 @@
+block,stem,pred_file,status,n_pred_rows,n_pred_rows_merged,n_bins,n_correct,acc,macro_f1,n_clu_bins,ari,purity,n_gt_bnd,n_pred_bnd@2,tp@2,bf1@2,n_pred_bnd@5,tp@5,bf1@5,n_pred_bnd,n_matched,mean_err,n_depth_vals,depth_mae,depth_max,composition_l1,runtime_s
+test,60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev,60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev.csv,ok,6,6,599,499,0.833055,0.454463,599,0,1,12,12,12,1,12,12,1,12,12,0,12,0.0232247,0.048134,0.33389,

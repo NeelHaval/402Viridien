@@ -1,0 +1,108 @@
+{
+  "S": [
+    [
+      0,
+      30618,
+      31191,
+      [
+        {
+          "top_y": 30618,
+          "bottom_y": 31191,
+          "label": "Halite",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      31131,
+      31705,
+      [
+        {
+          "top_y": 31131,
+          "bottom_y": 31705,
+          "label": "Halite",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      31645,
+      32218,
+      [
+        {
+          "top_y": 31645,
+          "bottom_y": 31875,
+          "label": "Halite",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 31875,
+          "bottom_y": 31887,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 31887,
+          "bottom_y": 32218,
+          "label": "Halite",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      30618,
+      31191,
+      [
+        {
+          "top_y": 30618,
+          "bottom_y": 31191,
+          "label": "Halite",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      31131,
+      31705,
+      [
+        {
+          "top_y": 31131,
+          "bottom_y": 31705,
+          "label": "Halite",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      31645,
+      32218,
+      [
+        {
+          "top_y": 31645,
+          "bottom_y": 31875,
+          "label": "Halite",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 31875,
+          "bottom_y": 31887,
+          "label": "Shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 31887,
+          "bottom_y": 32218,
+          "label": "Halite",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

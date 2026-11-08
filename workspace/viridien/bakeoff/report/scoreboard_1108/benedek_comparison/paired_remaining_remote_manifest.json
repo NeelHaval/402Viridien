@@ -1,0 +1,277 @@
+{
+  "cases": [
+    {
+      "case_id": "6b663182fbfb4f87",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "window": [
+        4404,
+        11195
+      ],
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "image": "/home/user/lith/dataset/images/0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/0000000009_d-582_0000020435-0001_log06_fe_5in_md.json"
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "window": [
+        4387,
+        10387
+      ],
+      "image_sha256": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+      "annotation_sha256": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+      "image": "/home/user/lith/dataset/images/0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/0000000009_d-582_0000020435-0001_log02_fe_5in_md.json"
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "window": [
+        4384,
+        10384
+      ],
+      "image_sha256": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+      "annotation_sha256": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+      "image": "/home/user/lith/dataset/images/0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/0000000009_d-582_0000020435-0001_log04_fe_5in_md.json"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "window": [
+        1728,
+        7728
+      ],
+      "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+      "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+      "image": "/home/user/lith/dataset/images/60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/60807402860000_gb506#2_md_mudlog.json"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "log": "60811405120000_1inch tvd mudlog",
+      "window": [
+        1501,
+        7501
+      ],
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "image": "/home/user/lith/dataset/images/60811405120000_1inch tvd mudlog.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/60811405120000_1inch tvd mudlog.json"
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "window": [
+        2343,
+        8343
+      ],
+      "image_sha256": "545ad722a154d1d78b68a7e5e777f44eff8d6271d6348bcce98ed474d8dd0e20",
+      "annotation_sha256": "2dee8000364f2a5362c79ca4a6739285518b0c97bccf44b0a68e92bc8c0f4663",
+      "image": "/home/user/lith/dataset/images/60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.json"
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "window": [
+        11438,
+        17438
+      ],
+      "image_sha256": "eb20de35336525fad87fbfd12c634439b8ff3dd942c7f4ae2c5d74e605054d1d",
+      "annotation_sha256": "da2639cd6722c49ad487d7c379615fc020c642470b2fa5836bff41b85a39b3ad",
+      "image": "/home/user/lith/dataset/images/608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.json"
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "window": [
+        2927,
+        8927
+      ],
+      "image_sha256": "dbfa7ceb8baa7221d6fc5917b515a206378e0f449dd92b7b9fef482f21f6c2cd",
+      "annotation_sha256": "0f5de7d4617fe233e9839c969e8943b080674cbe4dc52a37f870d14d6fdaa54c",
+      "image": "/home/user/lith/dataset/images/60817411400100_mc761_1_st1_mudlog_1md_17133_22886.tiff",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/60817411400100_mc761_1_st1_mudlog_1md_17133_22886.json"
+    },
+    {
+      "case_id": "df889653b4852560",
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "window": [
+        2699,
+        8699
+      ],
+      "image_sha256": "2a075d72f9da9e268104392e1391b674b5b0b77cd4aad09241a999bdff7d0bcf",
+      "annotation_sha256": "0d8511e78439b24137234bd5b6b222a222939eb9c58e11140286866aa7d3a8d1",
+      "image": "/home/user/lith/dataset/images/60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.json"
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "window": [
+        5480,
+        11480
+      ],
+      "image_sha256": "027b935e54bc416e0a20012e062a451b9e75306b604f7c2ca5e7212449e8d80f",
+      "annotation_sha256": "889b47e59b9c8e61a72fc0fd52544ac362c4900194da55ffdfb2a40eeed171a3",
+      "image": "/home/user/lith/dataset/images/Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.json"
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "window": [
+        7623,
+        13623
+      ],
+      "image_sha256": "e5562332c8880cdf0ceb8fb99df5f8291b4cd9ca9de804e9fa2d38ffd054ccdd",
+      "annotation_sha256": "b0d3b463dce02a564cc7e579b6c2f029a12ac1c838991fcc793c12b60d0b8521",
+      "image": "/home/user/lith/dataset/images/MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.json"
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "window": [
+        7363,
+        13363
+      ],
+      "image_sha256": "71e1883f72cce57b6c641e28dba2b49b4ebca14a3af485eabb3b44ead3108ab8",
+      "annotation_sha256": "5322308ce496dd460151ac386a33662fed5e1c9922b5b1b96fec1defabc2382d",
+      "image": "/home/user/lith/dataset/images/Rio_Nueces_3744_Unit_1_212_MUD_5IN.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/Rio_Nueces_3744_Unit_1_212_MUD_5IN.json"
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "window": [
+        1698,
+        6832
+      ],
+      "image_sha256": "bc81f9c99b7b97ea5ef1da4a170de3f9254e77c57f7fd097d06855cd49f90fdf",
+      "annotation_sha256": "6a9e0bc271307f4c06d02a647450d141a9c9934757aace0c696075966cde89bc",
+      "image": "/home/user/lith/dataset/images/Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif",
+      "annotation": "/home/user/lith/dataset/bbox_annotation/Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.json"
+    }
+  ],
+  "file_hashes": {
+    "paired_worker.py": "503a5b9211dd097012293695cf936d3f888ed6f18649c4694b2c8fa1d1717cf6",
+    "source/emil/paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "source/harness/bench.py": "581416df2cf0bb7c1d841d3c5971ae981e103a48b53d79683554754860af474b",
+    "source/harness/depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "source/harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "source/harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "source/harness/legend_v2.py": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8",
+    "source/harness/legend_v3.py": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+    "source/harness/legend_v4.py": "b4fa275f04437b474bcc947c7db0a144100ff81dd9d62077cf366dafe0a64717",
+    "source/harness/report.py": "68c683fc1853bea51b29bd5b89f9680be772c87a946e26fd52969ee022d9437a",
+    "source/harness/run.py": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+    "source/harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "source/harness/synth.py": "d9648f23131b6df7199f69b6d85f9619d7a6e9c3c0b47a977f67cd3392a560b0",
+    "source/harness/test_bench.py": "825d773b7a456d7460d41190eb77a4d65df6ee425da01f2999e554322d01f74e",
+    "source/harness/test_depth.py": "0e2fc6eee7c51079b95681c699aafb7d81bde623bb07d22f9a67a2f417302a09",
+    "source/harness/test_run.py": "93795c0c81588a9a40f67fcb0c2fd42d3b616c007cc60d8e25f7995834197c12",
+    "source/harness/test_score.py": "f3ddb2c04232557cfe250dd925a16ef46fe5f5c3b0292df27c50bf29f00dddb7",
+    "source/harness/test_unlabelled_metrics.py": "b253548bf341e4505b964f1c77441a8dfe09b996252763adaf437a13e70c0e4f",
+    "source/harness/test_wave3_fixes.py": "482026272d3c50504cfa5362cdd5488db9ce6df5be6dea2f4f5bac2692fde082",
+    "source/harness/unlabelled_metrics.py": "921a0b18315fdcb37e7a8bc729539dd32867c906b8d5c7a5313ba1aa74d65918",
+    "source/harness/viz.py": "f3ec27283ba7fcafae2e0a38724bfa33b8f7583b57a0964cca912830a527dded",
+    "source/harness/_check.py": "b2e640668aeff86122a92934e138fee3e88a840105173062a2b2ae47124b74f3",
+    "source/harness/_dummy.py": "7cfae98adb923db09f2cfe708144c0e01d0ebe8b146c203df69885fa450b19ab",
+    "source/harness/__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "source/strategies/s24_benedek.py": "bbfa95f4cb1329b2ee46e7c5fffcf4b17464179def6c62ecd24f408af3fd75ee",
+    "source/strategies/s24_benedek_core.py": "1cf77cc44a26d47ae465074dbd1a0f90190476f0a13d30946aa2c2501f17e3bd",
+    "source/strategies/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/home/user/lith/dataset/images/0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+    "/home/user/lith/dataset/bbox_annotation/0000000009_d-582_0000020435-0001_log06_fe_5in_md.json": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+    "/home/user/lith/dataset/images/0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+    "/home/user/lith/dataset/bbox_annotation/0000000009_d-582_0000020435-0001_log02_fe_5in_md.json": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+    "/home/user/lith/dataset/images/0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+    "/home/user/lith/dataset/bbox_annotation/0000000009_d-582_0000020435-0001_log04_fe_5in_md.json": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+    "/home/user/lith/dataset/images/60807402860000_gb506#2_md_mudlog.tif": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+    "/home/user/lith/dataset/bbox_annotation/60807402860000_gb506#2_md_mudlog.json": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+    "/home/user/lith/dataset/images/60811405120000_1inch tvd mudlog.tif": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+    "/home/user/lith/dataset/bbox_annotation/60811405120000_1inch tvd mudlog.json": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+    "/home/user/lith/dataset/images/60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.tif": "545ad722a154d1d78b68a7e5e777f44eff8d6271d6348bcce98ed474d8dd0e20",
+    "/home/user/lith/dataset/bbox_annotation/60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.json": "2dee8000364f2a5362c79ca4a6739285518b0c97bccf44b0a68e92bc8c0f4663",
+    "/home/user/lith/dataset/images/608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.tif": "eb20de35336525fad87fbfd12c634439b8ff3dd942c7f4ae2c5d74e605054d1d",
+    "/home/user/lith/dataset/bbox_annotation/608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.json": "da2639cd6722c49ad487d7c379615fc020c642470b2fa5836bff41b85a39b3ad",
+    "/home/user/lith/dataset/images/60817411400100_mc761_1_st1_mudlog_1md_17133_22886.tiff": "dbfa7ceb8baa7221d6fc5917b515a206378e0f449dd92b7b9fef482f21f6c2cd",
+    "/home/user/lith/dataset/bbox_annotation/60817411400100_mc761_1_st1_mudlog_1md_17133_22886.json": "0f5de7d4617fe233e9839c969e8943b080674cbe4dc52a37f870d14d6fdaa54c",
+    "/home/user/lith/dataset/images/60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.tif": "2a075d72f9da9e268104392e1391b674b5b0b77cd4aad09241a999bdff7d0bcf",
+    "/home/user/lith/dataset/bbox_annotation/60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.json": "0d8511e78439b24137234bd5b6b222a222939eb9c58e11140286866aa7d3a8d1",
+    "/home/user/lith/dataset/images/Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.tif": "027b935e54bc416e0a20012e062a451b9e75306b604f7c2ca5e7212449e8d80f",
+    "/home/user/lith/dataset/bbox_annotation/Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.json": "889b47e59b9c8e61a72fc0fd52544ac362c4900194da55ffdfb2a40eeed171a3",
+    "/home/user/lith/dataset/images/MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.tif": "e5562332c8880cdf0ceb8fb99df5f8291b4cd9ca9de804e9fa2d38ffd054ccdd",
+    "/home/user/lith/dataset/bbox_annotation/MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.json": "b0d3b463dce02a564cc7e579b6c2f029a12ac1c838991fcc793c12b60d0b8521",
+    "/home/user/lith/dataset/images/Rio_Nueces_3744_Unit_1_212_MUD_5IN.tif": "71e1883f72cce57b6c641e28dba2b49b4ebca14a3af485eabb3b44ead3108ab8",
+    "/home/user/lith/dataset/bbox_annotation/Rio_Nueces_3744_Unit_1_212_MUD_5IN.json": "5322308ce496dd460151ac386a33662fed5e1c9922b5b1b96fec1defabc2382d",
+    "/home/user/lith/dataset/images/Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif": "bc81f9c99b7b97ea5ef1da4a170de3f9254e77c57f7fd097d06855cd49f90fdf",
+    "/home/user/lith/dataset/bbox_annotation/Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.json": "6a9e0bc271307f4c06d02a647450d141a9c9934757aace0c696075966cde89bc"
+  },
+  "seed": 1108,
+  "truth_supplied_to_worker": false,
+  "original_case_count": 68,
+  "already_complete": [
+    "1195460dd0d251cd",
+    "a19ddaae4536e5e9",
+    "ae5c647135c45e6b"
+  ],
+  "not_staged": [
+    "43cb7bed033fe027",
+    "e8f56cfacf365848",
+    "2b6dda908cddcb08",
+    "b9d9e7c366357abc",
+    "8c663ba4eb8e7e72",
+    "90ea0d641bd30055",
+    "e603af2dc9d1467d",
+    "a4b6dfd681ceeb4a",
+    "8c4ac11040b40053",
+    "e87e218c1e33266f",
+    "3c1008ece8a34100",
+    "fee9bd96b02a7228",
+    "e365485083d73b77",
+    "cbf3d306e935c070",
+    "330e27c0c410c395",
+    "0135a2e4a59a4c27",
+    "70a155a1b7ec3fc7",
+    "ce90517b4b344ef3",
+    "561d8f6812bc63a0",
+    "b675d179c661df4c",
+    "6d2a1c3400675c3f",
+    "55a6c2463cafd15b",
+    "3362822de30bf870",
+    "a288918a872baeb5",
+    "bb8c1562f90f9fea",
+    "c0142ba943917da2",
+    "cb2c5047736fc517",
+    "3ebb341f61b07738",
+    "33041e1240de5df9",
+    "fe41f7e83b244128",
+    "07f9c29491bfde6f",
+    "a2c76a9ccee2a6a3",
+    "647c99cae3f0417a",
+    "ae7dffdcb9cac3a6",
+    "a3897eab5a7749d4",
+    "a3c97671ae3147ab",
+    "c3f7a18df5be0a94",
+    "9b39a65b3b3d9988",
+    "06bbdc9380d6513f",
+    "cfc8e1a1933f260a",
+    "9896d1dc4052fca7",
+    "28ead2232164d833",
+    "4b9fc8eda216939d",
+    "0957c52abccd57b5",
+    "2dafc1a4e6a8369e",
+    "7e73631240e0a6d7",
+    "36f6455179270cb4",
+    "d86ce950e0e43f87",
+    "fcbfc7874d32b97b",
+    "5ce3eae072aa402f",
+    "fdeba984370e4d61",
+    "8d7102b71d63fef8"
+  ]
+}

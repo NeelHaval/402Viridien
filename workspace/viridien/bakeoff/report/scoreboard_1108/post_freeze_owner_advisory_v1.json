@@ -1,0 +1,50 @@
+{
+  "version": "post-freeze-owner-advisory-v1",
+  "created_utc": "2026-11-08T08:59:25.424572+00:00",
+  "scope": "Metadata and file-hash checks only; no score or frozen artifact changes",
+  "release_receipt_sha256": "3bee64ac9bfd7020466f9a39fe2b87ebf090d7a06ccf260761cc744dae4aeaff",
+  "frozen_sources_verified": 19,
+  "frozen_artifacts_verified": 26,
+  "launcher": {
+    "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\pattern_lab\\data\\jev-e2e-20261108\\env-only-resume-v1\\launch.py",
+    "sha256": "2453a4e43caf7af64d526a97b651bee3c6fcd65843817253b1ddacd8bedc80c4",
+    "source_manifest_sha256": "1d10aab9e323c18ca81aff1f69143c998d2c9673a4f9334e6d211a014e8f2173",
+    "freeze_sha256": "0e55151e82fbed89ed0a521cbf158e8961e2c95afa8c5a501bb117a941218148",
+    "bundle_files_verified": 12,
+    "merge_receipt": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\dataset-review\\packs\\labeller-env-only-launcher-v1.json",
+    "merge_receipt_sha256": "1501a56e37fd9d11957932ff5cec39efba5e94e6a693024fd05da7c3c946ecf8",
+    "state": "checked-and-held",
+    "approved": false,
+    "api_authorized_cases": 0,
+    "eligible_cases": 51,
+    "held_cases": 17,
+    "eligible_unsaved_cases": 38,
+    "saved_cases": 30,
+    "global_receipt_backed_total_recomputed": false,
+    "scoreboard_verified_pairs_preserved": 29,
+    "tests": "Existing frozen log: Ran 13 tests in 0.336s; OK. Not rerun.",
+    "dry_run_network_calls": 0,
+    "old_controller_pid": 55112,
+    "old_controller_state": "Owner reports suspended; not resumed or inspected here",
+    "dispatch_requires": [
+      "Separate explicit owner grant with exact case IDs and pinned hashes",
+      "Single-owner handoff",
+      "Manager private process-env injection: manager-secret-to-process-env-v1"
+    ]
+  },
+  "depth_routing": {
+    "supersedes": "Earlier pending-owner-confirmation status only",
+    "source_receipt": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\depth-owner-handoff.json",
+    "source_receipt_sha256": "feaace4437def2298abdf61cc781b2d7fcb5eecd650595c12742b38e3986622e",
+    "claim_status": "NOACTIVECLAIM",
+    "repair_state": "UNASSIGNED",
+    "harness_depth_sha256": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "repair_assigned_or_started": false
+  },
+  "scorer_changed": false,
+  "scores_recomputed": false,
+  "new_inference_or_API_started": false,
+  "secret_read_or_injected": false,
+  "owner_holds_lifted": false,
+  "cache_ownership_changed": false
+}

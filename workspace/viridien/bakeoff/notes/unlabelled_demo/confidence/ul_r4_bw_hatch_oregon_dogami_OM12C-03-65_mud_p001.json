@@ -1,0 +1,1861 @@
+[
+  {
+    "top_y": 1490,
+    "bottom_y": 1611,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9999949311421923,
+      "match_margin": 3.3043632822193914e-06,
+      "boundary_probability": 0.21208421885967255
+    }
+  },
+  {
+    "top_y": 1611,
+    "bottom_y": 1646,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.99988853931427,
+      "match_margin": 3.337860107421875e-05,
+      "boundary_probability": 0.7321670055389404
+    }
+  },
+  {
+    "top_y": 1646,
+    "bottom_y": 1689,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9999920480821761,
+      "match_margin": 4.303601621846731e-06,
+      "boundary_probability": 0.9291753172874451
+    }
+  },
+  {
+    "top_y": 1689,
+    "bottom_y": 1809,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9999920480821761,
+      "match_margin": 4.303601621846731e-06,
+      "boundary_probability": 0.9055330157279968
+    }
+  },
+  {
+    "top_y": 1809,
+    "bottom_y": 1851,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.999997201420012,
+      "match_margin": 3.746577671437379e-07,
+      "boundary_probability": 0.5982694625854492
+    }
+  },
+  {
+    "top_y": 1851,
+    "bottom_y": 1879,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.911597490310669,
+      "match_margin": 0.07032245397567749,
+      "boundary_probability": 0.9416607618331909
+    }
+  },
+  {
+    "top_y": 1879,
+    "bottom_y": 1895,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45499980449676514,
+      "match_margin": 0.2264690399169922,
+      "boundary_probability": 0.9280707836151123
+    }
+  },
+  {
+    "top_y": 1895,
+    "bottom_y": 1936,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7917788392159997,
+      "match_margin": 0.11125964798578403,
+      "boundary_probability": 0.9241394996643066
+    }
+  },
+  {
+    "top_y": 1936,
+    "bottom_y": 1955,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31477606296539307,
+      "match_margin": 0.15458571910858154,
+      "boundary_probability": 0.8321298360824585
+    }
+  },
+  {
+    "top_y": 1955,
+    "bottom_y": 1974,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6070573329925537,
+      "match_margin": 0.15444141626358032,
+      "boundary_probability": 0.8674031496047974
+    }
+  },
+  {
+    "top_y": 1974,
+    "bottom_y": 2016,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3900810380776723,
+      "match_margin": 0.18090690743355525,
+      "boundary_probability": 0.799365222454071
+    }
+  },
+  {
+    "top_y": 2016,
+    "bottom_y": 2044,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5534116625785828,
+      "match_margin": 0.08871358633041382,
+      "boundary_probability": 0.9153872728347778
+    }
+  },
+  {
+    "top_y": 2044,
+    "bottom_y": 2092,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19107407331466675,
+      "match_margin": 0.019405663013458252,
+      "boundary_probability": 0.9843518733978271
+    }
+  },
+  {
+    "top_y": 2092,
+    "bottom_y": 2100,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7706009745597839,
+      "match_margin": 0.06279444694519043,
+      "boundary_probability": 0.5404404401779175
+    }
+  },
+  {
+    "top_y": 2100,
+    "bottom_y": 2114,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3474116325378418,
+      "match_margin": 0.014503121376037598,
+      "boundary_probability": 0.8600627779960632
+    }
+  },
+  {
+    "top_y": 2114,
+    "bottom_y": 2124,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9411192536354065,
+      "match_margin": 0.018017590045928955,
+      "boundary_probability": 0.4232906401157379
+    }
+  },
+  {
+    "top_y": 2124,
+    "bottom_y": 2144,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2850453853607178,
+      "match_margin": 0.003411710262298584,
+      "boundary_probability": 0.7044293284416199
+    }
+  },
+  {
+    "top_y": 2144,
+    "bottom_y": 2234,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2227870225906372,
+      "match_margin": 0.30496764183044434,
+      "boundary_probability": 0.4081689417362213
+    }
+  },
+  {
+    "top_y": 2234,
+    "bottom_y": 2259,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.08307969570159912,
+      "match_margin": 0.38315677642822266,
+      "boundary_probability": 0.7310855984687805
+    }
+  },
+  {
+    "top_y": 2259,
+    "bottom_y": 2290,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21381866931915283,
+      "match_margin": 0.07758796215057373,
+      "boundary_probability": 0.7792119383811951
+    }
+  },
+  {
+    "top_y": 2290,
+    "bottom_y": 2376,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1423767611037853,
+      "match_margin": 0.28276540096416036,
+      "boundary_probability": 0.9375981092453003
+    }
+  },
+  {
+    "top_y": 2376,
+    "bottom_y": 2401,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2738304138183594,
+      "match_margin": 0.34939974546432495,
+      "boundary_probability": 0.7997297048568726
+    }
+  },
+  {
+    "top_y": 2401,
+    "bottom_y": 2418,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.03770172595977783,
+      "match_margin": 0.043771564960479736,
+      "boundary_probability": 0.41129475831985474
+    }
+  },
+  {
+    "top_y": 2418,
+    "bottom_y": 2448,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34752464294433594,
+      "match_margin": 0.3053687810897827,
+      "boundary_probability": 0.7161967754364014
+    }
+  },
+  {
+    "top_y": 2448,
+    "bottom_y": 2474,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10998278856277466,
+      "match_margin": 0.2868472933769226,
+      "boundary_probability": 0.9268856048583984
+    }
+  },
+  {
+    "top_y": 2474,
+    "bottom_y": 2492,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2760382890701294,
+      "match_margin": 0.10361206531524658,
+      "boundary_probability": 0.5183159112930298
+    }
+  },
+  {
+    "top_y": 2492,
+    "bottom_y": 2559,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16946392272835348,
+      "match_margin": 0.011125598380814727,
+      "boundary_probability": 0.8585689663887024
+    }
+  },
+  {
+    "top_y": 2559,
+    "bottom_y": 2657,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.15839065850236034,
+      "match_margin": 0.2122693421276471,
+      "boundary_probability": 0.4480971097946167
+    }
+  },
+  {
+    "top_y": 2657,
+    "bottom_y": 2690,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.15839065850236034,
+      "match_margin": 0.2122693421276471,
+      "boundary_probability": 0.0502806156873703
+    }
+  },
+  {
+    "top_y": 2690,
+    "bottom_y": 2698,
+    "lithology": "Ynte",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.01149129867553711,
+      "match_margin": 0.024564921855926514,
+      "boundary_probability": 0.7816828489303589
+    }
+  },
+  {
+    "top_y": 2698,
+    "bottom_y": 2730,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.08833527565002441,
+      "match_margin": 0.28052765130996704,
+      "boundary_probability": 0.3133452534675598
+    }
+  },
+  {
+    "top_y": 2730,
+    "bottom_y": 2739,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.014342725276947021,
+      "match_margin": 0.005757033824920654,
+      "boundary_probability": 0.9308971762657166
+    }
+  },
+  {
+    "top_y": 2739,
+    "bottom_y": 2750,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6746991872787476,
+      "match_margin": 0.037201762199401855,
+      "boundary_probability": 0.43566054105758667
+    }
+  },
+  {
+    "top_y": 2750,
+    "bottom_y": 2803,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1122218336699144,
+      "match_margin": 0.02128787760464651,
+      "boundary_probability": 0.7543699145317078
+    }
+  },
+  {
+    "top_y": 2803,
+    "bottom_y": 2861,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.35497242828895303,
+      "match_margin": 0.15096590231204854,
+      "boundary_probability": 0.7788337469100952
+    }
+  },
+  {
+    "top_y": 2861,
+    "bottom_y": 2869,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9893526434898376,
+      "match_margin": 0.009767413139343262,
+      "boundary_probability": 0.4761614203453064
+    }
+  },
+  {
+    "top_y": 2869,
+    "bottom_y": 2900,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.004879674821529748,
+      "match_margin": 0.004366078466739295,
+      "boundary_probability": 0.7861886024475098
+    }
+  },
+  {
+    "top_y": 2900,
+    "bottom_y": 2922,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.004879674821529748,
+      "match_margin": 0.004366078466739295,
+      "boundary_probability": 0.17181654274463654
+    }
+  },
+  {
+    "top_y": 2922,
+    "bottom_y": 2954,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11144351959228516,
+      "match_margin": 0.33636361360549927,
+      "boundary_probability": 0.5854647755622864
+    }
+  },
+  {
+    "top_y": 2954,
+    "bottom_y": 3061,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07405233605999813,
+      "match_margin": 0.04775934910105768,
+      "boundary_probability": 0.6972212791442871
+    }
+  },
+  {
+    "top_y": 3061,
+    "bottom_y": 3081,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.557600736618042,
+      "match_margin": 0.10490882396697998,
+      "boundary_probability": 0.8541721105575562
+    }
+  },
+  {
+    "top_y": 3081,
+    "bottom_y": 3098,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9718070030212402,
+      "match_margin": 0.000712275505065918,
+      "boundary_probability": 0.8271678686141968
+    }
+  },
+  {
+    "top_y": 3098,
+    "bottom_y": 3119,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42346304655075073,
+      "match_margin": 0.09785979986190796,
+      "boundary_probability": 0.8943345546722412
+    }
+  },
+  {
+    "top_y": 3119,
+    "bottom_y": 3135,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7137260437011719,
+      "match_margin": 0.15716248750686646,
+      "boundary_probability": 0.5896051526069641
+    }
+  },
+  {
+    "top_y": 3135,
+    "bottom_y": 3155,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6564520001411438,
+      "match_margin": 0.07092481851577759,
+      "boundary_probability": 0.8226741552352905
+    }
+  },
+  {
+    "top_y": 3155,
+    "bottom_y": 3184,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12897185845808548,
+      "match_margin": 0.38022335009141406,
+      "boundary_probability": 0.6643760204315186
+    }
+  },
+  {
+    "top_y": 3184,
+    "bottom_y": 3199,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12897185845808548,
+      "match_margin": 0.38022335009141406,
+      "boundary_probability": 0.5645290613174438
+    }
+  },
+  {
+    "top_y": 3199,
+    "bottom_y": 3225,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2663573622703552,
+      "match_margin": 0.08069771528244019,
+      "boundary_probability": 0.6724390983581543
+    }
+  },
+  {
+    "top_y": 3225,
+    "bottom_y": 3240,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11254966259002686,
+      "match_margin": 0.22104567289352417,
+      "boundary_probability": 0.058541759848594666
+    }
+  },
+  {
+    "top_y": 3240,
+    "bottom_y": 3256,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9356634616851807,
+      "match_margin": 0.010579466819763184,
+      "boundary_probability": 0.9250922203063965
+    }
+  },
+  {
+    "top_y": 3256,
+    "bottom_y": 3265,
+    "lithology": "Ynte",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.006141543388366699,
+      "match_margin": 0.028693437576293945,
+      "boundary_probability": 0.848362386226654
+    }
+  },
+  {
+    "top_y": 3265,
+    "bottom_y": 3283,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7424104809761047,
+      "match_margin": 0.07604056596755981,
+      "boundary_probability": 0.32259058952331543
+    }
+  },
+  {
+    "top_y": 3283,
+    "bottom_y": 3306,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1472192406654358,
+      "match_margin": 0.05811363458633423,
+      "boundary_probability": 0.672722339630127
+    }
+  },
+  {
+    "top_y": 3306,
+    "bottom_y": 3325,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12771522998809814,
+      "match_margin": 0.10242259502410889,
+      "boundary_probability": 0.7027649879455566
+    }
+  },
+  {
+    "top_y": 3325,
+    "bottom_y": 3342,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8264991044998169,
+      "match_margin": 0.047256290912628174,
+      "boundary_probability": 0.6692526936531067
+    }
+  },
+  {
+    "top_y": 3342,
+    "bottom_y": 3372,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07203340530395508,
+      "match_margin": 0.259901762008667,
+      "boundary_probability": 0.4962678551673889
+    }
+  },
+  {
+    "top_y": 3372,
+    "bottom_y": 3389,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0014623403549194336,
+      "match_margin": 0.00046074390411376953,
+      "boundary_probability": 0.7930111885070801
+    }
+  },
+  {
+    "top_y": 3389,
+    "bottom_y": 3442,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.072884202003479,
+      "match_margin": 0.22685480117797852,
+      "boundary_probability": 0.495191752910614
+    }
+  },
+  {
+    "top_y": 3442,
+    "bottom_y": 3482,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.00120466947555542,
+      "match_margin": 0.00045669078826904297,
+      "boundary_probability": 0.6291875243186951
+    }
+  },
+  {
+    "top_y": 3482,
+    "bottom_y": 3498,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0020589828491210938,
+      "match_margin": 0.0008864402770996094,
+      "boundary_probability": 0.5359010100364685
+    }
+  },
+  {
+    "top_y": 3498,
+    "bottom_y": 3601,
+    "lithology": "Ynte",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.010463367966772283,
+      "match_margin": 0.030886819061723726,
+      "boundary_probability": 0.7255171537399292
+    }
+  },
+  {
+    "top_y": 3601,
+    "bottom_y": 3711,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12947453380380786,
+      "match_margin": 0.3261404554798918,
+      "boundary_probability": 0.7133210301399231
+    }
+  },
+  {
+    "top_y": 3711,
+    "bottom_y": 3760,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12947453380380786,
+      "match_margin": 0.3261404554798918,
+      "boundary_probability": 0.04765533655881882
+    }
+  },
+  {
+    "top_y": 3760,
+    "bottom_y": 3788,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.04134929180145264,
+      "match_margin": 0.12508922219276428,
+      "boundary_probability": 0.7178941965103149
+    }
+  },
+  {
+    "top_y": 3788,
+    "bottom_y": 3800,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.04134929180145264,
+      "match_margin": 0.12508922219276428,
+      "boundary_probability": 0.11170244216918945
+    }
+  },
+  {
+    "top_y": 3800,
+    "bottom_y": 3816,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5374603271484375,
+      "match_margin": 0.1643918752670288,
+      "boundary_probability": 0.7919826507568359
+    }
+  },
+  {
+    "top_y": 3816,
+    "bottom_y": 3839,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.01945030689239502,
+      "match_margin": 0.23932099342346191,
+      "boundary_probability": 0.7686091661453247
+    }
+  },
+  {
+    "top_y": 3839,
+    "bottom_y": 3871,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.03041326105594635,
+      "match_margin": 0.10522223114967347,
+      "boundary_probability": 0.8344718813896179
+    }
+  },
+  {
+    "top_y": 3871,
+    "bottom_y": 3879,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.03041326105594635,
+      "match_margin": 0.10522223114967347,
+      "boundary_probability": 0.44191068410873413
+    }
+  },
+  {
+    "top_y": 3879,
+    "bottom_y": 3908,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1986241340637207,
+      "match_margin": 0.3214097023010254,
+      "boundary_probability": 0.9119316339492798
+    }
+  },
+  {
+    "top_y": 3908,
+    "bottom_y": 3956,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.046228647232055664,
+      "match_margin": 0.060524702072143555,
+      "boundary_probability": 0.9559731483459473
+    }
+  },
+  {
+    "top_y": 3956,
+    "bottom_y": 3994,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16308065977963535,
+      "match_margin": 0.25548238862644546,
+      "boundary_probability": 0.9335767030715942
+    }
+  },
+  {
+    "top_y": 3994,
+    "bottom_y": 4066,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16308065977963535,
+      "match_margin": 0.25548238862644546,
+      "boundary_probability": 0.649707555770874
+    }
+  },
+  {
+    "top_y": 4066,
+    "bottom_y": 4082,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14199304580688477,
+      "match_margin": 0.18880802392959595,
+      "boundary_probability": 0.40901368856430054
+    }
+  },
+  {
+    "top_y": 4082,
+    "bottom_y": 4111,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.046703457832336426,
+      "match_margin": 0.019174933433532715,
+      "boundary_probability": 0.7139104604721069
+    }
+  },
+  {
+    "top_y": 4111,
+    "bottom_y": 4135,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0015923380851745605,
+      "match_margin": 0.0033820271492004395,
+      "boundary_probability": 0.6482296586036682
+    }
+  },
+  {
+    "top_y": 4135,
+    "bottom_y": 4156,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07290628552436829,
+      "match_margin": 0.33208081813958973,
+      "boundary_probability": 0.6611409187316895
+    }
+  },
+  {
+    "top_y": 4156,
+    "bottom_y": 4187,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07290628552436829,
+      "match_margin": 0.33208081813958973,
+      "boundary_probability": 0.06417357921600342
+    }
+  },
+  {
+    "top_y": 4187,
+    "bottom_y": 4309,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.029806677435265213,
+      "match_margin": 0.03457162614728583,
+      "boundary_probability": 0.8339982032775879
+    }
+  },
+  {
+    "top_y": 4309,
+    "bottom_y": 4317,
+    "lithology": "Ynte",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.02021479606628418,
+      "match_margin": 0.04498732089996338,
+      "boundary_probability": 0.5562466382980347
+    }
+  },
+  {
+    "top_y": 4317,
+    "bottom_y": 4367,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0391581654548645,
+      "match_margin": 0.013034522533416748,
+      "boundary_probability": 0.1323031187057495
+    }
+  },
+  {
+    "top_y": 4367,
+    "bottom_y": 4399,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.010593295097351074,
+      "match_margin": 0.0013102889060974121,
+      "boundary_probability": 0.6169928312301636
+    }
+  },
+  {
+    "top_y": 4399,
+    "bottom_y": 4430,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2709752321243286,
+      "match_margin": 0.017968297004699707,
+      "boundary_probability": 0.8113957047462463
+    }
+  },
+  {
+    "top_y": 4430,
+    "bottom_y": 4470,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1550990343093872,
+      "match_margin": 0.3325415849685669,
+      "boundary_probability": 0.5062029361724854
+    }
+  },
+  {
+    "top_y": 4470,
+    "bottom_y": 4480,
+    "lithology": "Ynte",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.08795714378356934,
+      "match_margin": 0.07047915458679199,
+      "boundary_probability": 0.9068975448608398
+    }
+  },
+  {
+    "top_y": 4480,
+    "bottom_y": 4496,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7638788819313049,
+      "match_margin": 0.07457971572875977,
+      "boundary_probability": 0.33870822191238403
+    }
+  },
+  {
+    "top_y": 4496,
+    "bottom_y": 4515,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2940707802772522,
+      "match_margin": 0.30106717348098755,
+      "boundary_probability": 0.5352594256401062
+    }
+  },
+  {
+    "top_y": 4515,
+    "bottom_y": 4538,
+    "lithology": "c",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28952860832214355,
+      "match_margin": 0.17874228954315186,
+      "boundary_probability": 0.8969787359237671
+    }
+  },
+  {
+    "top_y": 4538,
+    "bottom_y": 4572,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7621808052062988,
+      "match_margin": 0.14026495814323425,
+      "boundary_probability": 0.8755543231964111
+    }
+  },
+  {
+    "top_y": 4572,
+    "bottom_y": 4683,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8599848827800235,
+      "match_margin": 0.01623900731404626,
+      "boundary_probability": 0.9201676845550537
+    }
+  },
+  {
+    "top_y": 4699,
+    "bottom_y": 4720,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9303066257059648,
+      "match_margin": 0.04305120693263509,
+      "boundary_probability": 0.927362322807312
+    }
+  },
+  {
+    "top_y": 4720,
+    "bottom_y": 4922,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9303066257059648,
+      "match_margin": 0.04305120693263509,
+      "boundary_probability": 0.8842010498046875
+    }
+  },
+  {
+    "top_y": 4922,
+    "bottom_y": 5125,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9303066257059648,
+      "match_margin": 0.04305120693263509,
+      "boundary_probability": 0.8226339221000671
+    }
+  },
+  {
+    "top_y": 5125,
+    "bottom_y": 5247,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9303066257059648,
+      "match_margin": 0.04305120693263509,
+      "boundary_probability": 0.8064400553703308
+    }
+  },
+  {
+    "top_y": 5247,
+    "bottom_y": 5326,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9303066257059648,
+      "match_margin": 0.04305120693263509,
+      "boundary_probability": 0.7819933295249939
+    }
+  },
+  {
+    "top_y": 5326,
+    "bottom_y": 5506,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9303066257059648,
+      "match_margin": 0.04305120693263509,
+      "boundary_probability": 0.7668826580047607
+    }
+  },
+  {
+    "top_y": 5506,
+    "bottom_y": 5533,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0818338394165039,
+      "match_margin": 0.043962836265563965,
+      "boundary_probability": 0.8103671669960022
+    }
+  },
+  {
+    "top_y": 5533,
+    "bottom_y": 7105,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9934637709200838,
+      "match_margin": 0.005552370660480976,
+      "boundary_probability": 0.956625759601593
+    }
+  },
+  {
+    "top_y": 7105,
+    "bottom_y": 7148,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6848330497741699,
+      "match_margin": 0.09181320667266846,
+      "boundary_probability": 0.8251176476478577
+    }
+  },
+  {
+    "top_y": 7148,
+    "bottom_y": 7331,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9989561956436908,
+      "match_margin": 0.0008279837545801527,
+      "boundary_probability": 0.8054859042167664
+    }
+  },
+  {
+    "top_y": 7331,
+    "bottom_y": 7348,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9999850392341614,
+      "match_margin": 4.947185516357422e-06,
+      "boundary_probability": 0.4287126660346985
+    }
+  },
+  {
+    "top_y": 7348,
+    "bottom_y": 7409,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9998790621757507,
+      "match_margin": 6.508827209472656e-05,
+      "boundary_probability": 0.7342572212219238
+    }
+  },
+  {
+    "top_y": 7409,
+    "bottom_y": 8141,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9666817106835829,
+      "match_margin": 0.019839674722952894,
+      "boundary_probability": 0.501937210559845
+    }
+  },
+  {
+    "top_y": 8141,
+    "bottom_y": 8171,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8979129791259766,
+      "match_margin": 0.020317912101745605,
+      "boundary_probability": 0.8355712890625
+    }
+  },
+  {
+    "top_y": 8171,
+    "bottom_y": 8196,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9994834065437317,
+      "match_margin": 0.0002956390380859375,
+      "boundary_probability": 0.9399052858352661
+    }
+  },
+  {
+    "top_y": 8196,
+    "bottom_y": 8222,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9965944290161133,
+      "match_margin": 0.0003515481948852539,
+      "boundary_probability": 0.4693056643009186
+    }
+  },
+  {
+    "top_y": 8222,
+    "bottom_y": 8546,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9969369445318057,
+      "match_margin": 0.0027331364007643355,
+      "boundary_probability": 0.6745952367782593
+    }
+  },
+  {
+    "top_y": 8546,
+    "bottom_y": 8574,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7268463373184204,
+      "match_margin": 0.06124776601791382,
+      "boundary_probability": 0.8633151054382324
+    }
+  },
+  {
+    "top_y": 8574,
+    "bottom_y": 8835,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9971040596907166,
+      "match_margin": 0.0022915192947534635,
+      "boundary_probability": 0.9180500507354736
+    }
+  },
+  {
+    "top_y": 8835,
+    "bottom_y": 8863,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9641825556755066,
+      "match_margin": 0.004768013954162598,
+      "boundary_probability": 0.45523959398269653
+    }
+  },
+  {
+    "top_y": 8863,
+    "bottom_y": 8953,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9976865649223328,
+      "match_margin": 0.0014115571975708008,
+      "boundary_probability": 0.6154817342758179
+    }
+  },
+  {
+    "top_y": 8953,
+    "bottom_y": 8978,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7612048983573914,
+      "match_margin": 0.08976620435714722,
+      "boundary_probability": 0.9354426264762878
+    }
+  },
+  {
+    "top_y": 8978,
+    "bottom_y": 9359,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9972852196280412,
+      "match_margin": 0.0010632734911961705,
+      "boundary_probability": 0.9515362977981567
+    }
+  },
+  {
+    "top_y": 9359,
+    "bottom_y": 9384,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24444866180419922,
+      "match_margin": 0.27283668518066406,
+      "boundary_probability": 0.9225910305976868
+    }
+  },
+  {
+    "top_y": 9384,
+    "bottom_y": 9571,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9888430089128224,
+      "match_margin": 0.006455381292267415,
+      "boundary_probability": 0.930276095867157
+    }
+  },
+  {
+    "top_y": 9571,
+    "bottom_y": 10190,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9888430089128224,
+      "match_margin": 0.006455381292267415,
+      "boundary_probability": 0.7493457198143005
+    }
+  },
+  {
+    "top_y": 10190,
+    "bottom_y": 10658,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9991617024454296,
+      "match_margin": 0.0001344629841992795,
+      "boundary_probability": 0.9166038632392883
+    }
+  },
+  {
+    "top_y": 10658,
+    "bottom_y": 10973,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9915292480635265,
+      "match_margin": 0.005358877257695238,
+      "boundary_probability": 0.9327257871627808
+    }
+  },
+  {
+    "top_y": 10973,
+    "bottom_y": 11376,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9939496499433115,
+      "match_margin": 0.0004134883655804167,
+      "boundary_probability": 0.8585426211357117
+    }
+  },
+  {
+    "top_y": 11376,
+    "bottom_y": 11399,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7279421091079712,
+      "match_margin": 0.092587411403656,
+      "boundary_probability": 0.9451841115951538
+    }
+  },
+  {
+    "top_y": 11399,
+    "bottom_y": 11590,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9988696575164795,
+      "match_margin": 0.00021314620971679688,
+      "boundary_probability": 0.9480299949645996
+    }
+  },
+  {
+    "top_y": 11590,
+    "bottom_y": 12183,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9718671497365877,
+      "match_margin": 0.022214361929772886,
+      "boundary_probability": 0.905997633934021
+    }
+  },
+  {
+    "top_y": 12183,
+    "bottom_y": 12212,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9380345344543457,
+      "match_margin": 0.011318206787109375,
+      "boundary_probability": 0.9502402544021606
+    }
+  },
+  {
+    "top_y": 12212,
+    "bottom_y": 12564,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.998212889852849,
+      "match_margin": 0.0012476933612064478,
+      "boundary_probability": 0.9370735883712769
+    }
+  },
+  {
+    "top_y": 12564,
+    "bottom_y": 12578,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8866932392120361,
+      "match_margin": 0.04227042198181152,
+      "boundary_probability": 0.8740413188934326
+    }
+  },
+  {
+    "top_y": 12578,
+    "bottom_y": 12591,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9754082560539246,
+      "match_margin": 0.020881235599517822,
+      "boundary_probability": 0.19119450449943542
+    }
+  },
+  {
+    "top_y": 12591,
+    "bottom_y": 12615,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.13810771703720093,
+      "match_margin": 0.02945655584335327,
+      "boundary_probability": 0.9831304550170898
+    }
+  },
+  {
+    "top_y": 12615,
+    "bottom_y": 13000,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7666207065829983,
+      "match_margin": 0.15896307214514005,
+      "boundary_probability": 0.7970449328422546
+    }
+  },
+  {
+    "top_y": 13000,
+    "bottom_y": 13021,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2773263454437256,
+      "match_margin": 0.11408305168151855,
+      "boundary_probability": 0.8118078708648682
+    }
+  },
+  {
+    "top_y": 13021,
+    "bottom_y": 13610,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9685320217662028,
+      "match_margin": 0.02609337084564567,
+      "boundary_probability": 0.933671772480011
+    }
+  },
+  {
+    "top_y": 13610,
+    "bottom_y": 13662,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7317251563072205,
+      "match_margin": 0.02676314115524292,
+      "boundary_probability": 0.9178708791732788
+    }
+  },
+  {
+    "top_y": 13662,
+    "bottom_y": 13805,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.91430459155903,
+      "match_margin": 0.0598811478047937,
+      "boundary_probability": 0.44192731380462646
+    }
+  },
+  {
+    "top_y": 13805,
+    "bottom_y": 13832,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2007582187652588,
+      "match_margin": 0.3455888032913208,
+      "boundary_probability": 0.9008030891418457
+    }
+  },
+  {
+    "top_y": 13832,
+    "bottom_y": 13905,
+    "lithology": "e",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9903746247291565,
+      "match_margin": 0.0010463595390319824,
+      "boundary_probability": 0.9173187017440796
+    }
+  },
+  {
+    "top_y": 13905,
+    "bottom_y": 14209,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9991533938599261,
+      "match_margin": 0.0007639150870473177,
+      "boundary_probability": 0.9060219526290894
+    }
+  },
+  {
+    "top_y": 14209,
+    "bottom_y": 14238,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8833615779876709,
+      "match_margin": 0.01510697603225708,
+      "boundary_probability": 0.9452579021453857
+    }
+  },
+  {
+    "top_y": 14238,
+    "bottom_y": 14831,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.986834871728746,
+      "match_margin": 0.009923874929823717,
+      "boundary_probability": 0.94942706823349
+    }
+  },
+  {
+    "top_y": 14831,
+    "bottom_y": 14861,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9998752474784851,
+      "match_margin": 3.266334533691406e-05,
+      "boundary_probability": 0.8832252025604248
+    }
+  },
+  {
+    "top_y": 14913,
+    "bottom_y": 14953,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9680187106132507,
+      "match_margin": 0.0170743465423584,
+      "boundary_probability": 0.9272934794425964
+    }
+  },
+  {
+    "top_y": 14953,
+    "bottom_y": 14981,
+    "lithology": "Sh ilkmort, Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9788434505462646,
+      "match_margin": 0.004939556121826172,
+      "boundary_probability": 0.6073679327964783
+    }
+  },
+  {
+    "top_y": 14981,
+    "bottom_y": 15035,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9976244149384675,
+      "match_margin": 0.00039045015970862185,
+      "boundary_probability": 0.6702659130096436
+    }
+  },
+  {
+    "top_y": 15035,
+    "bottom_y": 15095,
+    "lithology": "Iatu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9762509067853292,
+      "match_margin": 0.014518854022026018,
+      "boundary_probability": 0.6062082052230835
+    }
+  },
+  {
+    "top_y": 15095,
+    "bottom_y": 15183,
+    "lithology": "l",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9961364695971663,
+      "match_margin": 0.0021308057687499105,
+      "boundary_probability": 0.724753737449646
+    }
+  }
+]

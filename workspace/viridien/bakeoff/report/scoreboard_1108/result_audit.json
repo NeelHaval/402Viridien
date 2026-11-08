@@ -1,0 +1,41 @@
+{
+  "records": 272,
+  "expected": 272,
+  "complete": true,
+  "errors": [],
+  "exact_key_proof": true,
+  "manifest_sha256": "3c6bf54199842fb99a8ec464e53458ac0684b486ca5aa52e835e348373e05394",
+  "records_sha256": "e76ea64725b3c8779388e4ddf1b399d1ca4600cce252acf9cab8e25fbc857174",
+  "manifest_digest": "1da7b757c9846b7cf1b7d79a1f01519195d3011a6c4041ac02c05f6798795301",
+  "primary_model_evidence_checks": 34,
+  "pixel_model_evidence_checks": 0,
+  "input_hash_checks": 264,
+  "source_hash_checks": 55,
+  "s19_artifacts": [
+    {
+      "name": "selected.json",
+      "sha256": "5a49b37499459f0f201779b45f2a1c3e481011bd2acbcc655b7e5aaf2f9cdd71",
+      "copy_matches": true
+    },
+    {
+      "name": "boundary_net.pt",
+      "sha256": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810",
+      "copy_matches": true
+    },
+    {
+      "name": "matcher.npz",
+      "sha256": "01cba25e573ee7552d6c4f99df4be7736eea6dce255c580e1e7b286a8ce0af62",
+      "copy_matches": true
+    },
+    {
+      "name": "boundary_real.pt",
+      "sha256": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222",
+      "copy_matches": true
+    },
+    {
+      "name": "matcher_real.npz",
+      "sha256": "b688bfa064147ac91a3622e00d71eba2e3876af44077c44f402ff57caed8f278",
+      "copy_matches": true
+    }
+  ]
+}

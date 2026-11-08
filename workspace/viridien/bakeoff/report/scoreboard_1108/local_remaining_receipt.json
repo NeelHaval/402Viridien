@@ -1,0 +1,11 @@
+{
+  "pid": 42828,
+  "creation_utc": "2026-11-08T06:47:04.1399740Z",
+  "script": "report/scoreboard_1108/score_all.py",
+  "strategies": [
+    "s19_combine",
+    "s21_v4dino",
+    "s23_v4dino_identity"
+  ],
+  "remote_owned_strategy": "s20_v4"
+}

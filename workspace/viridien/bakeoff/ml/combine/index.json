@@ -1,0 +1,5482 @@
+{
+ "dev": [
+  {
+   "key": "dev_000",
+   "log": "ext_kgs_386825",
+   "window": [
+    2705,
+    8705
+   ],
+   "well": "386825",
+   "source": "kgs"
+  },
+  {
+   "key": "dev_001",
+   "log": "ext_kgs_386825",
+   "window": [
+    8705,
+    10200
+   ],
+   "well": "386825",
+   "source": "kgs"
+  },
+  {
+   "key": "dev_002",
+   "log": "ext_utah_4304150011_p135",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_003",
+   "log": "ext_utah_4304150011_p136",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_004",
+   "log": "ext_utah_4304150011_p137",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_005",
+   "log": "ext_utah_4304150011_p138",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_006",
+   "log": "ext_utah_4304150011_p139",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_007",
+   "log": "ext_utah_4304150011_p140",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_008",
+   "log": "ext_utah_4304150011_p141",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_009",
+   "log": "ext_utah_4304150011_p142",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_010",
+   "log": "ext_utah_4304150011_p143",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_011",
+   "log": "ext_utah_4304150011_p144",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_012",
+   "log": "ext_utah_4304150011_p145",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_013",
+   "log": "ext_utah_4304150011_p146",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_014",
+   "log": "ext_utah_4304150011_p147",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_015",
+   "log": "ext_utah_4304150011_p148",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_016",
+   "log": "ext_utah_4304150011_p149",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_017",
+   "log": "ext_utah_4304150011_p150",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_018",
+   "log": "ext_utah_4304150011_p151",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_019",
+   "log": "ext_utah_4304150011_p152",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_020",
+   "log": "ext_utah_4304150011_p153",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_021",
+   "log": "ext_utah_4304150011_p154",
+   "window": [
+    355,
+    1630
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_022",
+   "log": "ext_utah_4304150011_p155",
+   "window": [
+    355,
+    790
+   ],
+   "well": "4304150011",
+   "source": "utah"
+  },
+  {
+   "key": "dev_023",
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    2510,
+    8510
+   ],
+   "well": "barlow3-14",
+   "source": "idaho"
+  },
+  {
+   "key": "dev_024",
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    9130,
+    15130
+   ],
+   "well": "barlow3-14",
+   "source": "idaho"
+  },
+  {
+   "key": "dev_025",
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    15750,
+    21750
+   ],
+   "well": "barlow3-14",
+   "source": "idaho"
+  },
+  {
+   "key": "dev_026",
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    284,
+    6284
+   ],
+   "well": "barlow3-14",
+   "source": "idaho"
+  },
+  {
+   "key": "dev_027",
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    7726,
+    13726
+   ],
+   "well": "barlow3-14",
+   "source": "idaho"
+  },
+  {
+   "key": "dev_028",
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    15169,
+    21169
+   ],
+   "well": "barlow3-14",
+   "source": "idaho"
+  },
+  {
+   "key": "dev_029",
+   "log": "ext_nl_flat-bay-2_p071",
+   "window": [
+    1314,
+    1880
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_030",
+   "log": "ext_nl_flat-bay-2_p073",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_031",
+   "log": "ext_nl_flat-bay-2_p074",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_032",
+   "log": "ext_nl_flat-bay-2_p075",
+   "window": [
+    232,
+    1877
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_033",
+   "log": "ext_nl_flat-bay-2_p076",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_034",
+   "log": "ext_nl_flat-bay-2_p077",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_035",
+   "log": "ext_nl_flat-bay-2_p078",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_036",
+   "log": "ext_nl_flat-bay-2_p079",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_037",
+   "log": "ext_nl_flat-bay-2_p080",
+   "window": [
+    232,
+    1879
+   ],
+   "well": "flat-bay-2",
+   "source": "nl"
+  },
+  {
+   "key": "dev_038",
+   "log": "ext_nl_storm_p071",
+   "window": [
+    1191,
+    1825
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_039",
+   "log": "ext_nl_storm_p072",
+   "window": [
+    177,
+    1822
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_040",
+   "log": "ext_nl_storm_p073",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_041",
+   "log": "ext_nl_storm_p074",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_042",
+   "log": "ext_nl_storm_p075",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_043",
+   "log": "ext_nl_storm_p076",
+   "window": [
+    177,
+    1823
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_044",
+   "log": "ext_nl_storm_p077",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_045",
+   "log": "ext_nl_storm_p078",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_046",
+   "log": "ext_nl_storm_p079",
+   "window": [
+    177,
+    1823
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_047",
+   "log": "ext_nl_storm_p080",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_048",
+   "log": "ext_nl_storm_p081",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_049",
+   "log": "ext_nl_storm_p082",
+   "window": [
+    177,
+    1824
+   ],
+   "well": "storm",
+   "source": "nl"
+  },
+  {
+   "key": "dev_050",
+   "log": "ext_nl_storm_p083",
+   "window": [
+    177,
+    1822
+   ],
+   "well": "storm",
+   "source": "nl"
+  }
+ ],
+ "synthetic": [
+  {
+   "key": "s2_0000",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190000,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 54,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 54,
+     "bottom_y": 104,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 104,
+     "bottom_y": 413,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 413,
+     "bottom_y": 530,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 530,
+     "bottom_y": 879,
+     "lithology": "Anhydrlte",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 879,
+     "bottom_y": 932,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 932,
+     "bottom_y": 1186,
+     "lithology": "Halite",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1338,
+     "bottom_y": 1477,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1477,
+     "bottom_y": 1536,
+     "lithology": "Clay",
+     "cluster_id": 5
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0005",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190005,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 245,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 515,
+     "bottom_y": 797,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 797,
+     "bottom_y": 980,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 980,
+     "bottom_y": 1042,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1042,
+     "bottom_y": 1112,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1112,
+     "bottom_y": 1292,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1292,
+     "bottom_y": 1382,
+     "lithology": "Anhydrlte",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1382,
+     "bottom_y": 1536,
+     "lithology": "Coal",
+     "cluster_id": 4
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0010",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190010,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 101,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 101,
+     "bottom_y": 390,
+     "lithology": "Shale",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 390,
+     "bottom_y": 697,
+     "lithology": "Halite",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 697,
+     "bottom_y": 923,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 923,
+     "bottom_y": 1202,
+     "lithology": "Shale",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1202,
+     "bottom_y": 1516,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1516,
+     "bottom_y": 1536,
+     "lithology": "Clay",
+     "cluster_id": 5
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0015",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190015,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 106,
+     "lithology": "Shale",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 106,
+     "bottom_y": 276,
+     "lithology": "Anhydrlte",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 276,
+     "bottom_y": 404,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 404,
+     "bottom_y": 617,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 617,
+     "bottom_y": 927,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 927,
+     "bottom_y": 1075,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1075,
+     "bottom_y": 1229,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1229,
+     "bottom_y": 1334,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1334,
+     "bottom_y": 1492,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1492,
+     "bottom_y": 1536,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0020",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190020,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 288,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 288,
+     "bottom_y": 397,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 397,
+     "bottom_y": 560,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 560,
+     "bottom_y": 706,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 706,
+     "bottom_y": 776,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 776,
+     "bottom_y": 866,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 866,
+     "bottom_y": 965,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 965,
+     "bottom_y": 1265,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1265,
+     "bottom_y": 1399,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1399,
+     "bottom_y": 1536,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0025",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190025,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 101,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 101,
+     "bottom_y": 309,
+     "lithology": "Shale",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 309,
+     "bottom_y": 568,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 568,
+     "bottom_y": 808,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 808,
+     "bottom_y": 914,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1113,
+     "bottom_y": 1273,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1273,
+     "bottom_y": 1332,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1332,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0030",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190030,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 312,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 312,
+     "bottom_y": 636,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 636,
+     "bottom_y": 955,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 955,
+     "bottom_y": 1079,
+     "lithology": "Halite",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1079,
+     "bottom_y": 1328,
+     "lithology": "Shale",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1328,
+     "bottom_y": 1536,
+     "lithology": "Clay",
+     "cluster_id": 5
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0035",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 155,
+     "lithology": "Anhydrlte",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 155,
+     "bottom_y": 469,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 469,
+     "bottom_y": 769,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 769,
+     "bottom_y": 900,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 900,
+     "bottom_y": 1050,
+     "lithology": "Halite",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1050,
+     "bottom_y": 1391,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0040",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190040,
+   "truth": [
+    {
+     "top_y": 271,
+     "bottom_y": 343,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 343,
+     "bottom_y": 557,
+     "lithology": "Coal",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 557,
+     "bottom_y": 856,
+     "lithology": "Halite",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 856,
+     "bottom_y": 1011,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1011,
+     "bottom_y": 1208,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1208,
+     "bottom_y": 1461,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1461,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0045",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 159,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 159,
+     "bottom_y": 413,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 413,
+     "bottom_y": 744,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 744,
+     "bottom_y": 1024,
+     "lithology": "Dolomite",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1024,
+     "bottom_y": 1278,
+     "lithology": "Anhydrlte",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1278,
+     "bottom_y": 1465,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1465,
+     "bottom_y": 1536,
+     "lithology": "Shale",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0050",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 201,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 399,
+     "bottom_y": 685,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 685,
+     "bottom_y": 810,
+     "lithology": "LImestone",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 810,
+     "bottom_y": 1141,
+     "lithology": "Shale",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1141,
+     "bottom_y": 1462,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1462,
+     "bottom_y": 1536,
+     "lithology": "Anhydrlte",
+     "cluster_id": 2
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s2_0055",
+   "family": "D-582 1-bit grid",
+   "source": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+   "split": "held",
+   "seed": 190055,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 316,
+     "lithology": "Siltstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 316,
+     "bottom_y": 633,
+     "lithology": "Halite",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 633,
+     "bottom_y": 735,
+     "lithology": "SIllty Sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1051,
+     "bottom_y": 1185,
+     "lithology": "Clay",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1185,
+     "bottom_y": 1472,
+     "lithology": "Sand and Sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1472,
+     "bottom_y": 1536,
+     "lithology": "Coal",
+     "cluster_id": 4
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0000",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180000,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 283,
+     "lithology": "Sandy Dolomite",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 283,
+     "bottom_y": 522,
+     "lithology": "Basalt",
+     "cluster_id": 28
+    },
+    {
+     "top_y": 522,
+     "bottom_y": 849,
+     "lithology": "Argil and sandy dolomite",
+     "cluster_id": 22
+    },
+    {
+     "top_y": 849,
+     "bottom_y": 1049,
+     "lithology": "Dolomitic sandstone",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 1049,
+     "bottom_y": 1323,
+     "lithology": "Clay Shale",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1323,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 18
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0005",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180005,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 169,
+     "lithology": "Limestone",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 306,
+     "bottom_y": 634,
+     "lithology": "Dolomitic sandstone",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 815,
+     "bottom_y": 865,
+     "lithology": "Sylvite",
+     "cluster_id": 26
+    },
+    {
+     "top_y": 865,
+     "bottom_y": 980,
+     "lithology": "Siltstone",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 980,
+     "bottom_y": 1150,
+     "lithology": "Halite",
+     "cluster_id": 23
+    },
+    {
+     "top_y": 1150,
+     "bottom_y": 1373,
+     "lithology": "Fine sandstone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 1451,
+     "bottom_y": 1536,
+     "lithology": "Anhydrite",
+     "cluster_id": 24
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0010",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180010,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 243,
+     "lithology": "Limestone",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 243,
+     "bottom_y": 565,
+     "lithology": "Mediumsand",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 773,
+     "bottom_y": 1005,
+     "lithology": "Clay Shale",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1005,
+     "bottom_y": 1129,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1129,
+     "bottom_y": 1303,
+     "lithology": "Oolic limestone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1303,
+     "bottom_y": 1436,
+     "lithology": "Dolomite",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 1436,
+     "bottom_y": 1536,
+     "lithology": "Calcareous clay-shale",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0015",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180015,
+   "truth": [
+    {
+     "top_y": 145,
+     "bottom_y": 442,
+     "lithology": "Gypsum",
+     "cluster_id": 25
+    },
+    {
+     "top_y": 622,
+     "bottom_y": 860,
+     "lithology": "Limestone",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 860,
+     "bottom_y": 953,
+     "lithology": "Chert",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 953,
+     "bottom_y": 1291,
+     "lithology": "Coal-lignite",
+     "cluster_id": 27
+    },
+    {
+     "top_y": 1291,
+     "bottom_y": 1393,
+     "lithology": "Halite",
+     "cluster_id": 23
+    },
+    {
+     "top_y": 1393,
+     "bottom_y": 1536,
+     "lithology": "Granite",
+     "cluster_id": 29
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0020",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180020,
+   "truth": [
+    {
+     "top_y": 303,
+     "bottom_y": 589,
+     "lithology": "Sandy and calcareous dolomite",
+     "cluster_id": 21
+    },
+    {
+     "top_y": 589,
+     "bottom_y": 794,
+     "lithology": "Bituminous limestone",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 794,
+     "bottom_y": 1119,
+     "lithology": "Sandy Dolomite",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 1119,
+     "bottom_y": 1387,
+     "lithology": "Halite",
+     "cluster_id": 23
+    },
+    {
+     "top_y": 1387,
+     "bottom_y": 1495,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1495,
+     "bottom_y": 1536,
+     "lithology": "Calcareous sandstone",
+     "cluster_id": 13
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0025",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180025,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 286,
+     "lithology": "Medium sandstone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 286,
+     "bottom_y": 347,
+     "lithology": "Calcareous clay-shale",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 347,
+     "bottom_y": 506,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 506,
+     "bottom_y": 571,
+     "lithology": "Anhydrite",
+     "cluster_id": 24
+    },
+    {
+     "top_y": 571,
+     "bottom_y": 643,
+     "lithology": "Granite",
+     "cluster_id": 29
+    },
+    {
+     "top_y": 643,
+     "bottom_y": 981,
+     "lithology": "Siltstone",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 981,
+     "bottom_y": 1209,
+     "lithology": "Anhydrite",
+     "cluster_id": 24
+    },
+    {
+     "top_y": 1209,
+     "bottom_y": 1257,
+     "lithology": "Sandy and calcareous dolomite",
+     "cluster_id": 21
+    },
+    {
+     "top_y": 1257,
+     "bottom_y": 1536,
+     "lithology": "Marl",
+     "cluster_id": 3
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0030",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180030,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 141,
+     "lithology": "Chert",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 141,
+     "bottom_y": 448,
+     "lithology": "Siltstone",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 448,
+     "bottom_y": 570,
+     "lithology": "Calcareous clay-shale",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 570,
+     "bottom_y": 839,
+     "lithology": "Dolomite",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 839,
+     "bottom_y": 955,
+     "lithology": "Gypsum",
+     "cluster_id": 25
+    },
+    {
+     "top_y": 955,
+     "bottom_y": 1162,
+     "lithology": "Oolic limestone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1162,
+     "bottom_y": 1500,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1500,
+     "bottom_y": 1536,
+     "lithology": "Clay Shale",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0035",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 255,
+     "lithology": "Anhydrite",
+     "cluster_id": 24
+    },
+    {
+     "top_y": 255,
+     "bottom_y": 442,
+     "lithology": "Marl",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 442,
+     "bottom_y": 522,
+     "lithology": "Sandy Dolomite",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 522,
+     "bottom_y": 849,
+     "lithology": "Calcareous clay-shale",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 849,
+     "bottom_y": 1187,
+     "lithology": "Oolic limestone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1187,
+     "bottom_y": 1241,
+     "lithology": "Gypsum",
+     "cluster_id": 25
+    },
+    {
+     "top_y": 1241,
+     "bottom_y": 1448,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1448,
+     "bottom_y": 1533,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1533,
+     "bottom_y": 1536,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 2
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0040",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180040,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 52,
+     "lithology": "Silt",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 52,
+     "bottom_y": 299,
+     "lithology": "Siltstone",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 299,
+     "bottom_y": 593,
+     "lithology": "Coal-lignite",
+     "cluster_id": 27
+    },
+    {
+     "top_y": 593,
+     "bottom_y": 941,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 941,
+     "bottom_y": 1134,
+     "lithology": "Calcareous clay-shale",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1134,
+     "bottom_y": 1349,
+     "lithology": "Silt",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 1349,
+     "bottom_y": 1432,
+     "lithology": "Siltstone",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 1432,
+     "bottom_y": 1536,
+     "lithology": "Marl",
+     "cluster_id": 3
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0045",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 257,
+     "lithology": "Basalt",
+     "cluster_id": 28
+    },
+    {
+     "top_y": 257,
+     "bottom_y": 318,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 318,
+     "bottom_y": 646,
+     "lithology": "Siltstone",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 646,
+     "bottom_y": 886,
+     "lithology": "Oolic limestone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 886,
+     "bottom_y": 1001,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1001,
+     "bottom_y": 1153,
+     "lithology": "Oolic limestone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1153,
+     "bottom_y": 1385,
+     "lithology": "Gypsum",
+     "cluster_id": 25
+    },
+    {
+     "top_y": 1385,
+     "bottom_y": 1536,
+     "lithology": "Coal-lignite",
+     "cluster_id": 27
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0050",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 179,
+     "lithology": "Granite",
+     "cluster_id": 29
+    },
+    {
+     "top_y": 179,
+     "bottom_y": 526,
+     "lithology": "Calcareous clay-shale",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 526,
+     "bottom_y": 709,
+     "lithology": "Sylvite",
+     "cluster_id": 26
+    },
+    {
+     "top_y": 709,
+     "bottom_y": 801,
+     "lithology": "Anhydrite",
+     "cluster_id": 24
+    },
+    {
+     "top_y": 801,
+     "bottom_y": 982,
+     "lithology": "Clay Shale",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 982,
+     "bottom_y": 1274,
+     "lithology": "Coal-lignite",
+     "cluster_id": 27
+    },
+    {
+     "top_y": 1274,
+     "bottom_y": 1519,
+     "lithology": "Sandy Dolomite",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 1519,
+     "bottom_y": 1536,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s1_0055",
+   "family": "Geoservices grid",
+   "source": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+   "split": "held",
+   "seed": 180055,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 229,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 229,
+     "bottom_y": 373,
+     "lithology": "Marl",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 373,
+     "bottom_y": 569,
+     "lithology": "Halite",
+     "cluster_id": 23
+    },
+    {
+     "top_y": 909,
+     "bottom_y": 1096,
+     "lithology": "Fine Dolomite",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1096,
+     "bottom_y": 1317,
+     "lithology": "Calcareous sandstone",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 1317,
+     "bottom_y": 1536,
+     "lithology": "Mediumsand",
+     "cluster_id": 12
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0000",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170000,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 163,
+     "lithology": "Volcanics",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 163,
+     "bottom_y": 417,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 417,
+     "bottom_y": 667,
+     "lithology": "Volcanics",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 667,
+     "bottom_y": 1005,
+     "lithology": "Chalk",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1005,
+     "bottom_y": 1266,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1266,
+     "bottom_y": 1536,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0005",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170005,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 285,
+     "lithology": "Volcanics",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 285,
+     "bottom_y": 435,
+     "lithology": "Limestone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 612,
+     "bottom_y": 818,
+     "lithology": "Limestone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 818,
+     "bottom_y": 914,
+     "lithology": "Chalk",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 914,
+     "bottom_y": 1006,
+     "lithology": "Halite",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 1006,
+     "bottom_y": 1113,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1113,
+     "bottom_y": 1244,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 1244,
+     "bottom_y": 1536,
+     "lithology": "Fine sandstone",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0010",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170010,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 105,
+     "lithology": "Fine sandstone",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 430,
+     "bottom_y": 500,
+     "lithology": "Dolomitic limestone",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 500,
+     "bottom_y": 752,
+     "lithology": "Chalk",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 752,
+     "bottom_y": 915,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 915,
+     "bottom_y": 1059,
+     "lithology": "Dolomitic limestone",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 1059,
+     "bottom_y": 1390,
+     "lithology": "Dolomite",
+     "cluster_id": 13
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0015",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170015,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 49,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 49,
+     "bottom_y": 186,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 499,
+     "bottom_y": 698,
+     "lithology": "Limestone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 698,
+     "bottom_y": 809,
+     "lithology": "Silstone",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 809,
+     "bottom_y": 920,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 920,
+     "bottom_y": 1015,
+     "lithology": "Slaty shale",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1015,
+     "bottom_y": 1083,
+     "lithology": "Gypsum",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 1083,
+     "bottom_y": 1204,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1204,
+     "bottom_y": 1397,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1397,
+     "bottom_y": 1536,
+     "lithology": "Gypsum",
+     "cluster_id": 17
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0020",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170020,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 191,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 191,
+     "bottom_y": 537,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 537,
+     "bottom_y": 686,
+     "lithology": "Coal-lignite",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 686,
+     "bottom_y": 1007,
+     "lithology": "Silstone",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1007,
+     "bottom_y": 1191,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1191,
+     "bottom_y": 1441,
+     "lithology": "Fine sandstone",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1441,
+     "bottom_y": 1536,
+     "lithology": "Marl",
+     "cluster_id": 2
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0025",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170025,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 308,
+     "lithology": "Dolomitic limestone",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 308,
+     "bottom_y": 513,
+     "lithology": "Fine sandstone",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 513,
+     "bottom_y": 668,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 668,
+     "bottom_y": 731,
+     "lithology": "Marl",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 731,
+     "bottom_y": 898,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 898,
+     "bottom_y": 1114,
+     "lithology": "Gypsum",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 1114,
+     "bottom_y": 1356,
+     "lithology": "Clay-shale",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1356,
+     "bottom_y": 1498,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1498,
+     "bottom_y": 1536,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0030",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170030,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 298,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 629,
+     "bottom_y": 800,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 800,
+     "bottom_y": 874,
+     "lithology": "Oil_Good",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 874,
+     "bottom_y": 1074,
+     "lithology": "Clay-shale",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1074,
+     "bottom_y": 1317,
+     "lithology": "Halite",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 1317,
+     "bottom_y": 1508,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0035",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 138,
+     "lithology": "Dolomite",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 138,
+     "bottom_y": 439,
+     "lithology": "Gypsum",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 439,
+     "bottom_y": 578,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 578,
+     "bottom_y": 762,
+     "lithology": "Anhydrite",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 762,
+     "bottom_y": 847,
+     "lithology": "Halite",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 847,
+     "bottom_y": 958,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 958,
+     "bottom_y": 1020,
+     "lithology": "Medium sandstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1020,
+     "bottom_y": 1255,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0040",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170040,
+   "truth": [
+    {
+     "top_y": 270,
+     "bottom_y": 402,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 402,
+     "bottom_y": 602,
+     "lithology": "Limestone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 602,
+     "bottom_y": 837,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 837,
+     "bottom_y": 1183,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1183,
+     "bottom_y": 1236,
+     "lithology": "Volcanics",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 1236,
+     "bottom_y": 1469,
+     "lithology": "Dolomite",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 1469,
+     "bottom_y": 1536,
+     "lithology": "Oil_Moderate",
+     "cluster_id": 20
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0045",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 217,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 217,
+     "bottom_y": 500,
+     "lithology": "Silstone",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 500,
+     "bottom_y": 749,
+     "lithology": "Medium sandstone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 749,
+     "bottom_y": 952,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 952,
+     "bottom_y": 1238,
+     "lithology": "Coal-lignite",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 1238,
+     "bottom_y": 1362,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1362,
+     "bottom_y": 1509,
+     "lithology": "Chert",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1509,
+     "bottom_y": 1536,
+     "lithology": "Chalk",
+     "cluster_id": 11
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0050",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 67,
+     "lithology": "Silstone",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 67,
+     "bottom_y": 401,
+     "lithology": "Gypsum",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 401,
+     "bottom_y": 496,
+     "lithology": "Chalk",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 496,
+     "bottom_y": 707,
+     "lithology": "Clay-shale",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 707,
+     "bottom_y": 1024,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1024,
+     "bottom_y": 1246,
+     "lithology": "Limestone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 1354,
+     "bottom_y": 1536,
+     "lithology": "Clay-shale",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s0_0055",
+   "family": "Gulf 3-panel",
+   "source": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+   "split": "held",
+   "seed": 170055,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 267,
+     "lithology": "Fine sandstone",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 267,
+     "bottom_y": 375,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 375,
+     "bottom_y": 572,
+     "lithology": "Sandy clay-shale",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 572,
+     "bottom_y": 717,
+     "lithology": "Limestone",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 717,
+     "bottom_y": 1040,
+     "lithology": "Coarse sandstone",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1040,
+     "bottom_y": 1357,
+     "lithology": "Silty clay-shale",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1357,
+     "bottom_y": 1536,
+     "lithology": "Slaty shale",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0000",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210000,
+   "truth": [
+    {
+     "top_y": 331,
+     "bottom_y": 441,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 441,
+     "bottom_y": 533,
+     "lithology": "Anhydrite",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 533,
+     "bottom_y": 692,
+     "lithology": "Breccia",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 692,
+     "bottom_y": 832,
+     "lithology": "Conglomerate",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 832,
+     "bottom_y": 884,
+     "lithology": "Marlstone",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 884,
+     "bottom_y": 1228,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1228,
+     "bottom_y": 1488,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1488,
+     "bottom_y": 1536,
+     "lithology": "Marlstone",
+     "cluster_id": 2
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0005",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210005,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 49,
+     "lithology": "Marlstone",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 49,
+     "bottom_y": 345,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 345,
+     "bottom_y": 440,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 440,
+     "bottom_y": 773,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 773,
+     "bottom_y": 894,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 984,
+     "bottom_y": 1312,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1312,
+     "bottom_y": 1442,
+     "lithology": "Salt",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1442,
+     "bottom_y": 1536,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0010",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210010,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 297,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 297,
+     "bottom_y": 633,
+     "lithology": "Breccia",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 633,
+     "bottom_y": 928,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 928,
+     "bottom_y": 1204,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1204,
+     "bottom_y": 1260,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1260,
+     "bottom_y": 1400,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1400,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0015",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210015,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 166,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 166,
+     "bottom_y": 467,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 467,
+     "bottom_y": 723,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 723,
+     "bottom_y": 848,
+     "lithology": "Salt",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 848,
+     "bottom_y": 1080,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1080,
+     "bottom_y": 1183,
+     "lithology": "Anhydrite",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1183,
+     "bottom_y": 1242,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1242,
+     "bottom_y": 1536,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0020",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210020,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 347,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 347,
+     "bottom_y": 534,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 534,
+     "bottom_y": 883,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 883,
+     "bottom_y": 1213,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1213,
+     "bottom_y": 1473,
+     "lithology": "Breccia",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0025",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210025,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 288,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 288,
+     "bottom_y": 534,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 534,
+     "bottom_y": 623,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 623,
+     "bottom_y": 899,
+     "lithology": "Marlstone",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 899,
+     "bottom_y": 1093,
+     "lithology": "Salt",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1093,
+     "bottom_y": 1357,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 1357,
+     "bottom_y": 1493,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1493,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0030",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210030,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 118,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 118,
+     "bottom_y": 179,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 179,
+     "bottom_y": 433,
+     "lithology": "Breccia",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 433,
+     "bottom_y": 485,
+     "lithology": "Conglomerate",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 485,
+     "bottom_y": 797,
+     "lithology": "Anhydrite",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 797,
+     "bottom_y": 1085,
+     "lithology": "Breccia",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1085,
+     "bottom_y": 1400,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1400,
+     "bottom_y": 1521,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1521,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0035",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 342,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 342,
+     "bottom_y": 567,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 567,
+     "bottom_y": 893,
+     "lithology": "Marlstone",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 893,
+     "bottom_y": 1094,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 1094,
+     "bottom_y": 1436,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1436,
+     "bottom_y": 1522,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1522,
+     "bottom_y": 1536,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0040",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210040,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 271,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 271,
+     "bottom_y": 489,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 489,
+     "bottom_y": 814,
+     "lithology": "Salt",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 814,
+     "bottom_y": 1032,
+     "lithology": "Conglomerate",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1032,
+     "bottom_y": 1314,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1314,
+     "bottom_y": 1536,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0045",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 119,
+     "lithology": "Conglomerate",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 119,
+     "bottom_y": 280,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 280,
+     "bottom_y": 588,
+     "lithology": "Anhydrite",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 588,
+     "bottom_y": 680,
+     "lithology": "Dolomite",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 680,
+     "bottom_y": 750,
+     "lithology": "Shale",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 750,
+     "bottom_y": 880,
+     "lithology": "Salt",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 880,
+     "bottom_y": 1109,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1109,
+     "bottom_y": 1287,
+     "lithology": "Breccia",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1287,
+     "bottom_y": 1527,
+     "lithology": "Marlstone",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1527,
+     "bottom_y": 1536,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0050",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 348,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 627,
+     "bottom_y": 770,
+     "lithology": "Conglomerate",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 770,
+     "bottom_y": 828,
+     "lithology": "Anhydrite",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 828,
+     "bottom_y": 1108,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1108,
+     "bottom_y": 1292,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1292,
+     "bottom_y": 1450,
+     "lithology": "Conglomerate",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1450,
+     "bottom_y": 1536,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s4_0055",
+   "family": "MC761 mineral/lithology",
+   "source": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+   "split": "held",
+   "seed": 210055,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 295,
+     "lithology": "Sandstone",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 295,
+     "bottom_y": 379,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 379,
+     "bottom_y": 439,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 439,
+     "bottom_y": 629,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 629,
+     "bottom_y": 793,
+     "lithology": "Anhydrite",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 793,
+     "bottom_y": 1113,
+     "lithology": "Claystone",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1113,
+     "bottom_y": 1417,
+     "lithology": "Siltstone",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1417,
+     "bottom_y": 1536,
+     "lithology": "Limestone",
+     "cluster_id": 9
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0000",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200000,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 207,
+     "lithology": "Others-E",
+     "cluster_id": 21
+    },
+    {
+     "top_y": 207,
+     "bottom_y": 273,
+     "lithology": "Sand-SS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 273,
+     "bottom_y": 528,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 704,
+     "bottom_y": 906,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 906,
+     "bottom_y": 1121,
+     "lithology": "Sand-MS",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1121,
+     "bottom_y": 1465,
+     "lithology": "Others-A",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1465,
+     "bottom_y": 1536,
+     "lithology": "Others-E",
+     "cluster_id": 21
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0005",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200005,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 213,
+     "lithology": "Others-CL",
+     "cluster_id": 22
+    },
+    {
+     "top_y": 213,
+     "bottom_y": 514,
+     "lithology": "Limestone-L",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 514,
+     "bottom_y": 843,
+     "lithology": "Dolomites-D",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 843,
+     "bottom_y": 1072,
+     "lithology": "Sand-MSS",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1072,
+     "bottom_y": 1404,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 1404,
+     "bottom_y": 1536,
+     "lithology": "Sand-FSS",
+     "cluster_id": 10
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0010",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200010,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 272,
+     "lithology": "Limestone-L",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 593,
+     "bottom_y": 770,
+     "lithology": "Others-CL",
+     "cluster_id": 22
+    },
+    {
+     "top_y": 770,
+     "bottom_y": 893,
+     "lithology": "Others-H",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 893,
+     "bottom_y": 1225,
+     "lithology": "Sand-MSS",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1225,
+     "bottom_y": 1388,
+     "lithology": "Dolomites-D",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 1477,
+     "bottom_y": 1536,
+     "lithology": "Sand-FSS",
+     "cluster_id": 10
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0015",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200015,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 165,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 471,
+     "bottom_y": 721,
+     "lithology": "Sand-FSS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 721,
+     "bottom_y": 1003,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1003,
+     "bottom_y": 1112,
+     "lithology": "Others-A",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1112,
+     "bottom_y": 1233,
+     "lithology": "Limestone-L",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 1233,
+     "bottom_y": 1417,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0020",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200020,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 309,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 309,
+     "bottom_y": 427,
+     "lithology": "Others-A",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 427,
+     "bottom_y": 515,
+     "lithology": "Limestone-SL",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 515,
+     "bottom_y": 775,
+     "lithology": "Others-GY",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 775,
+     "bottom_y": 825,
+     "lithology": "Clay-CCS",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 825,
+     "bottom_y": 1132,
+     "lithology": "Dolomites-D",
+     "cluster_id": 17
+    },
+    {
+     "top_y": 1132,
+     "bottom_y": 1182,
+     "lithology": "Clay-SCS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1182,
+     "bottom_y": 1296,
+     "lithology": "Clay-CCS",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1296,
+     "bottom_y": 1536,
+     "lithology": "Dolomites-AD",
+     "cluster_id": 15
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0025",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200025,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 191,
+     "lithology": "Clay-SCS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 191,
+     "bottom_y": 465,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 465,
+     "bottom_y": 666,
+     "lithology": "Sand-SS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 816,
+     "bottom_y": 1029,
+     "lithology": "Limestone-L",
+     "cluster_id": 14
+    },
+    {
+     "top_y": 1186,
+     "bottom_y": 1308,
+     "lithology": "Clay-M",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1308,
+     "bottom_y": 1474,
+     "lithology": "Clay-SACS",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1474,
+     "bottom_y": 1536,
+     "lithology": "Others-H",
+     "cluster_id": 18
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0030",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200030,
+   "truth": [
+    {
+     "top_y": 280,
+     "bottom_y": 592,
+     "lithology": "Others-E",
+     "cluster_id": 21
+    },
+    {
+     "top_y": 592,
+     "bottom_y": 939,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 939,
+     "bottom_y": 1221,
+     "lithology": "Others-H",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 1221,
+     "bottom_y": 1492,
+     "lithology": "Limestone-SL",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 1492,
+     "bottom_y": 1536,
+     "lithology": "Sand-SS",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0035",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 262,
+     "lithology": "Limestone-SL",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 262,
+     "bottom_y": 473,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 473,
+     "bottom_y": 635,
+     "lithology": "Sand-FSS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 635,
+     "bottom_y": 833,
+     "lithology": "Others-A",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 833,
+     "bottom_y": 1097,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1097,
+     "bottom_y": 1153,
+     "lithology": "Others-GY",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 1153,
+     "bottom_y": 1315,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 1315,
+     "bottom_y": 1536,
+     "lithology": "Clay-SCS",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0040",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200040,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 67,
+     "lithology": "Dolomites-AD",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 67,
+     "bottom_y": 181,
+     "lithology": "Limestone-AL",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 181,
+     "bottom_y": 471,
+     "lithology": "Others-CL",
+     "cluster_id": 22
+    },
+    {
+     "top_y": 471,
+     "bottom_y": 666,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 666,
+     "bottom_y": 1011,
+     "lithology": "Sand-MSS",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1011,
+     "bottom_y": 1318,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1506,
+     "bottom_y": 1536,
+     "lithology": "Sand-MS",
+     "cluster_id": 8
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0045",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 229,
+     "lithology": "Sand-SIS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 229,
+     "bottom_y": 388,
+     "lithology": "Dolomites-AD",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 388,
+     "bottom_y": 737,
+     "lithology": "Others-H",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 737,
+     "bottom_y": 913,
+     "lithology": "Sand-FSS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 913,
+     "bottom_y": 1186,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1186,
+     "bottom_y": 1245,
+     "lithology": "Others-A",
+     "cluster_id": 19
+    },
+    {
+     "top_y": 1245,
+     "bottom_y": 1364,
+     "lithology": "Sand-MSS",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1364,
+     "bottom_y": 1415,
+     "lithology": "Clay-CCS",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1415,
+     "bottom_y": 1536,
+     "lithology": "Dolomites-D",
+     "cluster_id": 17
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0050",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 283,
+     "lithology": "Sand-SIS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 283,
+     "bottom_y": 447,
+     "lithology": "Dolomites-AD",
+     "cluster_id": 15
+    },
+    {
+     "top_y": 447,
+     "bottom_y": 526,
+     "lithology": "Others-GY",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 526,
+     "bottom_y": 756,
+     "lithology": "Sand-FSS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 756,
+     "bottom_y": 875,
+     "lithology": "Clay-SACS",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 875,
+     "bottom_y": 947,
+     "lithology": "Others-GY",
+     "cluster_id": 20
+    },
+    {
+     "top_y": 947,
+     "bottom_y": 1116,
+     "lithology": "Sand-MSS",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1116,
+     "bottom_y": 1347,
+     "lithology": "Clay-SACS",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1347,
+     "bottom_y": 1398,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1398,
+     "bottom_y": 1515,
+     "lithology": "Clay-CCS",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1515,
+     "bottom_y": 1536,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s3_0055",
+   "family": "MC765 colour grid",
+   "source": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+   "split": "held",
+   "seed": 200055,
+   "truth": [
+    {
+     "top_y": 286,
+     "bottom_y": 617,
+     "lithology": "Sand-FS",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 617,
+     "bottom_y": 753,
+     "lithology": "Limestone-AL",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 753,
+     "bottom_y": 893,
+     "lithology": "Dolomites-CD",
+     "cluster_id": 16
+    },
+    {
+     "top_y": 893,
+     "bottom_y": 1122,
+     "lithology": "Others-H",
+     "cluster_id": 18
+    },
+    {
+     "top_y": 1122,
+     "bottom_y": 1343,
+     "lithology": "Limestone-AL",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 1343,
+     "bottom_y": 1412,
+     "lithology": "Clay-SACS",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1412,
+     "bottom_y": 1507,
+     "lithology": "Limestone-AL",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 1507,
+     "bottom_y": 1536,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0000",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230000,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 282,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 282,
+     "bottom_y": 511,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 511,
+     "bottom_y": 847,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 847,
+     "bottom_y": 1044,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1044,
+     "bottom_y": 1260,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1260,
+     "bottom_y": 1477,
+     "lithology": "Limestone-L",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1477,
+     "bottom_y": 1536,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0005",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230005,
+   "truth": [
+    {
+     "top_y": 209,
+     "bottom_y": 401,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 401,
+     "bottom_y": 615,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 615,
+     "bottom_y": 848,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 848,
+     "bottom_y": 897,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1104,
+     "bottom_y": 1444,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1444,
+     "bottom_y": 1536,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0010",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230010,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 333,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 333,
+     "bottom_y": 623,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 623,
+     "bottom_y": 727,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 727,
+     "bottom_y": 841,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 841,
+     "bottom_y": 1111,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1111,
+     "bottom_y": 1402,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1402,
+     "bottom_y": 1504,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1504,
+     "bottom_y": 1536,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0015",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230015,
+   "truth": [
+    {
+     "top_y": 348,
+     "bottom_y": 614,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 938,
+     "bottom_y": 1200,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1200,
+     "bottom_y": 1307,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1307,
+     "bottom_y": 1536,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0020",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230020,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 334,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 334,
+     "bottom_y": 443,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 443,
+     "bottom_y": 622,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 622,
+     "bottom_y": 786,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 786,
+     "bottom_y": 936,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 936,
+     "bottom_y": 1247,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1247,
+     "bottom_y": 1298,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1298,
+     "bottom_y": 1536,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0025",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230025,
+   "truth": [
+    {
+     "top_y": 263,
+     "bottom_y": 405,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 405,
+     "bottom_y": 715,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 715,
+     "bottom_y": 1021,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1021,
+     "bottom_y": 1134,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1134,
+     "bottom_y": 1299,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1299,
+     "bottom_y": 1536,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0030",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230030,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 285,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 285,
+     "bottom_y": 452,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 452,
+     "bottom_y": 597,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 597,
+     "bottom_y": 903,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 903,
+     "bottom_y": 1194,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1194,
+     "bottom_y": 1242,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1242,
+     "bottom_y": 1303,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0035",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 167,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 167,
+     "bottom_y": 429,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 429,
+     "bottom_y": 572,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 572,
+     "bottom_y": 625,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 625,
+     "bottom_y": 772,
+     "lithology": "Limestone-L",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 772,
+     "bottom_y": 1058,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1058,
+     "bottom_y": 1380,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1380,
+     "bottom_y": 1536,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0040",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230040,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 61,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 61,
+     "bottom_y": 157,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 157,
+     "bottom_y": 261,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 261,
+     "bottom_y": 577,
+     "lithology": "Limestone-L",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 577,
+     "bottom_y": 892,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 892,
+     "bottom_y": 1007,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1007,
+     "bottom_y": 1243,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1243,
+     "bottom_y": 1489,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1489,
+     "bottom_y": 1536,
+     "lithology": "Limestone-L",
+     "cluster_id": 2
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0045",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 284,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 284,
+     "bottom_y": 492,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 492,
+     "bottom_y": 561,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 561,
+     "bottom_y": 713,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 713,
+     "bottom_y": 1011,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1011,
+     "bottom_y": 1189,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1189,
+     "bottom_y": 1311,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1311,
+     "bottom_y": 1441,
+     "lithology": "Limestone-L",
+     "cluster_id": 2
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0050",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 66,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 66,
+     "bottom_y": 398,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 398,
+     "bottom_y": 588,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 588,
+     "bottom_y": 867,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 867,
+     "bottom_y": 926,
+     "lithology": "Sand-FSS",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 926,
+     "bottom_y": 1251,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1251,
+     "bottom_y": 1475,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s6_0055",
+   "family": "One-off layout",
+   "source": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+   "split": "held",
+   "seed": 230055,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 114,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 114,
+     "bottom_y": 182,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 182,
+     "bottom_y": 302,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 302,
+     "bottom_y": 363,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 363,
+     "bottom_y": 468,
+     "lithology": "Sand-MS",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 468,
+     "bottom_y": 608,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 608,
+     "bottom_y": 681,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 681,
+     "bottom_y": 766,
+     "lithology": "Limestone-L",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 766,
+     "bottom_y": 903,
+     "lithology": "Clay-S",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 903,
+     "bottom_y": 967,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 967,
+     "bottom_y": 1190,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1190,
+     "bottom_y": 1250,
+     "lithology": "Others-S",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1250,
+     "bottom_y": 1346,
+     "lithology": "Sand-MSS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1432,
+     "bottom_y": 1536,
+     "lithology": "Others-H",
+     "cluster_id": 3
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0000",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220000,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 210,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 210,
+     "bottom_y": 386,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 386,
+     "bottom_y": 556,
+     "lithology": "COAL",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 556,
+     "bottom_y": 898,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 898,
+     "bottom_y": 1171,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1471,
+     "bottom_y": 1536,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0005",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220005,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 192,
+     "lithology": "GYPSL",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 192,
+     "bottom_y": 350,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 350,
+     "bottom_y": 416,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 416,
+     "bottom_y": 590,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 590,
+     "bottom_y": 866,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 866,
+     "bottom_y": 981,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 981,
+     "bottom_y": 1229,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1229,
+     "bottom_y": 1401,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1401,
+     "bottom_y": 1536,
+     "lithology": "DOLO",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0010",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220010,
+   "truth": [
+    {
+     "top_y": 316,
+     "bottom_y": 453,
+     "lithology": "COAL",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 453,
+     "bottom_y": 779,
+     "lithology": "E",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 779,
+     "bottom_y": 1115,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1115,
+     "bottom_y": 1396,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 1396,
+     "bottom_y": 1536,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0015",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220015,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 117,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 250,
+     "bottom_y": 324,
+     "lithology": "GYPSL",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 324,
+     "bottom_y": 411,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 411,
+     "bottom_y": 729,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 729,
+     "bottom_y": 876,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 876,
+     "bottom_y": 1069,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1069,
+     "bottom_y": 1121,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 1121,
+     "bottom_y": 1175,
+     "lithology": "COAL",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1175,
+     "bottom_y": 1224,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1224,
+     "bottom_y": 1523,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1523,
+     "bottom_y": 1536,
+     "lithology": "SALT",
+     "cluster_id": 6
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0020",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220020,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 122,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 122,
+     "bottom_y": 269,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 459,
+     "bottom_y": 515,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 515,
+     "bottom_y": 583,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 583,
+     "bottom_y": 872,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 872,
+     "bottom_y": 959,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 959,
+     "bottom_y": 1166,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1166,
+     "bottom_y": 1259,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1259,
+     "bottom_y": 1399,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1399,
+     "bottom_y": 1536,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0025",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220025,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 206,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 206,
+     "bottom_y": 376,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 376,
+     "bottom_y": 706,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 706,
+     "bottom_y": 763,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 763,
+     "bottom_y": 1022,
+     "lithology": "GYPSL",
+     "cluster_id": 3
+    },
+    {
+     "top_y": 1022,
+     "bottom_y": 1070,
+     "lithology": "DOLO",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 1070,
+     "bottom_y": 1398,
+     "lithology": "CLAYS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 1398,
+     "bottom_y": 1536,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0030",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220030,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 79,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 79,
+     "bottom_y": 127,
+     "lithology": "CLAYS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 127,
+     "bottom_y": 371,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 371,
+     "bottom_y": 464,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 464,
+     "bottom_y": 767,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 767,
+     "bottom_y": 937,
+     "lithology": "E",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 937,
+     "bottom_y": 1135,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 1135,
+     "bottom_y": 1295,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1295,
+     "bottom_y": 1484,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 1484,
+     "bottom_y": 1536,
+     "lithology": "DOLO",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0035",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220035,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 54,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 54,
+     "bottom_y": 163,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 163,
+     "bottom_y": 324,
+     "lithology": "COAL",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 324,
+     "bottom_y": 517,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 517,
+     "bottom_y": 655,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 655,
+     "bottom_y": 980,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 980,
+     "bottom_y": 1123,
+     "lithology": "E",
+     "cluster_id": 11
+    },
+    {
+     "top_y": 1123,
+     "bottom_y": 1433,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 1433,
+     "bottom_y": 1536,
+     "lithology": "DOLO",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0040",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220040,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 178,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 178,
+     "bottom_y": 296,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 612,
+     "bottom_y": 823,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 823,
+     "bottom_y": 1113,
+     "lithology": "ANHYC",
+     "cluster_id": 1
+    },
+    {
+     "top_y": 1113,
+     "bottom_y": 1193,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 1193,
+     "bottom_y": 1389,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 1389,
+     "bottom_y": 1536,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0045",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220045,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 214,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 214,
+     "bottom_y": 355,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 355,
+     "bottom_y": 469,
+     "lithology": "SAND:",
+     "cluster_id": 8
+    },
+    {
+     "top_y": 469,
+     "bottom_y": 587,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 587,
+     "bottom_y": 800,
+     "lithology": "DOLO",
+     "cluster_id": 0
+    },
+    {
+     "top_y": 800,
+     "bottom_y": 1115,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1115,
+     "bottom_y": 1262,
+     "lithology": "COAL",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 1262,
+     "bottom_y": 1536,
+     "lithology": "DOLO",
+     "cluster_id": 0
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0050",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220050,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 200,
+     "lithology": ":D HBHHHEHHHRH",
+     "cluster_id": 2
+    },
+    {
+     "top_y": 200,
+     "bottom_y": 442,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 442,
+     "bottom_y": 641,
+     "lithology": "CLAYS",
+     "cluster_id": 10
+    },
+    {
+     "top_y": 641,
+     "bottom_y": 936,
+     "lithology": ":LSTONE",
+     "cluster_id": 7
+    },
+    {
+     "top_y": 936,
+     "bottom_y": 1239,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 1239,
+     "bottom_y": 1288,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 1288,
+     "bottom_y": 1536,
+     "lithology": "E",
+     "cluster_id": 11
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  },
+  {
+   "key": "s5_0055",
+   "family": "Texas 'Rock Types' box",
+   "source": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+   "split": "held",
+   "seed": 220055,
+   "truth": [
+    {
+     "top_y": 0,
+     "bottom_y": 117,
+     "lithology": "COAL",
+     "cluster_id": 4
+    },
+    {
+     "top_y": 117,
+     "bottom_y": 167,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 167,
+     "bottom_y": 477,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 477,
+     "bottom_y": 577,
+     "lithology": "SILTS",
+     "cluster_id": 5
+    },
+    {
+     "top_y": 577,
+     "bottom_y": 906,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    },
+    {
+     "top_y": 906,
+     "bottom_y": 1157,
+     "lithology": "SIDER",
+     "cluster_id": 9
+    },
+    {
+     "top_y": 1157,
+     "bottom_y": 1237,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1237,
+     "bottom_y": 1296,
+     "lithology": "ESTONE",
+     "cluster_id": 13
+    },
+    {
+     "top_y": 1296,
+     "bottom_y": 1458,
+     "lithology": "SALT",
+     "cluster_id": 6
+    },
+    {
+     "top_y": 1458,
+     "bottom_y": 1536,
+     "lithology": "SHALE",
+     "cluster_id": 12
+    }
+   ],
+   "window": [
+    0,
+    1536
+   ]
+  }
+ ],
+ "parser": {
+  "easy": true,
+  "cleanup": true,
+  "easy_weight": 0.9
+ },
+ "dev_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+ "synthetic_index_sha256": "a0ac89cedfcc799ed8d35fddc379582a6b4c86d472cc0eb9be598bc2e971dc7d",
+ "training_sources": [
+  "0000000009_d-582_0000020435-0001_log01_fe_1in_md",
+  "0000000009_d-582_0000020435-0001_log03_chromatograph_ratio",
+  "0000000009_d-582_0000020435-0001_log05_chromatograph_ratio",
+  "0000000009_d-582_0000020435-0001_log07_chromatograph_ratio",
+  "0000000009_d-582_0000020435-0001_log08_fe_5in_md",
+  "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+  "60812400480000_ocs-g 26419 001 st00bp00_masterlog_7860-27400_5in_md_2",
+  "60812400810000_ocs-g 16987 003 st00bp00_1inmd_mudlog_8921_15721",
+  "60817410140000_mc822#10 1-1200 mud log",
+  "60817410140100_mc822#10bp01 1-240 tvd mud log",
+  "60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968",
+  "60817411420000_mc_540_#1_st00_bp00_masterlog_3400-24195_5in_md",
+  "Callaway 3-33 mudlog to TD.PDF",
+  "Critter Creek 202-1807H_Mud_Vertical_PDF.pdf",
+  "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "MC765_P011_ST00BP00_5inchTVD_Depth_MudLog_3686-16495ft",
+  "Mudlog-Trail Mtn1Palisades",
+  "Mudlog_MD_FREEMAN 3 24 ST",
+  "Rio_Lavaca_1748_Unit_1_241_MUD",
+  "Rio_Nueces_3744_Unit_1_222_5IN_MUD"
+ ],
+ "held_sources": [
+  "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+  "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+  "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+  "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+  "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+  "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+  "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft"
+ ],
+ "queries": 5722,
+ "seconds": 67.65811258400208
+}

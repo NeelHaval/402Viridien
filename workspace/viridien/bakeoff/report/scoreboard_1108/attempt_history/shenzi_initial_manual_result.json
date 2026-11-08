@@ -1,0 +1,79 @@
+{
+  "case_id": "ae5c647135c45e6b",
+  "suite": "human_qa",
+  "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "y0": 10093,
+  "y1": 58782,
+  "window": [
+    10093,
+    58782
+  ],
+  "family": "Gulf 3-panel",
+  "well": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+  "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+  "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+  "column_box": [
+    1875,
+    2363,
+    1970,
+    71702
+  ],
+  "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ae5c647135c45e6b.csv",
+  "truth_sources": [
+    {
+      "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+      "sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13"
+    }
+  ],
+  "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+  "image_sha256": "da744e966066bff7f0fcd3d9c66c1cf05e1660d4fe4848771094a0a488793928",
+  "annotation_sha256": "fede49390d8a6c2d8dffebc7a505aa7d4e59cebbf73cc2fbbe968383924d49f5",
+  "note": "QA truth; Shenzi boundaries may be machine anchored. Strict scorer labels, no synonyms.",
+  "strategy": "s19_combine",
+  "scored": true,
+  "manifest_digest": "181c6d11a42acbe14bf768de88a8e6903c862bd96f4a39e0f297b8e2bcb5a919",
+  "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ae5c647135c45e6b.csv",
+  "score": 0.0,
+  "row_acc": 0.0,
+  "boundary_f1": 0.0,
+  "cluster_ari": 0.0,
+  "depth_mae_ft": null,
+  "error": "OperationalTimeout: owner stopped full-window S19 Shenzi PELT after the saved checkpoint stalled; no intervals were returned",
+  "failure_phase": "strategy_run",
+  "operational_timeout": true,
+  "worker_terminated": true,
+  "seconds": null,
+  "legend_seconds": null,
+  "depth_seconds": null,
+  "preprocess_seconds": null,
+  "end_to_end_seconds": null,
+  "over_budget_60s": null,
+  "timeout_scope": "Initial manual stop had no START receipt. Exact inference seconds and exact stop timestamp are unknown; no duration is invented. The continued run uses a 600 s whole-attempt cap.",
+  "checkpoint_to_stop_wall_interval": {
+    "checkpoint_utc": "2026-11-08T06:57:22Z",
+    "stop_utc": null,
+    "stop_confirmed_utc": "2026-11-08T07:06:05.440533+00:00",
+    "elapsed_upper_bound_seconds": 523.440533
+  },
+  "initial_shared_depth_calibration": {
+    "a": 0.3332895600870725,
+    "b": 3515.951472809422,
+    "n_points": 42,
+    "rmse_px": 0.5486205721040028,
+    "method": "rapidocr+consensus+ft-assumed"
+  },
+  "initial_context_evidence": "Read from the successful shared depth cache after stop; VM agent separately validated exact depth-pixel signature. No OCR rerun.",
+  "stack_evidence": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_worker_stack_0703.txt",
+  "process_id": 42828,
+  "process_creation_utc": "2026-11-08T06:47:04.1399740Z",
+  "recorded_utc": "2026-11-08T07:06:05.440533+00:00",
+  "api_calls": 0,
+  "previous_manifest_digests": [
+    "d0bc22573aa98b335f9e0534a50c679ea0f2a8f42804e535bac8e9e01447c944"
+  ],
+  "freeze_migration": "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present",
+  "process_start_utc": null,
+  "resumed_process": null,
+  "first_strategy_call_in_process": null
+}

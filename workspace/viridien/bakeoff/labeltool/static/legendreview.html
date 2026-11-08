@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Legend look-alike groups</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 system-ui,sans-serif;color:#17212b;background:#fff}
+main{max-width:1280px;margin:auto;padding:12px}h1{font-size:22px;margin:4px 0}.muted{color:#55616b;font-size:13px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0;position:sticky;top:0;background:#fff;padding:6px 0;z-index:2;border-bottom:1px solid #e3e7eb}
+button,select{font:inherit;border:1px solid #74808c;background:#fff;padding:6px 12px;min-height:40px;border-radius:4px;cursor:pointer}
+.g{border:1px solid #c5ccd3;border-radius:6px;margin:0 0 12px;padding:10px}
+.g.ok{border-left:6px solid #215d42}.g.bad{border-left:6px solid #9d3030}.g.mixed{border-left:6px solid #b07a00}
+.head{display:flex;gap:10px;flex-wrap:wrap;align-items:baseline}.head b{font-size:16px}
+.conf{color:#9d3030;font-weight:600;font-size:13px}
+.llm{font-size:13px;margin:6px 0;padding:6px 8px;background:#f1f4f7;border-radius:4px}.llm.no{background:#fbeaea}.llm.mostly{background:#fff8e6}
+.items{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;align-items:flex-start}
+.it{position:relative;padding:4px;border:3px solid #c5ccd3;background:#fff;min-height:0;text-align:left;max-width:200px;line-height:1.2}
+.it img{display:block;image-rendering:pixelated;max-width:100%;height:auto}
+.it .n{position:absolute;top:2px;left:2px;font:600 11px/1.2 system-ui;background:#fff;padding:0 3px;border:1px solid #74808c}
+.it .nm{display:block;font-size:12px;margin-top:3px;overflow-wrap:anywhere}.it .lg{display:block;font-size:11px;color:#55616b}
+.it.w{border-color:#9d3030}.it.w img{opacity:.45}.it.w .n{background:#9d3030;color:#fff}
+.it.lo{outline:3px dashed #b07a00;outline-offset:1px}.it.la{box-shadow:inset 0 -5px 0 #7a4fb0}
+.rev{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}.rev textarea{flex:1 1 260px;min-height:40px;font:inherit;padding:6px;border:1px solid #9ba4ad;border-radius:4px}
+.rev button.on{background:#17212b;color:#fff;border-color:#17212b}
+.items.sub{border-top:1px dashed #c5ccd3;padding-top:6px}.sl{font:600 13px/1 system-ui;color:#55616b;align-self:center;min-width:14px}
+.key{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:#55616b;margin:4px 0}
+</style>
+<main>
+<h1 id="ttl">Legend pictures, grouped by look (no column data)</h1>
+<p class="muted">Every distinct legend picture from the 51 logs. Grouped by drawn shape (JEV, names hidden), then by fill colour. Names under each picture are what the logs call it. Review each group: tap pictures that do not belong, then pick a verdict and add a note. Saved instantly.</p>
+<div class="key"><span><b style="color:#9d3030">red border</b> = you: doesn't belong</span><span><b style="color:#b07a00">dashed yellow</b> = LLM: outlier</span><span><b style="color:#7a4fb0">purple underline</b> = LLM: look-alike with a different name</span></div>
+<div class="bar"><select id="show"><option value="all">All groups</option><option value="todo">Not reviewed yet</option><option value="conflict">More than one rock name</option><option value="llm">LLM says mixed</option><option value="dis">LLM and I disagree</option></select><span id="stat" class="muted"></span></div>
+<div id="list"></div>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);let D;const V=new URLSearchParams(location.search).get('v')||'1';const IMG=V==='2'?'/lf2/':'/lf/';
+const mk=(g,k='')=>D.marks[`${g}|${k}`];
+async function post(body){D.marks[`${body.group}|${body.k??''}`]=body;try{const r=await fetch('/api/legmark',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...body,v:V})});if(!r.ok)throw 0;}catch(e){alert('Save failed');}stat();}
+function llm(g){return (D.llm.groups||[]).find(x=>x.id===g.id);}
+function render(){const L=$('list');L.replaceChildren();const show=$('show').value;
+  for(const g of D.groups){const v=llm(g),mine=mk(g.id)?.verdict,llmBad=v&&v.same&&v.same!=='yes';
+    if(show==='todo'&&mine)continue;if(show==='conflict'&&!g.name_conflict)continue;if(show==='llm'&&!llmBad)continue;
+    if(show==='dis'&&(!mine||!v||(mine==='ok')===(v.same==='yes')))continue;
+    const d=document.createElement('div');d.className='g '+(mine||'');
+    const h=document.createElement('div');h.className='head';const b=document.createElement('b');b.textContent=`Group ${g.id}`+(V==='2'?` · ${g.colour}`:'');
+    const m=document.createElement('span');m.className='muted';m.textContent=V==='2'?`${g.items.length} pictures · neighbours look most alike`:`${g.items.length} pictures · shape: ${g.pattern} · colour: ${g.colour}`;h.append(b,m);
+    if(g.name_conflict){const c=document.createElement('span');c.className='conf';c.textContent=`${g.names.length} different names: ${g.names.join(', ')}`;h.append(c);}
+    d.append(h);
+    const outs=new Set((v?.outliers||[]).map(o=>o.k)),looks=new Set((v?.lookalikes||[]).flat());
+    if(v){const x=document.createElement('div');x.className='llm '+(v.same||'');
+      x.textContent=`LLM: ${v.same==='yes'?'one pattern':v.same==='mostly'?'mostly one pattern':'mixed'}`+((v.outliers||[]).length?` · outliers: ${v.outliers.map(o=>o.k+' ('+o.why+')').join(', ')}`:'')+((v.lookalikes||[]).length?` · look-alikes with different names: ${v.lookalikes.map(p=>p.join('+')).join(', ')}`:'')+((v.bad_crops||[]).length?` · bad crops: ${v.bad_crops.join(', ')}`:'')+(v.note?` · ${v.note}`:'');d.append(x);if(v.fit){const y=document.createElement('div');y.className='llm '+(v.fit==='poor'?'no':v.fit==='ok'?'mostly':'');y.textContent=`LLM category fit (saw nearby groups too): ${v.fit}`+(v.fit_comment?` · ${v.fit_comment}`:'')+((v.move||[]).length?` · move: ${v.move.map(m=>m.k+' to group '+m.to+' ('+m.why+')').join(', ')}`:'')+((v.merge_with||[]).length?` · merge with group ${v.merge_with.join(', ')}`:'');d.append(y);}}
+    const rows=[];const byK=new Map(g.items.map(p=>[p.k,p]));
+    if(V==='2'&&v&&(v.split||[]).length>1){const used=new Set();for(const sp of v.split){const r=sp.map(k=>byK.get(k)).filter(p=>p&&!used.has(p.k));r.forEach(p=>used.add(p.k));if(r.length)rows.push(r);}
+      const rest=g.items.filter(p=>!used.has(p.k));if(rest.length)rows.push(rest);}else rows.push(g.items);
+    rows.forEach((row,ri)=>{
+    const it=document.createElement('div');it.className='items'+(rows.length>1?' sub':'');
+    if(rows.length>1){const lb=document.createElement('span');lb.className='sl';lb.textContent=String.fromCharCode(97+ri%26);it.append(lb);}
+    for(const p of row){const bt=document.createElement('button');const w=mk(g.id,p.k)?.verdict==='wrong';
+      bt.className='it'+(w?' w':'')+(outs.has(p.k)?' lo':'')+(looks.has(p.k)?' la':'');
+      const im=new Image();im.src=IMG+p.file;im.loading='lazy';im.width=p.w;im.height=p.h;im.alt='';
+      const n=document.createElement('span');n.className='n';n.textContent=p.k;
+      const nm=document.createElement('span');nm.className='nm';nm.textContent=p.names.join(', ');
+      const lg=document.createElement('span');lg.className='lg';lg.textContent=`${p.logs} log${p.logs>1?'s':''}`;
+      bt.append(im,n,nm,lg);bt.title=p.members.map(m=>m[2]+' · '+m[0]).slice(0,8).join('\n');
+      bt.onclick=()=>{const now=mk(g.id,p.k)?.verdict==='wrong';post({group:g.id,k:p.k,verdict:now?'':'wrong'});bt.classList.toggle('w',!now);};it.append(bt);}
+    d.append(it);});
+    if(rows.length>1){const q=document.createElement('div');q.className='muted';q.textContent=`Rows a-${String.fromCharCode(96+rows.length)} = how the LLM would split this group. Same row = it thinks same picture.`;d.insertBefore(q,d.querySelector('.items'));}
+    const rv=document.createElement('div');rv.className='rev';
+    for(const [val,lab] of [['ok','All one pattern'],['mixed','Mixed: some don\'t belong'],['bad','Wrong group']]){const bb=document.createElement('button');bb.textContent=lab;if(mine===val)bb.className='on';
+      bb.onclick=()=>{post({group:g.id,verdict:val,note:ta.value});d.className='g '+val;rv.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===bb));};rv.append(bb);}
+    const ta=document.createElement('textarea');ta.placeholder='Note, e.g. "3 and 7 are the same picture as Shale"';ta.value=mk(g.id)?.note||'';
+    ta.onchange=()=>post({group:g.id,verdict:mk(g.id)?.verdict||'',note:ta.value});rv.append(ta);d.append(rv);L.append(d);}
+  stat();}
+function stat(){const done=D.groups.filter(g=>mk(g.id)?.verdict).length;const bad=(D.llm.groups||[]).filter(v=>v.same&&v.same!=='yes').length;
+  $('stat').textContent=`${D.groups.length} groups · ${D.pictures} pictures · ${D.groups.filter(g=>g.name_conflict).length} with several names · you reviewed ${done} · LLM flagged ${bad}${D.llm.groups?'':' (LLM still running)'}`;}
+$('show').onchange=render;if(V==='2'){$('ttl').textContent='Legend pictures v2: fewer groups, repeats merged';document.title='Legend groups v2';document.querySelector('main p.muted').textContent='All 820 legend tiles from the 51 logs; identical pictures merged (466 left). Grouped by colour family, then by texture; inside a group, neighbours look most alike, so a run of different-looking ones means the group should be split there. Tap pictures that do not belong, then pick a verdict and add a note.';}
+(async()=>{D=await (await fetch('/api/legend?v='+V)).json();render();})();
+</script></html>

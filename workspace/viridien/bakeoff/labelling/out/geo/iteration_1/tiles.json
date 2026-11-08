@@ -1,0 +1,84 @@
+{
+  "S": [
+    [
+      0,
+      10072,
+      10645,
+      [
+        {
+          "top_y": 10072,
+          "bottom_y": 10645,
+          "label": "Clay Shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      10585,
+      11159,
+      [
+        {
+          "top_y": 10585,
+          "bottom_y": 11159,
+          "label": "Clay Shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      11099,
+      11672,
+      [
+        {
+          "top_y": 11099,
+          "bottom_y": 11672,
+          "label": "Clay Shale",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      10072,
+      10645,
+      [
+        {
+          "top_y": 10072,
+          "bottom_y": 10645,
+          "label": "Clay Shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      1,
+      10585,
+      11159,
+      [
+        {
+          "top_y": 10585,
+          "bottom_y": 11159,
+          "label": "Clay Shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      11099,
+      11672,
+      [
+        {
+          "top_y": 11099,
+          "bottom_y": 11672,
+          "label": "Clay Shale",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

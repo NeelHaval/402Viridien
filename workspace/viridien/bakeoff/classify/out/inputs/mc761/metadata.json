@@ -1,0 +1,181 @@
+{
+  "family": "MC761 mineral/lithology",
+  "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+  "rows": [
+    6759,
+    8359
+  ],
+  "n_rock": 11,
+  "share": {
+    "blank": 0.48,
+    "Sandstone": 0.335,
+    "hatch": 0.161,
+    "Siltstone": 0.022,
+    "notin": 0.002
+  },
+  "key": "mc761",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\mc761\\consensus.csv",
+  "vocabulary": [
+    "Anhydrite",
+    "Sandstone",
+    "Marlstone",
+    "Siltstone",
+    "Salt",
+    "Shale",
+    "Breccia",
+    "Conglomerate",
+    "Claystone",
+    "Limestone",
+    "Dolomite"
+  ],
+  "parser_failed": false,
+  "n_accepted": 16,
+  "n_selected": 16,
+  "excluded": [
+    {
+      "top_depth": "19259.7",
+      "bottom_depth": "19260.2",
+      "lithology": "Sandstone",
+      "top_y": "7178",
+      "bottom_y": "7179",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19370.7",
+      "bottom_depth": "19375.7",
+      "lithology": "Sandstone",
+      "top_y": "7400",
+      "bottom_y": "7410",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "19375.7",
+      "bottom_depth": "19376.2",
+      "lithology": "Sandstone",
+      "top_y": "7410",
+      "bottom_y": "7411",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19502.7",
+      "bottom_depth": "19507.7",
+      "lithology": "Shale",
+      "top_y": "7664",
+      "bottom_y": "7674",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19533.2",
+      "bottom_depth": "19538.2",
+      "lithology": "Siltstone",
+      "top_y": "7725",
+      "bottom_y": "7735",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19594.7",
+      "bottom_depth": "19599.7",
+      "lithology": "Siltstone",
+      "top_y": "7848",
+      "bottom_y": "7858",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19599.7",
+      "bottom_depth": "19600.2",
+      "lithology": "Sandstone",
+      "top_y": "7858",
+      "bottom_y": "7859",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "19600.2",
+      "bottom_depth": "19600.7",
+      "lithology": "Sandstone",
+      "top_y": "7859",
+      "bottom_y": "7860",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19600.7",
+      "bottom_depth": "19610.7",
+      "lithology": "Shale",
+      "top_y": "7860",
+      "bottom_y": "7880",
+      "cluster_id": "1",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "19610.7",
+      "bottom_depth": "19611.2",
+      "lithology": "Shale",
+      "top_y": "7880",
+      "bottom_y": "7881",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19718.3",
+      "bottom_depth": "19718.8",
+      "lithology": "Shale",
+      "top_y": "8095",
+      "bottom_y": "8096",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19718.8",
+      "bottom_depth": "19719.3",
+      "lithology": "Sandstone",
+      "top_y": "8096",
+      "bottom_y": "8097",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "19736.8",
+      "bottom_depth": "19738.3",
+      "lithology": "Sandstone",
+      "top_y": "8132",
+      "bottom_y": "8135",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    }
+  ],
+  "mode": "P",
+  "legend_box": [
+    0,
+    1295,
+    1223,
+    1884
+  ],
+  "column_box": [
+    1290,
+    2859,
+    1369,
+    14459
+  ],
+  "truth_sha256": "d2bbd4f1ab70180ebc1e891b5a43c4a3f4614bfb736a68e7fcce373dad42368f"
+}

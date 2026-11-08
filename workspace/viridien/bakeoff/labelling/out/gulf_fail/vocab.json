@@ -1,0 +1,166 @@
+{
+  "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "entries": [
+    {
+      "label": "Siltstone",
+      "box": [
+        26,
+        34,
+        192,
+        83
+      ],
+      "pattern": "Grey fill with sparse fine dots."
+    },
+    {
+      "label": "Sandstone",
+      "box": [
+        344,
+        34,
+        515,
+        83
+      ],
+      "pattern": "Yellow fill with sparse fine dots."
+    },
+    {
+      "label": "Halite",
+      "box": [
+        662,
+        34,
+        791,
+        83
+      ],
+      "pattern": "Pale pink fill with scattered right-angle marks."
+    },
+    {
+      "label": "Shale",
+      "box": [
+        980,
+        34,
+        1109,
+        83
+      ],
+      "pattern": "Green fill with closely spaced horizontal lines."
+    },
+    {
+      "label": "Clay",
+      "box": [
+        1298,
+        34,
+        1417,
+        83
+      ],
+      "pattern": "Light green fill with staggered horizontal dashes."
+    },
+    {
+      "label": "Limestone",
+      "box": [
+        26,
+        105,
+        201,
+        154
+      ],
+      "pattern": "Pale cyan fill with rectangular brickwork."
+    },
+    {
+      "label": "Dolomite",
+      "box": [
+        344,
+        105,
+        507,
+        154
+      ],
+      "pattern": "Pink fill with horizontal lines and diagonal joints."
+    },
+    {
+      "label": "Marl",
+      "box": [
+        662,
+        105,
+        783,
+        154
+      ],
+      "pattern": "Green fill with horizontal dashes and short vertical ticks."
+    },
+    {
+      "label": "Dolomitic limestone",
+      "box": [
+        980,
+        105,
+        1248,
+        154
+      ],
+      "pattern": "Pale cyan brickwork with short diagonal strokes."
+    },
+    {
+      "label": "Chalk",
+      "box": [
+        1298,
+        105,
+        1429,
+        154
+      ],
+      "pattern": "Pale cyan fill with staggered vertical bars and short crossbars."
+    },
+    {
+      "label": "Gypsum",
+      "box": [
+        26,
+        175,
+        178,
+        224
+      ],
+      "pattern": "Red fill with repeated downward chevrons."
+    },
+    {
+      "label": "Anhydrite",
+      "box": [
+        344,
+        175,
+        512,
+        224
+      ],
+      "pattern": "Red fill with intersecting diagonal lattice lines."
+    },
+    {
+      "label": "Chert",
+      "box": [
+        662,
+        175,
+        793,
+        224
+      ],
+      "pattern": "Red fill with small angular marks and dotted horizontal dashes."
+    },
+    {
+      "label": "Volcanics",
+      "box": [
+        980,
+        175,
+        1142,
+        224
+      ],
+      "pattern": "Grey fill with scattered diagonal strokes and angular chevrons."
+    },
+    {
+      "label": "Granite",
+      "box": [
+        1298,
+        175,
+        1441,
+        224
+      ],
+      "pattern": "Red fill with small cross marks and repeated GR lettering."
+    }
+  ],
+  "image_size": [
+    1550,
+    512
+  ],
+  "source_box": [
+    122,
+    898,
+    2432,
+    1505
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

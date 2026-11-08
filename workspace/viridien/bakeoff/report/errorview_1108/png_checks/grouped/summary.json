@@ -1,0 +1,466 @@
+[
+  {
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "strategy": "s19_combine",
+    "window": [
+      4409,
+      10415
+    ],
+    "image": "d582-log06-s19_combine.png",
+    "metrics": {
+      "row_acc": 0.04395604395604396,
+      "boundary_f1": 0.1693121693121693,
+      "cluster_ari": 0.21607048197593898,
+      "depth_mae_ft": 0.3499999999994543,
+      "score": 0.007442293156578871
+    },
+    "strict_counts": {
+      "correct": 264,
+      "wrong": 5323,
+      "missing": 419,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "visual": {
+      "counts": {
+        "correct": 953,
+        "wrong": 4634,
+        "missing": 419,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "row_match": 0.1586746586746587,
+      "grouped_or_alias_rows": 689
+    },
+    "counts": {
+      "correct": 953,
+      "wrong": 4634,
+      "missing": 419,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "confusions": [
+      {
+        "truth": "Shale",
+        "prediction": "Limestone",
+        "rows": 1622
+      },
+      {
+        "truth": "Siltstone",
+        "prediction": "Halite",
+        "rows": 1096
+      },
+      {
+        "truth": "Shale",
+        "prediction": "Clay",
+        "rows": 689
+      }
+    ]
+  },
+  {
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "strategy": "s20_v4",
+    "window": [
+      4409,
+      10415
+    ],
+    "image": "d582-log06-s20_v4.png",
+    "metrics": {
+      "row_acc": 0.21045621045621046,
+      "boundary_f1": 0.358974358974359,
+      "cluster_ari": 0.6180165095778934,
+      "depth_mae_ft": 0.5142857142849867,
+      "score": 0.07554838324069094
+    },
+    "strict_counts": {
+      "correct": 1264,
+      "wrong": 4742,
+      "missing": 0,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "visual": {
+      "counts": {
+        "correct": 1637,
+        "wrong": 4369,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "row_match": 0.27256077256077255,
+      "grouped_or_alias_rows": 373
+    },
+    "counts": {
+      "correct": 1637,
+      "wrong": 4369,
+      "missing": 0,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "confusions": [
+      {
+        "truth": "Shale",
+        "prediction": "SIllty Sandstone",
+        "rows": 3399
+      },
+      {
+        "truth": "Shale",
+        "prediction": "Clay / Shale",
+        "rows": 373
+      },
+      {
+        "truth": "Siltstone",
+        "prediction": "Halite",
+        "rows": 280
+      }
+    ]
+  },
+  {
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "strategy": "s21_v4dino",
+    "window": [
+      4409,
+      10415
+    ],
+    "image": "d582-log06-s21_v4dino.png",
+    "metrics": {
+      "row_acc": 0.13320013320013321,
+      "boundary_f1": 0.6,
+      "cluster_ari": 0.7601618861067719,
+      "depth_mae_ft": 0.3999999999994341,
+      "score": 0.07992007992007992
+    },
+    "strict_counts": {
+      "correct": 800,
+      "wrong": 5206,
+      "missing": 0,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "visual": {
+      "counts": {
+        "correct": 4616,
+        "wrong": 1390,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "row_match": 0.7685647685647685,
+      "grouped_or_alias_rows": 3816
+    },
+    "counts": {
+      "correct": 4616,
+      "wrong": 1390,
+      "missing": 0,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "confusions": [
+      {
+        "truth": "Shale",
+        "prediction": "Clay / Shale",
+        "rows": 3816
+      },
+      {
+        "truth": "Siltstone",
+        "prediction": "Sand and Sandstone",
+        "rows": 1167
+      },
+      {
+        "truth": "Shale",
+        "prediction": "Sand and Sandstone",
+        "rows": 168
+      }
+    ]
+  },
+  {
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "strategy": "s23_v4dino_identity",
+    "window": [
+      4409,
+      10415
+    ],
+    "image": "d582-log06-s23_v4dino_identity.png",
+    "metrics": {
+      "row_acc": 0.15734265734265734,
+      "boundary_f1": 0.5625,
+      "cluster_ari": 0.7013884962125815,
+      "depth_mae_ft": 0.3999999999994341,
+      "score": 0.08850524475524475
+    },
+    "strict_counts": {
+      "correct": 945,
+      "wrong": 5061,
+      "missing": 0,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "visual": {
+      "counts": {
+        "correct": 4616,
+        "wrong": 1390,
+        "missing": 0,
+        "boundary": 0,
+        "unlabelled": 0
+      },
+      "row_match": 0.7685647685647685,
+      "grouped_or_alias_rows": 3671
+    },
+    "counts": {
+      "correct": 4616,
+      "wrong": 1390,
+      "missing": 0,
+      "boundary": 0,
+      "unlabelled": 0
+    },
+    "confusions": [
+      {
+        "truth": "Shale",
+        "prediction": "Clay",
+        "rows": 3671
+      },
+      {
+        "truth": "Siltstone",
+        "prediction": "Sand and Sandstone",
+        "rows": 1167
+      },
+      {
+        "truth": "Shale",
+        "prediction": "Sand and Sandstone",
+        "rows": 168
+      }
+    ]
+  },
+  {
+    "log": "60811405120000_1inch tvd mudlog",
+    "strategy": "s19_combine",
+    "window": [
+      1503,
+      7501
+    ],
+    "image": "gulf-1inch-s19_combine.png",
+    "metrics": {
+      "row_acc": 0.9402835696413678,
+      "boundary_f1": 0.7857142857142857,
+      "cluster_ari": 0.7614946806720321,
+      "depth_mae_ft": 2.1709090909090514,
+      "score": 0.7387942332896461
+    },
+    "strict_counts": {
+      "correct": 5637,
+      "wrong": 260,
+      "missing": 0,
+      "boundary": 98,
+      "unlabelled": 3
+    },
+    "visual": {
+      "counts": {
+        "correct": 5637,
+        "wrong": 260,
+        "missing": 0,
+        "boundary": 98,
+        "unlabelled": 3
+      },
+      "row_match": 0.9402835696413678,
+      "grouped_or_alias_rows": 0
+    },
+    "counts": {
+      "correct": 5637,
+      "wrong": 260,
+      "missing": 0,
+      "boundary": 98,
+      "unlabelled": 3
+    },
+    "confusions": [
+      {
+        "truth": "Clay/Shale",
+        "prediction": "Sandstone",
+        "rows": 162
+      },
+      {
+        "truth": "Clay/Shale",
+        "prediction": "Sand Clay/Shale",
+        "rows": 64
+      },
+      {
+        "truth": "Sandstone",
+        "prediction": "Clay/Shale",
+        "rows": 57
+      }
+    ]
+  },
+  {
+    "log": "60811405120000_1inch tvd mudlog",
+    "strategy": "s20_v4",
+    "window": [
+      1503,
+      7501
+    ],
+    "image": "gulf-1inch-s20_v4.png",
+    "metrics": {
+      "row_acc": 0.9769808173477899,
+      "boundary_f1": 0.9753086419753086,
+      "cluster_ari": 0.93080980129371,
+      "depth_mae_ft": 2.045569620253261,
+      "score": 0.9528578342034
+    },
+    "strict_counts": {
+      "correct": 5857,
+      "wrong": 91,
+      "missing": 0,
+      "boundary": 47,
+      "unlabelled": 3
+    },
+    "visual": {
+      "counts": {
+        "correct": 5857,
+        "wrong": 91,
+        "missing": 0,
+        "boundary": 47,
+        "unlabelled": 3
+      },
+      "row_match": 0.9769808173477899,
+      "grouped_or_alias_rows": 0
+    },
+    "counts": {
+      "correct": 5857,
+      "wrong": 91,
+      "missing": 0,
+      "boundary": 47,
+      "unlabelled": 3
+    },
+    "confusions": [
+      {
+        "truth": "Clay/Shale",
+        "prediction": "Sandy Clay/Shale",
+        "rows": 45
+      },
+      {
+        "truth": "Clay/Shale",
+        "prediction": "Sandstone",
+        "rows": 28
+      },
+      {
+        "truth": "Sandstone",
+        "prediction": "Sandy Clay/Shale",
+        "rows": 27
+      }
+    ]
+  },
+  {
+    "log": "60811405120000_1inch tvd mudlog",
+    "strategy": "s21_v4dino",
+    "window": [
+      1503,
+      7501
+    ],
+    "image": "gulf-1inch-s21_v4dino.png",
+    "metrics": {
+      "row_acc": 0.9754795663052543,
+      "boundary_f1": 0.9358974358974359,
+      "cluster_ari": 0.9338055938544007,
+      "depth_mae_ft": 2.0561643835617485,
+      "score": 0.9129488248754304
+    },
+    "strict_counts": {
+      "correct": 5848,
+      "wrong": 116,
+      "missing": 0,
+      "boundary": 31,
+      "unlabelled": 3
+    },
+    "visual": {
+      "counts": {
+        "correct": 5848,
+        "wrong": 116,
+        "missing": 0,
+        "boundary": 31,
+        "unlabelled": 3
+      },
+      "row_match": 0.9754795663052543,
+      "grouped_or_alias_rows": 0
+    },
+    "counts": {
+      "correct": 5848,
+      "wrong": 116,
+      "missing": 0,
+      "boundary": 31,
+      "unlabelled": 3
+    },
+    "confusions": [
+      {
+        "truth": "Sandstone",
+        "prediction": "Conglomerate",
+        "rows": 40
+      },
+      {
+        "truth": "Sandstone",
+        "prediction": "Clay/Shale",
+        "rows": 33
+      },
+      {
+        "truth": "Clay/Shale",
+        "prediction": "Sandy Clay/Shale",
+        "rows": 22
+      }
+    ]
+  },
+  {
+    "log": "60811405120000_1inch tvd mudlog",
+    "strategy": "s23_v4dino_identity",
+    "window": [
+      1503,
+      7501
+    ],
+    "image": "gulf-1inch-s23_v4dino_identity.png",
+    "metrics": {
+      "row_acc": 0.9754795663052543,
+      "boundary_f1": 0.9358974358974359,
+      "cluster_ari": 0.9338055938544007,
+      "depth_mae_ft": 2.0561643835617485,
+      "score": 0.9129488248754304
+    },
+    "strict_counts": {
+      "correct": 5848,
+      "wrong": 116,
+      "missing": 0,
+      "boundary": 31,
+      "unlabelled": 3
+    },
+    "visual": {
+      "counts": {
+        "correct": 5848,
+        "wrong": 116,
+        "missing": 0,
+        "boundary": 31,
+        "unlabelled": 3
+      },
+      "row_match": 0.9754795663052543,
+      "grouped_or_alias_rows": 0
+    },
+    "counts": {
+      "correct": 5848,
+      "wrong": 116,
+      "missing": 0,
+      "boundary": 31,
+      "unlabelled": 3
+    },
+    "confusions": [
+      {
+        "truth": "Sandstone",
+        "prediction": "Conglomerate",
+        "rows": 40
+      },
+      {
+        "truth": "Sandstone",
+        "prediction": "Clay/Shale",
+        "rows": 33
+      },
+      {
+        "truth": "Clay/Shale",
+        "prediction": "Sandy Clay/Shale",
+        "rows": 22
+      }
+    ]
+  }
+]

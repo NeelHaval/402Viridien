@@ -1,0 +1,4 @@
+{
+  "error": "ValueError: No parsed rock swatches; local classification unavailable",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\bench.py\", line 98, in run_case\n    predictions,extra=classify(case,name)\n                      ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\models.py\", line 49, in classify\n    raise ValueError('No parsed rock swatches; local classification unavailable')\nValueError: No parsed rock swatches; local classification unavailable\n"
+}

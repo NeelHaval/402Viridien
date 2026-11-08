@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Categories across 51 logs and look-alikes inside each legend</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 system-ui,sans-serif;color:#0b0b0b;background:#fcfcfb}
+main{max-width:1280px;margin:auto;padding:12px}h1{font-size:22px;margin:4px 0}h2{font-size:18px;margin:18px 0 4px}.muted{color:#52514e;font-size:13px}
+button,select{font:inherit;border:1px solid #74808c;background:#fff;padding:6px 12px;min-height:40px;border-radius:4px;cursor:pointer}
+.tw{overflow-x:auto}table{border-collapse:collapse;font-size:13px;margin:8px 0;min-width:760px}td,th{padding:4px 8px;text-align:left;border-bottom:1px solid #e6e6e3;vertical-align:middle}
+th{color:#52514e;font-weight:600;position:sticky;top:0;background:#fcfcfb}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.bar{display:inline-block;height:8px;background:#2a78d6;border-radius:0 3px 3px 0;vertical-align:middle;margin-right:4px}
+.labs{color:#52514e;font-size:12px;max-width:320px}
+.ctl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:sticky;top:0;background:#fcfcfb;padding:6px 0;z-index:3;border-bottom:1px solid #e3e3e0}
+.p{border:1px solid #c5ccd3;border-radius:6px;margin:0 0 12px;padding:10px;background:#fff}
+.p .head{display:flex;gap:10px;flex-wrap:wrap;align-items:baseline}.p .head b{font-size:16px}
+.v{font-size:12px;font-weight:600;padding:2px 6px;border-radius:3px;border:1px solid #74808c}
+.v.same,.v.not{border-color:#9d3030;color:#7a1f1f;background:#fbeaea}.v.hard{border-color:#9a6a00;color:#6b4a00;background:#fff4dc}.v.ok{border-color:#215d42;color:#174a33;background:#e8f4ee}
+.sw{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;align-items:flex-start}.sw figure{margin:0}.sw img{image-rendering:pixelated;border:1px solid #9ba4ad;display:block;max-width:100%;height:auto}.sw figure{max-width:100%}
+.sw figcaption{font-size:13px;margin-top:2px}.sep{font-size:13px;margin:4px 0}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.e{border:3px solid #c5ccd3;padding:3px;background:#fff;min-height:0;line-height:1.1;text-align:center;font-size:12px}
+.e img{image-rendering:pixelated;display:block;height:96px;width:auto;max-width:120px}.e.w{border-color:#9d3030}.e.w img{opacity:.45}
+.e .s{font-weight:700}.e .lv{font-size:11px;font-weight:600;margin-top:2px;padding:1px 3px;border-radius:2px}.lv.right{color:#174a33;background:#e8f4ee}.lv.wrong,.lv.mixed{color:#7a1f1f;background:#fbeaea}.lv.neither,.lv.unsure{color:#6b4a00;background:#fff4dc}.llmp{font-size:13px;margin:4px 0;padding:6px 8px;background:#f1f4f7;border-radius:4px}.e.lowm{border-style:dashed}
+</style>
+<main>
+<h1>What the 51 logs are made of, and which legend entries look alike</h1>
+<p class="muted">Shares come from the colour estimator over every row of all 51 columns (the label mix page). Rows whose colour fits two legend entries are split evenly between them ("with ambiguous"). Rows the colour cannot name are listed separately below the table.</p>
+<h2>1. Rock categories across all logs</h2>
+<p class="muted">Listed in = how many legends include it. Rows = share of all filled column rows (big Gulf logs dominate). Per log = average share when every log counts the same. Per type = average when every legend type (Gulf, Texas, D-582 ...) counts the same.</p>
+<div class="tw"><table id="cats"></table></div>
+<p class="muted" id="buckets"></p>
+<h2>2. Look-alike pairs inside the same legend</h2>
+<p class="muted">Only entries of the SAME legend compete when a log is labelled, so these are the pairs that matter. Rows at stake = column rows whose colour fits both. The classifier cuts every 48-row window of every column, drops windows holding two beds, a white gap or text, and matches the rest against that log's whole legend (native-size swatches: colour, mark shape and direction, template match). Each card shows windows it called A or B. Tap a window that is called wrong. Dashed = weak call.</p>
+<div class="ctl"><select id="show"><option value="all">All pairs with rows at stake</option><option value="diff">Different rock category only</option><option value="samecat">Same category (label-level only)</option><option value="hard">Hard or not separable</option><option value="llm">LLM found problems</option><option value="every">Every pair, incl. no rows at stake</option></select><span id="stat" class="muted"></span></div>
+<div id="pairs"></div>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);let D;
+const pct=x=>!x?'0%':x<0.001?'<0.1%':(x*100).toFixed(x<0.1?1:0)+'%';
+const mk=id=>D.marks[`pairs|${id}`];
+async function post(b){D.marks[`pairs|${b.id}`]=b;try{const r=await fetch('/api/catmark',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)});if(!r.ok)throw 0;}catch(e){alert('Save failed');}stat();}
+function cats(){const T=$('cats');T.replaceChildren();const h=document.createElement('tr');
+  ['Category','Listed in','Rows (with ambiguous)','Rows certain','Per log','Per type','Legend names'].forEach((t,i)=>{const th=document.createElement('th');th.textContent=t;if(i&&i<6)th.className='n';h.append(th);});T.append(h);
+  const mx=Math.max(...D.categories.map(c=>c.share_with_maybe));
+  for(const c of D.categories){const r=document.createElement('tr');const td=(t,n)=>{const x=document.createElement('td');if(n)x.className='n';x.textContent=t;r.append(x);return x;};
+    td(c.cat);td(`${c.legends} (${pct(c.legends_pct)})`,1);
+    const b=td('',1);const s=document.createElement('span');s.className='bar';s.style.width=(c.share_with_maybe/mx*90)+'px';b.append(s,pct(c.share_with_maybe));
+    td(pct(c.share_certain),1);td(pct(c.per_log_mean),1);td(pct(c.per_family_mean),1);
+    const l=td(c.labels.slice(0,8).join(', ')+(c.labels.length>8?` +${c.labels.length-8}`:''));l.className='labs';T.append(r);}
+  $('buckets').textContent='Not nameable by colour: '+Object.entries(D.buckets).map(([k,v])=>`${k.replace(/[()]/g,'')} ${pct(v)}`).join(' · ')+' of filled rows.';}
+const VC={'same picture':'same','not separable':'not','hard: small pattern difference':'hard','separable by pattern':'ok','separable by colour':'ok'};
+function render(){const P=$('pairs');P.replaceChildren();const show=$('show').value;let n=0;
+  for(const [i,p] of D.pairs.entries()){
+    if(show!=='every'&&!p.rows_at_stake)continue;if(show==='diff'&&p.same_cat)continue;if(show==='samecat'&&!p.same_cat)continue;
+    if(show==='hard'&&!['same picture','not separable','hard: small pattern difference'].includes(p.verdict))continue;
+    const L=(D.llm.pairs||{})[i];if(show==='llm'&&!(L&&Object.values(L.windows||{}).some(v=>v!=='right')))continue;
+    if(++n>400)break;
+    const d=document.createElement('section');d.className='p';const h=document.createElement('div');h.className='head';
+    const b=document.createElement('b');b.textContent=`${p.a}  vs  ${p.b}`;
+    const m=document.createElement('span');m.className='muted';m.textContent=`${p.family} · ${p.logs.length} log${p.logs.length>1?'s':''} · ${p.same_cat?'same category ('+p.cat_a+')':p.cat_a+' vs '+p.cat_b} · rows at stake ${p.rows_at_stake.toLocaleString()} (${pct(p.share_at_stake)} of all) · colour difference ΔE ${p.dE}`;
+    const v=document.createElement('span');v.className='v '+(VC[p.verdict]||'');v.textContent=p.verdict;h.append(b,v,m);d.append(h);
+    const sw=document.createElement('div');sw.className='sw';
+    for(const [lab,f,side] of [[p.a,p.fa,'A'],[p.b,p.fb,'B']]){const fg=document.createElement('figure');const im=new Image();im.src='/sw/'+f;im.alt=lab;
+      im.onload=()=>{const k=Math.max(1,Math.min(4,Math.floor(150/im.naturalHeight)));im.width=im.naturalWidth*k;im.height=im.naturalHeight*k;};
+      const c=document.createElement('figcaption');c.textContent=`${side}: ${lab}`;fg.append(im,c);sw.append(fg);}
+    d.append(sw);
+    const s=document.createElement('div');s.className='sep';
+    s.textContent=p.seps.length?'Differs in: '+p.seps.slice(0,3).map(x=>`${({ink:'ink density',blob_area:'mark size',blob_gap:'mark spacing',hrun:'horizontal stroke',vrun:'vertical stroke',vperiod:'vertical repeat',hperiod:'horizontal repeat'})[x[0]]} ${x[1]} vs ${x[2]}`).join(' · '):'No measurable pattern difference between the two swatches.';d.append(s);
+    if(L){const c={};Object.values(L.windows||{}).forEach(v=>c[v]=(c[v]||0)+1);const q=document.createElement('div');q.className='llmp';q.textContent=`LLM, compared with the whole legend: ${Object.entries(c).map(([k,v])=>v+' '+k).join(', ')}`+(L.what_differs?` · cue: ${L.what_differs}`:'')+(L.note?` · ${L.note}`:'');d.append(q);}
+    if(p.examples&&p.examples.length){const sp=p.split||{};const t=document.createElement('div');t.className='sep';
+      t.textContent=`Separation attempt on ${p.windows} column windows of this colour: ${sp.A||0} called A (${p.a}), ${sp.B||0} called B (${p.b}). Samples:`;d.append(t);
+      const ex=document.createElement('div');ex.className='ex';
+      for(const [ei,e] of p.examples.entries()){const id=`${i}|${e.log}|${e.y}`;const bt=document.createElement('button');bt.className='e'+(mk(id)?.verdict==='wrong'?' w':'')+(e.margin<0.3?' lowm':'');
+        const im=new Image();im.loading='lazy';im.alt='';im.src=`/chunk?log=${encodeURIComponent(e.log)}&y=${e.y}&h=${e.h}`;
+        const l=document.createElement('div');l.className='s';l.textContent=`${e.side}: ${e.side==='A'?p.a:p.b}`.slice(0,22);
+        const mm=document.createElement('div');mm.className='muted';mm.textContent=`margin ${e.margin}`;bt.append(im,l,mm);const lv=L&&(L.windows||{})[String(ei+1)];if(lv){const z=document.createElement('div');z.className='lv '+lv;const bt2=(L.better||{})[String(ei+1)];z.textContent=('LLM: '+lv+(bt2?' → '+bt2:'')).slice(0,30);bt.append(z);}
+        bt.onclick=()=>{const now=mk(id)?.verdict==='wrong';post({cat:'pairs',id,verdict:now?'':'wrong',label:e.side==='A'?p.a:p.b,log:e.log});bt.classList.toggle('w',!now);};ex.append(bt);}
+      d.append(ex);}
+    else if(p.verdict!=='separable by colour'&&i<40){const t=document.createElement('div');t.className='muted';t.textContent=p.error?`Column could not be read (${p.error}).`:'No column windows of this colour found for the attempt.';d.append(t);}
+    P.append(d);}
+  stat(n);}
+function stat(n){const w=Object.values(D.marks).filter(m=>m.cat==='pairs'&&m.verdict==='wrong').length;$('stat').textContent=`${D.pairs.length} look-alike pairs · showing ${n??0} · you marked ${w} windows wrong`;}
+$('show').onchange=render;
+(async()=>{D=await (await fetch('/api/mix')).json();cats();render();})();
+</script></html>

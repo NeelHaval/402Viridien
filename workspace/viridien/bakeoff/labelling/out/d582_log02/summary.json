@@ -1,0 +1,26 @@
+{
+  "key": "d582_log02",
+  "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+  "family": "D-582 1-bit grid (second log)",
+  "rows": [
+    4387,
+    6787
+  ],
+  "iteration": 1,
+  "n_intervals": 15,
+  "agreed_share": 0.9033333333333333,
+  "labels": {
+    "Sand and Sandstone": 0.2629166666666667,
+    "Shale": 0.565,
+    "Siltstone": 0.17208333333333334
+  },
+  "calls_used": 10,
+  "seconds": 76.65843329999188,
+  "calibration": {
+    "a": 0.04989041316697636,
+    "b": 23281.25524846895,
+    "n_points": 12,
+    "rmse_px": 0.8952970969114783,
+    "method": "rapidocr+ransac"
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "steps": 1500,
+ "fractions": [
+  0.35,
+  0.7
+ ],
+ "wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "seed": 210,
+ "starts": "random",
+ "held_source_windows": 140
+}

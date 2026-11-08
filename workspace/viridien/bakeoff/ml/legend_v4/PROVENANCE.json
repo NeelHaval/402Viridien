@@ -1,0 +1,32 @@
+{
+ "dev_windows": 51,
+ "well_names": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "dev_allowlist_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+ "sha256": {
+  "bakeoff/harness/legend_v4.py": "b4fa275f04437b474bcc947c7db0a144100ff81dd9d62077cf366dafe0a64717",
+  "bakeoff/strategies/s20_legend_v4.py": "61fc2bd3ce542d37c51b71c5dc7ca32570c47b116ca021bb6e4aa94cffa248e0",
+  "bakeoff/ml/legend_v4/selected.json": "6558b374e92af03523fe27b93dae075a1c96b4bad77f33a47c6f1a63e5b9d1cc",
+  "bakeoff/ml/legend_v4/experiment.py": "d8ad567a15bfbd32dab69bfdc4eba3d6da582c3846cf34bf6dc505ef322bbb32",
+  "bakeoff/ml/legend_v4/test_legend_v4.py": "04883eac6eb21319c56f6b345fb9e746554dd682e8aedf393c5d8b66549e1122",
+  "bakeoff/ml/legend_v4/clean_boundary.pt": "4ae2c8eeb5853cc6d3ac5936db6df3b40f61b91d46c53676b3bcdcdf7b39bdeb",
+  "bakeoff/ml/legend_v4/clean_matcher.npz": "b1b137cdf7f8a4c77534bb1e854a698ec68354a0beab9f0d0ba02a91f2a40058",
+  "bakeoff/ml/legend_v4/report.py": "57c6be67c7579afe828800832703360ce6c1dd476dcb3f9b97fb9674a6c557c5",
+  "bakeoff/ml/legend_v4/check_runtime.py": "c5b4889960b49aefbcbf865145a0ea0d758ffce4acff9ceac57171e061b87a43",
+  "bakeoff/ml/legend_v4/manual_truth/0000000009_d-582_0000020435-0001_log01_fe_1in_md.json": "96c6751b22dd794de1810d233e6d3f1a303d608b2d72e89593a8174cbb82c6ea",
+  "bakeoff/ml/legend_v4/manual_truth/60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json": "32345c3eefe501ca56fae33a7c81df60d8c0ab1757765ff0d7293caf60700913",
+  "bakeoff/ml/legend_v4/manual_truth/60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968.json": "4a1b7256d2fcf3afd54dd85ff3406fe6b3015bf294fd4b8f2afc2225e8cab964",
+  "bakeoff/ml/legend_v4/manual_truth/Callaway 3-33 mudlog to TD.PDF.json": "42d365e1b0afe8a20e7df5860e9e7f7d2e11522596750702a5dd40f6e44b8864",
+  "bakeoff/ml/legend_v4/manual_truth/MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft.json": "e5b4fb42d924ad7d4044f8d41a45b9bf15390121f82249b0cad84ee5c0765a26",
+  "bakeoff/ml/legend_v4/manual_truth/Mudlog-Trail Mtn1Palisades.json": "bd742a577b92995d1db9db8bf1fa3e48edbd027f8bda43d62f248ff77faacb4e",
+  "bakeoff/ml/boundary/boundary_net.pt": "5f547847661a92ed7d2fae161bdd6374a738d12fa42bc06cb749e1cd08178cb1",
+  "bakeoff/ml/match/matcher.npz": "40aa5350ac6c5aa40ab27558d553143b98083fa01d212205f0a36a134d91c7b1",
+  "bakeoff/ml/integrate/selected.json": "791c872d001c0d2f752634efb9b7c00110567f73364c2b7838e559b1c59edde7",
+  "bakeoff/ml/integrate/confidence.npz": "828fc83335aa5d1dc8e223476caefb80ec296c81837c40250651964d9aa947f8"
+ }
+}

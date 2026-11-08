@@ -1,0 +1,20 @@
+{
+  "input_pages": 651,
+  "reviewed_pages": 17,
+  "statuses": {
+    "predicted": 15,
+    "blocked_no_usable_legend": 2
+  },
+  "windows": 51,
+  "intervals": 64,
+  "contact_sheets": 27,
+  "seconds": 8.880084143000204,
+  "current_rss_gib": 0.24060821533203125,
+  "thread_limit": 3,
+  "strategy": "s04",
+  "source_hashes": {
+    "bakeoff/strategies/s04_kmeans_viterbi.py": "de01f152af5cb4bb244efad4ba26d450952859dc18b615bcd4386776da69e2e6",
+    "bakeoff/harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "external_unlabelled/manifest.csv": "56e4cd68344634fd5de986aae0f6d45f0cff46a718c99382e12761bfc17e4a73"
+  }
+}

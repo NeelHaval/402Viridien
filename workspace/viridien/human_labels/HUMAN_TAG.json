@@ -1,0 +1,28 @@
+{
+ "tag": "HUMAN-LABELS-NEEL",
+ "built_on": "2026-11-08",
+ "labeller": "NeelHaval",
+ "snapshot": "2026-11-08T01:39Z",
+ "pages": 2,
+ "beds": 646,
+ "windows": 10,
+ "sha256": {
+  "README.md": "c9976c174df7b2856c41b68c72629d985ffbd7103de3172b9704986b67707239",
+  "bbox_annotation/60811405120000_1inch tvd mudlog.json": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+  "bbox_annotation/60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json": "fede49390d8a6c2d8dffebc7a505aa7d4e59cebbf73cc2fbbe968383924d49f5",
+  "eval_set.json": "5a7075665b5c7abdf0379e1006506f34e0366369b5579c90c01c30cac84f12fa",
+  "labels/60811405120000_1inch tvd mudlog.json": "1e88eb76cec7bc5a5c49f62774183fed85c92f850a0304da2b6f9cde24f1f823",
+  "labels/60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json": "ad79e82f63cabddc18c55178cad029ac355a6905ac65456002c471bcee6cb1a0",
+  "manifest.csv": "060cf4d2c4d01ff5091de1bbc255226d7ec9b350ce9db4f56a82daeb72a65354",
+  "preview/60811405120000_1inch tvd mudlog.png": "1802996e4c92b17e60052d29ae26086ed1b3bc28fdeff654c5a60d71f299c629",
+  "preview/60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.png": "7260c4662b0178fe8b568bca19ee5d6ac9f1da3de7efaba43fb13c6201bcdf96",
+  "qa/adjudication_items.json": "3cb5b8c6948fc3cb88d16314c35d1741de1ea6827e6e52756305abe02b36cc82",
+  "qa/adjudication_verdicts.json": "7fc203d2ededf80ded3a403623cde42954ddf49ffbfe391cf9a45473e360600b",
+  "qa/applied_fixes.json": "e66cc2b7fc27d94bfe967879d7afe9eecc685c24e58d62eb5c16a139678c5273",
+  "qa/review_issues_AB.json": "413f1dfeec6fd20773bbb1e1e8b0ab05b5b7a4cfbf00f4327b15788b5b22780c",
+  "tools/build_dataset.py": "878fb83de224e0d354ac957730d91bb9d332f2480f32e1270def6e48015beb7c",
+  "truth/60811405120000_1inch tvd mudlog.csv": "c12c23579f2775b37e7b8df1c43f6e7432d6b294405607cda1afd02671250d93",
+  "truth/60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv": "c29578c5511ac0229d502e780110b1420123bf961dc9afc7ae6c9463683b24bd"
+ },
+ "status": "hand labels + AI double review; human labels are partial for shenzi"
+}

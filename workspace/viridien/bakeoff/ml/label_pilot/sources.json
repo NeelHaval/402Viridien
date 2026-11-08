@@ -1,0 +1,66 @@
+[
+ {
+  "key": "callaway",
+  "log": "Callaway 3-33 mudlog to TD.PDF",
+  "window": [
+   5096,
+   6896
+  ],
+  "boxes": {
+   "depth_column": [
+    555,
+    5096,
+    615,
+    56024
+   ],
+   "interpreted_lithology_column": [
+    250,
+    5096,
+    310,
+    56024
+   ],
+   "lithology_legend": [
+    26,
+    2081,
+    1248,
+    2381
+   ]
+  },
+  "image_name": "Callaway 3-33 mudlog to TD.PDF.tif",
+  "image_sha256": "3655d2f0d2421ce7e9771a9232e801948c374d5cd9c08556947a83da8f01fe7a",
+  "annotation_sha256": "4d298528adb8227ab03abe6add497dde2c932354a7943762a37ba9866eeaf65d",
+  "source_paths_relative_to_dataset": true
+ },
+ {
+  "key": "freeman",
+  "log": "Mudlog_MD_FREEMAN 3 24 ST",
+  "window": [
+   1833,
+   3633
+  ],
+  "boxes": {
+   "depth_column": [
+    214,
+    1833,
+    271,
+    15765
+   ],
+   "interpreted_lithology_column": [
+    870,
+    1833,
+    899,
+    15765
+   ],
+   "lithology_legend": [
+    4,
+    1184,
+    1272,
+    1632
+   ]
+  },
+  "image_name": "Mudlog_MD_FREEMAN 3 24 ST.tif",
+  "image_sha256": "a20b5a5e6a37a84d93d9307dc9cba0b124c4c879fa79fc92986f4956c5d23eca",
+  "annotation_sha256": "277d36a83a8086953da227ba7fddd1fd3201e605dd8748a5ad86abec43cc5d28",
+  "source_paths_relative_to_dataset": true
+ }
+]

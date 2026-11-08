@@ -1,0 +1,25 @@
+{
+  "image_name": "ext_kgs_386825.tif",
+  "width": 1276,
+  "height": 10201,
+  "bounding_boxes": {
+    "depth_column": [
+      338,
+      2705,
+      368,
+      10200
+    ],
+    "interpreted_lithology_column": [
+      443,
+      2705,
+      518,
+      10200
+    ],
+    "lithology_legend": [
+      56,
+      1690,
+      1093,
+      1862
+    ]
+  }
+}

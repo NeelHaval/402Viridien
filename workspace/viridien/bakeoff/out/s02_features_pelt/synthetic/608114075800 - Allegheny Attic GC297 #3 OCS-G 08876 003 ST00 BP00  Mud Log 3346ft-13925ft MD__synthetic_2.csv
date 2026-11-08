@@ -1,0 +1,14 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,368,Dol. Limestone,6,1895.2,2079.0
+368,816,Intrusive Rocks,8,2079.0,2302.8
+816,1184,Breccia,1,2302.8,2486.6
+1184,1376,Volcanics,9,2486.6,2582.5
+1376,1536,Breccia,1,2582.5,2662.5
+1536,1888,"Gypsum, Anhyd.",7,2662.5,2838.3
+1888,2352,Silty Clay,5,2838.3,3070.1
+2352,2752,Arg. Limestone,0,3070.1,3269.9
+2752,3104,Pebbles,10,3269.9,3445.7
+3104,3504,Coal - Lignite,3,3445.7,3645.5
+3504,3776,Arg. Limestone,0,3645.5,3781.4
+3776,3888,Sand,4,3781.4,3837.3
+3888,4000,Sandstone,2,3837.3,3893.3

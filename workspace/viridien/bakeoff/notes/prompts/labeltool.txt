@@ -1,0 +1,77 @@
+sandbox=workspace-write
+Build a fast human LABELLING and RECHECK tool for mud-log lithology columns, covering all 51 logs, and test it end to end.
+
+Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md, harness/*.py (io, legend, depth, score, run) and strategies/s11_fft_legend.py first.
+If harness/legend_v2.py exists when you start or later, prefer it over harness/legend.py; it fixes legends that legend.py cannot parse (another job is writing it now).
+Write only under labeltool/ and gt/human/. Do not edit harness/, strategies/ or other gt/ folders. Never write into the dataset folder.
+
+The user is one person with little time. They want to:
+(a) label the uncertain parts of every column, and
+(b) spot-check the machine labels they are told are confident.
+Every click must count.
+
+1. Candidate intervals for every column (labeltool/build_queue.py).
+   - Segment the WHOLE lithology column of all 51 logs into intervals. Use S11's segmenter, or `python -m harness.run --strategy s11_fft_legend --set full` if that covers whole columns (check SPEC.md for what `full` means).
+   - Otherwise write a cheap generic row-feature change-point segmenter that runs at reduced scale and maps back to native rows. Merge slivers under 12 native rows.
+   - Per interval, collect every machine suggestion available, with its source:
+     - S11's label
+     - a colour estimate: nearest swatch in Lab, with d1 = distance to that swatch and margin = gap to the next swatch. Copy the method in ../scripts/label_mix.py: functions coloured_mask, dominant_lab, lab.
+     - labelling/out/<key>/consensus.csv, S.csv and T.csv when present (another job is writing these)
+     - gt/silver/A and gt/silver/B when they cover the rows
+     - gt/gold for log06 (mark it as truth; never queue it for labelling, only use it to show agreement stats)
+   - Confidence tier per interval:
+     - high: colour fit close (d1 <= 12) and margin >= 15, and every source agrees
+     - medium: a fit but a rival swatch is near, or sources partly disagree
+     - low: ambiguous colour, hatch-only, colour not in the legend, sources disagree, or the legend has no parsed swatches
+   - Write labeltool/data/queue.jsonl with id, log, family, top_y, bottom_y, suggestions[], tier, reason and priority.
+
+2. Server: labeltool/serve.py, Python stdlib only (http.server). Run it as `python labeltool/serve.py`.
+   - It binds 127.0.0.1:8765 by default; `--host 0.0.0.0` exposes it to the team VM.
+   - It serves one page, labeltool/static/index.html, written in vanilla JS and CSS with no CDN.
+   - It renders image crops on demand from the TIFFs (io.read_rgb with y0, y1, reading only the needed rows) and caches them on disk under labeltool/cache/.
+3. Modes, selectable in the UI:
+   - Uncertain first: low tier, round-robin across logs, so every column gets attention early.
+   - Spot-check: a random sample of high-tier intervals. Show the live agreement rate with a 95% interval, i.e. "my confident labels were right X%".
+   - Disputed: rows where labelling/out consensus is disputed.
+   - Walk a log: one chosen log, top to bottom.
+4. Item screen:
+   - The column crop at its TRUE aspect ratio, never stretched.
+     - Scale width and height by the same factor, and offer 1x/2x/4x zoom.
+     - Include about 150 rows of context above and below, with the interval bracketed and a native-row ruler.
+     - Next to it, show a strip of the full column with the current position marked.
+   - The legend for that log as clickable tiles: each tile is the swatch pattern itself, not stretched, with its name. Label the tiles 1-9 and a-z for the keyboard.
+     - If the legend has no parsed swatches, show the legend crop image and a text box that autocompletes from the vocabulary (labelling/out/<key>/vocab.json if present).
+   - Pre-select the best suggestion, and list every source's suggestion with its tier and reason.
+   - Keys:
+     - Enter: accept the suggestion
+     - digit/letter: pick a label
+     - U: unknown or not lithology
+     - B: wrong boundary; then drag the top and bottom handles, or click to set them
+     - Space: skip
+     - Z: undo
+     - ?: help
+   - The layout must work on a phone too, with touch buttons. Keep it flat and readable: no gradients, no glows, no emoji.
+   - Show progress per log and per family.
+5. Saving:
+   - Append every decision to gt/human/labels.jsonl. Record item id, log, top_y, bottom_y (as edited), label, the suggestion shown, whether the boundary was edited, the mode, ms taken and a timestamp.
+   - Rebuild gt/human/<log>.csv in the challenge format (top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id; depths from the harness depth calibration) from all decisions, last decision wins.
+   - Add labeltool/score_human.py. It scores each strategy's outputs (out/<strategy>/*.csv), the silver sets and the labelling consensus ONLY on human-labelled rows: row accuracy and boundary hits, with n rows per source.
+   - Show the same table in the UI under "Stats".
+6. Tests:
+   - labeltool/test_labeltool.py with pytest: queue building on 2 logs, save then rebuild of the CSV, undo, and the score on a tiny fake set.
+   - Start the server, drive the API with requests (fetch an item, post a decision, read the stats), and screenshot the page with headless Edge at desktop and phone width:
+     "/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless=new --hide-scrollbars --window-size=W,H --screenshot=<new path> http://127.0.0.1:8765/
+     View the screenshots and fix what looks wrong. Remove your test decisions from gt/human afterwards.
+7. labeltool/README.md: start command, keys, modes, where the labels go, and how to score.
+Performance target: the first item appears within 2 s of opening the page and the next item within 300 ms (prefetch the next 3).
+The queue build for all 51 logs must finish in under 15 minutes on this machine; report the time.
+Use python -X utf8. Never print or store any API key.
+
+Reply in under 350 words:
+- the queue counts per tier and family
+- the build time
+- the test results
+- the screenshot paths
+- how to start it
+- the known limits

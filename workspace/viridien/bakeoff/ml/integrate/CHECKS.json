@@ -1,0 +1,8 @@
+{
+ "n_csvs": 13,
+ "n_intervals": 516,
+ "all_integer_fields_valid": true,
+ "all_depths_rounded_to_tenth": true,
+ "frozen_hashes_match": true,
+ "pytest": "5 passed"
+}

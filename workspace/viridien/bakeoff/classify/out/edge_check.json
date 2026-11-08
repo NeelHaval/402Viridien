@@ -1,0 +1,30 @@
+{
+  "command": [
+    "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "--headless=new",
+    "--disable-gpu",
+    "--no-first-run",
+    "--no-default-browser-check",
+    "--disable-extensions",
+    "--disable-crash-reporter",
+    "--disable-breakpad",
+    "--user-data-dir=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final",
+    "--disk-cache-dir=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-cache",
+    "--window-size=390,844",
+    "--screenshot=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\report_edge_20261107_171617.png",
+    "file:///C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff/classify/report.html"
+  ],
+  "status": "failed",
+  "html_bytes": 224321,
+  "embedded_webp_images": 8,
+  "external_dependencies": 0,
+  "viewport": [
+    390,
+    844
+  ],
+  "screenshot": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\report_edge_20261107_171617.png",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "[1107/171617.441:ERROR:third_party\\crashpad\\crashpad\\util\\file\\filesystem_win.cc:128] GetFileAttributes C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final\\Crashpad\\attachments\\2a764a75-7e2e-43ac-b109-8868528148b6: The system cannot find the file specified. (0x2)\n[1107/171617.441:ERROR:third_party\\crashpad\\crashpad\\util\\file\\filesystem_win.cc:128] GetFileAttributes C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final\\Crashpad\\attachments\\02b6ffa0-d82e-4eaa-9681-e6e52fee5baa: The system cannot find the file specified. (0x2)\n[1107/171617.441:ERROR:third_party\\crashpad\\crashpad\\util\\file\\filesystem_win.cc:128] GetFileAttributes C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final\\Crashpad\\attachments\\33066214-e664-4a6a-9773-7f47e7d96b54: The system cannot find the file specified. (0x2)\n",
+  "seconds": 0.2079385000106413
+}

@@ -2,6 +2,10 @@
 
 Reproducible model experiments for the Viridien “Decoding the Subsurface” challenge. Run the same evaluator locally or in GitHub Actions, add data through manifests, and compare immutable runs with accuracy and resource measurements.
 
+The [local source workspace](workspace/README.md) contains the original labellers,
+generator fixes, strategy experiments, outside-source tools and saved reports.
+It has a source manifest and fixed release bundles in this repository.
+
 ## Start locally
 
 Use Python 3.12 and GitHub CLI with repository access. Get the code without

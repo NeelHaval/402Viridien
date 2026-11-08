@@ -1,0 +1,1345 @@
+{
+ "dev": {
+  "well_macro": {
+   "row_acc": 0.8502999802121491,
+   "boundary_f1": 0.5740785361192152,
+   "cluster_ari": 0.8306081001483896,
+   "score": 0.5106688613931747
+  },
+  "window_macro": {
+   "row_acc": 0.8848012510927372,
+   "boundary_f1": 0.5611555397144692,
+   "cluster_ari": 0.8688619235063192,
+   "score": 0.5145136501867453
+  },
+  "by_well": {
+   "386825": {
+    "row_acc": 0.8756666666666666,
+    "boundary_f1": 0.9354145166838665,
+    "cluster_ari": 0.686555045485995,
+    "score": 0.820333218667584
+   },
+   "4304150011": {
+    "row_acc": 0.9296301018491688,
+    "boundary_f1": 0.7017814840260761,
+    "cluster_ari": 0.861248513527772,
+    "score": 0.6568526918064083
+   },
+   "barlow3-14": {
+    "row_acc": 0.6972905427256996,
+    "boundary_f1": 0.3590813338621855,
+    "cluster_ari": 0.8039721217462731,
+    "score": 0.27470317948225936
+   },
+   "flat-bay-2": {
+    "row_acc": 0.7670771476100556,
+    "boundary_f1": 0.3768237934904602,
+    "cluster_ari": 0.8469115416188413,
+    "score": 0.3153784259410929
+   },
+   "storm": {
+    "row_acc": 0.9818354422091556,
+    "boundary_f1": 0.497291552533488,
+    "cluster_ari": 0.9543532783630672,
+    "score": 0.48607679106852913
+   }
+  },
+  "records": [
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "row_acc": 0.9273333333333333,
+    "boundary_f1": 0.9590643274853801,
+    "cluster_ari": 0.7421448188989033,
+    "depth_mae_ft": null,
+    "score": 0.8893723196881091
+   },
+   {
+    "log": "ext_kgs_386825",
+    "well": "386825",
+    "row_acc": 0.824,
+    "boundary_f1": 0.9117647058823529,
+    "cluster_ari": 0.6309652720730866,
+    "depth_mae_ft": null,
+    "score": 0.7512941176470588
+   },
+   {
+    "log": "ext_utah_4304150011_p135",
+    "well": "4304150011",
+    "row_acc": 0.9964444444444445,
+    "boundary_f1": 0.18181818181818182,
+    "cluster_ari": 0.9836845524369494,
+    "depth_mae_ft": null,
+    "score": 0.18117171717171718
+   },
+   {
+    "log": "ext_utah_4304150011_p136",
+    "well": "4304150011",
+    "row_acc": 0.9466666666666667,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.9691216304347778,
+    "depth_mae_ft": null,
+    "score": 0.5522222222222223
+   },
+   {
+    "log": "ext_utah_4304150011_p137",
+    "well": "4304150011",
+    "row_acc": 0.9647058823529412,
+    "boundary_f1": 0.875,
+    "cluster_ari": 0.9369075608033819,
+    "depth_mae_ft": null,
+    "score": 0.8441176470588235
+   },
+   {
+    "log": "ext_utah_4304150011_p138",
+    "well": "4304150011",
+    "row_acc": 0.9537254901960784,
+    "boundary_f1": 0.75,
+    "cluster_ari": 0.8764517219342469,
+    "depth_mae_ft": null,
+    "score": 0.7152941176470589
+   },
+   {
+    "log": "ext_utah_4304150011_p139",
+    "well": "4304150011",
+    "row_acc": 0.7607843137254902,
+    "boundary_f1": 0.4166666666666667,
+    "cluster_ari": 0.619778169597975,
+    "depth_mae_ft": null,
+    "score": 0.31699346405228757
+   },
+   {
+    "log": "ext_utah_4304150011_p140",
+    "well": "4304150011",
+    "row_acc": 0.9552941176470588,
+    "boundary_f1": 0.8333333333333334,
+    "cluster_ari": 0.9043198237912596,
+    "depth_mae_ft": null,
+    "score": 0.7960784313725491
+   },
+   {
+    "log": "ext_utah_4304150011_p141",
+    "well": "4304150011",
+    "row_acc": 0.8894117647058823,
+    "boundary_f1": 0.7222222222222222,
+    "cluster_ari": 0.741320002310806,
+    "depth_mae_ft": null,
+    "score": 0.6423529411764706
+   },
+   {
+    "log": "ext_utah_4304150011_p142",
+    "well": "4304150011",
+    "row_acc": 0.9725490196078431,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.994459487888972,
+    "depth_mae_ft": null,
+    "score": 0.5557422969187674
+   },
+   {
+    "log": "ext_utah_4304150011_p143",
+    "well": "4304150011",
+    "row_acc": 0.9568627450980393,
+    "boundary_f1": 0.8695652173913043,
+    "cluster_ari": 0.9389789606825844,
+    "depth_mae_ft": null,
+    "score": 0.8320545609548167
+   },
+   {
+    "log": "ext_utah_4304150011_p144",
+    "well": "4304150011",
+    "row_acc": 0.9882352941176471,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9849718667838993,
+    "depth_mae_ft": null,
+    "score": 0.6588235294117647
+   },
+   {
+    "log": "ext_utah_4304150011_p145",
+    "well": "4304150011",
+    "row_acc": 0.9819607843137255,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9812146087668286,
+    "depth_mae_ft": null,
+    "score": 0.9819607843137255
+   },
+   {
+    "log": "ext_utah_4304150011_p146",
+    "well": "4304150011",
+    "row_acc": 0.8949019607843137,
+    "boundary_f1": 0.7142857142857143,
+    "cluster_ari": 0.8900514287798075,
+    "depth_mae_ft": null,
+    "score": 0.6392156862745099
+   },
+   {
+    "log": "ext_utah_4304150011_p147",
+    "well": "4304150011",
+    "row_acc": 0.8666666666666667,
+    "boundary_f1": 0.8275862068965517,
+    "cluster_ari": 0.8232117221166327,
+    "depth_mae_ft": null,
+    "score": 0.7172413793103448
+   },
+   {
+    "log": "ext_utah_4304150011_p148",
+    "well": "4304150011",
+    "row_acc": 0.9992156862745099,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.9992156862745099
+   },
+   {
+    "log": "ext_utah_4304150011_p149",
+    "well": "4304150011",
+    "row_acc": 0.9294117647058824,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.9713032685254077,
+    "depth_mae_ft": null,
+    "score": 0.743529411764706
+   },
+   {
+    "log": "ext_utah_4304150011_p150",
+    "well": "4304150011",
+    "row_acc": 0.7545098039215686,
+    "boundary_f1": 0.7777777777777778,
+    "cluster_ari": 0.8214928496525266,
+    "depth_mae_ft": null,
+    "score": 0.5868409586056645
+   },
+   {
+    "log": "ext_utah_4304150011_p151",
+    "well": "4304150011",
+    "row_acc": 0.9694117647058823,
+    "boundary_f1": 0.875,
+    "cluster_ari": 0.9252824433618748,
+    "depth_mae_ft": null,
+    "score": 0.848235294117647
+   },
+   {
+    "log": "ext_utah_4304150011_p152",
+    "well": "4304150011",
+    "row_acc": 0.9921568627450981,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9869380143580156,
+    "depth_mae_ft": null,
+    "score": 0.9921568627450981
+   },
+   {
+    "log": "ext_utah_4304150011_p153",
+    "well": "4304150011",
+    "row_acc": 0.8313725490196079,
+    "boundary_f1": 0.2727272727272727,
+    "cluster_ari": 0.7367306718572648,
+    "depth_mae_ft": null,
+    "score": 0.2267379679144385
+   },
+   {
+    "log": "ext_utah_4304150011_p154",
+    "well": "4304150011",
+    "row_acc": 0.9639215686274509,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.9639215686274509
+   },
+   {
+    "log": "ext_utah_4304150011_p155",
+    "well": "4304150011",
+    "row_acc": 0.9540229885057471,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "row_acc": 0.11470745153832473,
+    "boundary_f1": 0.1493975903614458,
+    "cluster_ari": 0.7846771850323842,
+    "depth_mae_ft": null,
+    "score": 0.017137016856328034
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "row_acc": 0.8981333333333333,
+    "boundary_f1": 0.41009463722397477,
+    "cluster_ari": 0.7616706688837144,
+    "depth_mae_ft": null,
+    "score": 0.36831966351209255
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p001",
+    "well": "barlow3-14",
+    "row_acc": 0.9293333333333333,
+    "boundary_f1": 0.5051903114186851,
+    "cluster_ari": 0.8712589181001797,
+    "depth_mae_ft": null,
+    "score": 0.46949019607843134
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "row_acc": 0.9107023411371238,
+    "boundary_f1": 0.24052718286655683,
+    "cluster_ari": 0.8058965343053015,
+    "depth_mae_ft": null,
+    "score": 0.2190486685436904
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "row_acc": 0.8948012232415902,
+    "boundary_f1": 0.4444444444444444,
+    "cluster_ari": 0.7963444499717434,
+    "depth_mae_ft": null,
+    "score": 0.3976894325518178
+   },
+   {
+    "log": "ext_idaho_barlow3-14_p002",
+    "well": "barlow3-14",
+    "row_acc": 0.4360655737704918,
+    "boundary_f1": 0.40483383685800606,
+    "cluster_ari": 0.8039849741843151,
+    "depth_mae_ft": null,
+    "score": 0.1765340993511961
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p071",
+    "well": "flat-bay-2",
+    "row_acc": 0.9710669077757685,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p073",
+    "well": "flat-bay-2",
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p074",
+    "well": "flat-bay-2",
+    "row_acc": 0.9411404046597179,
+    "boundary_f1": 0.5,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.47057020232985897
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p075",
+    "well": "flat-bay-2",
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p076",
+    "well": "flat-bay-2",
+    "row_acc": 0.9687308399754752,
+    "boundary_f1": 0.4444444444444444,
+    "cluster_ari": 0.9750068363375046,
+    "depth_mae_ft": null,
+    "score": 0.43054703998910004
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p077",
+    "well": "flat-bay-2",
+    "row_acc": 0.4329268292682927,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.9143006993079534,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p078",
+    "well": "flat-bay-2",
+    "row_acc": 0.1862446743761412,
+    "boundary_f1": 0.25,
+    "cluster_ari": 0.8937097832648588,
+    "depth_mae_ft": null,
+    "score": 0.0465611685940353
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p079",
+    "well": "flat-bay-2",
+    "row_acc": 0.44437577255871447,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.9742944190854664,
+    "depth_mae_ft": null,
+    "score": 0.22218788627935723
+   },
+   {
+    "log": "ext_nl_flat-bay-2_p080",
+    "well": "flat-bay-2",
+    "row_acc": 0.9592088998763906,
+    "boundary_f1": 0.696969696969697,
+    "cluster_ari": 0.8648921365737876,
+    "depth_mae_ft": null,
+    "score": 0.6685395362774844
+   },
+   {
+    "log": "ext_nl_storm_p071",
+    "well": "storm",
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p072",
+    "well": "storm",
+    "row_acc": 1.0,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.6666666666666666
+   },
+   {
+    "log": "ext_nl_storm_p073",
+    "well": "storm",
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+   },
+   {
+    "log": "ext_nl_storm_p074",
+    "well": "storm",
+    "row_acc": 1.0,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.6666666666666666
+   },
+   {
+    "log": "ext_nl_storm_p075",
+    "well": "storm",
+    "row_acc": 0.9950279676817899,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.9853775855380309,
+    "depth_mae_ft": null,
+    "score": 0.5427425278264308
+   },
+   {
+    "log": "ext_nl_storm_p076",
+    "well": "storm",
+    "row_acc": 1.0,
+    "boundary_f1": 0.4,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.4
+   },
+   {
+    "log": "ext_nl_storm_p077",
+    "well": "storm",
+    "row_acc": 0.9962940086473132,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.9793952728795828,
+    "depth_mae_ft": null,
+    "score": 0.5693108620841789
+   },
+   {
+    "log": "ext_nl_storm_p078",
+    "well": "storm",
+    "row_acc": 0.9448621553884712,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.8149462094022666,
+    "depth_mae_ft": null,
+    "score": 0.6299081035923141
+   },
+   {
+    "log": "ext_nl_storm_p079",
+    "well": "storm",
+    "row_acc": 0.9529485570890841,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.8272352263627956,
+    "depth_mae_ft": null,
+    "score": 0.5445420326223337
+   },
+   {
+    "log": "ext_nl_storm_p080",
+    "well": "storm",
+    "row_acc": 0.9348370927318296,
+    "boundary_f1": 0.65,
+    "cluster_ari": 0.9079453780651081,
+    "depth_mae_ft": null,
+    "score": 0.6076441102756892
+   },
+   {
+    "log": "ext_nl_storm_p081",
+    "well": "storm",
+    "row_acc": 0.94858934169279,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.9230931261262528,
+    "depth_mae_ft": null,
+    "score": 0.5533437826541275
+   },
+   {
+    "log": "ext_nl_storm_p082",
+    "well": "storm",
+    "row_acc": 0.9956440572495333,
+    "boundary_f1": 0.5625,
+    "cluster_ari": 0.9823633932799004,
+    "depth_mae_ft": null,
+    "score": 0.5600497822028625
+   },
+   {
+    "log": "ext_nl_storm_p083",
+    "well": "storm",
+    "row_acc": 0.9956575682382134,
+    "boundary_f1": 0.5806451612903226,
+    "cluster_ari": 0.9862364270659355,
+    "depth_mae_ft": null,
+    "score": 0.5781237492996079
+   }
+  ]
+ },
+ "synthetic": {
+  "well_macro": {
+   "row_acc": 0.7469210317517083,
+   "boundary_f1": 0.6557899824114246,
+   "cluster_ari": 0.8129934667886359,
+   "score": 0.5157554165225043
+  },
+  "window_macro": {
+   "row_acc": 0.7469210317517083,
+   "boundary_f1": 0.6557899824114245,
+   "cluster_ari": 0.8129934667886358,
+   "score": 0.5157554165225043
+  },
+  "by_well": {
+   "D-582 1-bit grid": {
+    "row_acc": 0.5242917982719755,
+    "boundary_f1": 0.3615866915356505,
+    "cluster_ari": 0.5606298546605514,
+    "score": 0.19123984715263712
+   },
+   "Geoservices grid": {
+    "row_acc": 0.7378449651146207,
+    "boundary_f1": 0.4845899054724789,
+    "cluster_ari": 0.8061133519011285,
+    "score": 0.37002851349762866
+   },
+   "Gulf 3-panel": {
+    "row_acc": 0.7013025979471593,
+    "boundary_f1": 0.6931541856313023,
+    "cluster_ari": 0.84210001326965,
+    "score": 0.4926383676270764
+   },
+   "MC761 mineral/lithology": {
+    "row_acc": 0.8557287754314721,
+    "boundary_f1": 0.7425893300312804,
+    "cluster_ari": 0.902215848614495,
+    "score": 0.6489496877200996
+   },
+   "MC765 colour grid": {
+    "row_acc": 0.6612535674954184,
+    "boundary_f1": 0.603439384886529,
+    "cluster_ari": 0.8115517489007469,
+    "score": 0.4042379833808045
+   },
+   "One-off layout": {
+    "row_acc": 0.8533276707951951,
+    "boundary_f1": 0.7856121511731717,
+    "cluster_ari": 0.8489048459941494,
+    "score": 0.6734949002601477
+   },
+   "Texas 'Rock Types' box": {
+    "row_acc": 0.8946978472061166,
+    "boundary_f1": 0.9195582281495595,
+    "cluster_ari": 0.9194386041797307,
+    "score": 0.8296986160191365
+   }
+  },
+  "records": [
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.5397398843930635,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.9009821855032357,
+    "depth_mae_ft": null,
+    "score": 0.35982658959537567
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.778041074249605,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.7753738336991846,
+    "depth_mae_ft": null,
+    "score": 0.2593470247498683
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.5247395833333334,
+    "boundary_f1": 0.4,
+    "cluster_ari": 0.599206902929809,
+    "depth_mae_ft": null,
+    "score": 0.20989583333333336
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.4348958333333333,
+    "boundary_f1": 0.4090909090909091,
+    "cluster_ari": 0.4456254590439267,
+    "depth_mae_ft": null,
+    "score": 0.17791193181818182
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.25,
+    "boundary_f1": 0.2978723404255319,
+    "cluster_ari": 0.46053003254630015,
+    "depth_mae_ft": null,
+    "score": 0.07446808510638298
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.7075542258788332,
+    "boundary_f1": 0.3448275862068966,
+    "cluster_ari": 0.6227692240777495,
+    "depth_mae_ft": null,
+    "score": 0.24398421582028734
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.4680989583333333,
+    "boundary_f1": 0.34782608695652173,
+    "cluster_ari": 0.6269501525183983,
+    "depth_mae_ft": null,
+    "score": 0.16281702898550723
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.4845434938892883,
+    "boundary_f1": 0.24242424242424243,
+    "cluster_ari": 0.2730354389328571,
+    "depth_mae_ft": null,
+    "score": 0.11746508942770625
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.6466403162055336,
+    "boundary_f1": 0.375,
+    "cluster_ari": 0.6015912906865885,
+    "depth_mae_ft": null,
+    "score": 0.24249011857707511
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.4713541666666667,
+    "boundary_f1": 0.42857142857142855,
+    "cluster_ari": 0.5424077947101514,
+    "depth_mae_ft": null,
+    "score": 0.20200892857142858
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.44245142002989535,
+    "boundary_f1": 0.23255813953488372,
+    "cluster_ari": 0.3098100309862776,
+    "depth_mae_ft": null,
+    "score": 0.10289567907671984
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+    "well": "D-582 1-bit grid",
+    "row_acc": 0.5434426229508197,
+    "boundary_f1": 0.2608695652173913,
+    "cluster_ari": 0.5692759102921389,
+    "depth_mae_ft": null,
+    "score": 0.14176764076977905
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.2649739583333333,
+    "boundary_f1": 0.4166666666666667,
+    "cluster_ari": 0.4038534053462534,
+    "depth_mae_ft": null,
+    "score": 0.11040581597222222
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.7894736842105263,
+    "boundary_f1": 0.47619047619047616,
+    "cluster_ari": 0.832029429341163,
+    "depth_mae_ft": null,
+    "score": 0.37593984962406013
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.36370481927710846,
+    "boundary_f1": 0.4,
+    "cluster_ari": 0.7565536837891533,
+    "depth_mae_ft": null,
+    "score": 0.1454819277108434
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.9273327828241124,
+    "boundary_f1": 0.5714285714285714,
+    "cluster_ari": 0.9791500157677833,
+    "depth_mae_ft": null,
+    "score": 0.5299044473280642
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.7850770478507705,
+    "boundary_f1": 0.35294117647058826,
+    "cluster_ari": 0.7308571776094315,
+    "depth_mae_ft": null,
+    "score": 0.27708601688850726
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.6555989583333334,
+    "boundary_f1": 0.3783783783783784,
+    "cluster_ari": 0.7380639358943263,
+    "depth_mae_ft": null,
+    "score": 0.24806447072072074
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.697265625,
+    "boundary_f1": 0.4827586206896552,
+    "cluster_ari": 0.9137987823070177,
+    "depth_mae_ft": null,
+    "score": 0.3366109913793104
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.7369791666666666,
+    "boundary_f1": 0.3888888888888889,
+    "cluster_ari": 0.7553045784605122,
+    "depth_mae_ft": null,
+    "score": 0.28660300925925924
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.876953125,
+    "boundary_f1": 0.6,
+    "cluster_ari": 0.7880894880327769,
+    "depth_mae_ft": null,
+    "score": 0.526171875
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.974609375,
+    "boundary_f1": 0.7,
+    "cluster_ari": 0.9625200098638392,
+    "depth_mae_ft": null,
+    "score": 0.6822265624999999
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.857421875,
+    "boundary_f1": 0.7,
+    "cluster_ari": 0.9062085513150708,
+    "depth_mae_ft": null,
+    "score": 0.6001953124999999
+   },
+   {
+    "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+    "well": "Geoservices grid",
+    "row_acc": 0.9247491638795987,
+    "boundary_f1": 0.34782608695652173,
+    "cluster_ari": 0.9069311650862152,
+    "depth_mae_ft": null,
+    "score": 0.3216518830885561
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.5944010416666666,
+    "boundary_f1": 0.7692307692307693,
+    "cluster_ari": 0.9655622205427234,
+    "depth_mae_ft": null,
+    "score": 0.4572315705128205
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.7637969094922737,
+    "boundary_f1": 0.8888888888888888,
+    "cluster_ari": 0.9347636235327482,
+    "depth_mae_ft": null,
+    "score": 0.6789305862153544
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.9577464788732394,
+    "boundary_f1": 0.7692307692307693,
+    "cluster_ari": 0.9349160511690431,
+    "depth_mae_ft": null,
+    "score": 0.7367280606717227
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.6811120196238757,
+    "boundary_f1": 0.782608695652174,
+    "cluster_ari": 0.8871809343705485,
+    "depth_mae_ft": null,
+    "score": 0.5330441892708593
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.576171875,
+    "boundary_f1": 0.6,
+    "cluster_ari": 0.8148210680881193,
+    "depth_mae_ft": null,
+    "score": 0.345703125
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.5416666666666666,
+    "boundary_f1": 0.6956521739130435,
+    "cluster_ari": 0.8478479120625338,
+    "depth_mae_ft": null,
+    "score": 0.3768115942028985
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.5887850467289719,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.7972501526464986,
+    "depth_mae_ft": null,
+    "score": 0.29439252336448596
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.9147410358565737,
+    "boundary_f1": 0.7368421052631579,
+    "cluster_ari": 0.8833434522594877,
+    "depth_mae_ft": null,
+    "score": 0.6740197106311595
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.7859399684044234,
+    "boundary_f1": 0.5833333333333334,
+    "cluster_ari": 0.8616336632899879,
+    "depth_mae_ft": null,
+    "score": 0.458464981569247
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.6087239583333334,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.600321071526961,
+    "depth_mae_ft": null,
+    "score": 0.3043619791666667
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.7899159663865546,
+    "boundary_f1": 0.7777777777777778,
+    "cluster_ari": 0.9561500803566302,
+    "depth_mae_ft": null,
+    "score": 0.6143790849673203
+   },
+   {
+    "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+    "well": "Gulf 3-panel",
+    "row_acc": 0.6126302083333334,
+    "boundary_f1": 0.7142857142857143,
+    "cluster_ari": 0.6214099293905175,
+    "depth_mae_ft": null,
+    "score": 0.437593005952381
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.5493775933609959,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.8344331865089993,
+    "depth_mae_ft": null,
+    "score": 0.3433609958506224
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.9910096818810512,
+    "boundary_f1": 0.7777777777777778,
+    "cluster_ari": 0.9735154280318374,
+    "depth_mae_ft": null,
+    "score": 0.7707853081297065
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.9524739583333334,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.9609716956771923,
+    "depth_mae_ft": null,
+    "score": 0.7619791666666668
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.9947916666666666,
+    "boundary_f1": 0.7777777777777778,
+    "cluster_ari": 0.9866665660391223,
+    "depth_mae_ft": null,
+    "score": 0.7737268518518519
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.6361167684996606,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.981434099170109,
+    "depth_mae_ft": null,
+    "score": 0.5088934147997285
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.7369791666666666,
+    "boundary_f1": 0.7368421052631579,
+    "cluster_ari": 0.758316879799151,
+    "depth_mae_ft": null,
+    "score": 0.5430372807017543
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.9622395833333334,
+    "boundary_f1": 0.8888888888888888,
+    "cluster_ari": 0.9232648826977768,
+    "depth_mae_ft": null,
+    "score": 0.8553240740740741
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.986328125,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9623495722786353,
+    "depth_mae_ft": null,
+    "score": 0.986328125
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.99609375,
+    "boundary_f1": 0.5882352941176471,
+    "cluster_ari": 0.9938072220089657,
+    "depth_mae_ft": null,
+    "score": 0.5859375
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.9518229166666666,
+    "boundary_f1": 0.6923076923076923,
+    "cluster_ari": 0.933201359782586,
+    "depth_mae_ft": null,
+    "score": 0.6589543269230769
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.9522673031026253,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.9328315943967809,
+    "depth_mae_ft": null,
+    "score": 0.7618138424821003
+   },
+   {
+    "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+    "well": "MC761 mineral/lithology",
+    "row_acc": 0.5592447916666666,
+    "boundary_f1": 0.42424242424242425,
+    "cluster_ari": 0.5857976969827838,
+    "depth_mae_ft": null,
+    "score": 0.23725536616161616
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.9411764705882353,
+    "boundary_f1": 0.8333333333333334,
+    "cluster_ari": 0.8712844403754428,
+    "depth_mae_ft": null,
+    "score": 0.7843137254901961
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.6907552083333334,
+    "boundary_f1": 0.7692307692307693,
+    "cluster_ari": 0.6992614865658421,
+    "depth_mae_ft": null,
+    "score": 0.5313501602564104
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.7548845470692718,
+    "boundary_f1": 0.75,
+    "cluster_ari": 0.9440675542825124,
+    "depth_mae_ft": null,
+    "score": 0.5661634103019538
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.31413141314131415,
+    "boundary_f1": 0.46153846153846156,
+    "cluster_ari": 0.7422955760620081,
+    "depth_mae_ft": null,
+    "score": 0.144983729142145
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.5208333333333334,
+    "boundary_f1": 0.6363636363636364,
+    "cluster_ari": 0.6595931208128908,
+    "depth_mae_ft": null,
+    "score": 0.331439393939394
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.853539462978031,
+    "boundary_f1": 0.46153846153846156,
+    "cluster_ari": 0.882982407019542,
+    "depth_mae_ft": null,
+    "score": 0.3939412906052451
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.6695859872611465,
+    "boundary_f1": 0.34782608695652173,
+    "cluster_ari": 0.8657337677421172,
+    "depth_mae_ft": null,
+    "score": 0.23289947382996398
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.6829427083333334,
+    "boundary_f1": 0.5185185185185185,
+    "cluster_ari": 0.8503318966843434,
+    "depth_mae_ft": null,
+    "score": 0.35411844135802467
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.8523738872403561,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.7818611975792022,
+    "depth_mae_ft": null,
+    "score": 0.42618694362017806
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.6927083333333334,
+    "boundary_f1": 0.5333333333333333,
+    "cluster_ari": 0.7465042354101773,
+    "depth_mae_ft": null,
+    "score": 0.36944444444444446
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.3509114583333333,
+    "boundary_f1": 0.6060606060606061,
+    "cluster_ari": 0.7380433405274448,
+    "depth_mae_ft": null,
+    "score": 0.2126736111111111
+   },
+   {
+    "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+    "well": "MC765 colour grid",
+    "row_acc": 0.6112,
+    "boundary_f1": 0.8235294117647058,
+    "cluster_ari": 0.956661963747439,
+    "depth_mae_ft": null,
+    "score": 0.5033411764705882
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.6946614583333334,
+    "boundary_f1": 0.7058823529411765,
+    "cluster_ari": 0.7819268085383346,
+    "depth_mae_ft": null,
+    "score": 0.4903492647058824
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.9928571428571429,
+    "boundary_f1": 0.8333333333333334,
+    "cluster_ari": 0.9809871033379164,
+    "depth_mae_ft": null,
+    "score": 0.8273809523809524
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.77734375,
+    "boundary_f1": 0.7058823529411765,
+    "cluster_ari": 0.837589020507469,
+    "depth_mae_ft": null,
+    "score": 0.5487132352941176
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.9965277777777778,
+    "boundary_f1": 0.75,
+    "cluster_ari": 0.9730179403835229,
+    "depth_mae_ft": null,
+    "score": 0.7473958333333334
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.658203125,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.5437523096342282,
+    "depth_mae_ft": null,
+    "score": 0.5265625
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.99057344854674,
+    "boundary_f1": 0.9090909090909091,
+    "cluster_ari": 0.9776301928317088,
+    "depth_mae_ft": null,
+    "score": 0.9005213168606727
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.8572524942440521,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9755505360080873,
+    "depth_mae_ft": null,
+    "score": 0.8572524942440521
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.8463541666666666,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.7656229193443659,
+    "depth_mae_ft": null,
+    "score": 0.564236111111111
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.9498697916666666,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.8751808516706747,
+    "depth_mae_ft": null,
+    "score": 0.9498697916666666
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.8917418459403192,
+    "boundary_f1": 0.7368421052631579,
+    "cluster_ari": 0.9661179054077343,
+    "depth_mae_ft": null,
+    "score": 0.6570729391139194
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.936271186440678,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.8429258584185314,
+    "depth_mae_ft": null,
+    "score": 0.510693374422188
+   },
+   {
+    "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+    "well": "One-off layout",
+    "row_acc": 0.6482758620689655,
+    "boundary_f1": 0.7741935483870968,
+    "cluster_ari": 0.6665567058472186,
+    "depth_mae_ft": null,
+    "score": 0.5018909899888765
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.7216828478964401,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.9906278438201197,
+    "depth_mae_ft": null,
+    "score": 0.5773462783171521
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9915364583333334,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9806664104045215,
+    "depth_mae_ft": null,
+    "score": 0.9915364583333334
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.7245901639344262,
+    "boundary_f1": 0.6666666666666666,
+    "cluster_ari": 0.6467684254971731,
+    "depth_mae_ft": null,
+    "score": 0.48306010928961746
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9558089807555239,
+    "boundary_f1": 0.9,
+    "cluster_ari": 0.9843546674054329,
+    "depth_mae_ft": null,
+    "score": 0.8602280826799715
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9888558692421991,
+    "boundary_f1": 0.9473684210526315,
+    "cluster_ari": 0.9762878314324368,
+    "depth_mae_ft": null,
+    "score": 0.9368108234926097
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9635416666666666,
+    "boundary_f1": 0.9230769230769231,
+    "cluster_ari": 0.947307861516106,
+    "depth_mae_ft": null,
+    "score": 0.889423076923077
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.830078125,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9395849638332687,
+    "depth_mae_ft": null,
+    "score": 0.830078125
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9856770833333334,
+    "boundary_f1": 0.9411764705882353,
+    "cluster_ari": 0.9689283019076755,
+    "depth_mae_ft": null,
+    "score": 0.9276960784313726
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.7581967213114754,
+    "boundary_f1": 0.9333333333333333,
+    "cluster_ari": 0.7957146814454236,
+    "depth_mae_ft": null,
+    "score": 0.7076502732240437
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9954427083333334,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9896872210888509,
+    "depth_mae_ft": null,
+    "score": 0.9954427083333334
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.830078125,
+    "boundary_f1": 0.9230769230769231,
+    "cluster_ari": 0.8355077058935507,
+    "depth_mae_ft": null,
+    "score": 0.7662259615384616
+   },
+   {
+    "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+    "well": "Texas 'Rock Types' box",
+    "row_acc": 0.9908854166666666,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9778273359122093,
+    "depth_mae_ft": null,
+    "score": 0.9908854166666666
+   }
+  ]
+ },
+ "strategy": "s19",
+ "config": {
+  "mode": "joint",
+  "threshold": 0.4,
+  "gap": 16,
+  "blend": 1.0,
+  "penalty": 0.0,
+  "boundary_weight": 0.0,
+  "min_bed": 8,
+  "preserve": "rules",
+  "blank_ink": 0.006,
+  "reject": 2.0,
+  "rule_tolerance": 8,
+  "boundary_fraction": 0.35,
+  "matcher_fraction": 0.35,
+  "model_mix": 0.5
+ },
+ "checked_utc": "2026-11-08T03:14:43.797432+00:00",
+ "objective": 0.5119405001755071,
+ "limits": "Fixed lane configuration. Five clean well folds; 84 source-held non-eval synthetic windows. Same CV selected lane settings. Not nested CV. No real non-eval interval truth exists."
+}

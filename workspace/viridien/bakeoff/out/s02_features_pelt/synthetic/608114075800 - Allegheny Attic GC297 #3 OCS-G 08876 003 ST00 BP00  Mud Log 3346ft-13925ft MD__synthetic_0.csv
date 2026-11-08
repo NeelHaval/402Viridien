@@ -1,0 +1,15 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,432,Chalk,0,1895.2,2111.0
+432,656,Silt,9,2111.0,2222.9
+656,768,Chalk,0,2222.9,2278.8
+768,1216,Volcanics,2,2278.8,2502.6
+1216,1616,Dol. Limestone,10,2502.6,2702.4
+1616,2080,Silty Clay,6,2702.4,2934.2
+2080,2288,Claystone Sililicif.,7,2934.2,3038.1
+2288,2448,Breccia,8,3038.1,3118.0
+2448,2752,Intrusive Rocks,3,3118.0,3269.9
+2752,3008,Marl,4,3269.9,3397.8
+3008,3104,Sandstone,5,3397.8,3445.7
+3104,3408,Chalk,0,3445.7,3597.6
+3408,3824,Intrusive Rocks,1,3597.6,3805.4
+3824,4000,Volcanics,2,3805.4,3893.3

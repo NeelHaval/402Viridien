@@ -1,0 +1,18 @@
+{
+  "pins": {
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\scores.json": "f3b2f61b983815cc41350680dd241b5e9a7236bbe6aa1e969443614d6d6b3245",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\raw_results.json": "54deae7fbb99562f88c2565c8ca4a6dfadcc2c5d9ce627456782dec5ba8ebca9",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\manifest_1108.json": "3c6bf54199842fb99a8ec464e53458ac0684b486ca5aa52e835e348373e05394",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\harness\\score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\harness\\run.py": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\strategies\\grading_policy.py": "637f91e7752d22fd9b16aaf9b2faa7c9b505a3e26a2486df486eb8b45b4a8df6",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\offload\\outside-pack\\review\\sol5-current\\findings.json": "e46b6e428050c90294903468e6da3845e73ccd9c0a5e8a18c3d79f3fb15679cd",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\offload\\outside-pack\\review\\sol5-current\\saved-consensus-check.json": "8e852d180ded21043bd392cfd07d4b253a304634d2b06e4388b0223569324792",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\offload\\outside-pack\\review\\sol5-current\\deep-results.json": "f3fe9da52f215b44b12b2663e677675982995ebad7079d534486c2721bfc956f",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\offload\\outside-pack\\review\\sol5-current\\audit-results.json": "42ee1642edfcdeb0d838fc0526348e726098167dcff49f4c8cee6a1fc441104c",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\dataset-review\\packs\\root-containment-v1.json": "b5bcffb817cf137264cfd63494e092a76992b629c43e303bfba93148d8af029e",
+    "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\strategies\\grading_availability_v2.py": "80c35cfde8c12c5a4ee6c44de2639ee3c78796a57a6218ea125f28e86d5b2175"
+  },
+  "review_scope": "Existing review JSON plus structural CSV counts only. No image or new human label review. External DEV only.",
+  "records_sha256": "2608db222c9e7c8f4f0bc94ac9ba7d187a4889d9b827c981af75be6008e8aa74"
+}

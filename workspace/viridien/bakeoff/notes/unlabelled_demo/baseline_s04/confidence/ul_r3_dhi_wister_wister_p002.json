@@ -1,0 +1,22 @@
+[
+  {
+    "top_y": 0,
+    "bottom_y": 2103,
+    "lithology": "Claystone",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "Claystone",
+    "raw_descriptor_gap": 0.8672043488086782,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 2103,
+    "bottom_y": 2829,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "Quartzite",
+    "raw_descriptor_gap": 0.026001598058545374,
+    "raw_descriptor_agrees": false
+  }
+]
