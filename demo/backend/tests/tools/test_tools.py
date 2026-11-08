@@ -1,16 +1,15 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import numpy as np
 import pytest
 import tifffile
 from PIL import Image
 
-from tools.errors import CorruptFile, UnsupportedFile
-from tools.location import extract_location
-from tools.ocr import OcrLine, ocr_region, repair_digits
-from tools.read_upload import read_upload
+from app.tools.errors import CorruptFile, UnsupportedFile
+from app.tools.location import extract_location
+from app.tools.ocr import OcrLine, ocr_region, repair_digits
+from app.tools.read_upload import read_upload
 
 
 def lines(*texts: str) -> list[OcrLine]:

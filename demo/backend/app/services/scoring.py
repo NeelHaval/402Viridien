@@ -1,6 +1,19 @@
-import math
+"""The four scores (each 0-100, higher is better) computed from a well's bed table and position.
+
+Nothing is invented: a term whose input is unavailable is dropped and the remaining weights are renormalised, a flag
+is returned for it, and a score that cannot be computed at all is None.
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+
 import numpy as np
 import pandas as pd
+
+from app.services.geo import haversine_km
+from app.validation.config import coarse_class
+
+METRICS = ("drilling", "cost", "price", "co2")
 
 RULES = {
     'salt': (0, .40), 'shale': (.40, .90), 'changes': (10, 60), 'depth': (8000, 20000),
@@ -8,9 +21,22 @@ RULES = {
     'cost_weights': (.4, .3, .3), 'reservoir': (.05, .30), 'injection': (.10, .40),
     'depth_entry': (2600, 3500), 'depth_exit': (12000, 16000),
     'break_even': (35, .5, 25), 'prices': tuple(range(40, 101, 5)),
-    'water_lat': (25, 28.8), 'water_lon': (-93.5, -86.5),
-    'water_range': (50, 3000), 'water_weights': (.6, .4), 'earth_km': 6371,
 }
+
+WATER_DEPTH_UNAVAILABLE = "water_depth_unavailable"
+
+
+@dataclass
+class WellScores:
+    """Scores per metric (None = not computable), the logged feet they are weighted by, and data-quality flags."""
+
+    values: dict[str, int | None]
+    logged_ft: float
+    flags: list[str] = field(default_factory=list)
+
+    def to_json(self) -> dict:
+        """Plain-dict form stored in the database."""
+        return {"values": self.values, "logged_ft": self.logged_ft, "flags": self.flags}
 
 
 def ramp(x: float, lo: float, hi: float) -> float:
@@ -19,13 +45,14 @@ def ramp(x: float, lo: float, hi: float) -> float:
 
 
 def features_from_df(df: pd.DataFrame) -> dict:
-    """Extract thickness-weighted lithology and ordered bed features."""
+    """Thickness-weighted lithology shares (by coarse class) and ordered bed features."""
     beds = df.sort_values('top_depth')
     feet = beds.base_depth - beds.top_depth
     total = float(feet.sum())
-    shares = (feet.groupby(beds.lithology).sum() / total).to_dict()
-    sand = beds.lithology.isin(['Sandstone', 'Siltstone'])
-    sealed = beds.lithology.shift().isin(['Shale grey', 'Halite'])
+    classes = beds.lithology.map(coarse_class)
+    shares = (feet.groupby(classes).sum() / total).to_dict()
+    sand = classes == 'sand_silt'
+    sealed = classes.shift().isin(['mud', 'evaporite'])
     return {'logged_ft': total, 'shares': shares, 'thickest_bed': float(feet.max()),
             'changes_per_1000': int(beds.lithology.ne(beds.lithology.shift()).iloc[1:].sum()) * 1000 / total,
             'net_sand_share': float(feet[sand].sum() / total),
@@ -34,50 +61,59 @@ def features_from_df(df: pd.DataFrame) -> dict:
             'total_depth': float(beds.base_depth.max())}
 
 
-def water_depth_m(lat: float, lon: float) -> float:
-    """Approximate water depth smoothly increasing south and east."""
-    south = 1 - ramp(lat, *RULES['water_lat'])
-    east = ramp(lon, *RULES['water_lon'])
-    lo, hi = RULES['water_range']
-    a, b = RULES['water_weights']
-    return lo + (hi - lo) * (a * south + b * east)
+def _renormalised(terms: list[tuple[float, float | None]]) -> float | None:
+    """Weighted mean of the (weight, value) terms whose value is known, or None when none is."""
+    known = [(w, v) for w, v in terms if v is not None]
+    total = sum(w for w, _ in known)
+    return sum(w * v for w, v in known) / total if total else None
 
 
-def distance_km(lat: float, lon: float, well: dict) -> float:
-    """Return great-circle distance to a registered well."""
-    p, q = math.radians(lat), math.radians(well['lat'])
-    d = math.radians(well['lon'] - lon)
-    h = math.sin((q - p) / 2) ** 2 + math.cos(p) * math.cos(q) * math.sin(d / 2) ** 2
-    return 2 * RULES['earth_km'] * math.asin(math.sqrt(min(1, h)))
-
-
-def score_well(df: pd.DataFrame, lat: float, lon: float, other_wells: list[dict]) -> dict:
-    """Compute four integer scores, each with higher values meaning better."""
+def score_well(df: pd.DataFrame, lat: float | None, lon: float | None, other_wells: list[dict],
+               water_depth_m: float | None) -> WellScores:
+    """Compute the four scores; `other_wells` are dicts with lat and lon, `water_depth_m` comes from bathymetry or is None."""
     f = features_from_df(df)
     s = f['shares']
+    flags: list[str] = []
     hazard = sum(w * x for w, x in zip(RULES['hazard_weights'], (
-        ramp(s.get('Halite', 0) + s.get('Anhydrite', 0), *RULES['salt']),
-        ramp(s.get('Shale grey', 0), *RULES['shale']),
+        ramp(s.get('evaporite', 0), *RULES['salt']), ramp(s.get('mud', 0), *RULES['shale']),
         ramp(f['changes_per_1000'], *RULES['changes']), ramp(f['total_depth'], *RULES['depth']))))
-    nearest = min((distance_km(lat, lon, w) for w in other_wells
-                   if w.get('lat') is not None and w.get('lon') is not None), default=RULES['distance'][1])
-    burden = sum(w * x for w, x in zip(RULES['cost_weights'], (
-        ramp(water_depth_m(lat, lon), *RULES['water']), ramp(f['total_depth'], *RULES['depth']),
-        ramp(nearest, *RULES['distance']))))
-    cost = 100 * (1 - burden)
+    located = lat is not None and lon is not None
+    cost: float | None = None
+    if located:
+        distances = [haversine_km(lat, lon, w['lat'], w['lon']) for w in other_wells if w.get('lat') is not None and w.get('lon') is not None]
+        water_w, depth_w, dist_w = RULES['cost_weights']
+        burden = _renormalised([
+            (water_w, ramp(water_depth_m, *RULES['water']) if water_depth_m is not None else None),
+            (depth_w, ramp(f['total_depth'], *RULES['depth'])),
+            (dist_w, ramp(min(distances), *RULES['distance']) if distances else None)])
+        cost = 100 * (1 - burden)
+        if water_depth_m is None:
+            flags.append(WATER_DEPTH_UNAVAILABLE)
     reservoir = ramp(f['net_sand_share'], *RULES['reservoir']) * f['seal_share']
-    base, cost_weight, reservoir_weight = RULES['break_even']
-    break_even = base + cost_weight * (100 - cost) + reservoir_weight * (1 - reservoir)
+    price: int | None = None
+    if cost is not None:
+        base, cost_weight, reservoir_weight = RULES['break_even']
+        break_even = base + cost_weight * (100 - cost) + reservoir_weight * (1 - reservoir)
+        price = int(round(100 * sum(p > break_even for p in RULES['prices']) / len(RULES['prices'])))
     co2 = 100 * ramp(f['net_sand_share'], *RULES['injection']) * f['seal_share']
     co2 *= ramp(f['sand_top_depth'], *RULES['depth_entry']) * (1 - ramp(f['sand_top_depth'], *RULES['depth_exit']))
-    return dict(drilling=round(100 * (1 - hazard)), cost=round(cost),
-                price=round(100 * sum(p > break_even for p in RULES['prices']) / len(RULES['prices'])), co2=round(co2))
+    values = {'drilling': int(round(100 * (1 - hazard))), 'cost': None if cost is None else int(round(cost)),
+              'price': price, 'co2': int(round(co2))}
+    return WellScores(values, f['logged_ft'], flags)
 
 
-def aggregate_scores(wells: list[dict]) -> dict | None:
-    """Average cached scores using the registry total_depth_ft weight."""
-    total = sum(w['total_depth_ft'] for w in wells)
-    if not total:
+def aggregate_scores(wells: list[dict]) -> dict[str, int | None] | None:
+    """Logged-feet-weighted mean of the stored per-well scores; each metric ignores wells where it is None."""
+    if not wells:
         return None
-    return {key: round(sum(w['scores'][key] * w['total_depth_ft'] for w in wells) / total)
-            for key in ('drilling', 'cost', 'price', 'co2')}
+    out: dict[str, int | None] = {}
+    for key in METRICS:
+        rows = [(w['scores']['values'][key], w['scores']['logged_ft']) for w in wells if w['scores']['values'].get(key) is not None]
+        weight = sum(ft for _, ft in rows)
+        out[key] = round(sum(v * ft for v, ft in rows) / weight) if weight else None
+    return out
+
+
+def data_quality(wells: list[dict]) -> list[str]:
+    """Sorted union of the data-quality flags of the wells."""
+    return sorted({flag for w in wells for flag in w['scores'].get('flags', [])})

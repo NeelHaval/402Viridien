@@ -9,9 +9,9 @@ import cv2
 import numpy as np
 from scipy.signal import find_peaks
 
-from tools.errors import OcrUnavailable
-from tools.location import Location, locate
-from tools.ocr import OcrLine, ocr_region, ocr_rotated_strip, repair_digits
+from app.tools.errors import OcrUnavailable
+from app.tools.location import Location, locate
+from app.tools.ocr import OcrLine, ocr_region, ocr_rotated_strip, repair_digits
 
 WINDOW = 12
 MIN_GAP = 6
@@ -75,6 +75,7 @@ class Layer1Result:
     warnings: list[str] = field(default_factory=list)
     timings: dict[str, float] = field(default_factory=dict)
     depth_x_range: tuple[int, int] | None = None
+    legend_box: tuple[int, int, int, int] | None = None
 
 
 @dataclass
@@ -94,7 +95,7 @@ def _gray(img: np.ndarray) -> np.ndarray:
 def _parse_bbox(bbox: dict) -> dict[str, list[int]]:
     """Accept the dataset JSON either bare or wrapped in 'bounding_boxes'."""
     boxes = bbox.get("bounding_boxes", bbox)
-    return {k: [int(v) for v in boxes[k]] for k in ("depth_column", "interpreted_lithology_column") if k in boxes}
+    return {k: [int(v) for v in boxes[k]] for k in ("depth_column", "interpreted_lithology_column", "lithology_legend") if k in boxes}
 
 
 def _band_starts(height: int) -> list[int]:
@@ -383,7 +384,9 @@ def preprocess(scan, bbox: dict | None = None) -> Layer1Result:
         location = loc_future.result()
         timings["location_wait"] = time.perf_counter() - t3
     timings["total"] = time.perf_counter() - t0
-    return Layer1Result(crop, y0, (x0, x0 + crop.shape[1]), boundaries, calibration, location, conf, warnings, timings, depth_x)
+    legend = _parse_bbox(bbox).get("lithology_legend") if bbox else None
+    return Layer1Result(crop, y0, (x0, x0 + crop.shape[1]), boundaries, calibration, location, conf, warnings, timings, depth_x,
+                        tuple(legend) if legend and legend[0] < legend[2] and legend[1] < legend[3] else None)
 
 
 def _crop_lith(scan, lith_x: tuple[int, int], y_range: tuple[int, int] | None) -> tuple[np.ndarray, int, int]:

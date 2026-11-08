@@ -121,7 +121,6 @@ export function LithColumn({
               <path d={`M147 ${y + h / 2}h18`} stroke="rgba(226,236,242,.35)" />
               <text x="174" y={y + h / 2 + 4}>
                 {s.lithology}
-                <tspan fill="#a8bbc5"> {s.pct}%</tspan>
               </text>
             </g>
           );

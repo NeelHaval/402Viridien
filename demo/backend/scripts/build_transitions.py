@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from validation.config import COARSE_CLASSES, SEQ_LAPLACE_ALPHA, coarse_class  # noqa: E402
+from app.validation.config import COARSE_CLASSES, SEQ_LAPLACE_ALPHA, coarse_class  # noqa: E402
 
 OUT_FILE = ROOT / "data" / "reference" / "transitions.json"
 

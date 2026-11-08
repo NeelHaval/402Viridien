@@ -11,7 +11,7 @@ from typing import Protocol
 import cv2
 import numpy as np
 
-from tools.errors import OcrUnavailable
+from app.tools.errors import OcrUnavailable
 
 ENGINE_ORDER = ("rapidocr", "tesseract")
 MAX_WORKERS = 4

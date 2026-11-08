@@ -10,7 +10,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from tools.errors import CorruptFile, TooLarge, ToolError, UnsupportedFile
+from app.tools.errors import CorruptFile, TooLarge, ToolError, UnsupportedFile
 
 MAX_FILE_BYTES = 500 * 1024 * 1024
 MAX_PIXELS = 400_000_000

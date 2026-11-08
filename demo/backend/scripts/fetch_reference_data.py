@@ -13,7 +13,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from validation.config import COARSE_CLASSES, coarse_class  # noqa: E402
+from app.validation.config import COARSE_CLASSES, coarse_class  # noqa: E402
 
 OUT_DIR = ROOT / "data" / "reference"
 MACROSTRAT_URL = "https://macrostrat.org/api/v2/units"

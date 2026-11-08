@@ -6,9 +6,9 @@ from dataclasses import dataclass, field
 import numpy as np
 import pandas as pd
 
-from validation import checks, reference
-from validation.config import BED_PENALTY_WEIGHTS, COMPONENT_WEIGHTS, NEEDS_REVIEW_BELOW
-from validation.fingerprint import Fingerprint, regional_fingerprint
+from app.validation import checks, reference
+from app.validation.config import BED_PENALTY_WEIGHTS, COMPONENT_WEIGHTS, NEEDS_REVIEW_BELOW
+from app.validation.fingerprint import Fingerprint, regional_fingerprint
 
 BED_FLAG_LEVELS = {"structure": 0.5, "sequence": 0.8, "regional": 0.9}
 

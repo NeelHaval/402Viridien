@@ -9,10 +9,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from validation.config import BATHYMETRY_MAX_GAP_DEG
+from app.validation.config import BATHYMETRY_MAX_GAP_DEG
 
 EARTH_RADIUS_KM = 6371.0088
-_DEFAULT_DIR = Path(__file__).resolve().parents[1] / "data" / "reference"
+_DEFAULT_DIR = Path(__file__).resolve().parents[2] / "data" / "reference"
 _state = {"dir": Path(os.environ.get("VALIDATION_REFERENCE_DIR", _DEFAULT_DIR))}
 
 

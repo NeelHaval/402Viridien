@@ -4,8 +4,8 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from validation import reference
-from validation.config import COARSE_CLASSES, REGIONAL_MIN_POINTS, REGIONAL_RADIUS_KM, coarse_class
+from app.validation import reference
+from app.validation.config import COARSE_CLASSES, REGIONAL_MIN_POINTS, REGIONAL_RADIUS_KM, coarse_class
 
 Fingerprint = dict[str, float]
 

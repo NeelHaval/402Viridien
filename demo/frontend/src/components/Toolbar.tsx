@@ -1,9 +1,11 @@
 export function Toolbar({
   selecting,
+  processing,
   onSelect,
   onUpload,
 }: {
   selecting: boolean;
+  processing: boolean;
   onSelect: () => void;
   onUpload: () => void;
 }) {
@@ -26,6 +28,11 @@ export function Toolbar({
         </svg>
         Upload well
       </button>
+      {processing && (
+        <em className="chip" role="status">
+          Processing
+        </em>
+      )}
     </nav>
   );
 }

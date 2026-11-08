@@ -1,0 +1,76 @@
+
+  _     ._   __/__   _ _  _  _ _/_   Recorded: 08:38:26  Samples:  4745
+ /_//_/// /_\ / //_// / //_'/ //     Duration: 33.768    CPU time: 66.131
+/   _/                      v5.1.3
+
+Profile at /Users/emilabos/Github/viridian402/demo/backend/scripts/profile_ingest.py:30
+
+33.763 <module>  profile_ingest.py:1
+`- 33.763 IngestService.process  app/services/ingest.py:97
+   `- 33.763 IngestService._process  app/services/ingest.py:112
+      |- 24.741 run  app/pipeline/__init__.py:23
+      |  `- 24.741 stage  app/pipeline/__init__.py:28
+      |     |- 22.847 name_layers  app/pipeline/stages/naming.py:110
+      |     |  |- 16.230 split_mixed  app/pipeline/stages/naming.py:63
+      |     |  |  |- 15.425 describe  app/pipeline/stages/naming.py:36
+      |     |  |  |  |- 11.341 run_hist  app/pipeline/stages/naming.py:27
+      |     |  |  |  |  |- 4.060 pad  numpy/lib/arraypad.py:533
+      |     |  |  |  |  |     [7 frames hidden]  numpy
+      |     |  |  |  |  |- 3.640 histogram  numpy/lib/histograms.py:678
+      |     |  |  |  |  |     [6 frames hidden]  numpy
+      |     |  |  |  |  |- 2.506 [self]  app/pipeline/stages/naming.py
+      |     |  |  |  |  |- 0.535 diff  numpy/lib/function_base.py:1324
+      |     |  |  |  |  `- 0.380 _sum  numpy/core/_methods.py:47
+      |     |  |  |  |- 1.433 [self]  app/pipeline/stages/naming.py
+      |     |  |  |  |- 0.965 _mean  numpy/core/_methods.py:101
+      |     |  |  |  |  `- 0.470 ufunc.reduce  <built-in>
+      |     |  |  |  |- 0.905 median  numpy/lib/function_base.py:3845
+      |     |  |  |  |     [3 frames hidden]  numpy
+      |     |  |  |  `- 0.745 srgb_to_lab  app/pipeline/stages/naming.py:17
+      |     |  |  `- 0.735 descriptor_distance  app/pipeline/stages/naming.py:46
+      |     |  |     `- 0.425 <lambda>  app/pipeline/stages/naming.py:48
+      |     |  `- 6.603 name_beds  app/pipeline/stages/naming.py:86
+      |     |     `- 6.498 describe  app/pipeline/stages/naming.py:36
+      |     |        |- 3.848 run_hist  app/pipeline/stages/naming.py:27
+      |     |        |  |- 1.608 [self]  app/pipeline/stages/naming.py
+      |     |        |  |- 1.025 pad  numpy/lib/arraypad.py:533
+      |     |        |  |  `- 0.470 _as_pairs  numpy/lib/arraypad.py:458
+      |     |        |  `- 0.865 histogram  numpy/lib/histograms.py:678
+      |     |        |- 1.238 [self]  app/pipeline/stages/naming.py
+      |     |        |- 0.860 _mean  numpy/core/_methods.py:101
+      |     |        |  `- 0.745 ufunc.reduce  <built-in>
+      |     |        `- 0.341 median  numpy/lib/function_base.py:3845
+      |     |- 1.110 compute_features  app/pipeline/stages/features.py:41
+      |     |  `- 1.095 stripe_features  app/pipeline/stages/features.py:15
+      |     |     `- 0.570 center_of_mass  scipy/ndimage/_measurements.py:1478
+      |     |           [3 frames hidden]  scipy
+      |     `- 0.730 read_legend  app/pipeline/stages/legend.py:113
+      |        |- 0.374 read_labels  app/pipeline/stages/legend.py:96
+      |        |  `- 0.374 ocr_region  app/tools/ocr.py:355
+      |        |     `- 0.374 _run_windows  app/tools/ocr.py:383
+      |        |        `- 0.374 _collect  app/tools/ocr.py:327
+      |        |           `- 0.374 wait  concurrent/futures/_base.py:263
+      |        |                 [3 frames hidden]  threading, <built-in>
+      |        `- 0.356 detect_swatches  app/pipeline/stages/legend.py:42
+      `- 9.003 preprocess  app/tools/preprocess.py:366
+         |- 6.731 _calibrate_candidates  app/tools/preprocess.py:405
+         |  `- 6.731 calibrate_depth  app/tools/preprocess.py:327
+         |     |- 3.893 ocr_region  app/tools/ocr.py:355
+         |     |  `- 3.885 _run_windows  app/tools/ocr.py:383
+         |     |     `- 3.885 _collect  app/tools/ocr.py:327
+         |     |        `- 3.885 wait  concurrent/futures/_base.py:263
+         |     |              [3 frames hidden]  threading, <built-in>
+         |     `- 2.818 _probe_rotation  app/tools/preprocess.py:319
+         |        `- 2.818 ocr_rotated_strip  app/tools/ocr.py:406
+         |           `- 2.818 ocr_region  app/tools/ocr.py:355
+         |              `- 2.818 _run_windows  app/tools/ocr.py:383
+         |                 `- 2.813 _collect  app/tools/ocr.py:327
+         |                    `- 2.813 wait  concurrent/futures/_base.py:263
+         |                          [3 frames hidden]  threading, <built-in>
+         |- 1.569 Future.result  concurrent/futures/_base.py:428
+         |     [2 frames hidden]  threading, <built-in>
+         `- 0.603 _crop_lith  app/tools/preprocess.py:392
+            `- 0.597 TiffReader.crop  app/tools/read_upload.py:82
+               `- 0.480 TiffReader._prepare  app/tools/read_upload.py:237
+                  `- 0.480 TiffReader._decode_prefix  app/tools/read_upload.py:255
+

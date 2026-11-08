@@ -4,15 +4,15 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from validation import reference
-from validation.config import (
+from app.validation import reference
+from app.validation.config import (
     BUILTIN_RARE_PAIRS, BUILTIN_SELF_FACTOR, COARSE_CLASSES, FLICKER_RATE_FULL_PENALTY, FLICKER_THIN_FT,
     GAP_TOLERANCE_FT, LOCATION_RELIABILITY, LOW_LOCATION_CONFIDENCE, NEIGHBOUR_COUNT, NEIGHBOUR_DEPTH_TOLERANCE,
     NEIGHBOUR_RADIUS_KM, NEIGHBOUR_ZERO_AT, OFFSHORE_API_PREFIX, PLAUSIBLE_LITHOLOGIES, PLAUSIBLE_MEDIAN_FT,
     PRESENCE_WEIGHT, RARE_PAIR_FACTOR, REGIONAL_FULL_SHARE, REGIONAL_PRESENT_SHARE, SEQ_FULL_SCORE_PROB,
     SEQ_LAPLACE_ALPHA, SEQ_PRIOR_COUNT, THIN_BED_FT, THIN_FRACTION_FULL_PENALTY, VOLCANIC_FACTOR, coarse_class,
 )
-from validation.fingerprint import Fingerprint, fingerprint_from_df, js_distance, to_vector
+from app.validation.fingerprint import Fingerprint, fingerprint_from_df, js_distance, to_vector
 
 CheckResult = tuple[float | None, np.ndarray | None, list[str]]
 K = len(COARSE_CLASSES)

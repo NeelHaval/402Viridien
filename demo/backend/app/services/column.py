@@ -2,9 +2,18 @@ from collections import defaultdict
 import math
 import pandas as pd
 
+from app.validation.config import coarse_class
+
 COLORS = {'Shale grey': '#99a5bb', 'Halite': '#d2b9db', 'Sandstone': '#e1c58d',
           'Siltstone': '#b9cb9b', 'Marl': '#a3c9c4', 'Limestone': '#c9d9e5',
           'Anhydrite': '#c2b3a0', 'Coal': '#737887'}
+CLASS_COLORS = {'mud': '#99a5bb', 'evaporite': '#d2b9db', 'sand_silt': '#e1c58d', 'carbonate': '#c9d9e5',
+                'organic': '#737887', 'volcanic': '#b08f8a', 'other': '#8a8f9c'}
+
+
+def color_for(lithology: str) -> str:
+    """Fixed colour for known rock names, otherwise the colour of the name's coarse class."""
+    return COLORS.get(lithology) or CLASS_COLORS[coarse_class(lithology)]
 
 
 def build_column(dfs: list[pd.DataFrame]) -> list[dict]:
@@ -43,7 +52,7 @@ def build_column(dfs: list[pd.DataFrame]) -> list[dict]:
         shares = [math.floor(value) for value in exact]
         for i in sorted(range(len(shares)), key=lambda i: exact[i] - shares[i], reverse=True)[:100 - sum(shares)]:
             shares[i] += 1
-        result.append({**segment, 'n_wells': len(segment['contributors']), 'color': COLORS[segment['lithology']],
+        result.append({**segment, 'n_wells': len(segment['contributors']), 'color': color_for(segment['lithology']),
                        'pct': shares[0], 'breakdown': [{'lithology': name, 'pct': pct} for name, pct in zip(ordered, shares)]})
         result[-1].pop('contributors')
     return result

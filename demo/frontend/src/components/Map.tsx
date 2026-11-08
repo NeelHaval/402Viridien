@@ -87,6 +87,7 @@ export function Map(props: Props) {
     });
     props.wells.forEach((well) => {
       if (
+        !well.located ||
         well.lat === null ||
         well.lon === null ||
         !Number.isFinite(well.lat) ||
@@ -112,7 +113,7 @@ export function Map(props: Props) {
       marker.setLngLat([well.lon, well.lat]);
       const element = marker.getElement().firstElementChild;
       if (!(element instanceof HTMLButtonElement)) return;
-      element.className = `well-marker ${well.status} ${props.selected.includes(well.id) ? "selected" : ""}`;
+      element.className = `well-marker ${well.status === "queued" ? "processing" : well.status} ${props.selected.includes(well.id) ? "selected" : ""}`;
       element.title = well.name;
       element.setAttribute("aria-label", `${well.name}, ${well.status}`);
     });

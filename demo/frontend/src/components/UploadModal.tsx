@@ -14,12 +14,21 @@ export function UploadModal({
   useEffect(() => {
     dialog.current?.focus();
   }, []);
-  async function upload(file?: File) {
-    if (!file || busy) return;
+  const [scan, setScan] = useState<File | null>(null);
+  const [bbox, setBbox] = useState<File | null>(null);
+  const bboxInput = useRef<HTMLInputElement>(null);
+  function pick(files: FileList | File[]) {
+    for (const file of Array.from(files)) {
+      if (file.name.toLowerCase().endsWith(".json")) setBbox(file);
+      else setScan(file);
+    }
+  }
+  async function upload() {
+    if (!scan || busy) return;
     setBusy(true);
     setError("");
     try {
-      const result = await api.upload(file);
+      const result = await api.upload(scan, bbox);
       onUploaded(result.id);
       onClose();
     } catch (e) {
@@ -73,18 +82,39 @@ export function UploadModal({
           onDragOver={(e) => e.preventDefault()}
           onDrop={(e) => {
             e.preventDefault();
-            void upload(e.dataTransfer.files[0]);
+            pick(e.dataTransfer.files);
           }}
         >
           <span>↑</span>
-          {busy ? "Uploading…" : "Drop a file or click to browse"}
+          {busy
+            ? "Uploading…"
+            : scan
+              ? scan.name
+              : "Drop a scan (and bbox JSON) or click to browse"}
         </button>
         <input
           hidden
           ref={input}
           type="file"
-          onChange={(e) => void upload(e.target.files?.[0])}
+          onChange={(e) => e.target.files && pick(e.target.files)}
         />
+        <button
+          className="bbox-pick"
+          disabled={busy}
+          onClick={() => bboxInput.current?.click()}
+        >
+          {bbox ? `Bbox: ${bbox.name}` : "Add bbox JSON (optional, gives lithology names)"}
+        </button>
+        <input
+          hidden
+          ref={bboxInput}
+          type="file"
+          accept=".json,application/json"
+          onChange={(e) => e.target.files && pick(e.target.files)}
+        />
+        <button className="submit" disabled={!scan || busy} onClick={() => void upload()}>
+          Upload
+        </button>
         {error && <p role="alert">{error}</p>}
       </div>
     </div>

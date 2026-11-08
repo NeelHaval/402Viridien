@@ -7,13 +7,13 @@ from typing import Iterable
 import numpy as np
 import pandas as pd
 
-from validation import checks
-from validation.config import (
+from app.validation import checks
+from app.validation.config import (
     ALPHA_REGIONAL, BED_FLAG_THRESHOLD, BETA_SEQUENCE, CLASS_PRIOR_FLOOR, COARSE_CLASSES, MARGIN, MAX_CHANGE_FRACTION,
     MIN_OVERALL_TO_CORRECT, SUBMISSION_COLUMNS, coarse_class,
 )
-from validation.fingerprint import to_vector
-from validation.score import ValidationResult
+from app.validation.fingerprint import to_vector
+from app.validation.score import ValidationResult
 
 K = len(COARSE_CLASSES)
 CLASS_INDEX = checks.CLASS_INDEX

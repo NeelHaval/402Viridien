@@ -489,3 +489,86 @@ h1 {
 .brand, .toolbar { z-index: 1; }
 .sidebar { z-index: 2; }
 .notice, .map-error { z-index: 3; }
+
+.dial.muted text {
+  fill: rgba(226, 236, 242, 0.5);
+}
+.pills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+  padding: 0;
+}
+.pills li {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #ffffff10;
+  color: rgba(226, 236, 242, 0.7);
+  font-size: 10px;
+}
+.close.download {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: 8px;
+  color: inherit;
+}
+.close.download svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+}
+.toolbar .chip {
+  font-style: normal;
+  font-size: 11px;
+  padding: 6px 12px;
+  margin-left: 6px;
+  border-radius: 999px;
+  background: #f4cc821f;
+  color: #f4cc82;
+}
+.notice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.notice button {
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.7;
+}
+.empty-state {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 14px 22px;
+  font-size: 13px;
+  color: #b1c3cd;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bbox-pick {
+  margin-top: 12px;
+  font-size: 12px;
+  color: rgba(226, 236, 242, 0.7);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.submit {
+  display: block;
+  margin: 16px auto 0;
+  padding: 11px 26px;
+  border-radius: 999px;
+  background: #5eead41f;
+  color: #5eead4;
+  font-size: 13px;
+}
+.submit:disabled {
+  cursor: not-allowed;
+}

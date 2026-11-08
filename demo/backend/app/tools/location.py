@@ -9,10 +9,10 @@ from pathlib import Path
 
 import numpy as np
 
-from tools.errors import OcrUnavailable
-from tools.ocr import OcrLine, ocr_region
+from app.tools.errors import OcrUnavailable
+from app.tools.ocr import OcrLine, ocr_region
 
-REFERENCE_DIR = Path(__file__).resolve().parents[1] / "data" / "reference"
+REFERENCE_DIR = Path(__file__).resolve().parents[2] / "data" / "reference"
 BLOCKS_FILE = "boem_blocks.csv"
 HEADER_MAX_PX = 6000
 HEADER_FRACTION = 0.10

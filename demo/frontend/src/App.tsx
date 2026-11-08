@@ -3,44 +3,65 @@ import { api } from "./api";
 import type { Panel, Well } from "./types";
 import { Map } from "./components/Map";
 import { Sidebar } from "./components/Sidebar";
+import { Toast } from "./components/Toast";
 import { Toolbar } from "./components/Toolbar";
 import { UploadModal } from "./components/UploadModal";
+const POLL_MS = 2000;
+const MAX_BACKOFF_MS = 30000;
+const isBusy = (w: Well) => w.status === "queued" || w.status === "processing";
 export default function App() {
   const [wells, setWells] = useState<Well[]>([]);
+  const [loaded, setLoaded] = useState(false);
   const [panel, setPanel] = useState<Panel | null>(null);
   const [selecting, setSelecting] = useState(false);
   const [clearKey, setClearKey] = useState(0);
   const [selected, setSelected] = useState<string[]>([]);
   const [uploading, setUploading] = useState(false);
+  const [pendingCount, setPendingCount] = useState(0);
   const [flyTo, setFlyTo] = useState<Well | null>(null);
-  const [error, setError] = useState("");
+  const [toast, setToast] = useState<{ text: string; network: boolean } | null>(
+    null,
+  );
   const pending = useRef(new Set<string>());
   const requestId = useRef(0);
   const opened = useRef<string | null>(null);
+  const known = useRef<Well[]>([]);
+  const failures = useRef(0);
+  const timer = useRef<number>(undefined);
   const refresh = useCallback(async () => {
+    window.clearTimeout(timer.current);
     try {
       const next = await api.wells();
+      failures.current = 0;
+      known.current = next;
       setWells(next);
-      setError("");
-      for (const well of next) {
-        if (pending.current.has(well.id) && well.status !== "processing") {
-          pending.current.delete(well.id);
-          if (well.status === "ready") setFlyTo(well);
-        }
+      setLoaded(true);
+      setToast((t) => (t?.network ? null : t));
+      for (const id of [...pending.current]) {
+        const well = next.find((w) => w.id === id);
+        if (!well || isBusy(well)) continue;
+        pending.current.delete(id);
+        if (well.status === "failed")
+          setToast({ text: "Processing failed", network: false });
+        else if (well.located) setFlyTo(well);
+        else
+          setToast({ text: "Processed, location not found", network: false });
       }
+      setPendingCount(pending.current.size);
     } catch (e) {
-      setError((e as Error).message);
+      failures.current += 1;
+      setToast({ text: (e as Error).message, network: true });
     }
+    if (known.current.some(isBusy) || failures.current > 0)
+      timer.current = window.setTimeout(
+        () => void refresh(),
+        Math.min(POLL_MS * 2 ** failures.current, MAX_BACKOFF_MS),
+      );
   }, []);
   useEffect(() => {
     void refresh();
+    return () => window.clearTimeout(timer.current);
   }, [refresh]);
-  const processing = wells.some((w) => w.status === "processing");
-  useEffect(() => {
-    if (!processing) return;
-    const timer = setInterval(() => void refresh(), 2000);
-    return () => clearInterval(timer);
-  }, [processing, refresh]);
   const showWell = useCallback(async (well: Well) => {
     const id = ++requestId.current;
     opened.current = well.id;
@@ -98,10 +119,11 @@ export default function App() {
     setSelecting(false);
     setClearKey((k) => k + 1);
   }
+  const located = wells.filter((w) => w.located);
   return (
     <main>
       <Map
-        wells={wells}
+        wells={located}
         selected={selected}
         selecting={selecting}
         clearKey={clearKey}
@@ -125,6 +147,7 @@ export default function App() {
       </div>
       <Toolbar
         selecting={selecting}
+        processing={pendingCount > 0}
         onSelect={() => {
           const next = !selecting;
           close();
@@ -132,6 +155,11 @@ export default function App() {
         }}
         onUpload={() => setUploading(true)}
       />
+      {loaded && located.length === 0 && !toast && (
+        <p className="empty-state glass" role="status">
+          No wells yet. Upload a scan to put one on the map.
+        </p>
+      )}
       {panel && (
         <Sidebar
           key={`${panel.mode}-${panel.title}`}
@@ -144,26 +172,13 @@ export default function App() {
           onClose={() => setUploading(false)}
           onUploaded={(id) => {
             pending.current.add(id);
-            setWells((previous) => [
-              ...previous,
-              {
-                id,
-                name: "Uploading well",
-                lat: 26.5,
-                lon: -90,
-                block: "Unknown",
-                status: "processing",
-                scores: null,
-              },
-            ]);
+            setPendingCount(pending.current.size);
             void refresh();
           }}
         />
       )}
-      {error && (
-        <button className="notice glass" onClick={() => void refresh()}>
-          {error} · Retry
-        </button>
+      {toast && (
+        <Toast message={toast.text} onDismiss={() => setToast(null)} />
       )}
       <div className="credit">
         Made with <span aria-label="love">♥</span> by{" "}

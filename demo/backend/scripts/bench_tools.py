@@ -13,9 +13,9 @@ import tifffile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools import ocr, preprocess as pre  # noqa: E402
-from tools.location import locate  # noqa: E402
-from tools.read_upload import read_upload  # noqa: E402
+from app.tools import ocr, preprocess as pre  # noqa: E402
+from app.tools.location import locate  # noqa: E402
+from app.tools.read_upload import read_upload  # noqa: E402
 
 BUDGET_S = 2.0
 DEFAULT_WIDTH, DEFAULT_HEIGHT = 1000, 60000

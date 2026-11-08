@@ -2,14 +2,13 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import numpy as np
 import pandas as pd
 import pytest
 
-from tools.location import Location
-from validation import ValidationResult, apply_corrections, reference, submission_df, validate
-from validation.config import COARSE_CLASSES, SUBMISSION_COLUMNS
+from app.tools.location import Location
+from app.validation import ValidationResult, apply_corrections, reference, submission_df, validate
+from app.validation.config import COARSE_CLASSES, SUBMISSION_COLUMNS
 
 HEADER_LOC = Location(lat=28.0, lon=-90.0, source="header", confidence=0.9, api_number="608084001400")
 
