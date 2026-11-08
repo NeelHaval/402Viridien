@@ -1,0 +1,38 @@
+{
+ "id": "bc81f9c99b7b97ea",
+ "name": "OCS-G 08852 KE001 SURVEYED SURFACE",
+ "lat": 28.193925055555557,
+ "lon": -89.17675263888889,
+ "block": null,
+ "status": "ready",
+ "scores": {
+  "drilling": 100,
+  "cost": 100,
+  "price": 62,
+  "co2": 0
+ },
+ "validation_confidence": 0.803673104834208,
+ "located": true,
+ "total_depth_ft": 700.4,
+ "validation": {
+  "confidence": 0.803673104834208,
+  "components": {
+   "structure": 0.75,
+   "sequence": 0.7895500725689406,
+   "regional": null,
+   "neighbours": null,
+   "location": 1.0
+  },
+  "flags": [
+   "structure:depth_gaps_or_overlaps:13",
+   "structure:lithology_count:1",
+   "regional:no_regional_fingerprint",
+   "neighbours:no_neighbours"
+  ]
+ },
+ "warnings": [
+  "ocr_time_budget_hit",
+  "low_ocr_confidence"
+ ],
+ "error": null
+}

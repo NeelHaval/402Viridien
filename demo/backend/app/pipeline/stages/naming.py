@@ -68,8 +68,10 @@ def split_mixed(beds: pd.DataFrame, column: ColumnImage, protos: list[Prototype]
         if n < 2 * min_run:
             rows.append((s.y_top, s.y_bottom))
             continue
-        labels = [int(np.argmin([descriptor_distance(describe(column.rgb[a + i * win:a + (i + 1) * win]), p) for _, _, p in protos]))
-                  for i in range(n)]
+        labels = []
+        for i in range(n):
+            window = describe(column.rgb[a + i * win:a + (i + 1) * win])  # once per window, not once per prototype
+            labels.append(int(np.argmin([descriptor_distance(window, p) for _, _, p in protos])))
         runs: list[list[int]] = []  # [label, first window, n windows]
         for i, lab in enumerate(labels):
             if runs and runs[-1][0] == lab:
@@ -90,7 +92,8 @@ def name_beds(beds: pd.DataFrame, column: ColumnImage, protos: list[Prototype], 
         a, b = s.y_top - column.y_offset, s.y_bottom - column.y_offset
         if b - a > 4 * trim:
             a, b = a + trim, b - trim
-        dist = np.array([descriptor_distance(describe(column.rgb[a:b]), p) for _, _, p in protos])
+        bed = describe(column.rgb[a:b])
+        dist = np.array([descriptor_distance(bed, p) for _, _, p in protos])
         best = int(np.argmin(dist))
         out.append({"legend_id": protos[best][0], "lithology": protos[best][1]})
     return pd.concat([beds[["y_top", "y_bottom"]].reset_index(drop=True), pd.DataFrame(out)], axis=1)

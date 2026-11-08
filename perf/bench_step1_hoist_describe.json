@@ -1,0 +1,431 @@
+{
+ "label": "step1_hoist_describe",
+ "scans": {
+  "shell08852_9k": {
+   "file": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif",
+   "runs": [
+    {
+     "id": "bc81f9c99b7b97ea",
+     "upload_response_s": 0.05367250001290813,
+     "time_to_pin_s": 17.83570537500782,
+     "time_to_ready_s": 17.835706250014482,
+     "time_to_located_s": 17.773286958021345,
+     "total_s": 17.835706250014482,
+     "cold_server": true,
+     "stage_timings": {
+      "layer1.columns": 0.00012920901644974947,
+      "layer1.crop": 0.41140304098371416,
+      "layer1.boundaries": 0.015694125002482906,
+      "layer1.calibration": 16.010846874996787,
+      "layer1.location_wait": 0.6360646669927519,
+      "layer1.total": 17.074342750012875,
+      "pipeline.load_column": 0.007860375015297905,
+      "pipeline.features": 0.07082799999625422,
+      "pipeline.boundaries": 0.015256708022207022,
+      "pipeline.legend": 0.3847151249938179,
+      "pipeline.naming": 0.13609320897376165,
+      "pipeline.depth": 0.0022529160196427256,
+      "validation": 0.0038231250073295087,
+      "scoring": 0.009151290985755622,
+      "total": 17.713538374984637
+     }
+    },
+    {
+     "id": "bc81f9c99b7b97ea",
+     "upload_response_s": 0.047336916002677754,
+     "time_to_pin_s": 12.525450000015553,
+     "time_to_ready_s": 12.525450790999457,
+     "time_to_located_s": 12.528305790998274,
+     "total_s": 12.528305790998274,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00016658302047289908,
+      "layer1.crop": 1.0946961249865126,
+      "layer1.boundaries": 0.017875082994578406,
+      "layer1.calibration": 10.80957841698546,
+      "layer1.location_wait": 9.625015081837773e-06,
+      "layer1.total": 11.922406333003892,
+      "pipeline.load_column": 0.007433040998876095,
+      "pipeline.features": 0.07415095801115967,
+      "pipeline.boundaries": 0.0029963749984744936,
+      "pipeline.legend": 0.32493870801408775,
+      "pipeline.naming": 0.1279964160057716,
+      "pipeline.depth": 0.0012491249945014715,
+      "validation": 0.0015364169958047569,
+      "scoring": 0.0026298750017303973,
+      "total": 12.469571875000838
+     }
+    },
+    {
+     "id": "bc81f9c99b7b97ea",
+     "upload_response_s": 0.03748141700634733,
+     "time_to_pin_s": 10.767157833004603,
+     "time_to_ready_s": 10.767158292001113,
+     "time_to_located_s": 10.769352999981493,
+     "total_s": 10.769352999981493,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.0001732500095386058,
+      "layer1.crop": 0.8240632079832722,
+      "layer1.boundaries": 0.012621750007383525,
+      "layer1.calibration": 9.321819707984105,
+      "layer1.location_wait": 3.749999450519681e-06,
+      "layer1.total": 10.158796791016357,
+      "pipeline.load_column": 0.00629245798336342,
+      "pipeline.features": 0.07069408299867064,
+      "pipeline.boundaries": 0.0026765840011648834,
+      "pipeline.legend": 0.32061875000363216,
+      "pipeline.naming": 0.12426970800152048,
+      "pipeline.depth": 0.001260999997612089,
+      "validation": 0.0014924169809091836,
+      "scoring": 0.0028075420123059303,
+      "total": 10.693060167017393
+     }
+    }
+   ],
+   "warm_median_s": 11.648829395489884,
+   "first_run_s": 17.835706250014482
+  },
+  "mc761_15k_pal": {
+   "file": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886.tiff",
+   "runs": [
+    {
+     "id": "dbfa7ceb8baa7221",
+     "upload_response_s": 0.024097291025100276,
+     "time_to_pin_s": 13.290768166014459,
+     "time_to_ready_s": 13.290768708015094,
+     "time_to_located_s": 13.29261137501453,
+     "total_s": 13.29261137501453,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00011675001587718725,
+      "layer1.crop": 0.26053324999520555,
+      "layer1.boundaries": 0.02506316700601019,
+      "layer1.calibration": 1.9432968749897555,
+      "layer1.location_wait": 9.026739249995444,
+      "layer1.total": 11.256104333995609,
+      "pipeline.load_column": 0.014388875017175451,
+      "pipeline.features": 0.137436166027328,
+      "pipeline.boundaries": 0.0011428750003688037,
+      "pipeline.legend": 1.368240749987308,
+      "pipeline.naming": 0.4517667499894742,
+      "pipeline.depth": 0.0010463750222697854,
+      "validation": 0.0015212500002235174,
+      "scoring": 0.0021929170179646462,
+      "total": 13.236367583012907
+     }
+    },
+    {
+     "id": "dbfa7ceb8baa7221",
+     "upload_response_s": 0.020568540989188477,
+     "time_to_pin_s": 12.91557974999887,
+     "time_to_ready_s": 12.915580333006801,
+     "time_to_located_s": 12.917689166002674,
+     "total_s": 12.917689166002674,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00010766700142994523,
+      "layer1.crop": 0.29265470799873583,
+      "layer1.boundaries": 0.024651957995956764,
+      "layer1.calibration": 2.334575082990341,
+      "layer1.location_wait": 8.453925167006673,
+      "layer1.total": 11.10629749999498,
+      "pipeline.load_column": 0.01883595800609328,
+      "pipeline.features": 0.14328041599947028,
+      "pipeline.boundaries": 0.002706041996134445,
+      "pipeline.legend": 1.135114667005837,
+      "pipeline.naming": 0.4512287919933442,
+      "pipeline.depth": 0.00125891700736247,
+      "validation": 0.001582875003805384,
+      "scoring": 0.002649874979397282,
+      "total": 12.86582808298408
+     }
+    },
+    {
+     "id": "dbfa7ceb8baa7221",
+     "upload_response_s": 0.02872412500437349,
+     "time_to_pin_s": 12.091497749992413,
+     "time_to_ready_s": 12.09149824999622,
+     "time_to_located_s": 12.093549084005645,
+     "total_s": 12.093549084005645,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00013766699703410268,
+      "layer1.crop": 0.25204391599982046,
+      "layer1.boundaries": 0.02298029200755991,
+      "layer1.calibration": 2.5608734999841545,
+      "layer1.location_wait": 7.401319124997826,
+      "layer1.total": 10.237505292025162,
+      "pipeline.load_column": 0.021917916979873553,
+      "pipeline.features": 0.14756295800907537,
+      "pipeline.boundaries": 0.0030439590045716614,
+      "pipeline.legend": 1.1570007499831263,
+      "pipeline.naming": 0.4487433749891352,
+      "pipeline.depth": 0.001262165984371677,
+      "validation": 0.0017240839952137321,
+      "scoring": 0.002526167023461312,
+      "total": 12.024441749992548
+     }
+    }
+   ],
+   "warm_median_s": 12.917689166002674,
+   "first_run_s": 13.29261137501453
+  },
+  "hadrian_50k": {
+   "file": "60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",
+   "runs": [
+    {
+     "id": "dc44bcdaf674c7e8",
+     "upload_response_s": 0.1374235000112094,
+     "time_to_pin_s": 13.012712833995465,
+     "time_to_ready_s": 13.012713333999272,
+     "time_to_located_s": 13.015114542009542,
+     "total_s": 13.015114542009542,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00011912500485777855,
+      "layer1.crop": 0.582292665989371,
+      "layer1.boundaries": 0.10659337500692345,
+      "layer1.calibration": 7.605304583994439,
+      "layer1.location_wait": 1.2829315409762785,
+      "layer1.total": 9.577367749996483,
+      "pipeline.load_column": 0.050963457993930206,
+      "pipeline.features": 0.8796402500011027,
+      "pipeline.boundaries": 0.0053707500046584755,
+      "pipeline.legend": 0.7829922910023015,
+      "pipeline.naming": 1.4961246659804601,
+      "pipeline.depth": 0.0014114159857854247,
+      "validation": 0.0020847500127274543,
+      "scoring": 0.0025732499780133367,
+      "total": 12.809540708985878
+     }
+    },
+    {
+     "id": "dc44bcdaf674c7e8",
+     "upload_response_s": 0.11331970899482258,
+     "time_to_pin_s": 14.959193334012525,
+     "time_to_ready_s": 14.959193791990401,
+     "time_to_located_s": 14.962221333989874,
+     "total_s": 14.962221333989874,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 9.716700878925622e-05,
+      "layer1.crop": 0.7599215410009492,
+      "layer1.boundaries": 0.17038191598840058,
+      "layer1.calibration": 8.872558583010687,
+      "layer1.location_wait": 1.730743332998827,
+      "layer1.total": 11.533812375011621,
+      "pipeline.load_column": 0.05525125001440756,
+      "pipeline.features": 0.9115022910118569,
+      "pipeline.boundaries": 0.0037782920117024332,
+      "pipeline.legend": 0.7400898330088239,
+      "pipeline.naming": 1.5478199999779463,
+      "pipeline.depth": 0.001421374996425584,
+      "validation": 0.0022175410122144967,
+      "scoring": 0.0033257499744649976,
+      "total": 14.808620790980058
+     }
+    },
+    {
+     "id": "dc44bcdaf674c7e8",
+     "upload_response_s": 0.0854832089971751,
+     "time_to_pin_s": 14.114581834001001,
+     "time_to_ready_s": 14.114582291978877,
+     "time_to_located_s": 14.11707308399491,
+     "total_s": 14.11707308399491,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 9.72079869825393e-05,
+      "layer1.crop": 0.7475791250180919,
+      "layer1.boundaries": 0.08829625000362284,
+      "layer1.calibration": 7.894827875017654,
+      "layer1.location_wait": 1.782906209002249,
+      "layer1.total": 10.515484167000977,
+      "pipeline.load_column": 0.054731834010453895,
+      "pipeline.features": 0.9924204169947188,
+      "pipeline.boundaries": 0.004022792010800913,
+      "pipeline.legend": 0.8247461249993648,
+      "pipeline.naming": 1.556449083989719,
+      "pipeline.depth": 0.0013906249951105565,
+      "validation": 0.002519000001484528,
+      "scoring": 0.002694791997782886,
+      "total": 13.9642635420023
+     }
+    }
+   ],
+   "warm_median_s": 14.11707308399491,
+   "first_run_s": 13.015114542009542
+  },
+  "shenzi_73k_pal": {
+   "file": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+   "runs": [
+    {
+     "id": "da744e966066bff7",
+     "upload_response_s": 0.09049420899827965,
+     "time_to_pin_s": 12.520096749998629,
+     "time_to_ready_s": 12.520097291999264,
+     "time_to_located_s": 12.522553749993676,
+     "total_s": 12.522553749993676,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 9.9874974694103e-05,
+      "layer1.crop": 0.6119817919970956,
+      "layer1.boundaries": 0.18984720797743648,
+      "layer1.calibration": 4.796719167003175,
+      "layer1.location_wait": 2.91600008495152e-06,
+      "layer1.total": 5.5987583749811165,
+      "pipeline.load_column": 0.1102969580097124,
+      "pipeline.features": 1.2438471659843344,
+      "pipeline.boundaries": 0.003951415972551331,
+      "pipeline.legend": 2.2717720410146285,
+      "pipeline.naming": 3.079154875013046,
+      "pipeline.depth": 0.0013980839867144823,
+      "validation": 0.002885374997276813,
+      "scoring": 0.0028854999982286245,
+      "total": 12.325259292003466
+     }
+    },
+    {
+     "id": "da744e966066bff7",
+     "upload_response_s": 0.08785991600598209,
+     "time_to_pin_s": 13.23671637501684,
+     "time_to_ready_s": 13.236716875020647,
+     "time_to_located_s": 13.24119625001913,
+     "total_s": 13.24119625001913,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00013475000741891563,
+      "layer1.crop": 0.9984635000000708,
+      "layer1.boundaries": 0.5838739999744575,
+      "layer1.calibration": 5.616135292017134,
+      "layer1.location_wait": 4.583998816087842e-06,
+      "layer1.total": 7.198721332999412,
+      "pipeline.load_column": 0.11458516598213464,
+      "pipeline.features": 1.2475460830028169,
+      "pipeline.boundaries": 0.0035817079769913107,
+      "pipeline.legend": 1.6416393749823328,
+      "pipeline.naming": 2.8420316250121687,
+      "pipeline.depth": 0.001402958994731307,
+      "validation": 0.0027959999861195683,
+      "scoring": 0.002704874990740791,
+      "total": 13.064700332994107
+     }
+    },
+    {
+     "id": "da744e966066bff7",
+     "upload_response_s": 0.05484108300879598,
+     "time_to_pin_s": 12.321320750023006,
+     "time_to_ready_s": 12.321321250026813,
+     "time_to_located_s": 12.217726041999413,
+     "total_s": 12.321321250026813,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 9.524999768473208e-05,
+      "layer1.crop": 0.8349707089946605,
+      "layer1.boundaries": 0.30242237501079217,
+      "layer1.calibration": 5.110239625006216,
+      "layer1.location_wait": 4.208995960652828e-06,
+      "layer1.total": 6.24787049999577,
+      "pipeline.load_column": 0.11724212500848807,
+      "pipeline.features": 1.2365954579727259,
+      "pipeline.boundaries": 0.003748916002223268,
+      "pipeline.legend": 1.6509624999889638,
+      "pipeline.naming": 2.884732584003359,
+      "pipeline.depth": 0.0013507090043276548,
+      "validation": 0.002164167002774775,
+      "scoring": 0.0028677500085905194,
+      "total": 12.15802029200131
+     }
+    }
+   ],
+   "warm_median_s": 12.522553749993676,
+   "first_run_s": 12.522553749993676
+  },
+  "mdn1_188k": {
+   "file": "60811405800100_mdn-1_st00bp01_5 inch tvdmudlog_4560ft-22998ft.tif",
+   "runs": [
+    {
+     "id": "8233a791c877e997",
+     "upload_response_s": 0.4344247500121128,
+     "time_to_pin_s": 24.204462084016996,
+     "time_to_ready_s": 24.2044626250281,
+     "time_to_located_s": 24.207813167013228,
+     "total_s": 24.207813167013228,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00014487499720416963,
+      "layer1.crop": 2.6440267080033664,
+      "layer1.boundaries": 0.9702822920226026,
+      "layer1.calibration": 7.7232733750133775,
+      "layer1.location_wait": 2.80747099997825,
+      "layer1.total": 14.145487124973442,
+      "pipeline.load_column": 0.19224375000339933,
+      "pipeline.features": 1.3708289999922272,
+      "pipeline.boundaries": 0.009995791013352573,
+      "pipeline.legend": 1.4309080419770908,
+      "pipeline.naming": 6.5498701659962535,
+      "pipeline.depth": 0.0014247920189518481,
+      "validation": 0.001960708003025502,
+      "scoring": 0.002479749993653968,
+      "total": 23.709817083989037
+     }
+    },
+    {
+     "id": "8233a791c877e997",
+     "upload_response_s": 0.4351075000013225,
+     "time_to_pin_s": 21.076526250020834,
+     "time_to_ready_s": 21.07652675002464,
+     "time_to_located_s": 21.078864417009754,
+     "total_s": 21.078864417009754,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00016929200501181185,
+      "layer1.crop": 2.8603084159840364,
+      "layer1.boundaries": 1.020708416996058,
+      "layer1.calibration": 5.441072332992917,
+      "layer1.location_wait": 2.4918352920212783,
+      "layer1.total": 11.814169207995292,
+      "pipeline.load_column": 0.18640629199217074,
+      "pipeline.features": 1.4519830829813145,
+      "pipeline.boundaries": 0.01755762501852587,
+      "pipeline.legend": 0.9193985419988167,
+      "pipeline.naming": 6.196342166978866,
+      "pipeline.depth": 0.002227791992481798,
+      "validation": 0.0035600410192273557,
+      "scoring": 0.0081031670270022,
+      "total": 20.60693349997746
+     }
+    },
+    {
+     "id": "8233a791c877e997",
+     "upload_response_s": 0.3726902919879649,
+     "time_to_pin_s": 19.9430684169929,
+     "time_to_ready_s": 19.94306887499988,
+     "time_to_located_s": 19.945544666989008,
+     "total_s": 19.945544666989008,
+     "cold_server": false,
+     "stage_timings": {
+      "layer1.columns": 0.00015629100380465388,
+      "layer1.crop": 2.426600333972601,
+      "layer1.boundaries": 0.8685150420060381,
+      "layer1.calibration": 5.328840375004802,
+      "layer1.location_wait": 2.0962350000045262,
+      "layer1.total": 10.72045712498948,
+      "pipeline.load_column": 0.17262199998367578,
+      "pipeline.features": 1.4071212919952814,
+      "pipeline.boundaries": 0.0062372089887503535,
+      "pipeline.legend": 0.9587524159869645,
+      "pipeline.naming": 6.214112874993589,
+      "pipeline.depth": 0.0013623750128317624,
+      "validation": 0.0022703330032527447,
+      "scoring": 0.003685959003632888,
+      "total": 19.49142004098394
+     }
+    }
+   ],
+   "warm_median_s": 21.078864417009754,
+   "first_run_s": 24.207813167013228
+  }
+ },
+ "cold_start_first_request_s": 17.835706250014482
+}
