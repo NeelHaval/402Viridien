@@ -1,0 +1,191 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "case_id": "synthetic",
+      "suite": "dev",
+      "log": "synthetic",
+      "y0": 0,
+      "y1": 10,
+      "window": [
+        0,
+        10
+      ],
+      "family": "f",
+      "well": "w",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate",
+      "column_box": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+      "image_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "annotation_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "truth_sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+          "sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad"
+        }
+      ],
+      "strategy": "s19_combine",
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\pred.csv",
+      "manifest_digest": "stale",
+      "strategy_diagnostics": {
+        "model": {
+          "weights_sha256": "wrong",
+          "config_sha256": "wrong"
+        }
+      },
+      "row_acc": 1.0,
+      "boundary_f1": 1.0,
+      "cluster_ari": 1.0,
+      "depth_mae_ft": null,
+      "score": 1.0
+    },
+    {
+      "case_id": "synthetic",
+      "suite": "dev",
+      "log": "synthetic",
+      "y0": 0,
+      "y1": 10,
+      "window": [
+        0,
+        10
+      ],
+      "family": "f",
+      "well": "w",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate",
+      "column_box": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+      "image_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "annotation_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "truth_sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+          "sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad"
+        }
+      ],
+      "strategy": "s20_v4",
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\pred.csv",
+      "manifest_digest": "stale",
+      "strategy_diagnostics": {
+        "model": {
+          "weights_sha256": "wrong",
+          "config_sha256": "wrong"
+        }
+      },
+      "row_acc": 1.0,
+      "boundary_f1": 1.0,
+      "cluster_ari": 1.0,
+      "depth_mae_ft": null,
+      "score": 1.0
+    },
+    {
+      "case_id": "synthetic",
+      "suite": "dev",
+      "log": "synthetic",
+      "y0": 0,
+      "y1": 10,
+      "window": [
+        0,
+        10
+      ],
+      "family": "f",
+      "well": "w",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate",
+      "column_box": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+      "image_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "annotation_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "truth_sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+          "sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad"
+        }
+      ],
+      "strategy": "s21_v4dino",
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\pred.csv",
+      "manifest_digest": "stale",
+      "strategy_diagnostics": {
+        "model": {
+          "weights_sha256": "wrong",
+          "config_sha256": "wrong"
+        }
+      },
+      "row_acc": 1.0,
+      "boundary_f1": 1.0,
+      "cluster_ari": 1.0,
+      "depth_mae_ft": null,
+      "score": 1.0
+    },
+    {
+      "case_id": "synthetic",
+      "suite": "dev",
+      "log": "synthetic",
+      "y0": 0,
+      "y1": 10,
+      "window": [
+        0,
+        10
+      ],
+      "family": "f",
+      "well": "w",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate",
+      "column_box": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\asset",
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+      "image_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "annotation_sha256": "3d700980f74407dc8ff35d0c36198c126d1953f47ee32c54f0bd6ffcbc15b07f",
+      "truth_sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\truth.csv",
+          "sha256": "a454b3c1e6527a9648098946c07a66ea2ed723c08d9016580e3eab9dd7817cad"
+        }
+      ],
+      "strategy": "s23_v4dino_identity",
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\astra_recheck_sandbox\\audit_gate\\pred.csv",
+      "manifest_digest": "stale",
+      "strategy_diagnostics": {
+        "model": {
+          "weights_sha256": "wrong",
+          "config_sha256": "wrong"
+        }
+      },
+      "row_acc": 1.0,
+      "boundary_f1": 1.0,
+      "cluster_ari": 1.0,
+      "depth_mae_ft": null,
+      "score": 1.0
+    }
+  ],
+  "summaries": [],
+  "manifest_digest": "stale"
+}

@@ -1,0 +1,12 @@
+{
+  "method": "Rendering only, fixed first min(1200, window height) source rows; unchanged original prediction CSV and VM result receipt",
+  "source_rgb_sha256": "eaa01352a95a9ea49d8059e3073118ee98e4f18545cc3dfc47dff8211b970c74",
+  "detail_rows": [
+    7726,
+    8926
+  ],
+  "original_result_sha256": "dfd8ff22a6a6dd8874e649d276fced891bbe568eb3724360fd9069fb8c3a7c65",
+  "detail_png_sha256": "0faf948266c377a723360da1445ddb5930db3f21e018148cfa9dcb5af2cb9147",
+  "renderer_sha256": "724c0f5f46aaed4f13beaacf8717ea344accef3acb865e35753820807822f312",
+  "policy_id": "clay_shale_equivalent_v1"
+}

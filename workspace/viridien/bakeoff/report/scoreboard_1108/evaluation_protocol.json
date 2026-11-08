@@ -1,0 +1,26 @@
+{
+  "status": "declared before suite scores",
+  "date_utc": "2026-11-08",
+  "candidates": ["s19_combine", "s20_v4", "s21_v4dino"],
+  "metric": "harness.score.score, unchanged; score = row_acc * boundary_f1 per window",
+  "label_rules": "Use only the shared scorer normalization and aliases. No slash-group membership credit, extra synonyms, or truth-informed label remapping.",
+  "min_layer_px": 0,
+  "inputs": "Identical scored pixel windows for all candidates. Shared harness loader, legend context, and depth calibration. v4 native legend inputs and code are frozen. No prediction may read truth.",
+  "suites": {
+    "viridien_eval": "13 existing evaluation windows, harness gold precedence then silver consensus; development regression evidence",
+    "human_qa": "1inch and Shenzi original truth CSV extents; Shenzi may use machine boundary anchors",
+    "human_gold": "D-582 log06 supplied gold truth extent; overlaps Viridien evidence and is not an independent replication",
+    "hadrian_unqa": "Hadrian JSON layer extents, first composition type per existing conversion; unreviewed and separate",
+    "ext_dev": "Only declared eval_set_dev.json items and their referenced assets and truth. External test, verify and vault remain closed."
+  },
+  "aggregation": {
+    "primary": "Mean window scores within each log, then equal weight per log within suite. Also show means of each metric part separately. Never multiply suite mean accuracy by suite mean boundary F1.",
+    "overall": "Descriptive only, with duplicate log/window/truth evidence removed and the weighting stated. Suite results control interpretation; pooled results do not establish independent transfer.",
+    "failure": "Keep failed cases in the score, row accuracy, boundary F1 and ARI denominator at zero. Missing depth error stays null. Rendering failures are separate from inference and scoring failures.",
+    "uncertainty": "Deterministic paired percentile bootstrap over whole logs, at least 2000 draws, 95% interval. Report well-cluster sensitivity where continuation pages or source wells repeat. Single-unit intervals are degenerate and do not establish precision."
+  },
+  "runtime": "Serial inference, no candidate GPU overlap. CUDA synchronization around timed DINO inference. Include model first-load time, report preprocessing and total time separately, and flag windows above the 60 s specification budget. Runtime depends on warm state and is descriptive.",
+  "selection": "Compare all three frozen candidates on each suite. A current practical choice may be named from these development results only after method and code review. Do not claim a universal or held-out champion when suites disagree or evidence is weak. A proposed hybrid must be labelled unverified until scored as a separate candidate.",
+  "review": "Exactly one GPT-6 Astra reviewer on codex at xhigh must inspect method and code before any champion declaration.",
+  "scope": "No classifier fixes, scorer changes, s19 changes, test or verify evaluation, commit, or push. Dataset is read only."
+}

@@ -1,0 +1,43 @@
+sandbox=workspace-write
+Build and run an LLM-assisted LABELLING harness that makes better ground truth for a lithology mud-log challenge, and measure how good it is.
+
+Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md and harness/*.py first (io.open_log, log.boxes, io.read_rgb, legend.parse, score.py). The code wins over SPEC.md.
+Write only under labelling/ (create it). Do not edit harness/, strategies/, gt/ or eval_set.json. Never write into the dataset folder.
+
+Context. Each log is a tall scanned TIFF with a lithology column (box "interpreted_lithology_column") and a legend (box "lithology_legend").
+The task: split a window of the column into contiguous intervals (top_y, bottom_y in native image rows) and name each from that log's legend.
+The only true answer is gt/gold/<log06>.csv (log 0000000009_d-582_0000020435-0001_log06_fe_5in_md, rows 4404-11195, 1-bit hatch patterns, 17 intervals).
+You may read gt/gold ONLY to score the labeller after it has run, never to build prompts or tune per-log constants.
+Earlier AI labellers (gt/silver/A, gt/silver/B) scored row_acc 0.74 and 0.32 against gold; beat them.
+
+Build labelling/llm_label.py:
+1. Vocabulary: one vision call per log on the legend crop asks for the exact rock/lithology entry names (ignore modifiers, accessories, shows). Cache it in labelling/out/<key>/vocab.json.
+2. Tiles: cut the window into tiles of about 400-600 native rows, with 60-row overlap.
+   Each tile image shows the column tile at a readable scale with a ruler of native row numbers every 50 rows, next to the legend's rock entries (crop and resize so the swatch patterns stay legible).
+   Each side must be 512-1600 px.
+   Ask for JSON intervals [{top_y, bottom_y, label in vocab or "Unknown", confidence 0-1}] that cover the tile.
+3. Two independent labellers through the Codex CLI with images, same pattern as strategies/s09_vlm_terra.py: subprocess codex exec -i <png>, env CODEX_HOME=C:/Users/hssil/.codex-accounts/kira181204.
+   Labeller S is gpt-6.1-sol at reasoning effort high; labeller T is gpt-6.1-terra at effort medium.
+   Cache every response on disk by a hash of the image and prompt, so reruns are free. Hard cap: 220 calls in total; log the count.
+4. Boundary snapping: move each model boundary to the strongest row-wise image change (colour/texture difference of the rows above vs below) within +-20 rows, if one exists. Then stitch the tiles, resolve overlaps and merge adjacent identical labels.
+5. Consensus: rows where S and T give the same label are "agreed"; others are "disputed". Write labelling/out/<key>/{S.csv,T.csv,consensus.csv}.
+   Use the challenge CSV columns top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id, with depths from the harness depth calibration. consensus.csv gets an extra column agreed (true/false).
+6. Validation first, on log06's gold window: report row_acc, boundary_f1 and cluster_ari (use harness/score.py) for S, T and consensus.
+   Also report the accuracy on agreed rows only and the share of rows agreed.
+   If row accuracy on agreed rows is below 0.85, improve the prompt/tiling generically (no log-specific hacks), at most 3 iterations, and report every iteration.
+7. Then label one window per legend family. Use the windows listed in ../analysis/mix_manifest.json (key -> log, rows); for key d582 use log06's gold window (already done).
+   Also label one other D-582 log: 0000000009_d-582_0000020435-0001_log02_fe_5in_md, rows 4387-6787. The gulf_fail log has a legend that harness legend.parse cannot read; the vocabulary call must still work from the image.
+8. Write labelling/out/summary.json: per window, the family, n_intervals, agreed share, labels and their row shares, calls used. Write labelling/out/validation.json too.
+9. Write labelling/review.html, one self-contained page for a human to check the labels quickly.
+   Per window it shows the column image next to the consensus bands, with disputed rows hatched red and the S and T bands side by side; one entry per interval with its label.
+   Embed images as base64 webp and keep the page under 25 MB.
+   Render it once with headless Edge to check it opens: "/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless=new --screenshot=<new path> file:///<path>.
+Never print or store any API key. Use python -X utf8. Images are big: read only the window rows (io.read_rgb with y0, y1).
+
+Reply in under 400 words:
+- the validation table (S, T, consensus, agreed-only accuracy, agreed share) for each iteration
+- the per-family table (agreed share, top labels)
+- calls used and total wall time
+- the failure modes you saw, naming the logs
+- the paths of the outputs

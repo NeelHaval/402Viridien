@@ -1,0 +1,2410 @@
+{
+  "version": 3,
+  "cases": [
+    {
+      "case_id": "6b663182fbfb4f87",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "y0": 4404,
+      "y1": 11195,
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+          "sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+        }
+      ],
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "y0": 4387,
+      "y1": 10387,
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "column_box": [
+        2974,
+        4387,
+        3220,
+        11180
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "5149b0b690e8f03c4f0dad658e930ddfda1d0655c5c84e7e3ab4e304042d885b"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "f66f9e919ccac20eb41d86c41fe074e850f7a97308ae8160be1f7ff3eeb54c0b"
+        }
+      ],
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "image_sha256": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+      "annotation_sha256": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "y0": 4384,
+      "y1": 10384,
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "column_box": [
+        2976,
+        4384,
+        3226,
+        12184
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "f677a6ea742fb884f32446b60892b27b3b1305cd8a8c5c9a1824c8b89b30e5bf"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "a3ebe612120d08b455fdb667947f4257b510d38eacaf2e101b6a38f1551c694b"
+        }
+      ],
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "image_sha256": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+      "annotation_sha256": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "suite": "viridien_eval",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "y0": 1728,
+      "y1": 7728,
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "well": "60807402860000_gb506#2_md_mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "column_box": [
+        953,
+        1206,
+        1000,
+        9623
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "375329accc5d6a865878d7c5b0bf6e424147708e6f07164451f09fe4f5a34b78"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "0ce2af7b9b83a557566dfb2200ed4e7f9514ead0a7e13d927300f95a8c7fc611"
+        }
+      ],
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+      "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "suite": "viridien_eval",
+      "log": "60811405120000_1inch tvd mudlog",
+      "y0": 1501,
+      "y1": 7501,
+      "window": [
+        1501,
+        7501
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405120000_1inch tvd mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "column_box": [
+        953,
+        1205,
+        1000,
+        15029
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "d74d9f29ddd31212846901c8661c55c1b6eeb5a882ed03c9e7ab5575fbdb2762"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "2bde9291aeb9e43cec5015cf2d4324c54ae4885e02167b077e6f3db0135ace53"
+        }
+      ],
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "suite": "viridien_eval",
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "y0": 2343,
+      "y1": 8343,
+      "window": [
+        2343,
+        8343
+      ],
+      "family": "Geoservices grid",
+      "well": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.json",
+      "column_box": [
+        1300,
+        1543,
+        1355,
+        25948
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\03b2ef6b774533a9.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.csv",
+          "sha256": "33aa51f4de33fb2e1ad21242014252edab1f5a0a0526092791b2fbf216223769"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.csv",
+          "sha256": "44861f9d6d7b87598ee2f5080ae308aae485989a05ea072df9494a9e62eb1842"
+        }
+      ],
+      "truth_sha256": "20b8292e7d637378e182388ebd225a0deffb242b14c946549b7564c882736b3d",
+      "image_sha256": "545ad722a154d1d78b68a7e5e777f44eff8d6271d6348bcce98ed474d8dd0e20",
+      "annotation_sha256": "2dee8000364f2a5362c79ca4a6739285518b0c97bccf44b0a68e92bc8c0f4663",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "suite": "viridien_eval",
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "y0": 11438,
+      "y1": 17438,
+      "window": [
+        11438,
+        17438
+      ],
+      "family": "One-off layout",
+      "well": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.json",
+      "column_box": [
+        1263,
+        2737,
+        1323,
+        24270
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6fb4e860a31a7c9b.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.csv",
+          "sha256": "7b42ff46a6a172cf18bd95aa67cd229e6ff232888b1e5cbece2cb6c73ef722b1"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.csv",
+          "sha256": "394fa56964c260949f6b8e7f4e20e2839ba994b6132925a60c59c34c555fdeff"
+        }
+      ],
+      "truth_sha256": "9e6bcdc19394f3bb06dee58641bc2ca682762f0f83168d0716e08e85a2f2330b",
+      "image_sha256": "eb20de35336525fad87fbfd12c634439b8ff3dd942c7f4ae2c5d74e605054d1d",
+      "annotation_sha256": "da2639cd6722c49ad487d7c379615fc020c642470b2fa5836bff41b85a39b3ad",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "suite": "viridien_eval",
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "y0": 2927,
+      "y1": 8927,
+      "window": [
+        2927,
+        8927
+      ],
+      "family": "MC761 mineral/lithology",
+      "well": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60817411400100_mc761_1_st1_mudlog_1md_17133_22886.tiff",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60817411400100_mc761_1_st1_mudlog_1md_17133_22886.json",
+      "column_box": [
+        1290,
+        2859,
+        1369,
+        14459
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\10855527e4ba883b.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60817411400100_mc761_1_st1_mudlog_1md_17133_22886.csv",
+          "sha256": "b1bd16b55f7d9203b8afb12ad9a4f01b1ba29b16fe50a1a66112c75b2ea7bbda"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60817411400100_mc761_1_st1_mudlog_1md_17133_22886.csv",
+          "sha256": "8f2e28c395e07274c945ed4efebf404e937602a5875e576e34967191c134f539"
+        }
+      ],
+      "truth_sha256": "ecc3d938a422346f27aeab2ae6968623ceb8a964a32cda9dd0d7c7e691408ee0",
+      "image_sha256": "dbfa7ceb8baa7221d6fc5917b515a206378e0f449dd92b7b9fef482f21f6c2cd",
+      "annotation_sha256": "0f5de7d4617fe233e9839c969e8943b080674cbe4dc52a37f870d14d6fdaa54c",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "df889653b4852560",
+      "suite": "viridien_eval",
+      "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "y0": 2699,
+      "y1": 8699,
+      "window": [
+        2699,
+        8699
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.json",
+      "column_box": [
+        1763,
+        2699,
+        1856,
+        36050
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\df889653b4852560.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.csv",
+          "sha256": "63e67c7f5f538c0faa11229c14844623815a65477110bf49ff2d2312bad2d7ad"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378.csv",
+          "sha256": "63e67c7f5f538c0faa11229c14844623815a65477110bf49ff2d2312bad2d7ad"
+        }
+      ],
+      "truth_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "image_sha256": "2a075d72f9da9e268104392e1391b674b5b0b77cd4aad09241a999bdff7d0bcf",
+      "annotation_sha256": "0d8511e78439b24137234bd5b6b222a222939eb9c58e11140286866aa7d3a8d1",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "suite": "viridien_eval",
+      "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "y0": 5480,
+      "y1": 11480,
+      "window": [
+        5480,
+        11480
+      ],
+      "family": "Texas 'Rock Types' box",
+      "well": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.json",
+      "column_box": [
+        817,
+        5480,
+        893,
+        43731
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\aeeb0575acea0cf7.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.csv",
+          "sha256": "7405b9a3add44984620a62f1520c96e2b51527ca5f0e40ba9fa2de60850d022c"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\Critter Creek 201-1807H_Mud_PDF_Vertical.pdf.csv",
+          "sha256": "b6bb83e4e00ee192a622218598c2e52defb6acc07d0a1e8c754ac5cd3910926d"
+        }
+      ],
+      "truth_sha256": "e3ff2b62d3dbee2595b94ca604465185534147f00adb03a3916a4ba9ed9cc7f3",
+      "image_sha256": "027b935e54bc416e0a20012e062a451b9e75306b604f7c2ca5e7212449e8d80f",
+      "annotation_sha256": "889b47e59b9c8e61a72fc0fd52544ac362c4900194da55ffdfb2a40eeed171a3",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "suite": "viridien_eval",
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "y0": 7623,
+      "y1": 13623,
+      "window": [
+        7623,
+        13623
+      ],
+      "family": "MC765 colour grid",
+      "well": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.json",
+      "column_box": [
+        1134,
+        1623,
+        1171,
+        36273
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\926ccf2bec1ead2b.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.csv",
+          "sha256": "bf1d13eb3d4fd54e7a15e56a8efbfeeb917b99c1ea6033583bd7909847677751"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft.csv",
+          "sha256": "e444e3e645ed8205d6affce3f4213bf4d67946fc6a7b99a3fe848551bbfa43a5"
+        }
+      ],
+      "truth_sha256": "bab06c9630eb6752708d13eac5e990a46c673a6366c4b50062f02f3b140bbaea",
+      "image_sha256": "e5562332c8880cdf0ceb8fb99df5f8291b4cd9ca9de804e9fa2d38ffd054ccdd",
+      "annotation_sha256": "b0d3b463dce02a564cc7e579b6c2f029a12ac1c838991fcc793c12b60d0b8521",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "suite": "viridien_eval",
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "y0": 7363,
+      "y1": 13363,
+      "window": [
+        7363,
+        13363
+      ],
+      "family": "Texas 'Rock Types' box",
+      "well": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\Rio_Nueces_3744_Unit_1_212_MUD_5IN.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\Rio_Nueces_3744_Unit_1_212_MUD_5IN.json",
+      "column_box": [
+        661,
+        6861,
+        731,
+        120865
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\dc6d9c7cccfe7e79.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\Rio_Nueces_3744_Unit_1_212_MUD_5IN.csv",
+          "sha256": "cdbbb4bbe4137b9e32791ec7c2ce270a1c3abf5b79722aeef47ca0e24b6ba3a5"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\Rio_Nueces_3744_Unit_1_212_MUD_5IN.csv",
+          "sha256": "b6f0cc3f9e1be6cfee0d5c7032feccfe48c85cc502f36b0a46540b648c062d19"
+        }
+      ],
+      "truth_sha256": "19d4f53dad2f325e3864bff58b80e98a871f598fb7ac96cd21cf7e0d81060644",
+      "image_sha256": "71e1883f72cce57b6c641e28dba2b49b4ebca14a3af485eabb3b44ead3108ab8",
+      "annotation_sha256": "5322308ce496dd460151ac386a33662fed5e1c9922b5b1b96fec1defabc2382d",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "suite": "viridien_eval",
+      "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "y0": 1698,
+      "y1": 6832,
+      "window": [
+        1698,
+        6832
+      ],
+      "family": "One-off layout",
+      "well": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.json",
+      "column_box": [
+        540,
+        1550,
+        600,
+        6832
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\4d576b545c0ee20f.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.csv",
+          "sha256": "c2e4e6eb96074c354af486b4ed7afd325760e011fbd09647b0d78d27eb49a16e"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.csv",
+          "sha256": "0e3b7340c9e73fd69cb2b2c52ea9cdc90d555f6995440442de90557fb2696bd3"
+        }
+      ],
+      "truth_sha256": "b3d099e6e304c5350f7c4aae7a6606077cc3ec69504a96574c31707e3f9a645e",
+      "image_sha256": "bc81f9c99b7b97ea5ef1da4a170de3f9254e77c57f7fd097d06855cd49f90fdf",
+      "annotation_sha256": "6a9e0bc271307f4c06d02a647450d141a9c9934757aace0c696075966cde89bc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+    },
+    {
+      "case_id": "1195460dd0d251cd",
+      "suite": "human_qa",
+      "log": "60811405120000_1inch tvd mudlog",
+      "y0": 1503,
+      "y1": 14851,
+      "window": [
+        1503,
+        14851
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405120000_1inch tvd mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "column_box": [
+        953,
+        1205,
+        1000,
+        15029
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\1195460dd0d251cd.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9"
+        }
+      ],
+      "truth_sha256": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9",
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "note": "QA truth; Shenzi boundaries may be machine anchored. Strict scorer labels, no synonyms."
+    },
+    {
+      "case_id": "ae5c647135c45e6b",
+      "suite": "human_qa",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "y0": 10093,
+      "y1": 58782,
+      "window": [
+        10093,
+        58782
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.json",
+      "column_box": [
+        1875,
+        2363,
+        1970,
+        71702
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ae5c647135c45e6b.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_dataset\\human_labels\\truth\\60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400.csv",
+          "sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13"
+        }
+      ],
+      "truth_sha256": "2f2959008e24fc7fa902619c5bacf5b68b30dfb7d0d5b90ad57b760a91f6fa13",
+      "image_sha256": "da744e966066bff7f0fcd3d9c66c1cf05e1660d4fe4848771094a0a488793928",
+      "annotation_sha256": "fede49390d8a6c2d8dffebc7a505aa7d4e59cebbf73cc2fbbe968383924d49f5",
+      "note": "QA truth; Shenzi boundaries may be machine anchored. Strict scorer labels, no synonyms."
+    },
+    {
+      "case_id": "43cb7bed033fe027",
+      "suite": "hadrian_unqa",
+      "log": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+      "y0": 1738,
+      "y1": 24773,
+      "window": [
+        1738,
+        24773
+      ],
+      "family": "Geoservices grid",
+      "well": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60808400140000_hadrian 2_masterlog_2in_10000-21962.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60808400140000_hadrian 2_masterlog_2in_10000-21962.json",
+      "column_box": [
+        525,
+        1528,
+        582,
+        49449
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\43cb7bed033fe027.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\neel_labels\\2026-11-07\\labelling\\labels\\60808400140000_hadrian 2_masterlog_2in_10000-21962.json",
+          "sha256": "4221a76315dafdd21992438be65d5e62484b2becfb417db1acbf75068c96e67d"
+        }
+      ],
+      "truth_sha256": "2967086f296a2769198b13605caf4f6bcc5510492ac74d2e797cfe18d4ccdd04",
+      "image_sha256": "dc44bcdaf674c7e8ac30c6022758a9ba4e205d1a3435656e5085419450279f4e",
+      "annotation_sha256": "768794dbfda8d28ca958bdda4a08ff25a735b794fecf37148161a8882e490cd6",
+      "note": "Hadrian not QA. First composition type only; no synonym or membership credit. Blank truth gaps ignored by shared scorer."
+    },
+    {
+      "case_id": "a19ddaae4536e5e9",
+      "suite": "human_gold",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "y0": 4409,
+      "y1": 10415,
+      "window": [
+        4409,
+        10415
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\a19ddaae4536e5e9.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+          "sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+        }
+      ],
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "note": "Same D-582 log also appears in Viridien; pooled summary gives each physical log one weight."
+    },
+    {
+      "case_id": "e8f56cfacf365848",
+      "suite": "ext_dev",
+      "log": "ext_kgs_386825",
+      "y0": 2705,
+      "y1": 8705,
+      "window": [
+        2705,
+        8705
+      ],
+      "family": "unknown",
+      "well": "ext_kgs_386825",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_kgs_386825.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_kgs_386825.json",
+      "column_box": [
+        443,
+        2705,
+        518,
+        10200
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\e8f56cfacf365848.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_kgs_386825.csv",
+          "sha256": "aee5422982937db8db0e0cba8d1f363a8903923125afb16ac27e2fa55202d6b3"
+        }
+      ],
+      "truth_sha256": "aee5422982937db8db0e0cba8d1f363a8903923125afb16ac27e2fa55202d6b3",
+      "image_sha256": "e7e2302a980815633a272482496b9875dbdd9ade2687680ec9fbb151ea44e105",
+      "annotation_sha256": "3fc5a2a0264ef54972f49fd39c4dbf22df66c53640452c8de2dd80f4a8533ca9",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "2b6dda908cddcb08",
+      "suite": "ext_dev",
+      "log": "ext_kgs_386825",
+      "y0": 8705,
+      "y1": 10200,
+      "window": [
+        8705,
+        10200
+      ],
+      "family": "unknown",
+      "well": "ext_kgs_386825",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_kgs_386825.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_kgs_386825.json",
+      "column_box": [
+        443,
+        2705,
+        518,
+        10200
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\2b6dda908cddcb08.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_kgs_386825.csv",
+          "sha256": "aee5422982937db8db0e0cba8d1f363a8903923125afb16ac27e2fa55202d6b3"
+        }
+      ],
+      "truth_sha256": "aee5422982937db8db0e0cba8d1f363a8903923125afb16ac27e2fa55202d6b3",
+      "image_sha256": "e7e2302a980815633a272482496b9875dbdd9ade2687680ec9fbb151ea44e105",
+      "annotation_sha256": "3fc5a2a0264ef54972f49fd39c4dbf22df66c53640452c8de2dd80f4a8533ca9",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "b9d9e7c366357abc",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p135",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p135",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p135.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p135.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\b9d9e7c366357abc.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p135.csv",
+          "sha256": "0629379e03eaa646e0c4b37098b7fcf7ce175e257594141997bf2a76b01c2359"
+        }
+      ],
+      "truth_sha256": "0629379e03eaa646e0c4b37098b7fcf7ce175e257594141997bf2a76b01c2359",
+      "image_sha256": "fa6b6df22bf529b3c14f84a6f8aa0b5b2667e1cbdede8c1d585512b023abc2ea",
+      "annotation_sha256": "07a9502719a12b5456227a876d686a7d49742ca3971923e36e9ba9ee36099bcb",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "8c663ba4eb8e7e72",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p136",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p136",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p136.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p136.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\8c663ba4eb8e7e72.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p136.csv",
+          "sha256": "dd788f4a30c0be9692c2d5da778ad28a7cee32ec20da4ab5df2286ff199c518c"
+        }
+      ],
+      "truth_sha256": "dd788f4a30c0be9692c2d5da778ad28a7cee32ec20da4ab5df2286ff199c518c",
+      "image_sha256": "60d61a5dd6fa23975b2d4fa62401d3956b41b2da33a900bb29f096457f1a9549",
+      "annotation_sha256": "af69ebda1e1e49a524f9eb9215260ae42a0950191cba9d9c7b2294398c0be487",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "90ea0d641bd30055",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p137",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p137",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p137.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p137.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\90ea0d641bd30055.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p137.csv",
+          "sha256": "6d6f7e5a471dbb81f468e32c7e4083d2c3cbf49f5b826981618ac51563452310"
+        }
+      ],
+      "truth_sha256": "6d6f7e5a471dbb81f468e32c7e4083d2c3cbf49f5b826981618ac51563452310",
+      "image_sha256": "075e51a987fb3eade9706ccd1b9b69867f4bbcb2ea077f853f94bc53790817a0",
+      "annotation_sha256": "e1f3e11bfd890548e53a1176cdac32c6ca987daa94b4bcca2249760bf601f66c",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "e603af2dc9d1467d",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p138",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p138",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p138.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p138.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\e603af2dc9d1467d.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p138.csv",
+          "sha256": "aeb94883b9dd717161cbaa666f5952bc76ad7d05554296a8aff2bcd93c612cb9"
+        }
+      ],
+      "truth_sha256": "aeb94883b9dd717161cbaa666f5952bc76ad7d05554296a8aff2bcd93c612cb9",
+      "image_sha256": "23f4cedb7c019d1a1e1ffa817814c37f786e532a00e3ecd7f29bb05fb60f5a7b",
+      "annotation_sha256": "adfe7c37249bbcab91a1f8117e4134774621b9bc31eb24975336ed2632d0ef3e",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "a4b6dfd681ceeb4a",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p139",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p139",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p139.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p139.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\a4b6dfd681ceeb4a.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p139.csv",
+          "sha256": "380a5b41e4eb65ebe143de45ada0ce710475d8d01817c2e0dc5c0d51772e6df1"
+        }
+      ],
+      "truth_sha256": "380a5b41e4eb65ebe143de45ada0ce710475d8d01817c2e0dc5c0d51772e6df1",
+      "image_sha256": "8d00de8ab53fbe681c1968e4d3daeac57d6e78189fa4e2dfab6a1e45408c0e13",
+      "annotation_sha256": "477e75ef2d482555bd4fc36e3cdd554c03018be1d6b7c51e7108fd473769be8a",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "8c4ac11040b40053",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p140",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p140",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p140.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p140.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\8c4ac11040b40053.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p140.csv",
+          "sha256": "afbcd41ce4ee720c2b2d95a3d7410d14a7724ef0e9784946fd94143cebb44834"
+        }
+      ],
+      "truth_sha256": "afbcd41ce4ee720c2b2d95a3d7410d14a7724ef0e9784946fd94143cebb44834",
+      "image_sha256": "80a2852d66b69cdeaf99899c3a2ba99867b9831f279b7ccb9ce155527009c4ec",
+      "annotation_sha256": "ea7a01fa6e7ef7de8e230a0f7c4790b1f43afe934648ee6111ba764dae2c3e88",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "e87e218c1e33266f",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p141",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p141",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p141.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p141.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\e87e218c1e33266f.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p141.csv",
+          "sha256": "c4f8cc12b267ec4a3521def5bd439e37260712d3d3928c6bab111a130364fd10"
+        }
+      ],
+      "truth_sha256": "c4f8cc12b267ec4a3521def5bd439e37260712d3d3928c6bab111a130364fd10",
+      "image_sha256": "2bcbf8bc4986a5dbe9bc39eb0b49919f3e5c1bb751bcb6fc67e19bac7ca3708e",
+      "annotation_sha256": "2d85474a9ddb712a78842ca6b85de4a1e86fbc1788c9cb2c8ee25bd784ad03f5",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "3c1008ece8a34100",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p142",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p142",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p142.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p142.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\3c1008ece8a34100.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p142.csv",
+          "sha256": "537ab318700a22cd3426a1a5bc4267898fd5b62747ad0dcf4b8e2830054eacd4"
+        }
+      ],
+      "truth_sha256": "537ab318700a22cd3426a1a5bc4267898fd5b62747ad0dcf4b8e2830054eacd4",
+      "image_sha256": "bf458fbcd395bebbf56d9e334b32f815fda898a0a0edbd8b71d135133962b9fe",
+      "annotation_sha256": "213062c0568fd4f56c4551e8d8b56a632e73bdcf3922aa4c27643cc5c9cdfe21",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "fee9bd96b02a7228",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p143",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p143",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p143.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p143.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\fee9bd96b02a7228.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p143.csv",
+          "sha256": "856b8ada7e7318a885b323d8f2446baee9d852a492844cb5dbe51d1957a41513"
+        }
+      ],
+      "truth_sha256": "856b8ada7e7318a885b323d8f2446baee9d852a492844cb5dbe51d1957a41513",
+      "image_sha256": "aac2b7ceb4942c033d1c1649f611d46090c096f6a26c260406593fa420b03d99",
+      "annotation_sha256": "9a7e4add88c7d8d37f002302c17073f9d8af8c568e70d93211c105e15510a4dd",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "e365485083d73b77",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p144",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p144",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p144.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p144.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\e365485083d73b77.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p144.csv",
+          "sha256": "f41e67a9bc77c66c1c95b2304c63cd488ef4def904236ac1f6561095c1a7a58a"
+        }
+      ],
+      "truth_sha256": "f41e67a9bc77c66c1c95b2304c63cd488ef4def904236ac1f6561095c1a7a58a",
+      "image_sha256": "8425d3c2865fc3b977b44f8fa887a0645357ede30c5fd527ede21cebae8ba8e6",
+      "annotation_sha256": "b8836edd691010dc0c6b60dd0076a78c33c4b98f82003095a654ef5f99a00f4d",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "cbf3d306e935c070",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p145",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p145",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p145.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p145.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\cbf3d306e935c070.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p145.csv",
+          "sha256": "8115d17ebec89ecb2d95162eedeac9a912007f9da91b14289225cff2e9634701"
+        }
+      ],
+      "truth_sha256": "8115d17ebec89ecb2d95162eedeac9a912007f9da91b14289225cff2e9634701",
+      "image_sha256": "bb272bda3675ebee90a9684db1fadc463de4ad348f1cdea81586f7e7dd53ae72",
+      "annotation_sha256": "0ea81b4a1e1b3f8ed3e252a6447c10f6d4fdb48a98f2187f73a6836a90740986",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "330e27c0c410c395",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p146",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p146",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p146.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p146.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\330e27c0c410c395.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p146.csv",
+          "sha256": "b1514f8476eeff38fa57d6c89d9014043de97b9808c27bc3a0c9f50602921142"
+        }
+      ],
+      "truth_sha256": "b1514f8476eeff38fa57d6c89d9014043de97b9808c27bc3a0c9f50602921142",
+      "image_sha256": "8a718b7253f825e726df95e18fef2ceebd023f62cb8245e7ebd79bc4abfd748c",
+      "annotation_sha256": "e6268c0e3710b109e10357f4528677f35c0759b05ffa88b7847c7ed30dc28a66",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "0135a2e4a59a4c27",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p147",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p147",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p147.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p147.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0135a2e4a59a4c27.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p147.csv",
+          "sha256": "7c49283f4af6ff8fe4f0b9d1a087bff3a5f3bd0a5730fe355a4ec6f92a5bea01"
+        }
+      ],
+      "truth_sha256": "7c49283f4af6ff8fe4f0b9d1a087bff3a5f3bd0a5730fe355a4ec6f92a5bea01",
+      "image_sha256": "0e79e8af579cc1fb6c4075a444a6c19179ab3a1f43d2d5dfe017360710c5ef87",
+      "annotation_sha256": "d4007f08f91017fe354e84710826e167fe8536eb38422bf82812306db35b3c32",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "70a155a1b7ec3fc7",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p148",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p148",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p148.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p148.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\70a155a1b7ec3fc7.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p148.csv",
+          "sha256": "e6826dc9b7d08b85156eecb7c75230c92d87dae08d29a9fdba89fc2938e933cf"
+        }
+      ],
+      "truth_sha256": "e6826dc9b7d08b85156eecb7c75230c92d87dae08d29a9fdba89fc2938e933cf",
+      "image_sha256": "eeb93b7a3f1fc6ebc05d848e0cf3b1304fa9793194d46f6adbcac4c38397cd2e",
+      "annotation_sha256": "779049d2b3acc8c9481ac5e35aa657047528adfd36bbec032b10a212a999f90e",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "ce90517b4b344ef3",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p149",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p149",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p149.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p149.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ce90517b4b344ef3.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p149.csv",
+          "sha256": "65de829bab5a73b4c4a613cfa3cb53bd2ef60bee1b6dfbd1c80afa4c5418c3f5"
+        }
+      ],
+      "truth_sha256": "65de829bab5a73b4c4a613cfa3cb53bd2ef60bee1b6dfbd1c80afa4c5418c3f5",
+      "image_sha256": "801f98550cdf65b1580e1d0d11d8b0a277da5425e570cbe29c4b2f14c43c2f81",
+      "annotation_sha256": "ceb6610d94d665a422998982d211f1513a5635ee0bec01876655ace1a0825014",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "561d8f6812bc63a0",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p150",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p150",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p150.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p150.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\561d8f6812bc63a0.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p150.csv",
+          "sha256": "83f452711fac31598003f90a2c3744d1b2b9959a1db5ec03491b267aedb18cab"
+        }
+      ],
+      "truth_sha256": "83f452711fac31598003f90a2c3744d1b2b9959a1db5ec03491b267aedb18cab",
+      "image_sha256": "bac75427f92613fcfe93256ef313b27534087d4da357b0eca8dae162d7b23119",
+      "annotation_sha256": "5a0665aa97627fac015365ab650f52a67c99f5274d09e096e994449c2ea3cde8",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "b675d179c661df4c",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p151",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p151",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p151.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p151.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\b675d179c661df4c.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p151.csv",
+          "sha256": "acfe08e4a0f2d3280edc3073a8af979c10a12c133539e14887878edf696c0e28"
+        }
+      ],
+      "truth_sha256": "acfe08e4a0f2d3280edc3073a8af979c10a12c133539e14887878edf696c0e28",
+      "image_sha256": "21938d4e857b18615cf6c3355d2aeb90ed6c2178874716a20caef5893baec731",
+      "annotation_sha256": "bc1e46c27a92c19a2319bf81960acef96c8f48136471f35fabe707ee050bf790",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "6d2a1c3400675c3f",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p152",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p152",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p152.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p152.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6d2a1c3400675c3f.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p152.csv",
+          "sha256": "1ca362c121b08731b954cf51cddfbf019b452b5e29467048d604030631b4629a"
+        }
+      ],
+      "truth_sha256": "1ca362c121b08731b954cf51cddfbf019b452b5e29467048d604030631b4629a",
+      "image_sha256": "af107d1a8abae190b5569265b0fc6615a99670eeb7c3c83ca96bd691c779460c",
+      "annotation_sha256": "f60e994f25537055d7db7a4a01982ab66b963e553c9f71926035da87fececda5",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "55a6c2463cafd15b",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p153",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p153",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p153.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p153.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\55a6c2463cafd15b.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p153.csv",
+          "sha256": "c9d472bab0b916e39b4e090b6cec48dacb76a460bed2d4350c3fc0fff6034f63"
+        }
+      ],
+      "truth_sha256": "c9d472bab0b916e39b4e090b6cec48dacb76a460bed2d4350c3fc0fff6034f63",
+      "image_sha256": "bdf20b1a558a67a0a5ac26d238a222f22bba1c5e5baf3cec7c90bbed1a93b962",
+      "annotation_sha256": "6f26ba70c2c04325535c32e386e17278d9f138da2f8b765088551433cbe923b2",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "3362822de30bf870",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p154",
+      "y0": 355,
+      "y1": 1630,
+      "window": [
+        355,
+        1630
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p154",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p154.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p154.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        1630
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\3362822de30bf870.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p154.csv",
+          "sha256": "a1ca4fc56b574cb56a64ad01299d73793c6ef5c3df756d029ae38c9a82113ec0"
+        }
+      ],
+      "truth_sha256": "a1ca4fc56b574cb56a64ad01299d73793c6ef5c3df756d029ae38c9a82113ec0",
+      "image_sha256": "38df67d66f27618f8f39b2846c5e188abb6f93f8bf10762bb44675b4d0b4c4d4",
+      "annotation_sha256": "8ce9f1d25b9b6724c4c3f29f29438ef43d4fcff01c65c228948e5e1b1fdab7e3",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "a288918a872baeb5",
+      "suite": "ext_dev",
+      "log": "ext_utah_4304150011_p155",
+      "y0": 355,
+      "y1": 790,
+      "window": [
+        355,
+        790
+      ],
+      "family": "unknown",
+      "well": "ext_utah_4304150011_p155",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_utah_4304150011_p155.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_utah_4304150011_p155.json",
+      "column_box": [
+        767,
+        355,
+        857,
+        790
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\a288918a872baeb5.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_utah_4304150011_p155.csv",
+          "sha256": "f4bbad4e3c21d2b2cee870d1bf3a7fb482058dcfe5919d959a1406cb62cf31bd"
+        }
+      ],
+      "truth_sha256": "f4bbad4e3c21d2b2cee870d1bf3a7fb482058dcfe5919d959a1406cb62cf31bd",
+      "image_sha256": "c12c411ec15e345960df19f9c8a18745ebd8e6a995904714c15512eefd30c46d",
+      "annotation_sha256": "308d3ba0db4bd449c7063dd0397e5c7093b58a315c011d4c6be6afd72f959467",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "bb8c1562f90f9fea",
+      "suite": "ext_dev",
+      "log": "ext_idaho_barlow3-14_p001",
+      "y0": 2510,
+      "y1": 8510,
+      "window": [
+        2510,
+        8510
+      ],
+      "family": "unknown",
+      "well": "ext_idaho_barlow3-14_p001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "column_box": [
+        451,
+        2510,
+        543,
+        21750
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\bb8c1562f90f9fea.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p001.csv",
+          "sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76"
+        }
+      ],
+      "truth_sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76",
+      "image_sha256": "1e5d86d6bf0cbf7047adca144abd3a016e7a4f74ccb198dbb0f25ffe5aacb311",
+      "annotation_sha256": "70ee2ab1683e09a064d4baf2090866705b9ccfdbc040dde73a6871ff538004c4",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "c0142ba943917da2",
+      "suite": "ext_dev",
+      "log": "ext_idaho_barlow3-14_p001",
+      "y0": 9130,
+      "y1": 15130,
+      "window": [
+        9130,
+        15130
+      ],
+      "family": "unknown",
+      "well": "ext_idaho_barlow3-14_p001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "column_box": [
+        451,
+        2510,
+        543,
+        21750
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\c0142ba943917da2.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p001.csv",
+          "sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76"
+        }
+      ],
+      "truth_sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76",
+      "image_sha256": "1e5d86d6bf0cbf7047adca144abd3a016e7a4f74ccb198dbb0f25ffe5aacb311",
+      "annotation_sha256": "70ee2ab1683e09a064d4baf2090866705b9ccfdbc040dde73a6871ff538004c4",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "cb2c5047736fc517",
+      "suite": "ext_dev",
+      "log": "ext_idaho_barlow3-14_p001",
+      "y0": 15750,
+      "y1": 21750,
+      "window": [
+        15750,
+        21750
+      ],
+      "family": "unknown",
+      "well": "ext_idaho_barlow3-14_p001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p001.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p001.json",
+      "column_box": [
+        451,
+        2510,
+        543,
+        21750
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\cb2c5047736fc517.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p001.csv",
+          "sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76"
+        }
+      ],
+      "truth_sha256": "b69439a2846309cf049d936968e985da67418a3691971a1bddc9a8c991925b76",
+      "image_sha256": "1e5d86d6bf0cbf7047adca144abd3a016e7a4f74ccb198dbb0f25ffe5aacb311",
+      "annotation_sha256": "70ee2ab1683e09a064d4baf2090866705b9ccfdbc040dde73a6871ff538004c4",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "3ebb341f61b07738",
+      "suite": "ext_dev",
+      "log": "ext_idaho_barlow3-14_p002",
+      "y0": 284,
+      "y1": 6284,
+      "window": [
+        284,
+        6284
+      ],
+      "family": "unknown",
+      "well": "ext_idaho_barlow3-14_p002",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "column_box": [
+        451,
+        284,
+        543,
+        21169
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\3ebb341f61b07738.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p002.csv",
+          "sha256": "5250a58d85b8df4852bcec09d0586a30ad31d1b81ca3a23026dfeb25410f779b"
+        }
+      ],
+      "truth_sha256": "5250a58d85b8df4852bcec09d0586a30ad31d1b81ca3a23026dfeb25410f779b",
+      "image_sha256": "ed1c151a214955811a81443f12a3fe618a086f6135fc609d2bafe76bfbf2839a",
+      "annotation_sha256": "1fc35fab9c99deada1065a303478752b45d65673e1c8ca5edc668a159302ada5",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "33041e1240de5df9",
+      "suite": "ext_dev",
+      "log": "ext_idaho_barlow3-14_p002",
+      "y0": 7726,
+      "y1": 13726,
+      "window": [
+        7726,
+        13726
+      ],
+      "family": "unknown",
+      "well": "ext_idaho_barlow3-14_p002",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "column_box": [
+        451,
+        284,
+        543,
+        21169
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\33041e1240de5df9.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p002.csv",
+          "sha256": "5250a58d85b8df4852bcec09d0586a30ad31d1b81ca3a23026dfeb25410f779b"
+        }
+      ],
+      "truth_sha256": "5250a58d85b8df4852bcec09d0586a30ad31d1b81ca3a23026dfeb25410f779b",
+      "image_sha256": "ed1c151a214955811a81443f12a3fe618a086f6135fc609d2bafe76bfbf2839a",
+      "annotation_sha256": "1fc35fab9c99deada1065a303478752b45d65673e1c8ca5edc668a159302ada5",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "fe41f7e83b244128",
+      "suite": "ext_dev",
+      "log": "ext_idaho_barlow3-14_p002",
+      "y0": 15169,
+      "y1": 21169,
+      "window": [
+        15169,
+        21169
+      ],
+      "family": "unknown",
+      "well": "ext_idaho_barlow3-14_p002",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_idaho_barlow3-14_p002.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_idaho_barlow3-14_p002.json",
+      "column_box": [
+        451,
+        284,
+        543,
+        21169
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\fe41f7e83b244128.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_idaho_barlow3-14_p002.csv",
+          "sha256": "5250a58d85b8df4852bcec09d0586a30ad31d1b81ca3a23026dfeb25410f779b"
+        }
+      ],
+      "truth_sha256": "5250a58d85b8df4852bcec09d0586a30ad31d1b81ca3a23026dfeb25410f779b",
+      "image_sha256": "ed1c151a214955811a81443f12a3fe618a086f6135fc609d2bafe76bfbf2839a",
+      "annotation_sha256": "1fc35fab9c99deada1065a303478752b45d65673e1c8ca5edc668a159302ada5",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "07f9c29491bfde6f",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p071",
+      "y0": 1314,
+      "y1": 1880,
+      "window": [
+        1314,
+        1880
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p071",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p071.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p071.json",
+      "column_box": [
+        445,
+        1314,
+        542,
+        1880
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\07f9c29491bfde6f.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p071.csv",
+          "sha256": "15b6762636a1a62739bc519edd59b7fd9b8be34034f12b3ccee47fe5cb4b8bc3"
+        }
+      ],
+      "truth_sha256": "15b6762636a1a62739bc519edd59b7fd9b8be34034f12b3ccee47fe5cb4b8bc3",
+      "image_sha256": "524453acf96e96bf292eb130fa6fb05c60a2280a61c55ac5f8778c9960c2b389",
+      "annotation_sha256": "1f4691172f1692d2d36a7d89ebe28ec69930b2b70b75fd53698651450ba5d2b2",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "a2c76a9ccee2a6a3",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p073",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p073",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p073.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p073.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\a2c76a9ccee2a6a3.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p073.csv",
+          "sha256": "fc47a8bb3554fab97fe71903da0ba861ec6e1d4a33ae6bdea8a0606ff190b0cf"
+        }
+      ],
+      "truth_sha256": "fc47a8bb3554fab97fe71903da0ba861ec6e1d4a33ae6bdea8a0606ff190b0cf",
+      "image_sha256": "d9bcd17f7999a09c553c2af523ce445fbf2296bb4f89f39af6b7718481e3cf6a",
+      "annotation_sha256": "3402a0bf357638a45d2680b865ad801db38a025fcefb5082feb7783aab476455",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "647c99cae3f0417a",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p074",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p074",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p074.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p074.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\647c99cae3f0417a.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p074.csv",
+          "sha256": "bd1ac1ec1c305e11da33d3d2713e78c97bb3300d3b908a0bf4ce68cc53dc0d25"
+        }
+      ],
+      "truth_sha256": "bd1ac1ec1c305e11da33d3d2713e78c97bb3300d3b908a0bf4ce68cc53dc0d25",
+      "image_sha256": "c6f6d51806095752cdbf0e131040fce426de36d63fa4336b358b100c8662dcaa",
+      "annotation_sha256": "9dbd571bb0844146f13f32ece3344e9db888fefc8df10506bf3f2ed7a4731821",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "ae7dffdcb9cac3a6",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p075",
+      "y0": 232,
+      "y1": 1877,
+      "window": [
+        232,
+        1877
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p075",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p075.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p075.json",
+      "column_box": [
+        444,
+        232,
+        542,
+        1877
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ae7dffdcb9cac3a6.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p075.csv",
+          "sha256": "ed1b2978402a5cf5769a660a5bbf560163111283bc3c280daf3a13efbbb4e968"
+        }
+      ],
+      "truth_sha256": "ed1b2978402a5cf5769a660a5bbf560163111283bc3c280daf3a13efbbb4e968",
+      "image_sha256": "d4732da6262b331ae965b1b8f0425ead84fbe1e7713d4e067a40c7abc4e6cd4d",
+      "annotation_sha256": "fdf08e3896558d88d4f76bab4b1317b285742492563ee97fbcc13da20047a55e",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "a3897eab5a7749d4",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p076",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p076",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p076.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p076.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\a3897eab5a7749d4.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p076.csv",
+          "sha256": "fcea6e5dac97a3f3639d6c46eb6261449f3a3de399e41f5f9922818096c5454a"
+        }
+      ],
+      "truth_sha256": "fcea6e5dac97a3f3639d6c46eb6261449f3a3de399e41f5f9922818096c5454a",
+      "image_sha256": "ea22fd4b3a98ba7129de63d85fe16e33bc3a17dbd166a016d35c60ee7cf1b805",
+      "annotation_sha256": "e30afb4f14d0ab7ba06e2cc2ffa77c57ff8a96e11e6f163f6a4decc18b142f1b",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "a3c97671ae3147ab",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p077",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p077",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p077.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p077.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\a3c97671ae3147ab.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p077.csv",
+          "sha256": "85b62d24397bbe8e1d2ebb391f9042bda02c81f16c2b4d4377caa67e694b96b4"
+        }
+      ],
+      "truth_sha256": "85b62d24397bbe8e1d2ebb391f9042bda02c81f16c2b4d4377caa67e694b96b4",
+      "image_sha256": "26ed9478044fd715a8fc3b44749ae02be513dcb4743b50fe0f4f02bdfd60cc5b",
+      "annotation_sha256": "636c4b1666442e650e39f1ba25c4e0b2dcde97990c14a9c4125d6e556a4e0e78",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "c3f7a18df5be0a94",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p078",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p078",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p078.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p078.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\c3f7a18df5be0a94.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p078.csv",
+          "sha256": "f138b5b88f652f250da39cbd367831aaba0e21fc8a98f27f65a2307b53714fb2"
+        }
+      ],
+      "truth_sha256": "f138b5b88f652f250da39cbd367831aaba0e21fc8a98f27f65a2307b53714fb2",
+      "image_sha256": "d2ddf7317a8e05aef61aefe2445c7f5ee93a644f2eecb667d8bf6afe7de7ba6e",
+      "annotation_sha256": "358d1b50418c0637e1660c037ae4c212c3e33dfd889eb8a6add02752d37746f3",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "9b39a65b3b3d9988",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p079",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p079",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p079.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p079.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\9b39a65b3b3d9988.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p079.csv",
+          "sha256": "ad0da2757d23adb561b29b99cab2e9694b09ef8b598241fc8c70f8818efcc6dd"
+        }
+      ],
+      "truth_sha256": "ad0da2757d23adb561b29b99cab2e9694b09ef8b598241fc8c70f8818efcc6dd",
+      "image_sha256": "ee00ce1a2297764750fdac9ea9a89c5ea89e7f86883c4fbd6113a077a26de84b",
+      "annotation_sha256": "d18955fa6bfecae6f7923edb4a8355871435418877bec921163ff7ac0df8a088",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "06bbdc9380d6513f",
+      "suite": "ext_dev",
+      "log": "ext_nl_flat-bay-2_p080",
+      "y0": 232,
+      "y1": 1879,
+      "window": [
+        232,
+        1879
+      ],
+      "family": "unknown",
+      "well": "ext_nl_flat-bay-2_p080",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_flat-bay-2_p080.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_flat-bay-2_p080.json",
+      "column_box": [
+        445,
+        232,
+        542,
+        1879
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\06bbdc9380d6513f.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_flat-bay-2_p080.csv",
+          "sha256": "e9423611454cdf16b13748a70742b16eec431da839f193a8113e7060c21cf36c"
+        }
+      ],
+      "truth_sha256": "e9423611454cdf16b13748a70742b16eec431da839f193a8113e7060c21cf36c",
+      "image_sha256": "1a99b80b1d2d0ad8caaa2b5f79ff5d7e03a3138e1d41e4d2fb0c731de8689cf1",
+      "annotation_sha256": "1d60bbd97cb18f52df83926cdff793d2c069582f3c3f04ce7ffdd818be114185",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "cfc8e1a1933f260a",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p071",
+      "y0": 1191,
+      "y1": 1825,
+      "window": [
+        1191,
+        1825
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p071",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p071.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p071.json",
+      "column_box": [
+        489,
+        1191,
+        588,
+        1825
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\cfc8e1a1933f260a.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p071.csv",
+          "sha256": "921dc5a52e1849f68758410fd07718cf196ac5c0fae7de408fcf2d0102b1e80b"
+        }
+      ],
+      "truth_sha256": "921dc5a52e1849f68758410fd07718cf196ac5c0fae7de408fcf2d0102b1e80b",
+      "image_sha256": "b61d74136ec05e6f032527b373728234a518c0766aaf3c6552608d646ebf601d",
+      "annotation_sha256": "ad3ab74e5991ee5743e517fa690960c649bfe461c98b0577e3e779d8913c8ea0",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "9896d1dc4052fca7",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p072",
+      "y0": 177,
+      "y1": 1822,
+      "window": [
+        177,
+        1822
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p072",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p072.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p072.json",
+      "column_box": [
+        489,
+        177,
+        587,
+        1822
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\9896d1dc4052fca7.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p072.csv",
+          "sha256": "c7ad881729d9cd52e56d267c4341f2039a0eab82eac1911b82f9e69cfd2a067e"
+        }
+      ],
+      "truth_sha256": "c7ad881729d9cd52e56d267c4341f2039a0eab82eac1911b82f9e69cfd2a067e",
+      "image_sha256": "d4c17b298f4ad6e4128b7f07d8221b73fd7331b207514b90fefb11d82f02c7f6",
+      "annotation_sha256": "6e387261689c3a1539c9347da32369fa8a51334c411be1c57e3d0659609cd0f6",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "28ead2232164d833",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p073",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p073",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p073.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p073.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\28ead2232164d833.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p073.csv",
+          "sha256": "eeac2b7976a6e2de85e767e65f2a5e332ad867bcecdebf976aee8aa6aa069441"
+        }
+      ],
+      "truth_sha256": "eeac2b7976a6e2de85e767e65f2a5e332ad867bcecdebf976aee8aa6aa069441",
+      "image_sha256": "db83cc56c69bb6e4c400971c127ceb39c82715fbb5570cc45efa25b57cfd5271",
+      "annotation_sha256": "14b955dc5ebff308228aaae478a7387b5189e6232513cb9118c6a82ea9d84115",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "4b9fc8eda216939d",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p074",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p074",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p074.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p074.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\4b9fc8eda216939d.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p074.csv",
+          "sha256": "eaf29c16a44d9dfc00b00542a7aaa91df6253a926e977d84891c6ec0d7e111b7"
+        }
+      ],
+      "truth_sha256": "eaf29c16a44d9dfc00b00542a7aaa91df6253a926e977d84891c6ec0d7e111b7",
+      "image_sha256": "aea95773902f01c3a1d177c3f688c151f0f5662219945995c4072e56ac3e1207",
+      "annotation_sha256": "4ab58a34b1a5280c4af97e8fb6f2449b0f6e3dfa8e36acdab5ba57d8180865e7",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "0957c52abccd57b5",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p075",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p075",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p075.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p075.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0957c52abccd57b5.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p075.csv",
+          "sha256": "1bfe13f97f9a5b0f9d2fa82ee51c72ab93ba9900fc2dc69ce3c670ae681b1d3c"
+        }
+      ],
+      "truth_sha256": "1bfe13f97f9a5b0f9d2fa82ee51c72ab93ba9900fc2dc69ce3c670ae681b1d3c",
+      "image_sha256": "ab5a18177911707507dd2637fa0cdfbe150fa50a2404366fbd61046b04c03633",
+      "annotation_sha256": "c8ed0952aee2d17f363e88e05b69b64fb709394ff54414db6cf7aea2af7268be",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "2dafc1a4e6a8369e",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p076",
+      "y0": 177,
+      "y1": 1823,
+      "window": [
+        177,
+        1823
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p076",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p076.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p076.json",
+      "column_box": [
+        489,
+        177,
+        587,
+        1823
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\2dafc1a4e6a8369e.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p076.csv",
+          "sha256": "3c877aea5c3b7740a908283a99363f1386397ccbd02c84cf4eb62cc4caa7ae6c"
+        }
+      ],
+      "truth_sha256": "3c877aea5c3b7740a908283a99363f1386397ccbd02c84cf4eb62cc4caa7ae6c",
+      "image_sha256": "d08d8764f307e7f4ceb32259de5c8d0d47b7acfa913bb5764e56c06244deb315",
+      "annotation_sha256": "53ff017bd85311e168076df6a858ae9da6d3e5bd22dcb4d0eee286a598c477e8",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "7e73631240e0a6d7",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p077",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p077",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p077.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p077.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\7e73631240e0a6d7.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p077.csv",
+          "sha256": "4c7aef6ddaf2969b142b096ce6ad2a2a48ac802098afcaaea820b5499c4b7ba5"
+        }
+      ],
+      "truth_sha256": "4c7aef6ddaf2969b142b096ce6ad2a2a48ac802098afcaaea820b5499c4b7ba5",
+      "image_sha256": "23536b1df08c8b252f599201e18be385a4b3371cf065a567be0cb4e68775fa24",
+      "annotation_sha256": "9b98ee0d24e4903750126176de8a65a99a15afaeefb4061f1b4fe2f7235af943",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "36f6455179270cb4",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p078",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p078",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p078.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p078.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\36f6455179270cb4.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p078.csv",
+          "sha256": "943c18ae5889b144abeab7df8af9d921d1855f749f1252af10874cfa27588cfd"
+        }
+      ],
+      "truth_sha256": "943c18ae5889b144abeab7df8af9d921d1855f749f1252af10874cfa27588cfd",
+      "image_sha256": "c8e39d6cf56c2f7b3d1599831396d6b16cc95de665ba407a03193d37f8688b4e",
+      "annotation_sha256": "8722c52ba29362ac22527c2fb82a5d23c46ffe11aefec3fcb2008132112f6caf",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "d86ce950e0e43f87",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p079",
+      "y0": 177,
+      "y1": 1823,
+      "window": [
+        177,
+        1823
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p079",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p079.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p079.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1823
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\d86ce950e0e43f87.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p079.csv",
+          "sha256": "c70912382ea90b3c7339e0f7d0cc1acf7e1ecf45a9c01bf827df88966ee79f77"
+        }
+      ],
+      "truth_sha256": "c70912382ea90b3c7339e0f7d0cc1acf7e1ecf45a9c01bf827df88966ee79f77",
+      "image_sha256": "3c07ec3d4fcd235f59d7d476e5b4794faab43dc867ac4f904d9adeb127bb9cd2",
+      "annotation_sha256": "077a53ad899d0122e88cee317fa794a1994a44f2d94ed0190581754911c56d42",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "fcbfc7874d32b97b",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p080",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p080",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p080.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p080.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\fcbfc7874d32b97b.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p080.csv",
+          "sha256": "3ff4a94583053dd661d93083a0bf2b729b6b63914cd8131d4c40c36ea8e57ac5"
+        }
+      ],
+      "truth_sha256": "3ff4a94583053dd661d93083a0bf2b729b6b63914cd8131d4c40c36ea8e57ac5",
+      "image_sha256": "38308b55101520ebf66ecfd74739a242ff185174ea704b929f500758fccd3af2",
+      "annotation_sha256": "d0f0eca96302cce974614e9d8a900682b8125fb673c3d6eeffc4c32327dceafa",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "5ce3eae072aa402f",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p081",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p081",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p081.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p081.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\5ce3eae072aa402f.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p081.csv",
+          "sha256": "672271cd7712d5b8c480e61c9ee13d9d1b2cf10cbb524d00b959862c5866a377"
+        }
+      ],
+      "truth_sha256": "672271cd7712d5b8c480e61c9ee13d9d1b2cf10cbb524d00b959862c5866a377",
+      "image_sha256": "ed15295ec53ad451ce8f02c6e48ba03b915464c86bbef2423df9a1d71249c319",
+      "annotation_sha256": "a4ab2aa7e6782bac2c932e30a511d002706fb73f5e23b7e367eb7565eecc3dfa",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "fdeba984370e4d61",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p082",
+      "y0": 177,
+      "y1": 1824,
+      "window": [
+        177,
+        1824
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p082",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p082.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p082.json",
+      "column_box": [
+        489,
+        177,
+        588,
+        1824
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\fdeba984370e4d61.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p082.csv",
+          "sha256": "66fd7e02e341412e624225f37a25e1ea7d3ed64b731c0959f324120604a84810"
+        }
+      ],
+      "truth_sha256": "66fd7e02e341412e624225f37a25e1ea7d3ed64b731c0959f324120604a84810",
+      "image_sha256": "21ece40fbf9ba6b7128a12f95e44dd6e9b187644242065a759c97977e9858002",
+      "annotation_sha256": "0cf075a9d206e1c9d1a2384cf55c8fce4809d2da01d08d3ed8bc80dc3af26f79",
+      "note": "DEV only. External test and verify splits not opened."
+    },
+    {
+      "case_id": "8d7102b71d63fef8",
+      "suite": "ext_dev",
+      "log": "ext_nl_storm_p083",
+      "y0": 177,
+      "y1": 1822,
+      "window": [
+        177,
+        1822
+      ],
+      "family": "unknown",
+      "well": "ext_nl_storm_p083",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p083.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p083.json",
+      "column_box": [
+        489,
+        177,
+        587,
+        1822
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\8d7102b71d63fef8.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p083.csv",
+          "sha256": "720d9c17edeccfc3f072026eb1dd751a7bfa702b679e86699ca65ce42224afd7"
+        }
+      ],
+      "truth_sha256": "720d9c17edeccfc3f072026eb1dd751a7bfa702b679e86699ca65ce42224afd7",
+      "image_sha256": "67c5a6d72550b7e00be86fed7806bdc9d27818af4be63aabf73d6c5978204e87",
+      "annotation_sha256": "9d7b335b35020cc7e080cb1253216e50e1b528fdc42fc65c257e40a281157943",
+      "note": "DEV only. External test and verify splits not opened."
+    }
+  ],
+  "source_hashes": {
+    "emil\\paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "harness\\__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "harness\\depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "harness\\io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "harness\\legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "harness\\legend_v2.py": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8",
+    "harness\\legend_v3.py": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+    "harness\\run.py": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+    "harness\\score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "harness\\synth.py": "d9648f23131b6df7199f69b6d85f9619d7a6e9c3c0b47a977f67cd3392a560b0",
+    "harness\\viz.py": "f3ec27283ba7fcafae2e0a38724bfa33b8f7583b57a0964cca912830a527dded",
+    "ml\\boundary\\diagnostics.py": "8ee1a045f0917622bb39581fe75b27e58987f168c6dea0fa1a31cd061b40a94f",
+    "ml\\boundary\\evaluate.py": "95e317d824b362a7895b809bc59d959fec0323d0c82e81ddbb97d36600c951a1",
+    "ml\\boundary\\experiment.py": "a10bbdfcd65680db5080e95e6b3b4fc3680883c1b3897fdca529480c676c337a",
+    "ml\\boundary\\model.py": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859",
+    "ml\\boundary\\report.py": "50fb8a07e8c0599c6a28450b1fe3270ef92cefcd82ff62364d9296538f376fed",
+    "ml\\boundary\\test_boundary.py": "0bbc6c2c8c1c4417a64c4dd7b62f5c1d64afaf6f836ca62e20eadcb46793d280",
+    "ml\\combine\\__init__.py": "94443ff886c4c6de1c184d84c57bbc05e224723299ed1be3fcc466bca82b3e07",
+    "ml\\combine\\boundary_net.pt": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810",
+    "ml\\combine\\boundary_real.pt": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222",
+    "ml\\combine\\experiment.py": "5c543dffd90356e2d10cd914572e2bea1c2161d5fce3836bb5cf72be6249a509",
+    "ml\\combine\\matcher.npz": "01cba25e573ee7552d6c4f99df4be7736eea6dce255c580e1e7b286a8ce0af62",
+    "ml\\combine\\matcher_real.npz": "b688bfa064147ac91a3622e00d71eba2e3876af44077c44f402ff57caed8f278",
+    "ml\\combine\\report.py": "99d1cc647d4c03df32e93959565d22d8eba7bf49f9a497e8e92b1a7dcb0b9c34",
+    "ml\\combine\\runtime.py": "9de34dbf973b7f5870cd0dfb62b3c56025a4713a7ca562319c4d5c460ea4503d",
+    "ml\\combine\\selected.json": "5a49b37499459f0f201779b45f2a1c3e481011bd2acbcc655b7e5aaf2f9cdd71",
+    "ml\\combine\\test_combine.py": "092ba9e5bb69e9a3cb47a2ac93cbfa904cfc82cd1d6185daca26ff462c2ee4d1",
+    "ml\\integrate\\core.py": "c0911f8c78a436b23713130ab3cda787d8ae30752a0979379c7acf4076d4d686",
+    "ml\\integrate\\experiment.py": "7b5dbeb6c832bbb686043adb7193c1a57f23d4642b0ebd1e60a8a7785429fba9",
+    "ml\\integrate\\final_diagnostics.py": "1b81e97f3212b57c43bb1b25f41a99d94156e2eab04855a5f218e55fa0918a63",
+    "ml\\integrate\\test_integrate.py": "1da7df4e4deb19343e6f5031a1da445750b7aefa14492b2ac0b7fedc32965b58",
+    "ml\\match\\experiment.py": "00721532264c92122fd4fd18d8c99438765dc32e268103c945b8421f93ca44bd",
+    "ml\\match\\features.py": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+    "ml\\match\\report.py": "56167f5f3b1a9b0af90f4cecc90e9d833942a46aeb3a64d98a799e4d497b27f3",
+    "ml\\match\\test_match.py": "26673ef7c5c27136c9cd20d6f39339e02096ca61579730544a6fbbbef5d3cd2b",
+    "report\\scoreboard_1108\\evaluation_protocol.json": "3772fe30c89615d5af5aded2e1f968ff79eb384ffe482a2dc1565fd953827463",
+    "report\\scoreboard_1108\\reviewed_dev_wells.json": "b97044986328f384f9ef3ced149d16c12cd4fce42f5fb4c81f216a34dfd28e80",
+    "report\\scoreboard_1108\\score_all.py": "26e32c403a3d9677bed4906142619d8456b942d6469ed17c289120a4f230971e",
+    "report\\scoreboard_1108\\variant_protocol_addendum.json": "513bf7002db4fefd4cb87e842cde8c7e43f599f02328fec773e3118f0810d42c",
+    "strategies\\s02_features_pelt.py": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e",
+    "strategies\\s14_learned_match.py": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+    "strategies\\s19_combine.py": "dbeea29bc0e56f768ac8bc99ebf57689e93a6932c3cd31f6c760ab61992d955d",
+    "strategies\\s20_legend_v4.py": "61fc2bd3ce542d37c51b71c5dc7ca32570c47b116ca021bb6e4aa94cffa248e0",
+    "strategies\\s20_v4.py": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+    "strategies\\s21_synth_v2.py": "70199e6fd7517f7ce1ff6cccb65391fa9214cdea33458a83a3bac2fa5252ab17",
+    "strategies\\s21_v4dino.py": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22",
+    "strategies\\s23_v4dino_identity.py": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+    "strategies\\scoreboard_v4.py": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+    "strategies\\scoreboard_v4_snapshot\\beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+    "strategies\\scoreboard_v4_snapshot\\legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "strategies\\scoreboard_v4_snapshot\\log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+    "strategies\\scoreboard_v4_snapshot\\native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+    "strategies\\scoreboard_v4_snapshot\\README.md": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906"
+  },
+  "created_utc": "2026-11-08T05:42:41Z",
+  "method": {
+    "metric": "harness.score.score, min_layer_px=0, strict labels",
+    "primary_mean": "Mean case score within physical log, then equal-log mean. Mean of products, never product of means.",
+    "pool": "Descriptive development pool: per physical log use QA, then gold, then Viridien, then DEV, then unQA precedence. Equal log weight; no independent validation claim.",
+    "bootstrap": "Paired log percentile bootstrap, 10000 draws, seed 1108; well sensitivity also reported.",
+    "timing": "run() only includes cold model load and strategy-specific parsing; common legend/depth separately. Serial CUDA synchronization. Warm cache may differ by case order."
+  },
+  "guard_recovery": {
+    "reason": "Concurrent edits to nonexecuted harness bench.py and unlabelled_metrics.py caused guard abort after first case. Removed nonexecuted harness files from guard; inference/scorer/strategy hashes unchanged. Runner change narrows guard only.",
+    "removed_guard_paths": {
+      "harness\\_check.py": "b2e640668aeff86122a92934e138fee3e88a840105173062a2b2ae47124b74f3",
+      "harness\\_dummy.py": "7cfae98adb923db09f2cfe708144c0e01d0ebe8b146c203df69885fa450b19ab",
+      "harness\\bench.py": "325d15f60993d6ed123e9a0121cef76f78b11d1d084b6941136dccbfacb797a0",
+      "harness\\legend_v4.py": "b4fa275f04437b474bcc947c7db0a144100ff81dd9d62077cf366dafe0a64717",
+      "harness\\report.py": "68c683fc1853bea51b29bd5b89f9680be772c87a946e26fd52969ee022d9437a",
+      "harness\\test_bench.py": "825d773b7a456d7460d41190eb77a4d65df6ee425da01f2999e554322d01f74e",
+      "harness\\test_depth.py": "0e2fc6eee7c51079b95681c699aafb7d81bde623bb07d22f9a67a2f417302a09",
+      "harness\\test_run.py": "93795c0c81588a9a40f67fcb0c2fd42d3b616c007cc60d8e25f7995834197c12",
+      "harness\\test_score.py": "f3ddb2c04232557cfe250dd925a16ef46fe5f5c3b0292df27c50bf29f00dddb7",
+      "harness\\test_unlabelled_metrics.py": "4a48979a89ed554475357e21d4a6e4e18a8e52e1962a47b96f8f9a9784c93821",
+      "harness\\test_wave3_fixes.py": "482026272d3c50504cfa5362cdd5488db9ce6df5be6dea2f4f5bac2692fde082",
+      "harness\\unlabelled_metrics.py": "7c412231f2fc7be25eea57e4069a692f0a635ac879ac6c313cc4c9e3f3051fa1"
+    }
+  },
+  "freeze": {
+    "python": "3.12.7",
+    "executable": "C:\\Users\\hssil\\anaconda3\\python.exe",
+    "packages": {
+      "torch": "2.12.0+cu126",
+      "transformers": "4.57.0",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "scikit-learn": "1.8.0",
+      "Pillow": "11.3.0",
+      "opencv-python": "4.11.0.86",
+      "rapidocr-onnxruntime": "1.4.4",
+      "easyocr": "1.7.2",
+      "ruptures": "1.1.10",
+      "tifffile": "2023.4.12"
+    },
+    "dino": {
+      "model": "facebook/dinov2-small",
+      "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
+    },
+    "note": "Pinned from pre-run CUDA smoke. Runtime DINO diagnostic hashes must match. Legacy records were input-validated at migration, not hash-checked at their original read time.",
+    "migration_utc": "2026-11-08T06:17:53Z",
+    "legacy_records": 13,
+    "migration_note": "Validated exact record identities, all declared current input bytes and all unchanged executed sources before adding metadata. Input validation is present-state evidence for legacy records; original read-time hashes were not asserted. Source change adds guards and provenance only."
+  },
+  "candidates": [
+    "s19_combine",
+    "s20_v4",
+    "s21_v4dino",
+    "s23_v4dino_identity"
+  ],
+  "variant_protocol_addendum": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\variant_protocol_addendum.json"
+}

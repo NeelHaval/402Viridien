@@ -1,0 +1,79 @@
+{
+ "schema": "viridien.workspace.v1",
+ "tag": "viridien-workspace-2026-11-08",
+ "created_at": "2026-11-08T03:49:34.342026+00:00",
+ "real": {
+  "snapshot": "8b8884c431cb8ce8aac5",
+  "stats": {
+   "accepted": 1028,
+   "train": 907,
+   "test": 112,
+   "needs_review": 9,
+   "test_groups": 10
+  },
+  "objects": 2961
+ },
+ "synthetic": {
+  "schema": "viridien.synthetic-publication.v1",
+  "status": "experimental",
+  "tag": "viridien-workspace-2026-11-08",
+  "pattern_samples": 1556,
+  "pattern_classes": 389,
+  "columns": 132,
+  "use": "Review and regression work only. Not independent real-world accuracy evidence.",
+  "limitations": [
+   "Earlier v1-v5 builders bypassed an exact-pixel quarantine check.",
+   "Rail, seam, unlabelled-gap and bed-thickness defects were found by reviewers.",
+   "Ongoing fixes are not certified by this source snapshot."
+  ]
+ },
+ "bundles": {
+  "real": {
+   "file": "real-labels.zip",
+   "bytes": 13213228,
+   "sha256": "99985cb1d69c525822903d1eea38ed96b6e8570750d52affe01fc30c405131bd",
+   "status": "human-approved; quality holds remain separate; test status is per record",
+   "files": 2967,
+   "url": "https://github.com/silmoon04/hacktheburgh26/releases/download/viridien-workspace-2026-11-08/real-labels.zip"
+  },
+  "lab": {
+   "file": "pattern-lab-seed.zip",
+   "bytes": 15177782,
+   "sha256": "162fe705d19501b2fd104e4477140e9c291eda570b1709f1fe17e9d57e5a93c9",
+   "status": "accepted annotations plus clearly marked machine suggestions; no reviewer sessions",
+   "files": 3068,
+   "url": "https://github.com/silmoon04/hacktheburgh26/releases/download/viridien-workspace-2026-11-08/pattern-lab-seed.zip"
+  },
+  "generated": {
+   "file": "generated-patterns.zip",
+   "bytes": 78762121,
+   "sha256": "c0b1514c87f136c6cfef6d56dd737eee6eae634b5cbffedfe8c6f694b2aa670f",
+   "status": "experimental; review required; not an approved training release",
+   "files": 9311,
+   "url": "https://github.com/silmoon04/hacktheburgh26/releases/download/viridien-workspace-2026-11-08/generated-patterns.zip"
+  },
+  "synthetic-v5": {
+   "file": "synthetic-v5.zip",
+   "bytes": 68120830,
+   "sha256": "49b09cf45b161c19d1a24a18fa81f83b83d35f10226f299f10ca1d4fcf73619d",
+   "status": "historical experimental dataset; known review findings; no headline scores",
+   "files": 17408,
+   "url": "https://github.com/silmoon04/hacktheburgh26/releases/download/viridien-workspace-2026-11-08/synthetic-v5.zip"
+  },
+  "models": {
+   "file": "model-artifacts.zip",
+   "bytes": 376270,
+   "sha256": "5993708ff611ab564b9c1605d44789d9db5303a6e9671413b990538a1b8956ae",
+   "status": "experimental saved model weights and selected configurations",
+   "files": 23,
+   "url": "https://github.com/silmoon04/hacktheburgh26/releases/download/viridien-workspace-2026-11-08/model-artifacts.zip"
+  }
+ },
+ "excluded": [
+  "Original challenge scans: obtain the organiser archive.",
+  "Private reviewer sessions, tokens, logs and live databases.",
+  "Sealed outside verification data and its key.",
+  "Unreviewed outside downloads: source notes are provided instead.",
+  "Private outside development/test pools beyond the two published subsets. Their split metadata and source manifest are included without their images or answer files."
+ ]
+}

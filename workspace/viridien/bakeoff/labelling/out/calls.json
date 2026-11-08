@@ -1,0 +1,965 @@
+{
+  "limit": 220,
+  "calls": [
+    {
+      "number": 1,
+      "key": "d582:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "69860449327d687bcf0016301296c97a939c31180cad29fb457a00f8862ed4f3",
+      "started": 1794070971.286161,
+      "ok": false,
+      "seconds": 2.2991511000000173
+    },
+    {
+      "number": 2,
+      "key": "d582:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "69860449327d687bcf0016301296c97a939c31180cad29fb457a00f8862ed4f3",
+      "started": 1794071002.7642982,
+      "ok": false,
+      "seconds": 126.75139760000457
+    },
+    {
+      "number": 3,
+      "key": "d582:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "69860449327d687bcf0016301296c97a939c31180cad29fb457a00f8862ed4f3",
+      "started": 1794071191.0190866,
+      "ok": false,
+      "seconds": 2.690644699992845
+    },
+    {
+      "number": 4,
+      "key": "d582:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "69860449327d687bcf0016301296c97a939c31180cad29fb457a00f8862ed4f3",
+      "started": 1794071223.0440307,
+      "ok": false,
+      "seconds": 2.482740499995998
+    },
+    {
+      "number": 5,
+      "key": "d582:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "69860449327d687bcf0016301296c97a939c31180cad29fb457a00f8862ed4f3",
+      "started": 1794071894.898997,
+      "ok": true,
+      "seconds": 22.78808040000149
+    },
+    {
+      "number": 6,
+      "key": "d582:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "aea8fde90ce1b55ddb4ac5c16d7f60c10b357e9b1e0deae6fb19493e6fcc4ab8",
+      "started": 1794071919.4927628,
+      "ok": true,
+      "seconds": 35.0836324999982
+    },
+    {
+      "number": 7,
+      "key": "d582:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "b8bc3251877b46bfa0f11f64c6d041adc0ed3eeee8d358dd63b1b39861b764c0",
+      "started": 1794071919.4987636,
+      "ok": true,
+      "seconds": 10.252694199996768
+    },
+    {
+      "number": 8,
+      "key": "d582:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "09871ce9f4410ced9414045c3845f4825bdb1ef30b2a34087e2a5c772f074e06",
+      "started": 1794071919.5027626,
+      "ok": true,
+      "seconds": 26.94092959999398
+    },
+    {
+      "number": 9,
+      "key": "d582:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "ee8ef2f85c2d8bbacb7b6cb1f247b83de7b4b212c403339d796778991d0a555f",
+      "started": 1794071919.5057628,
+      "ok": true,
+      "seconds": 10.34498039999744
+    },
+    {
+      "number": 10,
+      "key": "d582:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "13cb67dc1542046ea8e8dbfb0e96648c235e344d93ac8f2aa709126b4b6cbfec",
+      "started": 1794071929.791499,
+      "ok": true,
+      "seconds": 32.79445830000623
+    },
+    {
+      "number": 11,
+      "key": "d582:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "7451be667ba6401306a048b0053e189849af99b443203e9956b8968130bde95a",
+      "started": 1794071929.8863733,
+      "ok": true,
+      "seconds": 15.018077300002915
+    },
+    {
+      "number": 12,
+      "key": "d582:i1:tile3",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "1867e2b968e96ab5a6cb7912a685ddaf4bb4074ad1b486a8ddd487a567b3640c",
+      "started": 1794071944.9264915,
+      "ok": true,
+      "seconds": 44.16059679999307
+    },
+    {
+      "number": 13,
+      "key": "d582:i1:tile3",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "b3eda9e62ca2360e1b3ee15ffdaa5b51e010d2501e138c6d6099e521f02d0835",
+      "started": 1794071946.4851286,
+      "ok": true,
+      "seconds": 8.551158899994334
+    },
+    {
+      "number": 14,
+      "key": "d582:i1:tile4",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "739e331bbb43fa80a6bba573811bd2afb49308e1b083c9bcdcecc0f856982000",
+      "started": 1794071954.6187675,
+      "ok": true,
+      "seconds": 32.08402229999774
+    },
+    {
+      "number": 15,
+      "key": "d582:i1:tile4",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "98f7578d3746c59f81641a246339890923c2a1e0fccc50e90a6a862a8c4bd1c7",
+      "started": 1794071955.0560718,
+      "ok": true,
+      "seconds": 9.765842299995711
+    },
+    {
+      "number": 16,
+      "key": "d582:i1:tile5",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "bd7b20ca57174b60df3c577af4ccc3e3789fb577e779ae28acdef080da769f53",
+      "started": 1794071962.609927,
+      "ok": true,
+      "seconds": 44.21786200000497
+    },
+    {
+      "number": 17,
+      "key": "d582:i1:tile5",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "e362812dae91529fd2172571d644698cc95ba4fda15c6273317a4030d7b47904",
+      "started": 1794071964.8449724,
+      "ok": true,
+      "seconds": 12.161017799997353
+    },
+    {
+      "number": 18,
+      "key": "d582:i1:tile6",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "b283fc874bbbc840d23c3d17025c556da166e8a8210edcc135575bc107b0efca",
+      "started": 1794071977.029883,
+      "ok": true,
+      "seconds": 36.18725750000158
+    },
+    {
+      "number": 19,
+      "key": "d582:i1:tile6",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "ba3cf3dba8472ff72e0af99e8fa1ed178275a92b7e1a3e4cfde39e9fd401cfb2",
+      "started": 1794071986.7252479,
+      "ok": true,
+      "seconds": 9.723859599995194
+    },
+    {
+      "number": 20,
+      "key": "d582:i1:tile7",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "d2571cf81d7f263e5562b30addb4cc59cca399cd5a4d9d54b50070205ea77cf3",
+      "started": 1794071989.108571,
+      "ok": true,
+      "seconds": 35.88810209999792
+    },
+    {
+      "number": 21,
+      "key": "d582:i1:tile7",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "9ff15c948a0fbfae03ff28267b33e1dd66571c150a3ffcf2fe91676219fcadf1",
+      "started": 1794071996.4734836,
+      "ok": true,
+      "seconds": 8.99703299999237
+    },
+    {
+      "number": 22,
+      "key": "d582:i1:tile8",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "e05a545d072901a075b8c58cd0395e6128edcf3f343e6329a8d4e01612ba7563",
+      "started": 1794072005.493158,
+      "ok": true,
+      "seconds": 60.85963289999927
+    },
+    {
+      "number": 23,
+      "key": "d582:i1:tile8",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "a8f4ae207a288c9fb19ffede1ee20c21adeb3afb747289515b6623192ed878b6",
+      "started": 1794072006.851936,
+      "ok": true,
+      "seconds": 10.782638000004226
+    },
+    {
+      "number": 24,
+      "key": "d582:i1:tile9",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "a34ec855fe01812c70c574a4d29573983d58f6fa99e297b1448d5c168f30fcac",
+      "started": 1794072013.2419896,
+      "ok": true,
+      "seconds": 31.209950499993283
+    },
+    {
+      "number": 25,
+      "key": "d582:i1:tile9",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "6cab565ceedd49672d72ae753cd9d25cb12c799e0948d0fc69ea2195a1596b11",
+      "started": 1794072017.6575959,
+      "ok": true,
+      "seconds": 11.553570899995975
+    },
+    {
+      "number": 26,
+      "key": "d582:i1:tile10",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "11029bc63b4f00bdc5a2e6aa7ae07d20cd7fb5cbe2fc7b4492d52ba05ca615f9",
+      "started": 1794072025.0136156,
+      "ok": true,
+      "seconds": 21.468513799991342
+    },
+    {
+      "number": 27,
+      "key": "d582:i1:tile10",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "2e1246c58720e1a860af8e479a8365f40d5379b8a93bff7fdecfdf08ac568bb6",
+      "started": 1794072029.2326233,
+      "ok": true,
+      "seconds": 11.18841530001373
+    },
+    {
+      "number": 28,
+      "key": "d582:i1:tile11",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "4e4889782e737d075e42d0b3e93bc0b2a3813091e506a1f3710e85b0524974dd",
+      "started": 1794072040.4435267,
+      "ok": true,
+      "seconds": 48.86614699999336
+    },
+    {
+      "number": 29,
+      "key": "d582:i1:tile11",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "f359df4bc142576fdc47015149998e166676174b8c47908f94f6c7a3c187e7c3",
+      "started": 1794072044.4753973,
+      "ok": true,
+      "seconds": 10.100769199998467
+    },
+    {
+      "number": 30,
+      "key": "d582:i1:tile12",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "6d47fc4b6198ebfbc97f54d5e8c2840f2f794ff70e75f137bab647413e3b29b3",
+      "started": 1794072046.502392,
+      "ok": true,
+      "seconds": 12.337315600001602
+    },
+    {
+      "number": 31,
+      "key": "d582:i1:tile12",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "a62ce8708651e2ffe44cff2242a6badad8bea88a4381da939595f159f025f4c8",
+      "started": 1794072054.5995278,
+      "ok": true,
+      "seconds": 5.8965562999947
+    },
+    {
+      "number": 32,
+      "key": "geo:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "bc957c8c22977e4e001e5ae8925410130bb34c4d7847477f0be3e19b1e6fc1eb",
+      "started": 1794072125.6774344,
+      "ok": true,
+      "seconds": 31.73249520000536
+    },
+    {
+      "number": 33,
+      "key": "geo:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "af245f8375cc8edfe95403d97dd2f8063b3294cc8cd874fe8e8c61b19333906a",
+      "started": 1794072158.1195798,
+      "ok": true,
+      "seconds": 8.643677400003071
+    },
+    {
+      "number": 34,
+      "key": "geo:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "faa7abff6a3ed6ae29696f5025b81e86451cd0d63490b9608e18f8c6443d6409",
+      "started": 1794072158.1235797,
+      "ok": true,
+      "seconds": 7.160334899992449
+    },
+    {
+      "number": 35,
+      "key": "geo:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "cd0456b0414f21671feeb83154baa80d564430cd049d9732e7e35a7cd67e962d",
+      "started": 1794072158.1288123,
+      "ok": true,
+      "seconds": 9.645576599999913
+    },
+    {
+      "number": 36,
+      "key": "geo:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "350c3f93619c21ce73d862bd1b613c89e556b7d0c80381f8d89b37eabe9bc1f1",
+      "started": 1794072158.1353261,
+      "ok": true,
+      "seconds": 7.34576019999804
+    },
+    {
+      "number": 37,
+      "key": "geo:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "df9bc2cbffb184a70b76f40d7b2bf0a196b013f6cb415d4b67e0324bec7bfb01",
+      "started": 1794072165.3424892,
+      "ok": true,
+      "seconds": 6.941742800001521
+    },
+    {
+      "number": 38,
+      "key": "geo:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "a47dd44e51ba89a25be7bdb1056c567b016488d3668a88b77ae93560a32f39ac",
+      "started": 1794072165.5339046,
+      "ok": true,
+      "seconds": 6.937356599999475
+    },
+    {
+      "number": 39,
+      "key": "mc761:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "3b47d0b719d16cc905695bc89dfab4f62840360613c64e6c4d803c5a59b70c88",
+      "started": 1794072172.781048,
+      "ok": true,
+      "seconds": 18.75608919998922
+    },
+    {
+      "number": 40,
+      "key": "mc761:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "24ccd9b2d099587c1a8c88eb512a59f4da2223c8a9738ea98908fee6f561353f",
+      "started": 1794072192.0488741,
+      "ok": true,
+      "seconds": 15.224406600013026
+    },
+    {
+      "number": 41,
+      "key": "mc761:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "56c0d113b9271181a97ad4790aceab493e1435e6f7fda0631ad47e77824e37cd",
+      "started": 1794072192.0597548,
+      "ok": true,
+      "seconds": 10.64268100001209
+    },
+    {
+      "number": 42,
+      "key": "mc761:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "7ddc07cde276999ad772a378049776c1c251ba4956cbb91a72b7bf1289e1bfe9",
+      "started": 1794072192.0657668,
+      "ok": true,
+      "seconds": 56.46020619999035
+    },
+    {
+      "number": 43,
+      "key": "mc761:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "e72a44b87eca71cf62acb8924606ce6653ba013ab1da17f26693e80ef2515da4",
+      "started": 1794072192.0707827,
+      "ok": true,
+      "seconds": 17.73221580000245
+    },
+    {
+      "number": 44,
+      "key": "mc761:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "de361a4de9679764671d654e180cf53292df82d7ef1208890bfe83f0ceae0aa8",
+      "started": 1794072202.7628083,
+      "ok": true,
+      "seconds": 24.04150460001256
+    },
+    {
+      "number": 45,
+      "key": "mc761:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "0d9d8ec3da0dfaaef0691391bac9452ead94b769354cc698657bb834db54bf3c",
+      "started": 1794072207.3354023,
+      "ok": true,
+      "seconds": 13.453046700000414
+    },
+    {
+      "number": 46,
+      "key": "mc765a:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "204aa3e4dd3b82ed615b348b26a3f8569c1542cb892f1fb1caded9b955e51981",
+      "started": 1794072248.9523659,
+      "ok": true,
+      "seconds": 24.60457039999892
+    },
+    {
+      "number": 47,
+      "key": "mc765a:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "1ccb6092d0b13047f95fc6ef9b55574c11ddff348a093d21cc07c660e8867dbe",
+      "started": 1794072274.1027212,
+      "ok": true,
+      "seconds": 21.09968500000832
+    },
+    {
+      "number": 48,
+      "key": "mc765a:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "f00f4bb667853da24d5e8b1bbc64e52834d4f231065c851841bcbf70b06bbc53",
+      "started": 1794072274.1087222,
+      "ok": true,
+      "seconds": 9.88771270000143
+    },
+    {
+      "number": 49,
+      "key": "mc765a:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "f6901df3029a0509dfab74645f100693805101b88fe12f308f97921076c65126",
+      "started": 1794072274.112718,
+      "ok": true,
+      "seconds": 16.895646399992984
+    },
+    {
+      "number": 50,
+      "key": "mc765a:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "10ee31296030d805456c9ce4823f4713f4493e29a1c729728c9278f5ef394a79",
+      "started": 1794072274.1217194,
+      "ok": true,
+      "seconds": 9.961211100002402
+    },
+    {
+      "number": 51,
+      "key": "mc765a:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "015e9eca84997f70b0c4f1127c182ca884b0cfb69586101a9b45d338c09ea3eb",
+      "started": 1794072284.057341,
+      "ok": true,
+      "seconds": 12.904305600008229
+    },
+    {
+      "number": 52,
+      "key": "mc765a:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "7c2da5e39da8f000274a86479c1bfdf4140461161efff429e41ceb19c8680226",
+      "started": 1794072284.1346269,
+      "ok": true,
+      "seconds": 9.675299800001085
+    },
+    {
+      "number": 53,
+      "key": "mc765b:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "3e3f1e11345881c7d6298f968ec3b81794f36cae19653a2fcc44b6e33b2e9483",
+      "started": 1794072323.100943,
+      "ok": true,
+      "seconds": 9.605217399992398
+    },
+    {
+      "number": 54,
+      "key": "mc765b:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "2964c170699b827a1ed9ba32e2961a622e106dd74f05c93edafeda6c3903b3c2",
+      "started": 1794072323.106944,
+      "ok": true,
+      "seconds": 9.540179699994042
+    },
+    {
+      "number": 55,
+      "key": "mc765b:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "32ab900849d5ec2e51fb8caffc71979f407cf8ec1016a6fe3059eb8f6e65bdc3",
+      "started": 1794072323.1107352,
+      "ok": true,
+      "seconds": 10.732826799998293
+    },
+    {
+      "number": 56,
+      "key": "mc765b:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "1084ed625217f6e423bb77c278fd16dbec7e5326c64de34e3f7bf490f815562b",
+      "started": 1794072323.1157353,
+      "ok": true,
+      "seconds": 8.946316700006719
+    },
+    {
+      "number": 57,
+      "key": "mc765b:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "96d09630c2183b950a3cb8ef36be6155a9184354ea4145d5836b0ac5207f8263",
+      "started": 1794072332.1164668,
+      "ok": true,
+      "seconds": 8.663138599993545
+    },
+    {
+      "number": 58,
+      "key": "mc765b:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "ccbc905159d3fcc0af08a8c96d3fe8a76f3e6c8759826f75f194ac2bd8f3af2a",
+      "started": 1794072332.7027671,
+      "ok": true,
+      "seconds": 7.621602100000018
+    },
+    {
+      "number": 59,
+      "key": "gulf_ok:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "7702bdc3277dccb414a3c305f0fefee7a916f1303edbcc7ed79225cbcb5e4b41",
+      "started": 1794072341.1293123,
+      "ok": true,
+      "seconds": 32.34877029999916
+    },
+    {
+      "number": 60,
+      "key": "gulf_ok:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "afa0df2b145efdf9415ef80bcc1192f99cffd1ddfe495a622efacf2453e73f21",
+      "started": 1794072401.8134658,
+      "ok": true,
+      "seconds": 54.45995849999599
+    },
+    {
+      "number": 61,
+      "key": "gulf_ok:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "8d584124b40a67265c36d5723a8c7dafe19e9e9917c40bb14cc81f6bf9438ba3",
+      "started": 1794072401.8207738,
+      "ok": true,
+      "seconds": 14.471932600004948
+    },
+    {
+      "number": 62,
+      "key": "gulf_ok:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "3ac22f9e7ae8114d44eebfa9b12051f0f16870a4800d0dba10928b7b4b943f65",
+      "started": 1794072401.8277724,
+      "ok": true,
+      "seconds": 58.37724539999908
+    },
+    {
+      "number": 63,
+      "key": "gulf_ok:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "b9894384fd6a1c79904b979be9409e38412ab7eaf461a6d293907de352d09ad6",
+      "started": 1794072401.8307736,
+      "ok": true,
+      "seconds": 10.391571000000113
+    },
+    {
+      "number": 64,
+      "key": "gulf_ok:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "6d35d3b3ab274f9e4bd8b31064ded12bd7285a776216113c4db6d916fd4a3d93",
+      "started": 1794072412.261639,
+      "ok": true,
+      "seconds": 36.75939560000552
+    },
+    {
+      "number": 65,
+      "key": "gulf_ok:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "bfbbae7142fd70b9f7fff9f2a456a3e6d7ee2b3f5d6e3fe5520642cd305a827f",
+      "started": 1794072416.3392842,
+      "ok": true,
+      "seconds": 8.752032700009295
+    },
+    {
+      "number": 66,
+      "key": "gulf_fail:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "2bf6f16133dcd184ac2d579d0890bbe807e02e19b4d4ccc260a20ac371b7310e",
+      "started": 1794072461.0150387,
+      "ok": true,
+      "seconds": 26.81311459999415
+    },
+    {
+      "number": 67,
+      "key": "gulf_fail:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "be06033448d616f888c482ffa3885ad3b1317a0a21d34e558c4e230f5d7d0ca2",
+      "started": 1794072488.3663912,
+      "ok": true,
+      "seconds": 8.828804500008118
+    },
+    {
+      "number": 68,
+      "key": "gulf_fail:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "d5a3da0cd46f3c0fb8fe7ce65d0007e7b43c4cb93355f3c60d1a025c49faea66",
+      "started": 1794072488.3733914,
+      "ok": true,
+      "seconds": 5.9748956999974325
+    },
+    {
+      "number": 69,
+      "key": "gulf_fail:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "77a3001268928e544b2ed0ff8b19174f1824507342bc20aa6a80902302407253",
+      "started": 1794072488.3793914,
+      "ok": true,
+      "seconds": 8.055599599989364
+    },
+    {
+      "number": 70,
+      "key": "gulf_fail:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "404cf5882540090dc1f7d7fbfbd8b24a9e3acaad809f7e590ac048682832e086",
+      "started": 1794072488.3853917,
+      "ok": true,
+      "seconds": 6.31326640000043
+    },
+    {
+      "number": 71,
+      "key": "gulf_fail:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "c36d838fba014402df488c191c48d61a480b2651c75b0e50d52ebaf4a6967f69",
+      "started": 1794072494.4058807,
+      "ok": true,
+      "seconds": 17.900104299988016
+    },
+    {
+      "number": 72,
+      "key": "gulf_fail:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "181ff901a8f160c052d8d70488c65f32f6327b0b9bb5ed06843972add3aac677",
+      "started": 1794072494.747158,
+      "ok": true,
+      "seconds": 12.082382499997038
+    },
+    {
+      "number": 73,
+      "key": "oneoff:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "f967b3fa0c31f9747994b8d7c94685bccb499868091e7858574b19938bac2fed",
+      "started": 1794072512.6597478,
+      "ok": true,
+      "seconds": 34.6673596999899
+    },
+    {
+      "number": 74,
+      "key": "oneoff:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "ea7837979175c64cce260e440d6ad6bc24fa776c315c48bed8520b5d284bcf67",
+      "started": 1794072548.0709598,
+      "ok": true,
+      "seconds": 31.391602599993348
+    },
+    {
+      "number": 75,
+      "key": "oneoff:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "342a831fce5e5706094b2c17e91ac70384020dbcf58f9c773f0784d0e89bf14d",
+      "started": 1794072548.0784738,
+      "ok": true,
+      "seconds": 17.051770599995507
+    },
+    {
+      "number": 76,
+      "key": "oneoff:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "e4b034124d04b0063d8885abb375200985e20a954b50d144a112b96f89f441ff",
+      "started": 1794072548.0864775,
+      "ok": true,
+      "seconds": 40.212905099993804
+    },
+    {
+      "number": 77,
+      "key": "oneoff:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "e06bbf0b241219b92f59ec0fce7dfab4b4f9fb3f820825639e05b8ea041e9887",
+      "started": 1794072548.0924778,
+      "ok": true,
+      "seconds": 19.835651200002758
+    },
+    {
+      "number": 78,
+      "key": "oneoff:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "1ff4a7c818dc71f1a5f397189574f26180cc8bbf72c3136bb4c5588c5fd3693b",
+      "started": 1794072565.1970813,
+      "ok": true,
+      "seconds": 71.42144920000283
+    },
+    {
+      "number": 79,
+      "key": "oneoff:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "f75f0daa6180f3d4a445d342c4839d1b63e5d41d08a7f17c49dbba37c5061954",
+      "started": 1794072567.9912586,
+      "ok": true,
+      "seconds": 18.22902549999708
+    },
+    {
+      "number": 80,
+      "key": "texas:vocab",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "7cc84164631d51a7305c3b4650017ca6299bf19101e150c374be3ad72d690cee",
+      "started": 1794072636.914073,
+      "ok": true,
+      "seconds": 43.957182099999045
+    },
+    {
+      "number": 81,
+      "key": "texas:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "4cefc7d8e7e263cfe59aeedbc26cb6e47be4a7ed76f13b755079be7edd9c1697",
+      "started": 1794072681.502991,
+      "ok": true,
+      "seconds": 17.31980119999207
+    },
+    {
+      "number": 82,
+      "key": "texas:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "e6da151abee0bce3308552b941680f5e61e013f8cf7043e68eb35c1556c9793c",
+      "started": 1794072681.5089948,
+      "ok": true,
+      "seconds": 9.05265060000238
+    },
+    {
+      "number": 83,
+      "key": "texas:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "9d5071b4c73646e203ec10712fa82aa0ff8554856795fd64b1af56b6d7bbc043",
+      "started": 1794072681.5159945,
+      "ok": true,
+      "seconds": 12.55199970000831
+    },
+    {
+      "number": 84,
+      "key": "texas:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "096a77ef01a0ef829ebf2511c6393b47f1ec433cf9afe2e4d2654dda21379a96",
+      "started": 1794072681.5230799,
+      "ok": true,
+      "seconds": 8.700087799996254
+    },
+    {
+      "number": 85,
+      "key": "texas:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "b952823c5b986fb5c2f1e9b616d5a97950f423501521b70fdda99f6c21926664",
+      "started": 1794072690.2700324,
+      "ok": true,
+      "seconds": 15.764771700007259
+    },
+    {
+      "number": 86,
+      "key": "texas:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "07025cc2bbe201ed072d26051936749e8ec5f1a729625735f12f2a0a3cd78fd8",
+      "started": 1794072690.6217716,
+      "ok": true,
+      "seconds": 9.928131800013944
+    },
+    {
+      "number": 87,
+      "key": "d582_log02:i1:tile0",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "c0637456bf8cbd7ca2b8e54b74b1cb9c79607433561000b430f6109fbe4df226",
+      "started": 1794072707.4517496,
+      "ok": true,
+      "seconds": 20.242126500001177
+    },
+    {
+      "number": 88,
+      "key": "d582_log02:i1:tile0",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "8091a007d30b6979289f1578cb27bf5a6e3a26508631393379f6a12a8bf132a7",
+      "started": 1794072707.4587545,
+      "ok": true,
+      "seconds": 13.000705400001607
+    },
+    {
+      "number": 89,
+      "key": "d582_log02:i1:tile1",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "dabfe8f80e500060cdb39072f71ce2557219a3e5967f44836fbe96fb1584270b",
+      "started": 1794072707.4657583,
+      "ok": true,
+      "seconds": 34.32262510000146
+    },
+    {
+      "number": 90,
+      "key": "d582_log02:i1:tile1",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "21fe0887537a908b2322e6ae521505e1e6823ba692a8ff1d40eea2ee5defe02f",
+      "started": 1794072707.474758,
+      "ok": true,
+      "seconds": 13.489999799989164
+    },
+    {
+      "number": 91,
+      "key": "d582_log02:i1:tile2",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "9d353a85759337821357f6326e7f28ded9a544535cfd75f42ac962e6da6b2a8e",
+      "started": 1794072720.5286882,
+      "ok": true,
+      "seconds": 33.51357260000077
+    },
+    {
+      "number": 92,
+      "key": "d582_log02:i1:tile2",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "ea02818f311490e37ff8d34cc4be93fa7d887124f7e1c00237561839f17adaf6",
+      "started": 1794072721.026385,
+      "ok": true,
+      "seconds": 12.503756000005524
+    },
+    {
+      "number": 93,
+      "key": "d582_log02:i1:tile3",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "99a3172ee6c1fc12af0cf12bf8851d08e071ff031fa7df1df75ad8a3c6d697c8",
+      "started": 1794072727.7660325,
+      "ok": true,
+      "seconds": 54.69751290000568
+    },
+    {
+      "number": 94,
+      "key": "d582_log02:i1:tile3",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "d917a5656cc992522547fee1006183ebcd8511bb1bdb5c5fe0154182fc0a7970",
+      "started": 1794072733.5608895,
+      "ok": true,
+      "seconds": 10.698499699996319
+    },
+    {
+      "number": 95,
+      "key": "d582_log02:i1:tile4",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "hash": "b66a8f136b286a136947cad8242b75c4b24023c773dcc02c616a2c8aa13bf1db",
+      "started": 1794072741.854086,
+      "ok": true,
+      "seconds": 30.523783099997672
+    },
+    {
+      "number": 96,
+      "key": "d582_log02:i1:tile4",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "hash": "c31fe46f48958d136d1b43cbc436986cd8be5a6837db6316ab4b1c2f5519afc7",
+      "started": 1794072744.2890456,
+      "ok": true,
+      "seconds": 9.594753400000627
+    }
+  ]
+}

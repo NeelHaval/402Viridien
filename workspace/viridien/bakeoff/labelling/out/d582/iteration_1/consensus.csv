@@ -1,0 +1,26 @@
+top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id,agreed
+25400.0,25420.0,Shale,4404,4804,1,true
+25420.0,25420.2,Siltstone,4804,4808,2,false
+25420.2,25430.2,Siltstone,4808,5008,2,true
+25430.2,25430.3,Siltstone,5008,5010,2,false
+25430.3,25490.2,Shale,5010,6210,1,true
+25490.2,25490.3,Siltstone,6210,6212,2,false
+25490.3,25500.3,Siltstone,6212,6412,2,true
+25500.3,25500.4,Siltstone,6412,6414,2,false
+25500.4,25509.3,Shale,6414,6592,1,true
+25509.3,25520.5,Sand and Sandstone,6592,6818,0,true
+25520.5,25530.0,Siltstone,6818,7008,2,true
+25530.0,25540.5,Sand and Sandstone,7008,7218,0,true
+25540.5,25550.2,Siltstone,7218,7412,2,true
+25550.2,25550.3,Siltstone,7412,7414,2,false
+25550.3,25559.3,Shale,7414,7594,1,true
+25559.3,25570.5,Sand and Sandstone,7594,7818,0,true
+25570.5,25580.2,Shale,7818,8013,1,true
+25580.2,25590.2,Siltstone,8013,8213,2,true
+25590.2,25590.2,Siltstone,8213,8214,2,false
+25590.2,25630.2,Shale,8214,9015,1,true
+25630.2,25640.3,Sand and Sandstone,9015,9216,0,true
+25640.3,25640.3,Shale,9216,9217,1,false
+25640.3,25690.2,Shale,9217,10216,1,true
+25690.2,25699.9,Siltstone,10216,10411,2,true
+25699.9,25739.1,Unknown,10411,11195,3,true

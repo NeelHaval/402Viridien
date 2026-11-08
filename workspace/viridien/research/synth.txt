@@ -1,0 +1,14 @@
+sandbox=workspace-write
+Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/research
+Read the 8 research notes r1_layout.md ... r8_small_vlms.md here (and r1.txt for the shared task context at the top of any r*.txt).
+They research ways to make a mud-log lithology extraction pipeline more accurate, cheaper and faster.
+Write ONE file, SYNTHESIS.md (under 1,400 words), and nothing else:
+1. Spot-check: for the 10 most important claims across the notes (benchmark numbers, model ids, licences, "downloadable now"),
+   open the cited URL with web search/browse and mark each VERIFIED, WRONG (with the correction) or UNVERIFIABLE. Table.
+2. One ranked table of the top 12 upgrades across all pipeline steps: rank | upgrade | step | replaces/improves which
+   bake-off strategy (S1 colour runs, S2 features+PELT, S3 template NCC, S4 kmeans+Viterbi, S5 DINOv2, S6 SigLIP,
+   S7 synthetic CNN, S8 JEV, S9 vision LLM, S10 hybrid, B1 box finding) | expected gain (accuracy / speed / cost, with the
+   evidence) | effort hours | risk. Rank by expected gain per hour for a 24-hour hackathon on one RTX 4080 Laptop.
+3. "Build next": the 3 upgrades to implement first, each as a precise brief another coding agent could follow
+   (files, packages, model ids, how to test with `python -m harness.run --strategy <id> --set synthetic|eval --gt gold`).
+4. Where the notes disagree, say which side the evidence supports.

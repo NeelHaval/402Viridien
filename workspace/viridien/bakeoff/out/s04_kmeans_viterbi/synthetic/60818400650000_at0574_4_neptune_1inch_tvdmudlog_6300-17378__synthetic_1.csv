@@ -1,0 +1,12 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,480,Dolomite,5,5405.7,5565.5
+480,788,Sandstone,3,5565.5,5668.0
+788,1185,Clay/Shale,0,5668.0,5800.2
+1185,1427,Sandstone,3,5800.2,5880.7
+1427,1812,Anhydrite,1,5880.7,6008.9
+1812,2122,Sandstone,3,6008.9,6112.0
+2122,2313,Tuff,2,6112.0,6175.6
+2313,2608,Sandstone,3,6175.6,6273.8
+2608,2832,Anhydrite,1,6273.8,6348.4
+3214,3536,Tuff,2,6475.5,6582.7
+3536,4000,Clay/Shale,0,6582.7,6737.2

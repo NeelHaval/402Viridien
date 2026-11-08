@@ -1,0 +1,32 @@
+[
+  {
+    "top_y": 1490,
+    "bottom_y": 10504,
+    "lithology": "\u25a1 8 C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "\u25a1 8 C",
+    "raw_descriptor_gap": 0.26762130190156364,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 10546,
+    "bottom_y": 15193,
+    "lithology": "\u25a1 8 C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "\u25a1 8 C",
+    "raw_descriptor_gap": 0.1781106155390305,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 15523,
+    "bottom_y": 15541,
+    "lithology": "\u25a1 8 C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "\u25a1 8 C",
+    "raw_descriptor_gap": 0.17281568731557692,
+    "raw_descriptor_agrees": true
+  }
+]

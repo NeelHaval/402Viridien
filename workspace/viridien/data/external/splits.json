@@ -1,0 +1,177 @@
+{
+  "rule": "whole wells per split; verify is locked (lock_verify.py) and only opened for the final check",
+  "summary": {
+    "dev": {
+      "windows": 51,
+      "logs": 46,
+      "wells": [
+        "386825",
+        "4304150011",
+        "barlow3-14",
+        "flat-bay-2",
+        "storm"
+      ],
+      "by_source": {
+        "kgs": 2,
+        "utah": 21,
+        "idaho": 6,
+        "nl": 22
+      }
+    },
+    "test": {
+      "windows": 20,
+      "window_share": 0.225,
+      "row_share": 0.266,
+      "logs": 16,
+      "wells": [
+        "EmmaWard1",
+        "flat-bay-3",
+        "irvin1-19"
+      ],
+      "by_source": {
+        "idaho": 6,
+        "kgs": 7,
+        "nl": 7
+      }
+    },
+    "verify": {
+      "windows": 10,
+      "window_share": 0.112,
+      "row_share": 0.184,
+      "logs": 6,
+      "wells": [
+        "Barlow2-14",
+        "Marcotte1-12",
+        "red-brook-1"
+      ],
+      "by_source": {
+        "idaho": 5,
+        "kgs": 2,
+        "nl": 3
+      }
+    },
+    "shared_verify": {
+      "windows": 8,
+      "logs": 8,
+      "wells": [
+        "ForsythB2-17"
+      ],
+      "by_source": {
+        "kgs": 8
+      },
+      "selection_allowed": false
+    }
+  },
+  "logs": {
+    "dev": [
+      "ext_idaho_barlow3-14_p001",
+      "ext_idaho_barlow3-14_p002",
+      "ext_kgs_386825",
+      "ext_nl_flat-bay-2_p071",
+      "ext_nl_flat-bay-2_p073",
+      "ext_nl_flat-bay-2_p074",
+      "ext_nl_flat-bay-2_p075",
+      "ext_nl_flat-bay-2_p076",
+      "ext_nl_flat-bay-2_p077",
+      "ext_nl_flat-bay-2_p078",
+      "ext_nl_flat-bay-2_p079",
+      "ext_nl_flat-bay-2_p080",
+      "ext_nl_storm_p071",
+      "ext_nl_storm_p072",
+      "ext_nl_storm_p073",
+      "ext_nl_storm_p074",
+      "ext_nl_storm_p075",
+      "ext_nl_storm_p076",
+      "ext_nl_storm_p077",
+      "ext_nl_storm_p078",
+      "ext_nl_storm_p079",
+      "ext_nl_storm_p080",
+      "ext_nl_storm_p081",
+      "ext_nl_storm_p082",
+      "ext_nl_storm_p083",
+      "ext_utah_4304150011_p135",
+      "ext_utah_4304150011_p136",
+      "ext_utah_4304150011_p137",
+      "ext_utah_4304150011_p138",
+      "ext_utah_4304150011_p139",
+      "ext_utah_4304150011_p140",
+      "ext_utah_4304150011_p141",
+      "ext_utah_4304150011_p142",
+      "ext_utah_4304150011_p143",
+      "ext_utah_4304150011_p144",
+      "ext_utah_4304150011_p145",
+      "ext_utah_4304150011_p146",
+      "ext_utah_4304150011_p147",
+      "ext_utah_4304150011_p148",
+      "ext_utah_4304150011_p149",
+      "ext_utah_4304150011_p150",
+      "ext_utah_4304150011_p151",
+      "ext_utah_4304150011_p152",
+      "ext_utah_4304150011_p153",
+      "ext_utah_4304150011_p154",
+      "ext_utah_4304150011_p155"
+    ],
+    "test": [
+      "ext_idaho_irvin1-19_p001",
+      "ext_idaho_irvin1-19_p002",
+      "ext_kgs_EmmaWard1_p002",
+      "ext_kgs_EmmaWard1_p003",
+      "ext_kgs_EmmaWard1_p004",
+      "ext_kgs_EmmaWard1_p005",
+      "ext_kgs_EmmaWard1_p006",
+      "ext_kgs_EmmaWard1_p007",
+      "ext_kgs_EmmaWard1_p008",
+      "ext_nl_flat-bay-3_p054",
+      "ext_nl_flat-bay-3_p055",
+      "ext_nl_flat-bay-3_p056",
+      "ext_nl_flat-bay-3_p057",
+      "ext_nl_flat-bay-3_p058",
+      "ext_nl_flat-bay-3_p059",
+      "ext_nl_flat-bay-3_p060"
+    ],
+    "verify": [
+      "ext_idaho_Barlow2-14_p001",
+      "ext_idaho_Barlow2-14_p002",
+      "ext_kgs_Marcotte1-12",
+      "ext_nl_red-brook-1_p039",
+      "ext_nl_red-brook-1_p040",
+      "ext_nl_red-brook-1_p041"
+    ],
+    "shared_verify": [
+      "ext_kgs_ForsythB2-17_p015",
+      "ext_kgs_ForsythB2-17_p016",
+      "ext_kgs_ForsythB2-17_p017",
+      "ext_kgs_ForsythB2-17_p018",
+      "ext_kgs_ForsythB2-17_p019",
+      "ext_kgs_ForsythB2-17_p020",
+      "ext_kgs_ForsythB2-17_p021",
+      "ext_kgs_ForsythB2-17_p022"
+    ]
+  },
+  "shared": {
+    "date": "2026-11-08",
+    "where": "GitHub silmoon04/hacktheburgh26, data/external_shared/",
+    "wells": [
+      "386825",
+      "barlow3-14",
+      "flat-bay-2"
+    ],
+    "logs": [
+      "ext_idaho_barlow3-14_p001",
+      "ext_idaho_barlow3-14_p002",
+      "ext_kgs_386825",
+      "ext_nl_flat-bay-2_p071",
+      "ext_nl_flat-bay-2_p073",
+      "ext_nl_flat-bay-2_p074",
+      "ext_nl_flat-bay-2_p075",
+      "ext_nl_flat-bay-2_p076",
+      "ext_nl_flat-bay-2_p077",
+      "ext_nl_flat-bay-2_p078",
+      "ext_nl_flat-bay-2_p079",
+      "ext_nl_flat-bay-2_p080"
+    ],
+    "windows": 17,
+    "share_of_all_external_windows": 0.191,
+    "note": "Subset of DEV only. Public to the team: never use as held-out evidence. test and verify are not shared."
+  }
+}

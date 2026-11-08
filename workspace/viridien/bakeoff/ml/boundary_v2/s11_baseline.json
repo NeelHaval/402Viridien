@@ -1,0 +1,520 @@
+{
+ "per_window": [
+  {
+   "key": "dev_000",
+   "well": "386825",
+   "seconds": 0.5879298730000073,
+   "row_acc": 0.0,
+   "boundary_f1": 0.08791208791208792,
+   "cluster_ari": 0.03831301220794976,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_001",
+   "well": "386825",
+   "seconds": 0.05146209599990925,
+   "row_acc": 0.26666666666666666,
+   "boundary_f1": 0.3333333333333333,
+   "cluster_ari": 0.34482918868310647,
+   "depth_mae_ft": null,
+   "score": 0.08888888888888888
+  },
+  {
+   "key": "dev_002",
+   "well": "4304150011",
+   "seconds": 0.0711872949999588,
+   "row_acc": 0.7911111111111111,
+   "boundary_f1": 0.18181818181818182,
+   "cluster_ari": 0.9439861123930612,
+   "depth_mae_ft": null,
+   "score": 0.14383838383838385
+  },
+  {
+   "key": "dev_003",
+   "well": "4304150011",
+   "seconds": 0.07080058899998676,
+   "row_acc": 0.5615686274509804,
+   "boundary_f1": 0.2,
+   "cluster_ari": 0.8467870736763232,
+   "depth_mae_ft": null,
+   "score": 0.11231372549019608
+  },
+  {
+   "key": "dev_004",
+   "well": "4304150011",
+   "seconds": 0.07226771500006635,
+   "row_acc": 0.39450980392156865,
+   "boundary_f1": 0.5263157894736842,
+   "cluster_ari": 0.7203129669617782,
+   "depth_mae_ft": null,
+   "score": 0.20763673890608875
+  },
+  {
+   "key": "dev_005",
+   "well": "4304150011",
+   "seconds": 0.06862838400002147,
+   "row_acc": 0.7239215686274509,
+   "boundary_f1": 0.6666666666666666,
+   "cluster_ari": 0.7960228958437661,
+   "depth_mae_ft": null,
+   "score": 0.4826143790849673
+  },
+  {
+   "key": "dev_006",
+   "well": "4304150011",
+   "seconds": 0.0712903890000689,
+   "row_acc": 0.5623529411764706,
+   "boundary_f1": 0.2857142857142857,
+   "cluster_ari": 0.5741533002951293,
+   "depth_mae_ft": null,
+   "score": 0.16067226890756303
+  },
+  {
+   "key": "dev_007",
+   "well": "4304150011",
+   "seconds": 0.07152050199999849,
+   "row_acc": 0.4549019607843137,
+   "boundary_f1": 0.5882352941176471,
+   "cluster_ari": 0.5693102296434751,
+   "depth_mae_ft": null,
+   "score": 0.26758938869665516
+  },
+  {
+   "key": "dev_008",
+   "well": "4304150011",
+   "seconds": 0.06784253600005741,
+   "row_acc": 0.504313725490196,
+   "boundary_f1": 0.32,
+   "cluster_ari": 0.5385819637819418,
+   "depth_mae_ft": null,
+   "score": 0.16138039215686273
+  },
+  {
+   "key": "dev_009",
+   "well": "4304150011",
+   "seconds": 0.07155998299992916,
+   "row_acc": 0.8494117647058823,
+   "boundary_f1": 0.16666666666666666,
+   "cluster_ari": 0.7737823015145683,
+   "depth_mae_ft": null,
+   "score": 0.14156862745098037
+  },
+  {
+   "key": "dev_010",
+   "well": "4304150011",
+   "seconds": 0.0676495079999313,
+   "row_acc": 0.38901960784313727,
+   "boundary_f1": 0.6666666666666666,
+   "cluster_ari": 0.7629990594033815,
+   "depth_mae_ft": null,
+   "score": 0.2593464052287582
+  },
+  {
+   "key": "dev_011",
+   "well": "4304150011",
+   "seconds": 0.07080421700004536,
+   "row_acc": 0.6941176470588235,
+   "boundary_f1": 0.6666666666666666,
+   "cluster_ari": 0.966282850272647,
+   "depth_mae_ft": null,
+   "score": 0.46274509803921565
+  },
+  {
+   "key": "dev_012",
+   "well": "4304150011",
+   "seconds": 0.0681765940000787,
+   "row_acc": 0.7545098039215686,
+   "boundary_f1": 0.7272727272727273,
+   "cluster_ari": 0.9586301108003599,
+   "depth_mae_ft": null,
+   "score": 0.5487344028520499
+  },
+  {
+   "key": "dev_013",
+   "well": "4304150011",
+   "seconds": 0.06881186999999045,
+   "row_acc": 0.7325490196078431,
+   "boundary_f1": 0.42105263157894735,
+   "cluster_ari": 0.7873601922493522,
+   "depth_mae_ft": null,
+   "score": 0.30844169246646025
+  },
+  {
+   "key": "dev_014",
+   "well": "4304150011",
+   "seconds": 0.0680375859999458,
+   "row_acc": 0.4,
+   "boundary_f1": 0.4,
+   "cluster_ari": 0.7796771820989853,
+   "depth_mae_ft": null,
+   "score": 0.16000000000000003
+  },
+  {
+   "key": "dev_015",
+   "well": "4304150011",
+   "seconds": 0.07890535199999249,
+   "row_acc": 0.0,
+   "boundary_f1": 1.0,
+   "cluster_ari": 0.9924020451599995,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_016",
+   "well": "4304150011",
+   "seconds": 0.07055688799994186,
+   "row_acc": 0.31058823529411766,
+   "boundary_f1": 1.0,
+   "cluster_ari": 0.9627833284073868,
+   "depth_mae_ft": null,
+   "score": 0.31058823529411766
+  },
+  {
+   "key": "dev_017",
+   "well": "4304150011",
+   "seconds": 0.06921532000001207,
+   "row_acc": 0.15294117647058825,
+   "boundary_f1": 0.375,
+   "cluster_ari": 0.7697712104625684,
+   "depth_mae_ft": null,
+   "score": 0.05735294117647059
+  },
+  {
+   "key": "dev_018",
+   "well": "4304150011",
+   "seconds": 0.06785647699996389,
+   "row_acc": 0.0,
+   "boundary_f1": 0.6,
+   "cluster_ari": 0.8058192869258186,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_019",
+   "well": "4304150011",
+   "seconds": 0.06934804800005168,
+   "row_acc": 0.6282352941176471,
+   "boundary_f1": 0.7272727272727273,
+   "cluster_ari": 0.9470518169438513,
+   "depth_mae_ft": null,
+   "score": 0.4568983957219252
+  },
+  {
+   "key": "dev_020",
+   "well": "4304150011",
+   "seconds": 0.07086575699997866,
+   "row_acc": 0.6517647058823529,
+   "boundary_f1": 0.5,
+   "cluster_ari": 0.7054657009097398,
+   "depth_mae_ft": null,
+   "score": 0.32588235294117646
+  },
+  {
+   "key": "dev_021",
+   "well": "4304150011",
+   "seconds": 0.07564595999997437,
+   "row_acc": 0.9247058823529412,
+   "boundary_f1": 0.0,
+   "cluster_ari": 0.6021782582867585,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_022",
+   "well": "4304150011",
+   "seconds": 0.04309236299991426,
+   "row_acc": 1.0,
+   "boundary_f1": 1.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 1.0
+  },
+  {
+   "key": "dev_023",
+   "well": "barlow3-14",
+   "seconds": 0.5407928800000263,
+   "row_acc": 0.0,
+   "boundary_f1": 0.02570694087403599,
+   "cluster_ari": 0.015659546539390078,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_024",
+   "well": "barlow3-14",
+   "seconds": 0.2772053709999227,
+   "row_acc": 0.0,
+   "boundary_f1": 0.08365019011406843,
+   "cluster_ari": 0.16689575511183316,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_025",
+   "well": "barlow3-14",
+   "seconds": 0.23961298500000794,
+   "row_acc": 0.14116666666666666,
+   "boundary_f1": 0.19834710743801653,
+   "cluster_ari": 0.45397580986420655,
+   "depth_mae_ft": null,
+   "score": 0.028
+  },
+  {
+   "key": "dev_026",
+   "well": "barlow3-14",
+   "seconds": 0.23254250600007254,
+   "row_acc": 0.010033444816053512,
+   "boundary_f1": 0.09285714285714286,
+   "cluster_ari": 0.3994737533836948,
+   "depth_mae_ft": null,
+   "score": 0.0009316770186335405
+  },
+  {
+   "key": "dev_027",
+   "well": "barlow3-14",
+   "seconds": 0.2346091830000887,
+   "row_acc": 0.3074413863404689,
+   "boundary_f1": 0.14393939393939395,
+   "cluster_ari": 0.3806511399946565,
+   "depth_mae_ft": null,
+   "score": 0.044252926821734165
+  },
+  {
+   "key": "dev_028",
+   "well": "barlow3-14",
+   "seconds": 0.22657871299998078,
+   "row_acc": 0.08087431693989071,
+   "boundary_f1": 0.08,
+   "cluster_ari": 0.2634808179923941,
+   "depth_mae_ft": null,
+   "score": 0.006469945355191257
+  },
+  {
+   "key": "dev_029",
+   "well": "flat-bay-2",
+   "seconds": 0.0308016479999651,
+   "row_acc": 0.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_030",
+   "well": "flat-bay-2",
+   "seconds": 0.08969158399997923,
+   "row_acc": 1.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_031",
+   "well": "flat-bay-2",
+   "seconds": 0.06283627400000569,
+   "row_acc": 0.9068056407112202,
+   "boundary_f1": 0.2,
+   "cluster_ari": 0.7263691588721469,
+   "depth_mae_ft": null,
+   "score": 0.18136112814224403
+  },
+  {
+   "key": "dev_032",
+   "well": "flat-bay-2",
+   "seconds": 0.06555508400003873,
+   "row_acc": 1.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_033",
+   "well": "flat-bay-2",
+   "seconds": 0.0697780650000368,
+   "row_acc": 0.7645616186388718,
+   "boundary_f1": 0.26666666666666666,
+   "cluster_ari": 0.7378742153673636,
+   "depth_mae_ft": null,
+   "score": 0.20388309830369916
+  },
+  {
+   "key": "dev_034",
+   "well": "flat-bay-2",
+   "seconds": 0.06421523800008799,
+   "row_acc": 0.3951219512195122,
+   "boundary_f1": 0.2857142857142857,
+   "cluster_ari": 0.9469232480967165,
+   "depth_mae_ft": null,
+   "score": 0.11289198606271778
+  },
+  {
+   "key": "dev_035",
+   "well": "flat-bay-2",
+   "seconds": 0.08290024000007179,
+   "row_acc": 0.16068167985392576,
+   "boundary_f1": 0.4,
+   "cluster_ari": 0.9877156069665578,
+   "depth_mae_ft": null,
+   "score": 0.06427267194157031
+  },
+  {
+   "key": "dev_036",
+   "well": "flat-bay-2",
+   "seconds": 0.06356314699996801,
+   "row_acc": 0.13411619283065512,
+   "boundary_f1": 0.21428571428571427,
+   "cluster_ari": 0.673691068134435,
+   "depth_mae_ft": null,
+   "score": 0.028739184177997524
+  },
+  {
+   "key": "dev_037",
+   "well": "flat-bay-2",
+   "seconds": 0.0589908669999204,
+   "row_acc": 0.2904820766378245,
+   "boundary_f1": 0.37735849056603776,
+   "cluster_ari": 0.4081143782800503,
+   "depth_mae_ft": null,
+   "score": 0.10961587797653755
+  },
+  {
+   "key": "dev_038",
+   "well": "storm",
+   "seconds": 0.0266558130000476,
+   "row_acc": 0.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_039",
+   "well": "storm",
+   "seconds": 0.06264260700004343,
+   "row_acc": 0.4560975609756098,
+   "boundary_f1": 0.6666666666666666,
+   "cluster_ari": 0.9854187960290168,
+   "depth_mae_ft": null,
+   "score": 0.3040650406504065
+  },
+  {
+   "key": "dev_040",
+   "well": "storm",
+   "seconds": 0.060099257999922884,
+   "row_acc": 1.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_041",
+   "well": "storm",
+   "seconds": 0.06419496800003799,
+   "row_acc": 0.603164942178941,
+   "boundary_f1": 0.6666666666666666,
+   "cluster_ari": 0.9902618110660114,
+   "depth_mae_ft": null,
+   "score": 0.40210996145262734
+  },
+  {
+   "key": "dev_042",
+   "well": "storm",
+   "seconds": 0.059481417999904806,
+   "row_acc": 0.23119950279676818,
+   "boundary_f1": 0.3,
+   "cluster_ari": 0.847013759782443,
+   "depth_mae_ft": null,
+   "score": 0.06935985083903046
+  },
+  {
+   "key": "dev_043",
+   "well": "storm",
+   "seconds": 0.07194507200006228,
+   "row_acc": 0.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 1.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_044",
+   "well": "storm",
+   "seconds": 0.061402689000033206,
+   "row_acc": 0.0,
+   "boundary_f1": 0.17391304347826086,
+   "cluster_ari": 0.4828109923411558,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_045",
+   "well": "storm",
+   "seconds": 0.05917619199999535,
+   "row_acc": 0.0,
+   "boundary_f1": 0.07142857142857142,
+   "cluster_ari": 0.17272999121634108,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_046",
+   "well": "storm",
+   "seconds": 0.056430194999961714,
+   "row_acc": 0.8268506900878294,
+   "boundary_f1": 0.0,
+   "cluster_ari": 0.0,
+   "depth_mae_ft": null,
+   "score": 0.0
+  },
+  {
+   "key": "dev_047",
+   "well": "storm",
+   "seconds": 0.0552083740000171,
+   "row_acc": 0.40476190476190477,
+   "boundary_f1": 0.2,
+   "cluster_ari": 0.5200271425746638,
+   "depth_mae_ft": null,
+   "score": 0.08095238095238096
+  },
+  {
+   "key": "dev_048",
+   "well": "storm",
+   "seconds": 0.05575267400001849,
+   "row_acc": 0.5598746081504702,
+   "boundary_f1": 0.23728813559322035,
+   "cluster_ari": 0.3141372178656187,
+   "depth_mae_ft": null,
+   "score": 0.13285160193400988
+  },
+  {
+   "key": "dev_049",
+   "well": "storm",
+   "seconds": 0.0553707569999915,
+   "row_acc": 0.6160547604231488,
+   "boundary_f1": 0.5161290322580645,
+   "cluster_ari": 0.6408924505825446,
+   "depth_mae_ft": null,
+   "score": 0.3179637473151736
+  },
+  {
+   "key": "dev_050",
+   "well": "storm",
+   "seconds": 0.054722211000012067,
+   "row_acc": 0.7301488833746899,
+   "boundary_f1": 0.3448275862068966,
+   "cluster_ari": 0.6765676681660905,
+   "depth_mae_ft": null,
+   "score": 0.25177547702575515
+  }
+ ],
+ "metrics": {
+  "boundary_f1": 0.2555192112878009,
+  "row_acc": 0.3408715321478402,
+  "cluster_ari": 0.5533553389256731,
+  "score": 0.10412718354059139
+ }
+}

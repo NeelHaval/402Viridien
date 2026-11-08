@@ -1,0 +1,45 @@
+{
+  "selected": "s04",
+  "criterion": "mean score by well",
+  "data": "current ext_dev, 51 windows, 5 wells",
+  "ranking": [
+    {
+      "strategy": "s04",
+      "windows": 51,
+      "wells": 5,
+      "well_macro_score": 0.17227183978728602,
+      "window_macro_score": 0.1774772971988383
+    },
+    {
+      "strategy": "s01",
+      "windows": 51,
+      "wells": 5,
+      "well_macro_score": 0.10550259608095225,
+      "window_macro_score": 0.13948873311258322
+    },
+    {
+      "strategy": "s11",
+      "windows": 51,
+      "wells": 5,
+      "well_macro_score": 0.10412718354059139,
+      "window_macro_score": 0.1567840955511857
+    },
+    {
+      "strategy": "s02",
+      "windows": 51,
+      "wells": 5,
+      "well_macro_score": 0.05557483908366312,
+      "window_macro_score": 0.07961998642664754
+    },
+    {
+      "strategy": "s03",
+      "windows": 51,
+      "wells": 5,
+      "well_macro_score": 0.010990828772792356,
+      "window_macro_score": 0.008492769026069475
+    }
+  ],
+  "inherited_weights_used": false,
+  "dev_manifest_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+  "note": "Fixed strategies only. No fitted weights or confidence calibrator from the old six-well dev set."
+}

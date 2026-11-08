@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "digest": "889a178a30a3bba17962e21184128e9e058bb25f6926682a672d50f51f5a38dc",
+  "layout": null,
+  "items": [
+    {
+      "box": [
+        41,
+        99,
+        74,
+        132
+      ],
+      "candidates": [
+        {
+          "text": "S+hd",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "5..1",
+          "confidence": 0.8657891303300858,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "{6d",
+          "confidence": 0.08870894080571907,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        97,
+        99,
+        130,
+        132
+      ],
+      "candidates": [
+        {
+          "text": "C!! 4:d",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.9992392063140869,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "!!",
+          "confidence": 0.5034245550632477,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1",
+          "confidence": 0.49730461835861206,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "sl.",
+          "confidence": 0.4195278137922287,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1",
+          "confidence": 0.998284956670151,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "8",
+          "confidence": 0.06269265633893983,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "G",
+          "confidence": 0.04568124221055214,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "4",
+          "confidence": 0.19696518752971315,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        163,
+        99,
+        196,
+        132
+      ],
+      "candidates": [
+        {
+          "text": ".s",
+          "confidence": 0.8914472758769989,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "'$",
+          "confidence": 0.5703232284278938,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        369,
+        98,
+        402,
+        131
+      ],
+      "candidates": [
+        {
+          "text": "or Cou!",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "tt.",
+          "confidence": 0.5586086014906565,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Or'Clt",
+          "confidence": 0.34900250285863876,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "t2",
+          "confidence": 0.1365302671734827,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "&ax",
+          "confidence": 0.4018482493930014,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        441,
+        98,
+        474,
+        131
+      ],
+      "candidates": [
+        {
+          "text": "C\u8840aic",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.9965258240699768,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "taic",
+          "confidence": 0.6452919840812683,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1",
+          "confidence": 0.8123661033715166,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "dit",
+          "confidence": 0.24416738748550415,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        505,
+        97,
+        538,
+        129
+      ],
+      "candidates": [],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        565,
+        99,
+        599,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "1",
+          "confidence": 0.9945330619812012,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.9943149058733667,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        631,
+        99,
+        664,
+        132
+      ],
+      "candidates": [
+        {
+          "text": "Sal;+  I Imait. Cher!",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "t. 1",
+          "confidence": 0.7821802347898483,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "S+l+ Ilm+it. Ch+r!",
+          "confidence": 0.725872375898891,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "6.'",
+          "confidence": 0.40954214332711303,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Sslo   IImou. cami",
+          "confidence": 0.01030933479643099,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        685,
+        99,
+        718,
+        132
+      ],
+      "candidates": [
+        {
+          "text": "1",
+          "confidence": 0.9564154744148254,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.9967976261633318,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        225,
+        100,
+        259,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "1c",
+          "confidence": 0.4908618777990341,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "'\u20ac",
+          "confidence": 0.3732143281219091,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        289,
+        100,
+        321,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "Siltt. Sohdy Cong!. Llujiltt",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "I  L",
+          "confidence": 0.6462099030613899,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Siltt. Sendy Conot. Luynlte",
+          "confidence": 0.7216614308180632,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1 L",
+          "confidence": 0.8250175714492798,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Jiltt # Cono: . Lilte",
+          "confidence": 0.12765750719687824,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        751,
+        100,
+        784,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "1",
+          "confidence": 0.34317946434020996,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "7",
+          "confidence": 0.07767898596331069,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    }
+  ],
+  "ocr": [
+    {
+      "box": [
+        [
+          259.2061360677083,
+          36.953125
+        ],
+        [
+          543.8810221354166,
+          36.533203125
+        ],
+        [
+          543.8810221354166,
+          60.048828125
+        ],
+        [
+          259.2061360677083,
+          60.46875
+        ]
+      ],
+      "text": "LITHOLOGY SYMBOLS",
+      "confidence": 0.890896597329308
+    },
+    {
+      "box": [
+        [
+          92.42691040039062,
+          134.794921875
+        ],
+        [
+          134.32710774739584,
+          138.994140625
+        ],
+        [
+          131.45160929361978,
+          168.388671875
+        ],
+        [
+          89.55141194661458,
+          164.189453125
+        ]
+      ],
+      "text": "C!!",
+      "confidence": 0.7780694365501404
+    },
+    {
+      "box": [
+        [
+          153.63406372070312,
+          135.634765625
+        ],
+        [
+          425.1637776692708,
+          139.4140625
+        ],
+        [
+          425.1637776692708,
+          158.73046875
+        ],
+        [
+          153.63406372070312,
+          154.951171875
+        ]
+      ],
+      "text": "Siltt. Sohdy Cong!. Llujiltt",
+      "confidence": 0.8116599704538073
+    },
+    {
+      "box": [
+        [
+          38.20312245686849,
+          138.994140625
+        ],
+        [
+          77.63860575358073,
+          138.994140625
+        ],
+        [
+          77.63860575358073,
+          153.69140625
+        ],
+        [
+          38.20312245686849,
+          153.69140625
+        ]
+      ],
+      "text": "S+hd",
+      "confidence": 0.6303305700421333
+    },
+    {
+      "box": [
+        [
+          564.0095621744791,
+          137.314453125
+        ],
+        [
+          728.3240559895834,
+          136.474609375
+        ],
+        [
+          728.3240559895834,
+          153.271484375
+        ],
+        [
+          564.0095621744791,
+          154.111328125
+        ]
+      ],
+      "text": "Sal;+  I Imait. Cher!",
+      "confidence": 0.6950846569878715
+    },
+    {
+      "box": [
+        [
+          215.25201416015625,
+          154.111328125
+        ],
+        [
+          343.4173177083333,
+          156.2109375
+        ],
+        [
+          343.0065511067708,
+          174.267578125
+        ],
+        [
+          214.84122721354166,
+          172.16796875
+        ]
+      ],
+      "text": "Siltit.  omer&le",
+      "confidence": 0.6671491246670485
+    },
+    {
+      "box": [
+        [
+          435.4334309895833,
+          157.05078125
+        ],
+        [
+          478.976806640625,
+          154.111328125
+        ],
+        [
+          480.2091471354167,
+          168.80859375
+        ],
+        [
+          436.6658121744792,
+          171.748046875
+        ]
+      ],
+      "text": "C\u8840aic",
+      "confidence": 0.5438018277287483
+    },
+    {
+      "box": [
+        [
+          96.945556640625,
+          157.470703125
+        ],
+        [
+          127.75452677408855,
+          155.37109375
+        ],
+        [
+          128.98688761393228,
+          170.48828125
+        ],
+        [
+          98.17791748046875,
+          172.587890625
+        ]
+      ],
+      "text": "4:d",
+      "confidence": 0.6244317889213562
+    },
+    {
+      "box": [
+        [
+          350.8114827473958,
+          162.9296875
+        ],
+        [
+          425.5745849609375,
+          159.990234375
+        ],
+        [
+          426.3961588541667,
+          178.88671875
+        ],
+        [
+          351.633056640625,
+          181.826171875
+        ]
+      ],
+      "text": "or Cou!",
+      "confidence": 0.7695256088461194
+    },
+    {
+      "box": [
+        [
+          91.19454956054688,
+          172.16796875
+        ],
+        [
+          135.148681640625,
+          172.16796875
+        ],
+        [
+          135.148681640625,
+          188.544921875
+        ],
+        [
+          91.19454956054688,
+          188.544921875
+        ]
+      ],
+      "text": "Saale",
+      "confidence": 0.705346429347992
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "S": [
+    [
+      0,
+      17042,
+      17615,
+      [
+        {
+          "top_y": 17042,
+          "bottom_y": 17599,
+          "label": "Clay-S",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 17599,
+          "bottom_y": 17615,
+          "label": "Sand-MSS",
+          "confidence": 0.97
+        }
+      ]
+    ],
+    [
+      1,
+      17555,
+      18129,
+      [
+        {
+          "top_y": 17555,
+          "bottom_y": 17599,
+          "label": "Clay-S",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 17599,
+          "bottom_y": 17725,
+          "label": "Sand-MSS",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 17725,
+          "bottom_y": 18129,
+          "label": "Clay-S",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      18069,
+      18642,
+      [
+        {
+          "top_y": 18069,
+          "bottom_y": 18642,
+          "label": "Clay-S",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      17042,
+      17615,
+      [
+        {
+          "top_y": 17042,
+          "bottom_y": 17599,
+          "label": "Clay-S",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 17599,
+          "bottom_y": 17615,
+          "label": "Sand-MSS",
+          "confidence": 0.91
+        }
+      ]
+    ],
+    [
+      1,
+      17555,
+      18129,
+      [
+        {
+          "top_y": 17555,
+          "bottom_y": 17599,
+          "label": "Clay-S",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 17599,
+          "bottom_y": 17725,
+          "label": "Sand-MSS",
+          "confidence": 0.95
+        },
+        {
+          "top_y": 17725,
+          "bottom_y": 18129,
+          "label": "Clay-S",
+          "confidence": 0.98
+        }
+      ]
+    ],
+    [
+      2,
+      18069,
+      18642,
+      [
+        {
+          "top_y": 18069,
+          "bottom_y": 18642,
+          "label": "Clay-S",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

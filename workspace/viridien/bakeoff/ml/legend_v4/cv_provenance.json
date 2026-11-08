@@ -1,0 +1,15 @@
+{
+ "steps": 450,
+ "wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "windows": 51,
+ "seed": 100,
+ "boundary": "fresh 450-step rich_real model for each held well",
+ "matcher": "fresh logistic; held well excluded",
+ "decoder": "inherited fixed S18 configuration; historical old-dev selection includes ForsythB2-17"
+}

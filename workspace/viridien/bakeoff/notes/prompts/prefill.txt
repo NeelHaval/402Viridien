@@ -1,0 +1,49 @@
+sandbox=workspace-write
+Add a BEST-GUESS prefill to the human labelling tool in labeltool/, so every queued interval starts with the strongest label we can afford.
+NOTE: another job (the label-tool builder) may still be finishing serve.py and static/index.html. Write prefill.py and its tests first. Do the serve.py and UI edits last, and re-read those files right before you edit them.
+
+Working folder: C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read these first:
+- labeltool/README.md, common.py, build_queue.py, serve.py, store.py and static/index.html
+- classify/bench.py: the JEV calls jev_choice and jev_gallery, the DINOv2 and SigLIP embeddings, and the colour classifier
+- classify/out/summary.csv and classify/report.html
+- strategies/_jev.py: JEV client; it reads the key itself. Never print or store the key.
+- harness/legend_v2.py: use it for all legends.
+
+Facts:
+- labeltool/data/queue.jsonl has 73,727 intervals over all 51 logs. Their only suggestion today is S11/native FFT, which scored 24% top-1 on the organisers' true answer.
+- On that true answer (log06, 17 intervals), these scored best: JEV with a gallery of named cropped swatches plus the patch (jev_gallery) 100% top-1, Terra 100%, jev_choice 65%, DINOv2 65%.
+- On the Sol+Terra consensus windows (71 patches), jev_gallery fell to 35% on a 30-rock legend, where jev_choice got 71%. Colour got 88% on flat-colour Texas.
+- labelling/out/<key>/consensus.csv holds Sol+Terra labels for 10 windows. These are the strongest labels we have outside log06.
+
+IMPORTANT: your sandbox blocks network access and child processes such as codex and Edge. Write and test everything offline with a mocked JEV client (dependency injection, or an environment flag). The user's main session will run the real JEV pass outside the sandbox. Do not burn time retrying blocked calls.
+
+Build labeltool/prefill.py. It must be cheap: aim for at most about 4,000 JEV calls in total, not one per interval.
+1. Per log, embed every interval with a cheap local feature (centre patch at native scale, 2 x the pattern repeat tall, at least 24 rows).
+   Use the bench's DINOv2 or SigLIP plus a Lab colour histogram, GPU if available, and cache it on disk.
+   Cluster with agglomerative or HDBSCAN into at most 20 clusters per log, plus a noise bucket.
+2. Per cluster, pick 3 representative patches (medoid plus 2 spread out).
+   Classify each with one JEV call:
+   - jev_gallery when the legend has at most 15 rock entries
+   - jev_choice when it has more
+   - colour when the cluster's colour fit is close (d1 <= 12 and margin >= 15) and the legend is a colour legend, which needs no call
+   The cluster label is the majority, and its confidence comes from agreement plus JEV probability.
+   When the 3 representatives disagree, label each member interval of that cluster individually with JEV, capped at 400 extra calls per log, largest intervals first.
+3. Precedence for the best guess: gold, then the Sol+Terra consensus where agreed, then the JEV cluster or interval label, then colour, then S11.
+   Record every source in suggestions[] with its tier and reason. Set suggestion to the best guess, and recompute tier: high when JEV and an independent source agree, or the cluster is unanimous with p >= 0.8.
+   Keep the queue's ordering logic: low tier first, round-robin across logs.
+4. Write labeltool/data/prefill.jsonl (id -> best guess, sources, cluster id, calls). Merge it into queue.jsonl through a reversible step; keep queue.orig.jsonl.
+   Make serve.py and the UI show the best guess pre-selected, with a small source chip such as "JEV x3 agree" or "Sol+Terra". Enter must accept it.
+5. Validation, offline with the mock: tests in labeltool/test_prefill.py for clustering determinism, call budgeting, precedence and the merge/undo.
+   Also add `python labeltool/prefill.py --validate-gold`. For the real run it does the full pipeline on log06 only, then scores the best guesses against gt/gold with harness/score.py (row_acc) and prints the calls used.
+6. CLI:
+   python -X utf8 labeltool/prefill.py [--logs all|<names>] [--max-calls 4000] [--workers 8] [--dry-run] [--validate-gold] [--merge] [--unmerge]
+   --dry-run prints the planned call count per log without calling anything.
+7. Update labeltool/README.md: prefill steps, cost and how to undo.
+Use python -X utf8. Never write into the dataset folder. Do not edit harness/, strategies/, classify/ or gt/ other than gt/human.
+
+Reply in under 300 words:
+- the files you wrote
+- the dry-run call counts per family
+- the test results
+- the exact commands the main session must run (validate-gold first, then all logs, then merge)

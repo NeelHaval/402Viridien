@@ -1,0 +1,21 @@
+{
+  "layout": "flat",
+  "items": [
+    {
+      "box": [
+        0,
+        0,
+        12,
+        12
+      ],
+      "candidates": [
+        {
+          "text": "Shale",
+          "confidence": 1.0,
+          "engine": "page",
+          "direction": "right"
+        }
+      ]
+    }
+  ]
+}

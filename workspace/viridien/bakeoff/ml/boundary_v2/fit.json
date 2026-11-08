@@ -1,0 +1,513 @@
+{
+ "steps": 650,
+ "seconds": 5.091032601000052,
+ "weight_bytes": 50077,
+ "weights_sha256": "4b714c193b14c9208030d7017119d7d7c89f12e053a13f8d69190c5a33f4e9da",
+ "held_synthetic": [
+  {
+   "key": "s2_0000",
+   "family": "D-582 1-bit grid",
+   "clean": 0.4,
+   "scan": 0.5
+  },
+  {
+   "key": "s2_0020",
+   "family": "D-582 1-bit grid",
+   "clean": 0.3225806451612903,
+   "scan": 0.24242424242424243
+  },
+  {
+   "key": "s2_0040",
+   "family": "D-582 1-bit grid",
+   "clean": 0.5333333333333333,
+   "scan": 0.5882352941176471
+  },
+  {
+   "key": "s2_0060",
+   "family": "D-582 1-bit grid",
+   "clean": 0.26666666666666666,
+   "scan": 0.375
+  },
+  {
+   "key": "s2_0085",
+   "family": "D-582 1-bit grid",
+   "clean": 0.3157894736842105,
+   "scan": 0.3684210526315789
+  },
+  {
+   "key": "s2_0105",
+   "family": "D-582 1-bit grid",
+   "clean": 0.3333333333333333,
+   "scan": 0.32
+  },
+  {
+   "key": "s2_0125",
+   "family": "D-582 1-bit grid",
+   "clean": 0.5,
+   "scan": 0.46153846153846156
+  },
+  {
+   "key": "s2_0145",
+   "family": "D-582 1-bit grid",
+   "clean": 0.6666666666666666,
+   "scan": 0.45454545454545453
+  },
+  {
+   "key": "s2_0170",
+   "family": "D-582 1-bit grid",
+   "clean": 0.3225806451612903,
+   "scan": 0.3225806451612903
+  },
+  {
+   "key": "s2_0190",
+   "family": "D-582 1-bit grid",
+   "clean": 0.375,
+   "scan": 0.42857142857142855
+  },
+  {
+   "key": "s2_0210",
+   "family": "D-582 1-bit grid",
+   "clean": 0.3333333333333333,
+   "scan": 0.2962962962962963
+  },
+  {
+   "key": "s2_0235",
+   "family": "D-582 1-bit grid",
+   "clean": 0.4,
+   "scan": 0.38461538461538464
+  },
+  {
+   "key": "s1_0000",
+   "family": "Geoservices grid",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s1_0020",
+   "family": "Geoservices grid",
+   "clean": 1.0,
+   "scan": 0.9090909090909091
+  },
+  {
+   "key": "s1_0040",
+   "family": "Geoservices grid",
+   "clean": 0.75,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s1_0060",
+   "family": "Geoservices grid",
+   "clean": 0.8,
+   "scan": 0.8
+  },
+  {
+   "key": "s1_0085",
+   "family": "Geoservices grid",
+   "clean": 0.8,
+   "scan": 0.7058823529411765
+  },
+  {
+   "key": "s1_0105",
+   "family": "Geoservices grid",
+   "clean": 0.8235294117647058,
+   "scan": 0.875
+  },
+  {
+   "key": "s1_0125",
+   "family": "Geoservices grid",
+   "clean": 0.9230769230769231,
+   "scan": 0.9230769230769231
+  },
+  {
+   "key": "s1_0145",
+   "family": "Geoservices grid",
+   "clean": 0.6666666666666666,
+   "scan": 0.7142857142857143
+  },
+  {
+   "key": "s1_0170",
+   "family": "Geoservices grid",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s1_0190",
+   "family": "Geoservices grid",
+   "clean": 0.8,
+   "scan": 1.0
+  },
+  {
+   "key": "s1_0210",
+   "family": "Geoservices grid",
+   "clean": 0.9333333333333333,
+   "scan": 0.9333333333333333
+  },
+  {
+   "key": "s1_0235",
+   "family": "Geoservices grid",
+   "clean": 0.6,
+   "scan": 0.6666666666666666
+  },
+  {
+   "key": "s0_0000",
+   "family": "Gulf 3-panel",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s0_0085",
+   "family": "Gulf 3-panel",
+   "clean": 0.631578947368421,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s0_0170",
+   "family": "Gulf 3-panel",
+   "clean": 0.7692307692307693,
+   "scan": 0.6666666666666666
+  },
+  {
+   "key": "s0_0260",
+   "family": "Gulf 3-panel",
+   "clean": 0.875,
+   "scan": 0.875
+  },
+  {
+   "key": "s0_0345",
+   "family": "Gulf 3-panel",
+   "clean": 0.8571428571428571,
+   "scan": 1.0
+  },
+  {
+   "key": "s0_0430",
+   "family": "Gulf 3-panel",
+   "clean": 0.5555555555555556,
+   "scan": 0.8
+  },
+  {
+   "key": "s0_0520",
+   "family": "Gulf 3-panel",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s0_0605",
+   "family": "Gulf 3-panel",
+   "clean": 0.9333333333333333,
+   "scan": 0.875
+  },
+  {
+   "key": "s0_0690",
+   "family": "Gulf 3-panel",
+   "clean": 0.6666666666666666,
+   "scan": 0.7368421052631579
+  },
+  {
+   "key": "s0_0780",
+   "family": "Gulf 3-panel",
+   "clean": 0.8695652173913043,
+   "scan": 0.8695652173913043
+  },
+  {
+   "key": "s0_0865",
+   "family": "Gulf 3-panel",
+   "clean": 0.8571428571428571,
+   "scan": 0.7692307692307693
+  },
+  {
+   "key": "s0_0955",
+   "family": "Gulf 3-panel",
+   "clean": 0.8235294117647058,
+   "scan": 0.875
+  },
+  {
+   "key": "s4_0000",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.7142857142857143,
+   "scan": 0.7142857142857143
+  },
+  {
+   "key": "s4_0020",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.8888888888888888,
+   "scan": 0.8888888888888888
+  },
+  {
+   "key": "s4_0040",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.7692307692307693,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s4_0060",
+   "family": "MC761 mineral/lithology",
+   "clean": 1.0,
+   "scan": 0.875
+  },
+  {
+   "key": "s4_0085",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.9411764705882353,
+   "scan": 0.8
+  },
+  {
+   "key": "s4_0105",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.9,
+   "scan": 0.9
+  },
+  {
+   "key": "s4_0125",
+   "family": "MC761 mineral/lithology",
+   "clean": 1.0,
+   "scan": 0.9411764705882353
+  },
+  {
+   "key": "s4_0145",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.7777777777777778,
+   "scan": 0.7142857142857143
+  },
+  {
+   "key": "s4_0170",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.8235294117647058,
+   "scan": 0.8
+  },
+  {
+   "key": "s4_0190",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.9333333333333333,
+   "scan": 0.7692307692307693
+  },
+  {
+   "key": "s4_0210",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.6666666666666666,
+   "scan": 0.46153846153846156
+  },
+  {
+   "key": "s4_0235",
+   "family": "MC761 mineral/lithology",
+   "clean": 0.8333333333333334,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s3_0000",
+   "family": "MC765 colour grid",
+   "clean": 0.7272727272727273,
+   "scan": 0.4444444444444444
+  },
+  {
+   "key": "s3_0020",
+   "family": "MC765 colour grid",
+   "clean": 0.875,
+   "scan": 0.8235294117647058
+  },
+  {
+   "key": "s3_0040",
+   "family": "MC765 colour grid",
+   "clean": 0.75,
+   "scan": 0.9230769230769231
+  },
+  {
+   "key": "s3_0060",
+   "family": "MC765 colour grid",
+   "clean": 0.7692307692307693,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s3_0085",
+   "family": "MC765 colour grid",
+   "clean": 0.9090909090909091,
+   "scan": 0.8571428571428571
+  },
+  {
+   "key": "s3_0105",
+   "family": "MC765 colour grid",
+   "clean": 0.7777777777777778,
+   "scan": 0.7368421052631579
+  },
+  {
+   "key": "s3_0125",
+   "family": "MC765 colour grid",
+   "clean": 0.875,
+   "scan": 0.9411764705882353
+  },
+  {
+   "key": "s3_0145",
+   "family": "MC765 colour grid",
+   "clean": 0.8,
+   "scan": 0.875
+  },
+  {
+   "key": "s3_0170",
+   "family": "MC765 colour grid",
+   "clean": 0.9333333333333333,
+   "scan": 0.7272727272727273
+  },
+  {
+   "key": "s3_0190",
+   "family": "MC765 colour grid",
+   "clean": 0.9230769230769231,
+   "scan": 0.8571428571428571
+  },
+  {
+   "key": "s3_0210",
+   "family": "MC765 colour grid",
+   "clean": 1.0,
+   "scan": 0.8571428571428571
+  },
+  {
+   "key": "s3_0235",
+   "family": "MC765 colour grid",
+   "clean": 0.9333333333333333,
+   "scan": 0.9333333333333333
+  },
+  {
+   "key": "s6_0000",
+   "family": "One-off layout",
+   "clean": 0.7692307692307693,
+   "scan": 0.7272727272727273
+  },
+  {
+   "key": "s6_0020",
+   "family": "One-off layout",
+   "clean": 0.8333333333333334,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s6_0040",
+   "family": "One-off layout",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s6_0060",
+   "family": "One-off layout",
+   "clean": 1.0,
+   "scan": 0.8888888888888888
+  },
+  {
+   "key": "s6_0085",
+   "family": "One-off layout",
+   "clean": 0.7692307692307693,
+   "scan": 0.6666666666666666
+  },
+  {
+   "key": "s6_0105",
+   "family": "One-off layout",
+   "clean": 0.5,
+   "scan": 0.6666666666666666
+  },
+  {
+   "key": "s6_0125",
+   "family": "One-off layout",
+   "clean": 0.7142857142857143,
+   "scan": 0.7142857142857143
+  },
+  {
+   "key": "s6_0145",
+   "family": "One-off layout",
+   "clean": 0.9333333333333333,
+   "scan": 0.9333333333333333
+  },
+  {
+   "key": "s6_0170",
+   "family": "One-off layout",
+   "clean": 0.6956521739130435,
+   "scan": 0.8421052631578947
+  },
+  {
+   "key": "s6_0190",
+   "family": "One-off layout",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s6_0210",
+   "family": "One-off layout",
+   "clean": 0.8888888888888888,
+   "scan": 0.8
+  },
+  {
+   "key": "s6_0235",
+   "family": "One-off layout",
+   "clean": 0.9090909090909091,
+   "scan": 0.9090909090909091
+  },
+  {
+   "key": "s5_0000",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.8,
+   "scan": 0.8333333333333334
+  },
+  {
+   "key": "s5_0020",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.9523809523809523,
+   "scan": 0.9523809523809523
+  },
+  {
+   "key": "s5_0040",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.8235294117647058,
+   "scan": 0.7058823529411765
+  },
+  {
+   "key": "s5_0060",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.8421052631578947,
+   "scan": 0.875
+  },
+  {
+   "key": "s5_0085",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.9230769230769231,
+   "scan": 0.9230769230769231
+  },
+  {
+   "key": "s5_0105",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.9333333333333333,
+   "scan": 0.9333333333333333
+  },
+  {
+   "key": "s5_0125",
+   "family": "Texas 'Rock Types' box",
+   "clean": 1.0,
+   "scan": 0.2857142857142857
+  },
+  {
+   "key": "s5_0145",
+   "family": "Texas 'Rock Types' box",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s5_0170",
+   "family": "Texas 'Rock Types' box",
+   "clean": 1.0,
+   "scan": 1.0
+  },
+  {
+   "key": "s5_0190",
+   "family": "Texas 'Rock Types' box",
+   "clean": 1.0,
+   "scan": 0.9333333333333333
+  },
+  {
+   "key": "s5_0210",
+   "family": "Texas 'Rock Types' box",
+   "clean": 1.0,
+   "scan": 0.8888888888888888
+  },
+  {
+   "key": "s5_0235",
+   "family": "Texas 'Rock Types' box",
+   "clean": 0.9230769230769231,
+   "scan": 0.7272727272727273
+  }
+ ],
+ "rss_gb": 0.6600608825683594
+}

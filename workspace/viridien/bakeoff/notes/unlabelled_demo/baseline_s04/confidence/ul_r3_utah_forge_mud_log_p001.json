@@ -1,0 +1,82 @@
+[
+  {
+    "top_y": 1415,
+    "bottom_y": 1433,
+    "lithology": "CLAY",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "CLAY",
+    "raw_descriptor_gap": 0.34433242865953895,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 1433,
+    "bottom_y": 1497,
+    "lithology": "GRANITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "GRANITE",
+    "raw_descriptor_gap": 0.13931287377541932,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 1497,
+    "bottom_y": 1691,
+    "lithology": "CLAY",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "CLAY",
+    "raw_descriptor_gap": 0.09711612726481667,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 1691,
+    "bottom_y": 13783,
+    "lithology": "MEDIUM SAND",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "CONGLOMERATE",
+    "raw_descriptor_gap": 0.14520351506484272,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 13783,
+    "bottom_y": 15673,
+    "lithology": "WASH GRANITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "WASH GRANITE",
+    "raw_descriptor_gap": 0.45084875594425966,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 15673,
+    "bottom_y": 16427,
+    "lithology": "MEDIUM SAND",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "WASH GRANITE",
+    "raw_descriptor_gap": 0.11768621218927955,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 16427,
+    "bottom_y": 17150,
+    "lithology": "WASH GRANITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "WASH GRANITE",
+    "raw_descriptor_gap": 0.47008923519526813,
+    "raw_descriptor_agrees": true
+  },
+  {
+    "top_y": 17150,
+    "bottom_y": 17500,
+    "lithology": "GRANITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "RHYOLITE",
+    "raw_descriptor_gap": 0.043041527999688814,
+    "raw_descriptor_agrees": false
+  }
+]

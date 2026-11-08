@@ -1,0 +1,14 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,352,Halite,1,25180.1,25197.7
+352,816,SIllty Sandstone,0,25197.7,25220.9
+816,1184,Anhydrlte,2,25220.9,25239.2
+1184,1376,Sand and Sandstone,3,25239.2,25248.8
+1376,1536,Anhydrlte,2,25248.8,25256.8
+1536,1904,SIllty Sandstone,0,25256.8,25275.2
+1904,2320,Siltstone,4,25275.2,25296.0
+2320,2736,Sand and Sandstone,3,25296.0,25316.7
+2736,3104,Dolomite,5,25316.7,25335.1
+3104,3488,Sand and Sandstone,3,25335.1,25354.3
+3488,3808,SIllty Sandstone,0,25354.3,25370.3
+3808,3904,Halite,1,25370.3,25375.1
+3904,4000,Sand and Sandstone,3,25375.1,25379.8

@@ -1,0 +1,39 @@
+{
+  "contract": "hacktheburgh harness.score.score, min_layer_px=0; not interval-v2",
+  "source_sha256": {
+    "strategies/s20_v4.py": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+    "strategies/scoreboard_v4.py": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+    "harness/__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "harness/depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "emil/paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "labeltool/__init__.py": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "labeltool/common.py": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "labeltool/jev2.py": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "strategies/scoreboard_v4_snapshot/beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+    "strategies/scoreboard_v4_snapshot/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "strategies/scoreboard_v4_snapshot/log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+    "strategies/scoreboard_v4_snapshot/native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+    "strategies/scoreboard_v4_snapshot/README.md": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+    "labeltool/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419"
+  },
+  "cases": [
+    {
+      "case_id": "1195460dd0d251cd",
+      "files": {
+        "annotation.json": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+        "calibration.json": "52ce5e3e0d42cad9805d98106dbb51cb8f11422696c1a8ead02ce2525c749b69",
+        "case.json": "b9e2526c6e7dfda458e90636d8642a24b98a11455dfcedcef6ecc5ef3368214d",
+        "column.png": "6a63921fade2cb5ee5608bd8583ebc8305c838f1d7b4c2a00b383a0b0878e8bf",
+        "truth.csv": "5b95f8db45a804412b97695beb10ceb08ca51dc90b9b342f69d92ebdde7465d9"
+      }
+    }
+  ],
+  "seeds": 1108,
+  "threads": 2,
+  "calibration": "local shared-depth signature validated, no VM OCR inference",
+  "reference_packet": "/home/user/viridian402-jobs/v4-cpu-20261108T063000Z-f785e5",
+  "ocr": "No OCR executed; shared calibration and frozen native legend cache used. OCR model provenance retained from reference packet, not claimed byte-equivalent to local."
+}

@@ -1,0 +1,1822 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lithology benchmark</title><style>body{margin:20px auto;padding:0 14px;max-width:1150px;background:white;color:#20252a;font:16px system-ui}table{border-collapse:collapse;font-size:14px}th,td{padding:8px;border-bottom:1px solid #ddd;text-align:left}.scroll{overflow:auto}img{max-width:100%;height:auto}article{border-top:1px solid #ddd;padding:16px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}.error{color:#ae2424}a{color:#075cb5}</style></head><body><h1>Lithology benchmark</h1><p>Means weight windows equally. 95% percentile confidence intervals resample whole wells (2,000 draws). A single well gives a degenerate interval. Quality means include scored failures as zero. Unknown families indicate missing metadata. Cached seconds retain the original prediction time.</p><h2>By suite</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>strategy</th>
+      <th>suite</th>
+      <th>metric</th>
+      <th>mean</th>
+      <th>low</th>
+      <th>high</th>
+      <th>n</th>
+      <th>n_wells</th>
+      <th>windows</th>
+      <th>failures</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>seconds</td>
+      <td>0.0052</td>
+      <td>0.0049</td>
+      <td>0.0054</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>peak_rss_gb</td>
+      <td>0.4863</td>
+      <td>0.4789</td>
+      <td>0.4937</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>unlab_test</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>seconds</td>
+      <td>0.0330</td>
+      <td>0.0190</td>
+      <td>0.0471</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>peak_rss_gb</td>
+      <td>0.4122</td>
+      <td>0.3760</td>
+      <td>0.4484</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>unlab_test</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>seconds</td>
+      <td>1.2137</td>
+      <td>1.1994</td>
+      <td>1.2280</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>peak_rss_gb</td>
+      <td>0.6305</td>
+      <td>0.6299</td>
+      <td>0.6311</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>unlab_test</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>seconds</td>
+      <td>0.0194</td>
+      <td>0.0166</td>
+      <td>0.0222</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>peak_rss_gb</td>
+      <td>0.4141</td>
+      <td>0.3796</td>
+      <td>0.4486</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>unlab_test</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table></div><h2>By source</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>strategy</th>
+      <th>source</th>
+      <th>metric</th>
+      <th>mean</th>
+      <th>low</th>
+      <th>high</th>
+      <th>n</th>
+      <th>n_wells</th>
+      <th>windows</th>
+      <th>failures</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>seconds</td>
+      <td>0.0052</td>
+      <td>0.0049</td>
+      <td>0.0054</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>peak_rss_gb</td>
+      <td>0.4863</td>
+      <td>0.4789</td>
+      <td>0.4937</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>mississippi</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>seconds</td>
+      <td>0.0330</td>
+      <td>0.0190</td>
+      <td>0.0471</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>peak_rss_gb</td>
+      <td>0.4122</td>
+      <td>0.3760</td>
+      <td>0.4484</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>mississippi</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>seconds</td>
+      <td>1.2137</td>
+      <td>1.1994</td>
+      <td>1.2280</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>peak_rss_gb</td>
+      <td>0.6305</td>
+      <td>0.6299</td>
+      <td>0.6311</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>mississippi</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>seconds</td>
+      <td>0.0194</td>
+      <td>0.0166</td>
+      <td>0.0222</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>peak_rss_gb</td>
+      <td>0.4141</td>
+      <td>0.3796</td>
+      <td>0.4486</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>mississippi</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table></div><h2>By family</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>strategy</th>
+      <th>family</th>
+      <th>metric</th>
+      <th>mean</th>
+      <th>low</th>
+      <th>high</th>
+      <th>n</th>
+      <th>n_wells</th>
+      <th>windows</th>
+      <th>failures</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>seconds</td>
+      <td>0.0052</td>
+      <td>0.0049</td>
+      <td>0.0054</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>peak_rss_gb</td>
+      <td>0.4863</td>
+      <td>0.4789</td>
+      <td>0.4937</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s11_fft_legend</td>
+      <td>Gulf 3-panel</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>seconds</td>
+      <td>0.0330</td>
+      <td>0.0190</td>
+      <td>0.0471</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>peak_rss_gb</td>
+      <td>0.4122</td>
+      <td>0.3760</td>
+      <td>0.4484</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s17_synth_gulf</td>
+      <td>Gulf 3-panel</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>seconds</td>
+      <td>1.2137</td>
+      <td>1.1994</td>
+      <td>1.2280</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>peak_rss_gb</td>
+      <td>0.6305</td>
+      <td>0.6299</td>
+      <td>0.6311</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s19_combine</td>
+      <td>Gulf 3-panel</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>score</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>row_acc</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>boundary_f1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>cluster_ari</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>depth_mae_ft</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>seconds</td>
+      <td>0.0194</td>
+      <td>0.0166</td>
+      <td>0.0222</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>peak_rss_gb</td>
+      <td>0.4141</td>
+      <td>0.3796</td>
+      <td>0.4486</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>s22_boundary_v2</td>
+      <td>Gulf 3-panel</td>
+      <td>api_calls</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>2</td>
+      <td>2</td>
+      <td>20</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table></div><h2>Windows</h2><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-004_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-004_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-004_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-004_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-007_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 214, in calibrate
+    raise ValueError(&#x27;Depth calibration extrapolates above zero at column top&#x27;)
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-007_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-007_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-007_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 214, in calibrate
+    raise ValueError(&#x27;Depth calibration extrapolates above zero at column top&#x27;)
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-014_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-014_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-014_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-014_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-015_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-015_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-015_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-015_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-018_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 214, in calibrate
+    raise ValueError(&#x27;Depth calibration extrapolates above zero at column top&#x27;)
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-018_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-018_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-018_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: Depth calibration extrapolates above zero at column top</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: Depth calibration extrapolates above zero at column top
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-037_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-037_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-037_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-037_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000100000a-042_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000100000a-042_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000100000a-042_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000100000a-042_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000100000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-002_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-006_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-006_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-006_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-006_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-008_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-009_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-009_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-009_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-009_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-010_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-011_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-011_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-011_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-011_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-012_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-012_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-012_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-012_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-013_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-013_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-013_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-013_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-023_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-023_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-023_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-023_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s11_fft_legend / unlab_test / ul_r3_mississippi_mdl523045000150000a-038_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 48, in cached_depth_calibration
+    return _DEPTH_CALIBRATE(log,engine=engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 208, in calibrate
+    try: fit=_fit(unique)
+             ^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/depth.py&quot;, line 73, in _fit
+    if best is None or best[0][0]&lt;minimum: raise ValueError(&#x27;No consistent increasing depth calibration&#x27;)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s17_synth_gulf / unlab_test / ul_r3_mississippi_mdl523045000150000a-038_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s19_combine / unlab_test / ul_r3_mississippi_mdl523045000150000a-038_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article><article><h3>s22_boundary_v2 / unlab_test / ul_r3_mississippi_mdl523045000150000a-038_p001 [32, 684)</h3><p>Source: mississippi · Well: 23045000150000 · Family: Gulf 3-panel</p><p>Prediction only; no truth</p><details class="error"><summary>ValueError: No consistent increasing depth calibration</summary><pre>Traceback (most recent call last):
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/harness/bench.py&quot;, line 440, in _execute
+    calib = depth.calibrate(log)
+            ^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/user/viridian402-jobs/unlab-cmp-20261108T064933Z-ce66be/work/viridien_work/bakeoff/notes/round6_local/unlab_curate/run_suite.py&quot;, line 46, in cached_depth_calibration
+    raise ValueError(data[&#x27;message&#x27;])
+ValueError: No consistent increasing depth calibration
+</pre></details></article></body></html>

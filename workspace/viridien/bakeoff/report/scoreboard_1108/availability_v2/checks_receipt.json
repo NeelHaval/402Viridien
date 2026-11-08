@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-11-08T08:45:23.928822+00:00",
+  "ended_utc": "2026-11-08T08:45:37.224311+00:00",
+  "command": [
+    "C:\\Users\\hssil\\anaconda3\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "strategies/test_grading_policy.py",
+    "strategies/test_grading_availability_v2.py",
+    "report/scoreboard_1108/availability_v2",
+    "report/scoreboard_1108/jev_comparison/test_registry_private.py",
+    "report/scoreboard_1108/jev_comparison/test_continuation.py",
+    "--tb=short",
+    "-o",
+    "cache_dir=out/availability_v2_pytest_cache"
+  ],
+  "cwd": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff",
+  "exit_code": 0,
+  "timeout_seconds": 180,
+  "inference_or_API_started": false
+}

@@ -1,0 +1,43 @@
+{
+  "model": "one_changed",
+  "mode": "gt",
+  "pred_dir": "results/acceptance/preds/one_changed",
+  "thin_ft": 0.0,
+  "units": "ft",
+  "blocks": {
+    "test": {
+      "n_pages": 1,
+      "n_scored": 1,
+      "n_missing_pred": 0,
+      "n_gt_error": 0,
+      "mean_over_pages": {
+        "acc": 0.8330550918196995,
+        "macro_f1": 0.4544626593806922,
+        "bf1@2": 1.0,
+        "bf1@5": 1.0,
+        "mean_err": 0.0,
+        "ari": 0.0,
+        "purity": 1.0,
+        "depth_mae": 0.023224732701388955,
+        "depth_max": 0.0481339519865287,
+        "runtime_s": null,
+        "composition_l1": 0.333889816360601
+      },
+      "pooled": {
+        "n_bins": 599,
+        "acc": 0.8330550918196995,
+        "macro_f1": 0.4544626593806922,
+        "bf1@2": 1.0,
+        "bf1@5": 1.0,
+        "mean_err": 0.0,
+        "n_clu_bins": 599,
+        "ari": 0.0,
+        "purity": 1.0,
+        "depth_mae": 0.023224732701388955,
+        "depth_max": 0.0481339519865287,
+        "runtime_s": null,
+        "composition_l1": 0.333889816360601
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "top_y": 1660,
+    "bottom_y": 1728,
+    "lithology": "ne",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "rt",
+    "raw_descriptor_gap": 0.02204636496340717,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 1728,
+    "bottom_y": 1895,
+    "lithology": "st",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "rt",
+    "raw_descriptor_gap": 0.06424999728655324,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 1895,
+    "bottom_y": 2147,
+    "lithology": "ne",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "le",
+    "raw_descriptor_gap": 0.00046013614969819914,
+    "raw_descriptor_agrees": false
+  },
+  {
+    "top_y": 2147,
+    "bottom_y": 2200,
+    "lithology": "st",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "raw_descriptor_nearest": "rt",
+    "raw_descriptor_gap": 0.06653254104694173,
+    "raw_descriptor_agrees": false
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "d582": {
+    "family": "D-582 1-bit grid",
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "rows": [
+      4404,
+      11195
+    ],
+    "n_rock": 10,
+    "share": {
+      "blank": 0.723,
+      "hatch": 0.277
+    }
+  },
+  "geo": {
+    "family": "Geoservices grid",
+    "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+    "rows": [
+      10072,
+      11672
+    ],
+    "n_rock": 30,
+    "share": {
+      "Calcareous clay-shale | Clay Shale": 1.0
+    }
+  },
+  "mc761": {
+    "family": "MC761 mineral/lithology",
+    "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+    "rows": [
+      6759,
+      8359
+    ],
+    "n_rock": 11,
+    "share": {
+      "blank": 0.48,
+      "Sandstone": 0.335,
+      "hatch": 0.161,
+      "Siltstone": 0.022,
+      "notin": 0.002
+    }
+  },
+  "mc765a": {
+    "family": "MC765 colour grid (1 inch)",
+    "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+    "rows": [
+      17042,
+      18642
+    ],
+    "n_rock": 23,
+    "share": {
+      "Clay-S | Clay-SACS": 0.921,
+      "Sand-CS | Sand-FSS": 0.079
+    }
+  },
+  "mc765b": {
+    "family": "MC765 colour grid (5 inch, colour shift)",
+    "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+    "rows": [
+      78761,
+      80361
+    ],
+    "n_rock": 23,
+    "share": {
+      "Clay-S | Clay-SACS": 1.0
+    }
+  },
+  "gulf_ok": {
+    "family": "Gulf 3-panel, parsed",
+    "log": "60817410140000_mc822#10 1-1200 mud log",
+    "rows": [
+      11891,
+      13491
+    ],
+    "n_rock": 21,
+    "share": {
+      "blank": 0.631,
+      "hatch": 0.369
+    }
+  },
+  "gulf_fail": {
+    "family": "Gulf 3-panel, parser failed",
+    "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+    "rows": [
+      30618,
+      32218
+    ],
+    "n_rock": 0,
+    "share": {
+      "noparse": 1.0
+    }
+  },
+  "oneoff": {
+    "family": "One-off layout (Allegheny)",
+    "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+    "rows": [
+      15662,
+      17262
+    ],
+    "n_rock": 30,
+    "share": {
+      "Claystone | Marl": 0.672,
+      "notin": 0.299,
+      "Marl | Silty Clay": 0.029
+    }
+  },
+  "texas": {
+    "family": "Texas 'Rock Types' box",
+    "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+    "rows": [
+      44966,
+      46566
+    ],
+    "n_rock": 23,
+    "share": {
+      "SHALE": 0.869,
+      "TUFF": 0.087,
+      "CLAYSTONE | LIMESTONE": 0.031,
+      "hatch": 0.013
+    }
+  },
+  "d582_log02": {
+    "family": "D-582 1-bit grid (second log)",
+    "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+    "rows": [
+      4387,
+      6787
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"status": "passed", "logs": 51, "first_page_item_crop_ms": 1313.9, "next_api_median_ms": 145.4, "next_api_max_ms": 173.8, "checks": ["4-log round robin", "all 4 modes", "gold excluded", "native crop dimensions", "edited save", "CSV rebuild", "duplicate request", "human-only stats", "gold stats", "invalid boundaries", "undo", "spot Wilson CI"]}

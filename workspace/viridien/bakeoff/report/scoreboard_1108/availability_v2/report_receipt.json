@@ -1,0 +1,13 @@
+{
+  "version": "availability_v2",
+  "data_sha256": "6502e4df226becf194b95c5f2d49dd75075f1a5c897dae17c059504b73102db8",
+  "audit_sha256": "99e1b600d518673b87ad2777b3951873a0e0544cdfd78480be1c858a3a083b87",
+  "parent_audit_sha256": "974cd90353c03ca277865e5252ebb3aa250ce24ffdf39206465266ffcd98f2a1",
+  "html_sha256": "dbd4a7b6244a7cff625783c3a93b0c172a12f83cd9da4630eee956ba2e3c23be",
+  "selection_promoted": false,
+  "generalization_verified": false,
+  "image_status": "not-generated_due_to_owner_hold",
+  "generated_truth_images": 0,
+  "image_render_failures": 0,
+  "records": 272
+}

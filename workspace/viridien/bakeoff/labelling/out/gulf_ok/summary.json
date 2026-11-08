@@ -1,0 +1,27 @@
+{
+  "key": "gulf_ok",
+  "log": "60817410140000_mc822#10 1-1200 mud log",
+  "family": "Gulf 3-panel, parsed",
+  "rows": [
+    11891,
+    13491
+  ],
+  "iteration": 1,
+  "n_intervals": 8,
+  "agreed_share": 0.905625,
+  "labels": {
+    "Clay-shale": 0.649375,
+    "Sandy clay-shale": 0.04625,
+    "Silty clay-shale": 0.153125,
+    "Slaty shale": 0.15125
+  },
+  "calls_used": 7,
+  "seconds": 119.43408599999384,
+  "calibration": {
+    "a": 0.5000155351029766,
+    "b": 8750.336034061593,
+    "n_points": 55,
+    "rmse_px": 1.5458989580238753,
+    "method": "rapidocr+ransac"
+  }
+}

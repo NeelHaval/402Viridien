@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data coverage: our logs vs gathered</title>
+<style>
+:root{
+  --page:transparent; --surface:var(--card); --ink:var(--foreground); --ink2:var(--muted-foreground); --muted:var(--muted-foreground); --grid:var(--border);
+  --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --track:var(--secondary);
+}
+*{box-sizing:border-box}
+body{margin:0;font-size:14.5px;line-height:1.45}
+main{padding:0}
+h1{font-size:22px;margin:0 0 4px}
+h2{font-size:16px;margin:28px 0 10px}
+p.sub{color:var(--ink2);margin:0 0 18px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.tile{background:var(--surface);border:1px solid var(--grid);border-radius:var(--radius);padding:12px 14px}
+.tile .k{color:var(--ink2);font-size:13px}
+.tile .v{font-size:26px;font-weight:650;margin:2px 0}
+.tile .d{color:var(--muted);font-size:13px}
+.panel{background:var(--surface);border:1px solid var(--grid);border-radius:8px;padding:14px}
+.stack{display:flex;gap:2px;height:44px;margin:8px 0 6px}
+.seg{border-radius:4px;position:relative;min-width:6px;cursor:default;display:flex;align-items:center;padding:0 6px;overflow:hidden;white-space:nowrap;font-size:12.5px;font-weight:600;color:#fff}
+.seg.dark{color:#0b0b0b}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink2);margin-top:6px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.axis{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+.cards{display:grid;grid-template-columns:1fr;gap:10px}
+.card{background:var(--surface);border:1px solid var(--grid);border-radius:8px;padding:12px 14px;display:grid;grid-template-columns:220px 1fr;gap:6px 18px}
+@media (max-width:720px){.card{grid-template-columns:1fr}}
+.fam{font-weight:650}
+.share{display:flex;align-items:center;gap:8px;margin-top:6px}
+.bar{flex:1;height:10px;background:var(--track);border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--s1);border-radius:0 4px 4px 0}
+.pct{font-variant-numeric:tabular-nums;font-weight:650;min-width:46px;text-align:right}
+.meta{color:var(--muted);font-size:12.5px;margin-top:4px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:650;border:1px solid var(--grid);border-radius:999px;padding:2px 9px 2px 4px;margin-top:8px}
+.chip b{width:16px;height:16px;border-radius:50%;display:inline-grid;place-items:center;font-size:11px;color:#fff}
+.chip b.dark{color:#0b0b0b}
+dl{margin:0;display:grid;grid-template-columns:150px 1fr;gap:3px 12px;font-size:13.5px}
+@media (max-width:720px){dl{grid-template-columns:1fr} dt{margin-top:6px}}
+dt{color:var(--ink2)}
+dd{margin:0}
+.dots{letter-spacing:2px;font-weight:700}
+.tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--grid);border-radius:6px;padding:8px 10px;font-size:13px;max-width:280px;display:none;z-index:10}
+details{margin-top:24px}
+summary{cursor:pointer;color:var(--ink2)}
+table{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}
+th,td{border-bottom:1px solid var(--grid);padding:6px 8px;text-align:left;vertical-align:top}
+th{color:var(--ink2);font-weight:600}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.note{color:var(--muted);font-size:12.5px;margin-top:10px}
+</style>
+</head>
+<body>
+<main>
+<p class="sub">Share of rows: how much of the challenge set each layout family makes up. Gathered: outside logs that look like that family. Status on 8 Nov 2026, 03:00.</p>
+
+<div class="tiles">
+  <div class="tile"><div class="k">Our challenge set</div><div class="v">51 logs</div><div class="d">7 layout families, 13 used for eval</div></div>
+  <div class="tile"><div class="k">Outside, labelled</div><div class="v">89 + 32</div><div class="d">89 windows from 12 wells (KGS, Utah, Idaho, NL) + 32 Mirror Lake logs</div></div>
+  <div class="tile"><div class="k">Outside, unlabelled</div><div class="v">651 pages</div><div class="d">9 sources, no truth, for trying algorithms</div></div>
+  <div class="tile"><div class="k">Synthetic</div><div class="v">2,400</div><div class="d">windows with exact truth (960 Gulf, 240 per other family)</div></div>
+</div>
+
+<h2>How much of our data has look-alike outside data</h2>
+<div class="panel">
+  <div class="stack" id="stack"></div>
+  <div class="axis"><span>0%</span><span>share of our rows</span><span>100%</span></div>
+  <div class="legend" id="legend"></div>
+</div>
+
+<h2>Per family</h2>
+<div class="cards" id="cards"></div>
+
+<h2>How the 89 labelled outside windows are used</h2>
+<div class="panel">
+  <div class="stack" id="split"></div>
+  <div class="legend" id="splitlegend"></div>
+  <p class="note">Split by whole well, so no well appears in two splits. Sealed verify is encrypted until the final check. Shared dev went to GitHub in PR #49 and shared verify in PR #51.</p>
+</div>
+
+<details>
+<summary>Table view</summary>
+<table id="tbl"><thead><tr><th>Family</th><th>Our logs</th><th>Share of rows</th><th>Labelled outside</th><th>Unlabelled outside</th><th>Synthetic windows</th><th>Best match</th><th>Status</th></tr></thead><tbody></tbody></table>
+</details>
+
+<p class="note">Best match is a 0-3 visual similarity score: 3 = same layout, legend and column; 2 = same column style, different layout; 1 = a mud log that looks different. Sources: analysis/volume_budget.csv, external_unlabelled/manifest.csv, external_untrusted/round4/*/triage.json, external_tests/splits.json, bakeoff/ml/synth_gulf/REPORT.md.</p>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const ST={
+  covered:{label:"Covered: labelled look-alikes",c:"var(--good)",icon:"✓",dark:false},
+  partial:{label:"Partial: similar but unlabelled or one well",c:"var(--warning)",icon:"~",dark:true},
+  weak:{label:"Weak: only different-looking logs",c:"var(--serious)",icon:"!",dark:false},
+  missing:{label:"Missing: nothing similar, synthetic only",c:"var(--critical)",icon:"×",dark:false}
+};
+const F=[
+ {f:"Gulf 3-panel",logs:18,share:59.0,st:"missing",match:1,lab:"None",unl:"None that matches. 2 Mississippi pages scored 1/3",syn:960,
+  next:"BSEE has 15,923 released Gulf mud-log TIFFs (959 deepwater, 2005+). Needs your Login.gov sign-in and a request. Texas RRC and Alabama lanes are searching."},
+ {f:"Texas 'Rock Types' box",logs:7,share:19.0,st:"covered",match:3,lab:"89 windows, 12 wells (KGS, Utah, Idaho, NL)",unl:"-",syn:240,
+  next:"Enough to test. Outside test row accuracy is only 0.10-0.25, so this is where the models are measured."},
+ {f:"MC765 colour grid",logs:4,share:9.8,st:"partial",match:2,lab:"32 logs, but all from one well (Mirror Lake, NWT)",unl:"25 NWT OROGO pages",syn:240,
+  next:"About 664 NWT OROGO wells not yet examined, so more colour logs are likely."},
+ {f:"One-off layout",logs:5,share:5.5,st:"weak",match:1,lab:"None",unl:"206 striplog pages (Coso, singles, Wister)",syn:240,
+  next:"Each log is unique by definition, so look-alikes are unlikely. Rely on robustness and synthetic data."},
+ {f:"Geoservices grid",logs:5,share:4.8,st:"partial",match:2,lab:"None",unl:"9 DHI Wister pages (1 document)",syn:240,
+  next:"Australia NOPIMS (offshore) is the big unverified lead. NLOG and Trinidad are unconfirmed."},
+ {f:"D-582 1-bit grid",logs:9,share:1.5,st:"partial",match:2,lab:"None",unl:"391 black-and-white hatch pages (Oregon 75, Coso 81, Mississippi 235)",syn:240,
+  next:"271 more Oregon DOGAMI PDFs are public. Synthetic training already lifted this family from 0.6% to 49% row accuracy."},
+ {f:"MC761 mineral/lithology",logs:3,share:0.4,st:"partial",match:2,lab:"None",unl:"Same black-and-white hatch pool",syn:240,
+  next:"Tiny share of rows. The hatch pool is close enough for testing."}
+];
+const tip=document.getElementById('tip');
+function hover(el,html){el.addEventListener('mousemove',e=>{tip.innerHTML=html;tip.style.display='block';
+  tip.style.left=Math.min(e.clientX+14,innerWidth-300)+'px';tip.style.top=(e.clientY+14)+'px'});
+  el.addEventListener('mouseleave',()=>tip.style.display='none');}
+// coverage stack, grouped by status, in status order
+const order=["covered","partial","weak","missing"],stack=document.getElementById('stack');
+order.forEach(s=>{const fs=F.filter(x=>x.st===s);const tot=fs.reduce((a,b)=>a+b.share,0);if(!tot)return;
+  const d=document.createElement('div');d.className='seg'+(ST[s].dark?' dark':'');d.style.flex=tot;d.style.background=ST[s].c;
+  d.textContent=tot>=8?tot.toFixed(1)+'%':'';
+  hover(d,`<b>${ST[s].label}</b><br>${tot.toFixed(1)}% of our rows<br>${fs.map(x=>x.f+' '+x.share+'%').join('<br>')}`);stack.appendChild(d);});
+document.getElementById('legend').innerHTML=order.map(s=>{const t=F.filter(x=>x.st===s).reduce((a,b)=>a+b.share,0);
+  return `<span><i class="sw" style="background:${ST[s].c}"></i>${ST[s].label} (${t.toFixed(1)}%)</span>`}).join('');
+// cards
+const cards=document.getElementById('cards'),max=60;
+F.forEach(x=>{const s=ST[x.st];const c=document.createElement('div');c.className='card';
+  c.innerHTML=`<div><div class="fam">${x.f}</div>
+    <div class="share"><div class="bar"><i style="width:${x.share/max*100}%"></i></div><span class="pct">${x.share}%</span></div>
+    <div class="meta">${x.logs} of our logs</div>
+    <span class="chip"><b class="${s.dark?'dark':''}" style="background:${s.c}">${s.icon}</b>${s.label.split(':')[0]}</span></div>
+    <dl><dt>Labelled outside</dt><dd>${x.lab}</dd><dt>Unlabelled outside</dt><dd>${x.unl}</dd>
+    <dt>Synthetic windows</dt><dd>${x.syn.toLocaleString()}</dd>
+    <dt>Best match</dt><dd><span class="dots">${'●'.repeat(x.match)}${'○'.repeat(3-x.match)}</span> ${x.match}/3</dd>
+    <dt>Next step</dt><dd>${x.next}</dd></dl>`;
+  cards.appendChild(c);});
+// split
+const SP=[["Dev (training, CV)",51,"var(--s1)",false,"6 wells minus ForsythB2-17. Includes the 17 shared-dev windows (PR #49)"],
+  ["Shared verify",8,"var(--s2)",false,"ForsythB2-17, on GitHub in PR #51, no longer used for tuning"],
+  ["Test",20,"var(--s3)",false,"EmmaWard1, flat-bay-3, irvin1-19. Scored once per strategy"],
+  ["Sealed verify",10,"var(--s4)",true,"3 wells, encrypted. Final check only"]];
+const sp=document.getElementById('split');
+SP.forEach(([n,v,c,dk,t])=>{const d=document.createElement('div');d.className='seg'+(dk?' dark':'');d.style.flex=v;d.style.background=c;
+  d.textContent=v;hover(d,`<b>${n}</b>: ${v} windows<br>${t}`);sp.appendChild(d);});
+document.getElementById('splitlegend').innerHTML=SP.map(([n,v,c])=>`<span><i class="sw" style="background:${c}"></i>${n} ${v}</span>`).join('');
+// table
+document.querySelector('#tbl tbody').innerHTML=F.map(x=>`<tr><td>${x.f}</td><td class="n">${x.logs}</td><td class="n">${x.share}%</td><td>${x.lab}</td><td>${x.unl}</td><td class="n">${x.syn}</td><td class="n">${x.match}/3</td><td>${ST[x.st].label.split(':')[0]}</td></tr>`).join('');
+</script>
+</body>
+</html>

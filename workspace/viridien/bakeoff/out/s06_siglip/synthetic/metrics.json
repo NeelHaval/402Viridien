@@ -1,0 +1,47 @@
+{
+  "strategy": "s06_siglip",
+  "name": "S6 SigLIP",
+  "set": "synthetic",
+  "gt": "gold",
+  "logs": [
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_0",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.01648080001177732,
+      "depth_seconds": 0.0011343999940436333,
+      "api_calls": 0,
+      "seconds": 9.01889900000242,
+      "peak_rss_gb": 1.8981285095214844,
+      "peak_gpu_gb": 1.0703125,
+      "row_acc": 0.3243396762283442,
+      "boundary_f1": 0.36666666666666664,
+      "cluster_ari": 0.2605388943345485,
+      "depth_mae_ft": 0.39090909090902476,
+      "score": 0.11892454795039287,
+      "csv": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_0.csv",
+      "png": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_0.png"
+    }
+  ],
+  "mean": {
+    "score": 0.11892454795039287,
+    "row_acc": 0.3243396762283442,
+    "boundary_f1": 0.36666666666666664,
+    "cluster_ari": 0.2605388943345485,
+    "depth_mae_ft": 0.39090909090902476,
+    "seconds": 9.01889900000242,
+    "peak_rss_gb": 1.8981285095214844,
+    "peak_gpu_gb": 1.0703125,
+    "api_calls": 0,
+    "legend_seconds": 0.01648080001177732,
+    "depth_seconds": 0.0011343999940436333,
+    "crashes": 0,
+    "n_windows": 1,
+    "n_scored": 1
+  },
+  "gpu_measurement": "PyTorch peak reserved allocator bytes; RSS includes child processes"
+}

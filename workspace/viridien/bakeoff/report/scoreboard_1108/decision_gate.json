@@ -1,0 +1,59 @@
+{
+  "status": "valid",
+  "cases": 68,
+  "strategies": 4,
+  "candidate_names": [
+    "s19_combine",
+    "s20_v4",
+    "s21_v4dino",
+    "s23_v4dino_identity"
+  ],
+  "records": 272,
+  "exact_case_keys": true,
+  "identity_fields": [
+    "suite",
+    "log",
+    "y0",
+    "y1",
+    "window",
+    "family",
+    "well",
+    "dataset",
+    "image",
+    "annotation",
+    "column_box",
+    "truth_csv",
+    "truth_sha256",
+    "image_sha256",
+    "annotation_sha256",
+    "truth_sources"
+  ],
+  "independent_csv_replay": {
+    "status": "valid",
+    "records_sha256": "e76ea64725b3c8779388e4ddf1b399d1ca4600cce252acf9cab8e25fbc857174",
+    "manifest_sha256": "3c6bf54199842fb99a8ec464e53458ac0684b486ca5aa52e835e348373e05394"
+  },
+  "audited_prediction_bytes": {
+    "status": "valid",
+    "prediction_csv_count": 272
+  },
+  "run_integrity": {
+    "status": "valid",
+    "records_sha256": "e76ea64725b3c8779388e4ddf1b399d1ca4600cce252acf9cab8e25fbc857174",
+    "manifest_sha256": "3c6bf54199842fb99a8ec464e53458ac0684b486ca5aa52e835e348373e05394",
+    "exact_keys_valid": true,
+    "provenance": {
+      "primary_embedding_records": 34,
+      "pixel_embedding_records": 0,
+      "primary_model_records": 34,
+      "pixel_model_records": 0
+    }
+  },
+  "accepted_policy_replay": {
+    "status": "valid",
+    "grading_policy_id": "clay_shale_equivalent_v1",
+    "grading_policy_source_sha256": "637f91e7752d22fd9b16aaf9b2faa7c9b505a3e26a2486df486eb8b45b4a8df6",
+    "accepted_rescored": 271,
+    "accepted_pixel_diagnostics": 0
+  }
+}

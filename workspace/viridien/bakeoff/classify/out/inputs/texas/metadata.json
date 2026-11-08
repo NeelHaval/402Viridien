@@ -1,0 +1,72 @@
+{
+  "family": "Texas 'Rock Types' box",
+  "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+  "rows": [
+    44966,
+    46566
+  ],
+  "n_rock": 23,
+  "share": {
+    "SHALE": 0.869,
+    "TUFF": 0.087,
+    "CLAYSTONE | LIMESTONE": 0.031,
+    "hatch": 0.013
+  },
+  "key": "texas",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\texas\\consensus.csv",
+  "vocabulary": [
+    "DOLOMITE",
+    "SHALE GRAY",
+    "TILL",
+    "ANHYDRITE",
+    "CHERT",
+    "SHALE COLORED",
+    "BENTONITE",
+    "GYPSUM",
+    "COAL",
+    "SILTSTONE",
+    "TUFF",
+    "SALT",
+    "MARLSTONE",
+    "SANDSTONE",
+    "IGNEOUS",
+    "SIDERITEorLIMONITE",
+    "CLAYSTONE",
+    "CONGLOMERATE",
+    "METAMORPHIC",
+    "LIMESTONE",
+    "SHALE",
+    "BRECCIA",
+    "CEMENT"
+  ],
+  "parser_failed": false,
+  "n_accepted": 8,
+  "n_selected": 8,
+  "excluded": [
+    {
+      "top_depth": "13047.2",
+      "bottom_depth": "13047.3",
+      "lithology": "LIMESTONE",
+      "top_y": "46336",
+      "bottom_y": "46337",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    }
+  ],
+  "mode": "RGB",
+  "legend_box": [
+    34,
+    3299,
+    1667,
+    3644
+  ],
+  "column_box": [
+    661,
+    6861,
+    731,
+    120865
+  ],
+  "truth_sha256": "e536cf8b3f860ae9c4831b68002ddc1ab2722d3ef2bd08b51afc04e475c66b86"
+}

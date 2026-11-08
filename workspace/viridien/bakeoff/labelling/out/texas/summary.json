@@ -1,0 +1,26 @@
+{
+  "key": "texas",
+  "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+  "family": "Texas 'Rock Types' box",
+  "rows": [
+    44966,
+    46566
+  ],
+  "iteration": 1,
+  "n_intervals": 9,
+  "agreed_share": 1.0,
+  "labels": {
+    "LIMESTONE": 0.035,
+    "SHALE": 0.87625,
+    "TUFF": 0.08875
+  },
+  "calls_used": 7,
+  "seconds": 69.45741229999112,
+  "calibration": {
+    "a": 0.09999900860447548,
+    "b": 8413.690746589886,
+    "n_points": 119,
+    "rmse_px": 1.107098947304321,
+    "method": "rapidocr+ransac"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "entries": [
+    {
+      "label": "Clay-S",
+      "box": [
+        32,
+        4,
+        161,
+        53
+      ],
+      "pattern": "Bright green with staggered black horizontal dashes."
+    },
+    {
+      "label": "Clay-SCS",
+      "box": [
+        348,
+        4,
+        501,
+        53
+      ],
+      "pattern": "Bright green with dense dotted horizontal lines and short dashes."
+    },
+    {
+      "label": "Clay-M",
+      "box": [
+        665,
+        4,
+        796,
+        53
+      ],
+      "pattern": "Bright green with horizontal dashes and small upright ticks."
+    },
+    {
+      "label": "Clay-CCS",
+      "box": [
+        981,
+        4,
+        1134,
+        53
+      ],
+      "pattern": "Bright green with staggered angular brackets and vertical strokes."
+    },
+    {
+      "label": "Clay-SACS",
+      "box": [
+        1298,
+        4,
+        1461,
+        53
+      ],
+      "pattern": "Bright green with horizontal dashes interspersed with dots."
+    },
+    {
+      "label": "Sand-SIS",
+      "box": [
+        32,
+        74,
+        182,
+        124
+      ],
+      "pattern": "Yellow with dense dots arranged in horizontal bands."
+    },
+    {
+      "label": "Sand-SS",
+      "box": [
+        348,
+        74,
+        494,
+        124
+      ],
+      "pattern": "Yellow with sparse regularly spaced black dots."
+    },
+    {
+      "label": "Sand-FS",
+      "box": [
+        665,
+        74,
+        809,
+        124
+      ],
+      "pattern": "Yellow with scattered irregular black dots."
+    },
+    {
+      "label": "Sand-MS",
+      "box": [
+        981,
+        74,
+        1130,
+        124
+      ],
+      "pattern": "Yellow with scattered short black horizontal dashes."
+    },
+    {
+      "label": "Sand-CS",
+      "box": [
+        1298,
+        74,
+        1445,
+        124
+      ],
+      "pattern": "Yellow with scattered coarse black square marks."
+    },
+    {
+      "label": "Sand-FSS",
+      "box": [
+        32,
+        144,
+        189,
+        195
+      ],
+      "pattern": "Yellow with dense regularly spaced black dots."
+    },
+    {
+      "label": "Sand-MSS",
+      "box": [
+        348,
+        144,
+        508,
+        195
+      ],
+      "pattern": "Yellow with regular rows of short black dashes and dots."
+    },
+    {
+      "label": "Limestone-AL",
+      "box": [
+        665,
+        144,
+        847,
+        195
+      ],
+      "pattern": "Cyan with elongated staggered brick outlines and internal horizontal strokes."
+    },
+    {
+      "label": "Limestone-SL",
+      "box": [
+        981,
+        144,
+        1163,
+        195
+      ],
+      "pattern": "Cyan with staggered brick outlines and small black dashes inside."
+    },
+    {
+      "label": "Limestone-L",
+      "box": [
+        1298,
+        144,
+        1469,
+        195
+      ],
+      "pattern": "Cyan with plain staggered black brick outlines."
+    },
+    {
+      "label": "Dolomites-AD",
+      "box": [
+        32,
+        215,
+        214,
+        265
+      ],
+      "pattern": "Magenta with horizontal bands, diagonal strokes and short horizontal dashes."
+    },
+    {
+      "label": "Dolomites-CD",
+      "box": [
+        348,
+        215,
+        531,
+        265
+      ],
+      "pattern": "Magenta with horizontal bands crossed by frequent short diagonal strokes."
+    },
+    {
+      "label": "Dolomites-D",
+      "box": [
+        665,
+        215,
+        836,
+        265
+      ],
+      "pattern": "Magenta with horizontal bands crossed by widely spaced diagonal strokes."
+    },
+    {
+      "label": "Others-H",
+      "box": [
+        981,
+        215,
+        1127,
+        265
+      ],
+      "pattern": "Red with staggered black right-angle marks."
+    },
+    {
+      "label": "Others-A",
+      "box": [
+        1298,
+        215,
+        1442,
+        265
+      ],
+      "pattern": "Red with dense black diagonal crosshatching."
+    },
+    {
+      "label": "Others-GY",
+      "box": [
+        32,
+        285,
+        192,
+        336
+      ],
+      "pattern": "Red with staggered black downward chevrons."
+    },
+    {
+      "label": "Others-E",
+      "box": [
+        348,
+        285,
+        495,
+        336
+      ],
+      "pattern": "Red with a dense black rectangular grid."
+    },
+    {
+      "label": "Others-CL",
+      "box": [
+        665,
+        285,
+        821,
+        336
+      ],
+      "pattern": "Solid black swatch."
+    }
+  ],
+  "image_size": [
+    1550,
+    512
+  ],
+  "source_box": [
+    79,
+    904,
+    1621,
+    1327
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

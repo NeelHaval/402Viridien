@@ -1,0 +1,1854 @@
+{
+  "derived_sha256": "6502e4df226becf194b95c5f2d49dd75075f1a5c897dae17c059504b73102db8",
+  "selection_promoted": false,
+  "values": [
+    {
+      "strategy": "s19_combine",
+      "old_eval": 0.4430450428854324,
+      "reference_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s19_combine",
+        "view": "primary",
+        "series": "reference_diagnostic",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.4759585557510621,
+            "window_mean": 0.4759585557510621,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.6699909498305875,
+            "window_mean": 0.6699909498305875,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.6167342959067796,
+            "window_mean": 0.6167342959067796,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.5884812566340263,
+            "window_mean": 0.5884812566340263,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.33333333333292914,
+            "window_mean": 0.33333333333292914,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s19_combine",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.029907265509359755,
+            "window_mean": 0.029907265509359755,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.1586746586746587,
+            "window_mean": 0.1586746586746587,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.6167342959067796,
+            "window_mean": 0.6167342959067796,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.2164480092944335,
+            "window_mean": 0.2164480092944335,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.33333333333292914,
+            "window_mean": 0.33333333333292914,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_overall": {
+        "suite": "overall_unique_log",
+        "family": "all",
+        "strategy": "s19_combine",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.5282759750572528,
+            "window_mean": 0.5236584498598972,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 1,
+              "supervised_failure_windows": 1,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.8971823465755675,
+            "window_mean": 0.8997013803115954,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 1,
+              "supervised_failure_windows": 1,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.5783343915702249,
+            "window_mean": 0.5740886386361422,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 64,
+              "excluded_windows": 1,
+              "eligible_windows": 64,
+              "total_logs": 60,
+              "available_logs": 59,
+              "excluded_logs": 1,
+              "eligible_logs": 59,
+              "failed_prediction_windows": 1,
+              "supervised_failure_windows": 1,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.8568790532775742,
+            "window_mean": 0.8557160817806488,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 1,
+              "supervised_failure_windows": 1,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.3884659073275123,
+            "window_mean": 0.3797719662618489,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 47,
+              "excluded_windows": 18,
+              "eligible_windows": 53,
+              "total_logs": 60,
+              "available_logs": 42,
+              "excluded_logs": 18,
+              "eligible_logs": 48,
+              "failed_prediction_windows": 1,
+              "supervised_failure_windows": 1,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 6
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 6
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "strategy": "s20_v4",
+      "old_eval": 0.44180243561722066,
+      "reference_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s20_v4",
+        "view": "primary",
+        "series": "reference_diagnostic",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.4743431663023869,
+            "window_mean": 0.4743431663023869,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.6509432217827621,
+            "window_mean": 0.6509432217827621,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.7267383557798097,
+            "window_mean": 0.7267383557798097,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.7040328677671467,
+            "window_mean": 0.7040328677671467,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.6124999999992724,
+            "window_mean": 0.6124999999992724,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s20_v4",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.10636517953591124,
+            "window_mean": 0.10636517953591124,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.27256077256077255,
+            "window_mean": 0.27256077256077255,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.7267383557798097,
+            "window_mean": 0.7267383557798097,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.6168282361110693,
+            "window_mean": 0.6168282361110693,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.6124999999992724,
+            "window_mean": 0.6124999999992724,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_overall": {
+        "suite": "overall_unique_log",
+        "family": "all",
+        "strategy": "s20_v4",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.039198700808621915,
+            "window_mean": 0.03556919147449026,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.04657560664745319,
+            "window_mean": 0.042263050476392706,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.18267322137804104,
+            "window_mean": 0.1692106998885326,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 64,
+              "excluded_windows": 1,
+              "eligible_windows": 64,
+              "total_logs": 60,
+              "available_logs": 59,
+              "excluded_logs": 1,
+              "eligible_logs": 59,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.17078957082295637,
+            "window_mean": 0.1549652067487784,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.9713100954413554,
+            "window_mean": 0.866196067772858,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 8,
+              "excluded_windows": 57,
+              "eligible_windows": 53,
+              "total_logs": 60,
+              "available_logs": 7,
+              "excluded_logs": 53,
+              "eligible_logs": 48,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 45
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 44
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "strategy": "s21_v4dino",
+      "old_eval": 0.4950238661810577,
+      "reference_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s21_v4dino",
+        "view": "primary",
+        "series": "reference_diagnostic",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.5435310260353751,
+            "window_mean": 0.5435310260353751,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.7763769547164949,
+            "window_mean": 0.7763769547164949,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.7505445119303936,
+            "window_mean": 0.7505445119303936,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.7089538569358517,
+            "window_mean": 0.7089538569358517,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.4899999999994179,
+            "window_mean": 0.4899999999994179,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s21_v4dino",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.48035298035298035,
+            "window_mean": 0.48035298035298035,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.7685647685647685,
+            "window_mean": 0.7685647685647685,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.7505445119303936,
+            "window_mean": 0.7505445119303936,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.7606600593755758,
+            "window_mean": 0.7606600593755758,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.4899999999994179,
+            "window_mean": 0.4899999999994179,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_overall": {
+        "suite": "overall_unique_log",
+        "family": "all",
+        "strategy": "s21_v4dino",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.04329768127371143,
+            "window_mean": 0.039288636711330746,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.05486594263203009,
+            "window_mean": 0.049785762758693966,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.18366985703892982,
+            "window_mean": 0.17012947338841444,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 64,
+              "excluded_windows": 1,
+              "eligible_windows": 64,
+              "total_logs": 60,
+              "available_logs": 59,
+              "excluded_logs": 1,
+              "eligible_logs": 59,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.17455334211375584,
+            "window_mean": 0.15838048069783717,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.9885782511460519,
+            "window_mean": 0.8813057040144674,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 8,
+              "excluded_windows": 57,
+              "eligible_windows": 53,
+              "total_logs": 60,
+              "available_logs": 7,
+              "excluded_logs": 53,
+              "eligible_logs": 48,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 45
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 44
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "strategy": "s23_v4dino_identity",
+      "old_eval": 0.5643987188636903,
+      "reference_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s23_v4dino_identity",
+        "view": "primary",
+        "series": "reference_diagnostic",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.6337183345227974,
+            "window_mean": 0.6337183345227974,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.8739769547164951,
+            "window_mean": 0.8739769547164951,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.741579066594514,
+            "window_mean": 0.741579066594514,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.6966510873141101,
+            "window_mean": 0.6966510873141101,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 10,
+              "excluded_windows": 3,
+              "eligible_windows": 10,
+              "total_logs": 13,
+              "available_logs": 10,
+              "excluded_logs": 3,
+              "eligible_logs": 10,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.4899999999994179,
+            "window_mean": 0.4899999999994179,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_eval": {
+        "suite": "viridien_eval",
+        "family": "all",
+        "strategy": "s23_v4dino_identity",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.45209692268515794,
+            "window_mean": 0.45209692268515794,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.7685647685647685,
+            "window_mean": 0.7685647685647685,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.741579066594514,
+            "window_mean": 0.741579066594514,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 12,
+              "excluded_windows": 1,
+              "eligible_windows": 12,
+              "total_logs": 13,
+              "available_logs": 12,
+              "excluded_logs": 1,
+              "eligible_logs": 12,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.7025804107851661,
+            "window_mean": 0.7025804107851661,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 12,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.4899999999994179,
+            "window_mean": 0.4899999999994179,
+            "denominator": {
+              "total_windows": 13,
+              "available_windows": 1,
+              "excluded_windows": 12,
+              "eligible_windows": 1,
+              "total_logs": 13,
+              "available_logs": 1,
+              "excluded_logs": 12,
+              "eligible_logs": 1,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1
+              }
+            }
+          }
+        }
+      },
+      "qualified_overall": {
+        "suite": "overall_unique_log",
+        "family": "all",
+        "strategy": "s23_v4dino_identity",
+        "view": "primary",
+        "series": "qualified_development",
+        "policy": "owner_equivalent",
+        "metrics": {
+          "score": {
+            "mean": 0.04186763114556137,
+            "window_mean": 0.03799099863208347,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "row_acc": {
+            "mean": 0.054566921924846114,
+            "window_mean": 0.04951442915402703,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "boundary_f1": {
+            "mean": 0.18106681875354239,
+            "window_mean": 0.1677297974690729,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 64,
+              "excluded_windows": 1,
+              "eligible_windows": 64,
+              "total_logs": 60,
+              "available_logs": 59,
+              "excluded_logs": 1,
+              "eligible_logs": 59,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "zero-supervision": 1
+              }
+            }
+          },
+          "cluster_ari": {
+            "mean": 0.17356540506305781,
+            "window_mean": 0.15748401929998157,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 54,
+              "excluded_windows": 11,
+              "eligible_windows": 54,
+              "total_logs": 60,
+              "available_logs": 49,
+              "excluded_logs": 11,
+              "eligible_logs": 49,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              },
+              "reason_logs": {
+                "truth-not-qualified-for-lithology": 11,
+                "legend-vocabulary-invalid": 2,
+                "zero-supervision": 1
+              }
+            }
+          },
+          "depth_mae_ft": {
+            "mean": 0.9967415164521422,
+            "window_mean": 0.8884485611572963,
+            "denominator": {
+              "total_windows": 65,
+              "available_windows": 8,
+              "excluded_windows": 57,
+              "eligible_windows": 53,
+              "total_logs": 60,
+              "available_logs": 7,
+              "excluded_logs": 53,
+              "eligible_logs": 48,
+              "failed_prediction_windows": 0,
+              "supervised_failure_windows": 0,
+              "zero_supervision_windows": 1,
+              "missing_truth_windows": 0,
+              "legend_invalid_windows": 2,
+              "no_depth_truth_windows": 12,
+              "reason_windows": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 45
+              },
+              "reason_logs": {
+                "no-depth-truth": 12,
+                "zero-supervision": 1,
+                "prediction-depth-unavailable": 44
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

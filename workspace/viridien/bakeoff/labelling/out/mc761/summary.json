@@ -1,0 +1,26 @@
+{
+  "key": "mc761",
+  "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+  "family": "MC761 mineral/lithology",
+  "rows": [
+    6759,
+    8359
+  ],
+  "iteration": 1,
+  "n_intervals": 29,
+  "agreed_share": 0.980625,
+  "labels": {
+    "Sandstone": 0.31625,
+    "Shale": 0.64625,
+    "Siltstone": 0.0375
+  },
+  "calls_used": 7,
+  "seconds": 76.104359200006,
+  "calibration": {
+    "a": 0.5001280145996444,
+    "b": 15669.74109775525,
+    "n_points": 50,
+    "rmse_px": 2.1885406542782704,
+    "method": "rapidocr+ransac"
+  }
+}

@@ -1,0 +1,36 @@
+{
+ "selected": {
+  "method": "learned",
+  "learner": "logistic",
+  "blend": 1.0,
+  "reject": 1.01,
+  "margin": 0.0,
+  "selection": "six-fold leave-one-well-out; macro over wells"
+ },
+ "started": 1794101392.060186,
+ "sha256": {
+  "bakeoff/ml/match/selected.json": "c7507f5846e8d163795c122938dd2f80f9505f255c2a522f7e4f27cd91defe2a",
+  "bakeoff/ml/match/matcher.pkl": "d208e02b89a25c07a25c327a37617042ff16d51bf5bfe3bd33832321f94232e4",
+  "bakeoff/ml/match/matcher.npz": "40aa5350ac6c5aa40ab27558d553143b98083fa01d212205f0a36a134d91c7b1",
+  "bakeoff/ml/match/features.py": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+  "bakeoff/ml/match/experiment.py": "00721532264c92122fd4fd18d8c99438765dc32e268103c945b8421f93ca44bd",
+  "bakeoff/emil/boundary_net.pt": "50a5751d8c1e636de3177c2c8a596c295a980b02987b577a51b782566e7c214c",
+  "emil/drive/boundary_net.pt": "45273902c94e642e0bc5edac8d51295f9e7106372b6b2f2bb137a54f9be40079",
+  "bakeoff/harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+  "bakeoff/harness/depth.py": "2f84c4dc6433cee1bd348087634fb3351968d66183175e3f19f46453f0ac6ee5",
+  "bakeoff/harness/score.py": "cffddf644fda7c38b5fa7753e60b52f1b581a7905f74bc6648d6298d1e9a8bb2",
+  "bakeoff/strategies/s11_fft_legend.py": "a7579d209ffacd74cd52f0e7054bdb769151cdcddb31e425c2b9073e0a851c2c",
+  "bakeoff/strategies/s12_emil.py": "6aa071ab9cb0a2036f1624582159390ed5665143669a7925ba71d9cd75894320",
+  "bakeoff/strategies/s14_learned_match.py": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+  "bakeoff/strategies/s13_boundary_net.py": "fa8d28e72160e2286edca98b2f034ca775c30779779cccf24a1618aab04aaf51",
+  "bakeoff/strategies/s15_learned_match.py": "5954a7661ef1b79dbc3787296f65b36fdb28a772213b4842a2fef7730b6ada44",
+  "bakeoff/ml/boundary/boundary_net.pt": "5f547847661a92ed7d2fae161bdd6374a738d12fa42bc06cb749e1cd08178cb1"
+ },
+ "strategies": [
+  "s11_fft_legend",
+  "s12_emil",
+  "s14_learned_match",
+  "s13_boundary_net",
+  "s15_learned_match"
+ ]
+}

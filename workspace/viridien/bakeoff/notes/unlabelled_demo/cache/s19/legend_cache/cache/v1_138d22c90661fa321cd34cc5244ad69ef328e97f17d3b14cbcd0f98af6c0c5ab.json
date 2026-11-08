@@ -1,0 +1,617 @@
+{
+  "version": 1,
+  "digest": "138d22c90661fa321cd34cc5244ad69ef328e97f17d3b14cbcd0f98af6c0c5ab",
+  "layout": null,
+  "items": [
+    {
+      "box": [
+        487,
+        94,
+        521,
+        127
+      ],
+      "candidates": [
+        {
+          "text": "Iatru. siT\u9759",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Iatu.",
+          "confidence": 0.8651739835739136,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "sr4",
+          "confidence": 0.2810538361469905,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "Istro:",
+          "confidence": 0.10683130825726397,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "%",
+          "confidence": 0.027462190191817948,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        26,
+        95,
+        60,
+        127
+      ],
+      "candidates": [],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        82,
+        95,
+        116,
+        128
+      ],
+      "candidates": [
+        {
+          "text": "\u81ea\uff1a",
+          "confidence": 0.43593883514404297,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "l.",
+          "confidence": 0.43051907420158386,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "2,",
+          "confidence": 0.9980628065250996,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "2",
+          "confidence": 0.3747810578112798,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        209,
+        96,
+        243,
+        129
+      ],
+      "candidates": [
+        {
+          "text": "c",
+          "confidence": 0.5740715861320496,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "'(",
+          "confidence": 0.625561135493147,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        273,
+        97,
+        306,
+        130
+      ],
+      "candidates": [
+        {
+          "text": "Sitht. Sondy Congt. Lignile",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "1- L",
+          "confidence": 0.5737797543406487,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "\u54c1\u606f\u3002",
+          "confidence": 0.4476722205678622,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "sit. sner Coon. Lignile",
+          "confidence": 0.7195886901539305,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1 L",
+          "confidence": 0.8238904476165771,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "0 29<",
+          "confidence": 0.17534095072486253,
+          "engine": "easy",
+          "direction": "left"
+        },
+        {
+          "text": "Sittut. %4 Cs Laile",
+          "confidence": 0.058470082421903886,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        352,
+        95,
+        386,
+        128
+      ],
+      "candidates": [
+        {
+          "text": "\u03b1r Coal",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "1e",
+          "confidence": 0.8119550347328186,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "\u54c1\u5c9b\u6069L",
+          "confidence": 0.29882586374878883,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "ugoae",
+          "confidence": 0.4721685528755188,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1#",
+          "confidence": 0.4782310125409765,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "0 22@ .",
+          "confidence": 0.16018371807777548,
+          "engine": "easy",
+          "direction": "left"
+        },
+        {
+          "text": "CTsi",
+          "confidence": 0.2056615948677063,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        423,
+        95,
+        458,
+        128
+      ],
+      "candidates": [
+        {
+          "text": "\u7a76\u9c81\u808c\u4e8e\u72b6",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "Ynte",
+          "confidence": 0.6071609780192375,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "I",
+          "confidence": 0.32539281096848427,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        547,
+        96,
+        581,
+        131
+      ],
+      "candidates": [
+        {
+          "text": ".i",
+          "confidence": 0.49992623925209045,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "",
+          "confidence": 0.0,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "1",
+          "confidence": 0.1925489771114286,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "@",
+          "confidence": 0.977086056014528,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        615,
+        99,
+        643,
+        129
+      ],
+      "candidates": [
+        {
+          "text": "S+h ilkmort, Chart",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "6.1",
+          "confidence": 0.7421145737171173,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "ssh ilkmort, Chert",
+          "confidence": 0.7567436380518807,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "+l",
+          "confidence": 0.16445496690869651,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Sm ,br  Cled",
+          "confidence": 0.01793095246150401,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        733,
+        99,
+        767,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "1",
+          "confidence": 0.9852840900421143,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.8899889878578051,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        669,
+        100,
+        698,
+        129
+      ],
+      "candidates": [
+        {
+          "text": "",
+          "confidence": 0.0,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": ";",
+          "confidence": 0.06933246230126944,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    }
+  ],
+  "ocr": [
+    {
+      "box": [
+        [
+          241.53226725260416,
+          25.4296875
+        ],
+        [
+          529.8387451171875,
+          27.48046875
+        ],
+        [
+          529.8387451171875,
+          61.11328125
+        ],
+        [
+          241.53226725260416,
+          59.0625
+        ]
+      ],
+      "text": "LITHOLOGY SYMBOL S",
+      "confidence": 0.8921638627847036
+    },
+    {
+      "box": [
+        [
+          71.77419535319011,
+          86.1328125
+        ],
+        [
+          273.7903238932292,
+          85.3125
+        ],
+        [
+          273.7903238932292,
+          132.48046875
+        ],
+        [
+          71.77419535319011,
+          133.30078125
+        ]
+      ],
+      "text": "\u25a1\u81ea",
+      "confidence": 0.5581393241882324
+    },
+    {
+      "box": [
+        [
+          490.3225911458333,
+          98.4375
+        ],
+        [
+          520.1612955729166,
+          98.4375
+        ],
+        [
+          520.1612955729166,
+          124.27734375
+        ],
+        [
+          490.3225911458333,
+          124.27734375
+        ]
+      ],
+      "text": "[x]",
+      "confidence": 0.8282957077026367
+    },
+    {
+      "box": [
+        [
+          139.11290486653647,
+          130.4296875
+        ],
+        [
+          409.2742106119792,
+          134.94140625
+        ],
+        [
+          408.8709716796875,
+          156.6796875
+        ],
+        [
+          138.70968627929688,
+          152.16796875
+        ]
+      ],
+      "text": "Sitht. Sondy Congt. Lignile",
+      "confidence": 0.8579987817340426
+    },
+    {
+      "box": [
+        [
+          481.0484212239583,
+          130.83984375
+        ],
+        [
+          532.6612955729166,
+          134.12109375
+        ],
+        [
+          531.4516194661459,
+          150.9375
+        ],
+        [
+          479.8387451171875,
+          147.65625
+        ]
+      ],
+      "text": "Iatru.",
+      "confidence": 0.8026439150174459
+    },
+    {
+      "box": [
+        [
+          545.1612955729166,
+          132.48046875
+        ],
+        [
+          711.693603515625,
+          134.53125
+        ],
+        [
+          711.693603515625,
+          153.80859375
+        ],
+        [
+          545.1612955729166,
+          151.7578125
+        ]
+      ],
+      "text": "S+h ilkmort, Chart",
+      "confidence": 0.7224974201785194
+    },
+    {
+      "box": [
+        [
+          199.19356282552084,
+          150.1171875
+        ],
+        [
+          326.6129150390625,
+          152.578125
+        ],
+        [
+          326.20969645182294,
+          170.625
+        ],
+        [
+          198.79032389322916,
+          168.1640625
+        ]
+      ],
+      "text": "Sillit. omerete",
+      "confidence": 0.8197717527548473
+    },
+    {
+      "box": [
+        [
+          417.741943359375,
+          152.98828125
+        ],
+        [
+          461.6935628255208,
+          149.70703125
+        ],
+        [
+          462.9032389322917,
+          165.703125
+        ],
+        [
+          418.9516194661458,
+          168.984375
+        ]
+      ],
+      "text": "\u7a76\u9c81\u808c\u4e8e\u72b6",
+      "confidence": 0.5374676048755646
+    },
+    {
+      "box": [
+        [
+          488.3064778645833,
+          149.296875
+        ],
+        [
+          519.7580973307291,
+          149.296875
+        ],
+        [
+          519.7580973307291,
+          165.703125
+        ],
+        [
+          488.3064778645833,
+          165.703125
+        ]
+      ],
+      "text": "siT\u9759",
+      "confidence": 0.5655918195843697
+    },
+    {
+      "box": [
+        [
+          334.67742919921875,
+          157.91015625
+        ],
+        [
+          408.0645345052083,
+          156.6796875
+        ],
+        [
+          408.4677734375,
+          176.3671875
+        ],
+        [
+          335.0806477864583,
+          177.59765625
+        ]
+      ],
+      "text": "\u03b1r Coal",
+      "confidence": 0.8674045375415257
+    },
+    {
+      "box": [
+        [
+          76.20968119303386,
+          166.11328125
+        ],
+        [
+          116.53225708007812,
+          165.29296875
+        ],
+        [
+          116.93548583984375,
+          182.51953125
+        ],
+        [
+          76.61290486653645,
+          183.33984375
+        ]
+      ],
+      "text": "Sh ata",
+      "confidence": 0.8058386941750845
+    }
+  ]
+}

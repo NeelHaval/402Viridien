@@ -1,0 +1,2687 @@
+{
+  "manifest": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\manifest_1108.json",
+  "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+  "records": [
+    {
+      "case_id": "6b663182fbfb4f87",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "y0": 4404,
+      "y1": 11195,
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+          "sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+        }
+      ],
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s19_combine",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\6b663182fbfb4f87.csv",
+      "legend_seconds": 1.2649869000015315,
+      "depth_seconds": 35.814968599996064,
+      "preprocess_seconds": 37.079955499997595,
+      "seconds": 96.81886689999374,
+      "strategy_diagnostics": {},
+      "peak_rss_gb": 0.8746109008789062,
+      "peak_gpu_gb": 0.0,
+      "api_calls": 0,
+      "row_acc": 0.04395604395604396,
+      "boundary_f1": 0.18848167539267016,
+      "cluster_ari": 0.2164480092944335,
+      "depth_mae_ft": 0.33333333333292914,
+      "score": 0.008284908808469018,
+      "vocabulary": {
+        "candidates": [
+          "Limestone",
+          "Dolomite",
+          "Anhydrite",
+          "Halite",
+          "Coal",
+          "Clay",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Sand and",
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "L",
+          "Unknown",
+          "Unknown"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 4004,
+            "available": true
+          },
+          {
+            "label": "Siltstone",
+            "rows": 1202,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 800,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049929633778174214,
+        "b": 25180.126231694987,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.6806523220219737
+      },
+      "task_wall_seconds": 136.02363840001635,
+      "end_to_end_seconds": 133.89882239999133,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "y0": 4404,
+      "y1": 11195,
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+          "sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+        }
+      ],
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s20_v4",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\6b663182fbfb4f87.csv",
+      "legend_seconds": 0.2614490000123624,
+      "depth_seconds": 0.24774260001140647,
+      "preprocess_seconds": 0.5091916000237688,
+      "seconds": 23.963130100019043,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "blank": 1,
+          "ok": 25
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window"
+      },
+      "peak_rss_gb": 0.8222846984863281,
+      "peak_gpu_gb": 0.0,
+      "api_calls": 0,
+      "row_acc": 0.21045621045621046,
+      "boundary_f1": 0.3902439024390244,
+      "cluster_ari": 0.6168282361110693,
+      "depth_mae_ft": 0.6124999999992724,
+      "score": 0.08212925286096018,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay / Shale",
+          "Clay / Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 4004,
+            "available": false
+          },
+          {
+            "label": "Siltstone",
+            "rows": 1202,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 800,
+            "available": true
+          }
+        ],
+        "row_coverage": 0.3333333333333333,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049929633778174214,
+        "b": 25180.126231694987,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.6806523220219737
+      },
+      "task_wall_seconds": 25.140654199989513,
+      "end_to_end_seconds": 24.472321700042812,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "y0": 4404,
+      "y1": 11195,
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+          "sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+        }
+      ],
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s21_v4dino",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\6b663182fbfb4f87.csv",
+      "legend_seconds": 0.2614490000123624,
+      "depth_seconds": 0.24774260001140647,
+      "preprocess_seconds": 0.5091916000237688,
+      "seconds": 190.30697139998665,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "blank": 1,
+          "ok": 16
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 127,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "implementation_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.4623641967773438,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.13320013320013321,
+      "boundary_f1": 0.625,
+      "cluster_ari": 0.7606600593755758,
+      "depth_mae_ft": 0.4899999999994179,
+      "score": 0.08325008325008326,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay / Shale",
+          "Clay / Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 4004,
+            "available": false
+          },
+          {
+            "label": "Siltstone",
+            "rows": 1202,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 800,
+            "available": true
+          }
+        ],
+        "row_coverage": 0.3333333333333333,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049929633778174214,
+        "b": 25180.126231694987,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.6806523220219737
+      },
+      "task_wall_seconds": 190.85835860000225,
+      "end_to_end_seconds": 190.81616300001042,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "y0": 4387,
+      "y1": 10387,
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "column_box": [
+        2974,
+        4387,
+        3220,
+        11180
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "5149b0b690e8f03c4f0dad658e930ddfda1d0655c5c84e7e3ab4e304042d885b"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "f66f9e919ccac20eb41d86c41fe074e850f7a97308ae8160be1f7ff3eeb54c0b"
+        }
+      ],
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "image_sha256": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+      "annotation_sha256": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s19_combine",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\098a11560a3b06db.csv",
+      "legend_seconds": 0.18462179999914952,
+      "depth_seconds": 24.12125600001309,
+      "preprocess_seconds": 24.30587780001224,
+      "seconds": 84.509702499985,
+      "strategy_diagnostics": {},
+      "peak_rss_gb": 1.5198440551757812,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.030166666666666668,
+      "boundary_f1": 0.1724137931034483,
+      "cluster_ari": 0.0787036323864076,
+      "depth_mae_ft": null,
+      "score": 0.005201149425287357,
+      "vocabulary": {
+        "candidates": [
+          "Limestone",
+          "Dolomite",
+          "Anhydrite",
+          "Halite",
+          "Coal",
+          "Clay",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Sand and",
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "L",
+          "Unknown",
+          "Unknown"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3913,
+            "available": true
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2087,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.04989041316697636,
+        "b": 23281.25524846895,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.8952970969114783
+      },
+      "task_wall_seconds": 109.73703680001199,
+      "end_to_end_seconds": 108.81558029999724,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "y0": 4387,
+      "y1": 10387,
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "column_box": [
+        2974,
+        4387,
+        3220,
+        11180
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "5149b0b690e8f03c4f0dad658e930ddfda1d0655c5c84e7e3ab4e304042d885b"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "f66f9e919ccac20eb41d86c41fe074e850f7a97308ae8160be1f7ff3eeb54c0b"
+        }
+      ],
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "image_sha256": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+      "annotation_sha256": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s20_v4",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\098a11560a3b06db.csv",
+      "legend_seconds": 0.18462179999914952,
+      "depth_seconds": 24.12125600001309,
+      "preprocess_seconds": 24.30587780001224,
+      "seconds": 12.780931299988879,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 25
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window"
+      },
+      "peak_rss_gb": 1.5327415466308594,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.2638333333333333,
+      "boundary_f1": 0.46153846153846156,
+      "cluster_ari": 0.341452190107324,
+      "depth_mae_ft": null,
+      "score": 0.12176923076923077,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay / Shale",
+          "Clay / Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3913,
+            "available": false
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2087,
+            "available": true
+          }
+        ],
+        "row_coverage": 0.3478333333333333,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.04989041316697636,
+        "b": 23281.25524846895,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.8952970969114783
+      },
+      "task_wall_seconds": 13.118923600006383,
+      "end_to_end_seconds": 37.08680910000112,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "y0": 4387,
+      "y1": 10387,
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "column_box": [
+        2974,
+        4387,
+        3220,
+        11180
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "5149b0b690e8f03c4f0dad658e930ddfda1d0655c5c84e7e3ab4e304042d885b"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "f66f9e919ccac20eb41d86c41fe074e850f7a97308ae8160be1f7ff3eeb54c0b"
+        }
+      ],
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "image_sha256": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+      "annotation_sha256": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s21_v4dino",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\098a11560a3b06db.csv",
+      "legend_seconds": 0.18462179999914952,
+      "depth_seconds": 24.12125600001309,
+      "preprocess_seconds": 24.30587780001224,
+      "seconds": 14.608282200002577,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 16
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 125,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "implementation_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.5450820922851562,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.33366666666666667,
+      "boundary_f1": 0.4666666666666667,
+      "cluster_ari": 0.29056010354044437,
+      "depth_mae_ft": null,
+      "score": 0.1557111111111111,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay / Shale",
+          "Clay / Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3913,
+            "available": false
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2087,
+            "available": true
+          }
+        ],
+        "row_coverage": 0.3478333333333333,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.04989041316697636,
+        "b": 23281.25524846895,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.8952970969114783
+      },
+      "task_wall_seconds": 15.037574099987978,
+      "end_to_end_seconds": 38.91416000001482,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "y0": 4384,
+      "y1": 10384,
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "column_box": [
+        2976,
+        4384,
+        3226,
+        12184
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "f677a6ea742fb884f32446b60892b27b3b1305cd8a8c5c9a1824c8b89b30e5bf"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "a3ebe612120d08b455fdb667947f4257b510d38eacaf2e101b6a38f1551c694b"
+        }
+      ],
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "image_sha256": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+      "annotation_sha256": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s19_combine",
+      "scored": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ee53c8e06c27030e.csv",
+      "legend_seconds": 0.12122460000682622,
+      "depth_seconds": 27.64495149999857,
+      "preprocess_seconds": 27.766176100005396,
+      "seconds": 102.51834700000472,
+      "strategy_diagnostics": {},
+      "peak_rss_gb": 1.5469131469726562,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.01633333333333333,
+      "boundary_f1": 0.1476510067114094,
+      "cluster_ari": 0.17992746647882263,
+      "depth_mae_ft": null,
+      "score": 0.002411633109619687,
+      "vocabulary": {
+        "candidates": [
+          "Limestone",
+          "Dolomite",
+          "Anhydrite",
+          "Halite",
+          "Coal",
+          "Clay",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Sand and",
+          "Unknown",
+          "Unknown",
+          "Unknown",
+          "L",
+          "Unknown",
+          "Unknown"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3330,
+            "available": true
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2670,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "task_wall_seconds": 130.67759779997868,
+      "end_to_end_seconds": 130.28452310001012,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "process_start_utc": null,
+      "resumed_process": null,
+      "first_strategy_call_in_process": null,
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "y0": 4384,
+      "y1": 10384,
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "column_box": [
+        2976,
+        4384,
+        3226,
+        12184
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "f677a6ea742fb884f32446b60892b27b3b1305cd8a8c5c9a1824c8b89b30e5bf"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "a3ebe612120d08b455fdb667947f4257b510d38eacaf2e101b6a38f1551c694b"
+        }
+      ],
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "image_sha256": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+      "annotation_sha256": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s20_v4",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T05:55:50Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\ee53c8e06c27030e.csv",
+      "legend_seconds": 0.41189529999974184,
+      "depth_seconds": 0.5379163000034168,
+      "initial_shared_depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.9498116000031587,
+      "seconds": 31.189801200001966,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 26
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window"
+      },
+      "peak_rss_gb": 0.8250999450683594,
+      "peak_gpu_gb": 0.0,
+      "api_calls": 0,
+      "row_acc": 0.35183333333333333,
+      "boundary_f1": 0.3,
+      "cluster_ari": 0.3045348218407671,
+      "depth_mae_ft": null,
+      "score": 0.10554999999999999,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay / Shale",
+          "Clay / Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3330,
+            "available": false
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2670,
+            "available": true
+          }
+        ],
+        "row_coverage": 0.445,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "task_wall_seconds": 32.79202759999316,
+      "end_to_end_seconds": 32.139612800005125,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T05:56:27Z",
+      "freeze_migration": "legacy input and identity validated at migration; original read-time hash guard absent",
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ]
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "y0": 4384,
+      "y1": 10384,
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "column_box": [
+        2976,
+        4384,
+        3226,
+        12184
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "f677a6ea742fb884f32446b60892b27b3b1305cd8a8c5c9a1824c8b89b30e5bf"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "a3ebe612120d08b455fdb667947f4257b510d38eacaf2e101b6a38f1551c694b"
+        }
+      ],
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "image_sha256": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+      "annotation_sha256": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s21_v4dino",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T05:58:11Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\ee53c8e06c27030e.csv",
+      "legend_seconds": 0.6078433000075165,
+      "depth_seconds": 1.0612229000253137,
+      "initial_shared_depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 1.6690662000328302,
+      "seconds": 504.5227455999993,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 12
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 125,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "implementation_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.46185302734375,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.43116666666666664,
+      "boundary_f1": 0.3076923076923077,
+      "cluster_ari": 0.1860410080479543,
+      "depth_mae_ft": null,
+      "score": 0.13266666666666665,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay / Shale",
+          "Clay / Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3330,
+            "available": false
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2670,
+            "available": true
+          }
+        ],
+        "row_coverage": 0.445,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "task_wall_seconds": 506.9087508000084,
+      "end_to_end_seconds": 506.19181180003216,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "recorded_utc": "2026-11-08T06:06:46Z",
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ],
+      "freeze_migration": "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "suite": "viridien_eval",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "y0": 1728,
+      "y1": 7728,
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "well": "60807402860000_gb506#2_md_mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "column_box": [
+        953,
+        1206,
+        1000,
+        9623
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "375329accc5d6a865878d7c5b0bf6e424147708e6f07164451f09fe4f5a34b78"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "0ce2af7b9b83a557566dfb2200ed4e7f9514ead0a7e13d927300f95a8c7fc611"
+        }
+      ],
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+      "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s19_combine",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T05:58:11Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\ff55e97bd8089596.csv",
+      "legend_seconds": 0.30433650000486523,
+      "depth_seconds": 57.874456399993505,
+      "initial_shared_depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 58.17879289999837,
+      "seconds": 207.75963509999565,
+      "strategy_diagnostics": {},
+      "peak_rss_gb": 1.5078811645507812,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.3,
+      "boundary_f1": 0.89419795221843,
+      "cluster_ari": 0.4032770337408705,
+      "depth_mae_ft": null,
+      "score": 0.268259385665529,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Chert",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Anhydrite",
+          "Gypsum",
+          "Test",
+          "Core",
+          "DST",
+          "FIT",
+          "laminate Beddings",
+          "Fossils in general",
+          "Mud loss",
+          "Mud gain",
+          "Deviation survey",
+          "Plastic Clay",
+          "Shoe",
+          "Huile",
+          "Gaz",
+          "Sidewall Core",
+          "Diatomite"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 4658,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 1342,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "task_wall_seconds": 267.1130897999974,
+      "end_to_end_seconds": 265.938427999994,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "recorded_utc": "2026-11-08T06:11:13Z",
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ],
+      "freeze_migration": "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "suite": "viridien_eval",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "y0": 1728,
+      "y1": 7728,
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "well": "60807402860000_gb506#2_md_mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "column_box": [
+        953,
+        1206,
+        1000,
+        9623
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "375329accc5d6a865878d7c5b0bf6e424147708e6f07164451f09fe4f5a34b78"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "0ce2af7b9b83a557566dfb2200ed4e7f9514ead0a7e13d927300f95a8c7fc611"
+        }
+      ],
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+      "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s20_v4",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T05:58:11Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\ff55e97bd8089596.csv",
+      "legend_seconds": 0.30433650000486523,
+      "depth_seconds": 57.874456399993505,
+      "initial_shared_depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 58.17879289999837,
+      "seconds": 32.43800240001292,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 12,
+        "legend_entries": 12,
+        "state_counts": {
+          "ok": 162
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window"
+      },
+      "peak_rss_gb": 1.5537643432617188,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.386,
+      "boundary_f1": 0.939297124600639,
+      "cluster_ari": 0.4781216098005908,
+      "depth_mae_ft": null,
+      "score": 0.36256869009584664,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Chert",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Anhydrite",
+          "Gypsum",
+          "Plastic Clay",
+          "Diatomite"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 4658,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 1342,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "task_wall_seconds": 32.857174899982056,
+      "end_to_end_seconds": 90.61679530001129,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:11:46Z",
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ],
+      "freeze_migration": "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "suite": "viridien_eval",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "y0": 1728,
+      "y1": 7728,
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "well": "60807402860000_gb506#2_md_mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "column_box": [
+        953,
+        1206,
+        1000,
+        9623
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "375329accc5d6a865878d7c5b0bf6e424147708e6f07164451f09fe4f5a34b78"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "0ce2af7b9b83a557566dfb2200ed4e7f9514ead0a7e13d927300f95a8c7fc611"
+        }
+      ],
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+      "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s21_v4dino",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T05:58:11Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": false,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\ff55e97bd8089596.csv",
+      "legend_seconds": 0.30433650000486523,
+      "depth_seconds": 57.874456399993505,
+      "initial_shared_depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 58.17879289999837,
+      "seconds": 50.20631599999615,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 12,
+        "legend_entries": 12,
+        "state_counts": {
+          "ok": 160
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 36,
+        "dino_chunk_vectors": 217,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "implementation_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.5241050720214844,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.2991666666666667,
+      "boundary_f1": 0.9389067524115756,
+      "cluster_ari": 0.5124338432876435,
+      "depth_mae_ft": null,
+      "score": 0.2808896034297964,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Chert",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Anhydrite",
+          "Gypsum",
+          "Plastic Clay",
+          "Diatomite"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 4658,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 1342,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "task_wall_seconds": 50.62199149999651,
+      "end_to_end_seconds": 108.38510889999452,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:12:37Z",
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ],
+      "freeze_migration": "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "suite": "viridien_eval",
+      "log": "60811405120000_1inch tvd mudlog",
+      "y0": 1501,
+      "y1": 7501,
+      "window": [
+        1501,
+        7501
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405120000_1inch tvd mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "column_box": [
+        953,
+        1205,
+        1000,
+        15029
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "d74d9f29ddd31212846901c8661c55c1b6eeb5a882ed03c9e7ab5575fbdb2762"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "2bde9291aeb9e43cec5015cf2d4324c54ae4885e02167b077e6f3db0135ace53"
+        }
+      ],
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s19_combine",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T05:58:11Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": false,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\0de8d24f32217327.csv",
+      "legend_seconds": 0.3124768999987282,
+      "depth_seconds": 82.5717924000055,
+      "initial_shared_depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 82.88426930000423,
+      "seconds": 80.42944519998855,
+      "strategy_diagnostics": {},
+      "peak_rss_gb": 1.5569572448730469,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.9445,
+      "boundary_f1": 0.8527131782945736,
+      "cluster_ari": 0.7870336110487445,
+      "depth_mae_ft": null,
+      "score": 0.8053875968992248,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Sand Clay/Shale",
+          "Siltstone",
+          "Sandstone",
+          "Conglomerate",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Gypsum",
+          "Evaporites",
+          "Fossils",
+          "Core",
+          "DST",
+          "Shoe",
+          "Survey",
+          "Mud Loss",
+          "Mud Gain",
+          "LOT/FIT",
+          "RFT",
+          "Foraminifera",
+          "Diatoms"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 5030,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 883,
+            "available": true
+          },
+          {
+            "label": "Siltstone",
+            "rows": 87,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "task_wall_seconds": 163.85333680000622,
+      "end_to_end_seconds": 163.31371449999278,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "recorded_utc": "2026-11-08T06:15:21Z",
+      "previous_manifest_digests": [
+        "ca807cedefd48cb06a4214996a832f4a3ecbb1c2e191f89dbe0815443e8716dd"
+      ],
+      "freeze_migration": "Revalidated input and identity before candidate-set migration; original read-time input guards are retained when present"
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "y0": 4404,
+      "y1": 11195,
+      "window": [
+        4404,
+        11195
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.json",
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\6b663182fbfb4f87.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+          "sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+        }
+      ],
+      "truth_sha256": "473093359b55bec2e4cc4bbaa339673b868770c960d94d4117b9f1f2ee2f5511",
+      "image_sha256": "8143659e0afdb670d50ba27faebbf9cd8d057cc0bd863a2eb5d7727dec51f8ea",
+      "annotation_sha256": "d94215f9f18aa6f68b525ce071c59bf272b549d18caa602c72c7890e1f007ea0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s23_v4dino_identity",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\6b663182fbfb4f87.csv",
+      "legend_seconds": 0.36173750000307336,
+      "depth_seconds": 0.30033410000032745,
+      "initial_shared_depth_calibration": {
+        "a": 0.049929633778174214,
+        "b": 25180.126231694987,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.6806523220219737
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.6620716000034008,
+      "seconds": 134.93971690000035,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "blank": 1,
+          "ok": 18
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 127,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "legend_identity": "exact printed caption",
+        "implementation_sha256": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+        "dino_helper_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.4599189758300781,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.15734265734265734,
+      "boundary_f1": 0.5882352941176471,
+      "cluster_ari": 0.7025804107851661,
+      "depth_mae_ft": 0.4899999999994179,
+      "score": 0.09255450431921021,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay",
+          "Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 4004,
+            "available": true
+          },
+          {
+            "label": "Siltstone",
+            "rows": 1202,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 800,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049929633778174214,
+        "b": 25180.126231694987,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.6806523220219737
+      },
+      "task_wall_seconds": 136.20620580000104,
+      "end_to_end_seconds": 135.60178850000375,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": true,
+      "recorded_utc": "2026-11-08T06:20:50Z"
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "y0": 4387,
+      "y1": 10387,
+      "window": [
+        4387,
+        10387
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.json",
+      "column_box": [
+        2974,
+        4387,
+        3220,
+        11180
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\098a11560a3b06db.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "5149b0b690e8f03c4f0dad658e930ddfda1d0655c5c84e7e3ab4e304042d885b"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log02_fe_5in_md.csv",
+          "sha256": "f66f9e919ccac20eb41d86c41fe074e850f7a97308ae8160be1f7ff3eeb54c0b"
+        }
+      ],
+      "truth_sha256": "77b710966f2d6f240c0fa4556c551274e8b6a4dad32e522a1ec2c8d427ed49ff",
+      "image_sha256": "e530bda1330991550090e372d4b43efa8b0a2a7274f958a0dad1f63c7ddab98c",
+      "annotation_sha256": "bda39f2e8691071374b81227ae3cc572387fa1a062a4b34cd5cb4b40de5e49a0",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s23_v4dino_identity",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": false,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\098a11560a3b06db.csv",
+      "legend_seconds": 0.05160620002425276,
+      "depth_seconds": 0.5650575000036042,
+      "initial_shared_depth_calibration": {
+        "a": 0.04989041316697636,
+        "b": 23281.25524846895,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.8952970969114783
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.616663700027857,
+      "seconds": 19.82517120000557,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 17
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 125,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "legend_identity": "exact printed caption",
+        "implementation_sha256": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+        "dino_helper_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.4696693420410156,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.3475,
+      "boundary_f1": 0.3870967741935484,
+      "cluster_ari": 0.2394099036201137,
+      "depth_mae_ft": null,
+      "score": 0.13451612903225804,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay",
+          "Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3913,
+            "available": true
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2087,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.04989041316697636,
+        "b": 23281.25524846895,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 12,
+        "rmse_px": 0.8952970969114783
+      },
+      "task_wall_seconds": 20.881825200020103,
+      "end_to_end_seconds": 20.441834900033427,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:21:12Z"
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "suite": "viridien_eval",
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "y0": 4384,
+      "y1": 10384,
+      "window": [
+        4384,
+        10384
+      ],
+      "family": "D-582 1-bit grid",
+      "well": "0000000009_d-582_0000020435-0001",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.json",
+      "column_box": [
+        2976,
+        4384,
+        3226,
+        12184
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ee53c8e06c27030e.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "f677a6ea742fb884f32446b60892b27b3b1305cd8a8c5c9a1824c8b89b30e5bf"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\0000000009_d-582_0000020435-0001_log04_fe_5in_md.csv",
+          "sha256": "a3ebe612120d08b455fdb667947f4257b510d38eacaf2e101b6a38f1551c694b"
+        }
+      ],
+      "truth_sha256": "6afa9a0e3e6feaccf0184f8cdbc1e588cb67f37934312d35776085e0dbfeaf76",
+      "image_sha256": "320c640215dc0617f5458d7a0a60b92aa39f0b22c6b7da90cb3e96ee7a34acb3",
+      "annotation_sha256": "aec765d7f64d93f69b426e4f3ab5b8764d594ef3d83c4efe5e0bd7b50ca9accc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s23_v4dino_identity",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": false,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\ee53c8e06c27030e.csv",
+      "legend_seconds": 0.015202899987343699,
+      "depth_seconds": 0.22828239999944344,
+      "initial_shared_depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.24348529998678714,
+      "seconds": 16.04848930001026,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 12
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 125,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "legend_identity": "exact printed caption",
+        "implementation_sha256": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+        "dino_helper_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.4769287109375,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.43116666666666664,
+      "boundary_f1": 0.3076923076923077,
+      "cluster_ari": 0.1722431603412789,
+      "depth_mae_ft": null,
+      "score": 0.13266666666666665,
+      "vocabulary": {
+        "candidates": [
+          "LImestone",
+          "Dolomite",
+          "Anhydrlte",
+          "Halite",
+          "Coal",
+          "Clay",
+          "Shale",
+          "Siltstone",
+          "SIllty Sandstone",
+          "Sand and Sandstone"
+        ],
+        "truth_labels": [
+          {
+            "label": "Shale",
+            "rows": 3330,
+            "available": true
+          },
+          {
+            "label": "Sand and Sandstone",
+            "rows": 2670,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.049915251720484353,
+        "b": 24731.23057977191,
+        "method": "rapidocr+consensus+ft-assumed",
+        "n_points": 16,
+        "rmse_px": 0.8165621673771358
+      },
+      "task_wall_seconds": 16.567526800004998,
+      "end_to_end_seconds": 16.291974599997047,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:21:28Z"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "suite": "viridien_eval",
+      "log": "60807402860000_gb506#2_md_mudlog",
+      "y0": 1728,
+      "y1": 7728,
+      "window": [
+        1728,
+        7728
+      ],
+      "family": "Geoservices grid",
+      "well": "60807402860000_gb506#2_md_mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60807402860000_gb506#2_md_mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60807402860000_gb506#2_md_mudlog.json",
+      "column_box": [
+        953,
+        1206,
+        1000,
+        9623
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\ff55e97bd8089596.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "375329accc5d6a865878d7c5b0bf6e424147708e6f07164451f09fe4f5a34b78"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60807402860000_gb506#2_md_mudlog.csv",
+          "sha256": "0ce2af7b9b83a557566dfb2200ed4e7f9514ead0a7e13d927300f95a8c7fc611"
+        }
+      ],
+      "truth_sha256": "1dc5debd5a108cb6c02805a668a459d9d9c88834f7a95a00ff5e9d269b75cecb",
+      "image_sha256": "336c16e8621e1cc1eab07b1a34df23e4e27f8b8d5aa8c4b361126a688939be00",
+      "annotation_sha256": "ddb0f80562211a14b5a850541a1b61ccfcdce9dcf078b574d89e57373e4b8fcc",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s23_v4dino_identity",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": false,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\ff55e97bd8089596.csv",
+      "legend_seconds": 0.05040120001649484,
+      "depth_seconds": 0.2101490999921225,
+      "initial_shared_depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.26055030000861734,
+      "seconds": 25.29621960001532,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 12,
+        "legend_entries": 12,
+        "state_counts": {
+          "ok": 160
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 36,
+        "dino_chunk_vectors": 217,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "legend_identity": "exact printed caption",
+        "implementation_sha256": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+        "dino_helper_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.4636726379394531,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.2991666666666667,
+      "boundary_f1": 0.9389067524115756,
+      "cluster_ari": 0.5124338432876435,
+      "depth_mae_ft": null,
+      "score": 0.2808896034297964,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Shale",
+          "Siltstone",
+          "Sandstone",
+          "Chert",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Anhydrite",
+          "Gypsum",
+          "Plastic Clay",
+          "Diatomite"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 4658,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 1342,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.49931253446303264,
+        "b": 6001.262893455838,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 35,
+        "rmse_px": 0.4950398481028215
+      },
+      "task_wall_seconds": 25.971018799988087,
+      "end_to_end_seconds": 25.556769900023937,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:21:55Z"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "suite": "viridien_eval",
+      "log": "60811405120000_1inch tvd mudlog",
+      "y0": 1501,
+      "y1": 7501,
+      "window": [
+        1501,
+        7501
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405120000_1inch tvd mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "column_box": [
+        953,
+        1205,
+        1000,
+        15029
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "d74d9f29ddd31212846901c8661c55c1b6eeb5a882ed03c9e7ab5575fbdb2762"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "2bde9291aeb9e43cec5015cf2d4324c54ae4885e02167b077e6f3db0135ace53"
+        }
+      ],
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s20_v4",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\0de8d24f32217327.csv",
+      "legend_seconds": 0.09016610000981018,
+      "depth_seconds": 0.5645843000093009,
+      "initial_shared_depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.6547504000191111,
+      "seconds": 14.633237699978054,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 81
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window"
+      },
+      "peak_rss_gb": 1.4903030395507812,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.9825,
+      "boundary_f1": 0.9473684210526315,
+      "cluster_ari": 0.9350794667211854,
+      "depth_mae_ft": null,
+      "score": 0.9307894736842105,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Sandy Clay/Shale",
+          "Siltstone",
+          "Sandstone",
+          "Conglomerate",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Gypsum",
+          "Evaporites"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 5030,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 883,
+            "available": true
+          },
+          {
+            "label": "Siltstone",
+            "rows": 87,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "task_wall_seconds": 15.612017100007506,
+      "end_to_end_seconds": 15.287988099997165,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:22:11Z"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "suite": "viridien_eval",
+      "log": "60811405120000_1inch tvd mudlog",
+      "y0": 1501,
+      "y1": 7501,
+      "window": [
+        1501,
+        7501
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405120000_1inch tvd mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "column_box": [
+        953,
+        1205,
+        1000,
+        15029
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "d74d9f29ddd31212846901c8661c55c1b6eeb5a882ed03c9e7ab5575fbdb2762"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "2bde9291aeb9e43cec5015cf2d4324c54ae4885e02167b077e6f3db0135ace53"
+        }
+      ],
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s21_v4dino",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s21_v4dino\\0de8d24f32217327.csv",
+      "legend_seconds": 0.09016610000981018,
+      "depth_seconds": 0.5645843000093009,
+      "initial_shared_depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.6547504000191111,
+      "seconds": 28.424763199989684,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 75
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 159,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "implementation_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.5462760925292969,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.9833333333333333,
+      "boundary_f1": 0.9863013698630136,
+      "cluster_ari": 0.9573247596780043,
+      "depth_mae_ft": null,
+      "score": 0.96986301369863,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Sandy Clay/Shale",
+          "Siltstone",
+          "Sandstone",
+          "Conglomerate",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Gypsum",
+          "Evaporites"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 5030,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 883,
+            "available": true
+          },
+          {
+            "label": "Siltstone",
+            "rows": 87,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "task_wall_seconds": 28.83404660000815,
+      "end_to_end_seconds": 29.079513600008795,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:22:40Z"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "suite": "viridien_eval",
+      "log": "60811405120000_1inch tvd mudlog",
+      "y0": 1501,
+      "y1": 7501,
+      "window": [
+        1501,
+        7501
+      ],
+      "family": "Gulf 3-panel",
+      "well": "60811405120000_1inch tvd mudlog",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811405120000_1inch tvd mudlog.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811405120000_1inch tvd mudlog.json",
+      "column_box": [
+        953,
+        1205,
+        1000,
+        15029
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\0de8d24f32217327.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "d74d9f29ddd31212846901c8661c55c1b6eeb5a882ed03c9e7ab5575fbdb2762"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811405120000_1inch tvd mudlog.csv",
+          "sha256": "2bde9291aeb9e43cec5015cf2d4324c54ae4885e02167b077e6f3db0135ace53"
+        }
+      ],
+      "truth_sha256": "d5f638662d162797c2a4722e2950e2d94c77283c302c28e2c7bc0937091ff5ab",
+      "image_sha256": "61de0cdc1fe002b77b9ed702b1c4750b0fa19c28e0c8b074c7790fa3d8444fcc",
+      "annotation_sha256": "5579ea82b8d7c4a9e05de64d8c4da6973050ad4c161dcc142d4d896b88dfcfd2",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s23_v4dino_identity",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": false,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s23_v4dino_identity\\0de8d24f32217327.csv",
+      "legend_seconds": 0.09016610000981018,
+      "depth_seconds": 0.5645843000093009,
+      "initial_shared_depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 0.6547504000191111,
+      "seconds": 20.96507050000946,
+      "strategy_diagnostics": {
+        "native_cache_present": true,
+        "native_entries": 10,
+        "legend_entries": 10,
+        "state_counts": {
+          "ok": 75
+        },
+        "source_sha256": {
+          "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+          "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+          "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+          "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+        },
+        "inference_extent": "window",
+        "dino_swatch_vectors": 30,
+        "dino_chunk_vectors": 159,
+        "model": {
+          "model_id": "facebook/dinov2-small",
+          "config_sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+          "weights_file": "model.safetensors",
+          "weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+          "device": "NVIDIA GeForce RTX 4080 Laptop GPU"
+        },
+        "fusion": "z(hand distance) - z(DINO similarity)",
+        "column_resize": false,
+        "swatch_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "legend_identity": "exact printed caption",
+        "implementation_sha256": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+        "dino_helper_sha256": "2d2395cf672c519d219e7a6d863b68a8c0dbb7b85bbb31f9dd3f5c7c8eb81a22"
+      },
+      "peak_rss_gb": 1.5297813415527344,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.9833333333333333,
+      "boundary_f1": 0.9863013698630136,
+      "cluster_ari": 0.9573247596780043,
+      "depth_mae_ft": null,
+      "score": 0.96986301369863,
+      "vocabulary": {
+        "candidates": [
+          "Clay/Shale",
+          "Sandy Clay/Shale",
+          "Siltstone",
+          "Sandstone",
+          "Conglomerate",
+          "Limestone",
+          "Dolomite",
+          "Halite",
+          "Gypsum",
+          "Evaporites"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay/Shale",
+            "rows": 5030,
+            "available": true
+          },
+          {
+            "label": "Sandstone",
+            "rows": 883,
+            "available": true
+          },
+          {
+            "label": "Siltstone",
+            "rows": 87,
+            "available": true
+          }
+        ],
+        "row_coverage": 1.0,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.4992350664109276,
+        "b": 14103.443418512674,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.6005519320803487
+      },
+      "task_wall_seconds": 21.166927700018277,
+      "end_to_end_seconds": 21.61982090002857,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:23:01Z"
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "suite": "viridien_eval",
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "y0": 2343,
+      "y1": 8343,
+      "window": [
+        2343,
+        8343
+      ],
+      "family": "Geoservices grid",
+      "well": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+      "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.tif",
+      "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.json",
+      "column_box": [
+        1300,
+        1543,
+        1355,
+        25948
+      ],
+      "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\03b2ef6b774533a9.csv",
+      "truth_sources": [
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.csv",
+          "sha256": "33aa51f4de33fb2e1ad21242014252edab1f5a0a0526092791b2fbf216223769"
+        },
+        {
+          "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.csv",
+          "sha256": "44861f9d6d7b87598ee2f5080ae308aae485989a05ea072df9494a9e62eb1842"
+        }
+      ],
+      "truth_sha256": "20b8292e7d637378e182388ebd225a0deffb242b14c946549b7564c882736b3d",
+      "image_sha256": "545ad722a154d1d78b68a7e5e777f44eff8d6271d6348bcce98ed474d8dd0e20",
+      "annotation_sha256": "2dee8000364f2a5362c79ca4a6739285518b0c97bccf44b0a68e92bc8c0f4663",
+      "note": "Gold precedence; otherwise harness pixel consensus. Development evidence.",
+      "strategy": "s19_combine",
+      "scored": true,
+      "manifest_digest": "72d221a741a6e987419263e53ceabdb3cf074b298e486cc9c97b3d7c316ba333",
+      "process_start_utc": "2026-11-08T06:18:31Z",
+      "resumed_process": true,
+      "first_strategy_call_in_process": true,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s19_combine\\03b2ef6b774533a9.csv",
+      "legend_seconds": 0.13517559997853823,
+      "depth_seconds": 86.52509969999664,
+      "initial_shared_depth_calibration": {
+        "a": 0.4999308825603063,
+        "b": 9930.763147209775,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.4717232070084994
+      },
+      "depth_note": "Initial shared depth; s19 may refine its own output depths",
+      "preprocess_seconds": 86.66027529997518,
+      "seconds": 51.41677800001344,
+      "strategy_diagnostics": {},
+      "peak_rss_gb": 1.4626998901367188,
+      "peak_gpu_gb": 0.390625,
+      "api_calls": 0,
+      "row_acc": 0.7615,
+      "boundary_f1": 0.8032786885245902,
+      "cluster_ari": 0.8768506041469213,
+      "depth_mae_ft": null,
+      "score": 0.6116967213114753,
+      "vocabulary": {
+        "candidates": [
+          "Clay Shale",
+          "Calcareous Clay-Shale",
+          "Calcareous Clay-Shale",
+          "Marl",
+          "Limestone",
+          "Limestone",
+          "Bituminous Limestone",
+          "Oolic Limestone",
+          "Oolic Limestone",
+          "Medium Sandstone",
+          "Fine Sandstone",
+          "Fne Sand",
+          "Medium Sand",
+          "Calcareous Sandstone",
+          "Calcareous Sandstone",
+          "Silt",
+          "Siltstone",
+          "Chert",
+          "Dolomite",
+          "Fine Dolomite",
+          "Sand Dolomite",
+          "Sand and calcareous",
+          "Argil and sandy Dolomite",
+          "Halite",
+          "Anhydrite",
+          "Gypsum",
+          "Gypsum",
+          "Coal-Lignite",
+          "Basalt",
+          "Granite"
+        ],
+        "truth_labels": [
+          {
+            "label": "Clay Shale",
+            "rows": 4661,
+            "available": true
+          },
+          {
+            "label": "Coarse sandstone",
+            "rows": 1339,
+            "available": false
+          }
+        ],
+        "row_coverage": 0.7768333333333334,
+        "note": "Strict vocabulary coverage only; not an achievable accuracy bound under merged labels or segmentation constraints."
+      },
+      "depth_calibration": {
+        "a": 0.4999308825603063,
+        "b": 9930.763147209775,
+        "method": "rapidocr+consensus+ft",
+        "n_points": 62,
+        "rmse_px": 0.4717232070084994
+      },
+      "task_wall_seconds": 139.07128229999216,
+      "end_to_end_seconds": 138.07705329998862,
+      "end_to_end_definition": "inference seconds plus once-per-case shared preprocessing; task_wall_seconds is observed execution wall time",
+      "over_budget_60s": false,
+      "recorded_utc": "2026-11-08T06:25:21Z"
+    }
+  ]
+}

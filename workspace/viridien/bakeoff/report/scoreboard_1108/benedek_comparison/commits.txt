@@ -1,0 +1,30 @@
+b790a6bf68e2119b2fe0c4db0e591de62b68e43f Silmoon Hossain Merge local test workflow and evaluator integrations
+b1d5febfd49875663b03ba828068a1c5c4feade9 silmoon04 Add one-command local checks and guarded dataset downloads
+07951e0aae149769f212b4f54c784d045317edab silmoon04 Integrate isolated stress tests and evaluation hardening
+fb18e4ebed88f99ae4c6f873e6c9f066212ce85b silmoon04 Update integration with current main
+007211477cfc288d5134c2975c70652807bef41b emilabos Expand demo pipeline and performance coverage
+9cd2bb87ce7a52982c35e6d28262d3da9273b387 silmoon04 Integrate notebook adapter, reviewed windows and visual evidence
+9ac65f9e9e33b6fbf8d145a75298932b943dd5df emilabos sdfsdf
+a41654266c270cce2cca8baee6f6632b54a55196 emilabos Add depth calibration and submission CSV; resolve notebook merge
+2d9a02471c2dcd94989dd2c0fdf77b1d08a14b07 emilabos Merge branch 'main' of https://github.com/NeelHaval/viridian402
+d39919f1bbcf254b357a99eba1cf0845c391b135 Benedek-Labancz change to static segmentation
+8369481196ab4ac098f1e35fbb2a9e04713fdcc8 NeelHaval Add isolated adversarial stress tests and fix exposed pipeline defects
+9c5a2ce9172962eea0126f0860f7ff1fb4628ec5 emilabos Merge branch 'main' of https://github.com/NeelHaval/viridian402
+3ee9951f20974e25ac9981ef49a5236f7fc4e893 emilabos Merge remote-tracking branch 'origin/main'
+43d96ea7d5bc7c078d34ce86e6db30a71ddaf94b Benedek-Labancz Merge branch 'main' of https://github.com/NeelHaval/viridian402
+0696a6ca966c1da93ffab0e6145ee8d7f5cf471d Benedek-Labancz add visualisation and requirements
+f691fd2f3de76cfc8d7e401c47651fdb7bba34a8 emilabos added final frontend demo (dummy data)
+87a99922f65529f5b56ba577f71b7f217f11ed16 silmoon04 Complete test integration and document evidence limits
+875351f0da93304313315283c7e3f69a772a765f silmoon04 Add reviewed window export with provenance and split guards
+64cdc907beb3b1d5805217e0250652e5398c6e66 silmoon04 Add bounded notebook ink-rule inference adapter
+4b1850958725ab4ba77ed31fa4ddef3a211e96f0 silmoon04 Add static visual evidence reports for interval runs
+7d87671a1374fc5ffb4c86c0439a3f83ceb06a86 Neel Haval Merge reviewed evaluation hardening and benchmark evidence
+1a5d1d2fc31d8d305be13260080212954f0be3a3 NeelHaval Publish deep review evidence and fresh model benchmark statistics
+d76a2214107aa4dfb1ce41c3e6e3c8a80144c567 emilabos Add main pipeline notebook using local data paths
+9d2c377b906208ad398fb89fd8d7f31f9ffce73c NeelHaval Run independent metric and TIFF oracle checks in CI
+60c5ee0dc065b5f07f2ffe69c20825ef641a0378 NeelHaval Harden evaluation integrity, data boundaries, OCR compatibility and contributor workflows
+566844e75b4942b8a3ad91c5a0c021bf931ea198 emilabos shoudl work
+038e4c8f70d0bfbf30fc746af8652fca849caa4f emilabos Create main_pipeline.ipynb
+eb748667e6c1fa84524c0f24c91a090a4d78f1e3 NeelHaval Clarify required pattern cluster IDs for added labels
+de3edce593b1bbc9556f99538ff612f036c296e3 NeelHaval Document hosted CI, real-data evaluations, and verification scope
+d68907be5454e0d8ba3e6c6dee12d823c8b8f7af NeelHaval Integrate PR54 fixed crop benchmark and verified private dataset releases

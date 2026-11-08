@@ -1,0 +1,256 @@
+{
+  "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+  "entries": [
+    {
+      "label": "UNKNOWN",
+      "box": [
+        66,
+        115,
+        167,
+        133
+      ],
+      "pattern": "White with a black question mark."
+    },
+    {
+      "label": "ANHYDRITE",
+      "box": [
+        66,
+        136,
+        277,
+        154
+      ],
+      "pattern": "Orange with diagonal purple lines and fine dots."
+    },
+    {
+      "label": "GYPSUM",
+      "box": [
+        66,
+        157,
+        257,
+        175
+      ],
+      "pattern": "Purple with diagonal black lines."
+    },
+    {
+      "label": "SALT",
+      "box": [
+        66,
+        178,
+        226,
+        196
+      ],
+      "pattern": "Green with a black rectangular grid."
+    },
+    {
+      "label": "SIDERITE or LIMONITE",
+      "box": [
+        66,
+        198,
+        353,
+        216
+      ],
+      "pattern": "Tan with horizontal bands and diagonal marks."
+    },
+    {
+      "label": "LIMESTONE",
+      "box": [
+        66,
+        219,
+        278,
+        238
+      ],
+      "pattern": "Pale blue with a black brick pattern."
+    },
+    {
+      "label": "DOLOMITE",
+      "box": [
+        459,
+        115,
+        661,
+        134
+      ],
+      "pattern": "Purple with a black brick pattern."
+    },
+    {
+      "label": "CHERT",
+      "box": [
+        459,
+        137,
+        635,
+        154
+      ],
+      "pattern": "White with repeated black triangular marks."
+    },
+    {
+      "label": "COAL",
+      "box": [
+        459,
+        157,
+        520,
+        176
+      ],
+      "pattern": "Solid black."
+    },
+    {
+      "label": "MARLSTONE",
+      "box": [
+        459,
+        178,
+        676,
+        196
+      ],
+      "pattern": "White with black T-shaped marks."
+    },
+    {
+      "label": "CLAYSTONE",
+      "box": [
+        459,
+        199,
+        675,
+        217
+      ],
+      "pattern": "Pale blue with short black horizontal dashes."
+    },
+    {
+      "label": "SHALE",
+      "box": [
+        459,
+        220,
+        631,
+        238
+      ],
+      "pattern": "Olive brown with black horizontal dashes."
+    },
+    {
+      "label": "SHALE GRAY",
+      "box": [
+        786,
+        115,
+        1006,
+        134
+      ],
+      "pattern": "Light gray with long black horizontal dashes."
+    },
+    {
+      "label": "SHALE COLORED",
+      "box": [
+        786,
+        136,
+        1038,
+        155
+      ],
+      "pattern": "Brown with black horizontal dashes."
+    },
+    {
+      "label": "SILTSTONE",
+      "box": [
+        786,
+        157,
+        998,
+        176
+      ],
+      "pattern": "Orange with dense fine black dots and short marks."
+    },
+    {
+      "label": "SANDSTONE",
+      "box": [
+        786,
+        178,
+        1004,
+        197
+      ],
+      "pattern": "Pale yellow with scattered black dots."
+    },
+    {
+      "label": "CONGLOMERATE",
+      "box": [
+        786,
+        198,
+        1069,
+        217
+      ],
+      "pattern": "Yellow with black outlined rounded pebbles and dots."
+    },
+    {
+      "label": "BRECCIA",
+      "box": [
+        786,
+        219,
+        976,
+        238
+      ],
+      "pattern": "White with black outlined angular fragments."
+    },
+    {
+      "label": "TILL",
+      "box": [
+        1146,
+        115,
+        1304,
+        134
+      ],
+      "pattern": "Brown with diagonal crosshatching and dots."
+    },
+    {
+      "label": "BENTONITE",
+      "box": [
+        1146,
+        136,
+        1356,
+        155
+      ],
+      "pattern": "White with a wavy band of small black outlined blocks."
+    },
+    {
+      "label": "TUFF",
+      "box": [
+        1146,
+        157,
+        1308,
+        176
+      ],
+      "pattern": "Bright red with black scalloped intersecting curves."
+    },
+    {
+      "label": "IGNEOUS",
+      "box": [
+        1146,
+        178,
+        1338,
+        197
+      ],
+      "pattern": "Dark red and purple with dense mottled marks."
+    },
+    {
+      "label": "METAMORPHIC",
+      "box": [
+        1146,
+        198,
+        1381,
+        217
+      ],
+      "pattern": "Red with dense black wavy zigzag bands."
+    },
+    {
+      "label": "CEMENT",
+      "box": [
+        1146,
+        219,
+        1337,
+        238
+      ],
+      "pattern": "Gray stippling with small black outlined circles."
+    }
+  ],
+  "image_size": [
+    1550,
+    512
+  ],
+  "source_box": [
+    34,
+    3299,
+    1667,
+    3644
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

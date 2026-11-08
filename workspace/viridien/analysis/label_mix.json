@@ -1,0 +1,5625 @@
+[
+ {
+  "log": "0000000009_d-582_0000020435-0001_log01_fe_1in_md",
+  "mode": "1",
+  "col_w": 297,
+  "col_h": 88276,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 28.614799039376503,
+  "filled": 0.3153,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.6847,
+   "(hatch only: colour can't tell)": 0.3153
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+  "mode": "1",
+  "col_w": 246,
+  "col_h": 6793,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 70.95539525982629,
+  "filled": 0.28750184012954516,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.7124981598704548,
+   "(hatch only: colour can't tell)": 0.2875018401295451
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log03_chromatograph_ratio",
+  "mode": "1",
+  "col_w": 247,
+  "col_h": 6792,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 70.9658421672556,
+  "filled": 0.2834216725559482,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.7165783274440518,
+   "(hatch only: colour can't tell)": 0.2834216725559482
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+  "mode": "1",
+  "col_w": 250,
+  "col_h": 7800,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 71.7948717948718,
+  "filled": 0.29230769230769227,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.7076923076923077,
+   "(hatch only: colour can't tell)": 0.2923076923076923
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log05_chromatograph_ratio",
+  "mode": "1",
+  "col_w": 248,
+  "col_h": 7801,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 71.78566850403794,
+  "filled": 0.2909883348288681,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.7090116651711319,
+   "(hatch only: colour can't tell)": 0.2909883348288681
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+  "mode": "1",
+  "col_w": 246,
+  "col_h": 6791,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 2.650566926814902,
+  "filled": 0.884405831247239,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "Shale (true answer)": 0.5896038874981593,
+   "Siltstone (true answer)": 0.1769989692239729,
+   "Sandstone (true answer)": 0.11780297452510675,
+   "(blank)": 0.115594168752761
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log07_chromatograph_ratio",
+  "mode": "1",
+  "col_w": 249,
+  "col_h": 6788,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 71.00766057748969,
+  "filled": 0.27533883323512076,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.7246611667648792,
+   "(hatch only: colour can't tell)": 0.2753388332351208
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log08_fe_5in_md",
+  "mode": "1",
+  "col_w": 248,
+  "col_h": 4759,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 57.575120823702456,
+  "filled": 0.18028997688590043,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.8197100231140996,
+   "(hatch only: colour can't tell)": 0.1802899768859004
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "0000000009_d-582_0000020435-0001_log09_chromatograph_ratio",
+  "mode": "1",
+  "col_w": 248,
+  "col_h": 4758,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 10,
+  "colour_collisions": 0,
+  "swatch_h_med": 120.0,
+  "changes_per_1k_rows": 57.58722152164775,
+  "filled": 0.1704497688104245,
+  "rock_labels": [
+   "LImestone",
+   "Dolomite",
+   "Anhydrlte",
+   "Halite",
+   "Coal",
+   "Clay",
+   "Shale",
+   "Siltstone",
+   "SIllty Sandstone",
+   "Sand and Sandstone"
+  ],
+  "share": {
+   "(blank)": 0.8295502311895755,
+   "(hatch only: colour can't tell)": 0.17044976881042453
+  },
+  "fit": {},
+  "swatch_lab": {},
+  "error": null
+ },
+ {
+  "log": "60807402860000_gb506#2_md_mudlog",
+  "mode": "RGB",
+  "col_w": 47,
+  "col_h": 8417,
+  "n_rock": 12,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 9,
+  "swatch_h_med": 41.5,
+  "changes_per_1k_rows": 263.27670191279555,
+  "filled": 0.902459308542236,
+  "rock_labels": [
+   "Clay/Shale",
+   "Shale",
+   "Siltstone",
+   "Sandstone",
+   "Chert",
+   "Limestone",
+   "Dolomite",
+   "Halite",
+   "Anhydrite",
+   "Gypsum",
+   "Plastic Clay",
+   "Diatomite"
+  ],
+  "share": {
+   "(ambiguous) Clay/Shale | Plastic Clay": 0.6179161221337769,
+   "(ambiguous) Chert | Diatomite": 0.16371628846382322,
+   "(hatch only: colour can't tell)": 0.12082689794463586,
+   "(blank)": 0.09754069145776405
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay/Shale": [
+    90.588235294117,
+    -60.0,
+    50.0
+   ],
+   "Shale": [
+    90.58823529411555,
+    -60.0,
+    50.0
+   ],
+   "Sandstone": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Chert": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    96.07843137254991,
+    -20.0,
+    -6.0
+   ],
+   "Dolomite": [
+    72.15686274510108,
+    65.0,
+    -42.0
+   ],
+   "Halite": [
+    83.52941176470247,
+    23.0,
+    9.0
+   ],
+   "Anhydrite": [
+    83.5294117647027,
+    23.0,
+    9.0
+   ],
+   "Gypsum": [
+    83.52941176470242,
+    23.0,
+    9.0
+   ],
+   "Plastic Clay": [
+    90.5882352941164,
+    -60.0,
+    50.0
+   ],
+   "Diatomite": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+  "mode": "RGB",
+  "col_w": 57,
+  "col_h": 47921,
+  "n_rock": 18,
+  "n_hatch_only_swatches": 3,
+  "colour_collisions": 11,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 154.48342062978654,
+  "filled": 0.66955,
+  "rock_labels": [
+   "Shale grey",
+   "Shale brown",
+   "Shale green",
+   "I!S",
+   "Siltstone",
+   "Sandstone",
+   "Sand",
+   "Halite",
+   "Anhydrite",
+   "Gypsum",
+   "Sylvite",
+   "Bitumen",
+   "Tuff",
+   "Limestone",
+   "Dolomitic clay",
+   "Marl",
+   "Dolomite",
+   "MDT"
+  ],
+  "share": {
+   "(blank)": 0.33045,
+   "(ambiguous) Anhydrite | Sylvite": 0.2853,
+   "(hatch only: colour can't tell)": 0.15205,
+   "(ambiguous) Sand | Sandstone": 0.11965,
+   "(ambiguous) I!S | Siltstone": 0.0367,
+   "(ambiguous) Shale brown | Siltstone": 0.03165,
+   "Shale brown": 0.02095,
+   "(ambiguous) Gypsum | Halite": 0.008,
+   "(ambiguous) Dolomitic clay | Marl": 0.0069,
+   "(colour not in legend)": 0.00525,
+   "(ambiguous) Sandstone | Shale brown": 0.00125,
+   "(ambiguous) Limestone | Marl": 0.0009,
+   "(ambiguous) I!S | Shale brown": 0.00035,
+   "(ambiguous) Anhydrite | Halite": 0.0003,
+   "(ambiguous) Anhydrite | Shale brown": 0.0002,
+   "(ambiguous) Limestone | Sandstone": 5e-05,
+   "(ambiguous) Dolomitic clay | Limestone": 5e-05
+  },
+  "fit": {
+   "Shale brown": {
+    "d1": 5.91796365267423,
+    "margin": 9.028005163447109
+   }
+  },
+  "swatch_lab": {
+   "Shale brown": [
+    67.05882352941246,
+    13.0,
+    36.0
+   ],
+   "Shale green": [
+    89.01960784313492,
+    -73.0,
+    63.0
+   ],
+   "I!S": [
+    78.8235294117665,
+    21.0,
+    46.0
+   ],
+   "Siltstone": [
+    78.82352941176576,
+    21.0,
+    46.0
+   ],
+   "Sandstone": [
+    98.8235294117679,
+    -8.0,
+    24.0
+   ],
+   "Sand": [
+    98.82352941176819,
+    -8.0,
+    24.0
+   ],
+   "Halite": [
+    84.70588235294247,
+    25.0,
+    -4.0
+   ],
+   "Anhydrite": [
+    84.7058823529398,
+    25.0,
+    -4.0
+   ],
+   "Gypsum": [
+    84.70588235294251,
+    25.0,
+    -4.0
+   ],
+   "Sylvite": [
+    84.70588235294163,
+    25.0,
+    -4.0
+   ],
+   "Tuff": [
+    53.33333333333228,
+    -13.0,
+    58.0
+   ],
+   "Limestone": [
+    96.86274509804144,
+    -16.0,
+    -5.0
+   ],
+   "Dolomitic clay": [
+    92.94117647059014,
+    -13.0,
+    -11.0
+   ],
+   "Marl": [
+    92.94117647059065,
+    -13.0,
+    -11.0
+   ],
+   "Dolomite": [
+    70.19607843137129,
+    70.0,
+    -45.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 22432,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 0,
+  "colour_collisions": 13,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 338.3113409415121,
+  "filled": 0.7014,
+  "rock_labels": [
+   "Clay-shale",
+   "Calcareous clay-shal",
+   "Marl",
+   "Dolomite",
+   "Limestone",
+   "Argillaceous limesto",
+   "Oolitic limestone",
+   "Bituminous limestone",
+   "Silt",
+   "Fine sand",
+   "Medium sand",
+   "Silstone",
+   "Fine sandstone",
+   "Argill and calc sand",
+   "Halite"
+  ],
+  "share": {
+   "(ambiguous) Calcareous clay-shal | Marl": 0.3803,
+   "(blank)": 0.2986,
+   "(ambiguous) Clay-shale | Marl": 0.13735,
+   "(ambiguous) Fine sand | Silt": 0.1035,
+   "(colour not in legend)": 0.05775,
+   "(ambiguous) Argill and calc sand | Medium sand": 0.0223,
+   "(hatch only: colour can't tell)": 0.0002
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay-shale": [
+    87.84313725490112,
+    -86.0,
+    83.0
+   ],
+   "Calcareous clay-shal": [
+    87.84313725490048,
+    -86.0,
+    83.0
+   ],
+   "Marl": [
+    87.84313725490082,
+    -86.0,
+    83.0
+   ],
+   "Dolomite": [
+    60.392156862744464,
+    98.0,
+    -61.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Argillaceous limesto": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Oolitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Bituminous limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Silt": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Fine sand": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Medium sand": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Silstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Fine sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Argill and calc sand": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.33333333333202,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811405120000_1inch tvd mudlog",
+  "mode": "RGB",
+  "col_w": 47,
+  "col_h": 13824,
+  "n_rock": 10,
+  "n_hatch_only_swatches": 5,
+  "colour_collisions": 2,
+  "swatch_h_med": 41.0,
+  "changes_per_1k_rows": 305.19386574074076,
+  "filled": 0.38794849537037035,
+  "rock_labels": [
+   "Clay/Shale",
+   "Sandy Clay/Shale",
+   "Siltstone",
+   "Sandstone",
+   "Conglomerate",
+   "Limestone",
+   "Dolomite",
+   "Halite",
+   "Gypsum",
+   "Evaporites"
+  ],
+  "share": {
+   "(blank)": 0.6120515046296297,
+   "(ambiguous) Conglomerate | Sandstone": 0.22200520833333334,
+   "(hatch only: colour can't tell)": 0.1410590277777778,
+   "Siltstone": 0.02466724537037037,
+   "(colour not in legend)": 0.00021701388888888888
+  },
+  "fit": {
+   "Siltstone": {
+    "d1": 8.242295734817162e-13,
+    "margin": 74.68469155478532
+   }
+  },
+  "swatch_lab": {
+   "Siltstone": [
+    67.05882352941255,
+    43.0,
+    74.0
+   ],
+   "Sandstone": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Conglomerate": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    96.07843137254949,
+    -20.0,
+    -6.0
+   ],
+   "Dolomite": [
+    72.15686274510088,
+    65.0,
+    -42.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "mode": "P",
+  "col_w": 95,
+  "col_h": 69339,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 2,
+  "colour_collisions": 10,
+  "swatch_h_med": 72.0,
+  "changes_per_1k_rows": 72.67194508141162,
+  "filled": 0.86725,
+  "rock_labels": [
+   "Siltstone",
+   "Sandstone",
+   "Halite",
+   "Shale",
+   "Clay",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Anhydrite",
+   "Chert",
+   "Volcanics",
+   "Granite"
+  ],
+  "share": {
+   "Halite": 0.3887,
+   "(ambiguous) Clay | Shale": 0.2321,
+   "(colour not in legend)": 0.1374,
+   "(blank)": 0.13275,
+   "Sandstone": 0.07755,
+   "(ambiguous) Clay | Marl": 0.0211,
+   "(ambiguous) Dolomitic limestone | Limestone": 0.01035,
+   "(hatch only: colour can't tell)": 5e-05
+  },
+  "fit": {
+   "Sandstone": {
+    "d1": 1.1339068740455702,
+    "margin": 57.6956695888357
+   },
+   "Halite": {
+    "d1": 3.5956623969729216,
+    "margin": 38.77643878141721
+   }
+  },
+  "swatch_lab": {
+   "Sandstone": [
+    97.25490196078323,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    84.70588235294781,
+    21.0,
+    8.0
+   ],
+   "Shale": [
+    90.98039215686637,
+    -59.0,
+    49.0
+   ],
+   "Clay": [
+    90.98039215686643,
+    -59.0,
+    49.0
+   ],
+   "Limestone": [
+    96.47058823529996,
+    -18.0,
+    -6.0
+   ],
+   "Dolomite": [
+    72.94117647059657,
+    64.0,
+    -41.0
+   ],
+   "Marl": [
+    90.98039215686646,
+    -59.0,
+    49.0
+   ],
+   "Dolomitic limestone": [
+    96.47058823529997,
+    -18.0,
+    -6.0
+   ],
+   "Chalk": [
+    96.47058823529997,
+    -18.0,
+    -6.0
+   ],
+   "Gypsum": [
+    53.33333333333712,
+    80.0,
+    67.0
+   ],
+   "Anhydrite": [
+    53.33333333333704,
+    80.0,
+    67.0
+   ],
+   "Chert": [
+    53.33333333333633,
+    80.0,
+    67.0
+   ],
+   "Granite": [
+    53.33333333333712,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811405800000_608114058000_g16786_001_00_00_md5_mud_show_2",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 999,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 11,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 85.08508508508508,
+  "filled": 0.995995995995996,
+  "rock_labels": [
+   "Silstone",
+   "Fine sandstone",
+   "Halite",
+   "Shale",
+   "Claystone",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Anhydrite",
+   "Chert",
+   "Volcanics",
+   "Granite"
+  ],
+  "share": {
+   "(ambiguous) Chert | Fine sandstone": 0.7597597597597597,
+   "(hatch only: colour can't tell)": 0.12512512512512514,
+   "(ambiguous) Claystone | Marl": 0.1111111111111111,
+   "(blank)": 0.004004004004004004
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Fine sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.3333333333321,
+    80.0,
+    67.0
+   ],
+   "Shale": [
+    87.84313725489993,
+    -86.0,
+    83.0
+   ],
+   "Claystone": [
+    87.84313725490082,
+    -86.0,
+    83.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.39215686274467,
+    98.0,
+    -61.0
+   ],
+   "Marl": [
+    87.84313725490028,
+    -86.0,
+    83.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    53.33333333333179,
+    80.0,
+    67.0
+   ],
+   "Anhydrite": [
+    53.33333333333299,
+    80.0,
+    67.0
+   ],
+   "Chert": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Volcanics": [
+    53.33333333333218,
+    -13.0,
+    58.0
+   ],
+   "Granite": [
+    26.66666666666629,
+    49.0,
+    40.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811405800100_mdn-1_st00bp01_5 inch tvdmudlog_4560ft-22998ft",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 186001,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 11,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 0.9301025263305036,
+  "filled": 0.7672,
+  "rock_labels": [
+   "Silstone",
+   "Fine sandstone",
+   "Halite",
+   "Shale",
+   "Claystone",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Anhydrite",
+   "Chert",
+   "Volcanics",
+   "Granite"
+  ],
+  "share": {
+   "(ambiguous) Gypsum | Halite": 0.45645,
+   "(colour not in legend)": 0.26325,
+   "(blank)": 0.2328,
+   "(ambiguous) Chert | Fine sandstone": 0.04565,
+   "(ambiguous) Dolomitic limestone | Limestone": 0.00085,
+   "Granite": 0.00045,
+   "Volcanics": 0.00035,
+   "(ambiguous) Granite | Gypsum": 0.0002
+  },
+  "fit": {
+   "Granite": {
+    "d1": 23.46982088365104,
+    "margin": 11.212149538470268
+   },
+   "Volcanics": {
+    "d1": 21.860674306221107,
+    "margin": 30.674573803932642
+   }
+  },
+  "swatch_lab": {
+   "Fine sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.3333333333321,
+    80.0,
+    67.0
+   ],
+   "Shale": [
+    87.84313725489993,
+    -86.0,
+    83.0
+   ],
+   "Claystone": [
+    87.84313725490082,
+    -86.0,
+    83.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.39215686274467,
+    98.0,
+    -61.0
+   ],
+   "Marl": [
+    87.84313725490028,
+    -86.0,
+    83.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    53.33333333333187,
+    80.0,
+    67.0
+   ],
+   "Anhydrite": [
+    53.33333333333308,
+    80.0,
+    67.0
+   ],
+   "Chert": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Volcanics": [
+    53.333333333332284,
+    -13.0,
+    58.0
+   ],
+   "Granite": [
+    26.666666666666337,
+    49.0,
+    40.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811405800300_mdn-1_st01bp01_5 inch tvdmudlog_4560ft to 20251ft",
+  "mode": "RGB",
+  "col_w": 48,
+  "col_h": 118668,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 10,
+  "swatch_h_med": 36.0,
+  "changes_per_1k_rows": 18.26103077493511,
+  "filled": 0.73105,
+  "rock_labels": [
+   "Silstone",
+   "Fine sandstone",
+   "Halite",
+   "Shale",
+   "Claystone",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Anhydrite",
+   "Chert",
+   "Volcanics",
+   "Granite"
+  ],
+  "share": {
+   "(ambiguous) Anhydrite | Gypsum": 0.5406,
+   "(blank)": 0.26895,
+   "Shale": 0.12675,
+   "(colour not in legend)": 0.0551,
+   "(ambiguous) Chert | Fine sandstone": 0.0082,
+   "(ambiguous) Anhydrite | Granite": 0.00015,
+   "Granite": 0.0001,
+   "(ambiguous) Shale | Volcanics": 0.0001,
+   "Volcanics": 5e-05
+  },
+  "fit": {
+   "Granite": {
+    "d1": 15.663837258326076,
+    "margin": 18.58517935546769
+   },
+   "Shale": {
+    "d1": 15.428156540082758,
+    "margin": 24.806282653646235
+   },
+   "Volcanics": {
+    "d1": 18.624625626928044,
+    "margin": 21.50542787131222
+   }
+  },
+  "swatch_lab": {
+   "Fine sandstone": [
+    96.97706205422537,
+    -21.874524714828897,
+    94.69835234474017
+   ],
+   "Halite": [
+    53.278219395866934,
+    79.93945945945946,
+    66.9481081081081
+   ],
+   "Shale": [
+    56.76470588235297,
+    -60.25,
+    58.25
+   ],
+   "Claystone": [
+    87.82026540871458,
+    -85.98177399756986,
+    82.98177399756986
+   ],
+   "Limestone": [
+    91.37254901960834,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.12608858257262,
+    97.66757493188011,
+    -60.7724795640327
+   ],
+   "Marl": [
+    87.65690059807693,
+    -85.87516087516087,
+    82.87773487773488
+   ],
+   "Dolomitic limestone": [
+    91.23576155681889,
+    -47.94604767879548,
+    -13.993726474278544
+   ],
+   "Chalk": [
+    91.34256519509263,
+    -47.99597585513079,
+    -14.0
+   ],
+   "Gypsum": [
+    53.19110889318655,
+    79.85047720042418,
+    66.88759278897138
+   ],
+   "Anhydrite": [
+    52.985691573926836,
+    79.63243243243244,
+    66.71621621621621
+   ],
+   "Chert": [
+    97.02034515333673,
+    -21.914218566392478,
+    94.7614571092832
+   ],
+   "Volcanics": [
+    52.8220657632423,
+    -12.95109395109395,
+    57.55855855855856
+   ],
+   "Granite": [
+    26.3217426431744,
+    48.66877971473851,
+    39.48177496038035
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811405800500_608114058005_g16786_001_03_00_tvd5_mud",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 191001,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 11,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 0.9842880403767519,
+  "filled": 0.7669,
+  "rock_labels": [
+   "Silstone",
+   "Fine sandstone",
+   "Halite",
+   "Shale",
+   "Claystone",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Anhydrite",
+   "Chert",
+   "Volcanics",
+   "Granite"
+  ],
+  "share": {
+   "(ambiguous) Gypsum | Halite": 0.44455,
+   "(colour not in legend)": 0.26715,
+   "(blank)": 0.2331,
+   "(ambiguous) Chert | Fine sandstone": 0.05455,
+   "Volcanics": 0.00025,
+   "(ambiguous) Granite | Gypsum": 0.0002,
+   "Granite": 0.0002
+  },
+  "fit": {
+   "Granite": {
+    "d1": 22.223731820332766,
+    "margin": 8.909214413655862
+   },
+   "Volcanics": {
+    "d1": 22.18011316975231,
+    "margin": 27.49706151106051
+   }
+  },
+  "swatch_lab": {
+   "Fine sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.3333333333321,
+    80.0,
+    67.0
+   ],
+   "Shale": [
+    87.84313725489993,
+    -86.0,
+    83.0
+   ],
+   "Claystone": [
+    87.84313725490082,
+    -86.0,
+    83.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.39215686274467,
+    98.0,
+    -61.0
+   ],
+   "Marl": [
+    87.84313725490028,
+    -86.0,
+    83.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    53.33333333333187,
+    80.0,
+    67.0
+   ],
+   "Anhydrite": [
+    53.33333333333308,
+    80.0,
+    67.0
+   ],
+   "Chert": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Volcanics": [
+    53.333333333332284,
+    -13.0,
+    58.0
+   ],
+   "Granite": [
+    26.666666666666337,
+    49.0,
+    40.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811406050000_608114060500_g31765 001 st00 bp00__master log_5640-28740_5 in_md",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 232284,
+  "n_rock": 16,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 12,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 0.882540338551084,
+  "filled": 0.9016,
+  "rock_labels": [
+   "Siltstone",
+   "Sandstone",
+   "Halite",
+   "Clay-shale",
+   "Shale",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Sandy Clay-Shale",
+   "Chert",
+   "Tar",
+   "Granite",
+   "Sylvite"
+  ],
+  "share": {
+   "(ambiguous) Gypsum | Halite": 0.80095,
+   "(blank)": 0.0984,
+   "(colour not in legend)": 0.08495,
+   "(ambiguous) Chert | Sandstone": 0.01295,
+   "(ambiguous) Granite | Gypsum": 0.00095,
+   "Granite": 0.0009,
+   "(ambiguous) Clay-shale | Marl": 0.00075,
+   "Siltstone": 0.0001,
+   "(ambiguous) Granite | Siltstone": 5e-05
+  },
+  "fit": {
+   "Granite": {
+    "d1": 16.446899231800845,
+    "margin": 15.050888726478128
+   },
+   "Siltstone": {
+    "d1": 13.838390389587026,
+    "margin": 13.459366489731279
+   }
+  },
+  "swatch_lab": {
+   "Siltstone": [
+    40.0,
+    11.0,
+    48.0
+   ],
+   "Sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.33333333333217,
+    80.0,
+    67.0
+   ],
+   "Clay-shale": [
+    87.84313725489984,
+    -86.0,
+    83.0
+   ],
+   "Shale": [
+    87.84313725490077,
+    -86.0,
+    83.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.392156862744834,
+    98.0,
+    -61.0
+   ],
+   "Marl": [
+    87.84313725490027,
+    -86.0,
+    83.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    53.33333333333197,
+    80.0,
+    67.0
+   ],
+   "Sandy Clay-Shale": [
+    87.8431372549003,
+    -86.0,
+    83.0
+   ],
+   "Chert": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Granite": [
+    26.666666666666444,
+    49.0,
+    40.0
+   ],
+   "Sylvite": [
+    53.33333333333265,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811406050100_ardennes_ocs-g31765 001 st00 bp01__master log_5640-36552_5 in_md",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 307092,
+  "n_rock": 16,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 12,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 2.5529808656689204,
+  "filled": 0.9393,
+  "rock_labels": [
+   "Siltstone",
+   "Sandstone",
+   "Halite",
+   "Clay-shale",
+   "Shale",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Sandy Clay-Shale",
+   "Chert",
+   "Tar",
+   "Granite",
+   "Sylvite"
+  ],
+  "share": {
+   "(ambiguous) Gypsum | Halite": 0.60585,
+   "(colour not in legend)": 0.24185,
+   "(ambiguous) Chert | Sandstone": 0.078,
+   "(blank)": 0.0607,
+   "(ambiguous) Dolomitic limestone | Limestone": 0.00555,
+   "Siltstone": 0.00465,
+   "(ambiguous) Clay-shale | Marl": 0.00125,
+   "(hatch only: colour can't tell)": 0.00085,
+   "Granite": 0.00075,
+   "(ambiguous) Granite | Gypsum": 0.00045,
+   "(ambiguous) Granite | Siltstone": 0.0001
+  },
+  "fit": {
+   "Siltstone": {
+    "d1": 10.27744681865794,
+    "margin": 30.39190817254765
+   },
+   "Granite": {
+    "d1": 15.971942645030028,
+    "margin": 15.09401046095109
+   }
+  },
+  "swatch_lab": {
+   "Siltstone": [
+    40.0,
+    11.0,
+    48.0
+   ],
+   "Sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.33333333333217,
+    80.0,
+    67.0
+   ],
+   "Clay-shale": [
+    87.84313725489984,
+    -86.0,
+    83.0
+   ],
+   "Shale": [
+    87.84313725490077,
+    -86.0,
+    83.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.392156862744834,
+    98.0,
+    -61.0
+   ],
+   "Marl": [
+    87.84313725490027,
+    -86.0,
+    83.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    53.33333333333197,
+    80.0,
+    67.0
+   ],
+   "Sandy Clay-Shale": [
+    87.8431372549003,
+    -86.0,
+    83.0
+   ],
+   "Chert": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Granite": [
+    26.666666666666444,
+    49.0,
+    40.0
+   ],
+   "Sylvite": [
+    53.33333333333265,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+  "mode": "RGB",
+  "col_w": 55,
+  "col_h": 24405,
+  "n_rock": 30,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 26,
+  "swatch_h_med": 51.0,
+  "changes_per_1k_rows": 429.62507682851873,
+  "filled": 0.9705,
+  "rock_labels": [
+   "Clay Shale",
+   "Calcareous clay-shale",
+   "Silty clay-shale",
+   "Marl",
+   "Limestone",
+   "Argillaceous limestone",
+   "Bituminous limestone",
+   "Oolic limestone",
+   "Coarsesandstone",
+   "Medium sandstone",
+   "Fine sandstone",
+   "Fine sand",
+   "Medium sand",
+   "Calcareous sandstone",
+   "Dolomitic sandstone",
+   "Silt",
+   "Siltstone",
+   "Chert",
+   "Dolomite",
+   "Fine Dolomite",
+   "Sandy Dolomite",
+   "Sandy and calcareous dolomite",
+   "Argil and sandy dolomite",
+   "Halite",
+   "Anhydrite",
+   "Gypsum",
+   "Sylvite",
+   "Coal-lignite",
+   "Basalt",
+   "Granite"
+  ],
+  "share": {
+   "(ambiguous) Calcareous clay-shale | Silty clay-shale": 0.50995,
+   "(ambiguous) Calcareous clay-shale | Clay Shale": 0.18525,
+   "(ambiguous) Fine sandstone | Siltstone": 0.12065,
+   "(colour not in legend)": 0.0919,
+   "Marl": 0.0358,
+   "(blank)": 0.0295,
+   "(ambiguous) Medium sandstone | Silt": 0.02245,
+   "Basalt": 0.0011,
+   "(ambiguous) Calcareous sandstone | Dolomitic sandstone": 0.0007,
+   "(ambiguous) Dolomitic sandstone | Medium sand": 0.0007,
+   "(ambiguous) Fine sandstone | Medium sand": 0.00055,
+   "(ambiguous) Chert | Silt": 0.00035,
+   "(ambiguous) Chert | Coarsesandstone": 0.0003,
+   "(ambiguous) Calcareous sandstone | Medium sandstone": 0.00025,
+   "(ambiguous) Chert | Fine sand": 0.00015,
+   "(hatch only: colour can't tell)": 0.0001,
+   "(ambiguous) Coarsesandstone | Fine sandstone": 0.0001,
+   "(ambiguous) Coarsesandstone | Fine sand": 0.0001,
+   "(ambiguous) Basalt | Siltstone": 5e-05,
+   "(ambiguous) Coarsesandstone | Dolomitic sandstone": 5e-05
+  },
+  "fit": {
+   "Basalt": {
+    "d1": 22.293689856926743,
+    "margin": 12.38778662522581
+   },
+   "Marl": {
+    "d1": 5.544570461693378,
+    "margin": 34.00538756734342
+   }
+  },
+  "swatch_lab": {
+   "Clay Shale": [
+    87.75277067348364,
+    -85.93478260869566,
+    82.93913043478261
+   ],
+   "Calcareous clay-shale": [
+    87.54296780440475,
+    -85.78787878787878,
+    82.79910213243546
+   ],
+   "Silty clay-shale": [
+    87.31296810569731,
+    -85.6065808297568,
+    82.62660944206009
+   ],
+   "Marl": [
+    57.086699740137036,
+    -43.10843373493976,
+    28.12289156626506
+   ],
+   "Limestone": [
+    91.2985672738,
+    -47.96719070403281,
+    -14.0
+   ],
+   "Argillaceous limestone": [
+    91.04840619013842,
+    -47.89132821075741,
+    -13.997804610318331
+   ],
+   "Bituminous limestone": [
+    91.13250401116915,
+    -47.907545164718385,
+    -13.990435706695004
+   ],
+   "Oolic limestone": [
+    91.14816797980612,
+    -47.905071521456435,
+    -13.99739921976593
+   ],
+   "Coarsesandstone": [
+    96.90140432573243,
+    -21.873039581777444,
+    94.63106796116504
+   ],
+   "Medium sandstone": [
+    97.01688024290998,
+    -21.889107611548557,
+    94.73622047244095
+   ],
+   "Fine sandstone": [
+    96.65349721978285,
+    -21.77089552238806,
+    94.38059701492537
+   ],
+   "Fine sand": [
+    96.93481326150543,
+    -21.883220651505837,
+    94.67486170866626
+   ],
+   "Medium sand": [
+    96.74899705157273,
+    -21.778142974527526,
+    94.4519309778143
+   ],
+   "Calcareous sandstone": [
+    96.95269436445832,
+    -21.85034965034965,
+    94.67132867132867
+   ],
+   "Dolomitic sandstone": [
+    96.89081962852882,
+    -21.848530519969856,
+    94.6164280331575
+   ],
+   "Silt": [
+    97.10376987471116,
+    -21.931232091690543,
+    94.8443170964661
+   ],
+   "Siltstone": [
+    96.61615951955888,
+    -21.753705010585744,
+    94.35356386732533
+   ],
+   "Chert": [
+    96.9843486355959,
+    -21.9080118694362,
+    94.72774480712167
+   ],
+   "Dolomite": [
+    60.35089787418104,
+    97.95190380761522,
+    -60.963927855711425
+   ],
+   "Fine Dolomite": [
+    60.3207361156764,
+    97.91843575418994,
+    -60.939664804469274
+   ],
+   "Sandy Dolomite": [
+    60.28557063851255,
+    97.87564102564103,
+    -60.90512820512821
+   ],
+   "Sandy and calcareous dolomite": [
+    60.01554495672123,
+    97.57657657657657,
+    -60.66846846846847
+   ],
+   "Argil and sandy dolomite": [
+    60.01975601323634,
+    97.57178841309823,
+    -60.677581863979846
+   ],
+   "Halite": [
+    53.19778571059011,
+    79.84630606860158,
+    66.87862796833772
+   ],
+   "Anhydrite": [
+    52.827324478178106,
+    79.41935483870968,
+    66.57215619694398
+   ],
+   "Gypsum": [
+    53.19834466449859,
+    79.84924623115577,
+    66.89007537688443
+   ],
+   "Sylvite": [
+    53.13342329285229,
+    79.78504672897196,
+    66.83942225998301
+   ],
+   "Basalt": [
+    54.53683488241536,
+    -13.429480381760339,
+    58.89183457051962
+   ],
+   "Granite": [
+    26.966465994535966,
+    49.706535141800245,
+    39.7016029593095
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60811407570000_bp_gc743_15607_dc802_st00bp00_mudlog_5md_6900-17643",
+  "mode": "RGB",
+  "col_w": 52,
+  "col_h": 107748,
+  "n_rock": 30,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 27,
+  "swatch_h_med": 51.0,
+  "changes_per_1k_rows": 49.3744663474032,
+  "filled": 0.6336999999999999,
+  "rock_labels": [
+   "Clay Shale",
+   "Calcareous clay-shale",
+   "Silty clay-shale",
+   "Marl",
+   "Limestone",
+   "Argillaceous limestone",
+   "Bituminous limestone",
+   "Oolic limestone",
+   "Coarse sandstone",
+   "Medium sandstone",
+   "Fine sandstone",
+   "Fine sand",
+   "Mediumsand",
+   "Calcareous sandstone",
+   "Dolomitic sandstone",
+   "Silt",
+   "Siltstone",
+   "Chert",
+   "Dolomite",
+   "Fine Dolomite",
+   "Sandy Dolomite",
+   "Sandy and calcareous dolomite",
+   "Argil and sandy dolomite",
+   "Halite",
+   "Anhydrite",
+   "Gypsum",
+   "Sylvite",
+   "Coal-lignite",
+   "Basalt",
+   "Granite"
+  ],
+  "share": {
+   "(blank)": 0.3663,
+   "(ambiguous) Calcareous clay-shale | Silty clay-shale": 0.34605,
+   "(colour not in legend)": 0.15735,
+   "(ambiguous) Fine sandstone | Siltstone": 0.1303
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay Shale": [
+    87.75089917623548,
+    -85.93343195266272,
+    82.93786982248521
+   ],
+   "Calcareous clay-shale": [
+    87.54296780440475,
+    -85.78787878787878,
+    82.79910213243546
+   ],
+   "Silty clay-shale": [
+    87.31296810569731,
+    -85.6065808297568,
+    82.62660944206009
+   ],
+   "Marl": [
+    87.71090183946461,
+    -85.90564578499614,
+    82.90951276102088
+   ],
+   "Limestone": [
+    91.2985672738,
+    -47.96719070403281,
+    -14.0
+   ],
+   "Argillaceous limestone": [
+    91.04840619013842,
+    -47.89132821075741,
+    -13.997804610318331
+   ],
+   "Bituminous limestone": [
+    91.12648981161131,
+    -47.90522875816993,
+    -13.990196078431373
+   ],
+   "Oolic limestone": [
+    91.14816797980612,
+    -47.905071521456435,
+    -13.99739921976593
+   ],
+   "Coarse sandstone": [
+    96.90140432573243,
+    -21.873039581777444,
+    94.63106796116504
+   ],
+   "Medium sandstone": [
+    97.01347383873251,
+    -21.887700534759357,
+    94.73262032085562
+   ],
+   "Fine sandstone": [
+    96.65349721978285,
+    -21.77089552238806,
+    94.38059701492537
+   ],
+   "Fine sand": [
+    96.93481326150543,
+    -21.883220651505837,
+    94.67486170866626
+   ],
+   "Mediumsand": [
+    96.7344570964475,
+    -21.771766694843617,
+    94.43617920540997
+   ],
+   "Calcareous sandstone": [
+    96.95269436445832,
+    -21.85034965034965,
+    94.67132867132867
+   ],
+   "Dolomitic sandstone": [
+    96.89081962852882,
+    -21.848530519969856,
+    94.6164280331575
+   ],
+   "Silt": [
+    97.10045072201561,
+    -21.929721815519766,
+    94.84089799902391
+   ],
+   "Siltstone": [
+    96.61615951955888,
+    -21.753705010585744,
+    94.35356386732533
+   ],
+   "Chert": [
+    96.9843486355959,
+    -21.9080118694362,
+    94.72774480712167
+   ],
+   "Dolomite": [
+    60.35566782950526,
+    97.95705521472392,
+    -60.967280163599185
+   ],
+   "Fine Dolomite": [
+    60.3207361156764,
+    97.91843575418994,
+    -60.939664804469274
+   ],
+   "Sandy Dolomite": [
+    60.28557063851255,
+    97.87564102564103,
+    -60.90512820512821
+   ],
+   "Sandy and calcareous dolomite": [
+    60.010036921532546,
+    97.57038391224863,
+    -60.6636197440585
+   ],
+   "Argil and sandy dolomite": [
+    60.01975601323634,
+    97.57178841309823,
+    -60.677581863979846
+   ],
+   "Halite": [
+    53.19778571059011,
+    79.84630606860158,
+    66.87862796833772
+   ],
+   "Anhydrite": [
+    52.83126399348642,
+    79.42560553633218,
+    66.57612456747405
+   ],
+   "Gypsum": [
+    53.19834466449859,
+    79.84924623115577,
+    66.89007537688443
+   ],
+   "Sylvite": [
+    53.13342329285229,
+    79.78504672897196,
+    66.83942225998301
+   ],
+   "Basalt": [
+    54.53683488241536,
+    -13.429480381760339,
+    58.89183457051962
+   ],
+   "Granite": [
+    26.966465994535966,
+    49.706535141800245,
+    39.7016029593095
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+  "mode": "P",
+  "col_w": 60,
+  "col_h": 21533,
+  "n_rock": 30,
+  "n_hatch_only_swatches": 6,
+  "colour_collisions": 23,
+  "swatch_h_med": 44.0,
+  "changes_per_1k_rows": 311.42896948869173,
+  "filled": 0.589,
+  "rock_labels": [
+   "Breccia",
+   "Limestone",
+   "Dolomite",
+   "Conglomerate",
+   "Mudstone",
+   "Gypsum, Anhyd.",
+   "Pebbles",
+   "Wackstone",
+   "Salt (K-Na-Mg)",
+   "Sand",
+   "Packstone",
+   "Extrusive Rocks",
+   "Sandstone",
+   "Grainstone",
+   "Intrusive Rocks",
+   "Silt",
+   "Boundstone",
+   "Methamorphics",
+   "Claystone",
+   "Chalk",
+   "Silty Clay",
+   "Arg. Limestone",
+   "Claystone Sililicif.",
+   "Sils. Limestone",
+   "Volcanics",
+   "Marl",
+   "Dol. Limestone",
+   "Coal - Lignite",
+   "Calc. Dolomite",
+   "Chert"
+  ],
+  "share": {
+   "(blank)": 0.411,
+   "(ambiguous) Claystone | Marl": 0.28355,
+   "(ambiguous) Marl | Silty Clay": 0.18285,
+   "(colour not in legend)": 0.1225,
+   "(hatch only: colour can't tell)": 5e-05,
+   "(ambiguous) Conglomerate | Pebbles": 5e-05
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Breccia": [
+    65.8823529411751,
+    18.0,
+    -50.0
+   ],
+   "Limestone": [
+    90.9803921568646,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    76.47058823529679,
+    39.0,
+    -5.0
+   ],
+   "Conglomerate": [
+    67.8431372548997,
+    -7.0,
+    70.0
+   ],
+   "Mudstone": [
+    90.98039215686433,
+    -48.0,
+    -14.0
+   ],
+   "Pebbles": [
+    67.84313725490108,
+    -7.0,
+    70.0
+   ],
+   "Wackstone": [
+    90.98039215686433,
+    -48.0,
+    -14.0
+   ],
+   "Sand": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Packstone": [
+    90.98039215686441,
+    -48.0,
+    -14.0
+   ],
+   "Extrusive Rocks": [
+    52.94117647058747,
+    79.0,
+    66.0
+   ],
+   "Sandstone": [
+    97.25490196078339,
+    -22.0,
+    95.0
+   ],
+   "Grainstone": [
+    90.98039215686424,
+    -48.0,
+    -14.0
+   ],
+   "Intrusive Rocks": [
+    52.9411764705875,
+    79.0,
+    66.0
+   ],
+   "Silt": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Boundstone": [
+    90.98039215686421,
+    -48.0,
+    -14.0
+   ],
+   "Claystone": [
+    87.84313725490067,
+    -86.0,
+    83.0
+   ],
+   "Chalk": [
+    90.98039215686359,
+    -48.0,
+    -14.0
+   ],
+   "Silty Clay": [
+    87.84313725489997,
+    -86.0,
+    83.0
+   ],
+   "Arg. Limestone": [
+    90.98039215686369,
+    -48.0,
+    -14.0
+   ],
+   "Claystone Sililicif.": [
+    87.8431372549001,
+    -86.0,
+    83.0
+   ],
+   "Sils. Limestone": [
+    90.98039215686372,
+    -48.0,
+    -14.0
+   ],
+   "Marl": [
+    87.8431372549001,
+    -86.0,
+    83.0
+   ],
+   "Dol. Limestone": [
+    90.98039215686418,
+    -48.0,
+    -14.0
+   ],
+   "Calc. Dolomite": [
+    76.47058823529532,
+    39.0,
+    -5.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60812400480000_ocs-g 26419 001 st00bp00_masterlog_7860-27400_5in_md_2",
+  "mode": "RGB",
+  "col_w": 65,
+  "col_h": 196253,
+  "n_rock": 13,
+  "n_hatch_only_swatches": 3,
+  "colour_collisions": 8,
+  "swatch_h_med": 41.0,
+  "changes_per_1k_rows": 26.85818815508553,
+  "filled": 0.8395,
+  "rock_labels": [
+   "Claystone",
+   "Shale",
+   "Marl",
+   "Sandstone",
+   "Siltstone",
+   "Limestone",
+   "Dolomite",
+   "Anhydrite",
+   "Halite",
+   "Gypsum",
+   "Salted water",
+   "Oil_Good",
+   "Gas_Good"
+  ],
+  "share": {
+   "(colour not in legend)": 0.22835,
+   "(ambiguous) Claystone | Marl": 0.21965,
+   "(ambiguous) Gypsum | Halite": 0.18115,
+   "(blank)": 0.1605,
+   "(ambiguous) Sandstone | Siltstone": 0.1533,
+   "Limestone": 0.057,
+   "Dolomite": 5e-05
+  },
+  "fit": {
+   "Limestone": {
+    "d1": 19.127185277699937,
+    "margin": 87.60374646120349
+   },
+   "Dolomite": {
+    "d1": 24.527688083041603,
+    "margin": 92.6535007320183
+   }
+  },
+  "swatch_lab": {
+   "Claystone": [
+    87.8431372548985,
+    -86.0,
+    83.0
+   ],
+   "Shale": [
+    87.84313725490085,
+    -86.0,
+    83.0
+   ],
+   "Marl": [
+    87.84313725489854,
+    -86.0,
+    83.0
+   ],
+   "Sandstone": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Siltstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.3921568627458,
+    98.0,
+    -61.0
+   ],
+   "Anhydrite": [
+    53.33333333333428,
+    80.0,
+    67.0
+   ],
+   "Halite": [
+    53.33333333333318,
+    80.0,
+    67.0
+   ],
+   "Gypsum": [
+    53.333333333332774,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60812400810000_ocs-g 16987 003 st00bp00_1inmd_mudlog_8921_15721",
+  "mode": "RGB",
+  "col_w": 43,
+  "col_h": 16558,
+  "n_rock": 16,
+  "n_hatch_only_swatches": 4,
+  "colour_collisions": 9,
+  "swatch_h_med": 41.0,
+  "changes_per_1k_rows": 12.622297378910497,
+  "filled": 0.47276241091919313,
+  "rock_labels": [
+   "Volcanic cinder, tuf",
+   "Fine sandstone",
+   "Calcareous sandstone",
+   "Medium sand",
+   "S",
+   "Limestone",
+   "Marl",
+   "Halite",
+   "Calcareous clay-shal",
+   "Medium sand",
+   "Clay-shale",
+   "Fine sand",
+   "Dry",
+   "Gas_Good",
+   "Oil_Good",
+   "Oil_Poor"
+  ],
+  "share": {
+   "(blank)": 0.5272375890808069,
+   "(ambiguous) Clay-shale | Marl": 0.40409469742722554,
+   "(ambiguous) Calcareous sandstone | Medium sand": 0.049281314168377825,
+   "(hatch only: colour can't tell)": 0.011897572170551998,
+   "(colour not in legend)": 0.007488827153037806
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Volcanic cinder, tuf": [
+    53.33333333333203,
+    -13.0,
+    58.0
+   ],
+   "Fine sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Calcareous sandstone": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Medium sand": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "S": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Marl": [
+    87.84313725490057,
+    -86.0,
+    83.0
+   ],
+   "Halite": [
+    53.33333333333212,
+    80.0,
+    67.0
+   ],
+   "Calcareous clay-shal": [
+    87.84313725490034,
+    -86.0,
+    83.0
+   ],
+   "Clay-shale": [
+    87.84313725490051,
+    -86.0,
+    83.0
+   ],
+   "Fine sand": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60812401020000_xom_ocs-g_20351_ju103_st00bp00_mudlog_10200-30900ft_5in_tvd",
+  "mode": "RGB",
+  "col_w": 57,
+  "col_h": 207297,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 10,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 5.422172052658746,
+  "filled": 0.9801,
+  "rock_labels": [
+   "Clay-shale",
+   "Silty clay-shale",
+   "Limestone",
+   "Halite",
+   "Dolomite",
+   "Slaty shale",
+   "Coarse sand",
+   "Dolomitic limestone",
+   "Anhydrite",
+   "Volcanic rock",
+   "Calcareous clay-shal",
+   "Fine sand",
+   "Chalk",
+   "Gypsum",
+   "Bitumen"
+  ],
+  "share": {
+   "(ambiguous) Anhydrite | Halite": 0.49045,
+   "Clay-shale": 0.3357,
+   "(ambiguous) Coarse sand | Fine sand": 0.0723,
+   "(ambiguous) Dolomitic limestone | Limestone": 0.05265,
+   "(colour not in legend)": 0.0227,
+   "(blank)": 0.0199,
+   "(ambiguous) Dolomitic limestone | Slaty shale": 0.00415,
+   "Silty clay-shale": 0.00145,
+   "(ambiguous) Calcareous clay-shal | Slaty shale": 0.0007
+  },
+  "fit": {
+   "Clay-shale": {
+    "d1": 22.58746190294966,
+    "margin": 17.8567726813658
+   },
+   "Silty clay-shale": {
+    "d1": 22.424709563345626,
+    "margin": 26.37414948517243
+   }
+  },
+  "swatch_lab": {
+   "Clay-shale": [
+    87.84313725490122,
+    -86.0,
+    83.0
+   ],
+   "Silty clay-shale": [
+    46.27450980392105,
+    -52.0,
+    50.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Halite": [
+    78.82352941176477,
+    36.0,
+    -4.0
+   ],
+   "Dolomite": [
+    60.392156862744606,
+    98.0,
+    -61.0
+   ],
+   "Slaty shale": [
+    48.23529411764852,
+    -29.0,
+    -9.0
+   ],
+   "Coarse sand": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Anhydrite": [
+    78.82352941176293,
+    36.0,
+    -4.0
+   ],
+   "Volcanic rock": [
+    53.33333333333198,
+    -13.0,
+    58.0
+   ],
+   "Calcareous clay-shal": [
+    49.80392156862844,
+    -20.0,
+    -6.0
+   ],
+   "Fine sand": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    78.82352941176532,
+    36.0,
+    -4.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817410140000_mc822#10 1-1200 mud log",
+  "mode": "P",
+  "col_w": 47,
+  "col_h": 31900,
+  "n_rock": 21,
+  "n_hatch_only_swatches": 7,
+  "colour_collisions": 12,
+  "swatch_h_med": 40.0,
+  "changes_per_1k_rows": 193.4796238244514,
+  "filled": 0.51615,
+  "rock_labels": [
+   "Clay-shale",
+   "Slaty shale",
+   "Marl",
+   "Silty clay-shale",
+   "Sandy clay-shale",
+   "Silstone",
+   "Fine sandstone",
+   "Medium sandstone",
+   "Coarse sandstone",
+   "Conglomerate",
+   "Limestone",
+   "Chalk",
+   "Dolomitic limestone",
+   "Dolomite",
+   "Coal-lignite",
+   "Halite",
+   "Anhydrite",
+   "Gypsum",
+   "Volcanic rock",
+   "Oil_Good",
+   "Oil_Moderate"
+  ],
+  "share": {
+   "(blank)": 0.48385,
+   "(hatch only: colour can't tell)": 0.29085,
+   "Halite": 0.1208,
+   "(ambiguous) Fine sandstone | Silstone": 0.08575,
+   "(colour not in legend)": 0.01055,
+   "(ambiguous) Coarse sandstone | Conglomerate": 0.0063,
+   "(ambiguous) Limestone | Marl": 0.0019
+  },
+  "fit": {
+   "Halite": {
+    "d1": 4.606394347751758,
+    "margin": 53.484217110492956
+   }
+  },
+  "swatch_lab": {
+   "Marl": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Silstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Fine sandstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Medium sandstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Coarse sandstone": [
+    97.25490196078336,
+    -22.0,
+    95.0
+   ],
+   "Conglomerate": [
+    97.25490196078336,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Halite": [
+    50.19607843137171,
+    45.0,
+    -78.0
+   ],
+   "Anhydrite": [
+    60.392156862745935,
+    98.0,
+    -61.0
+   ],
+   "Gypsum": [
+    60.392156862744734,
+    98.0,
+    -61.0
+   ],
+   "Volcanic rock": [
+    58.43137254902072,
+    66.0,
+    69.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817410140100_mc822#10bp01 1-240 tvd mud log",
+  "mode": "P",
+  "col_w": 47,
+  "col_h": 161999,
+  "n_rock": 21,
+  "n_hatch_only_swatches": 7,
+  "colour_collisions": 12,
+  "swatch_h_med": 40.0,
+  "changes_per_1k_rows": 5.03089525243983,
+  "filled": 0.2378,
+  "rock_labels": [
+   "Clay-shale",
+   "Slaty shale",
+   "Marl",
+   "Silty clay-shale",
+   "Sandy clay-shale",
+   "Silstone",
+   "Fine sandstone",
+   "Medium sandstone",
+   "Coarse sandstone",
+   "Conglomerate",
+   "Limestone",
+   "Chalk",
+   "Dolomitic limestone",
+   "Dolomite",
+   "Coal-lignite",
+   "Halite",
+   "Gypsum",
+   "Anhydrite",
+   "Volcanic rock",
+   "Oil_Good",
+   "Oil_Moderate"
+  ],
+  "share": {
+   "(blank)": 0.7622,
+   "Halite": 0.1189,
+   "(ambiguous) Fine sandstone | Silstone": 0.08975,
+   "(hatch only: colour can't tell)": 0.01875,
+   "(colour not in legend)": 0.0104
+  },
+  "fit": {
+   "Halite": {
+    "d1": 15.49368935542323,
+    "margin": 47.161736631215945
+   }
+  },
+  "swatch_lab": {
+   "Marl": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Silstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Fine sandstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Medium sandstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Coarse sandstone": [
+    97.25490196078336,
+    -22.0,
+    95.0
+   ],
+   "Conglomerate": [
+    97.25490196078336,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Halite": [
+    50.19607843137173,
+    45.0,
+    -78.0
+   ],
+   "Gypsum": [
+    60.39215686274472,
+    98.0,
+    -61.0
+   ],
+   "Anhydrite": [
+    60.39215686274592,
+    98.0,
+    -61.0
+   ],
+   "Volcanic rock": [
+    58.43137254902072,
+    66.0,
+    69.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+  "mode": "P",
+  "col_w": 79,
+  "col_h": 11600,
+  "n_rock": 11,
+  "n_hatch_only_swatches": 2,
+  "colour_collisions": 4,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 177.41379310344828,
+  "filled": 0.3704310344827586,
+  "rock_labels": [
+   "Anhydrite",
+   "Sandstone",
+   "Marlstone",
+   "Siltstone",
+   "Salt",
+   "Shale",
+   "Breccia",
+   "Conglomerate",
+   "Claystone",
+   "Limestone",
+   "Dolomite"
+  ],
+  "share": {
+   "(blank)": 0.6295689655172414,
+   "(hatch only: colour can't tell)": 0.20629310344827587,
+   "Sandstone": 0.13551724137931034,
+   "Siltstone": 0.023103448275862068,
+   "Marlstone": 0.0033620689655172414,
+   "(colour not in legend)": 0.0021551724137931034
+  },
+  "fit": {
+   "Siltstone": {
+    "d1": 8.242295734817162e-13,
+    "margin": 63.21898558509205
+   },
+   "Sandstone": {
+    "d1": 1.7479351299698465e-12,
+    "margin": 30.759425433182162
+   },
+   "Marlstone": {
+    "d1": 4.059406607735978,
+    "margin": 76.18443800978183
+   }
+  },
+  "swatch_lab": {
+   "Anhydrite": [
+    50.98039215686299,
+    80.0,
+    4.0
+   ],
+   "Sandstone": [
+    92.15686274509973,
+    -21.0,
+    90.0
+   ],
+   "Marlstone": [
+    90.98039215686421,
+    -48.0,
+    -14.0
+   ],
+   "Siltstone": [
+    67.05882352941255,
+    38.0,
+    54.0
+   ],
+   "Salt": [
+    60.392156862744734,
+    98.0,
+    -61.0
+   ],
+   "Breccia": [
+    97.64705882352813,
+    -17.0,
+    60.0
+   ],
+   "Conglomerate": [
+    97.64705882352735,
+    -17.0,
+    60.0
+   ],
+   "Limestone": [
+    31.372549019608254,
+    73.0,
+    -101.0
+   ],
+   "Dolomite": [
+    50.98039215686162,
+    80.0,
+    4.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968",
+  "mode": "RGB",
+  "col_w": 57,
+  "col_h": 6001,
+  "n_rock": 11,
+  "n_hatch_only_swatches": 2,
+  "colour_collisions": 4,
+  "swatch_h_med": 36.0,
+  "changes_per_1k_rows": 234.79420096650557,
+  "filled": 0.3472754540909848,
+  "rock_labels": [
+   "Anhydrite",
+   "Sandstone",
+   "Marlstone",
+   "Siltstone",
+   "Salt",
+   "Shale",
+   "Breccia",
+   "Conglomerate",
+   "Claystone",
+   "Limestone",
+   "Dolomite"
+  ],
+  "share": {
+   "(blank)": 0.6527245459090152,
+   "(hatch only: colour can't tell)": 0.19513414430928178,
+   "Sandstone": 0.12231294784202633,
+   "Siltstone": 0.026828861856357272,
+   "Marlstone": 0.002999500083319447
+  },
+  "fit": {
+   "Siltstone": {
+    "d1": 1.3926637620897964e-12,
+    "margin": 66.01876924873588
+   },
+   "Sandstone": {
+    "d1": 8.100187187665142e-13,
+    "margin": 35.357513869118975
+   },
+   "Marlstone": {
+    "d1": 4.121147867408581e-13,
+    "margin": 80.47589374017188
+   }
+  },
+  "swatch_lab": {
+   "Anhydrite": [
+    54.90196078431433,
+    84.0,
+    4.0
+   ],
+   "Sandstone": [
+    97.25490196078341,
+    -22.0,
+    95.0
+   ],
+   "Marlstone": [
+    91.37254901960833,
+    -48.0,
+    -14.0
+   ],
+   "Siltstone": [
+    67.4509803921555,
+    44.0,
+    55.0
+   ],
+   "Salt": [
+    60.39215686274628,
+    98.0,
+    -61.0
+   ],
+   "Breccia": [
+    97.64705882353016,
+    -17.0,
+    60.0
+   ],
+   "Conglomerate": [
+    97.6470588235291,
+    -17.0,
+    60.0
+   ],
+   "Limestone": [
+    32.15686274509791,
+    79.0,
+    -108.0
+   ],
+   "Dolomite": [
+    54.9019607843142,
+    84.0,
+    4.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817411400200_mc761_1_st1_bp01_mudlog_1md_17133_25775",
+  "mode": "P",
+  "col_w": 76,
+  "col_h": 17400,
+  "n_rock": 11,
+  "n_hatch_only_swatches": 2,
+  "colour_collisions": 4,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 176.3218390804598,
+  "filled": 0.3436781609195402,
+  "rock_labels": [
+   "Anhydrite",
+   "Sandstone",
+   "Marlstone",
+   "Siltstone",
+   "Salt",
+   "Shale",
+   "Breccia",
+   "Claystone",
+   "Conglomerate",
+   "Limestone",
+   "Dolomite"
+  ],
+  "share": {
+   "(blank)": 0.6563218390804598,
+   "(hatch only: colour can't tell)": 0.21701149425287355,
+   "Sandstone": 0.10735632183908046,
+   "Siltstone": 0.013735632183908046,
+   "Salt": 0.004137931034482759,
+   "(colour not in legend)": 0.0014367816091954023
+  },
+  "fit": {
+   "Siltstone": {
+    "d1": 4.405364961712621e-13,
+    "margin": 64.39038054916477
+   },
+   "Sandstone": {
+    "d1": 1.7621459846850485e-12,
+    "margin": 30.759425433182177
+   },
+   "Salt": {
+    "d1": 1.4357040342082072,
+    "margin": 54.15042826779468
+   }
+  },
+  "swatch_lab": {
+   "Anhydrite": [
+    54.90196078431223,
+    84.0,
+    4.0
+   ],
+   "Sandstone": [
+    92.15686274509974,
+    -21.0,
+    90.0
+   ],
+   "Marlstone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Siltstone": [
+    64.70588235294068,
+    38.0,
+    54.0
+   ],
+   "Salt": [
+    60.0,
+    98.0,
+    -61.0
+   ],
+   "Breccia": [
+    97.64705882352807,
+    -17.0,
+    60.0
+   ],
+   "Conglomerate": [
+    97.6470588235275,
+    -17.0,
+    60.0
+   ],
+   "Limestone": [
+    31.372549019608257,
+    75.0,
+    -103.0
+   ],
+   "Dolomite": [
+    54.90196078431436,
+    84.0,
+    4.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817411420000_mc_540_#1_st00_bp00_masterlog_3400-24195_5in_md",
+  "mode": "RGB",
+  "col_w": 65,
+  "col_h": 210005,
+  "n_rock": 13,
+  "n_hatch_only_swatches": 3,
+  "colour_collisions": 8,
+  "swatch_h_med": 41.0,
+  "changes_per_1k_rows": 2.147567915049642,
+  "filled": 0.63215,
+  "rock_labels": [
+   "Claystone",
+   "Shale",
+   "Marl",
+   "Sandstone",
+   "Silstone",
+   "Limestone",
+   "Dolomite",
+   "Anhydrite",
+   "Halite",
+   "Gypsum",
+   "Salted water",
+   "Oil_Good",
+   "Gas_Good"
+  ],
+  "share": {
+   "(colour not in legend)": 0.53205,
+   "(blank)": 0.36785,
+   "(ambiguous) Gypsum | Halite": 0.0615,
+   "(ambiguous) Sandstone | Silstone": 0.03765,
+   "(ambiguous) Claystone | Marl": 0.0009,
+   "Limestone": 5e-05
+  },
+  "fit": {
+   "Limestone": {
+    "d1": 23.568262044083067,
+    "margin": 90.93556300799537
+   }
+  },
+  "swatch_lab": {
+   "Claystone": [
+    87.8431372548985,
+    -86.0,
+    83.0
+   ],
+   "Shale": [
+    87.84313725490085,
+    -86.0,
+    83.0
+   ],
+   "Marl": [
+    87.84313725489856,
+    -86.0,
+    83.0
+   ],
+   "Sandstone": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Silstone": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.392156862745786,
+    98.0,
+    -61.0
+   ],
+   "Anhydrite": [
+    53.33333333333428,
+    80.0,
+    67.0
+   ],
+   "Halite": [
+    53.33333333333308,
+    80.0,
+    67.0
+   ],
+   "Gypsum": [
+    53.33333333333275,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817411700000_mc776-5_5in_md_combo_mud_log_20415_mms",
+  "mode": "RGB",
+  "col_w": 47,
+  "col_h": 147300,
+  "n_rock": 21,
+  "n_hatch_only_swatches": 7,
+  "colour_collisions": 11,
+  "swatch_h_med": 40.0,
+  "changes_per_1k_rows": 2.2674813306177866,
+  "filled": 0.7007,
+  "rock_labels": [
+   "Clay-shale",
+   "Slaty shale",
+   "Marl",
+   "Silty clay-shale",
+   "Sandy clay-shale",
+   "Silstone",
+   "Fine sandstone",
+   "Medium sandstone",
+   "Coarse sandstone",
+   "Chert",
+   "Limestone",
+   "Chalk",
+   "Dolomitic limestone",
+   "Dolomite",
+   "Coal-lignite",
+   "Halite",
+   "Anhydrite",
+   "Gypsum",
+   "Volcanics",
+   "Oil_Good",
+   "Oil_Moderate"
+  ],
+  "share": {
+   "(hatch only: colour can't tell)": 0.37765,
+   "(blank)": 0.2993,
+   "Halite": 0.25905,
+   "(ambiguous) Fine sandstone | Silstone": 0.0554,
+   "(colour not in legend)": 0.00465,
+   "Volcanics": 0.00395
+  },
+  "fit": {
+   "Halite": {
+    "d1": 17.884930154842124,
+    "margin": 46.06199010450961
+   },
+   "Volcanics": {
+    "d1": 13.477767302381784,
+    "margin": 48.24060381778668
+   }
+  },
+  "swatch_lab": {
+   "Marl": [
+    87.84313725489865,
+    -86.0,
+    83.0
+   ],
+   "Silstone": [
+    97.25490196078333,
+    -22.0,
+    95.0
+   ],
+   "Fine sandstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Medium sandstone": [
+    97.25490196078334,
+    -22.0,
+    95.0
+   ],
+   "Coarse sandstone": [
+    97.25490196078336,
+    -22.0,
+    95.0
+   ],
+   "Chert": [
+    97.25490196078336,
+    -22.0,
+    95.0
+   ],
+   "Limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Halite": [
+    50.19607843137173,
+    45.0,
+    -78.0
+   ],
+   "Anhydrite": [
+    60.39215686274607,
+    98.0,
+    -61.0
+   ],
+   "Gypsum": [
+    60.39215686274482,
+    98.0,
+    -61.0
+   ],
+   "Volcanics": [
+    52.94117647058748,
+    -13.0,
+    58.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60817412840000_mc_776_6_ml_mudlog_5757_23721_5in_md_final",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 180503,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 12,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 45.046342720065596,
+  "filled": 0.72475,
+  "rock_labels": [
+   "Clay-shale",
+   "Calc clay-shale",
+   "Marl",
+   "Dolomite",
+   "Limestone",
+   "Argill limestone",
+   "Oolitic limestone",
+   "Bituminous limestone",
+   "Silt",
+   "Fine sand",
+   "Medium sand",
+   "Siltstone",
+   "Fine sandstone",
+   "Argill and calc sand",
+   "Halite"
+  ],
+  "share": {
+   "(ambiguous) Calc clay-shale | Clay-shale": 0.3716,
+   "(blank)": 0.27525,
+   "(colour not in legend)": 0.218,
+   "Halite": 0.0695,
+   "(ambiguous) Fine sand | Silt": 0.06545,
+   "(ambiguous) Argill limestone | Oolitic limestone": 0.0002
+  },
+  "fit": {
+   "Halite": {
+    "d1": 12.658440311155925,
+    "margin": 64.16979828941155
+   }
+  },
+  "swatch_lab": {
+   "Clay-shale": [
+    87.84313725490082,
+    -86.0,
+    83.0
+   ],
+   "Calc clay-shale": [
+    87.8431372549001,
+    -86.0,
+    83.0
+   ],
+   "Dolomite": [
+    60.392156862744564,
+    98.0,
+    -61.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Argill limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Oolitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Bituminous limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Silt": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Fine sand": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Medium sand": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Siltstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Fine sandstone": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Argill and calc sand": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    81.1764705882347,
+    28.0,
+    5.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60818400600100_608184006001_g08037_002_01_00_5 inch mudlog_13452ft-19912ft",
+  "mode": "RGB",
+  "col_w": 63,
+  "col_h": 65403,
+  "n_rock": 15,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 11,
+  "swatch_h_med": 48.0,
+  "changes_per_1k_rows": 80.79140100607005,
+  "filled": 0.9848,
+  "rock_labels": [
+   "Siltstone",
+   "Sandstone",
+   "Halite",
+   "Shale",
+   "Claystone",
+   "Limestone",
+   "Dolomite",
+   "Marl",
+   "Dolomitic limestone",
+   "Chalk",
+   "Gypsum",
+   "Anhydrite",
+   "Chert",
+   "Volcanics",
+   "Granite"
+  ],
+  "share": {
+   "(colour not in legend)": 0.73605,
+   "(hatch only: colour can't tell)": 0.1265,
+   "(ambiguous) Chert | Sandstone": 0.11835,
+   "(blank)": 0.0152,
+   "Volcanics": 0.0022,
+   "(ambiguous) Marl | Shale": 0.00135,
+   "(ambiguous) Claystone | Marl": 0.00035
+  },
+  "fit": {
+   "Volcanics": {
+    "d1": 19.742498419978478,
+    "margin": 28.792822253645113
+   }
+  },
+  "swatch_lab": {
+   "Sandstone": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Halite": [
+    53.333333333331936,
+    80.0,
+    67.0
+   ],
+   "Shale": [
+    87.84313725489993,
+    -86.0,
+    83.0
+   ],
+   "Claystone": [
+    87.84313725490095,
+    -86.0,
+    83.0
+   ],
+   "Limestone": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomite": [
+    60.39215686274467,
+    98.0,
+    -61.0
+   ],
+   "Marl": [
+    87.84313725490045,
+    -86.0,
+    83.0
+   ],
+   "Dolomitic limestone": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Chalk": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Gypsum": [
+    53.33333333333187,
+    80.0,
+    67.0
+   ],
+   "Anhydrite": [
+    53.33333333333308,
+    80.0,
+    67.0
+   ],
+   "Chert": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Volcanics": [
+    53.333333333332284,
+    -13.0,
+    58.0
+   ],
+   "Granite": [
+    26.666666666666337,
+    49.0,
+    40.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+  "mode": "RGB",
+  "col_w": 93,
+  "col_h": 33351,
+  "n_rock": 6,
+  "n_hatch_only_swatches": 2,
+  "colour_collisions": 0,
+  "swatch_h_med": 73.0,
+  "changes_per_1k_rows": 147.82165452310275,
+  "filled": 0.7032,
+  "rock_labels": [
+   "Siltstone",
+   "Sandstone",
+   "Tuff",
+   "Dolomite",
+   "Clay/Shale",
+   "Anhydrite"
+  ],
+  "share": {
+   "Clay/Shale": 0.4015,
+   "(blank)": 0.2968,
+   "(colour not in legend)": 0.15235,
+   "Sandstone": 0.13815,
+   "Anhydrite": 0.01105,
+   "(hatch only: colour can't tell)": 0.00015
+  },
+  "fit": {
+   "Clay/Shale": {
+    "d1": 4.224022765070532,
+    "margin": 55.97464562699998
+   },
+   "Anhydrite": {
+    "d1": 1.211992678929328,
+    "margin": 109.71135819377481
+   },
+   "Sandstone": {
+    "d1": 0.19835345947247157,
+    "margin": 59.05210097731728
+   }
+  },
+  "swatch_lab": {
+   "Sandstone": [
+    97.25490196078323,
+    -22.0,
+    95.0
+   ],
+   "Dolomite": [
+    72.15686274510179,
+    65.0,
+    -42.0
+   ],
+   "Clay/Shale": [
+    90.58823529411085,
+    -60.0,
+    50.0
+   ],
+   "Anhydrite": [
+    53.33333333333707,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Callaway 3-33 mudlog to TD.PDF",
+  "mode": "RGB",
+  "col_w": 60,
+  "col_h": 50928,
+  "n_rock": 5,
+  "n_hatch_only_swatches": 0,
+  "colour_collisions": 0,
+  "swatch_h_med": 43.0,
+  "changes_per_1k_rows": 128.6718504555451,
+  "filled": 0.6779999999999999,
+  "rock_labels": [
+   "CEMENT CHALK",
+   "SALT-PEPPERSAND GRANITE SANDSTONE GYPSUM",
+   "TILL TUFF WELDED TUFF",
+   "CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE",
+   "SHALE SHALE COLORED SHALE GRAY"
+  ],
+  "share": {
+   "(blank)": 0.322,
+   "(colour not in legend)": 0.25545,
+   "SHALE SHALE COLORED SHALE GRAY": 0.1963,
+   "CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE": 0.14485,
+   "CEMENT CHALK": 0.04045,
+   "SALT-PEPPERSAND GRANITE SANDSTONE GYPSUM": 0.0194,
+   "(ambiguous) CEMENT CHALK | CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE": 0.0139,
+   "(hatch only: colour can't tell)": 0.00765
+  },
+  "fit": {
+   "CEMENT CHALK": {
+    "d1": 4.420081174494591,
+    "margin": 9.661358830240836
+   },
+   "CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE": {
+    "d1": 9.757073870537797,
+    "margin": 12.419362566201434
+   },
+   "SHALE SHALE COLORED SHALE GRAY": {
+    "d1": 7.541658253843162,
+    "margin": 48.17243137791202
+   },
+   "SALT-PEPPERSAND GRANITE SANDSTONE GYPSUM": {
+    "d1": 15.02863073448435,
+    "margin": 39.58754696752834
+   }
+  },
+  "swatch_lab": {
+   "CEMENT CHALK": [
+    94.87460100319176,
+    -12.995348837209303,
+    -5.265116279069767
+   ],
+   "SALT-PEPPERSAND GRANITE SANDSTONE GYPSUM": [
+    32.94649986691512,
+    35.32579185520362,
+    -34.841628959276015
+   ],
+   "TILL TUFF WELDED TUFF": [
+    48.65863453815259,
+    69.8843373493976,
+    47.24096385542169
+   ],
+   "CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE": [
+    80.89617486338787,
+    -14.908196721311475,
+    -13.140983606557377
+   ],
+   "SHALE SHALE COLORED SHALE GRAY": [
+    44.387896003471745,
+    21.738430583501007,
+    25.030181086519114
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+  "mode": "RGB",
+  "col_w": 76,
+  "col_h": 38251,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 8,
+  "colour_collisions": 6,
+  "swatch_h_med": 13.0,
+  "changes_per_1k_rows": 107.16059710857233,
+  "filled": 0.79605,
+  "rock_labels": [
+   "DOLOMITE",
+   "SHALEGRAY",
+   "TILL",
+   "ANHYDRITE",
+   "CHERT",
+   "SHALE COLORED",
+   "BENTONITE",
+   "GYPSUM",
+   "COAL",
+   "SILTSTONE",
+   "TUFF",
+   "SALT",
+   "MARLSTONE",
+   "SANDSTONE",
+   "IGNEOUS",
+   "CHALK",
+   "CLAYSTONE",
+   "CONGLOMERATE",
+   "METAMORPHIC",
+   "LIMESTONE",
+   "SHALE",
+   "BRECCIA",
+   "CEMENT"
+  ],
+  "share": {
+   "SILTSTONE": 0.4596,
+   "(blank)": 0.20395,
+   "SANDSTONE": 0.19605,
+   "(ambiguous) ANHYDRITE | SILTSTONE": 0.05575,
+   "CHALK": 0.02825,
+   "(ambiguous) SHALE COLORED | TILL": 0.025,
+   "(hatch only: colour can't tell)": 0.0207,
+   "(colour not in legend)": 0.0047,
+   "(ambiguous) CHALK | SHALE COLORED": 0.0028,
+   "ANHYDRITE": 0.0012,
+   "(ambiguous) CHALK | TILL": 0.0012,
+   "(ambiguous) CHALK | LIMESTONE": 0.0004,
+   "(ambiguous) ANHYDRITE | CHALK": 0.0003,
+   "(ambiguous) CLAYSTONE | LIMESTONE": 0.0001
+  },
+  "fit": {
+   "SILTSTONE": {
+    "d1": 1.9857329367050416,
+    "margin": 10.419112983202583
+   },
+   "SANDSTONE": {
+    "d1": 10.455242887235014,
+    "margin": 19.583222027730507
+   },
+   "ANHYDRITE": {
+    "d1": 8.78073381350762,
+    "margin": 10.187734970563277
+   },
+   "CHALK": {
+    "d1": 11.146044290697628,
+    "margin": 20.292962732893166
+   }
+  },
+  "swatch_lab": {
+   "DOLOMITE": [
+    33.01189328190296,
+    32.28688524590164,
+    -32.82786885245902
+   ],
+   "TILL": [
+    44.08668730650154,
+    21.931578947368422,
+    25.378947368421052
+   ],
+   "ANHYDRITE": [
+    64.11764705882352,
+    30.38888888888889,
+    62.842592592592595
+   ],
+   "SHALE COLORED": [
+    44.31641149610532,
+    21.14041095890411,
+    24.236301369863014
+   ],
+   "GYPSUM": [
+    32.946673996701506,
+    35.228971962616825,
+    -34.76635514018692
+   ],
+   "SILTSTONE": [
+    66.30065359477132,
+    40.01190476190476,
+    71.33571428571429
+   ],
+   "TUFF": [
+    48.47828702032962,
+    69.58895705521472,
+    47.104294478527606
+   ],
+   "SALT": [
+    57.30392156862745,
+    -43.47222222222222,
+    27.27777777777778
+   ],
+   "SANDSTONE": [
+    94.04167949902468,
+    -19.073298429319372,
+    91.19371727748691
+   ],
+   "IGNEOUS": [
+    22.427049559981466,
+    42.63385826771653,
+    15.68503937007874
+   ],
+   "CHALK": [
+    73.22260668973463,
+    8.947058823529412,
+    23.63529411764706
+   ],
+   "CLAYSTONE": [
+    80.83899695336298,
+    -14.912350597609562,
+    -13.047808764940239
+   ],
+   "CONGLOMERATE": [
+    95.26485220954056,
+    -15.537313432835822,
+    55.02985074626866
+   ],
+   "METAMORPHIC": [
+    21.41532976827096,
+    40.74545454545454,
+    28.90909090909091
+   ],
+   "LIMESTONE": [
+    82.03787497905152,
+    -10.521367521367521,
+    -9.649572649572649
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Critter Creek 202-1807H_Mud_Vertical_PDF.pdf",
+  "mode": "RGB",
+  "col_w": 76,
+  "col_h": 37876,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 8,
+  "colour_collisions": 6,
+  "swatch_h_med": 13.0,
+  "changes_per_1k_rows": 101.75308902735242,
+  "filled": 0.7294,
+  "rock_labels": [
+   "DOLOMITE",
+   "SHALEGRAY",
+   "TILL",
+   "ANHYDRITE",
+   "CHERT",
+   "SHALE COLORED",
+   "BENTONITE",
+   "GYPSUM",
+   "COAL",
+   "SILTSTONE",
+   "TUFF",
+   "SALT",
+   "MARLSTONE",
+   "SANDSTONE",
+   "IGNEOUS",
+   "CHALK",
+   "CLAYSTONE",
+   "CONGLOMERATE",
+   "METAMORPHIC",
+   "LIMESTONE",
+   "SHALE",
+   "BRECCIA",
+   "CEMENT"
+  ],
+  "share": {
+   "SILTSTONE": 0.3608,
+   "(blank)": 0.2706,
+   "SANDSTONE": 0.23725,
+   "(ambiguous) ANHYDRITE | SILTSTONE": 0.04255,
+   "CHALK": 0.0267,
+   "(hatch only: colour can't tell)": 0.02425,
+   "(ambiguous) SHALE COLORED | TILL": 0.0209,
+   "(colour not in legend)": 0.00635,
+   "SALT": 0.00295,
+   "(ambiguous) CHALK | SHALE COLORED": 0.0024,
+   "ANHYDRITE": 0.00205,
+   "(ambiguous) CLAYSTONE | LIMESTONE": 0.00095,
+   "(ambiguous) CHALK | TILL": 0.00085,
+   "(ambiguous) CHALK | LIMESTONE": 0.0007,
+   "(ambiguous) ANHYDRITE | CHALK": 0.0004,
+   "CONGLOMERATE": 0.00015,
+   "(ambiguous) CONGLOMERATE | SANDSTONE": 0.0001,
+   "(ambiguous) ANHYDRITE | TILL": 5e-05
+  },
+  "fit": {
+   "SANDSTONE": {
+    "d1": 10.36354039381801,
+    "margin": 19.70878415033889
+   },
+   "SILTSTONE": {
+    "d1": 2.0539225002817885,
+    "margin": 10.447990316055435
+   },
+   "SALT": {
+    "d1": 8.15520756232272,
+    "margin": 43.3818724408936
+   },
+   "ANHYDRITE": {
+    "d1": 11.25042771184257,
+    "margin": 10.073987039496359
+   },
+   "CHALK": {
+    "d1": 11.822882858106682,
+    "margin": 19.2200571109668
+   },
+   "CONGLOMERATE": {
+    "d1": 14.947651787136753,
+    "margin": 9.535129347798534
+   }
+  },
+  "swatch_lab": {
+   "DOLOMITE": [
+    33.01189328190296,
+    32.28688524590164,
+    -32.82786885245902
+   ],
+   "TILL": [
+    44.08668730650154,
+    21.931578947368422,
+    25.378947368421052
+   ],
+   "ANHYDRITE": [
+    64.11764705882352,
+    30.38888888888889,
+    62.842592592592595
+   ],
+   "SHALE COLORED": [
+    44.31641149610532,
+    21.14041095890411,
+    24.236301369863014
+   ],
+   "GYPSUM": [
+    32.946673996701506,
+    35.228971962616825,
+    -34.76635514018692
+   ],
+   "SILTSTONE": [
+    66.30065359477132,
+    40.01190476190476,
+    71.33571428571429
+   ],
+   "TUFF": [
+    48.47828702032962,
+    69.58895705521472,
+    47.104294478527606
+   ],
+   "SALT": [
+    57.09919261822378,
+    -43.0735294117647,
+    26.676470588235293
+   ],
+   "SANDSTONE": [
+    94.01808391750478,
+    -19.088082901554404,
+    91.17098445595855
+   ],
+   "IGNEOUS": [
+    22.468281430219143,
+    42.61176470588235,
+    15.760784313725491
+   ],
+   "CHALK": [
+    73.22260668973463,
+    8.947058823529412,
+    23.63529411764706
+   ],
+   "CLAYSTONE": [
+    80.83899695336298,
+    -14.912350597609562,
+    -13.047808764940239
+   ],
+   "CONGLOMERATE": [
+    95.26485220954056,
+    -15.537313432835822,
+    55.02985074626866
+   ],
+   "METAMORPHIC": [
+    21.41532976827096,
+    40.74545454545454,
+    28.90909090909091
+   ],
+   "LIMESTONE": [
+    82.03787497905152,
+    -10.521367521367521,
+    -9.649572649572649
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+  "mode": "RGB",
+  "col_w": 37,
+  "col_h": 34650,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 22,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 270.3896103896104,
+  "filled": 0.8193,
+  "rock_labels": [
+   "Clay-S",
+   "Clay-SCS",
+   "Clay-M",
+   "Clay-CCS",
+   "Clay-SACS",
+   "Sand-SIS",
+   "Sand-SS",
+   "Sand-FS",
+   "Sand-MS",
+   "Sand-CS",
+   "Sand-FSS",
+   "Sand-MSS",
+   "Limestone-AL",
+   "Limestone-SL",
+   "Limestone-L",
+   "Dolomites-AD",
+   "Dolomites-CD",
+   "Dolomites-D",
+   "Others-H",
+   "Others-A",
+   "Others-GY",
+   "Others-E",
+   "Others-CL"
+  ],
+  "share": {
+   "(ambiguous) Clay-CCS | Clay-SCS": 0.44785,
+   "(ambiguous) Clay-S | Clay-SACS": 0.18355,
+   "(blank)": 0.1807,
+   "(colour not in legend)": 0.1204,
+   "(ambiguous) Sand-FSS | Sand-SS": 0.0674,
+   "(hatch only: colour can't tell)": 0.0001
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay-S": [
+    87.84313725490102,
+    -86.0,
+    83.0
+   ],
+   "Clay-SCS": [
+    87.84313725490024,
+    -86.0,
+    83.0
+   ],
+   "Clay-M": [
+    87.84313725490058,
+    -86.0,
+    83.0
+   ],
+   "Clay-CCS": [
+    87.84313725490007,
+    -86.0,
+    83.0
+   ],
+   "Clay-SACS": [
+    87.84313725490064,
+    -86.0,
+    83.0
+   ],
+   "Sand-SIS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-SS": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Sand-FS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-CS": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Sand-FSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Limestone-AL": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-SL": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-L": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomites-AD": [
+    60.39215686274489,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-CD": [
+    60.39215686274454,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-D": [
+    60.39215686274437,
+    98.0,
+    -61.0
+   ],
+   "Others-H": [
+    53.33333333333209,
+    80.0,
+    67.0
+   ],
+   "Others-A": [
+    53.333333333332995,
+    80.0,
+    67.0
+   ],
+   "Others-GY": [
+    53.33333333333181,
+    80.0,
+    67.0
+   ],
+   "Others-E": [
+    53.3333333333341,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "mode": "RGB",
+  "col_w": 37,
+  "col_h": 173248,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 22,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 0.935075729589952,
+  "filled": 0.819,
+  "rock_labels": [
+   "Clay-S",
+   "Clay-SCS",
+   "Clay-M",
+   "Clay-CCS",
+   "Clay-SACS",
+   "Sand-SIS",
+   "Sand-SS",
+   "Sand-FS",
+   "Sand-MS",
+   "Sand-CS",
+   "Sand-FSS",
+   "Sand-MSS",
+   "Limestone-AL",
+   "Limestone-SL",
+   "Limestone-L",
+   "Dolomites-AD",
+   "Dolomites-CD",
+   "Dolomites-D",
+   "Others-H",
+   "Others-A",
+   "Others-GY",
+   "Others-E",
+   "Others-CL"
+  ],
+  "share": {
+   "(colour not in legend)": 0.74975,
+   "(blank)": 0.181,
+   "(ambiguous) Sand-FSS | Sand-SS": 0.06715,
+   "(ambiguous) Clay-CCS | Clay-SCS": 0.0021
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay-S": [
+    87.84313725490102,
+    -86.0,
+    83.0
+   ],
+   "Clay-SCS": [
+    87.84313725490024,
+    -86.0,
+    83.0
+   ],
+   "Clay-M": [
+    87.84313725490058,
+    -86.0,
+    83.0
+   ],
+   "Clay-CCS": [
+    87.84313725490007,
+    -86.0,
+    83.0
+   ],
+   "Clay-SACS": [
+    87.84313725490064,
+    -86.0,
+    83.0
+   ],
+   "Sand-SIS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-SS": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Sand-FS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-CS": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Sand-FSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Limestone-AL": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-SL": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-L": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomites-AD": [
+    60.39215686274489,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-CD": [
+    60.39215686274454,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-D": [
+    60.39215686274437,
+    98.0,
+    -61.0
+   ],
+   "Others-H": [
+    53.33333333333209,
+    80.0,
+    67.0
+   ],
+   "Others-A": [
+    53.333333333332995,
+    80.0,
+    67.0
+   ],
+   "Others-GY": [
+    53.33333333333181,
+    80.0,
+    67.0
+   ],
+   "Others-E": [
+    53.3333333333341,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "MC765_P011_ST00BP00_5inchTVD_Depth_MudLog_3686-16495ft",
+  "mode": "RGB",
+  "col_w": 37,
+  "col_h": 131188,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 22,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 1.6769826508522123,
+  "filled": 0.76145,
+  "rock_labels": [
+   "Clay-S",
+   "Clay-SCS",
+   "Clay-M",
+   "Clay-CCS",
+   "Clay-SACS",
+   "Sand-SIS",
+   "Sand-SS",
+   "Sand-FS",
+   "Sand-MS",
+   "Sand-CS",
+   "Sand-FSS",
+   "Sand-MSS",
+   "Limestone-AL",
+   "Limestone-SL",
+   "Limestone-L",
+   "Dolomites-AD",
+   "Dolomites-CD",
+   "Dolomites-D",
+   "Others-H",
+   "Others-A",
+   "Others-GY",
+   "Others-E",
+   "Others-CL"
+  ],
+  "share": {
+   "(colour not in legend)": 0.70225,
+   "(blank)": 0.23855,
+   "(ambiguous) Sand-FSS | Sand-SS": 0.05685,
+   "(ambiguous) Clay-CCS | Clay-SCS": 0.00235
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay-S": [
+    87.84313725490102,
+    -86.0,
+    83.0
+   ],
+   "Clay-SCS": [
+    87.84313725490024,
+    -86.0,
+    83.0
+   ],
+   "Clay-M": [
+    87.84313725490058,
+    -86.0,
+    83.0
+   ],
+   "Clay-CCS": [
+    87.84313725490007,
+    -86.0,
+    83.0
+   ],
+   "Clay-SACS": [
+    87.84313725490064,
+    -86.0,
+    83.0
+   ],
+   "Sand-SIS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-SS": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Sand-FS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-CS": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Sand-FSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Limestone-AL": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-SL": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-L": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomites-AD": [
+    60.39215686274489,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-CD": [
+    60.39215686274454,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-D": [
+    60.39215686274437,
+    98.0,
+    -61.0
+   ],
+   "Others-H": [
+    53.33333333333209,
+    80.0,
+    67.0
+   ],
+   "Others-A": [
+    53.333333333332995,
+    80.0,
+    67.0
+   ],
+   "Others-GY": [
+    53.33333333333181,
+    80.0,
+    67.0
+   ],
+   "Others-E": [
+    53.3333333333341,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "MC765_P011_ST00BP01_5inchMD_Depth_MudLog_18230-21150ft",
+  "mode": "RGB",
+  "col_w": 37,
+  "col_h": 32046,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 22,
+  "swatch_h_med": 49.0,
+  "changes_per_1k_rows": 313.5804780627848,
+  "filled": 1,
+  "rock_labels": [
+   "Clay-S",
+   "Clay-SCS",
+   "Clay-M",
+   "Clay-CCS",
+   "Clay-SACS",
+   "Sand-SIS",
+   "Sand-SS",
+   "Sand-FS",
+   "Sand-MS",
+   "Sand-CS",
+   "Sand-FSS",
+   "Sand-MSS",
+   "Limestone-AL",
+   "Limestone-SL",
+   "Limestone-L",
+   "Dolomites-AD",
+   "Dolomites-CD",
+   "Dolomites-D",
+   "Others-H",
+   "Others-A",
+   "Others-GY",
+   "Others-E",
+   "Others-CL"
+  ],
+  "share": {
+   "(ambiguous) Clay-CCS | Clay-SCS": 0.61375,
+   "(ambiguous) Clay-S | Clay-SACS": 0.18075,
+   "(colour not in legend)": 0.1339,
+   "(ambiguous) Sand-FSS | Sand-SS": 0.07075,
+   "(ambiguous) Sand-CS | Sand-FSS": 0.00075,
+   "(hatch only: colour can't tell)": 0.0001
+  },
+  "fit": {},
+  "swatch_lab": {
+   "Clay-S": [
+    87.84313725490102,
+    -86.0,
+    83.0
+   ],
+   "Clay-SCS": [
+    87.84313725490024,
+    -86.0,
+    83.0
+   ],
+   "Clay-M": [
+    87.84313725490058,
+    -86.0,
+    83.0
+   ],
+   "Clay-CCS": [
+    87.84313725490007,
+    -86.0,
+    83.0
+   ],
+   "Clay-SACS": [
+    87.84313725490064,
+    -86.0,
+    83.0
+   ],
+   "Sand-SIS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-SS": [
+    97.25490196078329,
+    -22.0,
+    95.0
+   ],
+   "Sand-FS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-CS": [
+    97.25490196078331,
+    -22.0,
+    95.0
+   ],
+   "Sand-FSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Sand-MSS": [
+    97.2549019607833,
+    -22.0,
+    95.0
+   ],
+   "Limestone-AL": [
+    91.37254901960836,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-SL": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Limestone-L": [
+    91.37254901960837,
+    -48.0,
+    -14.0
+   ],
+   "Dolomites-AD": [
+    60.39215686274489,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-CD": [
+    60.39215686274454,
+    98.0,
+    -61.0
+   ],
+   "Dolomites-D": [
+    60.39215686274437,
+    98.0,
+    -61.0
+   ],
+   "Others-H": [
+    53.33333333333209,
+    80.0,
+    67.0
+   ],
+   "Others-A": [
+    53.333333333332995,
+    80.0,
+    67.0
+   ],
+   "Others-GY": [
+    53.33333333333181,
+    80.0,
+    67.0
+   ],
+   "Others-E": [
+    53.3333333333341,
+    80.0,
+    67.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Mudlog-Trail Mtn1Palisades",
+  "mode": "RGB",
+  "col_w": 56,
+  "col_h": 60901,
+  "n_rock": 16,
+  "n_hatch_only_swatches": 6,
+  "colour_collisions": 5,
+  "swatch_h_med": 38.0,
+  "changes_per_1k_rows": 7.438301505722402,
+  "filled": 0.07794999999999996,
+  "rock_labels": [
+   "SHALE",
+   "CONGLOMERATE",
+   "SILTSTONE",
+   "COAL",
+   "SANDSTONE",
+   "SALT",
+   "LIMESTONE",
+   "VOLCANICS",
+   "DOLOMITE",
+   "GRANITE",
+   "ANHYDRITE",
+   "METAMORPHIC",
+   "BENTONITE",
+   "TUFF",
+   "CHERT",
+   "IGNEOUS"
+  ],
+  "share": {
+   "(blank)": 0.92205,
+   "(ambiguous) TUFF | VOLCANICS": 0.06625,
+   "(colour not in legend)": 0.0047,
+   "(ambiguous) SILTSTONE | VOLCANICS": 0.0044,
+   "(hatch only: colour can't tell)": 0.0026
+  },
+  "fit": {},
+  "swatch_lab": {
+   "CONGLOMERATE": [
+    97.17752868432264,
+    -21.968521641371556,
+    94.91624508150646
+   ],
+   "SILTSTONE": [
+    67.45098039215463,
+    32.0,
+    65.0
+   ],
+   "SANDSTONE": [
+    97.23297656482796,
+    -21.992153016184403,
+    94.97940166748405
+   ],
+   "SALT": [
+    46.23188405797186,
+    -51.95652173913044,
+    49.95652173913044
+   ],
+   "LIMESTONE": [
+    93.27612341694733,
+    -34.98379052369077,
+    -11.0
+   ],
+   "VOLCANICS": [
+    67.44970300823691,
+    32.0,
+    65.0
+   ],
+   "DOLOMITE": [
+    54.866526516202555,
+    18.989885367498314,
+    -70.96628455832771
+   ],
+   "GRANITE": [
+    29.768621032701454,
+    58.95635570103655,
+    -36.95526459356247
+   ],
+   "METAMORPHIC": [
+    60.32265428810579,
+    97.91785252263907,
+    -60.9372574385511
+   ],
+   "TUFF": [
+    67.44926255858832,
+    32.0,
+    65.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Mudlog_MD_FREEMAN 3 24 ST",
+  "mode": "RGB",
+  "col_w": 29,
+  "col_h": 13932,
+  "n_rock": 47,
+  "n_hatch_only_swatches": 6,
+  "colour_collisions": 26,
+  "swatch_h_med": 22.0,
+  "changes_per_1k_rows": 562.7332759115704,
+  "filled": 0.6136950904392765,
+  "rock_labels": [
+   "CHERT-GLASSY",
+   "FELSIC SILIC DIKE",
+   "MARL-CALC",
+   "SANDSTONE",
+   "CHERT-PORCEL",
+   "METAMORPHICS",
+   "SANDSTONE-TUFFACE",
+   "ANHYDRITE",
+   "GABBRO",
+   "MUDSTONE",
+   "GLASSYTUFF",
+   "OBSIDIAN",
+   "BENTONITE",
+   "GRANITE",
+   "PALEOSOL",
+   "BIOTITIZATION",
+   "GRANITE WASH",
+   "BRECCIA",
+   "CALCARENITE",
+   "GYPSUM",
+   "PORCELANEOUSCLYS",
+   "CALCAREOUSTUFF",
+   "COAL",
+   "HALITE",
+   "CALCILUTITE",
+   "CONGLOMERATE",
+   "CARBONATES",
+   "CONGL.SAND",
+   "IGNEOUS (ACIDIC)",
+   "CARBONACEOUSMAT",
+   "CONGL.SANDSTONE",
+   "IGNEOUS (BASIC)",
+   "COQUINA",
+   "INTRUSIVES",
+   "QUARTZMONZONITE",
+   "CEMENTCONTAM.",
+   "RECRYSTALLIZEDCALC",
+   "DIATOMITE",
+   "LIMESTONE",
+   "RHYOLITE",
+   "CRYSTALLINE TUFF",
+   "LITHIC TUFF",
+   "SALT",
+   "CHERT-ARGILL",
+   "DOLOSTONE",
+   "MARL-DOLO",
+   "SAND"
+  ],
+  "share": {
+   "(blank)": 0.3863049095607235,
+   "(colour not in legend)": 0.16178581682457652,
+   "(ambiguous) CONGL.SAND | SANDSTONE": 0.10579959804766007,
+   "(ambiguous) BENTONITE | CRYSTALLINE TUFF": 0.08570198105081826,
+   "(ambiguous) CONGL.SANDSTONE | SAND": 0.05498133792707436,
+   "(ambiguous) BENTONITE | PALEOSOL": 0.050746482917025555,
+   "(ambiguous) GLASSYTUFF | LITHIC TUFF": 0.04292276772896928,
+   "(ambiguous) BENTONITE | LITHIC TUFF": 0.03983634797588286,
+   "GYPSUM": 0.033878840080390465,
+   "(ambiguous) CRYSTALLINE TUFF | GLASSYTUFF": 0.011484352569623888,
+   "(ambiguous) BRECCIA | CONGL.SANDSTONE": 0.009761699684180305,
+   "LIMESTONE": 0.003875968992248062,
+   "(ambiguous) MUDSTONE | PALEOSOL": 0.0034453057708871662,
+   "(ambiguous) DIATOMITE | RECRYSTALLIZEDCALC": 0.002655756531725524,
+   "DIATOMITE": 0.001937984496124031,
+   "BENTONITE": 0.0016508756818834338,
+   "(ambiguous) DIATOMITE | LIMESTONE": 0.0012919896640826874,
+   "(ambiguous) ANHYDRITE | METAMORPHICS": 0.0012919896640826874,
+   "(hatch only: colour can't tell)": 0.0002153316106804479,
+   "METAMORPHICS": 0.0002153316106804479,
+   "DOLOSTONE": 0.0001435544071202986,
+   "(ambiguous) DOLOSTONE | LITHIC TUFF": 7.17772035601493e-05
+  },
+  "fit": {
+   "METAMORPHICS": {
+    "d1": 3.963937785607612,
+    "margin": 28.70578996212719
+   },
+   "DOLOSTONE": {
+    "d1": 22.387866049601683,
+    "margin": 6.755819822097978
+   },
+   "BENTONITE": {
+    "d1": 1.2352380939675671,
+    "margin": 21.019054374148176
+   },
+   "GYPSUM": {
+    "d1": 19.56527536223311,
+    "margin": 16.488566428643843
+   },
+   "LIMESTONE": {
+    "d1": 2.58927192550196,
+    "margin": 17.819139394224862
+   },
+   "DIATOMITE": {
+    "d1": 12.078319963835606,
+    "margin": 7.2690956607248385
+   }
+  },
+  "swatch_lab": {
+   "CHERT-GLASSY": [
+    53.33333333333334,
+    80.0,
+    67.0
+   ],
+   "FELSIC SILIC DIKE": [
+    55.68627450980411,
+    -52.0,
+    58.0
+   ],
+   "MARL-CALC": [
+    32.15686274509802,
+    79.0,
+    -108.0
+   ],
+   "SANDSTONE": [
+    97.25490196078367,
+    -22.0,
+    95.0
+   ],
+   "CHERT-PORCEL": [
+    32.15686274509802,
+    79.0,
+    -108.0
+   ],
+   "METAMORPHICS": [
+    63.137254901961306,
+    58.0,
+    30.0
+   ],
+   "SANDSTONE-TUFFACE": [
+    97.25490196078371,
+    -22.0,
+    95.0
+   ],
+   "ANHYDRITE": [
+    52.15686274509792,
+    27.0,
+    17.0
+   ],
+   "GABBRO": [
+    12.941176470588275,
+    47.0,
+    -65.0
+   ],
+   "MUDSTONE": [
+    69.01960784313705,
+    -3.0,
+    13.0
+   ],
+   "GLASSYTUFF": [
+    87.45098039215706,
+    6.0,
+    11.0
+   ],
+   "BENTONITE": [
+    98.82352941176453,
+    -8.0,
+    24.0
+   ],
+   "GRANITE": [
+    53.33333333333337,
+    80.0,
+    67.0
+   ],
+   "PALEOSOL": [
+    69.01960784313745,
+    -3.0,
+    13.0
+   ],
+   "GRANITE WASH": [
+    97.25490196078373,
+    -22.0,
+    95.0
+   ],
+   "BRECCIA": [
+    97.25490196078381,
+    -22.0,
+    95.0
+   ],
+   "CALCARENITE": [
+    91.37254901960827,
+    -48.0,
+    -14.0
+   ],
+   "GYPSUM": [
+    71.37254901960821,
+    38.0,
+    -44.0
+   ],
+   "CALCAREOUSTUFF": [
+    47.45098039215689,
+    78.0,
+    -19.0
+   ],
+   "HALITE": [
+    72.54901960784288,
+    -66.0,
+    61.0
+   ],
+   "CALCILUTITE": [
+    91.37254901960827,
+    -48.0,
+    -14.0
+   ],
+   "CONGLOMERATE": [
+    97.25490196078368,
+    -22.0,
+    95.0
+   ],
+   "CARBONATES": [
+    9.019607843137244,
+    39.0,
+    -55.0
+   ],
+   "CONGL.SAND": [
+    97.25490196078368,
+    -22.0,
+    95.0
+   ],
+   "IGNEOUS (ACIDIC)": [
+    53.333333333333044,
+    80.0,
+    67.0
+   ],
+   "CONGL.SANDSTONE": [
+    97.25490196078378,
+    -22.0,
+    95.0
+   ],
+   "IGNEOUS (BASIC)": [
+    53.333333333333364,
+    80.0,
+    67.0
+   ],
+   "COQUINA": [
+    97.25490196078374,
+    -22.0,
+    95.0
+   ],
+   "INTRUSIVES": [
+    27.058823529411722,
+    68.0,
+    -88.0
+   ],
+   "QUARTZMONZONITE": [
+    60.39215686274495,
+    98.0,
+    -61.0
+   ],
+   "RECRYSTALLIZEDCALC": [
+    59.21568627450966,
+    -15.0,
+    -36.0
+   ],
+   "DIATOMITE": [
+    76.86274509803874,
+    -22.0,
+    -36.0
+   ],
+   "LIMESTONE": [
+    94.1176470588246,
+    -30.0,
+    -9.0
+   ],
+   "RHYOLITE": [
+    46.274509803921525,
+    -52.0,
+    50.0
+   ],
+   "CRYSTALLINE TUFF": [
+    87.45098039215716,
+    6.0,
+    11.0
+   ],
+   "LITHIC TUFF": [
+    87.32368340006175,
+    6.0,
+    11.0
+   ],
+   "SALT": [
+    36.862745098038914,
+    -44.0,
+    42.0
+   ],
+   "CHERT-ARGILL": [
+    46.274509803921646,
+    -52.0,
+    50.0
+   ],
+   "DOLOSTONE": [
+    75.29411764705881,
+    45.0,
+    -10.0
+   ],
+   "MARL-DOLO": [
+    60.392156862745075,
+    98.0,
+    -61.0
+   ],
+   "SAND": [
+    97.25490196078376,
+    -22.0,
+    95.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Rio_Lavaca_1748_Unit_1_241_MUD",
+  "mode": "RGB",
+  "col_w": 70,
+  "col_h": 188004,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 7,
+  "colour_collisions": 6,
+  "swatch_h_med": 18.0,
+  "changes_per_1k_rows": 12.627390906576457,
+  "filled": 0.9758,
+  "rock_labels": [
+   "DOLOMITE",
+   "SHALE GRAY",
+   "TILL",
+   "ANHYDRITE",
+   "CHERT",
+   "SHALE COLORED",
+   "BENTONITE",
+   "GYPSUM",
+   "COAL",
+   "SILTSTONE",
+   "TUFF",
+   "SALT",
+   "MARLSTONE",
+   "SANDSTONE",
+   "IGNEOUS",
+   "SIDERITEorLIMONITE",
+   "CLAYSTONE",
+   "CONGLOMERATE",
+   "METAMORPHIC",
+   "LIMESTONE",
+   "SHALE",
+   "BRECCIA",
+   "CEMENT"
+  ],
+  "share": {
+   "SHALE": 0.5375,
+   "(ambiguous) CLAYSTONE | LIMESTONE": 0.2433,
+   "(colour not in legend)": 0.0781,
+   "SANDSTONE": 0.0582,
+   "(blank)": 0.0242,
+   "SILTSTONE": 0.02265,
+   "(ambiguous) DOLOMITE | GYPSUM": 0.0143,
+   "ANHYDRITE": 0.00565,
+   "(ambiguous) SHALE | SIDERITEorLIMONITE": 0.00415,
+   "(ambiguous) ANHYDRITE | SILTSTONE": 0.003,
+   "(ambiguous) SANDSTONE | SIDERITEorLIMONITE": 0.0027,
+   "(ambiguous) SHALE | TILL": 0.00155,
+   "(ambiguous) SHALE COLORED | TILL": 0.00115,
+   "(ambiguous) LIMESTONE | SHALE": 0.001,
+   "SIDERITEorLIMONITE": 0.0007,
+   "SALT": 0.0007,
+   "(ambiguous) ANHYDRITE | SIDERITEorLIMONITE": 0.0003,
+   "(ambiguous) ANHYDRITE | TILL": 0.0002,
+   "(ambiguous) LIMESTONE | SANDSTONE": 0.00015,
+   "(ambiguous) LIMESTONE | SIDERITEorLIMONITE": 0.00015,
+   "(ambiguous) ANHYDRITE | SHALE": 0.0001,
+   "(ambiguous) SIDERITEorLIMONITE | TILL": 5e-05,
+   "(ambiguous) SANDSTONE | SHALE": 5e-05,
+   "(ambiguous) CONGLOMERATE | SIDERITEorLIMONITE": 5e-05,
+   "(hatch only: colour can't tell)": 5e-05,
+   "(ambiguous) SALT | SHALE": 5e-05
+  },
+  "fit": {
+   "SIDERITEorLIMONITE": {
+    "d1": 16.001499460709994,
+    "margin": 7.843089631328348
+   },
+   "SILTSTONE": {
+    "d1": 3.4280291829176543,
+    "margin": 8.508457828203673
+   },
+   "ANHYDRITE": {
+    "d1": 9.038561033532153,
+    "margin": 12.206680300660768
+   },
+   "SHALE": {
+    "d1": 6.562254090190693,
+    "margin": 16.97322249545931
+   },
+   "SANDSTONE": {
+    "d1": 7.839725054319376,
+    "margin": 18.35908414509998
+   },
+   "SALT": {
+    "d1": 24.27989115230448,
+    "margin": 9.362585986359719
+   }
+  },
+  "swatch_lab": {
+   "DOLOMITE": [
+    35.44976305378022,
+    35.09534368070953,
+    -33.58758314855876
+   ],
+   "TILL": [
+    43.18250377073897,
+    19.23076923076923,
+    24.046153846153846
+   ],
+   "ANHYDRITE": [
+    65.88989441930597,
+    30.557692307692307,
+    63.29326923076923
+   ],
+   "SHALE COLORED": [
+    47.058823529412294,
+    24.0,
+    20.0
+   ],
+   "GYPSUM": [
+    35.47400611620804,
+    35.18807339449541,
+    -33.8348623853211
+   ],
+   "SILTSTONE": [
+    68.39630845185046,
+    39.58941344778255,
+    74.85264663805437
+   ],
+   "TUFF": [
+    49.77968715576121,
+    69.1685393258427,
+    46.00561797752809
+   ],
+   "SALT": [
+    65.14328808446459,
+    -55.07692307692308,
+    33.92307692307692
+   ],
+   "SANDSTONE": [
+    98.82352941176367,
+    -10.0,
+    31.0
+   ],
+   "IGNEOUS": [
+    26.62953938972038,
+    50.70414201183432,
+    14.85207100591716
+   ],
+   "SIDERITEorLIMONITE": [
+    76.1085500030739,
+    11.721003134796238,
+    26.004702194357368
+   ],
+   "CLAYSTONE": [
+    85.0219298245612,
+    -16.776315789473685,
+    -12.641447368421053
+   ],
+   "CONGLOMERATE": [
+    97.8275203886866,
+    -16.079646017699115,
+    56.7787610619469
+   ],
+   "METAMORPHIC": [
+    17.64705882352937,
+    38.0,
+    27.0
+   ],
+   "LIMESTONE": [
+    86.78358299841724,
+    -13.141304347826088,
+    -8.850931677018634
+   ],
+   "SHALE": [
+    55.93388052895545,
+    -5.319767441860465,
+    29.406976744186046
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+  "mode": "RGB",
+  "col_w": 70,
+  "col_h": 114004,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 7,
+  "colour_collisions": 6,
+  "swatch_h_med": 18.0,
+  "changes_per_1k_rows": 4.096347496579067,
+  "filled": 0.9897,
+  "rock_labels": [
+   "DOLOMITE",
+   "SHALE GRAY",
+   "TILL",
+   "ANHYDRITE",
+   "CHERT",
+   "SHALE COLORED",
+   "BENTONITE",
+   "GYPSUM",
+   "COAL",
+   "SILTSTONE",
+   "TUFF",
+   "SALT",
+   "MARLSTONE",
+   "SANDSTONE",
+   "IGNEOUS",
+   "SIDERITEorLIMONITE",
+   "CLAYSTONE",
+   "CONGLOMERATE",
+   "METAMORPHIC",
+   "LIMESTONE",
+   "SHALE",
+   "BRECCIA",
+   "CEMENT"
+  ],
+  "share": {
+   "SHALE": 0.90725,
+   "(ambiguous) CLAYSTONE | LIMESTONE": 0.0653,
+   "(blank)": 0.0103,
+   "TUFF": 0.00925,
+   "(colour not in legend)": 0.0061,
+   "(ambiguous) SHALE | TILL": 0.0011,
+   "(ambiguous) LIMESTONE | SHALE": 0.00025,
+   "(ambiguous) SHALE | SIDERITEorLIMONITE": 0.0002,
+   "(ambiguous) SHALE COLORED | TILL": 0.0002,
+   "(hatch only: colour can't tell)": 5e-05
+  },
+  "fit": {
+   "SHALE": {
+    "d1": 6.518692098306605,
+    "margin": 17.099230143135134
+   },
+   "TUFF": {
+    "d1": 3.491355711627038,
+    "margin": 36.24491705829408
+   }
+  },
+  "swatch_lab": {
+   "DOLOMITE": [
+    35.44976305378022,
+    35.09534368070953,
+    -33.58758314855876
+   ],
+   "TILL": [
+    43.18250377073897,
+    19.23076923076923,
+    24.046153846153846
+   ],
+   "ANHYDRITE": [
+    65.88989441930597,
+    30.557692307692307,
+    63.29326923076923
+   ],
+   "SHALE COLORED": [
+    47.058823529412294,
+    24.0,
+    20.0
+   ],
+   "GYPSUM": [
+    35.47400611620804,
+    35.18807339449541,
+    -33.8348623853211
+   ],
+   "SILTSTONE": [
+    68.39630845185046,
+    39.58941344778255,
+    74.85264663805437
+   ],
+   "TUFF": [
+    49.77968715576121,
+    69.1685393258427,
+    46.00561797752809
+   ],
+   "SALT": [
+    65.14328808446459,
+    -55.07692307692308,
+    33.92307692307692
+   ],
+   "SANDSTONE": [
+    98.82352941176367,
+    -10.0,
+    31.0
+   ],
+   "IGNEOUS": [
+    26.62953938972038,
+    50.70414201183432,
+    14.85207100591716
+   ],
+   "SIDERITEorLIMONITE": [
+    76.1085500030739,
+    11.721003134796238,
+    26.004702194357368
+   ],
+   "CLAYSTONE": [
+    85.0219298245612,
+    -16.776315789473685,
+    -12.641447368421053
+   ],
+   "CONGLOMERATE": [
+    97.8275203886866,
+    -16.079646017699115,
+    56.7787610619469
+   ],
+   "METAMORPHIC": [
+    17.64705882352937,
+    38.0,
+    27.0
+   ],
+   "LIMESTONE": [
+    86.78358299841724,
+    -13.141304347826088,
+    -8.850931677018634
+   ],
+   "SHALE": [
+    55.93388052895545,
+    -5.319767441860465,
+    29.406976744186046
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Rio_Nueces_3744_Unit_1_222_5IN_MUD",
+  "mode": "RGB",
+  "col_w": 70,
+  "col_h": 116504,
+  "n_rock": 23,
+  "n_hatch_only_swatches": 7,
+  "colour_collisions": 6,
+  "swatch_h_med": 18.0,
+  "changes_per_1k_rows": 7.244386458834031,
+  "filled": 0.99055,
+  "rock_labels": [
+   "DOLOMITE",
+   "SHALE GRAY",
+   "TILL",
+   "ANHYDRITE",
+   "CHERT",
+   "SHALE COLORED",
+   "BENTONITE",
+   "GYPSUM",
+   "COAL",
+   "SILTSTONE",
+   "TUFF",
+   "SALT",
+   "MARLSTONE",
+   "SANDSTONE",
+   "IGNEOUS",
+   "SIDERITEorLIMONITE",
+   "CLAYSTONE",
+   "CONGLOMERATE",
+   "METAMORPHIC",
+   "LIMESTONE",
+   "SHALE",
+   "BRECCIA",
+   "CEMENT"
+  ],
+  "share": {
+   "SHALE": 0.81995,
+   "(ambiguous) CLAYSTONE | LIMESTONE": 0.1554,
+   "(colour not in legend)": 0.0113,
+   "(blank)": 0.00945,
+   "(ambiguous) SHALE | TILL": 0.0024,
+   "(ambiguous) LIMESTONE | SHALE": 0.00095,
+   "(ambiguous) SHALE | SIDERITEorLIMONITE": 0.0004,
+   "(hatch only: colour can't tell)": 0.00015
+  },
+  "fit": {
+   "SHALE": {
+    "d1": 6.6255356465587845,
+    "margin": 16.980461045867568
+   }
+  },
+  "swatch_lab": {
+   "DOLOMITE": [
+    35.44976305378022,
+    35.09534368070953,
+    -33.58758314855876
+   ],
+   "TILL": [
+    43.18250377073897,
+    19.23076923076923,
+    24.046153846153846
+   ],
+   "ANHYDRITE": [
+    65.88989441930597,
+    30.557692307692307,
+    63.29326923076923
+   ],
+   "SHALE COLORED": [
+    47.058823529412294,
+    24.0,
+    20.0
+   ],
+   "GYPSUM": [
+    35.47400611620804,
+    35.18807339449541,
+    -33.8348623853211
+   ],
+   "SILTSTONE": [
+    68.39630845185046,
+    39.58941344778255,
+    74.85264663805437
+   ],
+   "TUFF": [
+    49.77968715576121,
+    69.1685393258427,
+    46.00561797752809
+   ],
+   "SALT": [
+    65.14328808446459,
+    -55.07692307692308,
+    33.92307692307692
+   ],
+   "SANDSTONE": [
+    98.82352941176367,
+    -10.0,
+    31.0
+   ],
+   "IGNEOUS": [
+    26.62953938972038,
+    50.70414201183432,
+    14.85207100591716
+   ],
+   "SIDERITEorLIMONITE": [
+    76.1085500030739,
+    11.721003134796238,
+    26.004702194357368
+   ],
+   "CLAYSTONE": [
+    85.0219298245612,
+    -16.776315789473685,
+    -12.641447368421053
+   ],
+   "CONGLOMERATE": [
+    97.8275203886866,
+    -16.079646017699115,
+    56.7787610619469
+   ],
+   "METAMORPHIC": [
+    17.64705882352937,
+    38.0,
+    27.0
+   ],
+   "LIMESTONE": [
+    86.78358299841724,
+    -13.141304347826088,
+    -8.850931677018634
+   ],
+   "SHALE": [
+    55.93388052895545,
+    -5.319767441860465,
+    29.406976744186046
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Rio_San_Gabriel_2829_Unit_2_272_MUD",
+  "mode": "RGB",
+  "col_w": 49,
+  "col_h": 84828,
+  "n_rock": 14,
+  "n_hatch_only_swatches": 1,
+  "colour_collisions": 7,
+  "swatch_h_med": 12.0,
+  "changes_per_1k_rows": 4.302824539067289,
+  "filled": 0.988,
+  "rock_labels": [
+   "DOLO",
+   "ANHYC",
+   ":D HBHHHEHHHRH",
+   "GYPSL",
+   "COAL",
+   "SILTS",
+   "SALT",
+   ":LSTONE",
+   "SAND:",
+   "SIDER",
+   "CLAYS",
+   "E",
+   "SHALE",
+   "ESTONE"
+  ],
+  "share": {
+   "SHALE": 0.917,
+   "CLAYS": 0.04905,
+   "(colour not in legend)": 0.021,
+   "(blank)": 0.012,
+   "(hatch only: colour can't tell)": 0.00075,
+   "(ambiguous) :D HBHHHEHHHRH | CLAYS": 0.0002
+  },
+  "fit": {
+   "SHALE": {
+    "d1": 8.896238257838835,
+    "margin": 28.510483094859556
+   },
+   "CLAYS": {
+    "d1": 17.21416512304401,
+    "margin": 11.952387682908501
+   }
+  },
+  "swatch_lab": {
+   "DOLO": [
+    36.862745098039255,
+    40.0,
+    -45.0
+   ],
+   "ANHYC": [
+    67.05882352941177,
+    43.0,
+    74.0
+   ],
+   ":D HBHHHEHHHRH": [
+    96.07843137254896,
+    -20.0,
+    -6.0
+   ],
+   "GYPSL": [
+    36.86274509803926,
+    40.0,
+    -45.0
+   ],
+   "SILTS": [
+    67.05882352941182,
+    43.0,
+    74.0
+   ],
+   "SALT": [
+    68.23529411764692,
+    -60.0,
+    45.0
+   ],
+   ":LSTONE": [
+    96.07843137254903,
+    -20.0,
+    -6.0
+   ],
+   "SAND:": [
+    98.82352941176445,
+    -10.0,
+    31.0
+   ],
+   "SIDER": [
+    76.47058823529389,
+    18.0,
+    34.0
+   ],
+   "CLAYS": [
+    85.09803921568638,
+    -16.0,
+    -14.0
+   ],
+   "E": [
+    89.80392156862754,
+    1.0,
+    43.0
+   ],
+   "SHALE": [
+    58.03921568627448,
+    -10.0,
+    34.0
+   ],
+   "ESTONE": [
+    96.078431372549,
+    -20.0,
+    -6.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+  "mode": "RGB",
+  "col_w": 60,
+  "col_h": 5282,
+  "n_rock": 2,
+  "n_hatch_only_swatches": 0,
+  "colour_collisions": 0,
+  "swatch_h_med": 31.0,
+  "changes_per_1k_rows": 11.359333585762968,
+  "filled": 0.970844377129875,
+  "rock_labels": [
+   "Clay-shale",
+   "Fine sandstone"
+  ],
+  "share": {
+   "Clay-shale": 0.8046194623248769,
+   "Fine sandstone": 0.16565694812570997,
+   "(blank)": 0.029155622870124954,
+   "(hatch only: colour can't tell)": 0.0005679666792881485
+  },
+  "fit": {
+   "Clay-shale": {
+    "d1": 8.526512829121202e-14,
+    "margin": 65.79195478839996
+   },
+   "Fine sandstone": {
+    "d1": 1.3491573783734272,
+    "margin": 64.34119779738428
+   }
+  },
+  "swatch_lab": {
+   "Clay-shale": [
+    87.84313725490209,
+    -86.0,
+    83.0
+   ],
+   "Fine sandstone": [
+    97.25490196078351,
+    -22.0,
+    95.0
+   ]
+  },
+  "error": null
+ },
+ {
+  "log": "Shell_AC0336_OCS-G-36102_001_ST00BP01_5inchMD_MudLog_9100 ft -27770 ft",
+  "mode": "RGB",
+  "col_w": 50,
+  "col_h": 141194,
+  "n_rock": 7,
+  "n_hatch_only_swatches": 0,
+  "colour_collisions": 5,
+  "swatch_h_med": 24.0,
+  "changes_per_1k_rows": 29.91628539456351,
+  "filled": 0.99265,
+  "rock_labels": [
+   "Clay-S",
+   "Sand-FSS",
+   "Limestone-L",
+   "Others-H",
+   "Others-S",
+   "Sand-MSS",
+   "Sand-MS"
+  ],
+  "share": {
+   "(ambiguous) Others-H | Others-S": 0.68415,
+   "Clay-S": 0.1313,
+   "(colour not in legend)": 0.1228,
+   "(ambiguous) Sand-FSS | Sand-MS": 0.0284,
+   "Limestone-L": 0.026,
+   "(blank)": 0.00735
+  },
+  "fit": {
+   "Clay-S": {
+    "d1": 22.602337392747092,
+    "margin": 39.144857620500076
+   },
+   "Limestone-L": {
+    "d1": 16.1929139336031,
+    "margin": 89.67245388909122
+   }
+  },
+  "swatch_lab": {
+   "Clay-S": [
+    87.7611175189031,
+    -85.94117647058823,
+    82.94444444444444
+   ],
+   "Sand-FSS": [
+    96.8024132730012,
+    -21.810897435897434,
+    94.53846153846153
+   ],
+   "Limestone-L": [
+    91.28729752770712,
+    -47.97826086956522,
+    -14.0
+   ],
+   "Others-H": [
+    53.22389420884641,
+    79.86627906976744,
+    66.92151162790698
+   ],
+   "Others-S": [
+    53.11292400171763,
+    79.76642335766424,
+    66.83576642335767
+   ],
+   "Sand-MSS": [
+    97.09014966933476,
+    -21.920118343195266,
+    94.81952662721893
+   ],
+   "Sand-MS": [
+    96.91056910569075,
+    -21.853658536585368,
+    94.64808362369338
+   ]
+  },
+  "error": null
+ }
+]

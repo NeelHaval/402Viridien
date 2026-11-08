@@ -1,0 +1,578 @@
+{
+  "f01_notebook_full.png": {
+    "caption": "Official notebook visualization of all supplied gold intervals, whole page.",
+    "width_px": 486,
+    "height_px": 1273,
+    "scale": 0.1,
+    "intervals": 17,
+    "source_size": [
+      4864,
+      12050
+    ]
+  },
+  "f02_notebook_zoom.png": {
+    "caption": "Notebook overlay zoom with depths, cluster IDs and gold boundaries.",
+    "width_px": 1180,
+    "height_px": 1434,
+    "scale": 0.5,
+    "crop_box": [
+      1138,
+      4300,
+      3497,
+      7100
+    ],
+    "intervals_visible": 8
+  },
+  "f03_boxes_1.png": {
+    "caption": "Header and first 1.2 page-widths of log, with official annotation boxes.",
+    "width_px": 700,
+    "height_px": 1638,
+    "page": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "scale": 0.14391447368421054,
+    "crop_bottom_y": 10241,
+    "boxes": {
+      "depth_column": [
+        1288,
+        4404,
+        1376,
+        11195
+      ],
+      "interpreted_lithology_column": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "lithology_legend": [
+        1943,
+        1513,
+        3035,
+        2655
+      ]
+    }
+  },
+  "f03_boxes_2.png": {
+    "caption": "Header and first 1.2 page-widths of log, with official annotation boxes.",
+    "width_px": 700,
+    "height_px": 1658,
+    "page": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+    "scale": 0.42347247428917123,
+    "crop_bottom_y": 3527,
+    "boxes": {
+      "depth_column": [
+        415,
+        1543,
+        485,
+        25948
+      ],
+      "interpreted_lithology_column": [
+        1300,
+        1543,
+        1355,
+        25948
+      ],
+      "lithology_legend": [
+        447,
+        498,
+        1213,
+        1147
+      ]
+    }
+  },
+  "f03_boxes_3.png": {
+    "caption": "Header and first 1.2 page-widths of log, with official annotation boxes.",
+    "width_px": 700,
+    "height_px": 1554,
+    "page": "60807402860000_gb506#2_md_mudlog",
+    "scale": 0.4557291666666667,
+    "crop_bottom_y": 3049,
+    "boxes": {
+      "depth_column": [
+        236,
+        1206,
+        316,
+        9623
+      ],
+      "interpreted_lithology_column": [
+        953,
+        1206,
+        1000,
+        9623
+      ],
+      "lithology_legend": [
+        12,
+        596,
+        1525,
+        1003
+      ]
+    }
+  },
+  "f03_boxes_4.png": {
+    "caption": "Header and first 1.2 page-widths of log, with official annotation boxes.",
+    "width_px": 700,
+    "height_px": 4013,
+    "page": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+    "scale": 0.5490196078431373,
+    "crop_bottom_y": 7010,
+    "boxes": {
+      "depth_column": [
+        277,
+        5480,
+        338,
+        43731
+      ],
+      "interpreted_lithology_column": [
+        817,
+        5480,
+        893,
+        43731
+      ],
+      "lithology_legend": [
+        28,
+        2276,
+        1248,
+        2529
+      ]
+    }
+  },
+  "f03_boxes_5.png": {
+    "caption": "Header and first 1.2 page-widths of log, with official annotation boxes.",
+    "width_px": 700,
+    "height_px": 3829,
+    "page": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+    "scale": 0.4117647058823529,
+    "crop_bottom_y": 8901,
+    "boxes": {
+      "depth_column": [
+        280,
+        6861,
+        321,
+        120865
+      ],
+      "interpreted_lithology_column": [
+        661,
+        6861,
+        731,
+        120865
+      ],
+      "lithology_legend": [
+        34,
+        3299,
+        1667,
+        3644
+      ]
+    }
+  },
+  "f03_boxes_6.png": {
+    "caption": "Header and first 1.2 page-widths of log, with official annotation boxes.",
+    "width_px": 700,
+    "height_px": 2131,
+    "page": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+    "scale": 0.4117647058823529,
+    "crop_bottom_y": 4777,
+    "boxes": {
+      "depth_column": [
+        362,
+        2737,
+        395,
+        24270
+      ],
+      "interpreted_lithology_column": [
+        1263,
+        2737,
+        1323,
+        24270
+      ],
+      "lithology_legend": [
+        477,
+        590,
+        1060,
+        1144
+      ]
+    }
+  },
+  "f05_legend_parse_1.png": {
+    "caption": "Existing legend-parser diagnostic copied from read-only cache, with a readable output index appended.",
+    "width_px": 1400,
+    "height_px": 1724,
+    "source": "bakeoff\\out\\_cache\\legend\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.debug.png",
+    "resized": true,
+    "parser_entries": 16
+  },
+  "f05_legend_parse_2.png": {
+    "caption": "Existing legend-parser diagnostic copied from read-only cache, with a readable output index appended.",
+    "width_px": 1400,
+    "height_px": 1646,
+    "source": "bakeoff\\out\\_cache\\legend\\60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872.debug.png",
+    "resized": true,
+    "parser_entries": 30
+  },
+  "f05_legend_parse_3.png": {
+    "caption": "Existing legend-parser diagnostic copied from read-only cache, with a readable output index appended.",
+    "width_px": 1400,
+    "height_px": 656,
+    "source": "bakeoff\\out\\_cache\\legend\\Rio_Nueces_3744_Unit_1_212_MUD_5IN.debug.png",
+    "resized": true,
+    "parser_entries": 23
+  },
+  "f04_labeller_vs_gold.png": {
+    "caption": "Scan, gold, labeller A, and agreement on aligned image rows.",
+    "width_px": 1050,
+    "height_px": 1150,
+    "row_accuracy": 0.7420912420912421,
+    "row_accuracy_all_gold": 0.7420912420912421,
+    "comparison_rows": 6006,
+    "gold_rows": 6006,
+    "total_rows": 6791,
+    "unlabelled_gold_rows": 785,
+    "labeller_coverage_on_gold": 1.0,
+    "gold_boundary_y": [
+      4809,
+      5010,
+      6211,
+      6411,
+      6611,
+      6811,
+      7012,
+      7212,
+      7412,
+      7612,
+      7812,
+      8013,
+      8213,
+      9014,
+      9214,
+      10215
+    ],
+    "labeller_boundary_y": [
+      4804,
+      5004,
+      6204,
+      6504,
+      6604,
+      7204,
+      7604,
+      7804,
+      8004,
+      8304,
+      9004,
+      9304,
+      10204
+    ],
+    "boundary_f1": 0.6896551724137931,
+    "boundary_precision": 0.7692307692307693,
+    "boundary_recall": 0.625,
+    "matched_boundaries": 10,
+    "predicted_boundaries": 13,
+    "gold_boundaries": 16,
+    "tolerance_px": 20
+  },
+  "d_s1_colour_runs.png": {
+    "caption": "Dominant non-black/non-white colour and stable colour-run boundaries on the colour log.",
+    "width_px": 900,
+    "height_px": 1100,
+    "seconds": 0.270178599996143,
+    "page": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+    "top_y": 2343,
+    "bottom_y": 8343,
+    "min_run_rows": 15,
+    "boundary_y": [
+      2645,
+      2690,
+      2953,
+      2999,
+      3411,
+      3431,
+      3584,
+      3615,
+      3648,
+      3670,
+      3740,
+      4067,
+      4333,
+      4408,
+      4457,
+      4505,
+      4635,
+      4700,
+      5852,
+      5896,
+      6887,
+      6931,
+      6989,
+      7028,
+      7065,
+      7088,
+      7201,
+      7228,
+      7377,
+      7519,
+      7647,
+      7713,
+      7803,
+      7875,
+      7895,
+      7939,
+      7987,
+      8011,
+      8039,
+      8068,
+      8089,
+      8142,
+      8270,
+      8298
+    ],
+    "boundary_count": 44,
+    "valid_colour_row_fraction": 0.9996666666666667
+  },
+  "d_s2_features_pelt.png": {
+    "caption": "Ink and directional stroke densities with unsupervised PELT change points.",
+    "width_px": 1280,
+    "height_px": 1000,
+    "seconds": 3.5634815999947023,
+    "smoothing_rows": 40,
+    "penalty": 70.77977914495108,
+    "min_segment_rows": 80,
+    "predicted_boundary_y": [
+      4489,
+      4804,
+      5014,
+      6214,
+      6344,
+      6429,
+      6619,
+      6809
+    ],
+    "gold_boundary_y": [
+      4809,
+      5010,
+      6211,
+      6411,
+      6611,
+      6811
+    ],
+    "boundary_f1": 0.8571428571428571,
+    "boundary_precision": 0.75,
+    "boundary_recall": 1.0,
+    "matched_boundaries": 6,
+    "predicted_boundaries": 8,
+    "gold_boundaries": 6,
+    "tolerance_px": 20
+  },
+  "d_s3_template_ncc.png": {
+    "caption": "Four real legend templates and their normalized cross-correlation responses.",
+    "width_px": 1340,
+    "height_px": 1050,
+    "seconds": 0.7420986999932211,
+    "swatch_boxes": {
+      "Clay": [
+        2278,
+        1876,
+        2432,
+        1978
+      ],
+      "Shale": [
+        2530,
+        1876,
+        2685,
+        1978
+      ],
+      "Siltstone": [
+        2782,
+        1875,
+        2938,
+        1979
+      ],
+      "Sand and Sandstone": [
+        2278,
+        2142,
+        2432,
+        2243
+      ]
+    },
+    "max_ncc": {
+      "Clay": 0.043567001819610596,
+      "Shale": 0.043747324496507645,
+      "Siltstone": 0.07045917958021164,
+      "Sand and Sandstone": 0.08108465373516083
+    },
+    "horizontal_reduction": "maximum",
+    "curve_smoothing_rows": 15
+  },
+  "d_s4_kmeans_viterbi.png": {
+    "caption": "20-row ink/Sobel/LBP tiles clustered into three states, then Viterbi smoothed.",
+    "width_px": 1000,
+    "height_px": 1000,
+    "seconds": 3.9248243999900296,
+    "tile_rows": 20,
+    "tiles": 131,
+    "feature_dimensions": 13,
+    "self_transition": 0.98,
+    "raw_transitions": 48,
+    "smoothed_transitions": 1,
+    "cluster_to_display_label": {
+      "0": "Siltstone",
+      "1": "Shale",
+      "2": "Sandstone"
+    },
+    "raw_row_accuracy": 0.6504033807145602,
+    "viterbi_row_accuracy": 0.768344218209758,
+    "mapping_uses_gold_for_display": true
+  },
+  "d_s5_dinov2.png": {
+    "caption": "Cached DINOv2-small CUDA embeddings: neighbour cosine distance and detected peaks.",
+    "width_px": 1000,
+    "height_px": 1000,
+    "seconds": 3.0604357999982312,
+    "inference_seconds": 2.348201100001461,
+    "gpu_peak_memory_mib": 241.57275390625,
+    "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+    "tiles": 159,
+    "tile_rows": 64,
+    "stride_rows": 16,
+    "embedding_dimensions": 384,
+    "peak_boundary_y": [
+      4513,
+      4609,
+      4689,
+      4849,
+      5025,
+      5105,
+      5201,
+      5313,
+      5457,
+      5537,
+      5681,
+      5777,
+      5905,
+      6017,
+      6193,
+      6305,
+      6433,
+      6545,
+      6625,
+      6721,
+      6801,
+      6945
+    ],
+    "peak_prominence": 0.015,
+    "boundary_f1": 0.28571428571428575,
+    "boundary_precision": 0.18181818181818182,
+    "boundary_recall": 0.6666666666666666,
+    "matched_boundaries": 4,
+    "predicted_boundaries": 22,
+    "gold_boundaries": 6,
+    "tolerance_px": 20
+  },
+  "d_s8_jev.png": {
+    "caption": "Three gold-interval crops, nearest-neighbour upscaled to 512 px, and real JEV probabilities.",
+    "width_px": 1380,
+    "height_px": 1200,
+    "seconds": 0.3193297999969218,
+    "model": "jev-latest",
+    "criteria": {
+      "Limestone": "Rectangular brickwork: horizontal courses and alternating vertical joints.",
+      "Dolomite": "Slanted brickwork: horizontal courses joined by diagonal leaning joints.",
+      "Anhydrite": "Sparse parallel diagonal strokes slanting upward to the right.",
+      "Halite": "Large repeated inverted L or right-angle corner strokes, separated by white space.",
+      "Coal": "Solid black fill, with almost no white space.",
+      "Clay": "Thin short horizontal dashes, staggered in sparse rows with generous white gaps.",
+      "Shale": "Staggered rows of somewhat longer, heavier horizontal dashes; very similar to Clay.",
+      "Siltstone": "Groups of narrow upright vertical strokes or paired vertical dashes on white.",
+      "Silty Sandstone": "Horizontal dash-and-dot pattern: broken horizontal strokes interspersed with dots.",
+      "Sand and Sandstone": "Small dark dots distributed as a regular dense stipple on white."
+    },
+    "calls": [
+      {
+        "truth": "Shale",
+        "crop_box": [
+          3013,
+          4444,
+          3215,
+          4774
+        ],
+        "latency_seconds": 0.3910939000052167,
+        "answer": {
+          "type": "choice",
+          "choice": "Shale",
+          "confidence": 0.84,
+          "probabilities": {
+            "Limestone": 0.01,
+            "Dolomite": 0.0,
+            "Anhydrite": 0.0,
+            "Halite": 0.0,
+            "Coal": 0.0,
+            "Clay": 0.08,
+            "Shale": 0.86,
+            "Siltstone": 0.0,
+            "Silty Sandstone": 0.05,
+            "Sand and Sandstone": 0.0
+          }
+        }
+      },
+      {
+        "truth": "Siltstone",
+        "crop_box": [
+          3013,
+          4844,
+          3215,
+          4975
+        ],
+        "latency_seconds": 0.33196109998971224,
+        "answer": {
+          "type": "choice",
+          "choice": "Siltstone",
+          "confidence": 0.99,
+          "probabilities": {
+            "Limestone": 0.0,
+            "Dolomite": 0.0,
+            "Anhydrite": 0.0,
+            "Halite": 0.0,
+            "Coal": 0.0,
+            "Clay": 0.0,
+            "Shale": 0.01,
+            "Siltstone": 0.99,
+            "Silty Sandstone": 0.0,
+            "Sand and Sandstone": 0.0
+          }
+        }
+      },
+      {
+        "truth": "Sandstone",
+        "crop_box": [
+          3013,
+          6646,
+          3215,
+          6776
+        ],
+        "latency_seconds": 0.3258293000108097,
+        "answer": {
+          "type": "choice",
+          "choice": "Siltstone",
+          "confidence": 0.83,
+          "probabilities": {
+            "Limestone": 0.03,
+            "Dolomite": 0.0,
+            "Anhydrite": 0.0,
+            "Halite": 0.01,
+            "Coal": 0.0,
+            "Clay": 0.02,
+            "Shale": 0.06,
+            "Siltstone": 0.85,
+            "Silty Sandstone": 0.02,
+            "Sand and Sandstone": 0.01
+          }
+        }
+      }
+    ],
+    "correct": 2,
+    "call_count": 3,
+    "total_api_seconds": 1.0488843000057386,
+    "cached_responses": true,
+    "crop_resize": [
+      512,
+      512
+    ],
+    "resize_method": "NEAREST"
+  }
+}

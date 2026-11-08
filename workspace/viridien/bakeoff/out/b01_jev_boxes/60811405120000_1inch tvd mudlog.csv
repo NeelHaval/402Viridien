@@ -1,0 +1,14 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+1501,1741,Clay/Shale,0,14852.8,14972.6
+1741,1981,Sandstone,3,14972.6,15092.4
+1981,2181,Sandy Clay/Shale,1,15092.4,15192.3
+2181,2221,Conglomerate,4,15192.3,15212.2
+2221,2341,Sandstone,3,15212.2,15272.2
+2341,2381,Sandy Clay/Shale,1,15272.2,15292.1
+2381,2581,Clay/Shale,0,15292.1,15392.0
+2581,2781,Sandy Clay/Shale,1,15392.0,15491.8
+2781,3301,Clay/Shale,0,15491.8,15751.4
+3301,3701,Sandstone,3,15751.4,15951.1
+3701,4941,Clay/Shale,0,15951.1,16570.2
+4941,5021,Sandy Clay/Shale,1,16570.2,16610.1
+5021,7501,Clay/Shale,0,16610.1,17848.2

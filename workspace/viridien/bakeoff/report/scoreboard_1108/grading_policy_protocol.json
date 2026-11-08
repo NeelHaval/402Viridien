@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-08T08:18:45.350608+00:00",
+  "owner_policy": "clay_shale_equivalent_v1",
+  "equivalent_labels": [
+    "Clay",
+    "Shale",
+    "Clay/Shale",
+    "Clay-Shale"
+  ],
+  "rule": "Symmetric full label credit; preserve raw captions, every contact, depths and cluster IDs.",
+  "strict_reference": "Unchanged harness.score.score; original metric scalars retained.",
+  "local_proxy": "Per-window row accuracy times boundary F1; equal-log mean of products.",
+  "official_formula_verified": false,
+  "official_equivalence_verified": false,
+  "official_criteria": "Correctness and efficiency; generalisation, automation, limitations and resources.",
+  "astra_scope": "The two completed reviews predate this owner-configured grading policy. No new review was run.",
+  "challenge_source_sha256": {
+    "viridien_challenge\\Viridien_HTB_challenge\\Viridien_HackTheBurgh_Presentation.pptx": "be518bed2fe2a061553d4f911d7a3dd646036d26c491534109f3ebdfd64d4e29",
+    "viridien_challenge\\Viridien_HTB_challenge\\hack27\\HTB_Challenge_Slides.pptx": "343ac2bf2e6f1d018bf2b9f287df0fe2ddf634573cd1c8b28cefe37d8a6505e8",
+    "viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\example_notebook.ipynb": "d7106ae4658d7d508fcabd2a98cbd88354231e18e5340e79ff285e6d9b99379a"
+  },
+  "grading_source_sha256": "637f91e7752d22fd9b16aaf9b2faa7c9b505a3e26a2486df486eb8b45b4a8df6",
+  "shared_scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+  "report_freeze_sha256": "7ff9c6912252055f164a83666f395c386aa126c093c50000c3a784258028e022",
+  "raw_outputs_modified": false,
+  "inference_rerun_for_policy": false
+}

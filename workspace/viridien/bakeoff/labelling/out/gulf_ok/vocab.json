@@ -1,0 +1,206 @@
+{
+  "log": "60817410140000_mc822#10 1-1200 mud log",
+  "entries": [
+    {
+      "label": "Clay-shale",
+      "box": [
+        26,
+        21,
+        171,
+        63
+      ],
+      "pattern": "Grey with scattered short black horizontal dashes."
+    },
+    {
+      "label": "Slaty shale",
+      "box": [
+        337,
+        21,
+        483,
+        63
+      ],
+      "pattern": "Grey with dense parallel black horizontal lines."
+    },
+    {
+      "label": "Marl",
+      "box": [
+        647,
+        21,
+        752,
+        63
+      ],
+      "pattern": "Cyan with staggered short black horizontal dashes."
+    },
+    {
+      "label": "Silty clay-shale",
+      "box": [
+        958,
+        21,
+        1131,
+        63
+      ],
+      "pattern": "Grey with horizontal black bands and rows of small vertical dashes."
+    },
+    {
+      "label": "Sandy clay-shale",
+      "box": [
+        1269,
+        21,
+        1457,
+        63
+      ],
+      "pattern": "Grey with horizontal black dashes and scattered black dots."
+    },
+    {
+      "label": "Siltstone",
+      "box": [
+        26,
+        84,
+        154,
+        126
+      ],
+      "pattern": "Yellow with dense small black dots and short vertical dashes."
+    },
+    {
+      "label": "Fine sandstone",
+      "box": [
+        337,
+        84,
+        512,
+        126
+      ],
+      "pattern": "Yellow with regularly spaced small black dots."
+    },
+    {
+      "label": "Medium sandstone",
+      "box": [
+        647,
+        84,
+        847,
+        126
+      ],
+      "pattern": "Yellow with staggered short black horizontal dashes."
+    },
+    {
+      "label": "Coarse sandstone",
+      "box": [
+        958,
+        84,
+        1154,
+        126
+      ],
+      "pattern": "Yellow with staggered large black square dots."
+    },
+    {
+      "label": "Conglomerate",
+      "box": [
+        1269,
+        84,
+        1438,
+        126
+      ],
+      "pattern": "Yellow with large irregular black outlined pebbles."
+    },
+    {
+      "label": "Limestone",
+      "box": [
+        26,
+        147,
+        172,
+        189
+      ],
+      "pattern": "Cyan with black rectangular brickwork."
+    },
+    {
+      "label": "Chalk",
+      "box": [
+        337,
+        147,
+        450,
+        189
+      ],
+      "pattern": "Cyan with sparse black vertical and horizontal T-shaped marks."
+    },
+    {
+      "label": "Dolomitic limestone",
+      "box": [
+        647,
+        147,
+        853,
+        189
+      ],
+      "pattern": "Cyan with black brickwork and short diagonal dashed marks."
+    },
+    {
+      "label": "Dolomite",
+      "box": [
+        958,
+        147,
+        1089,
+        189
+      ],
+      "pattern": "Cyan with horizontal black lines and diagonal dashed marks."
+    },
+    {
+      "label": "Coal-lignite",
+      "box": [
+        1269,
+        147,
+        1418,
+        189
+      ],
+      "pattern": "Solid black."
+    },
+    {
+      "label": "Halite",
+      "box": [
+        26,
+        210,
+        138,
+        252
+      ],
+      "pattern": "Violet with scattered black right-angle marks."
+    },
+    {
+      "label": "Anhydrite",
+      "box": [
+        337,
+        210,
+        476,
+        252
+      ],
+      "pattern": "Magenta with dense intersecting black diagonal marks."
+    },
+    {
+      "label": "Gypsum",
+      "box": [
+        647,
+        210,
+        779,
+        252
+      ],
+      "pattern": "Magenta with scattered small black V-shaped marks."
+    },
+    {
+      "label": "Volcanic rock",
+      "box": [
+        958,
+        210,
+        1121,
+        252
+      ],
+      "pattern": "Orange with scattered black angular marks and dots."
+    }
+  ],
+  "image_size": [
+    1550,
+    512
+  ],
+  "source_box": [
+    2,
+    594,
+    1532,
+    1000
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

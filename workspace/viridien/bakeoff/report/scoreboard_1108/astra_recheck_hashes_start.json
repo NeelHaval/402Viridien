@@ -1,0 +1,82 @@
+{
+  "strategies/s23_v4dino_identity.py": {
+    "sha256": "9ea876ef8761b0bf6399e61947df473e33d0cfc61dac9a1b2fe856f6c394bdbb",
+    "lines": 62
+  },
+  "strategies/test_s23_identity.py": {
+    "sha256": "f331b23fc86c09ac926cd0c2c25da27c5796db2de01d6cd313abcd350aa7a705",
+    "lines": 93
+  },
+  "report/scoreboard_1108/CLAY_SHALE_FIX.md": {
+    "sha256": "8a6be0dc57227fd15227d82340f9dfb8db0b5164a89e29ed4e5b5fe95fb93370",
+    "lines": 29
+  },
+  "report/scoreboard_1108/variant_protocol_addendum.json": {
+    "sha256": "513bf7002db4fefd4cb87e842cde8c7e43f599f02328fec773e3118f0810d42c",
+    "lines": 16
+  },
+  "report/scoreboard_1108/score_all.py": {
+    "sha256": "26e32c403a3d9677bed4906142619d8456b942d6469ed17c289120a4f230971e",
+    "lines": 310
+  },
+  "report/scoreboard_1108/test_scoreboard.py": {
+    "sha256": "383c01ffec4d0088b717fdab2dc8362a092a4c71a73f92ce2944325e73769789",
+    "lines": 44
+  },
+  "report/scoreboard_1108/build_report.py": {
+    "sha256": "674b04b160483c5bc6aacd632ba955a71a8f156cdfe694e2fad7153d74727e79",
+    "lines": 324
+  },
+  "report/scoreboard_1108/report_inputs.py": {
+    "sha256": "ccfa9a023421b398007b64183667b338f4209c62af26a72ea6ac39628df6a28f",
+    "lines": 81
+  },
+  "report/scoreboard_1108/reviewed_dev_wells.json": {
+    "sha256": "b97044986328f384f9ef3ced149d16c12cd4fce42f5fb4c81f216a34dfd28e80",
+    "lines": 58
+  },
+  "report/scoreboard_1108/test_report.py": {
+    "sha256": "f24a11772a1863908e73e10c0c561e246e261281acc4a84b9c8d93c4312307d6",
+    "lines": 93
+  },
+  "report/scoreboard_1108/test_report_gate.py": {
+    "sha256": "36c99425a42cce64e5e7cf157f897e35de549628e425366d0d1bd7bab656ef1c",
+    "lines": 20
+  },
+  "report/scoreboard_1108/audit_saved_predictions.py": {
+    "sha256": "4799f4694ec61610cb0a68dde4ff7b2109c3b11ef46733dd4ad765118b365dad",
+    "lines": 134
+  },
+  "report/scoreboard_1108/audit_run_integrity.py": {
+    "sha256": "31b599a206675d58d73801522c27f38b194556b575c63d0b77f8e9cfa807098b",
+    "lines": 43
+  },
+  "report/scoreboard_1108/migrate_manifest.py": {
+    "sha256": "1decaddff183d39cbca9d2311b328080b9d398098defdc6197e232c375fbe8e8",
+    "lines": 23
+  },
+  "report/scoreboard_1108/prepare_variant.py": {
+    "sha256": "181f2c0fd6937105cd7f849148e9ea099cd1f2bdb2d342d2bcc80e0d7db394cf",
+    "lines": 17
+  },
+  "report/scoreboard_1108/evaluation_protocol.json": {
+    "sha256": "3772fe30c89615d5af5aded2e1f968ff79eb384ffe482a2dc1565fd953827463",
+    "lines": 26
+  },
+  "report/scoreboard_1108/manifest_1108.json": {
+    "sha256": "b352bde5f9b34aa86d875d1c75aa882b4cfc24bbb5fa0213afef53ed7f784205",
+    "lines": 2410
+  },
+  "report/scoreboard_1108/report_source_freeze.json": {
+    "sha256": "eedde40a8023b42ab5a4b26e38b1d1a41b7c0f0352e2359a090b9f90a0aa2d8e",
+    "lines": 6
+  },
+  "report/scoreboard_1108/astra_review.md": {
+    "sha256": "04c670017f7df407776bcef68905ddde320333c2c5e026483a30f57067f61099",
+    "lines": 135
+  },
+  "report/scoreboard_1108/review_resolution.md": {
+    "sha256": "0372de3f7741974491bb4315b28b83133add0b825117867631ebe12cdb17b9c0",
+    "lines": 29
+  }
+}

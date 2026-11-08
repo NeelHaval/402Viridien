@@ -1,0 +1,28 @@
+sandbox=workspace-write
+You are implementing ONE strategy in a lithology-extraction bake-off. Working folder:
+C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md first, then the harness package (harness/*.py) to learn the real API (it may differ slightly from
+SPEC.md; the code wins). Write ONLY your strategy file(s) named below plus notes/<your strategy id>.md. Do not edit
+harness/, SPEC.md, eval_set.json or other strategies, and never read anything under gt/ except through the
+runner's printed metrics.
+Develop and test with the runner:
+  python -m harness.run --strategy <id> --set synthetic        (exact labels, use freely for tuning)
+  python -m harness.run --strategy <id> --set eval --gt gold     (log06 only)
+Silver labels may appear later under gt/silver; you may run --gt silver/A or --gt silver/B to see aggregate
+scores, but do NOT tune on them per log (no log-name special cases, no per-log constants).
+Look at your own output PNGs in out/<id>/ with your image viewer and fix visible failure modes. Respect the
+runtime budget in SPEC.md. Return stage images for the pipeline view (3-6 stages that explain your method).
+When done, run the full eval once more and reply with: the metrics table it printed (per log + mean), seconds per
+window, what worked, what failed (with the log names), and ideas you did not have time for. Keep it under 400 words.
+
+YOUR STRATEGY: id=s11_fft_legend, file strategies/s11_fft_legend.py
+S11 FFT hatch + Lab swatch matching with an unknown option (CPU only), from research/SYNTHESIS.md (rank 2; read it and
+../research/r3_symbol_matching.md and ../research/r6_welllog_prior.md first). Plain normalised cross-correlation of legend swatches
+scored only 0.04-0.08 on log06, because the column's hatch is phase-shifted and drawn at a slightly different scale
+from the swatch. Make naming phase-invariant: for each is_lithology swatch (inner area) and for windows inside each interval,
+compute a Hann-windowed 2-D FFT magnitude of the grey image, pooled into radial x angle bins (scale-normalised by the dominant
+period, try small scale jitter), plus ink fraction and, for colour logs, a Lab colour histogram (suppress colour on 1-bit logs).
+Name each interval by the median over its windows of a weighted distance; expose the top-2 margin and return "Unknown" below a
+margin tuned on synthetic. Boundaries: import segment() from strategies.s02_features_pelt if it exists (it is being written
+in parallel; re-check later), else a minimal internal ink/Sobel + ruptures fallback. Cluster id = assigned swatch (Unknowns grouped
+by feature distance). Stage images: swatch FFT spectra, interval spectra, the distance matrix, final labels.

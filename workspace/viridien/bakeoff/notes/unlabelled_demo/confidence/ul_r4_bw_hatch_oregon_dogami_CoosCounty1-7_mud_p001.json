@@ -1,0 +1,5111 @@
+[
+  {
+    "top_y": 1050,
+    "bottom_y": 1058,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28675001859664917,
+      "match_margin": 0.1936299204826355,
+      "boundary_probability": 0.4842398166656494
+    }
+  },
+  {
+    "top_y": 1058,
+    "bottom_y": 1234,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9547857446025829,
+      "match_margin": 0.04321607080649359,
+      "boundary_probability": 0.9435110688209534
+    }
+  },
+  {
+    "top_y": 1234,
+    "bottom_y": 1414,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9547857446025829,
+      "match_margin": 0.04321607080649359,
+      "boundary_probability": 0.9258725643157959
+    }
+  },
+  {
+    "top_y": 1414,
+    "bottom_y": 1450,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9547857446025829,
+      "match_margin": 0.04321607080649359,
+      "boundary_probability": 0.8686436414718628
+    }
+  },
+  {
+    "top_y": 1450,
+    "bottom_y": 1495,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7255359914567735,
+      "match_margin": 0.1832795500755311,
+      "boundary_probability": 0.44088906049728394
+    }
+  },
+  {
+    "top_y": 1495,
+    "bottom_y": 1516,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6119799613952637,
+      "match_margin": 0.2644042372703552,
+      "boundary_probability": 0.5857160091400146
+    }
+  },
+  {
+    "top_y": 1516,
+    "bottom_y": 1590,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7931989423326544,
+      "match_margin": 0.0950561399395401,
+      "boundary_probability": 0.8928384184837341
+    }
+  },
+  {
+    "top_y": 1590,
+    "bottom_y": 1606,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8624897003173828,
+      "match_margin": 0.12159860134124756,
+      "boundary_probability": 0.9358077049255371
+    }
+  },
+  {
+    "top_y": 1606,
+    "bottom_y": 1749,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7126123217435983,
+      "match_margin": 0.14243333614789522,
+      "boundary_probability": 0.9015836715698242
+    }
+  },
+  {
+    "top_y": 1749,
+    "bottom_y": 1767,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6508222818374634,
+      "match_margin": 0.07459425926208496,
+      "boundary_probability": 0.7064887285232544
+    }
+  },
+  {
+    "top_y": 1767,
+    "bottom_y": 1784,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6551617980003357,
+      "match_margin": 0.2889643907546997,
+      "boundary_probability": 0.735666036605835
+    }
+  },
+  {
+    "top_y": 1784,
+    "bottom_y": 1820,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4818630814552307,
+      "match_margin": 0.3904274106025696,
+      "boundary_probability": 0.9109788537025452
+    }
+  },
+  {
+    "top_y": 1820,
+    "bottom_y": 1864,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7393741607666016,
+      "match_margin": 0.011900663375854492,
+      "boundary_probability": 0.5727112293243408
+    }
+  },
+  {
+    "top_y": 1864,
+    "bottom_y": 1953,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8306370826249712,
+      "match_margin": 0.10061557306332536,
+      "boundary_probability": 0.680388331413269
+    }
+  },
+  {
+    "top_y": 1953,
+    "bottom_y": 1969,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7542179822921753,
+      "match_margin": 0.23685115575790405,
+      "boundary_probability": 0.9292703866958618
+    }
+  },
+  {
+    "top_y": 1969,
+    "bottom_y": 1988,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5369188189506531,
+      "match_margin": 0.34799760580062866,
+      "boundary_probability": 0.6946783065795898
+    }
+  },
+  {
+    "top_y": 1988,
+    "bottom_y": 2041,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7756221294403076,
+      "match_margin": 0.010227084159851074,
+      "boundary_probability": 0.6279724836349487
+    }
+  },
+  {
+    "top_y": 2041,
+    "bottom_y": 2059,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7476350665092468,
+      "match_margin": 0.07425057888031006,
+      "boundary_probability": 0.40712425112724304
+    }
+  },
+  {
+    "top_y": 2059,
+    "bottom_y": 2141,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.746562272718508,
+      "match_margin": 0.10875188896100818,
+      "boundary_probability": 0.5064157247543335
+    }
+  },
+  {
+    "top_y": 2141,
+    "bottom_y": 2322,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.746562272718508,
+      "match_margin": 0.10875188896100818,
+      "boundary_probability": 0.7734787464141846
+    }
+  },
+  {
+    "top_y": 2322,
+    "bottom_y": 2497,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.746562272718508,
+      "match_margin": 0.10875188896100818,
+      "boundary_probability": 0.5586904287338257
+    }
+  },
+  {
+    "top_y": 2497,
+    "bottom_y": 2515,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31592559814453125,
+      "match_margin": 0.6564069390296936,
+      "boundary_probability": 0.8541186451911926
+    }
+  },
+  {
+    "top_y": 2515,
+    "bottom_y": 2608,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5268285274505615,
+      "match_margin": 0.3082538843154907,
+      "boundary_probability": 0.41170310974121094
+    }
+  },
+  {
+    "top_y": 2608,
+    "bottom_y": 2679,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.378667112807153,
+      "match_margin": 0.40929757877134937,
+      "boundary_probability": 0.4966149926185608
+    }
+  },
+  {
+    "top_y": 2679,
+    "bottom_y": 2698,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22720438241958618,
+      "match_margin": 0.6409386992454529,
+      "boundary_probability": 0.9171438217163086
+    }
+  },
+  {
+    "top_y": 2698,
+    "bottom_y": 2725,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14284592866897583,
+      "match_margin": 0.6855578422546387,
+      "boundary_probability": 0.42901283502578735
+    }
+  },
+  {
+    "top_y": 2725,
+    "bottom_y": 2756,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28182166814804077,
+      "match_margin": 0.4669409394264221,
+      "boundary_probability": 0.538870096206665
+    }
+  },
+  {
+    "top_y": 2756,
+    "bottom_y": 2794,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24033862979788528,
+      "match_margin": 0.6743890956828469,
+      "boundary_probability": 0.7618553638458252
+    }
+  },
+  {
+    "top_y": 2794,
+    "bottom_y": 2924,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21845805369890653,
+      "match_margin": 0.21335998956973734,
+      "boundary_probability": 0.17504067718982697
+    }
+  },
+  {
+    "top_y": 2924,
+    "bottom_y": 3045,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17267573768632455,
+      "match_margin": 0.7052593437726038,
+      "boundary_probability": 0.8807549476623535
+    }
+  },
+  {
+    "top_y": 3045,
+    "bottom_y": 3152,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17267573768632455,
+      "match_margin": 0.7052593437726038,
+      "boundary_probability": 0.4221567213535309
+    }
+  },
+  {
+    "top_y": 3152,
+    "bottom_y": 3171,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5313824415206909,
+      "match_margin": 0.06500130891799927,
+      "boundary_probability": 0.497639924287796
+    }
+  },
+  {
+    "top_y": 3171,
+    "bottom_y": 3225,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4849843780199687,
+      "match_margin": 0.27855602900187176,
+      "boundary_probability": 0.6664950847625732
+    }
+  },
+  {
+    "top_y": 3225,
+    "bottom_y": 3243,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.71748948097229,
+      "match_margin": 0.03043508529663086,
+      "boundary_probability": 0.6990550756454468
+    }
+  },
+  {
+    "top_y": 3243,
+    "bottom_y": 3262,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7252925634384155,
+      "match_margin": 0.024358808994293213,
+      "boundary_probability": 0.6546372175216675
+    }
+  },
+  {
+    "top_y": 3262,
+    "bottom_y": 3280,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17961537837982178,
+      "match_margin": 0.5159927010536194,
+      "boundary_probability": 0.5033445954322815
+    }
+  },
+  {
+    "top_y": 3280,
+    "bottom_y": 3299,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4404159188270569,
+      "match_margin": 0.28964221477508545,
+      "boundary_probability": 0.6005945801734924
+    }
+  },
+  {
+    "top_y": 3299,
+    "bottom_y": 3316,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18937993049621582,
+      "match_margin": 0.603427529335022,
+      "boundary_probability": 0.4692736268043518
+    }
+  },
+  {
+    "top_y": 3316,
+    "bottom_y": 3361,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1350889801979065,
+      "match_margin": 0.814342200756073,
+      "boundary_probability": 0.7164431810379028
+    }
+  },
+  {
+    "top_y": 3361,
+    "bottom_y": 3427,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.48440335645820154,
+      "match_margin": 0.23892996166691638,
+      "boundary_probability": 0.48641830682754517
+    }
+  },
+  {
+    "top_y": 3427,
+    "bottom_y": 3448,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28290748596191406,
+      "match_margin": 0.5609303116798401,
+      "boundary_probability": 0.5240769386291504
+    }
+  },
+  {
+    "top_y": 3448,
+    "bottom_y": 3501,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38767548327176077,
+      "match_margin": 0.38674687102155864,
+      "boundary_probability": 0.6399624347686768
+    }
+  },
+  {
+    "top_y": 3501,
+    "bottom_y": 3538,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4160389304161072,
+      "match_margin": 0.0012467503547668457,
+      "boundary_probability": 0.8905494809150696
+    }
+  },
+  {
+    "top_y": 3538,
+    "bottom_y": 3586,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34293721119562787,
+      "match_margin": 0.5574476917584736,
+      "boundary_probability": 0.9521235227584839
+    }
+  },
+  {
+    "top_y": 3586,
+    "bottom_y": 3609,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6697086095809937,
+      "match_margin": 0.29650044441223145,
+      "boundary_probability": 0.949639618396759
+    }
+  },
+  {
+    "top_y": 3609,
+    "bottom_y": 3642,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36196041107177734,
+      "match_margin": 0.3217012882232666,
+      "boundary_probability": 0.8299878835678101
+    }
+  },
+  {
+    "top_y": 3642,
+    "bottom_y": 3660,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6888288259506226,
+      "match_margin": 0.1529008150100708,
+      "boundary_probability": 0.8852554559707642
+    }
+  },
+  {
+    "top_y": 3660,
+    "bottom_y": 3677,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42258721590042114,
+      "match_margin": 0.3059861660003662,
+      "boundary_probability": 0.7582360506057739
+    }
+  },
+  {
+    "top_y": 3677,
+    "bottom_y": 3772,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.39441706313461555,
+      "match_margin": 0.41776140791470884,
+      "boundary_probability": 0.9134693145751953
+    }
+  },
+  {
+    "top_y": 3772,
+    "bottom_y": 3860,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.39441706313461555,
+      "match_margin": 0.41776140791470884,
+      "boundary_probability": 0.6510101556777954
+    }
+  },
+  {
+    "top_y": 3860,
+    "bottom_y": 3953,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2374365787420954,
+      "match_margin": 0.5594392200665814,
+      "boundary_probability": 0.7600817084312439
+    }
+  },
+  {
+    "top_y": 3953,
+    "bottom_y": 3972,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2374365787420954,
+      "match_margin": 0.5594392200665814,
+      "boundary_probability": 0.48357272148132324
+    }
+  },
+  {
+    "top_y": 3972,
+    "bottom_y": 4316,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45761975793190945,
+      "match_margin": 0.40138396004467836,
+      "boundary_probability": 0.890035092830658
+    }
+  },
+  {
+    "top_y": 4316,
+    "bottom_y": 4620,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45761975793190945,
+      "match_margin": 0.40138396004467836,
+      "boundary_probability": 0.8468805551528931
+    }
+  },
+  {
+    "top_y": 4620,
+    "bottom_y": 4638,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.29643481969833374,
+      "match_margin": 0.628765344619751,
+      "boundary_probability": 0.9263542294502258
+    }
+  },
+  {
+    "top_y": 4638,
+    "bottom_y": 4714,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2523937225341797,
+      "match_margin": 0.3960039040872029,
+      "boundary_probability": 0.8822702169418335
+    }
+  },
+  {
+    "top_y": 4714,
+    "bottom_y": 4750,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2523937225341797,
+      "match_margin": 0.3960039040872029,
+      "boundary_probability": 0.07311973720788956
+    }
+  },
+  {
+    "top_y": 4750,
+    "bottom_y": 4802,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2885253383563115,
+      "match_margin": 0.4040315793110774,
+      "boundary_probability": 0.838182806968689
+    }
+  },
+  {
+    "top_y": 4802,
+    "bottom_y": 4857,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5016690904443915,
+      "match_margin": 0.12785492376847696,
+      "boundary_probability": 0.6101548671722412
+    }
+  },
+  {
+    "top_y": 4857,
+    "bottom_y": 4874,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5693852305412292,
+      "match_margin": 0.11423242092132568,
+      "boundary_probability": 0.758441686630249
+    }
+  },
+  {
+    "top_y": 4874,
+    "bottom_y": 4892,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4412783980369568,
+      "match_margin": 0.22489851713180542,
+      "boundary_probability": 0.5172106027603149
+    }
+  },
+  {
+    "top_y": 4892,
+    "bottom_y": 4911,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18560194969177246,
+      "match_margin": 0.7245630621910095,
+      "boundary_probability": 0.8703025579452515
+    }
+  },
+  {
+    "top_y": 4911,
+    "bottom_y": 4927,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.48567891120910645,
+      "match_margin": 0.3207697868347168,
+      "boundary_probability": 0.8061970472335815
+    }
+  },
+  {
+    "top_y": 4927,
+    "bottom_y": 5564,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6248497491354471,
+      "match_margin": 0.27881164659323454,
+      "boundary_probability": 0.41860780119895935
+    }
+  },
+  {
+    "top_y": 5564,
+    "bottom_y": 5580,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7207508087158203,
+      "match_margin": 0.23050779104232788,
+      "boundary_probability": 0.43201038241386414
+    }
+  },
+  {
+    "top_y": 5580,
+    "bottom_y": 5603,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6181421279907227,
+      "match_margin": 0.2675946354866028,
+      "boundary_probability": 0.8349674344062805
+    }
+  },
+  {
+    "top_y": 5603,
+    "bottom_y": 5620,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7421367168426514,
+      "match_margin": 0.2189536690711975,
+      "boundary_probability": 0.7014675736427307
+    }
+  },
+  {
+    "top_y": 5620,
+    "bottom_y": 5728,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7441178322942169,
+      "match_margin": 0.18197587794727743,
+      "boundary_probability": 0.6215083003044128
+    }
+  },
+  {
+    "top_y": 5728,
+    "bottom_y": 5738,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2887074947357178,
+      "match_margin": 0.6401932239532471,
+      "boundary_probability": 0.7343810200691223
+    }
+  },
+  {
+    "top_y": 5738,
+    "bottom_y": 5747,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5916520953178406,
+      "match_margin": 0.05754828453063965,
+      "boundary_probability": 0.2913638651371002
+    }
+  },
+  {
+    "top_y": 5747,
+    "bottom_y": 5820,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47211606698493436,
+      "match_margin": 0.2550683176680787,
+      "boundary_probability": 0.880961537361145
+    }
+  },
+  {
+    "top_y": 5820,
+    "bottom_y": 5842,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6035498380661011,
+      "match_margin": 0.09460151195526123,
+      "boundary_probability": 0.868817925453186
+    }
+  },
+  {
+    "top_y": 5842,
+    "bottom_y": 5896,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49096570412317914,
+      "match_margin": 0.351543923219045,
+      "boundary_probability": 0.9337290525436401
+    }
+  },
+  {
+    "top_y": 5896,
+    "bottom_y": 5945,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45238572359085083,
+      "match_margin": 0.18773704767227173,
+      "boundary_probability": 0.8898622989654541
+    }
+  },
+  {
+    "top_y": 5945,
+    "bottom_y": 5962,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.37570899724960327,
+      "match_margin": 0.3444586396217346,
+      "boundary_probability": 0.9192787408828735
+    }
+  },
+  {
+    "top_y": 5962,
+    "bottom_y": 5982,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40956711769104004,
+      "match_margin": 0.4267771244049072,
+      "boundary_probability": 0.8215027451515198
+    }
+  },
+  {
+    "top_y": 5982,
+    "bottom_y": 6037,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5599316358566284,
+      "match_margin": 0.05653369426727295,
+      "boundary_probability": 0.9110007286071777
+    }
+  },
+  {
+    "top_y": 6037,
+    "bottom_y": 6094,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5225132682867217,
+      "match_margin": 0.09328586281391615,
+      "boundary_probability": 0.7368466258049011
+    }
+  },
+  {
+    "top_y": 6094,
+    "bottom_y": 6292,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4164484700169226,
+      "match_margin": 0.20250999265246922,
+      "boundary_probability": 0.5229916572570801
+    }
+  },
+  {
+    "top_y": 6292,
+    "bottom_y": 6311,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.594340443611145,
+      "match_margin": 0.024121880531311035,
+      "boundary_probability": 0.8668065071105957
+    }
+  },
+  {
+    "top_y": 6311,
+    "bottom_y": 6327,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.46775007247924805,
+      "match_margin": 0.3316460847854614,
+      "boundary_probability": 0.8222962617874146
+    }
+  },
+  {
+    "top_y": 6327,
+    "bottom_y": 6344,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2887009382247925,
+      "match_margin": 0.4982544183731079,
+      "boundary_probability": 0.7138849496841431
+    }
+  },
+  {
+    "top_y": 6344,
+    "bottom_y": 6399,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34310725927352903,
+      "match_margin": 0.20059474706649782,
+      "boundary_probability": 0.8733925819396973
+    }
+  },
+  {
+    "top_y": 6399,
+    "bottom_y": 6436,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7288234362731109,
+      "match_margin": 0.054230541796297715,
+      "boundary_probability": 0.8818567991256714
+    }
+  },
+  {
+    "top_y": 6436,
+    "bottom_y": 6497,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7006446386947006,
+      "match_margin": 0.2281934042445949,
+      "boundary_probability": 0.8386996388435364
+    }
+  },
+  {
+    "top_y": 6497,
+    "bottom_y": 6529,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7190466523170471,
+      "match_margin": 0.23004776239395142,
+      "boundary_probability": 0.8669619560241699
+    }
+  },
+  {
+    "top_y": 6529,
+    "bottom_y": 6639,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.48334102142940866,
+      "match_margin": 0.4487603198398244,
+      "boundary_probability": 0.9127410054206848
+    }
+  },
+  {
+    "top_y": 6639,
+    "bottom_y": 6667,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5858865976333618,
+      "match_margin": 0.06929373741149902,
+      "boundary_probability": 0.8416560292243958
+    }
+  },
+  {
+    "top_y": 6667,
+    "bottom_y": 6688,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47637730836868286,
+      "match_margin": 0.5004323720932007,
+      "boundary_probability": 0.9468369483947754
+    }
+  },
+  {
+    "top_y": 6688,
+    "bottom_y": 6710,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5972106456756592,
+      "match_margin": 0.10507875680923462,
+      "boundary_probability": 0.8867853879928589
+    }
+  },
+  {
+    "top_y": 6710,
+    "bottom_y": 6763,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6816666576097596,
+      "match_margin": 0.21286041669125821,
+      "boundary_probability": 0.9477530121803284
+    }
+  },
+  {
+    "top_y": 6763,
+    "bottom_y": 6854,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9688238907646347,
+      "match_margin": 0.019100820625221338,
+      "boundary_probability": 0.64093017578125
+    }
+  },
+  {
+    "top_y": 6854,
+    "bottom_y": 6909,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7849551666866649,
+      "match_margin": 0.18288849808953034,
+      "boundary_probability": 0.506683349609375
+    }
+  },
+  {
+    "top_y": 6909,
+    "bottom_y": 6998,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9730210304260254,
+      "match_margin": 0.014508724212646484,
+      "boundary_probability": 0.4467947483062744
+    }
+  },
+  {
+    "top_y": 6998,
+    "bottom_y": 7018,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9072741270065308,
+      "match_margin": 0.07766664028167725,
+      "boundary_probability": 0.6694149374961853
+    }
+  },
+  {
+    "top_y": 7018,
+    "bottom_y": 7108,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.810335189766354,
+      "match_margin": 0.09326006836361356,
+      "boundary_probability": 0.8057708740234375
+    }
+  },
+  {
+    "top_y": 7108,
+    "bottom_y": 7397,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6558565033348374,
+      "match_margin": 0.2785947081539458,
+      "boundary_probability": 0.6807032227516174
+    }
+  },
+  {
+    "top_y": 7397,
+    "bottom_y": 7414,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.578632116317749,
+      "match_margin": 0.21223843097686768,
+      "boundary_probability": 0.8421557545661926
+    }
+  },
+  {
+    "top_y": 7414,
+    "bottom_y": 7943,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8320802769048002,
+      "match_margin": 0.15499875473390223,
+      "boundary_probability": 0.5838338732719421
+    }
+  },
+  {
+    "top_y": 7943,
+    "bottom_y": 8015,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.996683657169342,
+      "match_margin": 0.00276869535446167,
+      "boundary_probability": 0.6412919759750366
+    }
+  },
+  {
+    "top_y": 8015,
+    "bottom_y": 8104,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5969188816091987,
+      "match_margin": 0.36528300770213096,
+      "boundary_probability": 0.7597503662109375
+    }
+  },
+  {
+    "top_y": 8104,
+    "bottom_y": 8128,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4553486704826355,
+      "match_margin": 0.402876079082489,
+      "boundary_probability": 0.8952547311782837
+    }
+  },
+  {
+    "top_y": 8128,
+    "bottom_y": 8341,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7724880713252394,
+      "match_margin": 0.151945346677807,
+      "boundary_probability": 0.9177099466323853
+    }
+  },
+  {
+    "top_y": 8341,
+    "bottom_y": 8381,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.39882057905197144,
+      "match_margin": 0.1923655867576599,
+      "boundary_probability": 0.5775922536849976
+    }
+  },
+  {
+    "top_y": 8381,
+    "bottom_y": 8461,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7796648740768433,
+      "match_margin": 0.17369526624679565,
+      "boundary_probability": 0.85347580909729
+    }
+  },
+  {
+    "top_y": 8461,
+    "bottom_y": 8492,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.39379382133483887,
+      "match_margin": 0.5556536316871643,
+      "boundary_probability": 0.9203077554702759
+    }
+  },
+  {
+    "top_y": 8492,
+    "bottom_y": 8774,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4205626731223248,
+      "match_margin": 0.2960657610538158,
+      "boundary_probability": 0.8270413279533386
+    }
+  },
+  {
+    "top_y": 8774,
+    "bottom_y": 8822,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3923507332801819,
+      "match_margin": 0.3169150948524475,
+      "boundary_probability": 0.5328963398933411
+    }
+  },
+  {
+    "top_y": 8822,
+    "bottom_y": 8885,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.180566288176037,
+      "match_margin": 0.7625502338485112,
+      "boundary_probability": 0.8729572296142578
+    }
+  },
+  {
+    "top_y": 8885,
+    "bottom_y": 8918,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6456406694470029,
+      "match_margin": 0.2178613146146139,
+      "boundary_probability": 0.9045690298080444
+    }
+  },
+  {
+    "top_y": 8918,
+    "bottom_y": 9064,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.37231273847083524,
+      "match_margin": 0.37532876778955326,
+      "boundary_probability": 0.9104830026626587
+    }
+  },
+  {
+    "top_y": 9064,
+    "bottom_y": 9090,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2959786653518677,
+      "match_margin": 0.3775726556777954,
+      "boundary_probability": 0.8647215366363525
+    }
+  },
+  {
+    "top_y": 9090,
+    "bottom_y": 9204,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4419210380629489,
+      "match_margin": 0.41312967998939654,
+      "boundary_probability": 0.8015567064285278
+    }
+  },
+  {
+    "top_y": 9204,
+    "bottom_y": 9238,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22029364109039307,
+      "match_margin": 0.6440883874893188,
+      "boundary_probability": 0.9200158715248108
+    }
+  },
+  {
+    "top_y": 9238,
+    "bottom_y": 9286,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44960849235455197,
+      "match_margin": 0.1660534118612607,
+      "boundary_probability": 0.4684451222419739
+    }
+  },
+  {
+    "top_y": 9286,
+    "bottom_y": 9337,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.309089976198533,
+      "match_margin": 0.4250427098835216,
+      "boundary_probability": 0.8588893413543701
+    }
+  },
+  {
+    "top_y": 9337,
+    "bottom_y": 9463,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3690028190612793,
+      "match_margin": 0.46143627166748047,
+      "boundary_probability": 0.8983579874038696
+    }
+  },
+  {
+    "top_y": 9463,
+    "bottom_y": 9482,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6656203269958496,
+      "match_margin": 0.20442980527877808,
+      "boundary_probability": 0.7310476303100586
+    }
+  },
+  {
+    "top_y": 9482,
+    "bottom_y": 9574,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38656149739804474,
+      "match_margin": 0.44909360486528144,
+      "boundary_probability": 0.7548506259918213
+    }
+  },
+  {
+    "top_y": 9574,
+    "bottom_y": 9598,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6185387372970581,
+      "match_margin": 0.03898143768310547,
+      "boundary_probability": 0.7482388615608215
+    }
+  },
+  {
+    "top_y": 9598,
+    "bottom_y": 9640,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5340793132781982,
+      "match_margin": 0.20804429054260254,
+      "boundary_probability": 0.9096437692642212
+    }
+  },
+  {
+    "top_y": 9640,
+    "bottom_y": 9683,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5818428244701651,
+      "match_margin": 0.042605825634889904,
+      "boundary_probability": 0.6016626954078674
+    }
+  },
+  {
+    "top_y": 9683,
+    "bottom_y": 9735,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9190200956968161,
+      "match_margin": 0.03269319580151486,
+      "boundary_probability": 0.864529013633728
+    }
+  },
+  {
+    "top_y": 9735,
+    "bottom_y": 9807,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9508900294701258,
+      "match_margin": 0.024811087383164288,
+      "boundary_probability": 0.4911297857761383
+    }
+  },
+  {
+    "top_y": 9807,
+    "bottom_y": 9924,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7977678266345946,
+      "match_margin": 0.1196500888237586,
+      "boundary_probability": 0.9306368827819824
+    }
+  },
+  {
+    "top_y": 9924,
+    "bottom_y": 9941,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5758705735206604,
+      "match_margin": 0.34571945667266846,
+      "boundary_probability": 0.8700835704803467
+    }
+  },
+  {
+    "top_y": 9941,
+    "bottom_y": 10058,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6599511397190583,
+      "match_margin": 0.21715463939894986,
+      "boundary_probability": 0.8513910174369812
+    }
+  },
+  {
+    "top_y": 10058,
+    "bottom_y": 10088,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5404529571533203,
+      "match_margin": 0.324823260307312,
+      "boundary_probability": 0.8823553323745728
+    }
+  },
+  {
+    "top_y": 10088,
+    "bottom_y": 10126,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5279430150985718,
+      "match_margin": 0.11905193328857422,
+      "boundary_probability": 0.6493533253669739
+    }
+  },
+  {
+    "top_y": 10126,
+    "bottom_y": 10189,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40579828194209505,
+      "match_margin": 0.4506358788126991,
+      "boundary_probability": 0.9315283298492432
+    }
+  },
+  {
+    "top_y": 10189,
+    "bottom_y": 10258,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.501146163629449,
+      "match_margin": 0.31639247182486707,
+      "boundary_probability": 0.9573667049407959
+    }
+  },
+  {
+    "top_y": 10258,
+    "bottom_y": 10655,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6135723072875957,
+      "match_margin": 0.15537002329862393,
+      "boundary_probability": 0.7404837608337402
+    }
+  },
+  {
+    "top_y": 10655,
+    "bottom_y": 10671,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7829738855361938,
+      "match_margin": 0.10964411497116089,
+      "boundary_probability": 0.9303271770477295
+    }
+  },
+  {
+    "top_y": 10671,
+    "bottom_y": 10700,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4702622890472412,
+      "match_margin": 0.3499985337257385,
+      "boundary_probability": 0.9373717308044434
+    }
+  },
+  {
+    "top_y": 10700,
+    "bottom_y": 10728,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6009461283683777,
+      "match_margin": 0.24992364645004272,
+      "boundary_probability": 0.9155489206314087
+    }
+  },
+  {
+    "top_y": 10728,
+    "bottom_y": 10775,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5784580111503601,
+      "match_margin": 0.21483421325683594,
+      "boundary_probability": 0.9158315658569336
+    }
+  },
+  {
+    "top_y": 10775,
+    "bottom_y": 10951,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.54996718601747,
+      "match_margin": 0.18833806568926026,
+      "boundary_probability": 0.5876288414001465
+    }
+  },
+  {
+    "top_y": 10951,
+    "bottom_y": 10987,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24332201480865479,
+      "match_margin": 0.3840506076812744,
+      "boundary_probability": 0.6351426839828491
+    }
+  },
+  {
+    "top_y": 10987,
+    "bottom_y": 11017,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45101696252822876,
+      "match_margin": 0.21379101276397705,
+      "boundary_probability": 0.9137097597122192
+    }
+  },
+  {
+    "top_y": 11017,
+    "bottom_y": 11041,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.33010727167129517,
+      "match_margin": 0.6035861372947693,
+      "boundary_probability": 0.8360245227813721
+    }
+  },
+  {
+    "top_y": 11041,
+    "bottom_y": 11273,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5607470952231308,
+      "match_margin": 0.14131491554194486,
+      "boundary_probability": 0.7458494305610657
+    }
+  },
+  {
+    "top_y": 11273,
+    "bottom_y": 11296,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.584629237651825,
+      "match_margin": 0.3306214213371277,
+      "boundary_probability": 0.4790324568748474
+    }
+  },
+  {
+    "top_y": 11296,
+    "bottom_y": 11312,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5102023482322693,
+      "match_margin": 0.0877423882484436,
+      "boundary_probability": 0.5870316624641418
+    }
+  },
+  {
+    "top_y": 11312,
+    "bottom_y": 11381,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44802889962127246,
+      "match_margin": 0.38249027729034424,
+      "boundary_probability": 0.594611406326294
+    }
+  },
+  {
+    "top_y": 11381,
+    "bottom_y": 11422,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.32389843463897705,
+      "match_margin": 0.4512239098548889,
+      "boundary_probability": 0.8976223468780518
+    }
+  },
+  {
+    "top_y": 11422,
+    "bottom_y": 11527,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49206276394072035,
+      "match_margin": 0.38427932205654325,
+      "boundary_probability": 0.9334185719490051
+    }
+  },
+  {
+    "top_y": 11527,
+    "bottom_y": 11566,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5632738471031189,
+      "match_margin": 0.1758465965588888,
+      "boundary_probability": 0.8001596927642822
+    }
+  },
+  {
+    "top_y": 11566,
+    "bottom_y": 11741,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5149224059922355,
+      "match_margin": 0.27458166463034495,
+      "boundary_probability": 0.8148232102394104
+    }
+  },
+  {
+    "top_y": 11741,
+    "bottom_y": 11783,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18537190130778722,
+      "match_margin": 0.7160253808611915,
+      "boundary_probability": 0.8272525072097778
+    }
+  },
+  {
+    "top_y": 11783,
+    "bottom_y": 11822,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0697096586227417,
+      "match_margin": 0.6142758727073669,
+      "boundary_probability": 0.7372857332229614
+    }
+  },
+  {
+    "top_y": 11822,
+    "bottom_y": 11852,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6097663044929504,
+      "match_margin": 0.019969642162322998,
+      "boundary_probability": 0.9856030941009521
+    }
+  },
+  {
+    "top_y": 11852,
+    "bottom_y": 11886,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6052491068840027,
+      "match_margin": 0.19464164972305298,
+      "boundary_probability": 0.8278282880783081
+    }
+  },
+  {
+    "top_y": 11886,
+    "bottom_y": 11903,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.580399215221405,
+      "match_margin": 0.010390162467956543,
+      "boundary_probability": 0.9208807945251465
+    }
+  },
+  {
+    "top_y": 11903,
+    "bottom_y": 12013,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36393332047895954,
+      "match_margin": 0.47793240222063926,
+      "boundary_probability": 0.7282590866088867
+    }
+  },
+  {
+    "top_y": 12013,
+    "bottom_y": 12102,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3580528504393074,
+      "match_margin": 0.5777146474698955,
+      "boundary_probability": 0.9033452272415161
+    }
+  },
+  {
+    "top_y": 12102,
+    "bottom_y": 12121,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24535799026489258,
+      "match_margin": 0.7287524342536926,
+      "boundary_probability": 0.8772313594818115
+    }
+  },
+  {
+    "top_y": 12121,
+    "bottom_y": 12159,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45848488493969564,
+      "match_margin": 0.23670048149008505,
+      "boundary_probability": 0.7437853217124939
+    }
+  },
+  {
+    "top_y": 12159,
+    "bottom_y": 12205,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31896425848421844,
+      "match_margin": 0.6357836878818015,
+      "boundary_probability": 0.7780748009681702
+    }
+  },
+  {
+    "top_y": 12205,
+    "bottom_y": 12282,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5302375795005204,
+      "match_margin": 0.18974780030064764,
+      "boundary_probability": 0.7951829433441162
+    }
+  },
+  {
+    "top_y": 12282,
+    "bottom_y": 12291,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.754499077796936,
+      "match_margin": 0.23097485303878784,
+      "boundary_probability": 0.335436075925827
+    }
+  },
+  {
+    "top_y": 12291,
+    "bottom_y": 12353,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5175829683580706,
+      "match_margin": 0.2675057341975551,
+      "boundary_probability": 0.7724801301956177
+    }
+  },
+  {
+    "top_y": 12353,
+    "bottom_y": 12407,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5597622394561768,
+      "match_margin": 0.10407364368438721,
+      "boundary_probability": 0.40741297602653503
+    }
+  },
+  {
+    "top_y": 12407,
+    "bottom_y": 12428,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5205979347229004,
+      "match_margin": 0.21616417169570923,
+      "boundary_probability": 0.44890502095222473
+    }
+  },
+  {
+    "top_y": 12428,
+    "bottom_y": 12464,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36276902589533067,
+      "match_margin": 0.46022032863563955,
+      "boundary_probability": 0.4514116644859314
+    }
+  },
+  {
+    "top_y": 12464,
+    "bottom_y": 12493,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5396862030029297,
+      "match_margin": 0.06604307889938354,
+      "boundary_probability": 0.8634251356124878
+    }
+  },
+  {
+    "top_y": 12493,
+    "bottom_y": 12618,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5406274795532227,
+      "match_margin": 0.17867612838745117,
+      "boundary_probability": 0.9581369161605835
+    }
+  },
+  {
+    "top_y": 12618,
+    "bottom_y": 12645,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5870502591133118,
+      "match_margin": 0.21621698141098022,
+      "boundary_probability": 0.9034885168075562
+    }
+  },
+  {
+    "top_y": 12645,
+    "bottom_y": 12661,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8463693261146545,
+      "match_margin": 0.13832002878189087,
+      "boundary_probability": 0.46752679347991943
+    }
+  },
+  {
+    "top_y": 12661,
+    "bottom_y": 12794,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49923157691955566,
+      "match_margin": 0.3674914836883545,
+      "boundary_probability": 0.8352673649787903
+    }
+  },
+  {
+    "top_y": 12794,
+    "bottom_y": 12840,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2674863338470459,
+      "match_margin": 0.5156611204147339,
+      "boundary_probability": 0.844791054725647
+    }
+  },
+  {
+    "top_y": 12840,
+    "bottom_y": 12866,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4095503091812134,
+      "match_margin": 0.4282442331314087,
+      "boundary_probability": 0.9454494714736938
+    }
+  },
+  {
+    "top_y": 12866,
+    "bottom_y": 12914,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6085775593916575,
+      "match_margin": 0.10851224263509118,
+      "boundary_probability": 0.9652995467185974
+    }
+  },
+  {
+    "top_y": 12914,
+    "bottom_y": 12995,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5496835708618164,
+      "match_margin": 0.21446079015731812,
+      "boundary_probability": 0.7964742183685303
+    }
+  },
+  {
+    "top_y": 12995,
+    "bottom_y": 13024,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5763370990753174,
+      "match_margin": 0.3221322298049927,
+      "boundary_probability": 0.8810225129127502
+    }
+  },
+  {
+    "top_y": 13024,
+    "bottom_y": 13056,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5463001132011414,
+      "match_margin": 0.3289169669151306,
+      "boundary_probability": 0.5480512976646423
+    }
+  },
+  {
+    "top_y": 13056,
+    "bottom_y": 13140,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4872248726231711,
+      "match_margin": 0.21649176308086943,
+      "boundary_probability": 0.7903043031692505
+    }
+  },
+  {
+    "top_y": 13140,
+    "bottom_y": 13195,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5816050681200895,
+      "match_margin": 0.20712384419007734,
+      "boundary_probability": 0.7533038854598999
+    }
+  },
+  {
+    "top_y": 13195,
+    "bottom_y": 13213,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.451423704624176,
+      "match_margin": 0.49846017360687256,
+      "boundary_probability": 0.9393655061721802
+    }
+  },
+  {
+    "top_y": 13213,
+    "bottom_y": 13229,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5515851974487305,
+      "match_margin": 0.27121490240097046,
+      "boundary_probability": 0.8183655142784119
+    }
+  },
+  {
+    "top_y": 13229,
+    "bottom_y": 13351,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.657093308499602,
+      "match_margin": 0.12711697425998625,
+      "boundary_probability": 0.9456413984298706
+    }
+  },
+  {
+    "top_y": 13351,
+    "bottom_y": 13650,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6453135312600279,
+      "match_margin": 0.13707021207713765,
+      "boundary_probability": 0.809270441532135
+    }
+  },
+  {
+    "top_y": 13650,
+    "bottom_y": 13690,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44336756467819216,
+      "match_margin": 0.2082711577415466,
+      "boundary_probability": 0.8951296210289001
+    }
+  },
+  {
+    "top_y": 13690,
+    "bottom_y": 13698,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.645179808139801,
+      "match_margin": 0.23286360502243042,
+      "boundary_probability": 0.5828155279159546
+    }
+  },
+  {
+    "top_y": 13698,
+    "bottom_y": 13745,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5749754905700684,
+      "match_margin": 0.32394200563430786,
+      "boundary_probability": 0.8895869255065918
+    }
+  },
+  {
+    "top_y": 13745,
+    "bottom_y": 13771,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34112364053726196,
+      "match_margin": 0.5821686387062073,
+      "boundary_probability": 0.5623729228973389
+    }
+  },
+  {
+    "top_y": 13771,
+    "bottom_y": 13798,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.008536815643310547,
+      "match_margin": 0.4336313009262085,
+      "boundary_probability": 0.9542441964149475
+    }
+  },
+  {
+    "top_y": 13798,
+    "bottom_y": 13817,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.32294631004333496,
+      "match_margin": 0.59768146276474,
+      "boundary_probability": 0.9377451539039612
+    }
+  },
+  {
+    "top_y": 13817,
+    "bottom_y": 13866,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5522406709437467,
+      "match_margin": 0.06554360414037896,
+      "boundary_probability": 0.9101489186286926
+    }
+  },
+  {
+    "top_y": 13866,
+    "bottom_y": 13884,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2216637134552002,
+      "match_margin": 0.6187131404876709,
+      "boundary_probability": 0.707449197769165
+    }
+  },
+  {
+    "top_y": 13884,
+    "bottom_y": 13957,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.77330851718171,
+      "match_margin": 0.13107635550302998,
+      "boundary_probability": 0.8999857902526855
+    }
+  },
+  {
+    "top_y": 13957,
+    "bottom_y": 14026,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4576491117477417,
+      "match_margin": 0.21312075853347778,
+      "boundary_probability": 0.9510834217071533
+    }
+  },
+  {
+    "top_y": 14026,
+    "bottom_y": 14056,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.35626959800720215,
+      "match_margin": 0.5484559535980225,
+      "boundary_probability": 0.9031094312667847
+    }
+  },
+  {
+    "top_y": 14056,
+    "bottom_y": 14081,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42774438858032227,
+      "match_margin": 0.2979252338409424,
+      "boundary_probability": 0.4600192606449127
+    }
+  },
+  {
+    "top_y": 14081,
+    "bottom_y": 14129,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4875534176826477,
+      "match_margin": 0.46992671489715576,
+      "boundary_probability": 0.832507848739624
+    }
+  },
+  {
+    "top_y": 14129,
+    "bottom_y": 14153,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6720820665359497,
+      "match_margin": 0.16443991661071777,
+      "boundary_probability": 0.8723848462104797
+    }
+  },
+  {
+    "top_y": 14153,
+    "bottom_y": 14176,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6945421695709229,
+      "match_margin": 0.11963534355163574,
+      "boundary_probability": 0.659722089767456
+    }
+  },
+  {
+    "top_y": 14176,
+    "bottom_y": 14223,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4873206336447533,
+      "match_margin": 0.18144847864800306,
+      "boundary_probability": 0.9117806553840637
+    }
+  },
+  {
+    "top_y": 14223,
+    "bottom_y": 14249,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.39806610345840454,
+      "match_margin": 0.46875274181365967,
+      "boundary_probability": 0.8761405944824219
+    }
+  },
+  {
+    "top_y": 14249,
+    "bottom_y": 14267,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5345999598503113,
+      "match_margin": 0.11672866344451904,
+      "boundary_probability": 0.9622939825057983
+    }
+  },
+  {
+    "top_y": 14267,
+    "bottom_y": 14307,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5093972086906433,
+      "match_margin": 0.0307123064994812,
+      "boundary_probability": 0.9776272177696228
+    }
+  },
+  {
+    "top_y": 14307,
+    "bottom_y": 14357,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5404810607433319,
+      "match_margin": 0.3946874737739563,
+      "boundary_probability": 0.967954158782959
+    }
+  },
+  {
+    "top_y": 14357,
+    "bottom_y": 14435,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5228112660921537,
+      "match_margin": 0.1418220309110788,
+      "boundary_probability": 0.9773422479629517
+    }
+  },
+  {
+    "top_y": 14435,
+    "bottom_y": 14461,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45547032356262207,
+      "match_margin": 0.17399299144744873,
+      "boundary_probability": 0.9708523154258728
+    }
+  },
+  {
+    "top_y": 14461,
+    "bottom_y": 14479,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4941900372505188,
+      "match_margin": 0.3750843405723572,
+      "boundary_probability": 0.4848056733608246
+    }
+  },
+  {
+    "top_y": 14479,
+    "bottom_y": 14569,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4260718968179491,
+      "match_margin": 0.36365304258134623,
+      "boundary_probability": 0.7131378650665283
+    }
+  },
+  {
+    "top_y": 14569,
+    "bottom_y": 14593,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5417760610580444,
+      "match_margin": 0.16955280303955078,
+      "boundary_probability": 0.855156660079956
+    }
+  },
+  {
+    "top_y": 14593,
+    "bottom_y": 14609,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6024543046951294,
+      "match_margin": 0.17979049682617188,
+      "boundary_probability": 0.4590960443019867
+    }
+  },
+  {
+    "top_y": 14609,
+    "bottom_y": 14625,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7754761576652527,
+      "match_margin": 0.15354788303375244,
+      "boundary_probability": 0.9013156294822693
+    }
+  },
+  {
+    "top_y": 14625,
+    "bottom_y": 14652,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28271734714508057,
+      "match_margin": 0.5985634922981262,
+      "boundary_probability": 0.8782970905303955
+    }
+  },
+  {
+    "top_y": 14652,
+    "bottom_y": 14719,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49989594007605936,
+      "match_margin": 0.14630101154099645,
+      "boundary_probability": 0.9118567705154419
+    }
+  },
+  {
+    "top_y": 14719,
+    "bottom_y": 14770,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3960990905761719,
+      "match_margin": 0.4660947322845459,
+      "boundary_probability": 0.483947217464447
+    }
+  },
+  {
+    "top_y": 14770,
+    "bottom_y": 14831,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6152651290424535,
+      "match_margin": 0.1698075415658169,
+      "boundary_probability": 0.5814067125320435
+    }
+  },
+  {
+    "top_y": 14831,
+    "bottom_y": 14972,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.485930306268922,
+      "match_margin": 0.1596708310411331,
+      "boundary_probability": 0.45481085777282715
+    }
+  },
+  {
+    "top_y": 14972,
+    "bottom_y": 15059,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3149050337144698,
+      "match_margin": 0.5394747914939091,
+      "boundary_probability": 0.8773557543754578
+    }
+  },
+  {
+    "top_y": 15059,
+    "bottom_y": 15099,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47960470914840697,
+      "match_margin": 0.15213199257850646,
+      "boundary_probability": 0.5876294374465942
+    }
+  },
+  {
+    "top_y": 15099,
+    "bottom_y": 15147,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.33023498952388763,
+      "match_margin": 0.4094559239844481,
+      "boundary_probability": 0.7432628870010376
+    }
+  },
+  {
+    "top_y": 15147,
+    "bottom_y": 15265,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6960670948028564,
+      "match_margin": 0.01089853048324585,
+      "boundary_probability": 0.8320431709289551
+    }
+  },
+  {
+    "top_y": 15265,
+    "bottom_y": 15298,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2887728810310364,
+      "match_margin": 0.21520143747329712,
+      "boundary_probability": 0.9852006435394287
+    }
+  },
+  {
+    "top_y": 15298,
+    "bottom_y": 15317,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4893988370895386,
+      "match_margin": 0.25899726152420044,
+      "boundary_probability": 0.9426718950271606
+    }
+  },
+  {
+    "top_y": 15317,
+    "bottom_y": 15341,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5154638290405273,
+      "match_margin": 0.346566379070282,
+      "boundary_probability": 0.8781813383102417
+    }
+  },
+  {
+    "top_y": 15341,
+    "bottom_y": 15394,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2252104990887192,
+      "match_margin": 0.42749186619272767,
+      "boundary_probability": 0.9553384780883789
+    }
+  },
+  {
+    "top_y": 15394,
+    "bottom_y": 15461,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4249606381601362,
+      "match_margin": 0.3090273301992844,
+      "boundary_probability": 0.7153040170669556
+    }
+  },
+  {
+    "top_y": 15461,
+    "bottom_y": 15478,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6256122589111328,
+      "match_margin": 0.36662769317626953,
+      "boundary_probability": 0.6280163526535034
+    }
+  },
+  {
+    "top_y": 15478,
+    "bottom_y": 15494,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31656134128570557,
+      "match_margin": 0.4347837567329407,
+      "boundary_probability": 0.9644038677215576
+    }
+  },
+  {
+    "top_y": 15494,
+    "bottom_y": 15522,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.02247542142868042,
+      "match_margin": 0.27942436933517456,
+      "boundary_probability": 0.8131348490715027
+    }
+  },
+  {
+    "top_y": 15522,
+    "bottom_y": 15615,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36089352446217693,
+      "match_margin": 0.2531047828735844,
+      "boundary_probability": 0.9269945621490479
+    }
+  },
+  {
+    "top_y": 15615,
+    "bottom_y": 15668,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28738128689100156,
+      "match_margin": 0.6696490499208558,
+      "boundary_probability": 0.8037034273147583
+    }
+  },
+  {
+    "top_y": 15668,
+    "bottom_y": 15705,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4359371066093445,
+      "match_margin": 0.2599160671234131,
+      "boundary_probability": 0.814289391040802
+    }
+  },
+  {
+    "top_y": 15705,
+    "bottom_y": 15727,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6956614255905151,
+      "match_margin": 0.017583370208740234,
+      "boundary_probability": 0.9216424226760864
+    }
+  },
+  {
+    "top_y": 15727,
+    "bottom_y": 15743,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7962703108787537,
+      "match_margin": 0.07859891653060913,
+      "boundary_probability": 0.8976995348930359
+    }
+  },
+  {
+    "top_y": 15743,
+    "bottom_y": 15765,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5143806338310242,
+      "match_margin": 0.09408527612686157,
+      "boundary_probability": 0.8950344324111938
+    }
+  },
+  {
+    "top_y": 15765,
+    "bottom_y": 15791,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5824429988861084,
+      "match_margin": 0.3159864544868469,
+      "boundary_probability": 0.8486549854278564
+    }
+  },
+  {
+    "top_y": 15791,
+    "bottom_y": 15819,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4977914094924927,
+      "match_margin": 0.01735544204711914,
+      "boundary_probability": 0.9169145226478577
+    }
+  },
+  {
+    "top_y": 15819,
+    "bottom_y": 15895,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5511561373346731,
+      "match_margin": 0.1691738578834031,
+      "boundary_probability": 0.8753288984298706
+    }
+  },
+  {
+    "top_y": 15895,
+    "bottom_y": 15970,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.25334012508392334,
+      "match_margin": 0.5049647092819214,
+      "boundary_probability": 0.9820890426635742
+    }
+  },
+  {
+    "top_y": 15970,
+    "bottom_y": 16074,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.43505314680246204,
+      "match_margin": 0.3020396416003888,
+      "boundary_probability": 0.9820774793624878
+    }
+  },
+  {
+    "top_y": 16074,
+    "bottom_y": 16092,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22746777534484863,
+      "match_margin": 0.6057403087615967,
+      "boundary_probability": 0.15740276873111725
+    }
+  },
+  {
+    "top_y": 16092,
+    "bottom_y": 16156,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2461407482624054,
+      "match_margin": 0.42111966758966446,
+      "boundary_probability": 0.9579939842224121
+    }
+  },
+  {
+    "top_y": 16156,
+    "bottom_y": 16170,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6230494976043701,
+      "match_margin": 0.05096173286437988,
+      "boundary_probability": 0.973703920841217
+    }
+  },
+  {
+    "top_y": 16170,
+    "bottom_y": 16203,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5365296602249146,
+      "match_margin": 0.1802484393119812,
+      "boundary_probability": 0.757037878036499
+    }
+  },
+  {
+    "top_y": 16203,
+    "bottom_y": 16274,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28677523136138916,
+      "match_margin": 0.5908188819885254,
+      "boundary_probability": 0.920089840888977
+    }
+  },
+  {
+    "top_y": 16274,
+    "bottom_y": 16311,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14256572723388672,
+      "match_margin": 0.7492379546165466,
+      "boundary_probability": 0.8847888112068176
+    }
+  },
+  {
+    "top_y": 16311,
+    "bottom_y": 16448,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45662160511434513,
+      "match_margin": 0.47120459497410017,
+      "boundary_probability": 0.7924036979675293
+    }
+  },
+  {
+    "top_y": 16448,
+    "bottom_y": 16488,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3741365671157837,
+      "match_margin": 0.3004697561264038,
+      "boundary_probability": 0.6286484599113464
+    }
+  },
+  {
+    "top_y": 16488,
+    "bottom_y": 16746,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6117036273313123,
+      "match_margin": 0.25655682696852566,
+      "boundary_probability": 0.7366406917572021
+    }
+  },
+  {
+    "top_y": 16746,
+    "bottom_y": 16858,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5288692968232291,
+      "match_margin": 0.35781555782471386,
+      "boundary_probability": 0.9431098699569702
+    }
+  },
+  {
+    "top_y": 16858,
+    "bottom_y": 17142,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4928332348944436,
+      "match_margin": 0.3118790245391953,
+      "boundary_probability": 0.7937946319580078
+    }
+  },
+  {
+    "top_y": 17142,
+    "bottom_y": 17189,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5057140106850482,
+      "match_margin": 0.3482638166305867,
+      "boundary_probability": 0.8794292211532593
+    }
+  },
+  {
+    "top_y": 17189,
+    "bottom_y": 17303,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42617422342300415,
+      "match_margin": 0.43520236015319824,
+      "boundary_probability": 0.8490864038467407
+    }
+  },
+  {
+    "top_y": 17303,
+    "bottom_y": 17374,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6158872842788696,
+      "match_margin": 0.2544216513633728,
+      "boundary_probability": 0.8870086669921875
+    }
+  },
+  {
+    "top_y": 17374,
+    "bottom_y": 17404,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8936429023742676,
+      "match_margin": 0.07322818040847778,
+      "boundary_probability": 0.9583137035369873
+    }
+  },
+  {
+    "top_y": 17404,
+    "bottom_y": 17423,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4193042516708374,
+      "match_margin": 0.273975670337677,
+      "boundary_probability": 0.975591778755188
+    }
+  },
+  {
+    "top_y": 17423,
+    "bottom_y": 17483,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4510313868522644,
+      "match_margin": 0.38330698013305664,
+      "boundary_probability": 0.9541971683502197
+    }
+  },
+  {
+    "top_y": 17483,
+    "bottom_y": 17522,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4581489135057498,
+      "match_margin": 0.35830236856754005,
+      "boundary_probability": 0.5623205900192261
+    }
+  },
+  {
+    "top_y": 17522,
+    "bottom_y": 17552,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.009986042976379395,
+      "match_margin": 0.3377937078475952,
+      "boundary_probability": 0.9279359579086304
+    }
+  },
+  {
+    "top_y": 17552,
+    "bottom_y": 17729,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31438099563458544,
+      "match_margin": 0.6194696311896803,
+      "boundary_probability": 0.9135499000549316
+    }
+  },
+  {
+    "top_y": 17729,
+    "bottom_y": 17866,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.29352757617504927,
+      "match_margin": 0.6260744307162989,
+      "boundary_probability": 0.5556310415267944
+    }
+  },
+  {
+    "top_y": 17866,
+    "bottom_y": 17883,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4843989610671997,
+      "match_margin": 0.4950253963470459,
+      "boundary_probability": 0.8473471403121948
+    }
+  },
+  {
+    "top_y": 17883,
+    "bottom_y": 17910,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4797466993331909,
+      "match_margin": 0.09193646907806396,
+      "boundary_probability": 0.9516183137893677
+    }
+  },
+  {
+    "top_y": 17910,
+    "bottom_y": 17930,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3895413875579834,
+      "match_margin": 0.5781992077827454,
+      "boundary_probability": 0.9356920719146729
+    }
+  },
+  {
+    "top_y": 17930,
+    "bottom_y": 18016,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38033825159072876,
+      "match_margin": 0.47899216413497925,
+      "boundary_probability": 0.9305630922317505
+    }
+  },
+  {
+    "top_y": 18016,
+    "bottom_y": 18072,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5000438094139099,
+      "match_margin": 0.3367078900337219,
+      "boundary_probability": 0.9713943004608154
+    }
+  },
+  {
+    "top_y": 18072,
+    "bottom_y": 18126,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6370641037269875,
+      "match_margin": 0.2167170014646318,
+      "boundary_probability": 0.9801066517829895
+    }
+  },
+  {
+    "top_y": 18126,
+    "bottom_y": 18148,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36854833364486694,
+      "match_margin": 0.48067229986190796,
+      "boundary_probability": 0.8807607889175415
+    }
+  },
+  {
+    "top_y": 18148,
+    "bottom_y": 18194,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4128020405769348,
+      "match_margin": 0.40072375535964966,
+      "boundary_probability": 0.9773105382919312
+    }
+  },
+  {
+    "top_y": 18194,
+    "bottom_y": 18212,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6036179065704346,
+      "match_margin": 0.03900182247161865,
+      "boundary_probability": 0.9746770858764648
+    }
+  },
+  {
+    "top_y": 18212,
+    "bottom_y": 18234,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6020866632461548,
+      "match_margin": 0.06255042552947998,
+      "boundary_probability": 0.6709664463996887
+    }
+  },
+  {
+    "top_y": 18234,
+    "bottom_y": 18251,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6041277647018433,
+      "match_margin": 0.22777599096298218,
+      "boundary_probability": 0.8978555798530579
+    }
+  },
+  {
+    "top_y": 18251,
+    "bottom_y": 18274,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7448424696922302,
+      "match_margin": 0.08592045307159424,
+      "boundary_probability": 0.5179863572120667
+    }
+  },
+  {
+    "top_y": 18274,
+    "bottom_y": 18296,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8382154107093811,
+      "match_margin": 0.004929184913635254,
+      "boundary_probability": 0.9639976024627686
+    }
+  },
+  {
+    "top_y": 18296,
+    "bottom_y": 18362,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.362902508540587,
+      "match_margin": 0.4942899617281827,
+      "boundary_probability": 0.6428466439247131
+    }
+  },
+  {
+    "top_y": 18362,
+    "bottom_y": 18401,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.29567450284957886,
+      "match_margin": 0.45700186491012573,
+      "boundary_probability": 0.0998973622918129
+    }
+  },
+  {
+    "top_y": 18401,
+    "bottom_y": 18456,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4150840217416937,
+      "match_margin": 0.25217478925531556,
+      "boundary_probability": 0.5494229197502136
+    }
+  },
+  {
+    "top_y": 18456,
+    "bottom_y": 18629,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3818215359153086,
+      "match_margin": 0.4664754461001798,
+      "boundary_probability": 0.5838112235069275
+    }
+  },
+  {
+    "top_y": 18629,
+    "bottom_y": 18655,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.003426074981689453,
+      "match_margin": 0.28343093395233154,
+      "boundary_probability": 0.9463050961494446
+    }
+  },
+  {
+    "top_y": 18655,
+    "bottom_y": 18682,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4320181608200073,
+      "match_margin": 0.21605980396270752,
+      "boundary_probability": 0.973666250705719
+    }
+  },
+  {
+    "top_y": 18682,
+    "bottom_y": 18724,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36944798060825895,
+      "match_margin": 0.26406196753184,
+      "boundary_probability": 0.5097439289093018
+    }
+  },
+  {
+    "top_y": 18724,
+    "bottom_y": 18813,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5553778848805271,
+      "match_margin": 0.10518721630285066,
+      "boundary_probability": 0.8122779130935669
+    }
+  },
+  {
+    "top_y": 18813,
+    "bottom_y": 18906,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5553778848805271,
+      "match_margin": 0.10518721630285066,
+      "boundary_probability": 0.5168159008026123
+    }
+  },
+  {
+    "top_y": 18906,
+    "bottom_y": 18940,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27908575534820557,
+      "match_margin": 0.534430742263794,
+      "boundary_probability": 0.9299882650375366
+    }
+  },
+  {
+    "top_y": 18940,
+    "bottom_y": 18994,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3010079562664032,
+      "match_margin": 0.48060438558459284,
+      "boundary_probability": 0.8179407119750977
+    }
+  },
+  {
+    "top_y": 18994,
+    "bottom_y": 19100,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3010079562664032,
+      "match_margin": 0.48060438558459284,
+      "boundary_probability": 0.29679518938064575
+    }
+  },
+  {
+    "top_y": 19100,
+    "bottom_y": 19140,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5124286413192749,
+      "match_margin": 0.30284398794174194,
+      "boundary_probability": 0.943428635597229
+    }
+  },
+  {
+    "top_y": 19140,
+    "bottom_y": 19203,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16455841064453125,
+      "match_margin": 0.5453534126281738,
+      "boundary_probability": 0.025285156443715096
+    }
+  },
+  {
+    "top_y": 19203,
+    "bottom_y": 19233,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5765100121498108,
+      "match_margin": 0.11989670991897583,
+      "boundary_probability": 0.6259205937385559
+    }
+  },
+  {
+    "top_y": 19233,
+    "bottom_y": 19261,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.71539705991745,
+      "match_margin": 0.07407695055007935,
+      "boundary_probability": 0.9757328033447266
+    }
+  },
+  {
+    "top_y": 19261,
+    "bottom_y": 19283,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17248892784118652,
+      "match_margin": 0.7693614363670349,
+      "boundary_probability": 0.8996769785881042
+    }
+  },
+  {
+    "top_y": 19283,
+    "bottom_y": 19299,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.48597168922424316,
+      "match_margin": 0.3914618492126465,
+      "boundary_probability": 0.5997391939163208
+    }
+  },
+  {
+    "top_y": 19299,
+    "bottom_y": 19315,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34161651134490967,
+      "match_margin": 0.630687415599823,
+      "boundary_probability": 0.9211117029190063
+    }
+  },
+  {
+    "top_y": 19315,
+    "bottom_y": 19334,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.30461788177490234,
+      "match_margin": 0.42202723026275635,
+      "boundary_probability": 0.46435150504112244
+    }
+  },
+  {
+    "top_y": 19334,
+    "bottom_y": 19394,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.29254960020383197,
+      "match_margin": 0.5804518342018128,
+      "boundary_probability": 0.5768687725067139
+    }
+  },
+  {
+    "top_y": 19394,
+    "bottom_y": 19412,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.26306843757629395,
+      "match_margin": 0.4214521646499634,
+      "boundary_probability": 0.8875634670257568
+    }
+  },
+  {
+    "top_y": 19412,
+    "bottom_y": 19431,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5809972286224365,
+      "match_margin": 0.13526993989944458,
+      "boundary_probability": 0.8909130096435547
+    }
+  },
+  {
+    "top_y": 19431,
+    "bottom_y": 19465,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36209498784121347,
+      "match_margin": 0.3625434005961698,
+      "boundary_probability": 0.7663347721099854
+    }
+  },
+  {
+    "top_y": 19465,
+    "bottom_y": 19663,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34184741973876953,
+      "match_margin": 0.47575876839233167,
+      "boundary_probability": 0.8787437677383423
+    }
+  },
+  {
+    "top_y": 19663,
+    "bottom_y": 19710,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5727204185851077,
+      "match_margin": 0.15211759349133103,
+      "boundary_probability": 0.7067053914070129
+    }
+  },
+  {
+    "top_y": 19710,
+    "bottom_y": 19846,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.439323349034085,
+      "match_margin": 0.35569053713013143,
+      "boundary_probability": 0.8679977655410767
+    }
+  },
+  {
+    "top_y": 19846,
+    "bottom_y": 19894,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3496629384656747,
+      "match_margin": 0.3491784359018008,
+      "boundary_probability": 0.8970030546188354
+    }
+  },
+  {
+    "top_y": 19894,
+    "bottom_y": 19917,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2883908748626709,
+      "match_margin": 0.6840944886207581,
+      "boundary_probability": 0.9438432455062866
+    }
+  },
+  {
+    "top_y": 19917,
+    "bottom_y": 20059,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4282093715499824,
+      "match_margin": 0.3155682456325477,
+      "boundary_probability": 0.8647187948226929
+    }
+  },
+  {
+    "top_y": 20059,
+    "bottom_y": 20087,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4730757474899292,
+      "match_margin": 0.39937925338745117,
+      "boundary_probability": 0.6837143301963806
+    }
+  },
+  {
+    "top_y": 20087,
+    "bottom_y": 20115,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.08924102783203125,
+      "match_margin": 0.7824786901473999,
+      "boundary_probability": 0.9461482167243958
+    }
+  },
+  {
+    "top_y": 20115,
+    "bottom_y": 20136,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.55638587474823,
+      "match_margin": 0.04672724008560181,
+      "boundary_probability": 0.9570910930633545
+    }
+  },
+  {
+    "top_y": 20136,
+    "bottom_y": 20153,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14758336544036865,
+      "match_margin": 0.758642852306366,
+      "boundary_probability": 0.9041355848312378
+    }
+  },
+  {
+    "top_y": 20153,
+    "bottom_y": 20185,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4082558751106262,
+      "match_margin": 0.147138774394989,
+      "boundary_probability": 0.9225670099258423
+    }
+  },
+  {
+    "top_y": 20185,
+    "bottom_y": 20254,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11958690916282544,
+      "match_margin": 0.8024523439614669,
+      "boundary_probability": 0.9096389412879944
+    }
+  },
+  {
+    "top_y": 20254,
+    "bottom_y": 20272,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7300968170166016,
+      "match_margin": 0.173662006855011,
+      "boundary_probability": 0.8222049474716187
+    }
+  },
+  {
+    "top_y": 20272,
+    "bottom_y": 20295,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14996224641799927,
+      "match_margin": 0.731009304523468,
+      "boundary_probability": 0.7245777249336243
+    }
+  },
+  {
+    "top_y": 20295,
+    "bottom_y": 20371,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4544465039905749,
+      "match_margin": 0.12367520206852961,
+      "boundary_probability": 0.8059900999069214
+    }
+  },
+  {
+    "top_y": 20371,
+    "bottom_y": 20388,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.573267936706543,
+      "match_margin": 0.22944343090057373,
+      "boundary_probability": 0.8756996989250183
+    }
+  },
+  {
+    "top_y": 20388,
+    "bottom_y": 20408,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.33339691162109375,
+      "match_margin": 0.31054651737213135,
+      "boundary_probability": 0.5727043151855469
+    }
+  },
+  {
+    "top_y": 20408,
+    "bottom_y": 20443,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45887112855911255,
+      "match_margin": 0.3368393301963806,
+      "boundary_probability": 0.44651809334754944
+    }
+  },
+  {
+    "top_y": 20443,
+    "bottom_y": 20458,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45887112855911255,
+      "match_margin": 0.3368393301963806,
+      "boundary_probability": 0.6572128534317017
+    }
+  },
+  {
+    "top_y": 20458,
+    "bottom_y": 20477,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5362377166748047,
+      "match_margin": 0.08621513843536377,
+      "boundary_probability": 0.4526492655277252
+    }
+  },
+  {
+    "top_y": 20477,
+    "bottom_y": 20494,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.35090750455856323,
+      "match_margin": 0.5394390225410461,
+      "boundary_probability": 0.7140846252441406
+    }
+  },
+  {
+    "top_y": 20494,
+    "bottom_y": 20517,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5377451181411743,
+      "match_margin": 0.057967543601989746,
+      "boundary_probability": 0.4417046010494232
+    }
+  },
+  {
+    "top_y": 20517,
+    "bottom_y": 20625,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5238615170588476,
+      "match_margin": 0.20055837415236633,
+      "boundary_probability": 0.6659845113754272
+    }
+  },
+  {
+    "top_y": 20625,
+    "bottom_y": 20804,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5238615170588476,
+      "match_margin": 0.20055837415236633,
+      "boundary_probability": 0.7143990993499756
+    }
+  },
+  {
+    "top_y": 20804,
+    "bottom_y": 20911,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.521501441982305,
+      "match_margin": 0.20197895754163508,
+      "boundary_probability": 0.9021528959274292
+    }
+  },
+  {
+    "top_y": 20911,
+    "bottom_y": 20927,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4423150420188904,
+      "match_margin": 0.23759710788726807,
+      "boundary_probability": 0.9338040351867676
+    }
+  },
+  {
+    "top_y": 20927,
+    "bottom_y": 20943,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7408231496810913,
+      "match_margin": 0.1619822382926941,
+      "boundary_probability": 0.8734230399131775
+    }
+  },
+  {
+    "top_y": 20943,
+    "bottom_y": 20964,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6838571429252625,
+      "match_margin": 0.07175940275192261,
+      "boundary_probability": 0.8251367807388306
+    }
+  },
+  {
+    "top_y": 20964,
+    "bottom_y": 20980,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4108002185821533,
+      "match_margin": 0.1325024962425232,
+      "boundary_probability": 0.8972998857498169
+    }
+  },
+  {
+    "top_y": 20980,
+    "bottom_y": 21000,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5078624486923218,
+      "match_margin": 0.041518986225128174,
+      "boundary_probability": 0.6910483837127686
+    }
+  },
+  {
+    "top_y": 21000,
+    "bottom_y": 21017,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49643266201019287,
+      "match_margin": 0.355246901512146,
+      "boundary_probability": 0.6786023378372192
+    }
+  },
+  {
+    "top_y": 21017,
+    "bottom_y": 21040,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6845166683197021,
+      "match_margin": 0.07477688789367676,
+      "boundary_probability": 0.9115997552871704
+    }
+  },
+  {
+    "top_y": 21040,
+    "bottom_y": 21136,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31249328702688217,
+      "match_margin": 0.558704063296318,
+      "boundary_probability": 0.8430113792419434
+    }
+  },
+  {
+    "top_y": 21136,
+    "bottom_y": 21171,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6944969637053353,
+      "match_margin": 0.10663165705544608,
+      "boundary_probability": 0.5255258679389954
+    }
+  },
+  {
+    "top_y": 21171,
+    "bottom_y": 21199,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6942959427833557,
+      "match_margin": 0.003057539463043213,
+      "boundary_probability": 0.9456356763839722
+    }
+  },
+  {
+    "top_y": 21199,
+    "bottom_y": 21215,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6079025864601135,
+      "match_margin": 0.22425472736358643,
+      "boundary_probability": 0.6771889925003052
+    }
+  },
+  {
+    "top_y": 21215,
+    "bottom_y": 21308,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2549143978344497,
+      "match_margin": 0.6712317659008887,
+      "boundary_probability": 0.9090080261230469
+    }
+  },
+  {
+    "top_y": 21308,
+    "bottom_y": 21325,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5554779171943665,
+      "match_margin": 0.28552383184432983,
+      "boundary_probability": 0.8860400319099426
+    }
+  },
+  {
+    "top_y": 21325,
+    "bottom_y": 21349,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8682665824890137,
+      "match_margin": 0.02956157922744751,
+      "boundary_probability": 0.8952286839485168
+    }
+  },
+  {
+    "top_y": 21349,
+    "bottom_y": 21365,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5409178137779236,
+      "match_margin": 0.18944519758224487,
+      "boundary_probability": 0.8241866827011108
+    }
+  },
+  {
+    "top_y": 21365,
+    "bottom_y": 21381,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5396506786346436,
+      "match_margin": 0.16510355472564697,
+      "boundary_probability": 0.7004097700119019
+    }
+  },
+  {
+    "top_y": 21381,
+    "bottom_y": 21437,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38962874012558085,
+      "match_margin": 0.5350816743938547,
+      "boundary_probability": 0.8399103879928589
+    }
+  },
+  {
+    "top_y": 21437,
+    "bottom_y": 21533,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38962874012558085,
+      "match_margin": 0.5350816743938547,
+      "boundary_probability": 0.6482681035995483
+    }
+  },
+  {
+    "top_y": 21533,
+    "bottom_y": 21554,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4961124658584595,
+      "match_margin": 0.22640174627304077,
+      "boundary_probability": 0.8831138014793396
+    }
+  },
+  {
+    "top_y": 21554,
+    "bottom_y": 21572,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6792963743209839,
+      "match_margin": 0.029987215995788574,
+      "boundary_probability": 0.5943476557731628
+    }
+  },
+  {
+    "top_y": 21572,
+    "bottom_y": 21659,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5262432619072925,
+      "match_margin": 0.27805873717384777,
+      "boundary_probability": 0.6525324583053589
+    }
+  },
+  {
+    "top_y": 21659,
+    "bottom_y": 21678,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.655826210975647,
+      "match_margin": 0.14955401420593262,
+      "boundary_probability": 0.5949541330337524
+    }
+  },
+  {
+    "top_y": 21678,
+    "bottom_y": 21706,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.578708291053772,
+      "match_margin": 0.27012908458709717,
+      "boundary_probability": 0.8662385940551758
+    }
+  },
+  {
+    "top_y": 21706,
+    "bottom_y": 21804,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23034763761929103,
+      "match_margin": 0.6776431725949658,
+      "boundary_probability": 0.893826961517334
+    }
+  },
+  {
+    "top_y": 21804,
+    "bottom_y": 21835,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4293564558029175,
+      "match_margin": 0.24559009075164795,
+      "boundary_probability": 0.8814712762832642
+    }
+  },
+  {
+    "top_y": 21835,
+    "bottom_y": 21855,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17661118507385254,
+      "match_margin": 0.6569296717643738,
+      "boundary_probability": 0.7514674663543701
+    }
+  },
+  {
+    "top_y": 21855,
+    "bottom_y": 21887,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22082781791687012,
+      "match_margin": 0.527639627456665,
+      "boundary_probability": 0.8658024072647095
+    }
+  },
+  {
+    "top_y": 21887,
+    "bottom_y": 21909,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6478679180145264,
+      "match_margin": 0.310208261013031,
+      "boundary_probability": 0.9333319664001465
+    }
+  },
+  {
+    "top_y": 21909,
+    "bottom_y": 21927,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11523914337158203,
+      "match_margin": 0.8409081101417542,
+      "boundary_probability": 0.8843175172805786
+    }
+  },
+  {
+    "top_y": 21927,
+    "bottom_y": 21946,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5314175486564636,
+      "match_margin": 0.20954495668411255,
+      "boundary_probability": 0.7695003747940063
+    }
+  },
+  {
+    "top_y": 21946,
+    "bottom_y": 21977,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21470332145690918,
+      "match_margin": 0.5580139756202698,
+      "boundary_probability": 0.7729543447494507
+    }
+  },
+  {
+    "top_y": 21977,
+    "bottom_y": 21998,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3872629404067993,
+      "match_margin": 0.4380078911781311,
+      "boundary_probability": 0.621616542339325
+    }
+  },
+  {
+    "top_y": 21998,
+    "bottom_y": 22018,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5112535953521729,
+      "match_margin": 0.2716209888458252,
+      "boundary_probability": 0.45422086119651794
+    }
+  },
+  {
+    "top_y": 22018,
+    "bottom_y": 22054,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.20023907886611092,
+      "match_margin": 0.5575562831428316,
+      "boundary_probability": 0.8400123119354248
+    }
+  },
+  {
+    "top_y": 22054,
+    "bottom_y": 22073,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5521979331970215,
+      "match_margin": 0.09211784601211548,
+      "boundary_probability": 0.755335807800293
+    }
+  },
+  {
+    "top_y": 22073,
+    "bottom_y": 22200,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2964954315208075,
+      "match_margin": 0.522083436879586,
+      "boundary_probability": 0.938463568687439
+    }
+  },
+  {
+    "top_y": 22200,
+    "bottom_y": 22252,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.543374397537925,
+      "match_margin": 0.39594243795840767,
+      "boundary_probability": 0.878440260887146
+    }
+  },
+  {
+    "top_y": 22252,
+    "bottom_y": 22277,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.543374397537925,
+      "match_margin": 0.39594243795840767,
+      "boundary_probability": 0.8109942078590393
+    }
+  },
+  {
+    "top_y": 22277,
+    "bottom_y": 22319,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4763540029525757,
+      "match_margin": 0.2653481108801705,
+      "boundary_probability": 0.8119165897369385
+    }
+  },
+  {
+    "top_y": 22319,
+    "bottom_y": 22440,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4753712302397105,
+      "match_margin": 0.3612264148459947,
+      "boundary_probability": 0.5907539129257202
+    }
+  },
+  {
+    "top_y": 22440,
+    "bottom_y": 22459,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.35770559310913086,
+      "match_margin": 0.45802444219589233,
+      "boundary_probability": 0.8229438066482544
+    }
+  },
+  {
+    "top_y": 22459,
+    "bottom_y": 22525,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4490443179101655,
+      "match_margin": 0.2986291159283031,
+      "boundary_probability": 0.7608869075775146
+    }
+  },
+  {
+    "top_y": 22525,
+    "bottom_y": 22558,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.403820408113075,
+      "match_margin": 0.34573982881777215,
+      "boundary_probability": 0.8911405205726624
+    }
+  },
+  {
+    "top_y": 22558,
+    "bottom_y": 22575,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.536342978477478,
+      "match_margin": 0.32938218116760254,
+      "boundary_probability": 0.5804367065429688
+    }
+  },
+  {
+    "top_y": 22575,
+    "bottom_y": 22610,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1397989579609462,
+      "match_margin": 0.6566940801484245,
+      "boundary_probability": 0.7534984946250916
+    }
+  },
+  {
+    "top_y": 22610,
+    "bottom_y": 22631,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.48389655351638794,
+      "match_margin": 0.3589765429496765,
+      "boundary_probability": 0.904747724533081
+    }
+  },
+  {
+    "top_y": 22631,
+    "bottom_y": 22737,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2932498977994019,
+      "match_margin": 0.5757301264214065,
+      "boundary_probability": 0.47764503955841064
+    }
+  },
+  {
+    "top_y": 22737,
+    "bottom_y": 22800,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10050971167428153,
+      "match_margin": 0.30375905547823223,
+      "boundary_probability": 0.9166616797447205
+    }
+  },
+  {
+    "top_y": 22800,
+    "bottom_y": 22853,
+    "lithology": "LoGY 1",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5337087433293181,
+      "match_margin": 0.44896115671913583,
+      "boundary_probability": 0.8353743553161621
+    }
+  },
+  {
+    "top_y": 22853,
+    "bottom_y": 22871,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1825939416885376,
+      "match_margin": 0.5901616811752319,
+      "boundary_probability": 0.6542258858680725
+    }
+  },
+  {
+    "top_y": 22871,
+    "bottom_y": 22976,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24299336288656506,
+      "match_margin": 0.5694214416401727,
+      "boundary_probability": 0.9539189338684082
+    }
+  },
+  {
+    "top_y": 22976,
+    "bottom_y": 23047,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24299336288656506,
+      "match_margin": 0.5694214416401727,
+      "boundary_probability": 0.2625799775123596
+    }
+  },
+  {
+    "top_y": 23047,
+    "bottom_y": 23151,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24299336288656506,
+      "match_margin": 0.5694214416401727,
+      "boundary_probability": 0.32479381561279297
+    }
+  },
+  {
+    "top_y": 23151,
+    "bottom_y": 23178,
+    "lithology": "Coc",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5087032914161682,
+      "match_margin": 0.12126797437667847,
+      "boundary_probability": 0.8862712979316711
+    }
+  },
+  {
+    "top_y": 23178,
+    "bottom_y": 23197,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5355030298233032,
+      "match_margin": 0.36044150590896606,
+      "boundary_probability": 0.8004355430603027
+    }
+  },
+  {
+    "top_y": 23197,
+    "bottom_y": 23212,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5552918910980225,
+      "match_margin": 0.02679353952407837,
+      "boundary_probability": 0.6271822452545166
+    }
+  },
+  {
+    "top_y": 23212,
+    "bottom_y": 23230,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4084271192550659,
+      "match_margin": 0.5587098598480225,
+      "boundary_probability": 0.1421104222536087
+    }
+  },
+  {
+    "top_y": 23230,
+    "bottom_y": 23246,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.32070672512054443,
+      "match_margin": 0.6117863059043884,
+      "boundary_probability": 0.5624909996986389
+    }
+  },
+  {
+    "top_y": 23246,
+    "bottom_y": 23338,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3550059357562016,
+      "match_margin": 0.4353342472585206,
+      "boundary_probability": 0.7857660055160522
+    }
+  },
+  {
+    "top_y": 23338,
+    "bottom_y": 23521,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3550059357562016,
+      "match_margin": 0.4353342472585206,
+      "boundary_probability": 0.2561144232749939
+    }
+  },
+  {
+    "top_y": 23521,
+    "bottom_y": 23634,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3550059357562016,
+      "match_margin": 0.4353342472585206,
+      "boundary_probability": 0.4562302827835083
+    }
+  },
+  {
+    "top_y": 23634,
+    "bottom_y": 23663,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5225456953048706,
+      "match_margin": 0.21562302112579346,
+      "boundary_probability": 0.845342218875885
+    }
+  },
+  {
+    "top_y": 23663,
+    "bottom_y": 23698,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2707024812698364,
+      "match_margin": 0.6331374645233154,
+      "boundary_probability": 0.5960491299629211
+    }
+  },
+  {
+    "top_y": 23698,
+    "bottom_y": 23715,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3953244686126709,
+      "match_margin": 0.48042041063308716,
+      "boundary_probability": 0.9407444596290588
+    }
+  },
+  {
+    "top_y": 23715,
+    "bottom_y": 23758,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4740563603334649,
+      "match_margin": 0.271831329478774,
+      "boundary_probability": 0.7658348083496094
+    }
+  },
+  {
+    "top_y": 23758,
+    "bottom_y": 23785,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3881338834762573,
+      "match_margin": 0.3400735855102539,
+      "boundary_probability": 0.4420608878135681
+    }
+  },
+  {
+    "top_y": 23785,
+    "bottom_y": 23878,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40524466447932744,
+      "match_margin": 0.4780829183516964,
+      "boundary_probability": 0.56113600730896
+    }
+  },
+  {
+    "top_y": 23878,
+    "bottom_y": 23899,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49057769775390625,
+      "match_margin": 0.16233938932418823,
+      "boundary_probability": 0.9003158211708069
+    }
+  },
+  {
+    "top_y": 23899,
+    "bottom_y": 24062,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27344001729064193,
+      "match_margin": 0.47358814192695853,
+      "boundary_probability": 0.6641947031021118
+    }
+  },
+  {
+    "top_y": 24062,
+    "bottom_y": 24105,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21448598767435828,
+      "match_margin": 0.600432129793389,
+      "boundary_probability": 0.848395049571991
+    }
+  },
+  {
+    "top_y": 24105,
+    "bottom_y": 24186,
+    "lithology": "E",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23797878586215737,
+      "match_margin": 0.6762383999647917,
+      "boundary_probability": 0.9226184487342834
+    }
+  },
+  {
+    "top_y": 24186,
+    "bottom_y": 24195,
+    "lithology": "Corg",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6367300748825073,
+      "match_margin": 0.15637695789337158,
+      "boundary_probability": 0.4917530417442322
+    }
+  },
+  {
+    "top_y": 24195,
+    "bottom_y": 24249,
+    "lithology": "l+Y",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9735769750895323,
+      "match_margin": 0.021517861772466618,
+      "boundary_probability": 0.9563900232315063
+    }
+  },
+  {
+    "top_y": 24249,
+    "bottom_y": 24285,
+    "lithology": "i",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9969215393066406,
+      "match_margin": 0.0021554231643676758,
+      "boundary_probability": 0.9430994987487793
+    }
+  }
+]

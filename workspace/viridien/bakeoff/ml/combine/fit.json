@@ -1,0 +1,19 @@
+{
+ "training_wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "dev_windows": 51,
+ "dev_sha256": "84c8a6b57359e5e3f471a559d91ecdaf48def8167d12e2f1612684ba1e4b5631",
+ "inherited_weights_loaded": false,
+ "sha256": {
+  "boundary_net.pt": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810",
+  "matcher.npz": "01cba25e573ee7552d6c4f99df4be7736eea6dce255c580e1e7b286a8ce0af62",
+  "selected.json": "5a49b37499459f0f201779b45f2a1c3e481011bd2acbcc655b7e5aaf2f9cdd71",
+  "boundary_real.pt": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222",
+  "matcher_real.npz": "b688bfa064147ac91a3622e00d71eba2e3876af44077c44f402ff57caed8f278"
+ }
+}

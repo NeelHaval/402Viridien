@@ -1,0 +1,39 @@
+{
+  "calibration_cache": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\_cache\\depth\\60808400140000_hadrian 2_masterlog_2in_10000-21962.rapidocr.json",
+  "calibration_sha256": "3f48751790902189349190407762f3214cf47c302b80b72ba363582a08e3fa68",
+  "signature": [
+    [
+      1700,
+      50000
+    ],
+    [
+      369,
+      1528,
+      449,
+      49449
+    ],
+    "82e8e7a864463e98de9dcc6841061f6b44b3e51a9ed273aa7b9551e75bf1e6e7"
+  ],
+  "calibration": {
+    "a": 0.24999908286587189,
+    "b": 9619.784773580677,
+    "n_points": 60,
+    "rmse_px": 0.36527997294041975,
+    "method": "rapidocr+consensus+ft-assumed"
+  },
+  "source_pixel_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\report\\scoreboard_1108\\remote\\remaining\\43cb7bed033fe027\\prediction.csv",
+  "source_pixel_csv_sha256": "d398e0a562fcdc083f81dd15834c1c5304fdac864b1ca28c05ba6876e07222ae",
+  "promoted_csv_sha256": "f5f2f26455c0e1908d737f1a2e1d7a0b429d3176dbed8455b840ea09c06c5d79",
+  "fixed_fields": [
+    "top_y",
+    "bottom_y",
+    "lithology",
+    "cluster_id"
+  ],
+  "fixed_fields_exactly_equal": true,
+  "only_fields_filled": [
+    "top_depth",
+    "bottom_depth"
+  ],
+  "method": "Fill shared depths on cached interval edges via harness.run._clean. Contact, label and cluster equality is asserted. No new classifier call."
+}

@@ -1,0 +1,220 @@
+{
+  "S": [
+    [
+      0,
+      4387,
+      4915,
+      [
+        {
+          "top_y": 4387,
+          "bottom_y": 4568,
+          "label": "Shale",
+          "confidence": 0.52
+        },
+        {
+          "top_y": 4568,
+          "bottom_y": 4915,
+          "label": "Sand and Sandstone",
+          "confidence": 0.96
+        }
+      ]
+    ],
+    [
+      1,
+      4855,
+      5383,
+      [
+        {
+          "top_y": 4855,
+          "bottom_y": 4996,
+          "label": "Sand and Sandstone",
+          "confidence": 0.88
+        },
+        {
+          "top_y": 4996,
+          "bottom_y": 5383,
+          "label": "Shale",
+          "confidence": 0.62
+        }
+      ]
+    ],
+    [
+      2,
+      5323,
+      5851,
+      [
+        {
+          "top_y": 5323,
+          "bottom_y": 5592,
+          "label": "Shale",
+          "confidence": 0.6
+        },
+        {
+          "top_y": 5592,
+          "bottom_y": 5794,
+          "label": "Siltstone",
+          "confidence": 0.96
+        },
+        {
+          "top_y": 5794,
+          "bottom_y": 5851,
+          "label": "Shale",
+          "confidence": 0.6
+        }
+      ]
+    ],
+    [
+      3,
+      5791,
+      6319,
+      [
+        {
+          "top_y": 5791,
+          "bottom_y": 5993,
+          "label": "Shale",
+          "confidence": 0.57
+        },
+        {
+          "top_y": 5993,
+          "bottom_y": 6190,
+          "label": "Siltstone",
+          "confidence": 0.93
+        },
+        {
+          "top_y": 6190,
+          "bottom_y": 6319,
+          "label": "Sand and Sandstone",
+          "confidence": 0.89
+        }
+      ]
+    ],
+    [
+      4,
+      6259,
+      6787,
+      [
+        {
+          "top_y": 6259,
+          "bottom_y": 6393,
+          "label": "Sand and Sandstone",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 6393,
+          "bottom_y": 6787,
+          "label": "Shale",
+          "confidence": 0.68
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      4387,
+      4915,
+      [
+        {
+          "top_y": 4387,
+          "bottom_y": 4570,
+          "label": "Shale",
+          "confidence": 0.72
+        },
+        {
+          "top_y": 4570,
+          "bottom_y": 4915,
+          "label": "Sand and Sandstone",
+          "confidence": 0.62
+        }
+      ]
+    ],
+    [
+      1,
+      4855,
+      5383,
+      [
+        {
+          "top_y": 4855,
+          "bottom_y": 4996,
+          "label": "Siltstone",
+          "confidence": 0.87
+        },
+        {
+          "top_y": 4996,
+          "bottom_y": 5383,
+          "label": "Shale",
+          "confidence": 0.67
+        }
+      ]
+    ],
+    [
+      2,
+      5323,
+      5851,
+      [
+        {
+          "top_y": 5323,
+          "bottom_y": 5589,
+          "label": "Shale",
+          "confidence": 0.62
+        },
+        {
+          "top_y": 5589,
+          "bottom_y": 5795,
+          "label": "Siltstone",
+          "confidence": 0.9
+        },
+        {
+          "top_y": 5795,
+          "bottom_y": 5851,
+          "label": "Shale",
+          "confidence": 0.62
+        }
+      ]
+    ],
+    [
+      3,
+      5791,
+      6319,
+      [
+        {
+          "top_y": 5791,
+          "bottom_y": 5994,
+          "label": "Shale",
+          "confidence": 0.75
+        },
+        {
+          "top_y": 5994,
+          "bottom_y": 6190,
+          "label": "Siltstone",
+          "confidence": 0.94
+        },
+        {
+          "top_y": 6190,
+          "bottom_y": 6319,
+          "label": "Sand and Sandstone",
+          "confidence": 0.9
+        }
+      ]
+    ],
+    [
+      4,
+      6259,
+      6787,
+      [
+        {
+          "top_y": 6259,
+          "bottom_y": 6403,
+          "label": "Siltstone",
+          "confidence": 0.77
+        },
+        {
+          "top_y": 6403,
+          "bottom_y": 6787,
+          "label": "Shale",
+          "confidence": 0.72
+        }
+      ]
+    ]
+  ]
+}

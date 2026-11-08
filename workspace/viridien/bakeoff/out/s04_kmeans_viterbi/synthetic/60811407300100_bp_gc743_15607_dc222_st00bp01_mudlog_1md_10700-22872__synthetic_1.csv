@@ -1,0 +1,14 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,480,Fine Dolomite,0,9930.8,10170.7
+480,857,Fine sand,1,10170.7,10359.2
+857,1185,Sandy and calcareous dolomite,3,10359.2,10523.2
+1185,1427,Coarsesandstone,9,10523.2,10644.2
+1427,1812,Sylvite,2,10644.2,10836.6
+1812,2118,Fine sandstone,5,10836.6,10989.6
+2118,2310,Coarsesandstone,9,10989.6,11085.6
+2310,2608,Fine sandstone,5,11085.6,11234.6
+2608,2832,Sylvite,2,11234.6,11346.6
+3214,3218,Silt,8,11537.5,11539.5
+3218,3559,Medium sand,6,11539.5,11710.0
+3559,3971,Halite,4,11710.0,11916.0
+3971,4000,Silt,7,11916.0,11930.5

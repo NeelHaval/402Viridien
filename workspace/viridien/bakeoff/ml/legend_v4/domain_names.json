@@ -1,0 +1,2605 @@
+[
+ {
+  "log": "0000000009_d-582_0000020435-0001_log01_fe_1in_md",
+  "well": "0000000009_d-582_0000020435-0001_log01_fe_1in_md",
+  "family": "D-582 1-bit grid",
+  "v1": {
+   "n_truth": 10,
+   "n_pred": 16,
+   "n_detected": 10,
+   "n_exact": 8,
+   "n_matchable": 8,
+   "n_canonical": 8,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.8,
+   "matchable_accuracy": 0.8,
+   "canonical_accuracy": 0.8,
+   "details": [
+    {
+     "truth": "Limestone",
+     "pred": "LImestone",
+     "lithology": true,
+     "iou": 0.9917355371900827,
+     "exact": true
+    },
+    {
+     "truth": "Silty Sandstone",
+     "pred": "SIllty Sandstone",
+     "lithology": true,
+     "iou": 0.9915966386554622,
+     "exact": false
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Sand and Sandstone",
+     "pred": "Sand and Sandstone",
+     "lithology": true,
+     "iou": 0.985797827903091,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 0.9802037286181049,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrlte",
+     "lithology": true,
+     "iou": 0.9721287842383469,
+     "exact": false
+    },
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9721287842383469,
+     "exact": true
+    },
+    {
+     "truth": "Coal",
+     "pred": "Coal",
+     "lithology": true,
+     "iou": 0.9642654566080544,
+     "exact": true
+    }
+   ]
+  },
+  "v3": {
+   "n_truth": 10,
+   "n_pred": 16,
+   "n_detected": 10,
+   "n_exact": 8,
+   "n_matchable": 8,
+   "n_canonical": 8,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.8,
+   "matchable_accuracy": 0.8,
+   "canonical_accuracy": 0.8,
+   "details": [
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9917355371900827,
+     "exact": true
+    },
+    {
+     "truth": "Silty Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9915966386554622,
+     "exact": false
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Sand and Sandstone",
+     "pred": "Sand and",
+     "lithology": true,
+     "iou": 0.985797827903091,
+     "exact": false
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 0.9802037286181049,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9721287842383469,
+     "exact": true
+    },
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9721287842383469,
+     "exact": true
+    },
+    {
+     "truth": "Coal",
+     "pred": "Coal",
+     "lithology": true,
+     "iou": 0.9642654566080544,
+     "exact": true
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 10,
+   "n_pred": 16,
+   "n_detected": 10,
+   "n_exact": 9,
+   "n_matchable": 9,
+   "n_canonical": 9,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.9,
+   "matchable_accuracy": 0.9,
+   "canonical_accuracy": 0.9,
+   "details": [
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9917355371900827,
+     "exact": true
+    },
+    {
+     "truth": "Silty Sandstone",
+     "pred": "SIllty Sandstone",
+     "lithology": true,
+     "iou": 0.9915966386554622,
+     "exact": false
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 0.9883720930232558,
+     "exact": true
+    },
+    {
+     "truth": "Sand and Sandstone",
+     "pred": "Sand and Sandstone",
+     "lithology": true,
+     "iou": 0.985797827903091,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 0.9802037286181049,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9721287842383469,
+     "exact": true
+    },
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9721287842383469,
+     "exact": true
+    },
+    {
+     "truth": "Coal",
+     "pred": "Coal",
+     "lithology": true,
+     "iou": 0.9642654566080544,
+     "exact": true
+    }
+   ]
+  }
+ },
+ {
+  "log": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+  "well": "60808400140000_hadrian 2_masterlog_2in_10000-21962",
+  "family": "Geoservices grid",
+  "v1": {
+   "n_truth": 18,
+   "n_pred": 23,
+   "n_detected": 17,
+   "n_exact": 16,
+   "n_matchable": 16,
+   "n_canonical": 16,
+   "detection_recall": 0.9444444444444444,
+   "name_accuracy": 0.8888888888888888,
+   "matchable_accuracy": 0.8888888888888888,
+   "canonical_accuracy": 0.8888888888888888,
+   "details": [
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Marl",
+     "pred": "Marl",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Dolomitic clay",
+     "pred": "Dolomitic clay",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Tuff",
+     "pred": "Tuff",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Bitumen",
+     "pred": "Bitumen",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "sylvite",
+     "pred": "Sylvite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Gypsum",
+     "pred": "Gypsum",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand",
+     "pred": "Sand",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "silt",
+     "pred": "I!S",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": false
+    },
+    {
+     "truth": "shale green",
+     "pred": "Shale green",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Shale brown",
+     "pred": "Shale brown",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Shale grey",
+     "pred": "Shale grey",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    }
+   ]
+  },
+  "v3": {
+   "n_truth": 18,
+   "n_pred": 24,
+   "n_detected": 18,
+   "n_exact": 17,
+   "n_matchable": 17,
+   "n_canonical": 17,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.9444444444444444,
+   "matchable_accuracy": 0.9444444444444444,
+   "canonical_accuracy": 0.9444444444444444,
+   "details": [
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Marl",
+     "pred": "Marl",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Dolomitic clay",
+     "pred": "Dolomitic Clay",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Tuff",
+     "pred": "Tuff",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Bitumen",
+     "pred": "Bitumen",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "sylvite",
+     "pred": "Sylvite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Gypsum",
+     "pred": "Gypsum",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand",
+     "pred": "Sand",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sand",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": false
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "silt",
+     "pred": "Silt",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "shale green",
+     "pred": "Shale green",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Shale brown",
+     "pred": "Shale brown",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Shale grey",
+     "pred": "Shale grey",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 18,
+   "n_pred": 24,
+   "n_detected": 18,
+   "n_exact": 18,
+   "n_matchable": 18,
+   "n_canonical": 18,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 1.0,
+   "canonical_accuracy": 1.0,
+   "details": [
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Marl",
+     "pred": "Marl",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Dolomitic clay",
+     "pred": "dolomitic Clay",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Tuff",
+     "pred": "Tuff",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Bitumen",
+     "pred": "Bitumen",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "sylvite",
+     "pred": "Sylvite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Gypsum",
+     "pred": "Gypsum",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand",
+     "pred": "Sand",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "silt",
+     "pred": "Silt",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "shale green",
+     "pred": "Shale green",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Shale brown",
+     "pred": "Shale brown",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Shale grey",
+     "pred": "Shale grey",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    }
+   ]
+  }
+ },
+ {
+  "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "well": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "family": "Gulf 3-panel",
+  "v1": {
+   "n_truth": 15,
+   "n_pred": 25,
+   "n_detected": 15,
+   "n_exact": 15,
+   "n_matchable": 0,
+   "n_canonical": 0,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 0.0,
+   "canonical_accuracy": 0.0,
+   "details": [
+    {
+     "truth": "Gypsum",
+     "pred": "Gypsum",
+     "lithology": false,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": false,
+     "iou": 0.9895833333333334,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": false,
+     "iou": 0.9726027397260274,
+     "exact": true
+    },
+    {
+     "truth": "Volcanics",
+     "pred": "Volcanics",
+     "lithology": false,
+     "iou": 0.9690721649484536,
+     "exact": true
+    },
+    {
+     "truth": "Chert",
+     "pred": "Chert",
+     "lithology": false,
+     "iou": 0.9690721649484536,
+     "exact": true
+    },
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": false,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": false,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": false,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Granite",
+     "pred": "Granite",
+     "lithology": false,
+     "iou": 0.9489795918367347,
+     "exact": true
+    },
+    {
+     "truth": "Dolomitic limestone",
+     "pred": "Dolomitic limestone",
+     "lithology": false,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Marl",
+     "pred": "Marl",
+     "lithology": false,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": false,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": false,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Chalk",
+     "pred": "Chalk",
+     "lithology": false,
+     "iou": 0.9236256819135543,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": false,
+     "iou": 0.9226361031518625,
+     "exact": true
+    }
+   ]
+  },
+  "v3": {
+   "n_truth": 15,
+   "n_pred": 25,
+   "n_detected": 15,
+   "n_exact": 13,
+   "n_matchable": 13,
+   "n_canonical": 13,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.8666666666666667,
+   "matchable_accuracy": 0.8666666666666667,
+   "canonical_accuracy": 0.8666666666666667,
+   "details": [
+    {
+     "truth": "Gypsum",
+     "pred": "Gypsum",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9895833333333334,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9726027397260274,
+     "exact": true
+    },
+    {
+     "truth": "Volcanics",
+     "pred": "Volcanic",
+     "lithology": true,
+     "iou": 0.9690721649484536,
+     "exact": false
+    },
+    {
+     "truth": "Chert",
+     "pred": "Chert",
+     "lithology": true,
+     "iou": 0.9690721649484536,
+     "exact": true
+    },
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Granite",
+     "pred": "Volcanic",
+     "lithology": true,
+     "iou": 0.9489795918367347,
+     "exact": false
+    },
+    {
+     "truth": "Dolomitic limestone",
+     "pred": "Dolomitic Limestone",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Marl",
+     "pred": "Marl",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Chalk",
+     "pred": "Chalk",
+     "lithology": true,
+     "iou": 0.9236256819135543,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 0.9226361031518625,
+     "exact": true
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 15,
+   "n_pred": 25,
+   "n_detected": 15,
+   "n_exact": 15,
+   "n_matchable": 15,
+   "n_canonical": 15,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 1.0,
+   "canonical_accuracy": 1.0,
+   "details": [
+    {
+     "truth": "Gypsum",
+     "pred": "Gypsum",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9895833333333334,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9726027397260274,
+     "exact": true
+    },
+    {
+     "truth": "Volcanics",
+     "pred": "Volcanics",
+     "lithology": true,
+     "iou": 0.9690721649484536,
+     "exact": true
+    },
+    {
+     "truth": "Chert",
+     "pred": "Chert",
+     "lithology": true,
+     "iou": 0.9690721649484536,
+     "exact": true
+    },
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9626088197516769,
+     "exact": true
+    },
+    {
+     "truth": "Granite",
+     "pred": "Granite",
+     "lithology": true,
+     "iou": 0.9489795918367347,
+     "exact": true
+    },
+    {
+     "truth": "Dolomitic limestone",
+     "pred": "dolomitic Limestone",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Marl",
+     "pred": "Marl",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Halite",
+     "pred": "Halite",
+     "lithology": true,
+     "iou": 0.9429217293020627,
+     "exact": true
+    },
+    {
+     "truth": "Chalk",
+     "pred": "Chalk",
+     "lithology": true,
+     "iou": 0.9236256819135543,
+     "exact": true
+    },
+    {
+     "truth": "Clay",
+     "pred": "Clay",
+     "lithology": true,
+     "iou": 0.9226361031518625,
+     "exact": true
+    }
+   ]
+  }
+ },
+ {
+  "log": "60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968",
+  "well": "60817411400100_mc761_1_st1_mudlog_1tvd_17129_20968",
+  "family": "MC761 mineral/lithology",
+  "v1": {
+   "n_truth": 12,
+   "n_pred": 26,
+   "n_detected": 12,
+   "n_exact": 12,
+   "n_matchable": 11,
+   "n_canonical": 11,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 0.9166666666666666,
+   "canonical_accuracy": 0.9166666666666666,
+   "details": [
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "No Sample",
+     "pred": "No Sample",
+     "lithology": false,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Claystone",
+     "pred": "Claystone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Conglomerate",
+     "pred": "Conglomerate",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Breccia",
+     "pred": "Breccia",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Salt",
+     "pred": "Salt",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Marlstone",
+     "pred": "Marlstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    }
+   ]
+  },
+  "v3": {
+   "n_truth": 12,
+   "n_pred": 28,
+   "n_detected": 12,
+   "n_exact": 12,
+   "n_matchable": 11,
+   "n_canonical": 11,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 0.9166666666666666,
+   "canonical_accuracy": 0.9166666666666666,
+   "details": [
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "No Sample",
+     "pred": "No Sample",
+     "lithology": false,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Claystone",
+     "pred": "Claystone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Conglomerate",
+     "pred": "Conglomerate",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Breccia",
+     "pred": "Breccia",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Salt",
+     "pred": "Salt",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Marlstone",
+     "pred": "Marlstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 12,
+   "n_pred": 28,
+   "n_detected": 12,
+   "n_exact": 12,
+   "n_matchable": 11,
+   "n_canonical": 11,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 0.9166666666666666,
+   "canonical_accuracy": 0.9166666666666666,
+   "details": [
+    {
+     "truth": "Dolomite",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "No Sample",
+     "pred": "No Sample",
+     "lithology": false,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Limestone",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Claystone",
+     "pred": "Claystone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Conglomerate",
+     "pred": "Conglomerate",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Breccia",
+     "pred": "Breccia",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Shale",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Salt",
+     "pred": "Salt",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Siltstone",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Marlstone",
+     "pred": "Marlstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Sandstone",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    },
+    {
+     "truth": "Anhydrite",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.9743589743589743,
+     "exact": true
+    }
+   ]
+  }
+ },
+ {
+  "log": "Callaway 3-33 mudlog to TD.PDF",
+  "well": "Callaway 3-33 mudlog to TD.PDF",
+  "family": "Texas 'Rock Types' box",
+  "v1": {
+   "n_truth": 33,
+   "n_pred": 5,
+   "n_detected": 0,
+   "n_exact": 0,
+   "n_matchable": 0,
+   "n_canonical": 0,
+   "detection_recall": 0.0,
+   "name_accuracy": 0.0,
+   "matchable_accuracy": 0.0,
+   "canonical_accuracy": 0.0,
+   "details": []
+  },
+  "v3": {
+   "n_truth": 33,
+   "n_pred": 16,
+   "n_detected": 11,
+   "n_exact": 4,
+   "n_matchable": 4,
+   "n_canonical": 4,
+   "detection_recall": 0.3333333333333333,
+   "name_accuracy": 0.12121212121212122,
+   "matchable_accuracy": 0.12121212121212122,
+   "canonical_accuracy": 0.12121212121212122,
+   "details": [
+    {
+     "truth": "SILTSTONE",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "DOLOMITE",
+     "pred": "DOLOMITEXXXXXXNOSAMPLE",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": false
+    },
+    {
+     "truth": "SHALY SILTSTONE",
+     "pred": "Shale Siltstone",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": false
+    },
+    {
+     "truth": "METAMORPHIC",
+     "pred": "Metamorphic",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "ANHYDRITE",
+     "pred": "Anhydrite Conglomerate",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": false
+    },
+    {
+     "truth": "SHALY SANDSTONE",
+     "pred": "Shale Sandstone",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": false
+    },
+    {
+     "truth": "SALT- PEPPER SAND",
+     "pred": "Salt- PEPPER Sand",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "SALT",
+     "pred": "SALTSITYSHALE",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": false
+    },
+    {
+     "truth": "DOLOMITIC LIMESTONE",
+     "pred": "DOLOMITIC Limestone",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "IGNEOUS",
+     "pred": "IGNEOUSIC",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": false
+    },
+    {
+     "truth": "SANDSTONE",
+     "pred": "SANDSTONETUFF",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": false
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 33,
+   "n_pred": 33,
+   "n_detected": 33,
+   "n_exact": 33,
+   "n_matchable": 32,
+   "n_canonical": 32,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 0.9696969696969697,
+   "canonical_accuracy": 0.9696969696969697,
+   "details": [
+    {
+     "truth": "COAL",
+     "pred": "Coal",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "SILTSTONE",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "SHALY SILTSTONE",
+     "pred": "shaly Siltstone",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "SHALY SANDSTONE",
+     "pred": "shaly Sandstone",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "NO SAMPLE",
+     "pred": "NO SAMPLE",
+     "lithology": false,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "METAMORPHIC",
+     "pred": "Metamorphic",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "MARLSTONE",
+     "pred": "MARLSTONE",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "DOLOMITE",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "CONGLOMERATE",
+     "pred": "Conglomerate",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "BENTONITE",
+     "pred": "Bentonite",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "ANHYDRITE",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.989010989010989,
+     "exact": true
+    },
+    {
+     "truth": "TILL",
+     "pred": "Till",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "SILTY SHALE",
+     "pred": "silty Shale",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "SALT- PEPPER SAND",
+     "pred": "Salt-PEPPERSAND",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "SALT",
+     "pred": "Salt",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "GRANITE",
+     "pred": "Granite",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "DOLOMITIC LIMESTONE",
+     "pred": "dolomitic Limestone",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "CEMENT",
+     "pred": "CEMENT",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "BRECCIA",
+     "pred": "Breccia",
+     "lithology": true,
+     "iou": 0.8483896307934015,
+     "exact": true
+    },
+    {
+     "truth": "WELDED TUFF",
+     "pred": "WELDED Tuff",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "TUFF",
+     "pred": "Tuff",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "SHALE",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "SANDSTONE",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "IGNEOUS",
+     "pred": "IGNEOUS",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "GYPSUM",
+     "pred": "Gypsum",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "CHERT",
+     "pred": "Chert",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "CHALK",
+     "pred": "Chalk",
+     "lithology": true,
+     "iou": 0.7263389581804842,
+     "exact": true
+    },
+    {
+     "truth": "SHALE GRAY",
+     "pred": "Shale gray",
+     "lithology": true,
+     "iou": 0.6194081211286993,
+     "exact": true
+    },
+    {
+     "truth": "SHALE COLORED",
+     "pred": "Shale COLORED",
+     "lithology": true,
+     "iou": 0.6194081211286993,
+     "exact": true
+    },
+    {
+     "truth": "SIDERITE or LIMONITE",
+     "pred": "SIDERITE or LIMONITE",
+     "lithology": true,
+     "iou": 0.6194081211286993,
+     "exact": true
+    },
+    {
+     "truth": "LIMESTONE",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.6194081211286993,
+     "exact": true
+    },
+    {
+     "truth": "CLAYSTONE",
+     "pred": "CLAYSTONE",
+     "lithology": true,
+     "iou": 0.6194081211286993,
+     "exact": true
+    },
+    {
+     "truth": "CLAY CHOKE SAND",
+     "pred": "Clay CHOKE Sand",
+     "lithology": true,
+     "iou": 0.6194081211286993,
+     "exact": true
+    }
+   ]
+  }
+ },
+ {
+  "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "well": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "family": "MC765 colour grid",
+  "v1": {
+   "n_truth": 23,
+   "n_pred": 30,
+   "n_detected": 23,
+   "n_exact": 23,
+   "n_matchable": 23,
+   "n_canonical": 23,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 1.0,
+   "canonical_accuracy": 1.0,
+   "details": [
+    {
+     "truth": "Sand-CS",
+     "pred": "Sand-CS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-MS",
+     "pred": "Sand-MS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-FS",
+     "pred": "Sand-FS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-SS",
+     "pred": "Sand-SS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-SACS",
+     "pred": "Clay-SACS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-CCS",
+     "pred": "Clay-CCS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-M",
+     "pred": "Clay-M",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-SCS",
+     "pred": "Clay-SCS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-SIS",
+     "pred": "Sand-SIS",
+     "lithology": true,
+     "iou": 0.9846153846153847,
+     "exact": true
+    },
+    {
+     "truth": "Clay-S",
+     "pred": "Clay-S",
+     "lithology": true,
+     "iou": 0.9846153846153847,
+     "exact": true
+    },
+    {
+     "truth": "Others-CL",
+     "pred": "Others-CL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-E",
+     "pred": "Others-E",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-A",
+     "pred": "Others-A",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-H",
+     "pred": "Others-H",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-D",
+     "pred": "Dolomites-D",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-CD",
+     "pred": "Dolomites-CD",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-L",
+     "pred": "Limestone-L",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-SL",
+     "pred": "Limestone-SL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-AL",
+     "pred": "Limestone-AL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Sand-MSS",
+     "pred": "Sand-MSS",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-GY",
+     "pred": "Others-GY",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-AD",
+     "pred": "Dolomites-AD",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    },
+    {
+     "truth": "Sand-FSS",
+     "pred": "Sand-FSS",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    }
+   ]
+  },
+  "v3": {
+   "n_truth": 23,
+   "n_pred": 30,
+   "n_detected": 23,
+   "n_exact": 20,
+   "n_matchable": 20,
+   "n_canonical": 20,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.8695652173913043,
+   "matchable_accuracy": 0.8695652173913043,
+   "canonical_accuracy": 0.8695652173913043,
+   "details": [
+    {
+     "truth": "Sand-CS",
+     "pred": "Sand-CS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-MS",
+     "pred": "Sand-MS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-FS",
+     "pred": "Sand-FS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-SS",
+     "pred": "Sand-Ss",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-SACS",
+     "pred": "Clay-SACS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-CCS",
+     "pred": "Clay-CCS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-M",
+     "pred": "Clay-M",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-SCS",
+     "pred": "Clay-SCS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-SIS",
+     "pred": "Sand-SIS",
+     "lithology": true,
+     "iou": 0.9846153846153847,
+     "exact": true
+    },
+    {
+     "truth": "Clay-S",
+     "pred": "Clay-S",
+     "lithology": true,
+     "iou": 0.9846153846153847,
+     "exact": true
+    },
+    {
+     "truth": "Others-CL",
+     "pred": "Others-CL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-E",
+     "pred": "Others-E",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-A",
+     "pred": "Others-A",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-H",
+     "pred": "Others-H",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-D",
+     "pred": "Dolomite-D",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": false
+    },
+    {
+     "truth": "Dolomites-CD",
+     "pred": "Dolomite-CD",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": false
+    },
+    {
+     "truth": "Limestone-L",
+     "pred": "Limestone-L",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-SL",
+     "pred": "Limestone-SL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-AL",
+     "pred": "Limestone-AL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Sand-MSS",
+     "pred": "Sand-MSS",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-GY",
+     "pred": "Others-gy",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-AD",
+     "pred": "Dolomite-AD",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": false
+    },
+    {
+     "truth": "Sand-FSS",
+     "pred": "Sand-FSS",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 23,
+   "n_pred": 30,
+   "n_detected": 23,
+   "n_exact": 23,
+   "n_matchable": 23,
+   "n_canonical": 23,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 1.0,
+   "canonical_accuracy": 1.0,
+   "details": [
+    {
+     "truth": "Sand-CS",
+     "pred": "Sand-CS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-MS",
+     "pred": "Sand-MS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-FS",
+     "pred": "Sand-FS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-SS",
+     "pred": "Sand-Ss",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-SACS",
+     "pred": "Clay-SACS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-CCS",
+     "pred": "Clay-CCS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-M",
+     "pred": "Clay-M",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Clay-SCS",
+     "pred": "Clay-SCS",
+     "lithology": true,
+     "iou": 1.0,
+     "exact": true
+    },
+    {
+     "truth": "Sand-SIS",
+     "pred": "Sand-SIS",
+     "lithology": true,
+     "iou": 0.9846153846153847,
+     "exact": true
+    },
+    {
+     "truth": "Clay-S",
+     "pred": "Clay-S",
+     "lithology": true,
+     "iou": 0.9846153846153847,
+     "exact": true
+    },
+    {
+     "truth": "Others-CL",
+     "pred": "Others-CL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-E",
+     "pred": "Others-E",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-A",
+     "pred": "Others-A",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-H",
+     "pred": "Others-H",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-D",
+     "pred": "Dolomites-D",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-CD",
+     "pred": "Dolomites-CD",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-L",
+     "pred": "Limestone-L",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-SL",
+     "pred": "Limestone-SL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Limestone-AL",
+     "pred": "Limestone-AL",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Sand-MSS",
+     "pred": "Sand-MSS",
+     "lithology": true,
+     "iou": 0.9795918367346939,
+     "exact": true
+    },
+    {
+     "truth": "Others-GY",
+     "pred": "Others-gy",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    },
+    {
+     "truth": "Dolomites-AD",
+     "pred": "Dolomites-AD",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    },
+    {
+     "truth": "Sand-FSS",
+     "pred": "Sand-FSS",
+     "lithology": true,
+     "iou": 0.9645211930926216,
+     "exact": true
+    }
+   ]
+  }
+ },
+ {
+  "log": "Mudlog-Trail Mtn1Palisades",
+  "well": "Mudlog-Trail Mtn1Palisades",
+  "family": "One-off layout",
+  "v1": {
+   "n_truth": 16,
+   "n_pred": 16,
+   "n_detected": 16,
+   "n_exact": 16,
+   "n_matchable": 16,
+   "n_canonical": 16,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 1.0,
+   "canonical_accuracy": 1.0,
+   "details": [
+    {
+     "truth": "SALT",
+     "pred": "SALT",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SANDSTONE",
+     "pred": "SANDSTONE",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "COAL",
+     "pred": "COAL",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SILTSTONE",
+     "pred": "SILTSTONE",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "CONGLOMERATE",
+     "pred": "CONGLOMERATE",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SHALE",
+     "pred": "SHALE",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "IGNEOUS",
+     "pred": "IGNEOUS",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "CHERT",
+     "pred": "CHERT",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "TUFF",
+     "pred": "TUFF",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "BENTONITE",
+     "pred": "BENTONITE",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "METAMORPHIC",
+     "pred": "METAMORPHIC",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "ANHYDRITE",
+     "pred": "ANHYDRITE",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "GRANITE",
+     "pred": "GRANITE",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "DOLOMITE",
+     "pred": "DOLOMITE",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "VOLCANICS",
+     "pred": "VOLCANICS",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "LIMESTONE",
+     "pred": "LIMESTONE",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    }
+   ]
+  },
+  "v3": {
+   "n_truth": 16,
+   "n_pred": 16,
+   "n_detected": 16,
+   "n_exact": 15,
+   "n_matchable": 15,
+   "n_canonical": 15,
+   "detection_recall": 1.0,
+   "name_accuracy": 0.9375,
+   "matchable_accuracy": 0.9375,
+   "canonical_accuracy": 0.9375,
+   "details": [
+    {
+     "truth": "SALT",
+     "pred": "Salt",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SANDSTONE",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "COAL",
+     "pred": "Coal",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SILTSTONE",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "CONGLOMERATE",
+     "pred": "Conglomerate",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SHALE",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "IGNEOUS",
+     "pred": "IGNEOUS",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "CHERT",
+     "pred": "Chert",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "TUFF",
+     "pred": "Tuff",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "BENTONITE",
+     "pred": "Bentonite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "METAMORPHIC",
+     "pred": "Metamorphic",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "ANHYDRITE",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "GRANITE",
+     "pred": "Granite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "DOLOMITE",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "VOLCANICS",
+     "pred": "Volcanic",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": false
+    },
+    {
+     "truth": "LIMESTONE",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    }
+   ]
+  },
+  "v4": {
+   "n_truth": 16,
+   "n_pred": 16,
+   "n_detected": 16,
+   "n_exact": 16,
+   "n_matchable": 16,
+   "n_canonical": 16,
+   "detection_recall": 1.0,
+   "name_accuracy": 1.0,
+   "matchable_accuracy": 1.0,
+   "canonical_accuracy": 1.0,
+   "details": [
+    {
+     "truth": "SALT",
+     "pred": "Salt",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SANDSTONE",
+     "pred": "Sandstone",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "COAL",
+     "pred": "Coal",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SILTSTONE",
+     "pred": "Siltstone",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "CONGLOMERATE",
+     "pred": "Conglomerate",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "SHALE",
+     "pred": "Shale",
+     "lithology": true,
+     "iou": 0.9868421052631579,
+     "exact": true
+    },
+    {
+     "truth": "IGNEOUS",
+     "pred": "IGNEOUS",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "CHERT",
+     "pred": "Chert",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "TUFF",
+     "pred": "Tuff",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "BENTONITE",
+     "pred": "Bentonite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "METAMORPHIC",
+     "pred": "Metamorphic",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "ANHYDRITE",
+     "pred": "Anhydrite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "GRANITE",
+     "pred": "Granite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "DOLOMITE",
+     "pred": "Dolomite",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "VOLCANICS",
+     "pred": "VOLCANICS",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    },
+    {
+     "truth": "LIMESTONE",
+     "pred": "Limestone",
+     "lithology": true,
+     "iou": 0.936550793115086,
+     "exact": true
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,32 @@
+{
+  "source_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\s20_v4\\6b663182fbfb4f87.csv",
+  "source_sha256": "78ffa5139888c089737c559dc3db11851e43623ac88e34d49cd897230a3895d0",
+  "rows": 25,
+  "schema_policy": "two explicit formats; lower-depth alias only; no relabeling or scoring",
+  "coordinate_policy": "nonnegative full-image pixel coordinates; sorted, nonoverlapping, bottom exclusive",
+  "image_height_checked": 12050,
+  "notebook": {
+    "file": "6b663182fbfb4f87.notebook.csv",
+    "fields": [
+      "top_depth",
+      "bottom_depth",
+      "lithology",
+      "top_y",
+      "bottom_y",
+      "cluster_id"
+    ],
+    "sha256": "0b56698c61575a0a25bebf4dd87453e646b506e28ee1e27cd44aa58f78f81a29"
+  },
+  "slide": {
+    "file": "6b663182fbfb4f87.slide.csv",
+    "fields": [
+      "top_y",
+      "bottom_y",
+      "lithology",
+      "cluster_id",
+      "top_depth",
+      "base_depth"
+    ],
+    "sha256": "8ee841a8c495064ca37f63daf2e5f78154c4ddf9656f8cd2276969b5b8829249"
+  }
+}

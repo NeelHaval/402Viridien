@@ -1,0 +1,71 @@
+{
+  "strategy": "test",
+  "name": "Test",
+  "set": "eval",
+  "gt": "nonexistent",
+  "logs": [
+    {
+      "log": "outside",
+      "key": "outside__y0_10",
+      "window": [
+        0,
+        10
+      ],
+      "scored": true,
+      "legend_seconds": 5.699999746866524e-05,
+      "depth_seconds": 3.6299985367804766e-05,
+      "api_calls": 0,
+      "seconds": 4.099999205209315e-05,
+      "peak_rss_gb": 0.7213821411132812,
+      "peak_gpu_gb": 0.0,
+      "row_acc": 1.0,
+      "boundary_f1": 1.0,
+      "cluster_ari": 1.0,
+      "depth_mae_ft": null,
+      "score": 1.0,
+      "csv": "outside__y0_10.csv",
+      "png": "outside__y0_10.png"
+    },
+    {
+      "log": "outside",
+      "key": "outside__y20_30",
+      "window": [
+        20,
+        30
+      ],
+      "scored": true,
+      "legend_seconds": 9.850002243183553e-05,
+      "depth_seconds": 5.1000009989365935e-05,
+      "api_calls": 0,
+      "seconds": 2.1599989850074053e-05,
+      "peak_rss_gb": 0.7214202880859375,
+      "peak_gpu_gb": 0.0,
+      "row_acc": 1.0,
+      "boundary_f1": 1.0,
+      "cluster_ari": 1.0,
+      "depth_mae_ft": null,
+      "score": 1.0,
+      "csv": "outside__y20_30.csv",
+      "png": "outside__y20_30.png"
+    }
+  ],
+  "mean": {
+    "score": 1.0,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "seconds": 3.12999909510836e-05,
+    "peak_rss_gb": 0.7214012145996094,
+    "peak_gpu_gb": 0.0,
+    "api_calls": 0,
+    "legend_seconds": 7.775000995025039e-05,
+    "depth_seconds": 4.364999767858535e-05,
+    "crashes": 0,
+    "n_windows": 2,
+    "n_scored": 2
+  },
+  "gpu_measurement": "PyTorch peak reserved allocator bytes; RSS includes child processes",
+  "gt_dir": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\bakeoff\\out\\_tests\\runner_b355c951f90a4b2abced8b67f625186c\\truth",
+  "out_tag": "external"
+}

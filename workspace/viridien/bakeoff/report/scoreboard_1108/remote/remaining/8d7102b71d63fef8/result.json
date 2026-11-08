@@ -1,0 +1,139 @@
+{
+  "case": {
+    "case_id": "8d7102b71d63fef8",
+    "suite": "ext_dev",
+    "log": "ext_nl_storm_p083",
+    "y0": 177,
+    "y1": 1822,
+    "window": [
+      177,
+      1822
+    ],
+    "family": "unknown",
+    "well": "ext_nl_storm_p083",
+    "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests",
+    "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\images\\ext_nl_storm_p083.tif",
+    "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\bbox_annotation\\ext_nl_storm_p083.json",
+    "column_box": [
+      489,
+      177,
+      587,
+      1822
+    ],
+    "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\8d7102b71d63fef8.csv",
+    "truth_sources": [
+      {
+        "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\external_tests\\truth\\ext_nl_storm_p083.csv",
+        "sha256": "720d9c17edeccfc3f072026eb1dd751a7bfa702b679e86699ca65ce42224afd7"
+      }
+    ],
+    "truth_sha256": "720d9c17edeccfc3f072026eb1dd751a7bfa702b679e86699ca65ce42224afd7",
+    "image_sha256": "67c5a6d72550b7e00be86fed7806bdc9d27818af4be63aabf73d6c5978204e87",
+    "annotation_sha256": "9d7b335b35020cc7e080cb1253216e50e1b528fdc42fc65c257e40a281157943",
+    "note": "DEV only. External test and verify splits not opened."
+  },
+  "strategy": "s20_v4",
+  "strict": null,
+  "owner_equivalent": null,
+  "pixel_only_scores": {
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0
+  },
+  "result_role": "pixel_only_pending_shared_depth",
+  "seconds": 0.08223337400704622,
+  "runtime_scope": "VM CPU inference on locally decoded lossless window; not comparable to local source-page IO",
+  "calibration": null,
+  "calibration_signature": [
+    [
+      1275,
+      1827
+    ],
+    [
+      378,
+      177,
+      405,
+      1822
+    ],
+    "89c1d9a3df2d303e389f1f5c4c85c694e5127f51a653fd4a5094c7578855e2f5"
+  ],
+  "crop_rgb_sha256": "8cd7abb737ced8fe231fd0906d8e4b60f8e990e8b975b38a47f9414936311f47",
+  "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+  "source_sha256": {
+    "strategies/s20_v4.py": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+    "strategies/scoreboard_v4.py": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+    "harness/__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "harness/depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "emil/paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "labeltool/__init__.py": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "labeltool/common.py": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "labeltool/jev2.py": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "strategies/scoreboard_v4_snapshot/beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+    "strategies/scoreboard_v4_snapshot/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "strategies/scoreboard_v4_snapshot/log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+    "strategies/scoreboard_v4_snapshot/native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+    "strategies/scoreboard_v4_snapshot/README.md": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+    "labeltool/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419"
+  },
+  "prediction_sha256": "3690b9548fe24e6f306ff2a241f76d47702967213945da42501c9080227243d6",
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.2.6",
+    "pillow": "12.0.0",
+    "scipy": "1.14.1",
+    "scikit-image": "0.24.0",
+    "scikit-learn": "1.8.0",
+    "opencv-python-headless": "4.12.0.88",
+    "rapidocr-onnxruntime": "1.4.4"
+  },
+  "affinity": [
+    0,
+    1
+  ],
+  "peak_rss_kib": 159948,
+  "diagnostics": {
+    "native_cache_present": false,
+    "native_entries": 0,
+    "legend_entries": 0,
+    "state_counts": {
+      "unknown": 1
+    },
+    "source_sha256": {
+      "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+      "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+      "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+      "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+    },
+    "inference_extent": "window"
+  },
+  "seed": 1108,
+  "host": "box-node-1a94fd244c84a1f2",
+  "contract": "hacktheburgh harness.score.score, min_layer_px=0; not interval-v2",
+  "image": "source_truth_prediction.png",
+  "boxes": {
+    "depth_column": [
+      378,
+      177,
+      405,
+      1822
+    ],
+    "interpreted_lithology_column": [
+      489,
+      177,
+      587,
+      1822
+    ],
+    "lithology_legend": [
+      10,
+      0,
+      1134,
+      147
+    ]
+  },
+  "explanation": "Strict row accuracy is limited by mismatched or merged legend labels; inspect paired intervals for lost contacts. This is development evidence only."
+}

@@ -1,0 +1,7225 @@
+{
+ "ext_test": [
+  {
+   "log": "ext_idaho_irvin1-19_p001",
+   "v1": {
+    "n_truth": 59,
+    "n_pred": 59,
+    "n_detected": 59,
+    "n_exact": 11,
+    "n_matchable": 11,
+    "n_canonical": 12,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.1864406779661017,
+    "matchable_accuracy": 0.1864406779661017,
+    "canonical_accuracy": 0.2033898305084746,
+    "details": [
+     {
+      "truth": "Carbsh",
+      "pred": "Carhsh",
+      "lithology": true,
+      "iou": 0.7430593358737071,
+      "exact": false
+     },
+     {
+      "truth": "Sh sdy",
+      "pred": "Sh sdv",
+      "lithology": true,
+      "iou": 0.7430593358737071,
+      "exact": false
+     },
+     {
+      "truth": "Clyst ltgrn",
+      "pred": "Clvst Itarn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff dkgy",
+      "pred": "Tuff dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh dkgy",
+      "pred": "Sh dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss red brn",
+      "pred": "Ss red hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst wh",
+      "pred": "Sltst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls ltgy",
+      "pred": "I s ltav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Dol salmon",
+      "pred": "Dol salmon",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst wh",
+      "pred": "Clvst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff white",
+      "pred": "Tuff white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh tan",
+      "pred": "Sh tan",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss wh",
+      "pred": "Ss wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol brn",
+      "pred": "Dol hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst gygn",
+      "pred": "Clvst avan",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff ltgrn",
+      "pred": "Tuff Itarn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh vcol",
+      "pred": "Sh 1 vcol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss gn",
+      "pred": "Ss an",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst brn",
+      "pred": "Sltst hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol blk",
+      "pred": "Dol hlk",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst lt blue",
+      "pred": "Clvst It hlue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff lt blu",
+      "pred": "Tuff It hlu",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh gn",
+      "pred": "Sh an",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss lt blue",
+      "pred": "SsIt hlue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst rdbrn",
+      "pred": "Sltst rdhrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls crm",
+      "pred": "I s rrm",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst brn",
+      "pred": "Clvst hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff ltgy",
+      "pred": "Tuuff Itav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh brn",
+      "pred": "Sh hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss dkbrn",
+      "pred": "Ss dkhrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls gy",
+      "pred": "I s av",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls off wh",
+      "pred": "I s off wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Bent",
+      "pred": "Rent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst gy",
+      "pred": "Clvst av",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst tn",
+      "pred": "Clvst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh rdbrn",
+      "pred": "Sh rdhrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst tn",
+      "pred": "Sltst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls brn",
+      "pred": "I s hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls white",
+      "pred": "I s white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Basalt",
+      "pred": "Rasalt",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst rdbrn",
+      "pred": "Clvst rdhrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh ltgy",
+      "pred": "Sh Itav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss ltgy",
+      "pred": "Ss Itav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst ltgy",
+      "pred": "Sltst Itav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls wh",
+      "pred": "I s wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Igne",
+      "pred": "Iane",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Anhy wh",
+      "pred": "Anhv wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst dkgy",
+      "pred": "Clvst dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff orng",
+      "pred": "Tuff orna",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh medgy",
+      "pred": "Sh medav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss crs",
+      "pred": "Ss crs",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst dkgy",
+      "pred": "Sltst dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls tn",
+      "pred": "I s tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Dol gy",
+      "pred": "Dol av",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Anhy rose",
+      "pred": "Anhv rose",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 59,
+    "n_pred": 59,
+    "n_detected": 59,
+    "n_exact": 58,
+    "n_matchable": 58,
+    "n_canonical": 58,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.9830508474576272,
+    "matchable_accuracy": 0.9830508474576272,
+    "canonical_accuracy": 0.9830508474576272,
+    "details": [
+     {
+      "truth": "Carbsh",
+      "pred": "Carbsh",
+      "lithology": true,
+      "iou": 0.7430593358737071,
+      "exact": true
+     },
+     {
+      "truth": "Sh sdy",
+      "pred": "Sh sdy",
+      "lithology": true,
+      "iou": 0.7430593358737071,
+      "exact": true
+     },
+     {
+      "truth": "Clyst ltgrn",
+      "pred": "Clyst ltgrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff dkgy",
+      "pred": "Tuff dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh dkgy",
+      "pred": "Sh dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss red brn",
+      "pred": "Ss red brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst wh",
+      "pred": "Sltst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls ltgy",
+      "pred": "Ls ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol salmon",
+      "pred": "Dol salmon",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst wh",
+      "pred": "Clyst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff white",
+      "pred": "Tuff white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh tan",
+      "pred": "Sh tan",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss wh",
+      "pred": "Ss wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol brn",
+      "pred": "Dol brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst gygn",
+      "pred": "Clyst gygn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff ltgrn",
+      "pred": "Tuff ltgrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh vcol",
+      "pred": "Sh vcol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss gn",
+      "pred": "Ss gn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst brn",
+      "pred": "Sltst brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol blk",
+      "pred": "Dol blk",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst lt blue",
+      "pred": "Clyst lt blue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff lt blu",
+      "pred": "Tuff lt blu",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh gn",
+      "pred": "Sh gn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss lt blue",
+      "pred": "Ss lt blue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst rdbrn",
+      "pred": "Sltst rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls crm",
+      "pred": "Ls crm",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst brn",
+      "pred": "Clivst brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff ltgy",
+      "pred": "Tuff ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh brn",
+      "pred": "Sh brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss dkbrn",
+      "pred": "Ss dkbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls gy",
+      "pred": "Ls gy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls off wh",
+      "pred": "Ls off wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst gy",
+      "pred": "Clyst gy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst tn",
+      "pred": "Clyst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh rdbrn",
+      "pred": "Sh rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst tn",
+      "pred": "Sltst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls brn",
+      "pred": "Ls brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls white",
+      "pred": "Ls white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Basalt",
+      "pred": "Basalt",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst rdbrn",
+      "pred": "Clyst rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh ltgy",
+      "pred": "Sh ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss ltgy",
+      "pred": "Ss ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst ltgy",
+      "pred": "Sltst ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls wh",
+      "pred": "Ls wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Anhy wh",
+      "pred": "Anhy wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst dkgy",
+      "pred": "Clyst dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff orng",
+      "pred": "Tuff orng",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh medgy",
+      "pred": "Sh medgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss crs",
+      "pred": "Ss crs",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst dkgy",
+      "pred": "Sltst dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls tn",
+      "pred": "Ls tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol gy",
+      "pred": "Dol gy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Anhy rose",
+      "pred": "Anhy rose",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_idaho_irvin1-19_p002",
+   "v1": {
+    "n_truth": 59,
+    "n_pred": 59,
+    "n_detected": 59,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.3389830508474576,
+    "matchable_accuracy": 0.3389830508474576,
+    "canonical_accuracy": 0.3389830508474576,
+    "details": [
+     {
+      "truth": "Sh sdy",
+      "pred": "Sh sdv",
+      "lithology": true,
+      "iou": 0.8339060710194731,
+      "exact": false
+     },
+     {
+      "truth": "Carbsh",
+      "pred": "Carhsh",
+      "lithology": true,
+      "iou": 0.7430593358737071,
+      "exact": false
+     },
+     {
+      "truth": "Clyst ltgrn",
+      "pred": "Clvst Itarn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff dkgy",
+      "pred": "Tuff dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh dkgy",
+      "pred": "Sh dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss red brn",
+      "pred": "Ss red brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst wh",
+      "pred": "Sltst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls ltgy",
+      "pred": "Ls ltav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Dol salmon",
+      "pred": "Dol salmon",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst wh",
+      "pred": "Clvst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff white",
+      "pred": "Tuff white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh tan",
+      "pred": "Sh tan",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss wh",
+      "pred": "Ss wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol brn",
+      "pred": "Dol hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst gygn",
+      "pred": "Clvst avan",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff ltgrn",
+      "pred": "Tuff Itarn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh vcol",
+      "pred": "Sh vcol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss gn",
+      "pred": "Ss an",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst brn",
+      "pred": "Sltst brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol blk",
+      "pred": "Dol blk",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst lt blue",
+      "pred": "Clvst It hlue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff lt blu",
+      "pred": "Tuff It hlu",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh gn",
+      "pred": "Sh an",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss lt blue",
+      "pred": "Ss It hlue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst rdbrn",
+      "pred": "Sltst rdhrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls crm",
+      "pred": "I s crm",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst brn",
+      "pred": "Clvst brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff ltgy",
+      "pred": "Tuff Itav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh brn",
+      "pred": "Sh brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss dkbrn",
+      "pred": "Ss dkbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls gy",
+      "pred": "Ls av",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls off wh",
+      "pred": "Ls off wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst gy",
+      "pred": "Clvst av",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst tn",
+      "pred": "Clvst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh rdbrn",
+      "pred": "Sh rdhrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst tn",
+      "pred": "Sltst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls brn",
+      "pred": "I s hrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls white",
+      "pred": "I s white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Basalt",
+      "pred": "Rasalt",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst rdbrn",
+      "pred": "Clvst rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh ltgy",
+      "pred": "Sh ltav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss ltgy",
+      "pred": "Ss ltav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst ltgy",
+      "pred": "Sltst Itav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls wh",
+      "pred": "Ls wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "lane",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Anhy wh",
+      "pred": "Anhv wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst dkgy",
+      "pred": "Clvst dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Tuff orng",
+      "pred": "Tuff orna",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sh medgy",
+      "pred": "Sh medav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ss crs",
+      "pred": "Ss crs",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst dkgy",
+      "pred": "Sltst dkav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Ls tn",
+      "pred": "I s tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Dol gy",
+      "pred": "Dol av",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Anhy rose",
+      "pred": "Anhv rose",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 59,
+    "n_pred": 59,
+    "n_detected": 59,
+    "n_exact": 59,
+    "n_matchable": 59,
+    "n_canonical": 59,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Sh sdy",
+      "pred": "Sh sdy",
+      "lithology": true,
+      "iou": 0.8339060710194731,
+      "exact": true
+     },
+     {
+      "truth": "Carbsh",
+      "pred": "Carbsh",
+      "lithology": true,
+      "iou": 0.7430593358737071,
+      "exact": true
+     },
+     {
+      "truth": "Clyst ltgrn",
+      "pred": "Clyst ltgrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff dkgy",
+      "pred": "Tuff dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh dkgy",
+      "pred": "Sh dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss red brn",
+      "pred": "Ss red brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst wh",
+      "pred": "Sltst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls ltgy",
+      "pred": "Ls ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol salmon",
+      "pred": "Dol salmon",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst wh",
+      "pred": "Clyst wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff white",
+      "pred": "Tuff white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh tan",
+      "pred": "Sh tan",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss wh",
+      "pred": "Ss wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol brn",
+      "pred": "Dol brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst gygn",
+      "pred": "Clyst gygn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff ltgrn",
+      "pred": "Tuff ltgrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh vcol",
+      "pred": "Sh vcol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss gn",
+      "pred": "Ss gn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst brn",
+      "pred": "Sltst brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol tn",
+      "pred": "Dol tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol blk",
+      "pred": "Dol blk",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst lt blue",
+      "pred": "Clyst lt blue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff lt blu",
+      "pred": "Tuff lt blu",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh gn",
+      "pred": "Sh gn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss lt blue",
+      "pred": "Ss lt blue",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst rdbrn",
+      "pred": "Sltst rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls crm",
+      "pred": "Ls crm",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst brn",
+      "pred": "Clyst brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff ltgy",
+      "pred": "Tuff ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh brn",
+      "pred": "Sh brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss dkbrn",
+      "pred": "Ss dkbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls gy",
+      "pred": "Ls gy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls off wh",
+      "pred": "Ls off wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst gy",
+      "pred": "Clyst gy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst tn",
+      "pred": "Clyst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh rdbrn",
+      "pred": "Sh rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst tn",
+      "pred": "Sltst tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls brn",
+      "pred": "Ls brn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls white",
+      "pred": "Ls white",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Basalt",
+      "pred": "Basalt",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst rdbrn",
+      "pred": "Clyst rdbrn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh ltgy",
+      "pred": "Sh ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss ltgy",
+      "pred": "Ss ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst ltgy",
+      "pred": "Sltst ltgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls wh",
+      "pred": "Ls wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Anhy wh",
+      "pred": "Anhy wh",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst dkgy",
+      "pred": "Clyst dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Tuff orng",
+      "pred": "Tuff orng",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sh medgy",
+      "pred": "Sh medgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss crs",
+      "pred": "Ss crs",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst dkgy",
+      "pred": "Sltst dkgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ls tn",
+      "pred": "Ls tn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol gy",
+      "pred": "Dol gy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Anhy rose",
+      "pred": "Anhy rose",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p002",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p003",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p004",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p005",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p006",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p007",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_kgs_EmmaWard1_p008",
+   "v1": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 7,
+    "n_matchable": 7,
+    "n_canonical": 7,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.18421052631578946,
+    "matchable_accuracy": 0.18421052631578946,
+    "canonical_accuracy": 0.18421052631578946,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calr shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "I mv sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dolo new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carh sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "mv carhv sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "I mv ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Is",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkns",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arknsir snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": false
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPonr sortd SS",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sltv-shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Is -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "I s & nnids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-ls-sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdoln ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "I s shlv-h",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New dolnmite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 38,
+    "n_pred": 38,
+    "n_detected": 29,
+    "n_exact": 18,
+    "n_matchable": 18,
+    "n_canonical": 18,
+    "detection_recall": 0.7631578947368421,
+    "name_accuracy": 0.47368421052631576,
+    "matchable_accuracy": 0.47368421052631576,
+    "canonical_accuracy": 0.47368421052631576,
+    "details": [
+     {
+      "truth": "Calc shale",
+      "pred": "Calc Shale",
+      "lithology": true,
+      "iou": 0.7899305555555556,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy sh-2",
+      "pred": "Lmv Sh-2",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Dolo new",
+      "pred": "Dol new",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Carb sh",
+      "pred": "Carb Sh",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Lmy carby sh-3",
+      "pred": "Lmv ' carbv Sh-3",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy-ls-1",
+      "pred": "Sndv-Ls-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Lmy ss-1",
+      "pred": "Lmv Ss-1",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Sndy ool ls",
+      "pred": "Sndv ool Ls",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Stgensndy-arkos",
+      "pred": "Staensndv-arkos",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6846064814814815,
+      "exact": true
+     },
+     {
+      "truth": "Arkosic snd",
+      "pred": "Arkosic snd",
+      "lithology": true,
+      "iou": 0.6695601851851852,
+      "exact": true
+     },
+     {
+      "truth": "Poor sortd ss",
+      "pred": "IPoor sortd Ss",
+      "lithology": true,
+      "iou": 0.6410845588235294,
+      "exact": false
+     },
+     {
+      "truth": "Slty-shale",
+      "pred": "Sitv-Shale",
+      "lithology": true,
+      "iou": 0.6244212962962963,
+      "exact": false
+     },
+     {
+      "truth": "Oolitic ls -1",
+      "pred": "Oolitic Ls -1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls & ooids",
+      "pred": "Ls & ooids",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Snd-ls-sh",
+      "pred": "Snd-Ls-Sh",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Newdolo ls 2",
+      "pred": "Newdolo Ls 2",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "Ls shly-b",
+      "pred": "Ls shlv-b",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": false
+     },
+     {
+      "truth": "New dolomite",
+      "pred": "New Dolomite",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     },
+     {
+      "truth": "New ls-1",
+      "pred": "New Ls-1",
+      "lithology": true,
+      "iou": 0.5491898148148148,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p054",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 9,
+    "n_matchable": 9,
+    "n_canonical": 9,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.45,
+    "matchable_accuracy": 0.45,
+    "canonical_accuracy": 0.45,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "I mst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sitst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Igne",
+      "pred": "Iane",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Bent",
+      "pred": "Rent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p055",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 11,
+    "n_matchable": 11,
+    "n_canonical": 11,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.55,
+    "matchable_accuracy": 0.55,
+    "canonical_accuracy": 0.55,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "--- Sitst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Igne",
+      "pred": "-r lane",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Bent",
+      "pred": "Rent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p056",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 14,
+    "n_matchable": 14,
+    "n_canonical": 14,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.7,
+    "matchable_accuracy": 0.7,
+    "canonical_accuracy": 0.7,
+    "details": [
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "lane.",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p057",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 10,
+    "n_matchable": 10,
+    "n_canonical": 10,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.5,
+    "matchable_accuracy": 0.5,
+    "canonical_accuracy": 0.5,
+    "details": [
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shcol",
+      "pred": "Shcnl",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "--- Sitst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "-r lane",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Bent",
+      "pred": "Rent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p058",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 11,
+    "n_matchable": 11,
+    "n_canonical": 11,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.55,
+    "matchable_accuracy": 0.55,
+    "canonical_accuracy": 0.55,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "--- Sitst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Igne",
+      "pred": "-r lane",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Bent",
+      "pred": "Rent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6489419424850786,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p059",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 12,
+    "n_matchable": 12,
+    "n_canonical": 12,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.6,
+    "matchable_accuracy": 0.6,
+    "canonical_accuracy": 0.6,
+    "details": [
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Imst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "-r lane",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6418882257189366,
+      "exact": true
+     }
+    ]
+   }
+  },
+  {
+   "log": "ext_nl_flat-bay-3_p060",
+   "v1": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 9,
+    "n_matchable": 9,
+    "n_canonical": 9,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.45,
+    "matchable_accuracy": 0.45,
+    "canonical_accuracy": 0.45,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "I mst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Congl",
+      "pred": "Conal",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Brec",
+      "pred": "Rrer.",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sitst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Igne",
+      "pred": "Iane",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Coal",
+      "pred": "Cnal",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Bent",
+      "pred": "Rent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shav",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gvn",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clvst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhv",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": false
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 20,
+    "n_pred": 20,
+    "n_detected": 20,
+    "n_exact": 20,
+    "n_matchable": 20,
+    "n_canonical": 20,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 1.0,
+    "canonical_accuracy": 1.0,
+    "details": [
+     {
+      "truth": "Shcol",
+      "pred": "Shcol",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Shale",
+      "pred": "Shale",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Salt",
+      "pred": "Salt",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Mrlst",
+      "pred": "Mrlst",
+      "lithology": true,
+      "iou": 0.6849942726231386,
+      "exact": true
+     },
+     {
+      "truth": "Till",
+      "pred": "Till",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Meta",
+      "pred": "Meta",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Dol",
+      "pred": "Dol",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Cht",
+      "pred": "Cht",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Ss",
+      "pred": "Ss",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Lmst",
+      "pred": "Lmst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Congl",
+      "pred": "Congl",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Brec",
+      "pred": "Brec",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Sltst",
+      "pred": "Sltst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Igne",
+      "pred": "Igne",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Coal",
+      "pred": "Coal",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Bent",
+      "pred": "Bent",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Shgy",
+      "pred": "Shgy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Gyp",
+      "pred": "Gyp",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Clyst",
+      "pred": "Clyst",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     },
+     {
+      "truth": "Anhy",
+      "pred": "Anhy",
+      "lithology": true,
+      "iou": 0.6775486827033219,
+      "exact": true
+     }
+    ]
+   }
+  }
+ ],
+ "viridien_eval": [
+  {
+   "log": "60811405120000_1inch tvd mudlog",
+   "v1": {
+    "n_truth": 17,
+    "n_pred": 21,
+    "n_detected": 17,
+    "n_exact": 17,
+    "n_matchable": 10,
+    "n_canonical": 10,
+    "detection_recall": 1.0,
+    "name_accuracy": 1.0,
+    "matchable_accuracy": 0.5882352941176471,
+    "canonical_accuracy": 0.5882352941176471,
+    "details": [
+     {
+      "truth": "Diatoms",
+      "pred": "Diatoms",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Foraminifera",
+      "pred": "Foraminifera",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "RFT",
+      "pred": "RFT",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "LOT/FIT",
+      "pred": "LOT/FIT",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Shoe",
+      "pred": "Shoe",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "DST",
+      "pred": "DST",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Fossils",
+      "pred": "Fossils",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Evaporites",
+      "pred": "Evaporites",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Gypsum",
+      "pred": "Gypsum",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Halite",
+      "pred": "Halite",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Dolomite",
+      "pred": "Dolomite",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Limestone",
+      "pred": "Limestone",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Siltstone",
+      "pred": "Siltstone",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Sandy Clay/Shale",
+      "pred": "Sandy Clay/Shale",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Clay/Shale",
+      "pred": "Clay/Shale",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Conglomerate",
+      "pred": "Conglomerate",
+      "lithology": true,
+      "iou": 0.975609756097561,
+      "exact": true
+     },
+     {
+      "truth": "Sandstone",
+      "pred": "Sandstone",
+      "lithology": true,
+      "iou": 0.975609756097561,
+      "exact": true
+     }
+    ]
+   },
+   "v3": {
+    "n_truth": 17,
+    "n_pred": 21,
+    "n_detected": 17,
+    "n_exact": 15,
+    "n_matchable": 9,
+    "n_canonical": 10,
+    "detection_recall": 1.0,
+    "name_accuracy": 0.8823529411764706,
+    "matchable_accuracy": 0.5294117647058824,
+    "canonical_accuracy": 0.5882352941176471,
+    "details": [
+     {
+      "truth": "Diatoms",
+      "pred": "Diatoms",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Foraminifera",
+      "pred": "Foraminifera",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "RFT",
+      "pred": "RFT",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "LOT/FIT",
+      "pred": "LOTFIT",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": false
+     },
+     {
+      "truth": "Shoe",
+      "pred": "Shoe",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "DST",
+      "pred": "DST",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Fossils",
+      "pred": "Fossils",
+      "lithology": false,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Evaporites",
+      "pred": "Evaporites",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Gypsum",
+      "pred": "Gypsum",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Halite",
+      "pred": "Halite",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Dolomite",
+      "pred": "Dolomite",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Limestone",
+      "pred": "Limestone",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Siltstone",
+      "pred": "Siltstone",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Sandy Clay/Shale",
+      "pred": "Sand Clay/Shale",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": false
+     },
+     {
+      "truth": "Clay/Shale",
+      "pred": "Clay/Shale",
+      "lithology": true,
+      "iou": 1.0,
+      "exact": true
+     },
+     {
+      "truth": "Conglomerate",
+      "pred": "Conglomerate",
+      "lithology": true,
+      "iou": 0.975609756097561,
+      "exact": true
+     },
+     {
+      "truth": "Sandstone",
+      "pred": "Sandstone",
+      "lithology": true,
+      "iou": 0.975609756097561,
+      "exact": true
+     }
+    ]
+   }
+  }
+ ]
+}

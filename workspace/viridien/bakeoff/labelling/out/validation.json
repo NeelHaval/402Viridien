@@ -1,0 +1,40 @@
+{
+  "iterations": [
+    {
+      "iteration": 1,
+      "metrics": {
+        "S": {
+          "row_acc": 0.9878454878454879,
+          "boundary_f1": 0.9714285714285714,
+          "cluster_ari": 0.9682673279587072,
+          "depth_mae_ft": 0.3235294117647059,
+          "score": 0.9596213310499024
+        },
+        "T": {
+          "row_acc": 0.9865134865134865,
+          "boundary_f1": 0.9714285714285714,
+          "cluster_ari": 0.9626764503625769,
+          "depth_mae_ft": 0.3000000000003424,
+          "score": 0.9583273868988155
+        },
+        "consensus": {
+          "row_acc": 0.9866799866799867,
+          "boundary_f1": 0.8095238095238095,
+          "cluster_ari": 0.9637227247250251,
+          "depth_mae_ft": 0.31176470588252414,
+          "score": 0.7987409415980845
+        }
+      },
+      "agreed_only_accuracy": 0.9883177570093458,
+      "agreed_share": 0.9979384479458107,
+      "agreed_scored_rows": 5992,
+      "calls_used": 31,
+      "consensus_policy": "higher model confidence on disputed rows; S breaks ties",
+      "gold_read_after_predictions": true
+    }
+  ],
+  "baseline_row_acc": {
+    "A": 0.74,
+    "B": 0.32
+  }
+}

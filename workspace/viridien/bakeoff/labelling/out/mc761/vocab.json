@@ -1,0 +1,126 @@
+{
+  "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+  "entries": [
+    {
+      "label": "Anhydrite",
+      "box": [
+        1125,
+        59,
+        1333,
+        121
+      ],
+      "pattern": "Bright pink with scattered black chevron marks."
+    },
+    {
+      "label": "Sandstone",
+      "box": [
+        854,
+        145,
+        1074,
+        207
+      ],
+      "pattern": "Yellow with regularly spaced black dots."
+    },
+    {
+      "label": "Marlstone",
+      "box": [
+        1125,
+        145,
+        1367,
+        207
+      ],
+      "pattern": "Cyan with black horizontal lines and short upright ticks."
+    },
+    {
+      "label": "Siltstone",
+      "box": [
+        854,
+        231,
+        1049,
+        293
+      ],
+      "pattern": "Orange with staggered black horizontal dashes."
+    },
+    {
+      "label": "Salt",
+      "box": [
+        1125,
+        231,
+        1252,
+        293
+      ],
+      "pattern": "Magenta with black rectangular grid."
+    },
+    {
+      "label": "Shale",
+      "box": [
+        854,
+        317,
+        1000,
+        380
+      ],
+      "pattern": "Dark grey with staggered black horizontal dashes."
+    },
+    {
+      "label": "Breccia",
+      "box": [
+        1125,
+        317,
+        1297,
+        380
+      ],
+      "pattern": "Pale yellow with black dots and large angular outlined fragments."
+    },
+    {
+      "label": "Conglomerate",
+      "box": [
+        854,
+        403,
+        1122,
+        466
+      ],
+      "pattern": "Pale yellow with black dots and rounded outlined pebbles."
+    },
+    {
+      "label": "Claystone",
+      "box": [
+        1125,
+        403,
+        1333,
+        466
+      ],
+      "pattern": "Light grey with staggered short black horizontal dashes."
+    },
+    {
+      "label": "Limestone",
+      "box": [
+        854,
+        489,
+        1072,
+        552
+      ],
+      "pattern": "Blue with black brickwork hatch."
+    },
+    {
+      "label": "Dolomite",
+      "box": [
+        854,
+        575,
+        1053,
+        638
+      ],
+      "pattern": "Bright pink with black horizontal bands and short diagonal connecting marks."
+    }
+  ],
+  "image_size": [
+    1550,
+    746
+  ],
+  "source_box": [
+    0,
+    1295,
+    1223,
+    1884
+  ],
+  "method": "one vision call; no legend.parse dependency"
+}

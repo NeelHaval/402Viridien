@@ -1,0 +1,4058 @@
+[
+  {
+    "top_y": 1570,
+    "bottom_y": 1964,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.43962203064545763,
+      "match_margin": 0.47930190647919163,
+      "boundary_probability": 0.19146394729614258
+    }
+  },
+  {
+    "top_y": 1964,
+    "bottom_y": 1987,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.259769082069397,
+      "match_margin": 0.2624008059501648,
+      "boundary_probability": 0.8998861312866211
+    }
+  },
+  {
+    "top_y": 1987,
+    "bottom_y": 2005,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8722508549690247,
+      "match_margin": 0.11555039882659912,
+      "boundary_probability": 0.4189610481262207
+    }
+  },
+  {
+    "top_y": 2005,
+    "bottom_y": 2069,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1512632528319955,
+      "match_margin": 0.22144485171884298,
+      "boundary_probability": 0.9155316352844238
+    }
+  },
+  {
+    "top_y": 2069,
+    "bottom_y": 2091,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38488709926605225,
+      "match_margin": 0.4338763952255249,
+      "boundary_probability": 0.8578366041183472
+    }
+  },
+  {
+    "top_y": 2091,
+    "bottom_y": 2176,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22432306794559254,
+      "match_margin": 0.32449829648522766,
+      "boundary_probability": 0.9016663432121277
+    }
+  },
+  {
+    "top_y": 2176,
+    "bottom_y": 2211,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11374872922897339,
+      "match_margin": 0.02001088857650757,
+      "boundary_probability": 0.9041706323623657
+    }
+  },
+  {
+    "top_y": 2211,
+    "bottom_y": 2254,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.473578225734622,
+      "match_margin": 0.23469562308732855,
+      "boundary_probability": 0.6410958766937256
+    }
+  },
+  {
+    "top_y": 2254,
+    "bottom_y": 2280,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2039095163345337,
+      "match_margin": 0.12469655275344849,
+      "boundary_probability": 0.8171683549880981
+    }
+  },
+  {
+    "top_y": 2280,
+    "bottom_y": 2304,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3818051815032959,
+      "match_margin": 0.6144126653671265,
+      "boundary_probability": 0.5817105174064636
+    }
+  },
+  {
+    "top_y": 2304,
+    "bottom_y": 2330,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9781588315963745,
+      "match_margin": 0.01857781410217285,
+      "boundary_probability": 0.9884061813354492
+    }
+  },
+  {
+    "top_y": 2330,
+    "bottom_y": 2420,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16704167856110466,
+      "match_margin": 0.2164524687661065,
+      "boundary_probability": 0.9610207080841064
+    }
+  },
+  {
+    "top_y": 2420,
+    "bottom_y": 2436,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7030740976333618,
+      "match_margin": 0.12038969993591309,
+      "boundary_probability": 0.6341140270233154
+    }
+  },
+  {
+    "top_y": 2436,
+    "bottom_y": 2603,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.13974725272127253,
+      "match_margin": 0.2939349177354824,
+      "boundary_probability": 0.6666872501373291
+    }
+  },
+  {
+    "top_y": 2603,
+    "bottom_y": 2621,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36637747287750244,
+      "match_margin": 0.49638831615448,
+      "boundary_probability": 0.6468267440795898
+    }
+  },
+  {
+    "top_y": 2621,
+    "bottom_y": 2637,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8064398169517517,
+      "match_margin": 0.1736738681793213,
+      "boundary_probability": 0.9121642708778381
+    }
+  },
+  {
+    "top_y": 2637,
+    "bottom_y": 2661,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12466323375701904,
+      "match_margin": 0.0022230148315429688,
+      "boundary_probability": 0.7897701859474182
+    }
+  },
+  {
+    "top_y": 2661,
+    "bottom_y": 2825,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12171144747152561,
+      "match_margin": 0.2358884902262106,
+      "boundary_probability": 0.7622825503349304
+    }
+  },
+  {
+    "top_y": 2825,
+    "bottom_y": 2833,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5914489030838013,
+      "match_margin": 0.2350030541419983,
+      "boundary_probability": 0.7194274663925171
+    }
+  },
+  {
+    "top_y": 2833,
+    "bottom_y": 3037,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16379738493361687,
+      "match_margin": 0.21229897135269274,
+      "boundary_probability": 0.5090593099594116
+    }
+  },
+  {
+    "top_y": 3037,
+    "bottom_y": 3122,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.16379738493361687,
+      "match_margin": 0.21229897135269274,
+      "boundary_probability": 0.351140558719635
+    }
+  },
+  {
+    "top_y": 3122,
+    "bottom_y": 3138,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22170031070709229,
+      "match_margin": 0.11092150211334229,
+      "boundary_probability": 0.5439744591712952
+    }
+  },
+  {
+    "top_y": 3138,
+    "bottom_y": 3210,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3102966845035553,
+      "match_margin": 0.21985310481654274,
+      "boundary_probability": 0.4978633224964142
+    }
+  },
+  {
+    "top_y": 3210,
+    "bottom_y": 3229,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3128587007522583,
+      "match_margin": 0.3736279606819153,
+      "boundary_probability": 0.8738945722579956
+    }
+  },
+  {
+    "top_y": 3229,
+    "bottom_y": 3247,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47520434856414795,
+      "match_margin": 0.4202311038970947,
+      "boundary_probability": 0.8769262433052063
+    }
+  },
+  {
+    "top_y": 3247,
+    "bottom_y": 3354,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23059363788533432,
+      "match_margin": 0.28780005022744154,
+      "boundary_probability": 0.8451374769210815
+    }
+  },
+  {
+    "top_y": 3354,
+    "bottom_y": 3362,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5409035682678223,
+      "match_margin": 0.049910783767700195,
+      "boundary_probability": 0.8281736373901367
+    }
+  },
+  {
+    "top_y": 3362,
+    "bottom_y": 3385,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4453848600387573,
+      "match_margin": 0.47525203227996826,
+      "boundary_probability": 0.6283268928527832
+    }
+  },
+  {
+    "top_y": 3385,
+    "bottom_y": 3411,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18914413452148438,
+      "match_margin": 0.00819551944732666,
+      "boundary_probability": 0.6644563674926758
+    }
+  },
+  {
+    "top_y": 3411,
+    "bottom_y": 3451,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.05112295470586637,
+      "match_margin": 0.3981863929004204,
+      "boundary_probability": 0.1509181261062622
+    }
+  },
+  {
+    "top_y": 3451,
+    "bottom_y": 3493,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.05112295470586637,
+      "match_margin": 0.3981863929004204,
+      "boundary_probability": 0.015546593815088272
+    }
+  },
+  {
+    "top_y": 3493,
+    "bottom_y": 3518,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17606580257415771,
+      "match_margin": 0.002352476119995117,
+      "boundary_probability": 0.6807729005813599
+    }
+  },
+  {
+    "top_y": 3518,
+    "bottom_y": 3554,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3626648551887936,
+      "match_margin": 0.34246297180652624,
+      "boundary_probability": 0.9650024175643921
+    }
+  },
+  {
+    "top_y": 3554,
+    "bottom_y": 3577,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14690369367599487,
+      "match_margin": 0.07473868131637573,
+      "boundary_probability": 0.9190926551818848
+    }
+  },
+  {
+    "top_y": 3577,
+    "bottom_y": 3722,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49677703133944806,
+      "match_margin": 0.3122497616143063,
+      "boundary_probability": 0.7664194107055664
+    }
+  },
+  {
+    "top_y": 3722,
+    "bottom_y": 3730,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24633657932281494,
+      "match_margin": 0.07029449939727783,
+      "boundary_probability": 0.84494948387146
+    }
+  },
+  {
+    "top_y": 3730,
+    "bottom_y": 3738,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.447104811668396,
+      "match_margin": 0.18523597717285156,
+      "boundary_probability": 0.39598548412323
+    }
+  },
+  {
+    "top_y": 3738,
+    "bottom_y": 3767,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.03244888782501221,
+      "match_margin": 0.15278637409210205,
+      "boundary_probability": 0.7559783458709717
+    }
+  },
+  {
+    "top_y": 3767,
+    "bottom_y": 3799,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3269007205963135,
+      "match_margin": 0.547015905380249,
+      "boundary_probability": 0.9341217279434204
+    }
+  },
+  {
+    "top_y": 3799,
+    "bottom_y": 3825,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18100577066926396,
+      "match_margin": 0.1498293631217059,
+      "boundary_probability": 0.8606482744216919
+    }
+  },
+  {
+    "top_y": 3825,
+    "bottom_y": 3867,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18100577066926396,
+      "match_margin": 0.1498293631217059,
+      "boundary_probability": 0.12584947049617767
+    }
+  },
+  {
+    "top_y": 3867,
+    "bottom_y": 3875,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6356253623962402,
+      "match_margin": 0.3448912501335144,
+      "boundary_probability": 0.3368668556213379
+    }
+  },
+  {
+    "top_y": 3875,
+    "bottom_y": 3933,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1654980655374198,
+      "match_margin": 0.36265876991995455,
+      "boundary_probability": 0.9565550684928894
+    }
+  },
+  {
+    "top_y": 3933,
+    "bottom_y": 3945,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.261409539442796,
+      "match_margin": 0.279501158457536,
+      "boundary_probability": 0.8463418483734131
+    }
+  },
+  {
+    "top_y": 3945,
+    "bottom_y": 3985,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.261409539442796,
+      "match_margin": 0.279501158457536,
+      "boundary_probability": 0.3554570972919464
+    }
+  },
+  {
+    "top_y": 3985,
+    "bottom_y": 4124,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.22939352337404978,
+      "match_margin": 0.14122220252057632,
+      "boundary_probability": 0.9228684902191162
+    }
+  },
+  {
+    "top_y": 4124,
+    "bottom_y": 4155,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.0608370304107666,
+      "match_margin": 0.19280028343200684,
+      "boundary_probability": 0.8456078767776489
+    }
+  },
+  {
+    "top_y": 4155,
+    "bottom_y": 4202,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2375878095626831,
+      "match_margin": 0.057137131690979004,
+      "boundary_probability": 0.44927117228507996
+    }
+  },
+  {
+    "top_y": 4202,
+    "bottom_y": 4240,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14143598079681396,
+      "match_margin": 0.012215137481689453,
+      "boundary_probability": 0.9371196031570435
+    }
+  },
+  {
+    "top_y": 4240,
+    "bottom_y": 4251,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.41334468126296997,
+      "match_margin": 0.03576982021331787,
+      "boundary_probability": 0.2232392579317093
+    }
+  },
+  {
+    "top_y": 4251,
+    "bottom_y": 4270,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27358782291412354,
+      "match_margin": 0.6205399632453918,
+      "boundary_probability": 0.8227596282958984
+    }
+  },
+  {
+    "top_y": 4270,
+    "bottom_y": 4278,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5874922275543213,
+      "match_margin": 0.11607575416564941,
+      "boundary_probability": 0.911706268787384
+    }
+  },
+  {
+    "top_y": 4278,
+    "bottom_y": 4288,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8104466795921326,
+      "match_margin": 0.017831146717071533,
+      "boundary_probability": 0.6537115573883057
+    }
+  },
+  {
+    "top_y": 4288,
+    "bottom_y": 4321,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.03581722052592152,
+      "match_margin": 0.19332096711644586,
+      "boundary_probability": 0.8278838396072388
+    }
+  },
+  {
+    "top_y": 4321,
+    "bottom_y": 4341,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.03581722052592152,
+      "match_margin": 0.19332096711644586,
+      "boundary_probability": 0.18629519641399384
+    }
+  },
+  {
+    "top_y": 4341,
+    "bottom_y": 4434,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28235433499018353,
+      "match_margin": 0.20948761317037767,
+      "boundary_probability": 0.8999232053756714
+    }
+  },
+  {
+    "top_y": 4434,
+    "bottom_y": 4451,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7526074647903442,
+      "match_margin": 0.0802069902420044,
+      "boundary_probability": 0.4464627504348755
+    }
+  },
+  {
+    "top_y": 4451,
+    "bottom_y": 4484,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.052364349365234375,
+      "match_margin": 0.07797777652740479,
+      "boundary_probability": 0.566545307636261
+    }
+  },
+  {
+    "top_y": 4484,
+    "bottom_y": 4527,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21966791152954102,
+      "match_margin": 0.024795114994049072,
+      "boundary_probability": 0.7643923759460449
+    }
+  },
+  {
+    "top_y": 4527,
+    "bottom_y": 4569,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18281057000160217,
+      "match_margin": 0.2626624661684036,
+      "boundary_probability": 0.8753440380096436
+    }
+  },
+  {
+    "top_y": 4569,
+    "bottom_y": 4627,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18281057000160217,
+      "match_margin": 0.2626624661684036,
+      "boundary_probability": 0.8939878940582275
+    }
+  },
+  {
+    "top_y": 4627,
+    "bottom_y": 4651,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.15030744881697103,
+      "match_margin": 0.08576783076138564,
+      "boundary_probability": 0.6236058473587036
+    }
+  },
+  {
+    "top_y": 4651,
+    "bottom_y": 4698,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.15030744881697103,
+      "match_margin": 0.08576783076138564,
+      "boundary_probability": 0.599055290222168
+    }
+  },
+  {
+    "top_y": 4698,
+    "bottom_y": 4731,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.05320572853088379,
+      "match_margin": 0.3248661756515503,
+      "boundary_probability": 0.9280787706375122
+    }
+  },
+  {
+    "top_y": 4731,
+    "bottom_y": 4779,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4361911416053772,
+      "match_margin": 0.0642554759979248,
+      "boundary_probability": 0.7993505001068115
+    }
+  },
+  {
+    "top_y": 4779,
+    "bottom_y": 4814,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4099923372268677,
+      "match_margin": 0.055886924266815186,
+      "boundary_probability": 0.9345222115516663
+    }
+  },
+  {
+    "top_y": 4814,
+    "bottom_y": 4855,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10780813002727441,
+      "match_margin": 0.11934761711831629,
+      "boundary_probability": 0.8438900113105774
+    }
+  },
+  {
+    "top_y": 4855,
+    "bottom_y": 4895,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10780813002727441,
+      "match_margin": 0.11934761711831629,
+      "boundary_probability": 0.111114501953125
+    }
+  },
+  {
+    "top_y": 4895,
+    "bottom_y": 4938,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10780813002727441,
+      "match_margin": 0.11934761711831629,
+      "boundary_probability": 0.6059837341308594
+    }
+  },
+  {
+    "top_y": 4938,
+    "bottom_y": 4983,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10780813002727441,
+      "match_margin": 0.11934761711831629,
+      "boundary_probability": 0.574368417263031
+    }
+  },
+  {
+    "top_y": 4983,
+    "bottom_y": 5020,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28901731967926025,
+      "match_margin": 0.0722198486328125,
+      "boundary_probability": 0.9431056976318359
+    }
+  },
+  {
+    "top_y": 5020,
+    "bottom_y": 5036,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.24317258596420288,
+      "match_margin": 0.08312100172042847,
+      "boundary_probability": 0.7945774793624878
+    }
+  },
+  {
+    "top_y": 5036,
+    "bottom_y": 5063,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3303399085998535,
+      "match_margin": 0.08660000562667847,
+      "boundary_probability": 0.510118842124939
+    }
+  },
+  {
+    "top_y": 5063,
+    "bottom_y": 5101,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.04737257957458496,
+      "match_margin": 0.07255351543426514,
+      "boundary_probability": 0.12376994639635086
+    }
+  },
+  {
+    "top_y": 5101,
+    "bottom_y": 5109,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7342935800552368,
+      "match_margin": 0.23178833723068237,
+      "boundary_probability": 0.8070375919342041
+    }
+  },
+  {
+    "top_y": 5109,
+    "bottom_y": 5140,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4987350106239319,
+      "match_margin": 0.04135042428970337,
+      "boundary_probability": 0.8596222400665283
+    }
+  },
+  {
+    "top_y": 5140,
+    "bottom_y": 5183,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12831326386400763,
+      "match_margin": 0.1296365879874193,
+      "boundary_probability": 0.8725112080574036
+    }
+  },
+  {
+    "top_y": 5183,
+    "bottom_y": 5271,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12831326386400763,
+      "match_margin": 0.1296365879874193,
+      "boundary_probability": 0.047064654529094696
+    }
+  },
+  {
+    "top_y": 5271,
+    "bottom_y": 5301,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09808468818664551,
+      "match_margin": 0.09433406591415405,
+      "boundary_probability": 0.7180336713790894
+    }
+  },
+  {
+    "top_y": 5301,
+    "bottom_y": 5317,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7304158210754395,
+      "match_margin": 0.18514078855514526,
+      "boundary_probability": 0.7746891379356384
+    }
+  },
+  {
+    "top_y": 5317,
+    "bottom_y": 5349,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4975835680961609,
+      "match_margin": 0.016900479793548584,
+      "boundary_probability": 0.8589977622032166
+    }
+  },
+  {
+    "top_y": 5349,
+    "bottom_y": 5435,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.053901438103165736,
+      "match_margin": 0.15212378529615178,
+      "boundary_probability": 0.8150835037231445
+    }
+  },
+  {
+    "top_y": 5435,
+    "bottom_y": 5467,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3773440718650818,
+      "match_margin": 0.1204649806022644,
+      "boundary_probability": 0.703624963760376
+    }
+  },
+  {
+    "top_y": 5467,
+    "bottom_y": 5510,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19866074586198443,
+      "match_margin": 0.07977602311543056,
+      "boundary_probability": 0.8724710941314697
+    }
+  },
+  {
+    "top_y": 5510,
+    "bottom_y": 5553,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19866074586198443,
+      "match_margin": 0.07977602311543056,
+      "boundary_probability": 0.6548362374305725
+    }
+  },
+  {
+    "top_y": 5553,
+    "bottom_y": 5635,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19866074586198443,
+      "match_margin": 0.07977602311543056,
+      "boundary_probability": 0.04547390341758728
+    }
+  },
+  {
+    "top_y": 5635,
+    "bottom_y": 5715,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07213497161865234,
+      "match_margin": 0.11824345588684082,
+      "boundary_probability": 0.5151501297950745
+    }
+  },
+  {
+    "top_y": 5715,
+    "bottom_y": 5921,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1540358656818427,
+      "match_margin": 0.11320884713848817,
+      "boundary_probability": 0.0381992869079113
+    }
+  },
+  {
+    "top_y": 5921,
+    "bottom_y": 5929,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45501261949539185,
+      "match_margin": 0.49522900581359863,
+      "boundary_probability": 0.595573902130127
+    }
+  },
+  {
+    "top_y": 5929,
+    "bottom_y": 5972,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19442546367645264,
+      "match_margin": 0.09122002124786377,
+      "boundary_probability": 0.8513543605804443
+    }
+  },
+  {
+    "top_y": 5972,
+    "bottom_y": 5988,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42024242877960205,
+      "match_margin": 0.02313387393951416,
+      "boundary_probability": 0.5129137635231018
+    }
+  },
+  {
+    "top_y": 5988,
+    "bottom_y": 6047,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19583738355313318,
+      "match_margin": 0.19921326738292888,
+      "boundary_probability": 0.4178116023540497
+    }
+  },
+  {
+    "top_y": 6047,
+    "bottom_y": 6084,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4762386051384178,
+      "match_margin": 0.34316438275414546,
+      "boundary_probability": 0.9529218673706055
+    }
+  },
+  {
+    "top_y": 6084,
+    "bottom_y": 6101,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5601754188537598,
+      "match_margin": 0.02756357192993164,
+      "boundary_probability": 0.6571110486984253
+    }
+  },
+  {
+    "top_y": 6101,
+    "bottom_y": 6125,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6156419515609741,
+      "match_margin": 0.17477595806121826,
+      "boundary_probability": 0.8492866158485413
+    }
+  },
+  {
+    "top_y": 6125,
+    "bottom_y": 6169,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27348806776783685,
+      "match_margin": 0.2823261401870034,
+      "boundary_probability": 0.8458462953567505
+    }
+  },
+  {
+    "top_y": 6169,
+    "bottom_y": 6187,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5718555450439453,
+      "match_margin": 0.13305580615997314,
+      "boundary_probability": 0.9062790274620056
+    }
+  },
+  {
+    "top_y": 6187,
+    "bottom_y": 6318,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5075110106067803,
+      "match_margin": 0.08564785100121541,
+      "boundary_probability": 0.5099613070487976
+    }
+  },
+  {
+    "top_y": 6318,
+    "bottom_y": 6327,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5705834627151489,
+      "match_margin": 0.03564119338989258,
+      "boundary_probability": 0.8410623669624329
+    }
+  },
+  {
+    "top_y": 6327,
+    "bottom_y": 6336,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5267443656921387,
+      "match_margin": 0.11940014362335205,
+      "boundary_probability": 0.6594581604003906
+    }
+  },
+  {
+    "top_y": 6336,
+    "bottom_y": 6362,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.456991970539093,
+      "match_margin": 0.05556374788284302,
+      "boundary_probability": 0.9268942475318909
+    }
+  },
+  {
+    "top_y": 6362,
+    "bottom_y": 6379,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49144931751139026,
+      "match_margin": 0.012398383196662477,
+      "boundary_probability": 0.6461724042892456
+    }
+  },
+  {
+    "top_y": 6379,
+    "bottom_y": 6474,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2816260036669279,
+      "match_margin": 0.3070757878454108,
+      "boundary_probability": 0.7628173232078552
+    }
+  },
+  {
+    "top_y": 6474,
+    "bottom_y": 6495,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.431355357170105,
+      "match_margin": 0.021294593811035156,
+      "boundary_probability": 0.6929864883422852
+    }
+  },
+  {
+    "top_y": 6495,
+    "bottom_y": 6538,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27443039417266846,
+      "match_margin": 0.006066560745239258,
+      "boundary_probability": 0.818900465965271
+    }
+  },
+  {
+    "top_y": 6538,
+    "bottom_y": 6700,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2872512491396916,
+      "match_margin": 0.44083703152927356,
+      "boundary_probability": 0.9609849452972412
+    }
+  },
+  {
+    "top_y": 6700,
+    "bottom_y": 6740,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21068298816680908,
+      "match_margin": 0.02848970890045166,
+      "boundary_probability": 0.8231242895126343
+    }
+  },
+  {
+    "top_y": 6740,
+    "bottom_y": 6916,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47587422924962913,
+      "match_margin": 0.3425851352512836,
+      "boundary_probability": 0.9327956438064575
+    }
+  },
+  {
+    "top_y": 6916,
+    "bottom_y": 6941,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6763952374458313,
+      "match_margin": 0.02755051851272583,
+      "boundary_probability": 0.5381740927696228
+    }
+  },
+  {
+    "top_y": 6941,
+    "bottom_y": 6958,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5141115188598633,
+      "match_margin": 0.4012201428413391,
+      "boundary_probability": 0.8056588172912598
+    }
+  },
+  {
+    "top_y": 6958,
+    "bottom_y": 6980,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5167521834373474,
+      "match_margin": 0.024428069591522217,
+      "boundary_probability": 0.6100600957870483
+    }
+  },
+  {
+    "top_y": 6980,
+    "bottom_y": 7040,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.36572465896606443,
+      "match_margin": 0.571334731578827,
+      "boundary_probability": 0.8747031688690186
+    }
+  },
+  {
+    "top_y": 7040,
+    "bottom_y": 7064,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5406723022460938,
+      "match_margin": 0.10421204566955566,
+      "boundary_probability": 0.6849796772003174
+    }
+  },
+  {
+    "top_y": 7064,
+    "bottom_y": 7087,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5740765333175659,
+      "match_margin": 0.03140169382095337,
+      "boundary_probability": 0.8752161860466003
+    }
+  },
+  {
+    "top_y": 7087,
+    "bottom_y": 7105,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5594872832298279,
+      "match_margin": 0.08722299337387085,
+      "boundary_probability": 0.5219025015830994
+    }
+  },
+  {
+    "top_y": 7105,
+    "bottom_y": 7126,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28176987171173096,
+      "match_margin": 0.39191532135009766,
+      "boundary_probability": 0.8310869932174683
+    }
+  },
+  {
+    "top_y": 7126,
+    "bottom_y": 7144,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7990425825119019,
+      "match_margin": 0.04249846935272217,
+      "boundary_probability": 0.8768619298934937
+    }
+  },
+  {
+    "top_y": 7144,
+    "bottom_y": 7168,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4791560173034668,
+      "match_margin": 0.2178267240524292,
+      "boundary_probability": 0.8982722759246826
+    }
+  },
+  {
+    "top_y": 7168,
+    "bottom_y": 7186,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6081090569496155,
+      "match_margin": 0.017724931240081787,
+      "boundary_probability": 0.7359746694564819
+    }
+  },
+  {
+    "top_y": 7186,
+    "bottom_y": 7226,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23757219314575195,
+      "match_margin": 0.11421161890029907,
+      "boundary_probability": 0.8932640552520752
+    }
+  },
+  {
+    "top_y": 7226,
+    "bottom_y": 7260,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.25599753856658936,
+      "match_margin": 0.018757939338684082,
+      "boundary_probability": 0.7141300439834595
+    }
+  },
+  {
+    "top_y": 7260,
+    "bottom_y": 7279,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27535152435302734,
+      "match_margin": 0.06279772520065308,
+      "boundary_probability": 0.7379418611526489
+    }
+  },
+  {
+    "top_y": 7279,
+    "bottom_y": 7308,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4605563282966614,
+      "match_margin": 0.006890714168548584,
+      "boundary_probability": 0.863161563873291
+    }
+  },
+  {
+    "top_y": 7308,
+    "bottom_y": 7338,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.25352156162261963,
+      "match_margin": 0.018080055713653564,
+      "boundary_probability": 0.7221394777297974
+    }
+  },
+  {
+    "top_y": 7338,
+    "bottom_y": 7357,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6600518822669983,
+      "match_margin": 0.009279072284698486,
+      "boundary_probability": 0.9476332664489746
+    }
+  },
+  {
+    "top_y": 7357,
+    "bottom_y": 7376,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1945374608039856,
+      "match_margin": 0.4098323583602905,
+      "boundary_probability": 0.7719429731369019
+    }
+  },
+  {
+    "top_y": 7376,
+    "bottom_y": 7425,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.23859231447686954,
+      "match_margin": 0.2785552581962274,
+      "boundary_probability": 0.7326842546463013
+    }
+  },
+  {
+    "top_y": 7425,
+    "bottom_y": 7454,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11419373750686646,
+      "match_margin": 0.47364968061447144,
+      "boundary_probability": 0.8138534426689148
+    }
+  },
+  {
+    "top_y": 7454,
+    "bottom_y": 7464,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2854157846707564,
+      "match_margin": 0.1827221023730743,
+      "boundary_probability": 0.9216492772102356
+    }
+  },
+  {
+    "top_y": 7464,
+    "bottom_y": 7505,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2854157846707564,
+      "match_margin": 0.1827221023730743,
+      "boundary_probability": 0.5270371437072754
+    }
+  },
+  {
+    "top_y": 7505,
+    "bottom_y": 7532,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2854157846707564,
+      "match_margin": 0.1827221023730743,
+      "boundary_probability": 0.35970383882522583
+    }
+  },
+  {
+    "top_y": 7532,
+    "bottom_y": 7550,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8310743570327759,
+      "match_margin": 0.0880131721496582,
+      "boundary_probability": 0.7525844573974609
+    }
+  },
+  {
+    "top_y": 7550,
+    "bottom_y": 7641,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14233280014205765,
+      "match_margin": 0.4525848817039322,
+      "boundary_probability": 0.9084696173667908
+    }
+  },
+  {
+    "top_y": 7641,
+    "bottom_y": 7667,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.06444275379180908,
+      "match_margin": 0.28180164098739624,
+      "boundary_probability": 0.8457037210464478
+    }
+  },
+  {
+    "top_y": 7667,
+    "bottom_y": 7715,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.523235946893692,
+      "match_margin": 0.03832884629567468,
+      "boundary_probability": 0.5892990827560425
+    }
+  },
+  {
+    "top_y": 7715,
+    "bottom_y": 7741,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.19835573434829712,
+      "match_margin": 0.1598784327507019,
+      "boundary_probability": 0.8465569615364075
+    }
+  },
+  {
+    "top_y": 7741,
+    "bottom_y": 7758,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.664238452911377,
+      "match_margin": 0.3108865022659302,
+      "boundary_probability": 0.8835301399230957
+    }
+  },
+  {
+    "top_y": 7758,
+    "bottom_y": 7780,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5009738206863403,
+      "match_margin": 0.010411381721496582,
+      "boundary_probability": 0.9449082612991333
+    }
+  },
+  {
+    "top_y": 7780,
+    "bottom_y": 7806,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2342076301574707,
+      "match_margin": 0.16749095916748047,
+      "boundary_probability": 0.5222890973091125
+    }
+  },
+  {
+    "top_y": 7806,
+    "bottom_y": 7909,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3331371117564081,
+      "match_margin": 0.32504043301332347,
+      "boundary_probability": 0.7913296222686768
+    }
+  },
+  {
+    "top_y": 7909,
+    "bottom_y": 7961,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.38875136925623965,
+      "match_margin": 0.1820112008314867,
+      "boundary_probability": 0.9131643772125244
+    }
+  },
+  {
+    "top_y": 7961,
+    "bottom_y": 8015,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3423653487805967,
+      "match_margin": 0.2329432765642802,
+      "boundary_probability": 0.9281867742538452
+    }
+  },
+  {
+    "top_y": 8015,
+    "bottom_y": 8038,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1928333044052124,
+      "match_margin": 0.3480340242385864,
+      "boundary_probability": 0.7478585243225098
+    }
+  },
+  {
+    "top_y": 8038,
+    "bottom_y": 8147,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2132679169331122,
+      "match_margin": 0.5310531630428559,
+      "boundary_probability": 0.9078947901725769
+    }
+  },
+  {
+    "top_y": 8147,
+    "bottom_y": 8163,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49855661392211914,
+      "match_margin": 0.0806875228881836,
+      "boundary_probability": 0.6164666414260864
+    }
+  },
+  {
+    "top_y": 8163,
+    "bottom_y": 8179,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4101641774177551,
+      "match_margin": 0.3634071946144104,
+      "boundary_probability": 0.42119041085243225
+    }
+  },
+  {
+    "top_y": 8179,
+    "bottom_y": 8202,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5558047294616699,
+      "match_margin": 0.2701082229614258,
+      "boundary_probability": 0.7975120544433594
+    }
+  },
+  {
+    "top_y": 8202,
+    "bottom_y": 8350,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.31639832902599024,
+      "match_margin": 0.35295129627794836,
+      "boundary_probability": 0.7599188089370728
+    }
+  },
+  {
+    "top_y": 8350,
+    "bottom_y": 8366,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8294879198074341,
+      "match_margin": 0.07767170667648315,
+      "boundary_probability": 0.8528093695640564
+    }
+  },
+  {
+    "top_y": 8366,
+    "bottom_y": 8400,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09089958667755127,
+      "match_margin": 0.6610440015792847,
+      "boundary_probability": 0.8925255537033081
+    }
+  },
+  {
+    "top_y": 8400,
+    "bottom_y": 8408,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4871301054954529,
+      "match_margin": 0.04563361406326294,
+      "boundary_probability": 0.8343656063079834
+    }
+  },
+  {
+    "top_y": 8408,
+    "bottom_y": 8523,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2995386615876229,
+      "match_margin": 0.3883955201795024,
+      "boundary_probability": 0.9202889800071716
+    }
+  },
+  {
+    "top_y": 8523,
+    "bottom_y": 8563,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2995386615876229,
+      "match_margin": 0.3883955201795024,
+      "boundary_probability": 0.8601951599121094
+    }
+  },
+  {
+    "top_y": 8563,
+    "bottom_y": 8572,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42586326599121094,
+      "match_margin": 0.11330163478851318,
+      "boundary_probability": 0.8142857551574707
+    }
+  },
+  {
+    "top_y": 8572,
+    "bottom_y": 8596,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1726476550102234,
+      "match_margin": 0.6208940148353577,
+      "boundary_probability": 0.9550549983978271
+    }
+  },
+  {
+    "top_y": 8596,
+    "bottom_y": 8612,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5211771130561829,
+      "match_margin": 0.22344207763671875,
+      "boundary_probability": 0.5085116028785706
+    }
+  },
+  {
+    "top_y": 8612,
+    "bottom_y": 8725,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.208220741390127,
+      "match_margin": 0.32010917536980277,
+      "boundary_probability": 0.5536623001098633
+    }
+  },
+  {
+    "top_y": 8725,
+    "bottom_y": 8741,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21844244003295898,
+      "match_margin": 0.1627734899520874,
+      "boundary_probability": 0.8553900122642517
+    }
+  },
+  {
+    "top_y": 8741,
+    "bottom_y": 8757,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3524872064590454,
+      "match_margin": 0.2752680778503418,
+      "boundary_probability": 0.5660589337348938
+    }
+  },
+  {
+    "top_y": 8757,
+    "bottom_y": 8773,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.900111734867096,
+      "match_margin": 0.014012694358825684,
+      "boundary_probability": 0.8054643869400024
+    }
+  },
+  {
+    "top_y": 8773,
+    "bottom_y": 8828,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18793415481393988,
+      "match_margin": 0.4156198230656711,
+      "boundary_probability": 0.9734984636306763
+    }
+  },
+  {
+    "top_y": 8828,
+    "bottom_y": 8850,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.42747485637664795,
+      "match_margin": 0.11737489700317383,
+      "boundary_probability": 0.8205775618553162
+    }
+  },
+  {
+    "top_y": 8850,
+    "bottom_y": 8887,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40065514719164047,
+      "match_margin": 0.34930700546986354,
+      "boundary_probability": 0.9317237138748169
+    }
+  },
+  {
+    "top_y": 8887,
+    "bottom_y": 8910,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2938915491104126,
+      "match_margin": 0.05658674240112305,
+      "boundary_probability": 0.906109094619751
+    }
+  },
+  {
+    "top_y": 8910,
+    "bottom_y": 8935,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2714512348175049,
+      "match_margin": 0.04231756925582886,
+      "boundary_probability": 0.9133251905441284
+    }
+  },
+  {
+    "top_y": 8935,
+    "bottom_y": 8956,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28112030029296875,
+      "match_margin": 0.03368484973907471,
+      "boundary_probability": 0.849315881729126
+    }
+  },
+  {
+    "top_y": 8956,
+    "bottom_y": 8966,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.33892810344696045,
+      "match_margin": 0.05566304922103882,
+      "boundary_probability": 0.8568689823150635
+    }
+  },
+  {
+    "top_y": 8966,
+    "bottom_y": 8975,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.557580828666687,
+      "match_margin": 0.3704131841659546,
+      "boundary_probability": 0.6483268141746521
+    }
+  },
+  {
+    "top_y": 8975,
+    "bottom_y": 9020,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07898313601811727,
+      "match_margin": 0.20485103925069173,
+      "boundary_probability": 0.9255711436271667
+    }
+  },
+  {
+    "top_y": 9020,
+    "bottom_y": 9036,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4055706262588501,
+      "match_margin": 0.5311064124107361,
+      "boundary_probability": 0.9235535860061646
+    }
+  },
+  {
+    "top_y": 9036,
+    "bottom_y": 9057,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3966910243034363,
+      "match_margin": 0.11681926250457764,
+      "boundary_probability": 0.8863409161567688
+    }
+  },
+  {
+    "top_y": 9057,
+    "bottom_y": 9073,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.28123366832733154,
+      "match_margin": 0.10598641633987427,
+      "boundary_probability": 0.9290690422058105
+    }
+  },
+  {
+    "top_y": 9073,
+    "bottom_y": 9101,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2251596450805664,
+      "match_margin": 0.24116778373718262,
+      "boundary_probability": 0.7137176990509033
+    }
+  },
+  {
+    "top_y": 9101,
+    "bottom_y": 9120,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3441540598869324,
+      "match_margin": 0.5586641430854797,
+      "boundary_probability": 0.957115650177002
+    }
+  },
+  {
+    "top_y": 9120,
+    "bottom_y": 9138,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4732402563095093,
+      "match_margin": 0.05860930681228638,
+      "boundary_probability": 0.7286478877067566
+    }
+  },
+  {
+    "top_y": 9138,
+    "bottom_y": 9167,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.13282257318496704,
+      "match_margin": 0.3429375886917114,
+      "boundary_probability": 0.9070968627929688
+    }
+  },
+  {
+    "top_y": 9167,
+    "bottom_y": 9183,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.68597412109375,
+      "match_margin": 0.21799957752227783,
+      "boundary_probability": 0.9108633399009705
+    }
+  },
+  {
+    "top_y": 9183,
+    "bottom_y": 9222,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09835459635807918,
+      "match_margin": 0.20396601695280808,
+      "boundary_probability": 0.7706964015960693
+    }
+  },
+  {
+    "top_y": 9222,
+    "bottom_y": 9238,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9131984114646912,
+      "match_margin": 0.0809209942817688,
+      "boundary_probability": 0.9150380492210388
+    }
+  },
+  {
+    "top_y": 9238,
+    "bottom_y": 9258,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3694417476654053,
+      "match_margin": 0.0848085880279541,
+      "boundary_probability": 0.8948314189910889
+    }
+  },
+  {
+    "top_y": 9258,
+    "bottom_y": 9274,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5115005970001221,
+      "match_margin": 0.34551990032196045,
+      "boundary_probability": 0.9552478790283203
+    }
+  },
+  {
+    "top_y": 9274,
+    "bottom_y": 9296,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40351301431655884,
+      "match_margin": 0.027196884155273438,
+      "boundary_probability": 0.8761418461799622
+    }
+  },
+  {
+    "top_y": 9296,
+    "bottom_y": 9315,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5033226013183594,
+      "match_margin": 0.030443429946899414,
+      "boundary_probability": 0.8685809373855591
+    }
+  },
+  {
+    "top_y": 9315,
+    "bottom_y": 9333,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2384953498840332,
+      "match_margin": 0.02296227216720581,
+      "boundary_probability": 0.9188594818115234
+    }
+  },
+  {
+    "top_y": 9333,
+    "bottom_y": 9341,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2661818265914917,
+      "match_margin": 0.5431674122810364,
+      "boundary_probability": 0.3810838460922241
+    }
+  },
+  {
+    "top_y": 9341,
+    "bottom_y": 9365,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3595353364944458,
+      "match_margin": 0.17510592937469482,
+      "boundary_probability": 0.8270700573921204
+    }
+  },
+  {
+    "top_y": 9365,
+    "bottom_y": 9373,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5179290771484375,
+      "match_margin": 0.18818604946136475,
+      "boundary_probability": 0.9047688245773315
+    }
+  },
+  {
+    "top_y": 9373,
+    "bottom_y": 9383,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6557758450508118,
+      "match_margin": 0.1833934783935547,
+      "boundary_probability": 0.7134501934051514
+    }
+  },
+  {
+    "top_y": 9383,
+    "bottom_y": 9417,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.37468987703323364,
+      "match_margin": 0.18369704484939575,
+      "boundary_probability": 0.9359796047210693
+    }
+  },
+  {
+    "top_y": 9417,
+    "bottom_y": 9461,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.26308420300483704,
+      "match_margin": 0.13976476951078937,
+      "boundary_probability": 0.9154530763626099
+    }
+  },
+  {
+    "top_y": 9461,
+    "bottom_y": 9496,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.47418158054351806,
+      "match_margin": 0.038624085698808985,
+      "boundary_probability": 0.9227142333984375
+    }
+  },
+  {
+    "top_y": 9496,
+    "bottom_y": 9507,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4389788508415222,
+      "match_margin": 0.04309791326522827,
+      "boundary_probability": 0.7468239068984985
+    }
+  },
+  {
+    "top_y": 9507,
+    "bottom_y": 9533,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3395945429801941,
+      "match_margin": 0.30213528871536255,
+      "boundary_probability": 0.9502863883972168
+    }
+  },
+  {
+    "top_y": 9533,
+    "bottom_y": 9562,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1498401165008545,
+      "match_margin": 0.24436885118484497,
+      "boundary_probability": 0.9002325534820557
+    }
+  },
+  {
+    "top_y": 9562,
+    "bottom_y": 9575,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45439308881759644,
+      "match_margin": 0.037590980529785156,
+      "boundary_probability": 0.8736703395843506
+    }
+  },
+  {
+    "top_y": 9575,
+    "bottom_y": 9585,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3696655035018921,
+      "match_margin": 0.40253013372421265,
+      "boundary_probability": 0.7584354877471924
+    }
+  },
+  {
+    "top_y": 9585,
+    "bottom_y": 9601,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5228126645088196,
+      "match_margin": 0.37195104360580444,
+      "boundary_probability": 0.9796618819236755
+    }
+  },
+  {
+    "top_y": 9601,
+    "bottom_y": 9621,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5151406526565552,
+      "match_margin": 0.04228496551513672,
+      "boundary_probability": 0.8305423259735107
+    }
+  },
+  {
+    "top_y": 9621,
+    "bottom_y": 9640,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5078617930412292,
+      "match_margin": 0.172934889793396,
+      "boundary_probability": 0.927662193775177
+    }
+  },
+  {
+    "top_y": 9640,
+    "bottom_y": 9661,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6305146217346191,
+      "match_margin": 0.00011742115020751953,
+      "boundary_probability": 0.8668997287750244
+    }
+  },
+  {
+    "top_y": 9661,
+    "bottom_y": 9762,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44472248778484835,
+      "match_margin": 0.3725053780149705,
+      "boundary_probability": 0.8230040073394775
+    }
+  },
+  {
+    "top_y": 9762,
+    "bottom_y": 9785,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5321242809295654,
+      "match_margin": 0.07487499713897705,
+      "boundary_probability": 0.7884076833724976
+    }
+  },
+  {
+    "top_y": 9785,
+    "bottom_y": 9822,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5162027961498982,
+      "match_margin": 0.14385778034055563,
+      "boundary_probability": 0.8902841806411743
+    }
+  },
+  {
+    "top_y": 9822,
+    "bottom_y": 9850,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4951949119567871,
+      "match_margin": 0.017905354499816895,
+      "boundary_probability": 0.9140658378601074
+    }
+  },
+  {
+    "top_y": 9850,
+    "bottom_y": 9938,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09525606781244278,
+      "match_margin": 0.4806785359978676,
+      "boundary_probability": 0.8947818279266357
+    }
+  },
+  {
+    "top_y": 9938,
+    "bottom_y": 9984,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.034982878586341595,
+      "match_margin": 0.2158859396117857,
+      "boundary_probability": 0.9408066272735596
+    }
+  },
+  {
+    "top_y": 9984,
+    "bottom_y": 10063,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.034982878586341595,
+      "match_margin": 0.2158859396117857,
+      "boundary_probability": 0.053487516939640045
+    }
+  },
+  {
+    "top_y": 10063,
+    "bottom_y": 10112,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.034982878586341595,
+      "match_margin": 0.2158859396117857,
+      "boundary_probability": 0.026367738842964172
+    }
+  },
+  {
+    "top_y": 10112,
+    "bottom_y": 10130,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17796730995178223,
+      "match_margin": 0.5262609124183655,
+      "boundary_probability": 0.8402371406555176
+    }
+  },
+  {
+    "top_y": 10130,
+    "bottom_y": 10155,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.04947841167449951,
+      "match_margin": 0.3306010961532593,
+      "boundary_probability": 0.7962373495101929
+    }
+  },
+  {
+    "top_y": 10155,
+    "bottom_y": 10182,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.04625946283340454,
+      "match_margin": 0.4778352975845337,
+      "boundary_probability": 0.7951736450195312
+    }
+  },
+  {
+    "top_y": 10182,
+    "bottom_y": 10235,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.48915103921350445,
+      "match_margin": 0.02163972269813963,
+      "boundary_probability": 0.9415464997291565
+    }
+  },
+  {
+    "top_y": 10235,
+    "bottom_y": 10269,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11405783891677856,
+      "match_margin": 0.1667202192544937,
+      "boundary_probability": 0.8245426416397095
+    }
+  },
+  {
+    "top_y": 10269,
+    "bottom_y": 10351,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11405783891677856,
+      "match_margin": 0.1667202192544937,
+      "boundary_probability": 0.08906661719083786
+    }
+  },
+  {
+    "top_y": 10351,
+    "bottom_y": 10389,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11405783891677856,
+      "match_margin": 0.1667202192544937,
+      "boundary_probability": 0.022477125748991966
+    }
+  },
+  {
+    "top_y": 10389,
+    "bottom_y": 10435,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.11405783891677856,
+      "match_margin": 0.1667202192544937,
+      "boundary_probability": 0.36142170429229736
+    }
+  },
+  {
+    "top_y": 10435,
+    "bottom_y": 10467,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09610152244567871,
+      "match_margin": 0.4752981662750244,
+      "boundary_probability": 0.9074834585189819
+    }
+  },
+  {
+    "top_y": 10467,
+    "bottom_y": 10553,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.052252769470214844,
+      "match_margin": 0.07623600959777832,
+      "boundary_probability": 0.9588258862495422
+    }
+  },
+  {
+    "top_y": 10553,
+    "bottom_y": 10563,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3536493182182312,
+      "match_margin": 0.030761361122131348,
+      "boundary_probability": 0.05114717409014702
+    }
+  },
+  {
+    "top_y": 10563,
+    "bottom_y": 10592,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1157950758934021,
+      "match_margin": 0.009250104427337646,
+      "boundary_probability": 0.5381262898445129
+    }
+  },
+  {
+    "top_y": 10592,
+    "bottom_y": 10674,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10696711939603544,
+      "match_margin": 0.18178760400278315,
+      "boundary_probability": 0.16456064581871033
+    }
+  },
+  {
+    "top_y": 10674,
+    "bottom_y": 10755,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10696711939603544,
+      "match_margin": 0.18178760400278315,
+      "boundary_probability": 0.029287343844771385
+    }
+  },
+  {
+    "top_y": 10755,
+    "bottom_y": 10789,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10696711939603544,
+      "match_margin": 0.18178760400278315,
+      "boundary_probability": 0.09028586745262146
+    }
+  },
+  {
+    "top_y": 10789,
+    "bottom_y": 10836,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1504805568944324,
+      "match_margin": 0.1787152737379074,
+      "boundary_probability": 0.878886342048645
+    }
+  },
+  {
+    "top_y": 10836,
+    "bottom_y": 10877,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1504805568944324,
+      "match_margin": 0.1787152737379074,
+      "boundary_probability": 0.007277592085301876
+    }
+  },
+  {
+    "top_y": 10877,
+    "bottom_y": 10918,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.17774701990732333,
+      "match_margin": 0.12240978275857317,
+      "boundary_probability": 0.007396583911031485
+    }
+  },
+  {
+    "top_y": 10918,
+    "bottom_y": 10957,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.14130687713623047,
+      "match_margin": 0.0024367570877075195,
+      "boundary_probability": 0.11449643224477768
+    }
+  },
+  {
+    "top_y": 10957,
+    "bottom_y": 10996,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07002072748930557,
+      "match_margin": 0.017433575961900802,
+      "boundary_probability": 0.010249868035316467
+    }
+  },
+  {
+    "top_y": 10996,
+    "bottom_y": 11026,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07002072748930557,
+      "match_margin": 0.017433575961900802,
+      "boundary_probability": 0.017243193462491035
+    }
+  },
+  {
+    "top_y": 11026,
+    "bottom_y": 11039,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5027467012405396,
+      "match_margin": 0.27712833881378174,
+      "boundary_probability": 0.5059345960617065
+    }
+  },
+  {
+    "top_y": 11039,
+    "bottom_y": 11161,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.059574335324959676,
+      "match_margin": 0.16502899810916088,
+      "boundary_probability": 0.005623179487884045
+    }
+  },
+  {
+    "top_y": 11161,
+    "bottom_y": 11192,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.157487154006958,
+      "match_margin": 0.11387258768081665,
+      "boundary_probability": 0.7231773138046265
+    }
+  },
+  {
+    "top_y": 11192,
+    "bottom_y": 11200,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9776954054832458,
+      "match_margin": 0.019570350646972656,
+      "boundary_probability": 0.612092137336731
+    }
+  },
+  {
+    "top_y": 11200,
+    "bottom_y": 11209,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44770878553390503,
+      "match_margin": 0.004582762718200684,
+      "boundary_probability": 0.6387102603912354
+    }
+  },
+  {
+    "top_y": 11209,
+    "bottom_y": 11234,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5719605684280396,
+      "match_margin": 0.047834575176239014,
+      "boundary_probability": 0.9015272855758667
+    }
+  },
+  {
+    "top_y": 11234,
+    "bottom_y": 11242,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.687026858329773,
+      "match_margin": 0.18312829732894897,
+      "boundary_probability": 0.7457280158996582
+    }
+  },
+  {
+    "top_y": 11242,
+    "bottom_y": 11253,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1763918399810791,
+      "match_margin": 0.143618643283844,
+      "boundary_probability": 0.37823939323425293
+    }
+  },
+  {
+    "top_y": 11253,
+    "bottom_y": 11277,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40648531913757324,
+      "match_margin": 0.2274249792098999,
+      "boundary_probability": 0.6647113561630249
+    }
+  },
+  {
+    "top_y": 11277,
+    "bottom_y": 11298,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.33305227756500244,
+      "match_margin": 0.18685919046401978,
+      "boundary_probability": 0.7295207977294922
+    }
+  },
+  {
+    "top_y": 11298,
+    "bottom_y": 11359,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.44070125603284993,
+      "match_margin": 0.15039384951356982,
+      "boundary_probability": 0.4837304353713989
+    }
+  },
+  {
+    "top_y": 11359,
+    "bottom_y": 11400,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09120756387710571,
+      "match_margin": 0.0030857324600219727,
+      "boundary_probability": 0.8493994474411011
+    }
+  },
+  {
+    "top_y": 11400,
+    "bottom_y": 11421,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6451053619384766,
+      "match_margin": 0.12594962120056152,
+      "boundary_probability": 0.8551253080368042
+    }
+  },
+  {
+    "top_y": 11421,
+    "bottom_y": 11448,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12673791439636894,
+      "match_margin": 0.1367036088653233,
+      "boundary_probability": 0.6810784339904785
+    }
+  },
+  {
+    "top_y": 11448,
+    "bottom_y": 11528,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12673791439636894,
+      "match_margin": 0.1367036088653233,
+      "boundary_probability": 0.01757350191473961
+    }
+  },
+  {
+    "top_y": 11528,
+    "bottom_y": 11536,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12673791439636894,
+      "match_margin": 0.1367036088653233,
+      "boundary_probability": 0.526734471321106
+    }
+  },
+  {
+    "top_y": 11536,
+    "bottom_y": 11567,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.15965137124061585,
+      "match_margin": 0.30378263354301455,
+      "boundary_probability": 0.8444650173187256
+    }
+  },
+  {
+    "top_y": 11567,
+    "bottom_y": 11586,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.15965137124061585,
+      "match_margin": 0.30378263354301455,
+      "boundary_probability": 0.22478312253952026
+    }
+  },
+  {
+    "top_y": 11586,
+    "bottom_y": 11605,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.13414525985717773,
+      "match_margin": 0.11860060691833496,
+      "boundary_probability": 0.7958254218101501
+    }
+  },
+  {
+    "top_y": 11605,
+    "bottom_y": 11613,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.857733964920044,
+      "match_margin": 0.13474822044372559,
+      "boundary_probability": 0.44242870807647705
+    }
+  },
+  {
+    "top_y": 11613,
+    "bottom_y": 11643,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.18415379524230957,
+      "match_margin": 0.20784348249435425,
+      "boundary_probability": 0.9172043800354004
+    }
+  },
+  {
+    "top_y": 11643,
+    "bottom_y": 11702,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.08979157876160185,
+      "match_margin": 0.16660756074776087,
+      "boundary_probability": 0.9259923696517944
+    }
+  },
+  {
+    "top_y": 11702,
+    "bottom_y": 11785,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3330517475863537,
+      "match_margin": 0.37420814439474825,
+      "boundary_probability": 0.6940920948982239
+    }
+  },
+  {
+    "top_y": 11785,
+    "bottom_y": 11809,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2173361551982385,
+      "match_margin": 0.16697409914599526,
+      "boundary_probability": 0.8912580013275146
+    }
+  },
+  {
+    "top_y": 11809,
+    "bottom_y": 11893,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2173361551982385,
+      "match_margin": 0.16697409914599526,
+      "boundary_probability": 0.2202880084514618
+    }
+  },
+  {
+    "top_y": 11893,
+    "bottom_y": 11933,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3274093659027763,
+      "match_margin": 0.1610932268711351,
+      "boundary_probability": 0.61555016040802
+    }
+  },
+  {
+    "top_y": 11933,
+    "bottom_y": 11972,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3274093659027763,
+      "match_margin": 0.1610932268711351,
+      "boundary_probability": 0.02626977674663067
+    }
+  },
+  {
+    "top_y": 11972,
+    "bottom_y": 12014,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3274093659027763,
+      "match_margin": 0.1610932268711351,
+      "boundary_probability": 0.14593054354190826
+    }
+  },
+  {
+    "top_y": 12014,
+    "bottom_y": 12054,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3274093659027763,
+      "match_margin": 0.1610932268711351,
+      "boundary_probability": 0.38166263699531555
+    }
+  },
+  {
+    "top_y": 12054,
+    "bottom_y": 12094,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.06439858675003052,
+      "match_margin": 0.035275161266326904,
+      "boundary_probability": 0.05065668001770973
+    }
+  },
+  {
+    "top_y": 12094,
+    "bottom_y": 12197,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3464921712875366,
+      "match_margin": 0.04817485809326172,
+      "boundary_probability": 0.9040709733963013
+    }
+  },
+  {
+    "top_y": 12197,
+    "bottom_y": 12216,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4838775396347046,
+      "match_margin": 0.017194092273712158,
+      "boundary_probability": 0.8190543055534363
+    }
+  },
+  {
+    "top_y": 12216,
+    "bottom_y": 12238,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12438815832138062,
+      "match_margin": 0.08370202779769897,
+      "boundary_probability": 0.766548752784729
+    }
+  },
+  {
+    "top_y": 12238,
+    "bottom_y": 12255,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4061509249161701,
+      "match_margin": 0.07353739349209532,
+      "boundary_probability": 0.624742865562439
+    }
+  },
+  {
+    "top_y": 12255,
+    "bottom_y": 12298,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4061509249161701,
+      "match_margin": 0.07353739349209532,
+      "boundary_probability": 0.6552129983901978
+    }
+  },
+  {
+    "top_y": 12298,
+    "bottom_y": 12336,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4061509249161701,
+      "match_margin": 0.07353739349209532,
+      "boundary_probability": 0.8302686810493469
+    }
+  },
+  {
+    "top_y": 12336,
+    "bottom_y": 12384,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.35005784034729004,
+      "match_margin": 0.03483748435974121,
+      "boundary_probability": 0.6997628211975098
+    }
+  },
+  {
+    "top_y": 12384,
+    "bottom_y": 12411,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.37986862659454346,
+      "match_margin": 0.25273507833480835,
+      "boundary_probability": 0.810706615447998
+    }
+  },
+  {
+    "top_y": 12411,
+    "bottom_y": 12428,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7891051173210144,
+      "match_margin": 0.0943194031715393,
+      "boundary_probability": 0.6400249004364014
+    }
+  },
+  {
+    "top_y": 12428,
+    "bottom_y": 12455,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.10589599609375,
+      "match_margin": 0.233464777469635,
+      "boundary_probability": 0.8923057317733765
+    }
+  },
+  {
+    "top_y": 12455,
+    "bottom_y": 12479,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.663088321685791,
+      "match_margin": 0.05691182613372803,
+      "boundary_probability": 0.9109694361686707
+    }
+  },
+  {
+    "top_y": 12479,
+    "bottom_y": 12497,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.45491117238998413,
+      "match_margin": 0.004816234111785889,
+      "boundary_probability": 0.73597651720047
+    }
+  },
+  {
+    "top_y": 12497,
+    "bottom_y": 12520,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5251775979995728,
+      "match_margin": 0.03148084878921509,
+      "boundary_probability": 0.814858078956604
+    }
+  },
+  {
+    "top_y": 12520,
+    "bottom_y": 12542,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2084594964981079,
+      "match_margin": 0.03420531749725342,
+      "boundary_probability": 0.9293711185455322
+    }
+  },
+  {
+    "top_y": 12542,
+    "bottom_y": 12588,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.21396446228027344,
+      "match_margin": 0.07342922687530518,
+      "boundary_probability": 0.45433709025382996
+    }
+  },
+  {
+    "top_y": 12588,
+    "bottom_y": 12622,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.09664714336395264,
+      "match_margin": 0.07032942771911621,
+      "boundary_probability": 0.5342553853988647
+    }
+  },
+  {
+    "top_y": 12622,
+    "bottom_y": 12692,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.039529263973236084,
+      "match_margin": 0.09151417016983032,
+      "boundary_probability": 0.0243875440210104
+    }
+  },
+  {
+    "top_y": 12692,
+    "bottom_y": 12704,
+    "lithology": "L",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.325974702835083,
+      "match_margin": 0.0030590295791625977,
+      "boundary_probability": 0.8001495599746704
+    }
+  },
+  {
+    "top_y": 12704,
+    "bottom_y": 12788,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.20263099670410156,
+      "match_margin": 0.19539523124694824,
+      "boundary_probability": 0.058651648461818695
+    }
+  },
+  {
+    "top_y": 12788,
+    "bottom_y": 12805,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4182875156402588,
+      "match_margin": 0.05518138408660889,
+      "boundary_probability": 0.6498615741729736
+    }
+  },
+  {
+    "top_y": 12805,
+    "bottom_y": 12826,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12376987934112549,
+      "match_margin": 0.08321964740753174,
+      "boundary_probability": 0.47352874279022217
+    }
+  },
+  {
+    "top_y": 12826,
+    "bottom_y": 12834,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7320904731750488,
+      "match_margin": 0.13599294424057007,
+      "boundary_probability": 0.8059523105621338
+    }
+  },
+  {
+    "top_y": 12834,
+    "bottom_y": 12867,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1999408185482025,
+      "match_margin": 0.23654573730060036,
+      "boundary_probability": 0.8815974593162537
+    }
+  },
+  {
+    "top_y": 12867,
+    "bottom_y": 12904,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1999408185482025,
+      "match_margin": 0.23654573730060036,
+      "boundary_probability": 0.4838143587112427
+    }
+  },
+  {
+    "top_y": 12904,
+    "bottom_y": 12970,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2280064026514689,
+      "match_margin": 0.17063095352866434,
+      "boundary_probability": 0.8077762722969055
+    }
+  },
+  {
+    "top_y": 12970,
+    "bottom_y": 12996,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2333381175994873,
+      "match_margin": 0.06956148147583008,
+      "boundary_probability": 0.8074945211410522
+    }
+  },
+  {
+    "top_y": 12996,
+    "bottom_y": 13020,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.464404821395874,
+      "match_margin": 0.08190643787384033,
+      "boundary_probability": 0.6287767887115479
+    }
+  },
+  {
+    "top_y": 13020,
+    "bottom_y": 13037,
+    "lithology": "Salt Limett. Chert",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6352972984313965,
+      "match_margin": 0.10370403528213501,
+      "boundary_probability": 0.9217048287391663
+    }
+  },
+  {
+    "top_y": 13037,
+    "bottom_y": 13056,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34194672107696533,
+      "match_margin": 0.4343172311782837,
+      "boundary_probability": 0.9182777404785156
+    }
+  },
+  {
+    "top_y": 13056,
+    "bottom_y": 13073,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4679698944091797,
+      "match_margin": 0.06574255228042603,
+      "boundary_probability": 0.8060967326164246
+    }
+  },
+  {
+    "top_y": 13073,
+    "bottom_y": 13112,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.07625353336334229,
+      "match_margin": 0.3245314359664917,
+      "boundary_probability": 0.8155556917190552
+    }
+  },
+  {
+    "top_y": 13112,
+    "bottom_y": 13129,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.35695409774780273,
+      "match_margin": 0.10043156147003174,
+      "boundary_probability": 0.7930018305778503
+    }
+  },
+  {
+    "top_y": 13129,
+    "bottom_y": 13148,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3536507487297058,
+      "match_margin": 0.10026925802230835,
+      "boundary_probability": 0.5665231943130493
+    }
+  },
+  {
+    "top_y": 13148,
+    "bottom_y": 13191,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2753812247201016,
+      "match_margin": 0.19517498659460164,
+      "boundary_probability": 0.8398175239562988
+    }
+  },
+  {
+    "top_y": 13191,
+    "bottom_y": 13224,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.2753812247201016,
+      "match_margin": 0.19517498659460164,
+      "boundary_probability": 0.5141474008560181
+    }
+  },
+  {
+    "top_y": 13224,
+    "bottom_y": 13251,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5530658960342407,
+      "match_margin": 0.050753891468048096,
+      "boundary_probability": 0.9419947862625122
+    }
+  },
+  {
+    "top_y": 13251,
+    "bottom_y": 13276,
+    "lithology": "Silt sandy Congl",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.06069207191467285,
+      "match_margin": 0.2608678340911865,
+      "boundary_probability": 0.9496018290519714
+    }
+  },
+  {
+    "top_y": 13276,
+    "bottom_y": 13298,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.12107151746749878,
+      "match_margin": 0.09652131795883179,
+      "boundary_probability": 0.9380060434341431
+    }
+  },
+  {
+    "top_y": 13298,
+    "bottom_y": 13317,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5608441233634949,
+      "match_margin": 0.10217267274856567,
+      "boundary_probability": 0.7410930395126343
+    }
+  },
+  {
+    "top_y": 13317,
+    "bottom_y": 13341,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.026887834072113037,
+      "match_margin": 0.0527380108833313,
+      "boundary_probability": 0.6788471937179565
+    }
+  },
+  {
+    "top_y": 13341,
+    "bottom_y": 13394,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.39137311926427876,
+      "match_margin": 0.10407078266143799,
+      "boundary_probability": 0.8347183465957642
+    }
+  },
+  {
+    "top_y": 13394,
+    "bottom_y": 13433,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3272760751346747,
+      "match_margin": 0.22634025489290555,
+      "boundary_probability": 0.6867731809616089
+    }
+  },
+  {
+    "top_y": 13433,
+    "bottom_y": 13477,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3272760751346747,
+      "match_margin": 0.22634025489290555,
+      "boundary_probability": 0.13862311840057373
+    }
+  },
+  {
+    "top_y": 13477,
+    "bottom_y": 13595,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3272760751346747,
+      "match_margin": 0.22634025489290555,
+      "boundary_probability": 0.5984479784965515
+    }
+  },
+  {
+    "top_y": 13595,
+    "bottom_y": 13634,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3272760751346747,
+      "match_margin": 0.22634025489290555,
+      "boundary_probability": 0.09460724890232086
+    }
+  },
+  {
+    "top_y": 13634,
+    "bottom_y": 13664,
+    "lithology": "Vol",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.05196726322174072,
+      "match_margin": 0.012306451797485352,
+      "boundary_probability": 0.05351395905017853
+    }
+  },
+  {
+    "top_y": 13664,
+    "bottom_y": 13677,
+    "lithology": "Lignite or Coal",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7910819053649902,
+      "match_margin": 0.014224648475646973,
+      "boundary_probability": 0.7185111045837402
+    }
+  },
+  {
+    "top_y": 13677,
+    "bottom_y": 13718,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.32511741359059404,
+      "match_margin": 0.11738097522316909,
+      "boundary_probability": 0.0405084528028965
+    }
+  },
+  {
+    "top_y": 13718,
+    "bottom_y": 13777,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5558586639165878,
+      "match_margin": 0.37145477533340454,
+      "boundary_probability": 0.9831769466400146
+    }
+  },
+  {
+    "top_y": 13777,
+    "bottom_y": 13818,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5558586639165878,
+      "match_margin": 0.37145477533340454,
+      "boundary_probability": 0.3900276720523834
+    }
+  },
+  {
+    "top_y": 13818,
+    "bottom_y": 13840,
+    "lithology": "C",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3237141966819763,
+      "match_margin": 0.11391192674636841,
+      "boundary_probability": 0.5984455347061157
+    }
+  },
+  {
+    "top_y": 13840,
+    "bottom_y": 13868,
+    "lithology": "Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9955673217773438,
+      "match_margin": 0.004043221473693848,
+      "boundary_probability": 0.965846061706543
+    }
+  },
+  {
+    "top_y": 13868,
+    "bottom_y": 13887,
+    "lithology": "Inttu",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.34184569120407104,
+      "match_margin": 0.18238824605941772,
+      "boundary_probability": 0.962364673614502
+    }
+  }
+]

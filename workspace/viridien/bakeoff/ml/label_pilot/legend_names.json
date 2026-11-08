@@ -1,0 +1,600 @@
+{
+ "callaway": [
+  {
+   "id": 0,
+   "label": "CEMENT CHALK",
+   "is_lithology": true,
+   "swatch_box": [
+    77,
+    2255,
+    168,
+    2283
+   ]
+  },
+  {
+   "id": 1,
+   "label": "SALT-PEPPERSAND GRANITE SANDSTONE GYPSUM",
+   "is_lithology": true,
+   "swatch_box": [
+    350,
+    2254,
+    441,
+    2283
+   ]
+  },
+  {
+   "id": 2,
+   "label": "TILL TUFF WELDED TUFF",
+   "is_lithology": true,
+   "swatch_box": [
+    929,
+    2254,
+    1020,
+    2300
+   ]
+  },
+  {
+   "id": 3,
+   "label": "CHERT IGNEOUS LIMESTONE CLAYCHOKESAND CLAYSTONE SIDERITE or LIMONITE",
+   "is_lithology": true,
+   "swatch_box": [
+    77,
+    2290,
+    168,
+    2333
+   ]
+  },
+  {
+   "id": 4,
+   "label": "SHALE SHALE COLORED SHALE GRAY",
+   "is_lithology": true,
+   "swatch_box": [
+    649,
+    2289,
+    740,
+    2333
+   ]
+  }
+ ],
+ "freeman": [
+  {
+   "id": 0,
+   "label": "CHERT-GLASSY",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1189,
+    287,
+    1211
+   ]
+  },
+  {
+   "id": 1,
+   "label": "FELSIC SILIC DIKE",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1189,
+    539,
+    1211
+   ]
+  },
+  {
+   "id": 2,
+   "label": "MARL-CALC",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1189,
+    755,
+    1211
+   ]
+  },
+  {
+   "id": 3,
+   "label": "SANDSTONE",
+   "is_lithology": true,
+   "swatch_box": [
+    988,
+    1189,
+    1021,
+    1211
+   ]
+  },
+  {
+   "id": 4,
+   "label": "CHERT-PORCEL",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1214,
+    287,
+    1236
+   ]
+  },
+  {
+   "id": 5,
+   "label": "FOSSIL",
+   "is_lithology": false,
+   "swatch_box": [
+    505,
+    1214,
+    539,
+    1237
+   ]
+  },
+  {
+   "id": 6,
+   "label": "METAMORPHICS",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1214,
+    755,
+    1237
+   ]
+  },
+  {
+   "id": 7,
+   "label": "SANDSTONE-TUFFACE",
+   "is_lithology": true,
+   "swatch_box": [
+    988,
+    1214,
+    1021,
+    1237
+   ]
+  },
+  {
+   "id": 8,
+   "label": "ANHYDRITE",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1240,
+    56,
+    1262
+   ]
+  },
+  {
+   "id": 9,
+   "label": "GABBRO",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1240,
+    539,
+    1262
+   ]
+  },
+  {
+   "id": 10,
+   "label": "MUDSTONE",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1240,
+    755,
+    1262
+   ]
+  },
+  {
+   "id": 11,
+   "label": "GLASSYTUFF",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1265,
+    539,
+    1287
+   ]
+  },
+  {
+   "id": 12,
+   "label": "OBSIDIAN",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1265,
+    755,
+    1287
+   ]
+  },
+  {
+   "id": 13,
+   "label": "BENTONITE",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1291,
+    56,
+    1313
+   ]
+  },
+  {
+   "id": 14,
+   "label": "GRANITE",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1291,
+    539,
+    1313
+   ]
+  },
+  {
+   "id": 15,
+   "label": "PALEOSOL",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1291,
+    755,
+    1313
+   ]
+  },
+  {
+   "id": 16,
+   "label": "BIOTITIZATION",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1316,
+    56,
+    1338
+   ]
+  },
+  {
+   "id": 17,
+   "label": "GRANITE WASH",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1316,
+    539,
+    1338
+   ]
+  },
+  {
+   "id": 18,
+   "label": "BRECCIA",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1342,
+    56,
+    1364
+   ]
+  },
+  {
+   "id": 19,
+   "label": "CALCARENITE",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1367,
+    56,
+    1389
+   ]
+  },
+  {
+   "id": 20,
+   "label": "GYPSUM",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1367,
+    539,
+    1389
+   ]
+  },
+  {
+   "id": 21,
+   "label": "PORCELANEOUSCLYS",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1367,
+    755,
+    1385
+   ]
+  },
+  {
+   "id": 22,
+   "label": "CALCAREOUSTUFF",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1392,
+    56,
+    1414
+   ]
+  },
+  {
+   "id": 23,
+   "label": "COAL",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1392,
+    287,
+    1414
+   ]
+  },
+  {
+   "id": 24,
+   "label": "HALITE",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1392,
+    539,
+    1415
+   ]
+  },
+  {
+   "id": 25,
+   "label": "PYRITE",
+   "is_lithology": false,
+   "swatch_box": [
+    722,
+    1392,
+    755,
+    1415
+   ]
+  },
+  {
+   "id": 26,
+   "label": "CALCILUTITE",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1418,
+    56,
+    1440
+   ]
+  },
+  {
+   "id": 27,
+   "label": "CONGLOMERATE",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1418,
+    287,
+    1440
+   ]
+  },
+  {
+   "id": 28,
+   "label": "CARBONATES",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1443,
+    56,
+    1465
+   ]
+  },
+  {
+   "id": 29,
+   "label": "CONGL.SAND",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1443,
+    287,
+    1466
+   ]
+  },
+  {
+   "id": 30,
+   "label": "IGNEOUS (ACIDIC)",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1443,
+    539,
+    1466
+   ]
+  },
+  {
+   "id": 31,
+   "label": "CARBONACEOUSMAT",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1469,
+    56,
+    1491
+   ]
+  },
+  {
+   "id": 32,
+   "label": "CONGL.SANDSTONE",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1469,
+    287,
+    1491
+   ]
+  },
+  {
+   "id": 33,
+   "label": "IGNEOUS (BASIC)",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1469,
+    539,
+    1491
+   ]
+  },
+  {
+   "id": 34,
+   "label": "COQUINA",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1494,
+    287,
+    1517
+   ]
+  },
+  {
+   "id": 35,
+   "label": "INTRUSIVES",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1494,
+    539,
+    1516
+   ]
+  },
+  {
+   "id": 36,
+   "label": "QUARTZMONZONITE",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1494,
+    756,
+    1516
+   ]
+  },
+  {
+   "id": 37,
+   "label": "CEMENTCONTAM.",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1520,
+    56,
+    1542
+   ]
+  },
+  {
+   "id": 38,
+   "label": "RECRYSTALLIZEDCALC",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1520,
+    756,
+    1542
+   ]
+  },
+  {
+   "id": 39,
+   "label": "DIATOMITE",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1545,
+    287,
+    1568
+   ]
+  },
+  {
+   "id": 40,
+   "label": "LIMESTONE",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1545,
+    539,
+    1568
+   ]
+  },
+  {
+   "id": 41,
+   "label": "RHYOLITE",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1545,
+    756,
+    1567
+   ]
+  },
+  {
+   "id": 42,
+   "label": "CRYSTALLINE TUFF",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1571,
+    56,
+    1593
+   ]
+  },
+  {
+   "id": 43,
+   "label": "LITHIC TUFF",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1571,
+    539,
+    1593
+   ]
+  },
+  {
+   "id": 44,
+   "label": "SALT",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1571,
+    755,
+    1593
+   ]
+  },
+  {
+   "id": 45,
+   "label": "CHERT-ARGILL",
+   "is_lithology": true,
+   "swatch_box": [
+    22,
+    1596,
+    56,
+    1618
+   ]
+  },
+  {
+   "id": 46,
+   "label": "DOLOSTONE",
+   "is_lithology": true,
+   "swatch_box": [
+    253,
+    1596,
+    287,
+    1619
+   ]
+  },
+  {
+   "id": 47,
+   "label": "MARL-DOLO",
+   "is_lithology": true,
+   "swatch_box": [
+    505,
+    1596,
+    539,
+    1618
+   ]
+  },
+  {
+   "id": 48,
+   "label": "SAND",
+   "is_lithology": true,
+   "swatch_box": [
+    722,
+    1596,
+    755,
+    1619
+   ]
+  }
+ ]
+}

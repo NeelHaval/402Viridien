@@ -1,0 +1,124 @@
+{
+ "format": "bakeoff/SPEC.md: six-column interval CSV, full-image pixel rows, bottom exclusive, depths rounded to 0.1",
+ "notebook": "No example_notebook.ipynb present in the configured dataset; SPEC.md is the requested fallback",
+ "coverage": "The 13 fixed evaluation windows, not unprocessed portions of the full logs",
+ "checks": [
+  {
+   "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+   "rows": 18,
+   "valid": true,
+   "window": [
+    4404,
+    11195
+   ]
+  },
+  {
+   "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+   "rows": 21,
+   "valid": true,
+   "window": [
+    4387,
+    10387
+   ]
+  },
+  {
+   "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+   "rows": 22,
+   "valid": true,
+   "window": [
+    4384,
+    10384
+   ]
+  },
+  {
+   "log": "60807402860000_gb506#2_md_mudlog",
+   "rows": 139,
+   "valid": true,
+   "window": [
+    1728,
+    7728
+   ]
+  },
+  {
+   "log": "60811405120000_1inch tvd mudlog",
+   "rows": 46,
+   "valid": true,
+   "window": [
+    1501,
+    7501
+   ]
+  },
+  {
+   "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+   "rows": 65,
+   "valid": true,
+   "window": [
+    2343,
+    8343
+   ]
+  },
+  {
+   "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+   "rows": 36,
+   "valid": true,
+   "window": [
+    11438,
+    17438
+   ]
+  },
+  {
+   "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+   "rows": 36,
+   "valid": true,
+   "window": [
+    2927,
+    8927
+   ]
+  },
+  {
+   "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+   "rows": 1,
+   "valid": true,
+   "window": [
+    2699,
+    8699
+   ]
+  },
+  {
+   "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+   "rows": 20,
+   "valid": true,
+   "window": [
+    5480,
+    11480
+   ]
+  },
+  {
+   "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+   "rows": 14,
+   "valid": true,
+   "window": [
+    7623,
+    13623
+   ]
+  },
+  {
+   "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+   "rows": 73,
+   "valid": true,
+   "window": [
+    7363,
+    13363
+   ]
+  },
+  {
+   "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+   "rows": 25,
+   "valid": true,
+   "window": [
+    1698,
+    6832
+   ]
+  }
+ ]
+}

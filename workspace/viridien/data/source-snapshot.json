@@ -1,0 +1,4341 @@
+{
+ "note": "Hashes describe the copied source before publication portability edits. They do not hash the final Git commit.",
+ "files": [
+  {
+   "source": "viridien_work/bakeoff/SPEC.md",
+   "path": "viridien/bakeoff/SPEC.md",
+   "status": "same",
+   "bytes": 7718,
+   "sha256": "ce342aaa623f7da9fcd97e8ed41fd42a3b3baeda648e27177afb48f361972148",
+   "previous_sha256": "ce342aaa623f7da9fcd97e8ed41fd42a3b3baeda648e27177afb48f361972148"
+  },
+  {
+   "source": "viridien_work/bakeoff/eval_set.json",
+   "path": "viridien/bakeoff/eval_set.json",
+   "status": "changed",
+   "bytes": 1616,
+   "sha256": "1100ac2106eb6a65db1f8056af2b5ca140b71a32d46ea0e338a257936d92f289",
+   "previous_sha256": "1a1797088a9df7383124870e2b7cc85c5ac5b9624881cac37376cdc128559abe"
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/jev_view.html",
+   "path": "viridien/bakeoff/analysis/jev_view.html",
+   "status": "new",
+   "bytes": 73061,
+   "sha256": "e23af65b934728974042f63ceeddf29b0432b55456fa817cec3456239c059ce3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/jev_view_t3.html",
+   "path": "viridien/bakeoff/analysis/jev_view_t3.html",
+   "status": "new",
+   "bytes": 18454,
+   "sha256": "974223506bba1f1bb889af71e12a5d04d760af72e9807255ee8c53778bff2aeb",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/pattern_families.html",
+   "path": "viridien/bakeoff/analysis/pattern_families.html",
+   "status": "new",
+   "bytes": 597886,
+   "sha256": "e16c1e62db948389d0e681022fccd080dff50562ba2dfb7f56b053b544895d52",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/twostage_test.html",
+   "path": "viridien/bakeoff/analysis/twostage_test.html",
+   "status": "new",
+   "bytes": 237608,
+   "sha256": "2a13f040eba5336e62175efe04cede181ec3651103fe50e1a872103d5af1b478",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/categories/colsheets/index.html",
+   "path": "viridien/bakeoff/analysis/categories/colsheets/index.html",
+   "status": "new",
+   "bytes": 30218,
+   "sha256": "e85d807f12cf13375724f64185c1fb64fdb6548ffc69e2bc7e93e448291f8485",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/families_all/index.html",
+   "path": "viridien/bakeoff/analysis/families_all/index.html",
+   "status": "new",
+   "bytes": 15057,
+   "sha256": "03656b7d9419b7ced5a3e073621468ee6907aded23ee6e49e5efa764825cd870",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/families_all_v1/index.html",
+   "path": "viridien/bakeoff/analysis/families_all_v1/index.html",
+   "status": "new",
+   "bytes": 15057,
+   "sha256": "03656b7d9419b7ced5a3e073621468ee6907aded23ee6e49e5efa764825cd870",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/REPORT.md",
+   "path": "viridien/bakeoff/analysis/transfer/REPORT.md",
+   "status": "new",
+   "bytes": 21001,
+   "sha256": "7220a3cfd36480347bfd970eb7d70e65abae56fe69517dd10418be8d1596d2df",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/analyse.py",
+   "path": "viridien/bakeoff/analysis/transfer/analyse.py",
+   "status": "new",
+   "bytes": 15527,
+   "sha256": "82738f4f25c20070cb13696430ecc8b1a15dc6b0d308d81c9b9f4677b9fca9d2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/domain_stats.py",
+   "path": "viridien/bakeoff/analysis/transfer/domain_stats.py",
+   "status": "new",
+   "bytes": 11403,
+   "sha256": "01d6e79f1329d7d376960ce590f86ea7be40fb0594a06578cde941acb6069fd0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/run_external.py",
+   "path": "viridien/bakeoff/analysis/transfer/run_external.py",
+   "status": "new",
+   "bytes": 4597,
+   "sha256": "eb373682f62382e5aa82d9ce037a80ab33cc279e1cad0706c4b3bf67881badac",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/test_analysis.py",
+   "path": "viridien/bakeoff/analysis/transfer/test_analysis.py",
+   "status": "new",
+   "bytes": 1995,
+   "sha256": "c7b4df36e64caafdcd4e98fc0e62fe0efe11a9c984bc799c48a4cdfaa13e3cab",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/write_report.py",
+   "path": "viridien/bakeoff/analysis/transfer/write_report.py",
+   "status": "new",
+   "bytes": 19512,
+   "sha256": "590916ee4721b4235014bbccae16b39acb006534727877e754d180eb87a45178",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/__init__.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/__init__.py",
+   "status": "new",
+   "bytes": 55,
+   "sha256": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/_check.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/_check.py",
+   "status": "new",
+   "bytes": 1861,
+   "sha256": "b2e640668aeff86122a92934e138fee3e88a840105173062a2b2ae47124b74f3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/_dummy.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/_dummy.py",
+   "status": "new",
+   "bytes": 629,
+   "sha256": "7cfae98adb923db09f2cfe708144c0e01d0ebe8b146c203df69885fa450b19ab",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/bench.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/bench.py",
+   "status": "new",
+   "bytes": 38505,
+   "sha256": "94de4fa9b733617fe0662ccca1f6fe841dcf72e97dc55f992007efed5dab45d6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/depth.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/depth.py",
+   "status": "new",
+   "bytes": 9121,
+   "sha256": "2f84c4dc6433cee1bd348087634fb3351968d66183175e3f19f46453f0ac6ee5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/io.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/io.py",
+   "status": "new",
+   "bytes": 5030,
+   "sha256": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/legend.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/legend.py",
+   "status": "new",
+   "bytes": 14780,
+   "sha256": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/legend_v2.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/legend_v2.py",
+   "status": "new",
+   "bytes": 11554,
+   "sha256": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/report.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/report.py",
+   "status": "new",
+   "bytes": 5191,
+   "sha256": "68c683fc1853bea51b29bd5b89f9680be772c87a946e26fd52969ee022d9437a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/run.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/run.py",
+   "status": "new",
+   "bytes": 10978,
+   "sha256": "a1d0321561a04db9859b8ded9eae280b1941587e02d9bde2b181a0ade82a15cd",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/score.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/score.py",
+   "status": "new",
+   "bytes": 4789,
+   "sha256": "cffddf644fda7c38b5fa7753e60b52f1b581a7905f74bc6648d6298d1e9a8bb2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/synth.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/synth.py",
+   "status": "new",
+   "bytes": 1346,
+   "sha256": "d9648f23131b6df7199f69b6d85f9619d7a6e9c3c0b47a977f67cd3392a560b0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/test_bench.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/test_bench.py",
+   "status": "new",
+   "bytes": 12051,
+   "sha256": "8c6e076c7ed3dbf98e17a00396baa81b56739a787d5fec72d19b94ea886cc376",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/test_depth.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/test_depth.py",
+   "status": "new",
+   "bytes": 5065,
+   "sha256": "0e2fc6eee7c51079b95681c699aafb7d81bde623bb07d22f9a67a2f417302a09",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/test_run.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/test_run.py",
+   "status": "new",
+   "bytes": 3653,
+   "sha256": "93795c0c81588a9a40f67fcb0c2fd42d3b616c007cc60d8e25f7995834197c12",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/test_score.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/test_score.py",
+   "status": "new",
+   "bytes": 2346,
+   "sha256": "f3ddb2c04232557cfe250dd925a16ef46fe5f5c3b0292df27c50bf29f00dddb7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/analysis/transfer/frozen/harness/viz.py",
+   "path": "viridien/bakeoff/analysis/transfer/frozen/harness/viz.py",
+   "status": "new",
+   "bytes": 4599,
+   "sha256": "f3ec27283ba7fcafae2e0a38724bfa33b8f7583b57a0964cca912830a527dded",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/README.md",
+   "path": "viridien/bakeoff/classify/README.md",
+   "status": "changed",
+   "bytes": 6297,
+   "sha256": "97f64e3a8af6c9e8f691eaca7e7ff669196000d742d98ed44a5c586abc265dec",
+   "previous_sha256": "c910d261b4e7721197ebd712c1fa5728f4a35a1939b8eeda49507371dc06d450"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/api.py",
+   "path": "viridien/bakeoff/classify/api.py",
+   "status": "changed",
+   "bytes": 11708,
+   "sha256": "0bb886bec5512eda4568ae630a7ac81df94329972536385581d8a36cf2090b50",
+   "previous_sha256": "3f05cc15edf6539be82c24cb7c5b6815b720b1cd153392fc01b997c4eaf934f2"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/bench.py",
+   "path": "viridien/bakeoff/classify/bench.py",
+   "status": "changed",
+   "bytes": 22995,
+   "sha256": "d028f958a4a13bb45ff2d586eaf292b19403c106124078bbd6a0b219f291e832",
+   "previous_sha256": "38612e19ecc5cde3f4cc72657bab1059838284215675ed91000e5d84c515864f"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/check.py",
+   "path": "viridien/bakeoff/classify/check.py",
+   "status": "same",
+   "bytes": 4049,
+   "sha256": "102989f82398f857dca00f3aca22a37deeb25849682aa813792fbac5defc7738",
+   "previous_sha256": "102989f82398f857dca00f3aca22a37deeb25849682aa813792fbac5defc7738"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/data.py",
+   "path": "viridien/bakeoff/classify/data.py",
+   "status": "same",
+   "bytes": 10155,
+   "sha256": "0d8dbb646ce1ba77b9f0998aa93a375ff0915bf2d07df8afce264deb4be38cbf",
+   "previous_sha256": "0d8dbb646ce1ba77b9f0998aa93a375ff0915bf2d07df8afce264deb4be38cbf"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/models.py",
+   "path": "viridien/bakeoff/classify/models.py",
+   "status": "same",
+   "bytes": 5289,
+   "sha256": "86b00ecddf7424108bc033802857f8d531bf78d280c01e893de5dd9dc920b7c4",
+   "previous_sha256": "86b00ecddf7424108bc033802857f8d531bf78d280c01e893de5dd9dc920b7c4"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/render_check.py",
+   "path": "viridien/bakeoff/classify/render_check.py",
+   "status": "same",
+   "bytes": 2389,
+   "sha256": "8481e138f93d19004d75f244496e5392347cb7e18b5d22efc102b672680712f8",
+   "previous_sha256": "8481e138f93d19004d75f244496e5392347cb7e18b5d22efc102b672680712f8"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/report.html",
+   "path": "viridien/bakeoff/classify/report.html",
+   "status": "changed",
+   "bytes": 1027582,
+   "sha256": "009da49607c21e47009d8874c6c3b2019145ae22e678f32b89f289301862d8ac",
+   "previous_sha256": "0bd924cfbeccfd3fe5086ad6f8f4e79e8500d680e6ec3e68ea53730ada596d4f"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/report.py",
+   "path": "viridien/bakeoff/classify/report.py",
+   "status": "changed",
+   "bytes": 20504,
+   "sha256": "934ee2d1f503e45446679efa0d8f0e10b3c2102fdeef8d8740afd0f6e93ee880",
+   "previous_sha256": "2a7c7707c997d452f4dced8eeca240f67eeedf904e45937887416f57b669e585"
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/sample2.py",
+   "path": "viridien/bakeoff/classify/sample2.py",
+   "status": "new",
+   "bytes": 24020,
+   "sha256": "866687e7ed09f8d4fb922d9fabd57f3ed77118e2f3464a9b00d34470e348c556",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/classify/test_sample2.py",
+   "path": "viridien/bakeoff/classify/test_sample2.py",
+   "status": "new",
+   "bytes": 17869,
+   "sha256": "c9fbf575f31fde73f0398e8cb220447165f82223042cd1811a93fc4d024f13f7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/CHANGES.md",
+   "path": "viridien/bakeoff/emil/CHANGES.md",
+   "status": "new",
+   "bytes": 12385,
+   "sha256": "de52a511cac40adcf2fb4be0bb779f66fd586dfd9a4981b131d6a7853c2eb75a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/audit_results.py",
+   "path": "viridien/bakeoff/emil/audit_results.py",
+   "status": "new",
+   "bytes": 6788,
+   "sha256": "dfd468e74c0c7f9d38c214da6ee7ad6afe730f4a561741dead4c65892754e3d8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/benchmark_vm.py",
+   "path": "viridien/bakeoff/emil/benchmark_vm.py",
+   "status": "new",
+   "bytes": 4740,
+   "sha256": "eab5212fad5fe3a6ee03c4f103ffc1235525a351e146235c1ad4d54dc474e835",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/bootstrap.py",
+   "path": "viridien/bakeoff/emil/bootstrap.py",
+   "status": "new",
+   "bytes": 772,
+   "sha256": "485b11c0e5ddebf9643d228f6fc0b81e7f79f39be7324c3fa01f6a3ca21736bd",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/build_report.py",
+   "path": "viridien/bakeoff/emil/build_report.py",
+   "status": "new",
+   "bytes": 9472,
+   "sha256": "132f86bd9b5d5375135abdf23fe295d894b94eb8d836ae5a2a50e697e17c5846",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/evaluate.py",
+   "path": "viridien/bakeoff/emil/evaluate.py",
+   "status": "new",
+   "bytes": 15223,
+   "sha256": "467117921d84ba2489db1406d532754937463d5151b6eb79b2bc19a8cb925021",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/live_report.py",
+   "path": "viridien/bakeoff/emil/live_report.py",
+   "status": "new",
+   "bytes": 24252,
+   "sha256": "9948a77f6009f92602faec2a1489af4c0585d32989000d50d621de9e18dbbcd2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/paths.py",
+   "path": "viridien/bakeoff/emil/paths.py",
+   "status": "new",
+   "bytes": 2208,
+   "sha256": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/pipeline.py",
+   "path": "viridien/bakeoff/emil/pipeline.py",
+   "status": "new",
+   "bytes": 35232,
+   "sha256": "f04c93b677023b2068aac419bfdc6b0d64de33f9d2b88bdfb5011e82f49c2028",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/port_notebook.py",
+   "path": "viridien/bakeoff/emil/port_notebook.py",
+   "status": "new",
+   "bytes": 6227,
+   "sha256": "08e95320c8c250da3e303c55930981c8afdb3ce650641a0f4539254a7f74482c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/prepare_external.py",
+   "path": "viridien/bakeoff/emil/prepare_external.py",
+   "status": "new",
+   "bytes": 3479,
+   "sha256": "7a70913d659bb7d8269aeaf17dd7bbbef8dad8a36e0b4ea31c9a6b0155d8fe8f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/run_all.py",
+   "path": "viridien/bakeoff/emil/run_all.py",
+   "status": "new",
+   "bytes": 1785,
+   "sha256": "59702ae755aba7605359b29e3f00af8eab55fc6bd8c7cfbe6134b71b4bd965fb",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/run_harness.py",
+   "path": "viridien/bakeoff/emil/run_harness.py",
+   "status": "new",
+   "bytes": 304,
+   "sha256": "31abe531d129e21466b66671589dd1a35f97023283ee135a05c8ad618daf6419",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/smoke_live.py",
+   "path": "viridien/bakeoff/emil/smoke_live.py",
+   "status": "new",
+   "bytes": 1601,
+   "sha256": "34307289c64c919a071e70ff5400add78d163c0793acda9e68facbd27bd567d7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/split_results.py",
+   "path": "viridien/bakeoff/emil/split_results.py",
+   "status": "new",
+   "bytes": 2822,
+   "sha256": "f5f489acf06112fb39c8c246928a2e516ac3afbf251d913621e93efe28ce493d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/train.py",
+   "path": "viridien/bakeoff/emil/train.py",
+   "status": "new",
+   "bytes": 1474,
+   "sha256": "bfa8f81770aa633f7eae7241804b7817d88fbb2c3f9c56a36ade7a56373f8358",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/validate.py",
+   "path": "viridien/bakeoff/emil/validate.py",
+   "status": "new",
+   "bytes": 7888,
+   "sha256": "e518d368a82facd7c8c9e7f4e03bfdf2afe5f400583c7ee0fa48c414c6e088e3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/evaluators/classification.py",
+   "path": "viridien/bakeoff/emil/evaluators/classification.py",
+   "status": "new",
+   "bytes": 17113,
+   "sha256": "5127d9f80ce00695eb07a0049c17e98747765041139392b98bdfa72c5a7e1229",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/evaluators/legend.py",
+   "path": "viridien/bakeoff/emil/evaluators/legend.py",
+   "status": "new",
+   "bytes": 15521,
+   "sha256": "3114ebad99efef8d8b08729885aeeee3d8a003b58309d0cba51a50fda4f09f74",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/evaluators/segmentation.py",
+   "path": "viridien/bakeoff/emil/evaluators/segmentation.py",
+   "status": "new",
+   "bytes": 11677,
+   "sha256": "86a1d00f3b33eab7c5b5d73620b6158bbe4919295cd3273fafa9e240e576c32a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/report/index.html",
+   "path": "viridien/bakeoff/emil/report/index.html",
+   "status": "new",
+   "bytes": 21674,
+   "sha256": "60bcd7e62201b1faf8b907ca67449a0546fed36945e5ef0c0ba1b3bfbe177fb3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/emil/report/summary.md",
+   "path": "viridien/bakeoff/emil/report/summary.md",
+   "status": "new",
+   "bytes": 13511,
+   "sha256": "8ea34e3e25662ea1d0c16fab1528b1b77c30ede620583a3c9838939b491df8e7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/README.md",
+   "path": "viridien/bakeoff/external/README.md",
+   "status": "new",
+   "bytes": 12578,
+   "sha256": "e1ce923ba142c5552aeaaba583e57fd4a53348a8a7bcb05ec521fa84c02f9718",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/build_testset.py",
+   "path": "viridien/bakeoff/external/build_testset.py",
+   "status": "new",
+   "bytes": 21455,
+   "sha256": "e9df6688b11ff09545093a6a8e596a692858264123ed46f505488e1f88e50ff1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/kgs_extract.py",
+   "path": "viridien/bakeoff/external/kgs_extract.py",
+   "status": "new",
+   "bytes": 50466,
+   "sha256": "ef2a570a088a5f24dc53ebf303861a77be5708a5aa61306cca7daf9e8afef1a8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/lock_verify.py",
+   "path": "viridien/bakeoff/external/lock_verify.py",
+   "status": "new",
+   "bytes": 4234,
+   "sha256": "cc7a000904a52bcdebc116b72ced0181472098b530d8b92088f440b1744f10ac",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/overview.py",
+   "path": "viridien/bakeoff/external/overview.py",
+   "status": "new",
+   "bytes": 2762,
+   "sha256": "1e6c37ed6cebe12ec18d97f830173e0e2bd4885136f8c872eacbb1c86079a0fa",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/scanify.py",
+   "path": "viridien/bakeoff/external/scanify.py",
+   "status": "new",
+   "bytes": 37329,
+   "sha256": "952370f9b0b401a216918d1ecc6b9998ca93ff2e877ae0850917fd388716022f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/split_external.py",
+   "path": "viridien/bakeoff/external/split_external.py",
+   "status": "new",
+   "bytes": 2530,
+   "sha256": "f006b08eb88e0c856f402e4a240be75465509eed2c99ef0a36c9466b846ae775",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/test_build_testset.py",
+   "path": "viridien/bakeoff/external/test_build_testset.py",
+   "status": "new",
+   "bytes": 3325,
+   "sha256": "e245078d7cbcfc1a3707e68fb55e141b3d3bce5da20a9725759754765362413d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/test_kgs_extract.py",
+   "path": "viridien/bakeoff/external/test_kgs_extract.py",
+   "status": "new",
+   "bytes": 27444,
+   "sha256": "dc0bf057991ec6d7c1c1a3a79b581ad555ec5af22ab6d0bf5456465643dc59af",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/test_scanify.py",
+   "path": "viridien/bakeoff/external/test_scanify.py",
+   "status": "new",
+   "bytes": 6863,
+   "sha256": "bce28e80a804f47157ae2248f0d1903a9a1edbff5600ec09385896b37010c117",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/external/round3_tools/audit_access.py",
+   "path": "viridien/bakeoff/external/round3_tools/audit_access.py",
+   "status": "new",
+   "bytes": 6474,
+   "sha256": "6111db1e9b3b91df862f3201dcfa4546401f9f2b90ffcefab92754fa3304b7cf",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/gt/silver/A/_notes.md",
+   "path": "viridien/bakeoff/gt/silver/A/_notes.md",
+   "status": "same",
+   "bytes": 1905,
+   "sha256": "27b53a0d0f70d889eb717aa496919d7a3caf0e438412544f14bf2858b87d93c8",
+   "previous_sha256": "27b53a0d0f70d889eb717aa496919d7a3caf0e438412544f14bf2858b87d93c8"
+  },
+  {
+   "source": "viridien_work/bakeoff/gt/silver/B/_notes.md",
+   "path": "viridien/bakeoff/gt/silver/B/_notes.md",
+   "status": "same",
+   "bytes": 2965,
+   "sha256": "c8dc5f92b0eb5ff491cfa698fbce29092fcd196b39f1be71fa3f8f88b8574f27",
+   "previous_sha256": "c8dc5f92b0eb5ff491cfa698fbce29092fcd196b39f1be71fa3f8f88b8574f27"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/BENCH.md",
+   "path": "viridien/bakeoff/harness/BENCH.md",
+   "status": "new",
+   "bytes": 9997,
+   "sha256": "ea2484ffbe1ff3d482a7db0a28967d2069fc33707a19b1bd3a5456aedd573a0c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/__init__.py",
+   "path": "viridien/bakeoff/harness/__init__.py",
+   "status": "same",
+   "bytes": 55,
+   "sha256": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+   "previous_sha256": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/_check.py",
+   "path": "viridien/bakeoff/harness/_check.py",
+   "status": "same",
+   "bytes": 1861,
+   "sha256": "b2e640668aeff86122a92934e138fee3e88a840105173062a2b2ae47124b74f3",
+   "previous_sha256": "b2e640668aeff86122a92934e138fee3e88a840105173062a2b2ae47124b74f3"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/_dummy.py",
+   "path": "viridien/bakeoff/harness/_dummy.py",
+   "status": "same",
+   "bytes": 629,
+   "sha256": "7cfae98adb923db09f2cfe708144c0e01d0ebe8b146c203df69885fa450b19ab",
+   "previous_sha256": "7cfae98adb923db09f2cfe708144c0e01d0ebe8b146c203df69885fa450b19ab"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/bench.py",
+   "path": "viridien/bakeoff/harness/bench.py",
+   "status": "new",
+   "bytes": 42027,
+   "sha256": "e4fee5985f82646997bccb9e88276f17473f7b9a7704231c1f89c0769cdbe8cc",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/depth.py",
+   "path": "viridien/bakeoff/harness/depth.py",
+   "status": "changed",
+   "bytes": 9729,
+   "sha256": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+   "previous_sha256": "0a274eb9e27471472c79f9682477815567c980a381a1c0ba75981d37e38b9cb8"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/io.py",
+   "path": "viridien/bakeoff/harness/io.py",
+   "status": "changed",
+   "bytes": 5030,
+   "sha256": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+   "previous_sha256": "7a333023bcaffe60007440de4794b7b43666176d93272e042f59a1c8c756ba36"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/legend.py",
+   "path": "viridien/bakeoff/harness/legend.py",
+   "status": "same",
+   "bytes": 14780,
+   "sha256": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+   "previous_sha256": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/legend_v2.py",
+   "path": "viridien/bakeoff/harness/legend_v2.py",
+   "status": "same",
+   "bytes": 11554,
+   "sha256": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8",
+   "previous_sha256": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/legend_v3.py",
+   "path": "viridien/bakeoff/harness/legend_v3.py",
+   "status": "new",
+   "bytes": 12771,
+   "sha256": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/legend_v4.py",
+   "path": "viridien/bakeoff/harness/legend_v4.py",
+   "status": "new",
+   "bytes": 19069,
+   "sha256": "b4fa275f04437b474bcc947c7db0a144100ff81dd9d62077cf366dafe0a64717",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/report.py",
+   "path": "viridien/bakeoff/harness/report.py",
+   "status": "same",
+   "bytes": 5191,
+   "sha256": "68c683fc1853bea51b29bd5b89f9680be772c87a946e26fd52969ee022d9437a",
+   "previous_sha256": "68c683fc1853bea51b29bd5b89f9680be772c87a946e26fd52969ee022d9437a"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/run.py",
+   "path": "viridien/bakeoff/harness/run.py",
+   "status": "changed",
+   "bytes": 11355,
+   "sha256": "3ec3bf60225e5859a8ec2e57b2304d932bb196243eaf49623d4d1ab47f6d6696",
+   "previous_sha256": "24f574a8e6ccc8e1b9b01257a45a59adbeee9b000caf433bbdd4944a8e3c37ee"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/score.py",
+   "path": "viridien/bakeoff/harness/score.py",
+   "status": "changed",
+   "bytes": 5135,
+   "sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+   "previous_sha256": "52ad8e1b124638bea7050960069a357e3280f458c305b4d877bba8a190b8bd19"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/suites.json",
+   "path": "viridien/bakeoff/harness/suites.json",
+   "status": "new",
+   "bytes": 3548,
+   "sha256": "736f1e565136aed217c656d59b47a2b02f2c41fdd81a1558dd010c79a2f7b8d7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/synth.py",
+   "path": "viridien/bakeoff/harness/synth.py",
+   "status": "same",
+   "bytes": 1346,
+   "sha256": "d9648f23131b6df7199f69b6d85f9619d7a6e9c3c0b47a977f67cd3392a560b0",
+   "previous_sha256": "d9648f23131b6df7199f69b6d85f9619d7a6e9c3c0b47a977f67cd3392a560b0"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/test_bench.py",
+   "path": "viridien/bakeoff/harness/test_bench.py",
+   "status": "new",
+   "bytes": 12400,
+   "sha256": "825d773b7a456d7460d41190eb77a4d65df6ee425da01f2999e554322d01f74e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/test_depth.py",
+   "path": "viridien/bakeoff/harness/test_depth.py",
+   "status": "new",
+   "bytes": 5065,
+   "sha256": "0e2fc6eee7c51079b95681c699aafb7d81bde623bb07d22f9a67a2f417302a09",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/test_run.py",
+   "path": "viridien/bakeoff/harness/test_run.py",
+   "status": "same",
+   "bytes": 3653,
+   "sha256": "93795c0c81588a9a40f67fcb0c2fd42d3b616c007cc60d8e25f7995834197c12",
+   "previous_sha256": "93795c0c81588a9a40f67fcb0c2fd42d3b616c007cc60d8e25f7995834197c12"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/test_score.py",
+   "path": "viridien/bakeoff/harness/test_score.py",
+   "status": "same",
+   "bytes": 2346,
+   "sha256": "f3ddb2c04232557cfe250dd925a16ef46fe5f5c3b0292df27c50bf29f00dddb7",
+   "previous_sha256": "f3ddb2c04232557cfe250dd925a16ef46fe5f5c3b0292df27c50bf29f00dddb7"
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/test_wave3_fixes.py",
+   "path": "viridien/bakeoff/harness/test_wave3_fixes.py",
+   "status": "new",
+   "bytes": 5868,
+   "sha256": "482026272d3c50504cfa5362cdd5488db9ce6df5be6dea2f4f5bac2692fde082",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/harness/viz.py",
+   "path": "viridien/bakeoff/harness/viz.py",
+   "status": "same",
+   "bytes": 4599,
+   "sha256": "f3ec27283ba7fcafae2e0a38724bfa33b8f7583b57a0964cca912830a527dded",
+   "previous_sha256": "f3ec27283ba7fcafae2e0a38724bfa33b8f7583b57a0964cca912830a527dded"
+  },
+  {
+   "source": "viridien_work/bakeoff/labelling/README.md",
+   "path": "viridien/bakeoff/labelling/README.md",
+   "status": "same",
+   "bytes": 2825,
+   "sha256": "6dcb7829b38e53fe593e0a3d283977fdb4d70352d888f0c6d4c385f17d2a40ae",
+   "previous_sha256": "6dcb7829b38e53fe593e0a3d283977fdb4d70352d888f0c6d4c385f17d2a40ae"
+  },
+  {
+   "source": "viridien_work/bakeoff/labelling/check_local.py",
+   "path": "viridien/bakeoff/labelling/check_local.py",
+   "status": "same",
+   "bytes": 1823,
+   "sha256": "3a91016d384822fbfa9946c37053c5ed39cd662a7e40477a2fc570942ea11bdb",
+   "previous_sha256": "3a91016d384822fbfa9946c37053c5ed39cd662a7e40477a2fc570942ea11bdb"
+  },
+  {
+   "source": "viridien_work/bakeoff/labelling/llm_label.py",
+   "path": "viridien/bakeoff/labelling/llm_label.py",
+   "status": "changed",
+   "bytes": 29076,
+   "sha256": "81ad64e2fe0c5deb87c9b4bb5c72396333b6231d0c1d62901aff0811b8aba668",
+   "previous_sha256": "179cbfc7efdaa67abad600c6354b3d268de45e8ca3cf9ff9d64efac8ea447f7b"
+  },
+  {
+   "source": "viridien_work/bakeoff/labelling/render_review.py",
+   "path": "viridien/bakeoff/labelling/render_review.py",
+   "status": "same",
+   "bytes": 1513,
+   "sha256": "c23271136a11a0f130969b9446fa8ad930cddf3c6c00eb8e528ca0d128b8388e",
+   "previous_sha256": "c23271136a11a0f130969b9446fa8ad930cddf3c6c00eb8e528ca0d128b8388e"
+  },
+  {
+   "source": "viridien_work/bakeoff/labelling/review.html",
+   "path": "viridien/bakeoff/labelling/review.html",
+   "status": "changed",
+   "bytes": 1784885,
+   "sha256": "95cf608c49a472fee75288f15b91aca42a092da452c91240cf8f08441ac4590a",
+   "previous_sha256": "ceff54eb6d5e5030a86e59bbc9b37dbfe51d8e7b317f1732d6a9fcd5068534eb"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/README.md",
+   "path": "viridien/bakeoff/labeltool/README.md",
+   "status": "changed",
+   "bytes": 14257,
+   "sha256": "8f76a66c82e052eb0a98d13c96d9cf3cdb5e47c43dcda542cc5972da719ed77d",
+   "previous_sha256": "7840f71b69e6642323060447b64b06c6dfea23ebcf8ccdc830c0751eb75dedde"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/__init__.py",
+   "path": "viridien/bakeoff/labeltool/__init__.py",
+   "status": "same",
+   "bytes": 66,
+   "sha256": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+   "previous_sha256": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/beds.py",
+   "path": "viridien/bakeoff/labeltool/beds.py",
+   "status": "new",
+   "bytes": 9682,
+   "sha256": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/build_queue.py",
+   "path": "viridien/bakeoff/labeltool/build_queue.py",
+   "status": "same",
+   "bytes": 13456,
+   "sha256": "1c39f5c361b215e0b3efef82ff1855424860faa1c0bcb42cdde03a651bcbe897",
+   "previous_sha256": "1c39f5c361b215e0b3efef82ff1855424860faa1c0bcb42cdde03a651bcbe897"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/category_review.py",
+   "path": "viridien/bakeoff/labeltool/category_review.py",
+   "status": "new",
+   "bytes": 6081,
+   "sha256": "ba83bbc5a529745230fe9b94ba5ff1945e55f860c1bf4d5826a23febee112632",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/check_browser.py",
+   "path": "viridien/bakeoff/labeltool/check_browser.py",
+   "status": "same",
+   "bytes": 4704,
+   "sha256": "3fa271af2935be7c36ebdf9c79df568f4220dcb17d6e36efcbbb1ca72b534f4a",
+   "previous_sha256": "3fa271af2935be7c36ebdf9c79df568f4220dcb17d6e36efcbbb1ca72b534f4a"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/check_qt_browser.py",
+   "path": "viridien/bakeoff/labeltool/check_qt_browser.py",
+   "status": "same",
+   "bytes": 8223,
+   "sha256": "84a97c73b6efb49a6a3f500b730b1223168a80e06670b66b72abfb6be6725c59",
+   "previous_sha256": "84a97c73b6efb49a6a3f500b730b1223168a80e06670b66b72abfb6be6725c59"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/colour_cluster.py",
+   "path": "viridien/bakeoff/labeltool/colour_cluster.py",
+   "status": "new",
+   "bytes": 7072,
+   "sha256": "1f1110cd3154d4181ea88b63022289f3dfbbb40943d0cb5f6b93ca93c4e6f9f4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/common.py",
+   "path": "viridien/bakeoff/labeltool/common.py",
+   "status": "same",
+   "bytes": 6692,
+   "sha256": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+   "previous_sha256": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/families.py",
+   "path": "viridien/bakeoff/labeltool/families.py",
+   "status": "new",
+   "bytes": 13742,
+   "sha256": "0416c85f93fc641c7f053dd99ce725c153e5c947af8c4d15e3265d460d137501",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/families_all.py",
+   "path": "viridien/bakeoff/labeltool/families_all.py",
+   "status": "new",
+   "bytes": 10161,
+   "sha256": "b1856ba67d24971a40c3f977828327986adc0ba6e5364a405bd155d3286f63ac",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/famreview.py",
+   "path": "viridien/bakeoff/labeltool/famreview.py",
+   "status": "new",
+   "bytes": 9049,
+   "sha256": "fb76105fd1490f3501deaa709e41cd7b3ddf000dc9cf83f8b9e1989e08b947d3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/jev2.py",
+   "path": "viridien/bakeoff/labeltool/jev2.py",
+   "status": "new",
+   "bytes": 17093,
+   "sha256": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/jev_view.py",
+   "path": "viridien/bakeoff/labeltool/jev_view.py",
+   "status": "new",
+   "bytes": 4324,
+   "sha256": "298146ac66df11ca8be8663cd3ea756e51522b41f51995b2a023a24500609050",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/legend_classify.py",
+   "path": "viridien/bakeoff/labeltool/legend_classify.py",
+   "status": "new",
+   "bytes": 15576,
+   "sha256": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/legend_families.py",
+   "path": "viridien/bakeoff/labeltool/legend_families.py",
+   "status": "new",
+   "bytes": 3759,
+   "sha256": "7962dfd616c87f317dfc5477ebfbb67eab5cda21850383c42354dbcbc43ab8a7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/legend_groups2.py",
+   "path": "viridien/bakeoff/labeltool/legend_groups2.py",
+   "status": "new",
+   "bytes": 8505,
+   "sha256": "75a757224f493da193e718376b6d4165ecbfb926046bfd4c7a904525ca4ae9ae",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/mix_pairs.py",
+   "path": "viridien/bakeoff/labeltool/mix_pairs.py",
+   "status": "new",
+   "bytes": 13677,
+   "sha256": "4957667fd9e9aab1dce47d63e632bf4a36193be623b3f73a53755e57d3f4990c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/prefill.py",
+   "path": "viridien/bakeoff/labeltool/prefill.py",
+   "status": "new",
+   "bytes": 26255,
+   "sha256": "e73053c379fb5e79c799d4a1b6f8f4bfe968cdc8c5e696c6fcb71b0621ee2fcf",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/score_human.py",
+   "path": "viridien/bakeoff/labeltool/score_human.py",
+   "status": "changed",
+   "bytes": 5596,
+   "sha256": "b313db86d66048d1b993c931ca840ce6ca624e0375ea48d4e12953b1c68605e3",
+   "previous_sha256": "ed9741d472123249b665ff783ff2d49d88afc976eab7ad4a19457dd1f4ba9999"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/serve.py",
+   "path": "viridien/bakeoff/labeltool/serve.py",
+   "status": "changed",
+   "bytes": 14784,
+   "sha256": "a31e22236534416946b5812fa6cd4acfed7b8270b76efaa5b6bb2cfd17702170",
+   "previous_sha256": "a893aa4bdfc4d550a7688f6b60a0dc956c5cdbb9275117589bbf12136f281978"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/store.py",
+   "path": "viridien/bakeoff/labeltool/store.py",
+   "status": "changed",
+   "bytes": 9075,
+   "sha256": "9a6ac34f79a7f33272fc7869fe067da6dae91bf896b7d9ed06daac1a4966c287",
+   "previous_sha256": "a90d4075eb94963b782b59afe1a0edb330a424cad0051e17a7926c22d75f6276"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/suggest.py",
+   "path": "viridien/bakeoff/labeltool/suggest.py",
+   "status": "new",
+   "bytes": 7307,
+   "sha256": "ca675f6474d6528037d6e22b483b95228986ea76eef1dedc0ea2b847e1f82a79",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/test_labeltool.py",
+   "path": "viridien/bakeoff/labeltool/test_labeltool.py",
+   "status": "same",
+   "bytes": 7334,
+   "sha256": "8126d88e436830f69c60bf0d0d92ec2c663edffe77714defbd77f86a0a742077",
+   "previous_sha256": "8126d88e436830f69c60bf0d0d92ec2c663edffe77714defbd77f86a0a742077"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/test_prefill.py",
+   "path": "viridien/bakeoff/labeltool/test_prefill.py",
+   "status": "new",
+   "bytes": 12819,
+   "sha256": "8af57d01954f3c3849fd91434042c8e7bf2524dbccc24bfb199fde18e2aa653f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/twostage.py",
+   "path": "viridien/bakeoff/labeltool/twostage.py",
+   "status": "new",
+   "bytes": 9095,
+   "sha256": "963d6dd48f70be79596df3dfbb38851440865fb72531ed085bdbe1ce7733cfa0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/validate_api.py",
+   "path": "viridien/bakeoff/labeltool/validate_api.py",
+   "status": "changed",
+   "bytes": 6045,
+   "sha256": "92b6a2bb4945989644a02be814d861d3fc918f0f00fb94a956d56cb4ad1235c6",
+   "previous_sha256": "feba3c54d4ba8936b4c01628d532a75b31ca01eecd6fde549172e22c1882ac5d"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/verify_queue.py",
+   "path": "viridien/bakeoff/labeltool/verify_queue.py",
+   "status": "new",
+   "bytes": 2009,
+   "sha256": "2ce49d956721de182fbb26ba461d5372875e0998dc6c24d24a3d92f53853c537",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/windows.py",
+   "path": "viridien/bakeoff/labeltool/windows.py",
+   "status": "new",
+   "bytes": 14032,
+   "sha256": "05cbb9b25f845bf16d794604eccf7b7359cb1c01309238d90066c29e9bccd36e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/static/catreview.html",
+   "path": "viridien/bakeoff/labeltool/static/catreview.html",
+   "status": "new",
+   "bytes": 10133,
+   "sha256": "cb6bb243aa4c6d4fc482ea3a91d6f7d179f11f3b10a99017ae5fdf3bd665adb4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/static/confreview.html",
+   "path": "viridien/bakeoff/labeltool/static/confreview.html",
+   "status": "new",
+   "bytes": 20417,
+   "sha256": "967cb8eedacfa5df2ce051a0d3207b41c91d66561c463240492110070f01f425",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/static/famreview.html",
+   "path": "viridien/bakeoff/labeltool/static/famreview.html",
+   "status": "new",
+   "bytes": 6669,
+   "sha256": "3ccbf0cdbcb06e5ef0475c381f250c8caf790f1abe8c43e747d8471665e2f2b5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/static/index.html",
+   "path": "viridien/bakeoff/labeltool/static/index.html",
+   "status": "changed",
+   "bytes": 31809,
+   "sha256": "7b7022722f025b572048a9f4b6d1f92e4b473bcb370a3804d05887c62157a205",
+   "previous_sha256": "8e582d9d3aaff3d2137294662fb5a8d065cb9c9cf0df4ede752e56a06173f9bb"
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/static/legendreview.html",
+   "path": "viridien/bakeoff/labeltool/static/legendreview.html",
+   "status": "new",
+   "bytes": 9504,
+   "sha256": "f07e8f88bfda190e1780e286aa09226ff66471d7d63c2234ac30db797a3ca113",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/labeltool/static/mixreview.html",
+   "path": "viridien/bakeoff/labeltool/static/mixreview.html",
+   "status": "new",
+   "bytes": 10693,
+   "sha256": "cc9a67a258d365b8e6b2405e4ce989f36ae29ca7c5692da40377214e72643f16",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/MODEL_CARD.md",
+   "path": "viridien/bakeoff/ml/boundary/MODEL_CARD.md",
+   "status": "new",
+   "bytes": 8527,
+   "sha256": "202be2b1f4d42ee4832c09b516ad8088e31c6a5523e83e82e04c34b2e1c447f3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/diagnostics.py",
+   "path": "viridien/bakeoff/ml/boundary/diagnostics.py",
+   "status": "new",
+   "bytes": 3362,
+   "sha256": "8ee1a045f0917622bb39581fe75b27e58987f168c6dea0fa1a31cd061b40a94f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/evaluate.py",
+   "path": "viridien/bakeoff/ml/boundary/evaluate.py",
+   "status": "new",
+   "bytes": 4588,
+   "sha256": "95e317d824b362a7895b809bc59d959fec0323d0c82e81ddbb97d36600c951a1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/experiment.py",
+   "path": "viridien/bakeoff/ml/boundary/experiment.py",
+   "status": "new",
+   "bytes": 16865,
+   "sha256": "a10bbdfcd65680db5080e95e6b3b4fc3680883c1b3897fdca529480c676c337a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/model.py",
+   "path": "viridien/bakeoff/ml/boundary/model.py",
+   "status": "new",
+   "bytes": 3683,
+   "sha256": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/report.py",
+   "path": "viridien/bakeoff/ml/boundary/report.py",
+   "status": "new",
+   "bytes": 10733,
+   "sha256": "50fb8a07e8c0599c6a28450b1fe3270ef92cefcd82ff62364d9296538f376fed",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary/test_boundary.py",
+   "path": "viridien/bakeoff/ml/boundary/test_boundary.py",
+   "status": "new",
+   "bytes": 3072,
+   "sha256": "0bbc6c2c8c1c4417a64c4dd7b62f5c1d64afaf6f836ca62e20eadcb46793d280",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary_v2/REPORT.md",
+   "path": "viridien/bakeoff/ml/boundary_v2/REPORT.md",
+   "status": "new",
+   "bytes": 5250,
+   "sha256": "5e77b09cf5fe6864188b49f65fbd26b76e165e122a68188a8364b3652c58a3f6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary_v2/__init__.py",
+   "path": "viridien/bakeoff/ml/boundary_v2/__init__.py",
+   "status": "new",
+   "bytes": 56,
+   "sha256": "579e830b77bd47426df42b5a5bf837cc62566e2a033f5fa6e1f8e791765d4712",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary_v2/experiment.py",
+   "path": "viridien/bakeoff/ml/boundary_v2/experiment.py",
+   "status": "new",
+   "bytes": 25401,
+   "sha256": "8a0217a96b5958028aeecdcecf9b6bf194fd5dd7919b73da81ab8d5124ad6124",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary_v2/runtime.py",
+   "path": "viridien/bakeoff/ml/boundary_v2/runtime.py",
+   "status": "new",
+   "bytes": 748,
+   "sha256": "6199206b7bee83e8a9d3f48472489ba036bebb21c8023505317b468e3dae42d4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/boundary_v2/test_boundary_v2.py",
+   "path": "viridien/bakeoff/ml/boundary_v2/test_boundary_v2.py",
+   "status": "new",
+   "bytes": 3304,
+   "sha256": "b0c6cc55a4761b11bf857ea31fe021c4a50a41e989c0689d033302cd2fcaecbe",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/combine/MODEL_CARD.md",
+   "path": "viridien/bakeoff/ml/combine/MODEL_CARD.md",
+   "status": "new",
+   "bytes": 10017,
+   "sha256": "4bdf0c8e25b7e4f2a0adc120759bbc700237405b284570f0884f80c650999b04",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/combine/__init__.py",
+   "path": "viridien/bakeoff/ml/combine/__init__.py",
+   "status": "new",
+   "bytes": 55,
+   "sha256": "94443ff886c4c6de1c184d84c57bbc05e224723299ed1be3fcc466bca82b3e07",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/combine/experiment.py",
+   "path": "viridien/bakeoff/ml/combine/experiment.py",
+   "status": "new",
+   "bytes": 27015,
+   "sha256": "5c543dffd90356e2d10cd914572e2bea1c2161d5fce3836bb5cf72be6249a509",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/combine/report.py",
+   "path": "viridien/bakeoff/ml/combine/report.py",
+   "status": "new",
+   "bytes": 13712,
+   "sha256": "99d1cc647d4c03df32e93959565d22d8eba7bf49f9a497e8e92b1a7dcb0b9c34",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/combine/runtime.py",
+   "path": "viridien/bakeoff/ml/combine/runtime.py",
+   "status": "new",
+   "bytes": 7935,
+   "sha256": "9de34dbf973b7f5870cd0dfb62b3c56025a4713a7ca562319c4d5c460ea4503d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/combine/test_combine.py",
+   "path": "viridien/bakeoff/ml/combine/test_combine.py",
+   "status": "new",
+   "bytes": 7738,
+   "sha256": "092ba9e5bb69e9a3cb47a2ac93cbfa904cfc82cd1d6185daca26ff462c2ee4d1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/final/finalize.py",
+   "path": "viridien/bakeoff/ml/final/finalize.py",
+   "status": "new",
+   "bytes": 22998,
+   "sha256": "e8f8c1a188630be1aee9faceee421cc38074ab76608264f6784566f860bc4c2d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/final/recheck_selection.py",
+   "path": "viridien/bakeoff/ml/final/recheck_selection.py",
+   "status": "new",
+   "bytes": 3797,
+   "sha256": "f939c51481bdea1fdd4f5d5644ece20e1b6eae6f1efeb080eb93d161db3ce3b2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/integrate/FINAL_ANALYSIS.md",
+   "path": "viridien/bakeoff/ml/integrate/FINAL_ANALYSIS.md",
+   "status": "new",
+   "bytes": 2697,
+   "sha256": "14f52470a302157c667fc48e5ffbe16457edf6f4b0c51c85b55544b5278480b5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/integrate/REPORT.md",
+   "path": "viridien/bakeoff/ml/integrate/REPORT.md",
+   "status": "new",
+   "bytes": 11357,
+   "sha256": "af575930d4c31a1a7b3b3ee41468ae6b49e11f91e64a84725de236fc3209c037",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/integrate/core.py",
+   "path": "viridien/bakeoff/ml/integrate/core.py",
+   "status": "new",
+   "bytes": 7729,
+   "sha256": "c0911f8c78a436b23713130ab3cda787d8ae30752a0979379c7acf4076d4d686",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/integrate/experiment.py",
+   "path": "viridien/bakeoff/ml/integrate/experiment.py",
+   "status": "new",
+   "bytes": 27778,
+   "sha256": "7b5dbeb6c832bbb686043adb7193c1a57f23d4642b0ebd1e60a8a7785429fba9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/integrate/final_diagnostics.py",
+   "path": "viridien/bakeoff/ml/integrate/final_diagnostics.py",
+   "status": "new",
+   "bytes": 7049,
+   "sha256": "1b81e97f3212b57c43bb1b25f41a99d94156e2eab04855a5f218e55fa0918a63",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/integrate/test_integrate.py",
+   "path": "viridien/bakeoff/ml/integrate/test_integrate.py",
+   "status": "new",
+   "bytes": 3454,
+   "sha256": "1da7df4e4deb19343e6f5031a1da445750b7aefa14492b2ac0b7fedc32965b58",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/label_pilot/README.md",
+   "path": "viridien/bakeoff/ml/label_pilot/README.md",
+   "status": "new",
+   "bytes": 5997,
+   "sha256": "2724ba2b1a296ae2e4fdf42b1430aa2f0098695eab6538706c764977c750a939",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/label_pilot/build.py",
+   "path": "viridien/bakeoff/ml/label_pilot/build.py",
+   "status": "new",
+   "bytes": 6457,
+   "sha256": "85871e8169006898f1f9073478754524726d5a06f91925ea1369b70cd04c76d8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/label_pilot/index.html",
+   "path": "viridien/bakeoff/ml/label_pilot/index.html",
+   "status": "new",
+   "bytes": 4107,
+   "sha256": "8e83aa849fcf5bc57f0b0bffb49b612ad37283081880a949492dd76574cd7240",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/label_pilot/legend_names.py",
+   "path": "viridien/bakeoff/ml/label_pilot/legend_names.py",
+   "status": "new",
+   "bytes": 1715,
+   "sha256": "4220a7c320c47299afd6ada7d85b567d4d13c54243464af0609d702b797c3529",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/label_pilot/prepare.py",
+   "path": "viridien/bakeoff/ml/label_pilot/prepare.py",
+   "status": "new",
+   "bytes": 6229,
+   "sha256": "f411cc23d440c7d13865bf85f2c7dbbd8b73526f1726d6ccb7d63dcf85c16b88",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/label_pilot/test_pilot.py",
+   "path": "viridien/bakeoff/ml/label_pilot/test_pilot.py",
+   "status": "new",
+   "bytes": 2608,
+   "sha256": "0f0463fbc6ceabed91fc0e67316caa6cee9e8b8f185ab550575eb5349f4c7055",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_names/FINAL_NOTES.md",
+   "path": "viridien/bakeoff/ml/legend_names/FINAL_NOTES.md",
+   "status": "new",
+   "bytes": 2116,
+   "sha256": "9059b3de0fb1cadaf2e6895334502725b393276f609a49b33c0b118f1ac1f85e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_names/REPORT.md",
+   "path": "viridien/bakeoff/ml/legend_names/REPORT.md",
+   "status": "new",
+   "bytes": 4964,
+   "sha256": "bb905b474ca21f5f3edf546b5b00b0e3640b553d4841a37623ac38d6bacb16f5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_names/experiment.py",
+   "path": "viridien/bakeoff/ml/legend_names/experiment.py",
+   "status": "new",
+   "bytes": 18961,
+   "sha256": "05e2053bb2bf8dd7d90ad13e9e35edc38103be3fea9b89f021459f9a45dc28d5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_names/test_legend_v3.py",
+   "path": "viridien/bakeoff/ml/legend_names/test_legend_v3.py",
+   "status": "new",
+   "bytes": 3308,
+   "sha256": "7874639f00e4eaa961746b1bc2710f2e2aa7e6279a54450a4c9462b30a4c46de",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/REPORT.md",
+   "path": "viridien/bakeoff/ml/legend_v4/REPORT.md",
+   "status": "new",
+   "bytes": 12254,
+   "sha256": "0b637e3104fa676732eee23104d77640b9828dc4e714bda02c5b33e3335da25d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/annotate.py",
+   "path": "viridien/bakeoff/ml/legend_v4/annotate.py",
+   "status": "new",
+   "bytes": 3145,
+   "sha256": "490e49780054c7efa79b11b29ec02d91f180c0012b022417be0242f81ebdbbd7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/check_runtime.py",
+   "path": "viridien/bakeoff/ml/legend_v4/check_runtime.py",
+   "status": "new",
+   "bytes": 1546,
+   "sha256": "c5b4889960b49aefbcbf865145a0ea0d758ffce4acff9ceac57171e061b87a43",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/experiment.py",
+   "path": "viridien/bakeoff/ml/legend_v4/experiment.py",
+   "status": "new",
+   "bytes": 14456,
+   "sha256": "d8ad567a15bfbd32dab69bfdc4eba3d6da582c3846cf34bf6dc505ef322bbb32",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/inspect_dev.py",
+   "path": "viridien/bakeoff/ml/legend_v4/inspect_dev.py",
+   "status": "new",
+   "bytes": 809,
+   "sha256": "ae9c5920989660a5fa8002616d1350264205f7f7f45164f006aea9dc46a4cdb1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/report.py",
+   "path": "viridien/bakeoff/ml/legend_v4/report.py",
+   "status": "new",
+   "bytes": 12042,
+   "sha256": "57c6be67c7579afe828800832703360ce6c1dd476dcb3f9b97fb9674a6c557c5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/test_legend_v4.py",
+   "path": "viridien/bakeoff/ml/legend_v4/test_legend_v4.py",
+   "status": "new",
+   "bytes": 4372,
+   "sha256": "04883eac6eb21319c56f6b345fb9e746554dd682e8aedf393c5d8b66549e1122",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/legend_v4/pytest_cache/README.md",
+   "path": "viridien/bakeoff/ml/legend_v4/pytest_cache/README.md",
+   "status": "new",
+   "bytes": 302,
+   "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/match/REPORT.md",
+   "path": "viridien/bakeoff/ml/match/REPORT.md",
+   "status": "new",
+   "bytes": 5171,
+   "sha256": "eba365f2adfc2aa027bc6fd108084d375ffb69ceb501bd69a6d6e2b5d15ad30b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/match/experiment.py",
+   "path": "viridien/bakeoff/ml/match/experiment.py",
+   "status": "new",
+   "bytes": 15779,
+   "sha256": "00721532264c92122fd4fd18d8c99438765dc32e268103c945b8421f93ca44bd",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/match/features.py",
+   "path": "viridien/bakeoff/ml/match/features.py",
+   "status": "new",
+   "bytes": 5636,
+   "sha256": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/match/report.py",
+   "path": "viridien/bakeoff/ml/match/report.py",
+   "status": "new",
+   "bytes": 7390,
+   "sha256": "56167f5f3b1a9b0af90f4cecc90e9d833942a46aeb3a64d98a799e4d497b27f3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/match/test_match.py",
+   "path": "viridien/bakeoff/ml/match/test_match.py",
+   "status": "new",
+   "bytes": 1962,
+   "sha256": "26673ef7c5c27136c9cd20d6f39339e02096ca61579730544a6fbbbef5d3cd2b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/REPORT.md",
+   "path": "viridien/bakeoff/ml/synth_gulf/REPORT.md",
+   "status": "new",
+   "bytes": 8898,
+   "sha256": "2bb27222ea236afb835a61b688105def18849216ad5fb06c37aeee1c42c6719a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/__init__.py",
+   "path": "viridien/bakeoff/ml/synth_gulf/__init__.py",
+   "status": "new",
+   "bytes": 75,
+   "sha256": "6ff99e8d53698523bc1a305aeb645ea1e0849e5dbce1d86bb6b0f383fb8330ac",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/experiment.py",
+   "path": "viridien/bakeoff/ml/synth_gulf/experiment.py",
+   "status": "new",
+   "bytes": 22138,
+   "sha256": "4d293d291992f2df10d4af4392597a2384ff9adbecbbd4e6de96071ca3c9f211",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/generator.py",
+   "path": "viridien/bakeoff/ml/synth_gulf/generator.py",
+   "status": "new",
+   "bytes": 11647,
+   "sha256": "5ffd30521424fb7efd933d850b574d57e66c3c5e2f5a3a64841fe83a5474dba5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/report.py",
+   "path": "viridien/bakeoff/ml/synth_gulf/report.py",
+   "status": "new",
+   "bytes": 16118,
+   "sha256": "4ca4cd11708255bf2d7ad117c978968bc995a5d27d4a26be1c5eedb161f07e51",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/runtime.py",
+   "path": "viridien/bakeoff/ml/synth_gulf/runtime.py",
+   "status": "new",
+   "bytes": 801,
+   "sha256": "18c83a59ef1c65e66f07c5cfc4dd73b399da2eda4489bb3b970ef48e5b51545f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_gulf/test_synth_gulf.py",
+   "path": "viridien/bakeoff/ml/synth_gulf/test_synth_gulf.py",
+   "status": "new",
+   "bytes": 3083,
+   "sha256": "200835a7590dfb93268450334572e51c144708fee824cc09cb1e72065ece1a46",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/REPORT.md",
+   "path": "viridien/bakeoff/ml/synth_v2/REPORT.md",
+   "status": "new",
+   "bytes": 7101,
+   "sha256": "91c15b3048f82019d19301622e12999d2f9faaf0eea9dd9b313be0e565da0e85",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/__init__.py",
+   "path": "viridien/bakeoff/ml/synth_v2/__init__.py",
+   "status": "new",
+   "bytes": 54,
+   "sha256": "ec0753884c67fdea3562c5da9c7bb0469e081da7d95318d6cb9e0064fb6d01d1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/experiment.py",
+   "path": "viridien/bakeoff/ml/synth_v2/experiment.py",
+   "status": "new",
+   "bytes": 16059,
+   "sha256": "92da8ba718dc1d2f578e207f72b876407bd54bfdea4967d9e2d207c90dd1afed",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/generator.py",
+   "path": "viridien/bakeoff/ml/synth_v2/generator.py",
+   "status": "new",
+   "bytes": 12550,
+   "sha256": "999ae1f31545a184526d87daf7dab5482e1a5ff869d710c90529314380bc50ad",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/report.py",
+   "path": "viridien/bakeoff/ml/synth_v2/report.py",
+   "status": "new",
+   "bytes": 10625,
+   "sha256": "f06d54e59a55972a9a0479fe89547795e1082a7bc95272550064183dc83b460d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/runtime.py",
+   "path": "viridien/bakeoff/ml/synth_v2/runtime.py",
+   "status": "new",
+   "bytes": 798,
+   "sha256": "3b2da207764cde34301648241ed3cbc8cc9fcdc83f0fd98db21b08b5d28d52bc",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/smoke.py",
+   "path": "viridien/bakeoff/ml/synth_v2/smoke.py",
+   "status": "new",
+   "bytes": 1513,
+   "sha256": "dd64f1a65de8ebcc8549defe4e66ce388d51dcba48d7e60b71058c98ecef8f65",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/ml/synth_v2/test_synth_v2.py",
+   "path": "viridien/bakeoff/ml/synth_v2/test_synth_v2.py",
+   "status": "new",
+   "bytes": 4477,
+   "sha256": "1793b0833a66d62fca2fe884d6f7fc98e9e9dfc19c8cd12e30a06ba5dae3659b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/b01_jev_boxes.md",
+   "path": "viridien/bakeoff/notes/b01_jev_boxes.md",
+   "status": "same",
+   "bytes": 1636,
+   "sha256": "61d29aaefd49fafdabeef877c2d47ea6196123e9201f50e7531d0c7d1df111c5",
+   "previous_sha256": "61d29aaefd49fafdabeef877c2d47ea6196123e9201f50e7531d0c7d1df111c5"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/col_sheets.py",
+   "path": "viridien/bakeoff/notes/col_sheets.py",
+   "status": "new",
+   "bytes": 6176,
+   "sha256": "fe600d705dbae333bb4780d4bec0ca8705db7db8323345598c44840562592e6a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/conf_data.py",
+   "path": "viridien/bakeoff/notes/conf_data.py",
+   "status": "new",
+   "bytes": 4613,
+   "sha256": "829fb7b0a20242af48436bf7b3ad879ebeaef202be930f196527f4663d9aaa0e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/conf_data_v4.py",
+   "path": "viridien/bakeoff/notes/conf_data_v4.py",
+   "status": "new",
+   "bytes": 7503,
+   "sha256": "a03b0454995fd529913140aafe7c1e06e0ac61e565a2ba38c8b32063773ddaf0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/depth_check.md",
+   "path": "viridien/bakeoff/notes/depth_check.md",
+   "status": "changed",
+   "bytes": 2056,
+   "sha256": "cb04ee88c4300b6b0c987eb8a4983be02a3be074156303f02e2acef358c5f21a",
+   "previous_sha256": "75c41d6150b8248d0a3b9f4f91095a534597ff9dfe5cbd0c9a8af60860bc4701"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/eval_blind.py",
+   "path": "viridien/bakeoff/notes/eval_blind.py",
+   "status": "new",
+   "bytes": 2776,
+   "sha256": "18394c193fea9a5384b81d7be45fd46cd431cea89087d8382a8a38f1e25a5f94",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/failures.md",
+   "path": "viridien/bakeoff/notes/failures.md",
+   "status": "new",
+   "bytes": 8183,
+   "sha256": "b2ece1bfe0702d5cb19a7da6aaa7d0d206c13b20ffc52e64afaf841537cfb6ed",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/harness_check.md",
+   "path": "viridien/bakeoff/notes/harness_check.md",
+   "status": "same",
+   "bytes": 3472,
+   "sha256": "cfb47d1e3aa833a3eb7e41df6b657550829a034793d864ba2ffa60f0e6b011e3",
+   "previous_sha256": "cfb47d1e3aa833a3eb7e41df6b657550829a034793d864ba2ffa60f0e6b011e3"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/legend2_overview.py",
+   "path": "viridien/bakeoff/notes/legend2_overview.py",
+   "status": "new",
+   "bytes": 848,
+   "sha256": "501c268c6dde9c479a0498ed25e2f63091e59fb2bdc1833c4abdf1165fd08a7c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/legend2_sheets.py",
+   "path": "viridien/bakeoff/notes/legend2_sheets.py",
+   "status": "new",
+   "bytes": 1035,
+   "sha256": "da2a95b26a533f3147f1d89cefbf3b83b77b460724a7817df91e8dd4eb42acca",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/legend_quality.md",
+   "path": "viridien/bakeoff/notes/legend_quality.md",
+   "status": "same",
+   "bytes": 2148,
+   "sha256": "3e5020e8169fb1e7f9967398c2538be80bfaf0197fa2414b79229f91040ddd79",
+   "previous_sha256": "3e5020e8169fb1e7f9967398c2538be80bfaf0197fa2414b79229f91040ddd79"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/legfix.md",
+   "path": "viridien/bakeoff/notes/legfix.md",
+   "status": "changed",
+   "bytes": 24748,
+   "sha256": "ff560396b4fa9705a9da0ff5272116e5c83001b4527e12d147ab39605d89648c",
+   "previous_sha256": "03df8c9423753e948f54ff5a2f2dfc54af75ec035e263c1b620ae11a7fa0865f"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/legfix_audit.py",
+   "path": "viridien/bakeoff/notes/legfix_audit.py",
+   "status": "same",
+   "bytes": 12095,
+   "sha256": "3db32326712ffcabb392df58c98d4f818f18b68fd5b54e535b22bf0bb1e9fe92",
+   "previous_sha256": "3db32326712ffcabb392df58c98d4f818f18b68fd5b54e535b22bf0bb1e9fe92"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/legfix_checks.py",
+   "path": "viridien/bakeoff/notes/legfix_checks.py",
+   "status": "same",
+   "bytes": 3745,
+   "sha256": "bd68ee82120787a1bb9779e13569805f10f3cdf8e1fed4d77e074cbe13988e55",
+   "previous_sha256": "bd68ee82120787a1bb9779e13569805f10f3cdf8e1fed4d77e074cbe13988e55"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/llm_review.py",
+   "path": "viridien/bakeoff/notes/llm_review.py",
+   "status": "new",
+   "bytes": 13882,
+   "sha256": "cfce40b470a234963b6e14b6312d54398bcf1f635a6270faf082e600b2222973",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/llm_summary.py",
+   "path": "viridien/bakeoff/notes/llm_summary.py",
+   "status": "new",
+   "bytes": 5160,
+   "sha256": "ff3524b7e2574b7fcab60e613844ae37aab54f5ba909be8c7cabacec7d28c560",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/pair_sheets_v2.py",
+   "path": "viridien/bakeoff/notes/pair_sheets_v2.py",
+   "status": "new",
+   "bytes": 3121,
+   "sha256": "6236cdcdab64165c5dd420e5a847a9a242fe762725b997682848e6903466769d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/recheck_mixed.py",
+   "path": "viridien/bakeoff/notes/recheck_mixed.py",
+   "status": "new",
+   "bytes": 1271,
+   "sha256": "45725b33bb7d276d56ee3d7893036dc7e2ad3ae6e7648fe3eed3c5c8e6fc3815",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/review_brief.md",
+   "path": "viridien/bakeoff/notes/review_brief.md",
+   "status": "new",
+   "bytes": 4779,
+   "sha256": "25146b3ee148817cb945a4e3634c5a1d36563284996d8014c9a9434a093aebb7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s01_colour_runs.md",
+   "path": "viridien/bakeoff/notes/s01_colour_runs.md",
+   "status": "same",
+   "bytes": 614,
+   "sha256": "e32ce5aecb913ea60a5622632407cff326db454966f2d39506f2014f1105d54f",
+   "previous_sha256": "e32ce5aecb913ea60a5622632407cff326db454966f2d39506f2014f1105d54f"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s02_features_pelt.md",
+   "path": "viridien/bakeoff/notes/s02_features_pelt.md",
+   "status": "same",
+   "bytes": 1158,
+   "sha256": "9d2511341cbcca9e8d57c41f6e10338bf036f4d9894c8a95da63fa07be89fe7c",
+   "previous_sha256": "9d2511341cbcca9e8d57c41f6e10338bf036f4d9894c8a95da63fa07be89fe7c"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s03_template_match.md",
+   "path": "viridien/bakeoff/notes/s03_template_match.md",
+   "status": "same",
+   "bytes": 947,
+   "sha256": "28a6ee5fba6f22e6deb2a40739be480ad2b0b2551129e5cf46afbfef206146a2",
+   "previous_sha256": "28a6ee5fba6f22e6deb2a40739be480ad2b0b2551129e5cf46afbfef206146a2"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s04_kmeans_viterbi.md",
+   "path": "viridien/bakeoff/notes/s04_kmeans_viterbi.md",
+   "status": "same",
+   "bytes": 1566,
+   "sha256": "45fd254567133591eb25fd39d06662b144e380f40cd05270bda80d6b04d922fe",
+   "previous_sha256": "45fd254567133591eb25fd39d06662b144e380f40cd05270bda80d6b04d922fe"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s05_dinov2.md",
+   "path": "viridien/bakeoff/notes/s05_dinov2.md",
+   "status": "same",
+   "bytes": 1684,
+   "sha256": "b9791fa46503f65562902753dd9ed94369e57a1264391a7d3081939d8107a3ef",
+   "previous_sha256": "b9791fa46503f65562902753dd9ed94369e57a1264391a7d3081939d8107a3ef"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s06_siglip.md",
+   "path": "viridien/bakeoff/notes/s06_siglip.md",
+   "status": "same",
+   "bytes": 1837,
+   "sha256": "ebe1995649752e3e44670a45441e4508ad0705e9f513ba9884c212c58ec04b16",
+   "previous_sha256": "ebe1995649752e3e44670a45441e4508ad0705e9f513ba9884c212c58ec04b16"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s07_synth_cnn.md",
+   "path": "viridien/bakeoff/notes/s07_synth_cnn.md",
+   "status": "same",
+   "bytes": 1479,
+   "sha256": "9dc8dae23b2cc445fdf5c6c0c956f5226822fc76b9afb964a439cb61e3799e08",
+   "previous_sha256": "9dc8dae23b2cc445fdf5c6c0c956f5226822fc76b9afb964a439cb61e3799e08"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s08_jev.md",
+   "path": "viridien/bakeoff/notes/s08_jev.md",
+   "status": "same",
+   "bytes": 1237,
+   "sha256": "c2a4e69930b23855a4ac9987bb2a926bad89f3e920eaab008288e11bb4e2db2f",
+   "previous_sha256": "c2a4e69930b23855a4ac9987bb2a926bad89f3e920eaab008288e11bb4e2db2f"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s09_vlm_terra.md",
+   "path": "viridien/bakeoff/notes/s09_vlm_terra.md",
+   "status": "same",
+   "bytes": 1214,
+   "sha256": "0a7030153b3ffa706ace21c63b57d4958639d5327c216c7ef126e665d145ff48",
+   "previous_sha256": "0a7030153b3ffa706ace21c63b57d4958639d5327c216c7ef126e665d145ff48"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s10_hybrid.md",
+   "path": "viridien/bakeoff/notes/s10_hybrid.md",
+   "status": "same",
+   "bytes": 1443,
+   "sha256": "93230625cd1fedd686e7ad7506382c637411acaa54c5a5c1da74dc427e15f2bc",
+   "previous_sha256": "93230625cd1fedd686e7ad7506382c637411acaa54c5a5c1da74dc427e15f2bc"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/s11_fft_legend.md",
+   "path": "viridien/bakeoff/notes/s11_fft_legend.md",
+   "status": "same",
+   "bytes": 1709,
+   "sha256": "2d506ad0a9205a3121d168579817483abe47a8c8af9bc6fe5e5450a394df8ad5",
+   "previous_sha256": "2d506ad0a9205a3121d168579817483abe47a8c8af9bc6fe5e5450a394df8ad5"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/wave3_results.md",
+   "path": "viridien/bakeoff/notes/wave3_results.md",
+   "status": "new",
+   "bytes": 15461,
+   "sha256": "89abab69de3da28cbf0d80a1dfec2fa4b9a0ce17171c90f712b67bcafca23b73",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/bsee_list/REPORT.md",
+   "path": "viridien/bakeoff/notes/bsee_list/REPORT.md",
+   "status": "new",
+   "bytes": 10395,
+   "sha256": "a7113b8bd006a738f5bea4a03ff08ff98c2db2604a4811e1ef1de021f7cb341a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/bsee_list/build_request_list.py",
+   "path": "viridien/bakeoff/notes/bsee_list/build_request_list.py",
+   "status": "new",
+   "bytes": 12794,
+   "sha256": "3887fd84c012b99579c51d00b94505cdd26cf90d7925530ed5ba2658f785c1b1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/bsee_list/check_portal.py",
+   "path": "viridien/bakeoff/notes/bsee_list/check_portal.py",
+   "status": "new",
+   "bytes": 3882,
+   "sha256": "c9585762feb6e6376a15ccb8961b81ed4fac756e4b24ceb973db8dba4aca2010",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/merged_codex.md",
+   "path": "viridien/bakeoff/notes/council/merged_codex.md",
+   "status": "new",
+   "bytes": 15612,
+   "sha256": "e24a1b3c3334818fad0fe35eb9974d3084ff5cf65f6e15405f68a3fe0522f2fe",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/algo.md",
+   "path": "viridien/bakeoff/notes/council/codex/algo.md",
+   "status": "new",
+   "bytes": 26901,
+   "sha256": "bc8220d5c2405947d0f610ceedbd8b11565ac7ece846bac447bc491f1b404594",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/data.md",
+   "path": "viridien/bakeoff/notes/council/codex/data.md",
+   "status": "new",
+   "bytes": 20403,
+   "sha256": "a312d13a011b57dc81d090e64bdc95d85109d19dbec141afa1046ee33618dc4c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/dataA.md",
+   "path": "viridien/bakeoff/notes/council/codex/dataA.md",
+   "status": "new",
+   "bytes": 26378,
+   "sha256": "3ecfeab229abae2cd22194013533330275a0faf88186a0548718c445feb3daed",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/flywheel.md",
+   "path": "viridien/bakeoff/notes/council/codex/flywheel.md",
+   "status": "new",
+   "bytes": 20011,
+   "sha256": "de2f96aa3d1eea06dddf8400b84b337b1df19b3029811710a895a58002f2ee4a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/gen.md",
+   "path": "viridien/bakeoff/notes/council/codex/gen.md",
+   "status": "new",
+   "bytes": 25248,
+   "sha256": "20b682dbdf6a34c1be3904d80be9732f98cd865613777e412cfa973c0bd6bd29",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/method.md",
+   "path": "viridien/bakeoff/notes/council/codex/method.md",
+   "status": "new",
+   "bytes": 15214,
+   "sha256": "b556484c635ce09b71f5c849bd2796ecfb68447ba97e9710a379b51864abe9a2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/sol-algo.md",
+   "path": "viridien/bakeoff/notes/council/codex/sol-algo.md",
+   "status": "new",
+   "bytes": 21412,
+   "sha256": "8be619c4d27d405c3def3d26d96bf2e799d9c5af6326612991ff6a7041867630",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/sol-flywheel.md",
+   "path": "viridien/bakeoff/notes/council/codex/sol-flywheel.md",
+   "status": "new",
+   "bytes": 18588,
+   "sha256": "4083b7c0763788590520318c39af23c99e630a6e08a2daad5ad5e99cdbc64934",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/sol-gen.md",
+   "path": "viridien/bakeoff/notes/council/codex/sol-gen.md",
+   "status": "new",
+   "bytes": 19294,
+   "sha256": "a9ba3cf6bef92ca235d6be8247debefbe825b9c349aa081afabaeabcee8f8927",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/codex/sol-method.md",
+   "path": "viridien/bakeoff/notes/council/codex/sol-method.md",
+   "status": "new",
+   "bytes": 12837,
+   "sha256": "488cd2711e5677d773b053114336d0c80077cda4716b9f44555df0912ba9cdd9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/human_vs_v4.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/human_vs_v4.py",
+   "status": "new",
+   "bytes": 5320,
+   "sha256": "6fdba1ed0ab58b2cc3d733480e50f9bee2ce554aebc31e8ca2fdc3d594e1e6e5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/mk_disagree.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/mk_disagree.py",
+   "status": "new",
+   "bytes": 5048,
+   "sha256": "3b201e780a4820cd67e8890548a9ec0973c4ca4e939757aff041e74633cfe006",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/mk_realfake.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/mk_realfake.py",
+   "status": "new",
+   "bytes": 1838,
+   "sha256": "b9c8fe67cdbbd59360d68731a6afbdee9bc57bc87e29536bebab47759a0c043b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/mk_realfake2.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/mk_realfake2.py",
+   "status": "new",
+   "bytes": 2163,
+   "sha256": "7b57c936004f14bb0dfaf24d3428208cfad1d0dea924c8ffa992c0c52ba9cc0a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/paired.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/paired.py",
+   "status": "new",
+   "bytes": 2100,
+   "sha256": "30facb9d2073cc98c0b294147e553a5ca6e04fcef65d65d31401ce038fe29f57",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/perlog.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/perlog.py",
+   "status": "new",
+   "bytes": 1507,
+   "sha256": "7067dcc173f335bddf50b1a8e3b14780db99eb0326153dd6e5ca4de315102d85",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/reweight.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/reweight.py",
+   "status": "new",
+   "bytes": 5936,
+   "sha256": "82b011ebc0a1158630a75342ce7379b41c968d33e4d66c72f6380793dccd98e0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/flywheel/thick.py",
+   "path": "viridien/bakeoff/notes/council/flywheel/thick.py",
+   "status": "new",
+   "bytes": 3570,
+   "sha256": "2ec93be3353e22d28e74aaf4b9a11c63760ec6a352c18e62ebf63f5ffee52ec3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/colstats.py",
+   "path": "viridien/bakeoff/notes/council/gen/colstats.py",
+   "status": "new",
+   "bytes": 2285,
+   "sha256": "e39b60b1724f30aa00c57d6150cf4ef5ad3718a4450d553de78919ad575745dc",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/conf_lofo.py",
+   "path": "viridien/bakeoff/notes/council/gen/conf_lofo.py",
+   "status": "new",
+   "bytes": 2380,
+   "sha256": "e186fe3904df8781f68bdd215b1fb1b7baa0c1fea4b9195ddfe452bfcc4c1793",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/dino_probe.py",
+   "path": "viridien/bakeoff/notes/council/gen/dino_probe.py",
+   "status": "new",
+   "bytes": 3457,
+   "sha256": "136ed3bd98c3b5eefe237fb6b26d5ba90dd026d91b19dabecb56b4e8a8fbafc4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/dino_probe2.py",
+   "path": "viridien/bakeoff/notes/council/gen/dino_probe2.py",
+   "status": "new",
+   "bytes": 4193,
+   "sha256": "9716206757892fe4c523ae84a19d3fabcaca6f7c94b59230b704baa512f98e07",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/dino_probe_scales.py",
+   "path": "viridien/bakeoff/notes/council/gen/dino_probe_scales.py",
+   "status": "new",
+   "bytes": 3816,
+   "sha256": "3ded6820197254068239dcb6e0cfbea641da1c3fd46a117d8ccd46075171db89",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/dino_truth.py",
+   "path": "viridien/bakeoff/notes/council/gen/dino_truth.py",
+   "status": "new",
+   "bytes": 3991,
+   "sha256": "8351037efefc60e99d231d2ee0bbd1b0f6e9209c310695634711685928245792",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/legend_stats.py",
+   "path": "viridien/bakeoff/notes/council/gen/legend_stats.py",
+   "status": "new",
+   "bytes": 2063,
+   "sha256": "aa439b24a25b68919cb838a047032c1a279ad7dc2bef22998a2d2d4bb23765e8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/lofo.py",
+   "path": "viridien/bakeoff/notes/council/gen/lofo.py",
+   "status": "new",
+   "bytes": 1673,
+   "sha256": "f45074ae615f55813caf3b13c88891d7e88dbf2b82390712283135eb0f51d492",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/lofo2.py",
+   "path": "viridien/bakeoff/notes/council/gen/lofo2.py",
+   "status": "new",
+   "bytes": 1669,
+   "sha256": "d4177b14da50e600506b731c25769003f13825ca9a235f775be9ea28a4f8870e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/render_cols.py",
+   "path": "viridien/bakeoff/notes/council/gen/render_cols.py",
+   "status": "new",
+   "bytes": 2347,
+   "sha256": "ccf6328a015bb3cd6cf5b4f4c49ff49d66477aa7510dae1062b4a0f3067a4607",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/render_legends.py",
+   "path": "viridien/bakeoff/notes/council/gen/render_legends.py",
+   "status": "new",
+   "bytes": 1518,
+   "sha256": "d3a0d2442626196288deb3a9024098ed828f679efcd878759c912d79a18ee056",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/scale_test.py",
+   "path": "viridien/bakeoff/notes/council/gen/scale_test.py",
+   "status": "new",
+   "bytes": 1656,
+   "sha256": "17fd07cf33e3e56dcf29122f148d4dbbe42c37fb67648a852eaa32e0d7d0269c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/score_gt.py",
+   "path": "viridien/bakeoff/notes/council/gen/score_gt.py",
+   "status": "new",
+   "bytes": 1995,
+   "sha256": "41d6844eae69552635fcc86b4ae5a10d0115530fa70233a3d40b3b1ce5363cb5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/council/gen/score_gt_strict.py",
+   "path": "viridien/bakeoff/notes/council/gen/score_gt_strict.py",
+   "status": "new",
+   "bytes": 2153,
+   "sha256": "02e462bbf898a7eb125ef1ea1dd9a5ce10103361398d0d73c8d646e5e6120890",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_alabama/REPORT.md",
+   "path": "viridien/bakeoff/notes/data_alabama/REPORT.md",
+   "status": "new",
+   "bytes": 7935,
+   "sha256": "c6e3e497f61561d3ce24fb9c0ec360797928f65347a73a875a08abfd1ef0e6ff",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_alabama/check_sample.py",
+   "path": "viridien/bakeoff/notes/data_alabama/check_sample.py",
+   "status": "new",
+   "bytes": 7366,
+   "sha256": "4b9792541bd787235984844ad63712a9c9588c2bff7a262c456c71de8ae7f74e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_alabama/fetch.py",
+   "path": "viridien/bakeoff/notes/data_alabama/fetch.py",
+   "status": "new",
+   "bytes": 2676,
+   "sha256": "80901412a5c750163181a1229133e2af9a27f5de826c94898ae4b49205f29d57",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_texas/REPORT.md",
+   "path": "viridien/bakeoff/notes/data_texas/REPORT.md",
+   "status": "new",
+   "bytes": 6265,
+   "sha256": "594be3406e2df813a8a9ad6d50fe9f5678041fd074ec518f4b8f679450de8ad1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_texas/fetch.py",
+   "path": "viridien/bakeoff/notes/data_texas/fetch.py",
+   "status": "new",
+   "bytes": 4075,
+   "sha256": "e79e7fd03edb764acf6dc331b86031e052f0e86187f65e7cfa072b95cda915de",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_texas/inventory.py",
+   "path": "viridien/bakeoff/notes/data_texas/inventory.py",
+   "status": "new",
+   "bytes": 4974,
+   "sha256": "12a2b22a22de85537f8dfa4f886bb574ce493ef652f08449ba28b37252c39967",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/data_texas/report.py",
+   "path": "viridien/bakeoff/notes/data_texas/report.py",
+   "status": "new",
+   "bytes": 12289,
+   "sha256": "eb3499f919d1e6d49eee8a949056a2f8fbba5fbfc520ca150a22ff1a7d059ade",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/label_A/make_views.py",
+   "path": "viridien/bakeoff/notes/label_A/make_views.py",
+   "status": "same",
+   "bytes": 2275,
+   "sha256": "44cbc256fd3190b908a5d6e01bcaedd4d7faa6216af1d82d06a410e93cf98156",
+   "previous_sha256": "44cbc256fd3190b908a5d6e01bcaedd4d7faa6216af1d82d06a410e93cf98156"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/label_A/write_labels.py",
+   "path": "viridien/bakeoff/notes/label_A/write_labels.py",
+   "status": "same",
+   "bytes": 5242,
+   "sha256": "2b2e8fc98027022b47257af3023b444ad5e0ba44453190a54a0d1a47be47f039",
+   "previous_sha256": "2b2e8fc98027022b47257af3023b444ad5e0ba44453190a54a0d1a47be47f039"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/label_B/make_views.py",
+   "path": "viridien/bakeoff/notes/label_B/make_views.py",
+   "status": "same",
+   "bytes": 2098,
+   "sha256": "9c0f1e550914234f2bc3b014dea0858b2d487fff16e4cf57d5b45769f660ebcf",
+   "previous_sha256": "9c0f1e550914234f2bc3b014dea0858b2d487fff16e4cf57d5b45769f660ebcf"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/label_B/write_color_logs.py",
+   "path": "viridien/bakeoff/notes/label_B/write_color_logs.py",
+   "status": "same",
+   "bytes": 3998,
+   "sha256": "9d726ddad5773dd37bf5086a363dff4d197bab97f0c83b9bfb471feb6f18eda7",
+   "previous_sha256": "9d726ddad5773dd37bf5086a363dff4d197bab97f0c83b9bfb471feb6f18eda7"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/label_B/write_mono_logs.py",
+   "path": "viridien/bakeoff/notes/label_B/write_mono_logs.py",
+   "status": "same",
+   "bytes": 2660,
+   "sha256": "f6d32192f9927318717e88d025d9c61996a43a844ccc6d81efcb7840b99dc9a3",
+   "previous_sha256": "f6d32192f9927318717e88d025d9c61996a43a844ccc6d81efcb7840b99dc9a3"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/label_B/write_remaining.py",
+   "path": "viridien/bakeoff/notes/label_B/write_remaining.py",
+   "status": "same",
+   "bytes": 641,
+   "sha256": "c7b79f5dd4c4100f97a1f74c588755362b02e57568160293416cb75fb59d9582",
+   "previous_sha256": "c7b79f5dd4c4100f97a1f74c588755362b02e57568160293416cb75fb59d9582"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/prompts/_make.py",
+   "path": "viridien/bakeoff/notes/prompts/_make.py",
+   "status": "same",
+   "bytes": 7676,
+   "sha256": "9e801636ffdc398e9b7e7fdd8cc629d05832c4eb73b69199428df405dc588b10",
+   "previous_sha256": "9e801636ffdc398e9b7e7fdd8cc629d05832c4eb73b69199428df405dc588b10"
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/round5_request/README.md",
+   "path": "viridien/bakeoff/notes/round5_request/README.md",
+   "status": "new",
+   "bytes": 1669,
+   "sha256": "13b1b66390043abcd8516d3d16d362567ad928d024fd14d774e9868689b4abda",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/unlabelled_demo/REPORT.md",
+   "path": "viridien/bakeoff/notes/unlabelled_demo/REPORT.md",
+   "status": "new",
+   "bytes": 6831,
+   "sha256": "ed15ad64c93b7ed28dcd8830d2e8e13bb8b1b82999493137ad4110195d120454",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/unlabelled_demo/demo.py",
+   "path": "viridien/bakeoff/notes/unlabelled_demo/demo.py",
+   "status": "new",
+   "bytes": 16548,
+   "sha256": "042dd8018eae9cb4a9dc497c97ffa68d8cdcb2aea81fd01899a5f8522fc2ce9f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/unlabelled_demo/index.html",
+   "path": "viridien/bakeoff/notes/unlabelled_demo/index.html",
+   "status": "new",
+   "bytes": 10493,
+   "sha256": "d9bd893b7b7b75119c760324799753594e22c94ed54547cdfc349a97e5642784",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/notes/unlabelled_demo/test_artifacts.py",
+   "path": "viridien/bakeoff/notes/unlabelled_demo/test_artifacts.py",
+   "status": "new",
+   "bytes": 3361,
+   "sha256": "31ae7f0c3f8e6d336059f4952409fa32d584533e6acb79a5ec05dfa208a33b90",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/report/index.html",
+   "path": "viridien/bakeoff/report/index.html",
+   "status": "changed",
+   "bytes": 7103,
+   "sha256": "4ca1a9fd091d213155cf84fbe9359e1b57b83a3954459a55e2edc37b77068b2a",
+   "previous_sha256": "b2c5936497e6ce272554c373d795eae149f8bede135dc259982cc522fa17bd92"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/__init__.py",
+   "path": "viridien/bakeoff/strategies/__init__.py",
+   "status": "same",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/_jev.py",
+   "path": "viridien/bakeoff/strategies/_jev.py",
+   "status": "same",
+   "bytes": 2896,
+   "sha256": "622794acfe2901f4eda5921d8912d792b2cc7e7fb601824d5523195547383918",
+   "previous_sha256": "622794acfe2901f4eda5921d8912d792b2cc7e7fb601824d5523195547383918"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/b01_jev_boxes.py",
+   "path": "viridien/bakeoff/strategies/b01_jev_boxes.py",
+   "status": "same",
+   "bytes": 10764,
+   "sha256": "f4062807f04b57271f863beed41377651556ea85bed4d3b212c448ea92cc6b57",
+   "previous_sha256": "f4062807f04b57271f863beed41377651556ea85bed4d3b212c448ea92cc6b57"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/oracle_emil.py",
+   "path": "viridien/bakeoff/strategies/oracle_emil.py",
+   "status": "new",
+   "bytes": 1081,
+   "sha256": "5737ec6fca587cf24c839febff41389a568c3d8cb32cdd9376334a2e3a2ea6d3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s01_colour_runs.py",
+   "path": "viridien/bakeoff/strategies/s01_colour_runs.py",
+   "status": "same",
+   "bytes": 7988,
+   "sha256": "5c161df78ad10760d784d291e9b86352a580651cb99d4d3c94019cb2122cf1ae",
+   "previous_sha256": "5c161df78ad10760d784d291e9b86352a580651cb99d4d3c94019cb2122cf1ae"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s02_features_pelt.py",
+   "path": "viridien/bakeoff/strategies/s02_features_pelt.py",
+   "status": "same",
+   "bytes": 6363,
+   "sha256": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e",
+   "previous_sha256": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s03_template_match.py",
+   "path": "viridien/bakeoff/strategies/s03_template_match.py",
+   "status": "same",
+   "bytes": 4989,
+   "sha256": "e90bb04a62015f33014e866c5a06bdffae775f9d6d30f8a28362fd0df2701cc2",
+   "previous_sha256": "e90bb04a62015f33014e866c5a06bdffae775f9d6d30f8a28362fd0df2701cc2"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s04_kmeans_viterbi.py",
+   "path": "viridien/bakeoff/strategies/s04_kmeans_viterbi.py",
+   "status": "same",
+   "bytes": 9180,
+   "sha256": "de01f152af5cb4bb244efad4ba26d450952859dc18b615bcd4386776da69e2e6",
+   "previous_sha256": "de01f152af5cb4bb244efad4ba26d450952859dc18b615bcd4386776da69e2e6"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s05_dinov2.py",
+   "path": "viridien/bakeoff/strategies/s05_dinov2.py",
+   "status": "same",
+   "bytes": 6153,
+   "sha256": "2826e7a65a0ad18753f26bd56f776891510312cfd51271b24afe6b3c87120422",
+   "previous_sha256": "2826e7a65a0ad18753f26bd56f776891510312cfd51271b24afe6b3c87120422"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s06_siglip.py",
+   "path": "viridien/bakeoff/strategies/s06_siglip.py",
+   "status": "same",
+   "bytes": 6190,
+   "sha256": "0b8857d4d42802b551a9ca8b7299093ff0afd7fde82e9c331f6a7020c1bcde4f",
+   "previous_sha256": "0b8857d4d42802b551a9ca8b7299093ff0afd7fde82e9c331f6a7020c1bcde4f"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s07_synth_cnn.py",
+   "path": "viridien/bakeoff/strategies/s07_synth_cnn.py",
+   "status": "same",
+   "bytes": 6381,
+   "sha256": "91e9f02c44eb21abde3b6927f041087e2fac889de523522c4cab9bbaf472ea09",
+   "previous_sha256": "91e9f02c44eb21abde3b6927f041087e2fac889de523522c4cab9bbaf472ea09"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s08_jev.py",
+   "path": "viridien/bakeoff/strategies/s08_jev.py",
+   "status": "same",
+   "bytes": 7941,
+   "sha256": "111ff49d5b6265a4848e530b3c88ae5103a31b851e6b702c1406344c8ca3e9f6",
+   "previous_sha256": "111ff49d5b6265a4848e530b3c88ae5103a31b851e6b702c1406344c8ca3e9f6"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s09_vlm_terra.py",
+   "path": "viridien/bakeoff/strategies/s09_vlm_terra.py",
+   "status": "same",
+   "bytes": 12253,
+   "sha256": "4107878166562da930497b4f65213a99dc8f3081f336bb902bccc7c3152fd82c",
+   "previous_sha256": "4107878166562da930497b4f65213a99dc8f3081f336bb902bccc7c3152fd82c"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s10_hybrid.py",
+   "path": "viridien/bakeoff/strategies/s10_hybrid.py",
+   "status": "same",
+   "bytes": 7752,
+   "sha256": "7a681f59dd672698e2da33078ff39f9128952f2302a139506b3506ecb76ede24",
+   "previous_sha256": "7a681f59dd672698e2da33078ff39f9128952f2302a139506b3506ecb76ede24"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s11_fft_legend.py",
+   "path": "viridien/bakeoff/strategies/s11_fft_legend.py",
+   "status": "same",
+   "bytes": 7796,
+   "sha256": "a7579d209ffacd74cd52f0e7054bdb769151cdcddb31e425c2b9073e0a851c2c",
+   "previous_sha256": "a7579d209ffacd74cd52f0e7054bdb769151cdcddb31e425c2b9073e0a851c2c"
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s12_emil.py",
+   "path": "viridien/bakeoff/strategies/s12_emil.py",
+   "status": "new",
+   "bytes": 3000,
+   "sha256": "6aa071ab9cb0a2036f1624582159390ed5665143669a7925ba71d9cd75894320",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s13_boundary_net.py",
+   "path": "viridien/bakeoff/strategies/s13_boundary_net.py",
+   "status": "new",
+   "bytes": 3234,
+   "sha256": "fa8d28e72160e2286edca98b2f034ca775c30779779cccf24a1618aab04aaf51",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s14_learned_match.py",
+   "path": "viridien/bakeoff/strategies/s14_learned_match.py",
+   "status": "new",
+   "bytes": 4526,
+   "sha256": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s15_learned_match.py",
+   "path": "viridien/bakeoff/strategies/s15_learned_match.py",
+   "status": "new",
+   "bytes": 748,
+   "sha256": "5954a7661ef1b79dbc3787296f65b36fdb28a772213b4842a2fef7730b6ada44",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s16_legend_v3.py",
+   "path": "viridien/bakeoff/strategies/s16_legend_v3.py",
+   "status": "new",
+   "bytes": 356,
+   "sha256": "6935d5fabffcc53b0b4bad1fed7cb509e450aa1535ea764edd2278c96789e7c0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s17_synth_gulf.py",
+   "path": "viridien/bakeoff/strategies/s17_synth_gulf.py",
+   "status": "new",
+   "bytes": 876,
+   "sha256": "925dc0b818d35eb0fd6d748a1bc69d7ace6d4280e5279e69ccb1a5063533f099",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s18_best.py",
+   "path": "viridien/bakeoff/strategies/s18_best.py",
+   "status": "new",
+   "bytes": 1038,
+   "sha256": "713ef4c7c4961a718663f2bc1527fc508ee6e50701b1d4a614acb82b25a33cfc",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s19_combine.py",
+   "path": "viridien/bakeoff/strategies/s19_combine.py",
+   "status": "new",
+   "bytes": 207,
+   "sha256": "dbeea29bc0e56f768ac8bc99ebf57689e93a6932c3cd31f6c760ab61992d955d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s20_legend_v4.py",
+   "path": "viridien/bakeoff/strategies/s20_legend_v4.py",
+   "status": "new",
+   "bytes": 427,
+   "sha256": "61fc2bd3ce542d37c51b71c5dc7ca32570c47b116ca021bb6e4aa94cffa248e0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s21_synth_v2.py",
+   "path": "viridien/bakeoff/strategies/s21_synth_v2.py",
+   "status": "new",
+   "bytes": 815,
+   "sha256": "70199e6fd7517f7ce1ff6cccb65391fa9214cdea33458a83a3bac2fa5252ab17",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/strategies/s22_boundary_v2.py",
+   "path": "viridien/bakeoff/strategies/s22_boundary_v2.py",
+   "status": "new",
+   "bytes": 707,
+   "sha256": "776900dd4bfff13d9bae6200e85c84fc7efb638fb9f999966c5c7f2eb6d373a5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/CRITIQUE.md",
+   "path": "viridien/bakeoff/synth/CRITIQUE.md",
+   "status": "new",
+   "bytes": 11076,
+   "sha256": "13e0b334c2c75f83aae1b54d8da7bd2a594f1744ccce7cfcf0f569a57036d75b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/README.md",
+   "path": "viridien/bakeoff/synth/README.md",
+   "status": "new",
+   "bytes": 29202,
+   "sha256": "ce0c192dff3662596f401f6aa75e4ebc8f91169d2b4b60c477d1390989bf1c84",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/__init__.py",
+   "path": "viridien/bakeoff/synth/__init__.py",
+   "status": "new",
+   "bytes": 119,
+   "sha256": "d1ffd507899f7e3f7f50fb2d30915eba0c59090a85bd45db7e1a79e76f14bf52",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/audit_compare.py",
+   "path": "viridien/bakeoff/synth/audit_compare.py",
+   "status": "new",
+   "bytes": 6297,
+   "sha256": "6980769e57e51f90f18ff53b7e5b7373f5495a7b753b85feba22fb60aa86e60e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/bench_synth.py",
+   "path": "viridien/bakeoff/synth/bench_synth.py",
+   "status": "new",
+   "bytes": 16762,
+   "sha256": "51cf981573d02177e146bbdc4a0eac431e282d2d21a3e9fcc78d0242cb2f0684",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/colour.py",
+   "path": "viridien/bakeoff/synth/colour.py",
+   "status": "new",
+   "bytes": 5489,
+   "sha256": "975cc228f22156a4905318cf065a93961cf448e0e1fc740016af394d09363119",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/colour_gate.py",
+   "path": "viridien/bakeoff/synth/colour_gate.py",
+   "status": "new",
+   "bytes": 2562,
+   "sha256": "6cfc8a219bc34667ca8213bca9ebea63e156bd6b7b2ea7068284ee05f9c9068f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/common.py",
+   "path": "viridien/bakeoff/synth/common.py",
+   "status": "new",
+   "bytes": 2727,
+   "sha256": "082c5fff6bc945f58334c367bd606a4de37257ce6783fb328a7914af12872574",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/compare.css",
+   "path": "viridien/bakeoff/synth/compare.css",
+   "status": "new",
+   "bytes": 2066,
+   "sha256": "3035fdc5b5392719a9e93977c496f14e74f2f0f3ec3ce465555f15bed02d5afa",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/compare.js",
+   "path": "viridien/bakeoff/synth/compare.js",
+   "status": "new",
+   "bytes": 2999,
+   "sha256": "d9326b1e9aa0a9dee9c6ef729d751b9890ab86a614d5d45a43c34162863ff8d5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/compare.py",
+   "path": "viridien/bakeoff/synth/compare.py",
+   "status": "new",
+   "bytes": 14507,
+   "sha256": "c024ac0ef1fea79092327cd75b952b4ef2b184bda93e291bfbbc4ac4e75b65ad",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/generate.py",
+   "path": "viridien/bakeoff/synth/generate.py",
+   "status": "new",
+   "bytes": 25814,
+   "sha256": "a5188bdd8469e21af30d5e90995789b3fe1ba9b658d8c3097fdf5b03ca267a56",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/io_synth.py",
+   "path": "viridien/bakeoff/synth/io_synth.py",
+   "status": "new",
+   "bytes": 4578,
+   "sha256": "8c3065b7aac26a0e43846538a5e14005a854f4f37bd2aaa8266f625b954720f3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/legend_crops.py",
+   "path": "viridien/bakeoff/synth/legend_crops.py",
+   "status": "new",
+   "bytes": 2750,
+   "sha256": "23a846ff85466b5e89d4eead4f1749f7a10845027a87af1989178856f1fcac25",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/lookalikes.py",
+   "path": "viridien/bakeoff/synth/lookalikes.py",
+   "status": "new",
+   "bytes": 2239,
+   "sha256": "b2910ec766b07d8b4d77caf985b4f1f9299e64c5d29516cb17e0b5b025448828",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/mine.py",
+   "path": "viridien/bakeoff/synth/mine.py",
+   "status": "new",
+   "bytes": 42388,
+   "sha256": "15efe53abc22db28180a19c7966cbb65042991822b91569a2addb26a2cfa873f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/mining_check.py",
+   "path": "viridien/bakeoff/synth/mining_check.py",
+   "status": "new",
+   "bytes": 5279,
+   "sha256": "e79dd200ad01c583a452b059f0c0b4930c01c92fd6638244fac2c6eb2a93fe5b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/mock.py",
+   "path": "viridien/bakeoff/synth/mock.py",
+   "status": "new",
+   "bytes": 3292,
+   "sha256": "cdd85066c2fed62be7e5305f3070e6cef1093d3651b7db28fc2cfdd12c5c454b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/nuisances.py",
+   "path": "viridien/bakeoff/synth/nuisances.py",
+   "status": "new",
+   "bytes": 6692,
+   "sha256": "4a5d10e9ee9c4451c82e16040d7a04dfb0669be32f7c4b09d65fc2a690f8065b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/offline.py",
+   "path": "viridien/bakeoff/synth/offline.py",
+   "status": "new",
+   "bytes": 2891,
+   "sha256": "6e183d1c829bf02ed0b60ea2fa66b5d0acd6e6e2ce23443bbb72e57c1c3e805e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/patterns.py",
+   "path": "viridien/bakeoff/synth/patterns.py",
+   "status": "new",
+   "bytes": 4050,
+   "sha256": "dfc1d3af96604792828d41945005a0830fd2aec06aa2dd1b7f32b3b79c9b035c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/procgen.py",
+   "path": "viridien/bakeoff/synth/procgen.py",
+   "status": "new",
+   "bytes": 15558,
+   "sha256": "449fc577300d31ed47bad6e629672cb879633b20442fea9061e1d2f5ab9544d6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/report_synth.py",
+   "path": "viridien/bakeoff/synth/report_synth.py",
+   "status": "new",
+   "bytes": 5749,
+   "sha256": "7b6c53ba7e91cde859e2b5ed77be6b0f8e3f73267f1c1f233819a5aa523c034a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/review.html",
+   "path": "viridien/bakeoff/synth/review.html",
+   "status": "new",
+   "bytes": 14861,
+   "sha256": "9eaf4d230273f7b3ce374f30d883543a52957109f782fd3bb10632791e435903",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/review.py",
+   "path": "viridien/bakeoff/synth/review.py",
+   "status": "new",
+   "bytes": 11093,
+   "sha256": "3bfd1995c9d7f12307fab03e7b9fedf0cacbbdde531bcdcb32435578f7496945",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/sheets.py",
+   "path": "viridien/bakeoff/synth/sheets.py",
+   "status": "new",
+   "bytes": 4114,
+   "sha256": "109ef55856e8a3b9fe417d037fa8fe613dc97dad3ab022151871e9ff12491476",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/statistics.py",
+   "path": "viridien/bakeoff/synth/statistics.py",
+   "status": "new",
+   "bytes": 10515,
+   "sha256": "d0733a16b39587936705a16ef49a647ad9ccec334e45aad7d43a91ee020624ce",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/test_generate.py",
+   "path": "viridien/bakeoff/synth/test_generate.py",
+   "status": "new",
+   "bytes": 13237,
+   "sha256": "659b171424fc68ea343978714848d40e8f9206e6effcd7ce9c31747fd6314721",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/test_mining.py",
+   "path": "viridien/bakeoff/synth/test_mining.py",
+   "status": "new",
+   "bytes": 19463,
+   "sha256": "c5422d05ce0345811405b1aa5649696860b1877cb5495641c575a860ae5c73b9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/test_procgen.py",
+   "path": "viridien/bakeoff/synth/test_procgen.py",
+   "status": "new",
+   "bytes": 11017,
+   "sha256": "7346d43fe4f8b9976049f5a5fef8258cd163c33e9a3214d40090025bc2b30309",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/texstats.py",
+   "path": "viridien/bakeoff/synth/texstats.py",
+   "status": "new",
+   "bytes": 24794,
+   "sha256": "0cd914f37cd617c4a527d7414e6b3a0317a9660db5c7bd2bdc74f6e8efdbe42a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/bakeoff/synth/textures.py",
+   "path": "viridien/bakeoff/synth/textures.py",
+   "status": "new",
+   "bytes": 8563,
+   "sha256": "660a99bb2b52d832056621fd25b448e4373cdb8ee2d6ee3e56d8c3c19b198d90",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/README.md",
+   "path": "viridien/pattern_lab/README.md",
+   "status": "new",
+   "bytes": 19918,
+   "sha256": "51f57d1058ee36fce866aa3807a776f8f7a67128313ba56bdc124c38fb125f7c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/audit_report.py",
+   "path": "viridien/pattern_lab/audit_report.py",
+   "status": "new",
+   "bytes": 3953,
+   "sha256": "27da46aeb2b88a5cdac7ddc2e917e4f604d9142cb2170cefd794beb2d3b0eb9a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/background.py",
+   "path": "viridien/pattern_lab/background.py",
+   "status": "new",
+   "bytes": 4350,
+   "sha256": "1b5810740616baa06f3fc0209b62da73dd6d5805ba8e334721c80087db1b72de",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/completion_audit.py",
+   "path": "viridien/pattern_lab/completion_audit.py",
+   "status": "new",
+   "bytes": 9438,
+   "sha256": "2347a1630b554b7fa1088e96c8d00b18b9920daa01ad77515c42142fce8ae1d3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/export_initial.py",
+   "path": "viridien/pattern_lab/export_initial.py",
+   "status": "new",
+   "bytes": 1816,
+   "sha256": "5177f77b172f65277e956dd818ab2d93c12b49c9d95c286c2c246d3ea7eb0e8f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/feedback.py",
+   "path": "viridien/pattern_lab/feedback.py",
+   "status": "new",
+   "bytes": 8916,
+   "sha256": "217a947a1d2ea34fc95487bb5ad6e25fd80c48a00b11f37a0e28fe4488411e53",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/legend_palette.py",
+   "path": "viridien/pattern_lab/legend_palette.py",
+   "status": "new",
+   "bytes": 1357,
+   "sha256": "ddd593aace39ebae3c84d89981c2966b98705dadf4b9129c66c9dce8976e4ea2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/legend_repairs.py",
+   "path": "viridien/pattern_lab/legend_repairs.py",
+   "status": "new",
+   "bytes": 2198,
+   "sha256": "e1e177fe94c20d0f3b58aa16ab197f8d87b6ca0b5e053e90fc6186c8728bef81",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/model.py",
+   "path": "viridien/pattern_lab/model.py",
+   "status": "new",
+   "bytes": 13242,
+   "sha256": "9341c945e429a451c5666af9c6a855ce41e1c6eed4a2d1e4c34c85bfec61d51c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/normalized.py",
+   "path": "viridien/pattern_lab/normalized.py",
+   "status": "new",
+   "bytes": 11664,
+   "sha256": "3f4c6c4f80835b57eba8a4e78bb800757e47848ccb0a328b4a034f4e11f7bfa9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/prepare_verification.py",
+   "path": "viridien/pattern_lab/prepare_verification.py",
+   "status": "new",
+   "bytes": 2839,
+   "sha256": "aefeb4d0c8ffc73e6cebfb12c82346bc5fee99f106907af1cbed9965581491c2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/review_api.py",
+   "path": "viridien/pattern_lab/review_api.py",
+   "status": "new",
+   "bytes": 5393,
+   "sha256": "8e5abf00a8c32c75a56d932ad3e01274bc9208c9e3b1120981fa061a1746311f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/review_media.py",
+   "path": "viridien/pattern_lab/review_media.py",
+   "status": "new",
+   "bytes": 3784,
+   "sha256": "5be2eecc43022182b10ac433213b36a3e809dbb065f261668fc48da6739fa7c1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/review_queue.py",
+   "path": "viridien/pattern_lab/review_queue.py",
+   "status": "new",
+   "bytes": 15517,
+   "sha256": "d835df353ad78d9e220c9ebe734f7ab46ff84225530c9716fca8efd15f7f1db3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/server.py",
+   "path": "viridien/pattern_lab/server.py",
+   "status": "new",
+   "bytes": 13725,
+   "sha256": "5c73c55e6fcbc3e2555bb524fbd8393c03af6bcadb596e4f8c6b4ab0e16629a4",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/start-genlab.ps1",
+   "path": "viridien/pattern_lab/start-genlab.ps1",
+   "status": "new",
+   "bytes": 1490,
+   "sha256": "f75acba066ec8cb53a109cdc90367bdb46f31db54c5f45e3e0dbccf4d0392cbc",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/start.ps1",
+   "path": "viridien/pattern_lab/start.ps1",
+   "status": "new",
+   "bytes": 1957,
+   "sha256": "cad2f320ae6326d64241f5e759f50691dd56e1361fff14d228bafe0024d0e71a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/verification.py",
+   "path": "viridien/pattern_lab/verification.py",
+   "status": "new",
+   "bytes": 4445,
+   "sha256": "2e7a7b0b11fea0857c93c49009bffe715311df6350cb7ea5b6be94ad3992d13c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/README.md",
+   "path": "viridien/pattern_lab/generator/README.md",
+   "status": "new",
+   "bytes": 8531,
+   "sha256": "7f91a45eccacd5c9ab4eb0b7fd264b44746a20dfcb269162044753dba5f886e8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/__init__.py",
+   "path": "viridien/pattern_lab/generator/__init__.py",
+   "status": "new",
+   "bytes": 144,
+   "sha256": "fcb8916ca5a0c0b34b85bb1e0f1aa06cf3e4ee4c7bff59695e173ab1d54065e5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/_texture.py",
+   "path": "viridien/pattern_lab/generator/_texture.py",
+   "status": "new",
+   "bytes": 7760,
+   "sha256": "cb42771d870c54ec98dd4774879ec0a9c6a17094f1fa164cc2a467d702a2d22f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/core.py",
+   "path": "viridien/pattern_lab/generator/core.py",
+   "status": "new",
+   "bytes": 10882,
+   "sha256": "02618f0278fa25feb1f377347e8ea8e9ba3a18f6212da78afb9992565df70641",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/lab.css",
+   "path": "viridien/pattern_lab/generator/lab.css",
+   "status": "new",
+   "bytes": 2868,
+   "sha256": "5b86efc8027466e11ec806bb6379a84b220685418b80a43d5be5db654fce1362",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/lab.js",
+   "path": "viridien/pattern_lab/generator/lab.js",
+   "status": "new",
+   "bytes": 15331,
+   "sha256": "186f3e518cc8768b088bb2522b00afc9fd95ee391ec60c987b083bec41308e03",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/test_core.py",
+   "path": "viridien/pattern_lab/generator/test_core.py",
+   "status": "new",
+   "bytes": 9290,
+   "sha256": "aeab42d3af62de034b9135d52c2c7c5386ac88d8783f4ea57e25a9330c796775",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/test_lab.cjs",
+   "path": "viridien/pattern_lab/generator/test_lab.cjs",
+   "status": "new",
+   "bytes": 8713,
+   "sha256": "8d72bd8a8760c686312b4c86e18dfd4ae76add0c29ce0c7934a098870156f9cd",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/generator/validate_source.py",
+   "path": "viridien/pattern_lab/generator/validate_source.py",
+   "status": "new",
+   "bytes": 2750,
+   "sha256": "750ae87781b426461b3673ccebb2a91682fd8a982d7e8f94b7c779c7f23f312a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/README.md",
+   "path": "viridien/pattern_lab/genlab/README.md",
+   "status": "new",
+   "bytes": 24375,
+   "sha256": "3fcc9760e1ea78855b2370f78e04d53a92c34a376b0a85c1056a03da4c394ed2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/__init__.py",
+   "path": "viridien/pattern_lab/genlab/__init__.py",
+   "status": "new",
+   "bytes": 84,
+   "sha256": "d328bf7107540fbb2fc45c1f6bbfe360bd20bbf6f129a6c487f7d04983d6e712",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/build.py",
+   "path": "viridien/pattern_lab/genlab/build.py",
+   "status": "new",
+   "bytes": 31249,
+   "sha256": "c7e835539a0add06f7f04a465e611f64aeae23d787b09a3ba2cd2e42b9035df7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/candidates.py",
+   "path": "viridien/pattern_lab/genlab/candidates.py",
+   "status": "new",
+   "bytes": 30607,
+   "sha256": "04969c3ab7d33ebb733372dede00db77b1fbc7d80c2d99f3c8037c9bb02666cd",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/dataset.py",
+   "path": "viridien/pattern_lab/genlab/dataset.py",
+   "status": "new",
+   "bytes": 67783,
+   "sha256": "14356d61d9210ca2fc4b65a4ae5403e34b1767f45a4da9146fffb0aedee2e924",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/dataset_eval.py",
+   "path": "viridien/pattern_lab/genlab/dataset_eval.py",
+   "status": "new",
+   "bytes": 30013,
+   "sha256": "aee862722508bb64257f45da057bbfeed0a50607a8509550334526e78d9bc36d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/dataset_loop.py",
+   "path": "viridien/pattern_lab/genlab/dataset_loop.py",
+   "status": "new",
+   "bytes": 15475,
+   "sha256": "57b89e5a0f8e6ab4d1726bc48210eccfbece5710b1e3cf25eba4cd0a6aef6ec7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/learn.py",
+   "path": "viridien/pattern_lab/genlab/learn.py",
+   "status": "new",
+   "bytes": 24887,
+   "sha256": "d7349e4dcd632ffe334313bbe1cf619eec92f897d936f965894c49ef834ebc49",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/paths.py",
+   "path": "viridien/pattern_lab/genlab/paths.py",
+   "status": "new",
+   "bytes": 583,
+   "sha256": "5b87f82360e5d6182fad5003f3f33ed04b3ea488905e684bcefd5c7c8fe48e87",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/proposals.py",
+   "path": "viridien/pattern_lab/genlab/proposals.py",
+   "status": "new",
+   "bytes": 3814,
+   "sha256": "2fd97c1c8112241f218835e40aacd095bc433a8e9c65bb01f055e1ba2ff95b00",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/reading.py",
+   "path": "viridien/pattern_lab/genlab/reading.py",
+   "status": "new",
+   "bytes": 566,
+   "sha256": "91d8b5dbd41206c6253947c34fb56a78a95b853e755f48ead056501efddff8f3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/realism.py",
+   "path": "viridien/pattern_lab/genlab/realism.py",
+   "status": "new",
+   "bytes": 6387,
+   "sha256": "847fb2e24dd54d9c10808838e4bef7df2dd2871755179234241961bed3a7eeaa",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/render.py",
+   "path": "viridien/pattern_lab/genlab/render.py",
+   "status": "new",
+   "bytes": 6401,
+   "sha256": "32611ab49fa124f34b8de9ed1da363fbec0b7b9700a8d20de3f92a65ef922726",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/score.py",
+   "path": "viridien/pattern_lab/genlab/score.py",
+   "status": "new",
+   "bytes": 20252,
+   "sha256": "f0d51863deaa890534fa5d7ab9679af76db0a155fd1553179dae2bca0745ecac",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/selection.py",
+   "path": "viridien/pattern_lab/genlab/selection.py",
+   "status": "new",
+   "bytes": 2065,
+   "sha256": "8a093abf31e0a2a97aff5640080e2b46513bae5856ba54a01e30575f1d67b17e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/server.py",
+   "path": "viridien/pattern_lab/genlab/server.py",
+   "status": "new",
+   "bytes": 9494,
+   "sha256": "162ee1ff68e7ad37f54585a65b44e8ccd0766171000dac310078aed2202fc77c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/stage3.py",
+   "path": "viridien/pattern_lab/genlab/stage3.py",
+   "status": "new",
+   "bytes": 19004,
+   "sha256": "ab4e23fb9ac57cf9042e3dc98bd58c4b23282a35b4714a7bd617443bb3705f4a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/stage3_findings.py",
+   "path": "viridien/pattern_lab/genlab/stage3_findings.py",
+   "status": "new",
+   "bytes": 9204,
+   "sha256": "cc239559bd9b0e422c1d25033b10b4a38a175dcee2b50c32d7905a16aa256c05",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/start-dataset-loop.ps1",
+   "path": "viridien/pattern_lab/genlab/start-dataset-loop.ps1",
+   "status": "new",
+   "bytes": 1174,
+   "sha256": "6547791e9bc7ffa99e5d23e66bacc31b5b640b6bfab9427eef0064fb185abd2c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/swatch.py",
+   "path": "viridien/pattern_lab/genlab/swatch.py",
+   "status": "new",
+   "bytes": 8333,
+   "sha256": "af57a87ec07c646b0709855d5a03b1a1663f9b04419c26b37364cc6d62add899",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/assemble/__init__.py",
+   "path": "viridien/pattern_lab/genlab/assemble/__init__.py",
+   "status": "new",
+   "bytes": 98,
+   "sha256": "dbaf8fb3918c40e371d92bc18812835da0e6f8a9ee9e2e76a7bc3f7b91d68c26",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/assemble/bench.py",
+   "path": "viridien/pattern_lab/genlab/assemble/bench.py",
+   "status": "new",
+   "bytes": 100047,
+   "sha256": "02c19e29a4a765aaa36169491305b21936f52cff1e36053393ddaf34e7ba8c8e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/assemble/compose.py",
+   "path": "viridien/pattern_lab/genlab/assemble/compose.py",
+   "status": "new",
+   "bytes": 47935,
+   "sha256": "26240eafde46b6fde24d130c8fc7f47d00fc28fd5979c650703d74de9ef84b99",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/assemble/noise.py",
+   "path": "viridien/pattern_lab/genlab/assemble/noise.py",
+   "status": "new",
+   "bytes": 28349,
+   "sha256": "8d86f747a808fc386233a8280e67d048861849f9493f28822776793517bcf83e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/assemble/stats.py",
+   "path": "viridien/pattern_lab/genlab/assemble/stats.py",
+   "status": "new",
+   "bytes": 64833,
+   "sha256": "d8114de8252253f871ecc606c6129963e6f216401244ecaed868086e1931e849",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/static/index.html",
+   "path": "viridien/pattern_lab/genlab/static/index.html",
+   "status": "new",
+   "bytes": 36482,
+   "sha256": "b1ea2813fb327b332f1f6c8b1f92673edfafed1a3a568b791e923d5c8a8cd005",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/audit_candidates.py",
+   "path": "viridien/pattern_lab/genlab/tests/audit_candidates.py",
+   "status": "new",
+   "bytes": 5908,
+   "sha256": "ca803ea767f5e8aadc19fe8def86e119417aa5fc138b879af4efd335630fd51b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/audit_dataset.py",
+   "path": "viridien/pattern_lab/genlab/tests/audit_dataset.py",
+   "status": "new",
+   "bytes": 5415,
+   "sha256": "0deaa8ac42447e515bb21772f9ebadb105e41fc612028cde258962af56982dce",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/shots.py",
+   "path": "viridien/pattern_lab/genlab/tests/shots.py",
+   "status": "new",
+   "bytes": 6393,
+   "sha256": "7d8a59af5c6acc05f1d1d58e8bc55a2a70559e5ef6f3d27b56ef3df0ac036e23",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/test_assemble_bench.py",
+   "path": "viridien/pattern_lab/genlab/tests/test_assemble_bench.py",
+   "status": "new",
+   "bytes": 11397,
+   "sha256": "c2299293d24d7a223f0b5cf3bcd1da9a4335de3202617258cc37e50962a39f68",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/test_assemble_compose.py",
+   "path": "viridien/pattern_lab/genlab/tests/test_assemble_compose.py",
+   "status": "new",
+   "bytes": 9509,
+   "sha256": "a392835ce1e0051cba2cac28b5fad0b4388766385d9c21b84d0daf6f7da1af93",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/test_assemble_stats.py",
+   "path": "viridien/pattern_lab/genlab/tests/test_assemble_stats.py",
+   "status": "new",
+   "bytes": 6223,
+   "sha256": "1453785098241d4f93a79bf25bafb43d50b57318c18a8c857aa46edcbdbc6ae9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/test_atlas.py",
+   "path": "viridien/pattern_lab/genlab/tests/test_atlas.py",
+   "status": "new",
+   "bytes": 5082,
+   "sha256": "f3b561ac41a4767a3396ed0778d70787eca18f03afb3e460993e8d5fffecd4a0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/test_genlab.py",
+   "path": "viridien/pattern_lab/genlab/tests/test_genlab.py",
+   "status": "new",
+   "bytes": 47310,
+   "sha256": "ceebb293cade477d123bd65dd8956e156140b4fc3f73f9ec8f9aebd057f26f9d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/test_tiles_fix.py",
+   "path": "viridien/pattern_lab/genlab/tests/test_tiles_fix.py",
+   "status": "new",
+   "bytes": 6427,
+   "sha256": "08b5838a2fa0e5eb45c4ae3a770d70945a86404e3b546b9c8d367d75a6704912",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/genlab/tests/wait_ready.py",
+   "path": "viridien/pattern_lab/genlab/tests/wait_ready.py",
+   "status": "new",
+   "bytes": 1428,
+   "sha256": "90074885b05a0fe73f859f34669bfc46670f302d8d1d025ae420c5d40921db36",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/app.css",
+   "path": "viridien/pattern_lab/static/app.css",
+   "status": "new",
+   "bytes": 11505,
+   "sha256": "cf56e1b85383ee35f41b5a98bd858ef0460a63f047efab730f9334ad9d563d3a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/app.js",
+   "path": "viridien/pattern_lab/static/app.js",
+   "status": "new",
+   "bytes": 23382,
+   "sha256": "a98dc8855094b81452b38043f9255e7d464ec0764f908c67d452553fb6719d2e",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/index.html",
+   "path": "viridien/pattern_lab/static/index.html",
+   "status": "new",
+   "bytes": 6294,
+   "sha256": "e90d599aa8af21af71c87d26c1805e447d85180da1c8c6212e82f18ead103b00",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/review-connect.js",
+   "path": "viridien/pattern_lab/static/review-connect.js",
+   "status": "new",
+   "bytes": 3676,
+   "sha256": "d3d636b664206bd6eeaed86a0ccdb7a76b4c6eb5ca85ad1b71d9fb2e7b9170d3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/review-details.js",
+   "path": "viridien/pattern_lab/static/review-details.js",
+   "status": "new",
+   "bytes": 17940,
+   "sha256": "55d46012c4c7601474a2cb406c56b8404b4e0d4bd7900c416e8537946d5776d6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/review.css",
+   "path": "viridien/pattern_lab/static/review.css",
+   "status": "new",
+   "bytes": 13436,
+   "sha256": "f2bd54f55163f0beddeae62ad24a7faef2e60817b15bc6478acfdd2205b6c07f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/review.html",
+   "path": "viridien/pattern_lab/static/review.html",
+   "status": "new",
+   "bytes": 4060,
+   "sha256": "d508740e73ea1df9f10904c0deb47ccff257f855d4abcbd9588717ece2fd5f27",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/review.js",
+   "path": "viridien/pattern_lab/static/review.js",
+   "status": "new",
+   "bytes": 28112,
+   "sha256": "0417addc2b31d59b3d6a99c87616737eb181dc01e675a2f99aa1040c145ccabc",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/static/viewport.js",
+   "path": "viridien/pattern_lab/static/viewport.js",
+   "status": "new",
+   "bytes": 848,
+   "sha256": "6b0cafb77829561fcb0a1bfec8a5c3011c88b1b3a38819537863b5576cae6ae1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-auto-legend-check.js",
+   "path": "viridien/pattern_lab/tests/browser-auto-legend-check.js",
+   "status": "new",
+   "bytes": 7626,
+   "sha256": "f7ab5db36a5a9cac71b654608281dc616c09ae68d006c0c121ae5f2a1dfaacd9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-check.js",
+   "path": "viridien/pattern_lab/tests/browser-check.js",
+   "status": "new",
+   "bytes": 6259,
+   "sha256": "5c44f2b4ac006399ce4312245f02edd474da4dcb0042f0239af2353b52671e6b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-continuation-check.js",
+   "path": "viridien/pattern_lab/tests/browser-continuation-check.js",
+   "status": "new",
+   "bytes": 5034,
+   "sha256": "44e7135c45484d87f68b7d18375aafce555ebf7c7b27decd3c20a9b1a5f49ef3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-feedback-check.js",
+   "path": "viridien/pattern_lab/tests/browser-feedback-check.js",
+   "status": "new",
+   "bytes": 3334,
+   "sha256": "598a0f46c4589480b6e11ea77ea38424b47097131479f3a5f54c9c5c802725f5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-lab-check.js",
+   "path": "viridien/pattern_lab/tests/browser-lab-check.js",
+   "status": "new",
+   "bytes": 2935,
+   "sha256": "621f7501e7cd6b92bcbf4bacab3753051e13de01aff8e5fbf29fbeed5f33e4e6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-legend-remote-check.js",
+   "path": "viridien/pattern_lab/tests/browser-legend-remote-check.js",
+   "status": "new",
+   "bytes": 12941,
+   "sha256": "8253f4f50afb106e813b8fef37f6e7e803a9e2301273c9124552ae6fd975305b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-shared-check.js",
+   "path": "viridien/pattern_lab/tests/browser-shared-check.js",
+   "status": "new",
+   "bytes": 7219,
+   "sha256": "8040b70825bd8985e46c08fff9b6579aaaff161537b80f6aba267b062ef27f4b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/browser-verification-check.js",
+   "path": "viridien/pattern_lab/tests/browser-verification-check.js",
+   "status": "new",
+   "bytes": 3601,
+   "sha256": "fd33c2068d199661b910d80a0ae7967eed6776d837d948b68821d4d248698f71",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/check_live_continuation.py",
+   "path": "viridien/pattern_lab/tests/check_live_continuation.py",
+   "status": "new",
+   "bytes": 2822,
+   "sha256": "6d0614a969bf1665288497ecc2cf7b94ea65c30456ff444e47cebade3e4ddaf0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/check_live_generator.py",
+   "path": "viridien/pattern_lab/tests/check_live_generator.py",
+   "status": "new",
+   "bytes": 2613,
+   "sha256": "9f53b36ef25b2ae373f5997cc699b0139515c98568995b8cb8f26ac83e35d2bd",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/qa_feedback_server.py",
+   "path": "viridien/pattern_lab/tests/qa_feedback_server.py",
+   "status": "new",
+   "bytes": 1317,
+   "sha256": "16e3d3a2dac4a5447fa119485efc6037a2ec14ff99516148b127cef2f34ae6f8",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/qa_server.py",
+   "path": "viridien/pattern_lab/tests/qa_server.py",
+   "status": "new",
+   "bytes": 785,
+   "sha256": "0d77192e5dafc471e8e642cce7245cd3f00edafc85241487ccd1992ad9aae68a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/qa_shared_server.py",
+   "path": "viridien/pattern_lab/tests/qa_shared_server.py",
+   "status": "new",
+   "bytes": 815,
+   "sha256": "b861b848e7ad09cab9d899b44f68e8317e82f23cb240489694d2983c1ad0a3d0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/qa_verification_server.py",
+   "path": "viridien/pattern_lab/tests/qa_verification_server.py",
+   "status": "new",
+   "bytes": 1622,
+   "sha256": "f9df2d712f007263d518355a4addaa18b61236640722058f2b40015cb8634f64",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/run-auto-legend-browser.ps1",
+   "path": "viridien/pattern_lab/tests/run-auto-legend-browser.ps1",
+   "status": "new",
+   "bytes": 561,
+   "sha256": "002dbaf6d333e59356147527f256f1ac4a0f6fba35e56b5e9a78892248dda209",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/run-continuation-browser.ps1",
+   "path": "viridien/pattern_lab/tests/run-continuation-browser.ps1",
+   "status": "new",
+   "bytes": 537,
+   "sha256": "a4b3bc7768ad95a3fd00ca4c548f5421f65449f1413ba573bf87c8e973183ce2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/run-legend-browser.ps1",
+   "path": "viridien/pattern_lab/tests/run-legend-browser.ps1",
+   "status": "new",
+   "bytes": 604,
+   "sha256": "d90b47a4a2f57399a65afb5fe2114dccc893380135b27997b50930cbad775cf0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/run-verification-browser.ps1",
+   "path": "viridien/pattern_lab/tests/run-verification-browser.ps1",
+   "status": "new",
+   "bytes": 794,
+   "sha256": "e078421b6cc031da946cefd6134797c9a77e835395896ce8301a553e402069d6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_feedback.py",
+   "path": "viridien/pattern_lab/tests/test_feedback.py",
+   "status": "new",
+   "bytes": 4560,
+   "sha256": "0672607d06f30e245bfee7ddf3b163a742289449370a3b3756c4e5ed16c5005a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_legend_palette.py",
+   "path": "viridien/pattern_lab/tests/test_legend_palette.py",
+   "status": "new",
+   "bytes": 2693,
+   "sha256": "831d1892a47cd04092e339be0182a466a43202c29e59fd1bf60eac0290af6f5b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_normalized.py",
+   "path": "viridien/pattern_lab/tests/test_normalized.py",
+   "status": "new",
+   "bytes": 8704,
+   "sha256": "f3d2ec160b40d58bf6b0769e249dad10978309168b3be76af6a68b6b0c2c1a49",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_queue_navigation.cjs",
+   "path": "viridien/pattern_lab/tests/test_queue_navigation.cjs",
+   "status": "new",
+   "bytes": 2883,
+   "sha256": "f8307323fc55ff6d9c1fb232c1020f4180691bdaa4f221097ec9415f1955d7ea",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_shared_queue.py",
+   "path": "viridien/pattern_lab/tests/test_shared_queue.py",
+   "status": "new",
+   "bytes": 8040,
+   "sha256": "a4fbc75f4205dfd5283cba8272faaa4813ca8331756332d092b896c13c97d52a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_store.py",
+   "path": "viridien/pattern_lab/tests/test_store.py",
+   "status": "new",
+   "bytes": 3556,
+   "sha256": "8b48c637d3ed83c4122d0e0bb33782f5fc8503d7edf78a3f875d65ad663025e7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_suggestions.cjs",
+   "path": "viridien/pattern_lab/tests/test_suggestions.cjs",
+   "status": "new",
+   "bytes": 2872,
+   "sha256": "53ac321e6614ed971e182c466704dc4be1228a9624ca676dec713b64b6c06f84",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_verification.py",
+   "path": "viridien/pattern_lab/tests/test_verification.py",
+   "status": "new",
+   "bytes": 2253,
+   "sha256": "ec721fe132114bbc9bf36864ee29451548dc2232d4bdb469c58363152975f1e3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_verification_model.cjs",
+   "path": "viridien/pattern_lab/tests/test_verification_model.cjs",
+   "status": "new",
+   "bytes": 2242,
+   "sha256": "3cf3f7b70c9cfb52f78fa1cb0b380eb6f73d37426e6c6112fb154da18b16d291",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/tests/test_viewport.cjs",
+   "path": "viridien/pattern_lab/tests/test_viewport.cjs",
+   "status": "new",
+   "bytes": 1465,
+   "sha256": "833552fb73f601c9efe95c1ae024910f4b121ddbb55e69cf8903e4a9872fcb60",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/research/SYNTHESIS.md",
+   "path": "viridien/research/SYNTHESIS.md",
+   "status": "same",
+   "bytes": 8371,
+   "sha256": "4b8830b9ad1da9cc746b607269b57d986169be811dfb2f06ad5da51200c1a1fb",
+   "previous_sha256": "4b8830b9ad1da9cc746b607269b57d986169be811dfb2f06ad5da51200c1a1fb"
+  },
+  {
+   "source": "viridien_work/research/_make.py",
+   "path": "viridien/research/_make.py",
+   "status": "same",
+   "bytes": 7331,
+   "sha256": "5ee93a434389faf54707121d4903b70d47b95f4d0a90c2557557ae3cafdf9bcc",
+   "previous_sha256": "5ee93a434389faf54707121d4903b70d47b95f4d0a90c2557557ae3cafdf9bcc"
+  },
+  {
+   "source": "viridien_work/research/r1_layout.md",
+   "path": "viridien/research/r1_layout.md",
+   "status": "same",
+   "bytes": 10991,
+   "sha256": "820e073d59fcb960e18fed50c0e9d6e9c15320ebb79584ebb3098567cd62ce05",
+   "previous_sha256": "820e073d59fcb960e18fed50c0e9d6e9c15320ebb79584ebb3098567cd62ce05"
+  },
+  {
+   "source": "viridien_work/research/r2_segmentation.md",
+   "path": "viridien/research/r2_segmentation.md",
+   "status": "same",
+   "bytes": 10346,
+   "sha256": "b5dc34f3f9992bcfc662ace54a49d7fb8590081e2ed282e8d07245d96b04c52e",
+   "previous_sha256": "b5dc34f3f9992bcfc662ace54a49d7fb8590081e2ed282e8d07245d96b04c52e"
+  },
+  {
+   "source": "viridien_work/research/r3_symbol_matching.md",
+   "path": "viridien/research/r3_symbol_matching.md",
+   "status": "same",
+   "bytes": 11607,
+   "sha256": "0e8bf2fbc2f4dc342879511c15ed6e4521a9e1d8ccf8dc47bdb825dc89f7ac9a",
+   "previous_sha256": "0e8bf2fbc2f4dc342879511c15ed6e4521a9e1d8ccf8dc47bdb825dc89f7ac9a"
+  },
+  {
+   "source": "viridien_work/research/r4_legend_ocr.md",
+   "path": "viridien/research/r4_legend_ocr.md",
+   "status": "same",
+   "bytes": 11736,
+   "sha256": "71dc972344bd54df98aace73cb6c95288ff417cde6640c7a1a437859c72e4ba5",
+   "previous_sha256": "71dc972344bd54df98aace73cb6c95288ff417cde6640c7a1a437859c72e4ba5"
+  },
+  {
+   "source": "viridien_work/research/r5_depth_ocr.md",
+   "path": "viridien/research/r5_depth_ocr.md",
+   "status": "same",
+   "bytes": 11043,
+   "sha256": "dcd5df34a05716dfa1e0145a53582ad8db8c5ab30847f96a1eb274e54eca7664",
+   "previous_sha256": "dcd5df34a05716dfa1e0145a53582ad8db8c5ab30847f96a1eb274e54eca7664"
+  },
+  {
+   "source": "viridien_work/research/r6_welllog_prior.md",
+   "path": "viridien/research/r6_welllog_prior.md",
+   "status": "same",
+   "bytes": 10599,
+   "sha256": "c8deff4de4a1f30e391711cd49a69a98a2857dce5674578eac377693bb536776",
+   "previous_sha256": "c8deff4de4a1f30e391711cd49a69a98a2857dce5674578eac377693bb536776"
+  },
+  {
+   "source": "viridien_work/research/r7_efficiency.md",
+   "path": "viridien/research/r7_efficiency.md",
+   "status": "same",
+   "bytes": 11022,
+   "sha256": "2b3c9aa17fa1c229c0ba6fc7b19476e8a4871950fd1914548a72aaaf5480b098",
+   "previous_sha256": "2b3c9aa17fa1c229c0ba6fc7b19476e8a4871950fd1914548a72aaaf5480b098"
+  },
+  {
+   "source": "viridien_work/research/r8_small_vlms.md",
+   "path": "viridien/research/r8_small_vlms.md",
+   "status": "same",
+   "bytes": 10733,
+   "sha256": "e753694da5f039d44b36923cb17ae467ad86c1c1d98e745ab33de908aa61a9bc",
+   "previous_sha256": "e753694da5f039d44b36923cb17ae467ad86c1c1d98e745ab33de908aa61a9bc"
+  },
+  {
+   "source": "viridien_work/scripts/build_artifact.py",
+   "path": "viridien/scripts/build_artifact.py",
+   "status": "changed",
+   "bytes": 10699,
+   "sha256": "be9d2b66d0af822645751c3edf95e5b71e790b6d6e52c4233814d41b4f111664",
+   "previous_sha256": "a4199a37ba82b6b2e252a2bf81599edd539f61cf880754bb4e3272cf1736972d"
+  },
+  {
+   "source": "viridien_work/scripts/extract_swatches.py",
+   "path": "viridien/scripts/extract_swatches.py",
+   "status": "same",
+   "bytes": 1646,
+   "sha256": "715d683e7a60ae7287661ac348c523bce880a008037035716a4f031b235573d0",
+   "previous_sha256": "715d683e7a60ae7287661ac348c523bce880a008037035716a4f031b235573d0"
+  },
+  {
+   "source": "viridien_work/scripts/gallery.py",
+   "path": "viridien/scripts/gallery.py",
+   "status": "same",
+   "bytes": 3513,
+   "sha256": "55f9ec6e4820483be14cb967338d07fafc1c418f9942a09551f15c2ecb565820",
+   "previous_sha256": "55f9ec6e4820483be14cb967338d07fafc1c418f9942a09551f15c2ecb565820"
+  },
+  {
+   "source": "viridien_work/scripts/hardcases.py",
+   "path": "viridien/scripts/hardcases.py",
+   "status": "same",
+   "bytes": 3982,
+   "sha256": "fa537a2876d4e1c650bd73ccc3cc1fd5066730677af33d68488e544b84bc74c5",
+   "previous_sha256": "fa537a2876d4e1c650bd73ccc3cc1fd5066730677af33d68488e544b84bc74c5"
+  },
+  {
+   "source": "viridien_work/scripts/jev_dims.py",
+   "path": "viridien/scripts/jev_dims.py",
+   "status": "same",
+   "bytes": 1250,
+   "sha256": "bfbd4b522773e6eb6d964b2e90e81a4eafdd99db3217719cd488937a7cc65594",
+   "previous_sha256": "bfbd4b522773e6eb6d964b2e90e81a4eafdd99db3217719cd488937a7cc65594"
+  },
+  {
+   "source": "viridien_work/scripts/jev_probe.py",
+   "path": "viridien/scripts/jev_probe.py",
+   "status": "same",
+   "bytes": 1078,
+   "sha256": "ce8880dab546c6e232ee0980984d889b9448eb5d47f20cb6dd9d1effd9a9d92c",
+   "previous_sha256": "ce8880dab546c6e232ee0980984d889b9448eb5d47f20cb6dd9d1effd9a9d92c"
+  },
+  {
+   "source": "viridien_work/scripts/jev_probe2.py",
+   "path": "viridien/scripts/jev_probe2.py",
+   "status": "same",
+   "bytes": 2104,
+   "sha256": "39e9413371555811bbb623e34a57adec820c2beb6d3476dddf6d49e5629a7439",
+   "previous_sha256": "39e9413371555811bbb623e34a57adec820c2beb6d3476dddf6d49e5629a7439"
+  },
+  {
+   "source": "viridien_work/scripts/jev_probe3.py",
+   "path": "viridien/scripts/jev_probe3.py",
+   "status": "changed",
+   "bytes": 4132,
+   "sha256": "1be1949aec1598c1dd9f870f282da86c4be0091d2a75fb8e260ebf1ef965cf27",
+   "previous_sha256": "7cc98e51c5d5f5e73f3074b2584bcb456889e87a15626bee2b765a5b4c843f0c"
+  },
+  {
+   "source": "viridien_work/scripts/jev_probe_img.py",
+   "path": "viridien/scripts/jev_probe_img.py",
+   "status": "same",
+   "bytes": 1371,
+   "sha256": "982d7a3da45b8d02e0b18416010f0dde834cdf37c09eba3d970b75990ffc012e",
+   "previous_sha256": "982d7a3da45b8d02e0b18416010f0dde834cdf37c09eba3d970b75990ffc012e"
+  },
+  {
+   "source": "viridien_work/scripts/lab_vs_gold.py",
+   "path": "viridien/scripts/lab_vs_gold.py",
+   "status": "same",
+   "bytes": 1468,
+   "sha256": "74934614a8e9e5c59e901f4fa517a0d77beba0cb57f84f4458a3da2146508ad6",
+   "previous_sha256": "74934614a8e9e5c59e901f4fa517a0d77beba0cb57f84f4458a3da2146508ad6"
+  },
+  {
+   "source": "viridien_work/scripts/label_mix.py",
+   "path": "viridien/scripts/label_mix.py",
+   "status": "same",
+   "bytes": 5668,
+   "sha256": "97f58fc1e1d1e23360655c5cf478a0a9af3afcfb70b1e4b003778616fcbb24ea",
+   "previous_sha256": "97f58fc1e1d1e23360655c5cf478a0a9af3afcfb70b1e4b003778616fcbb24ea"
+  },
+  {
+   "source": "viridien_work/scripts/label_mix_report.py",
+   "path": "viridien/scripts/label_mix_report.py",
+   "status": "same",
+   "bytes": 4748,
+   "sha256": "3a0fcdd98185ac1b17b13971ff2dac01841a6747c24efc5213e1ca86c2427932",
+   "previous_sha256": "3a0fcdd98185ac1b17b13971ff2dac01841a6747c24efc5213e1ca86c2427932"
+  },
+  {
+   "source": "viridien_work/scripts/make_evalset.py",
+   "path": "viridien/scripts/make_evalset.py",
+   "status": "same",
+   "bytes": 1427,
+   "sha256": "8495c75667dcbf7018068829d98d5c680c2f0b9f2fb73c9cd8e1c4efb1a4ede2",
+   "previous_sha256": "8495c75667dcbf7018068829d98d5c680c2f0b9f2fb73c9cd8e1c4efb1a4ede2"
+  },
+  {
+   "source": "viridien_work/scripts/make_mix_figs.py",
+   "path": "viridien/scripts/make_mix_figs.py",
+   "status": "changed",
+   "bytes": 8567,
+   "sha256": "d9862012f37de464296c639d9b795227e5cd93abae07bdedaca1dd8fdbef526e",
+   "previous_sha256": "adb5b5c7e43ea21658e0ecb624fcfbc10b9a0eb4406fb7addf1d0bd4445319f8"
+  },
+  {
+   "source": "viridien_work/scripts/make_mix_page.py",
+   "path": "viridien/scripts/make_mix_page.py",
+   "status": "changed",
+   "bytes": 28504,
+   "sha256": "a94a8c68a53177c9305e5652df76cdbdfabb2a5b644ae097d8ae65e5c5992aee",
+   "previous_sha256": "3db2dad02da799be9eb69b7f3e3d6e5244833d922eb0089d4b80772127745531"
+  },
+  {
+   "source": "viridien_work/scripts/make_notebook.py",
+   "path": "viridien/scripts/make_notebook.py",
+   "status": "same",
+   "bytes": 15174,
+   "sha256": "b31864fe6f94f44119b17663121447d7653687ddbce3297ff5a08ebbeb16e560",
+   "previous_sha256": "b31864fe6f94f44119b17663121447d7653687ddbce3297ff5a08ebbeb16e560"
+  },
+  {
+   "source": "viridien_work/scripts/make_standalone.py",
+   "path": "viridien/scripts/make_standalone.py",
+   "status": "same",
+   "bytes": 1582,
+   "sha256": "ab9a1d231e67cde75ac159ec7ce9a0edc4d09c9975b986f158f02979e91815a7",
+   "previous_sha256": "ab9a1d231e67cde75ac159ec7ce9a0edc4d09c9975b986f158f02979e91815a7"
+  },
+  {
+   "source": "viridien_work/scripts/volume_budget.py",
+   "path": "viridien/scripts/volume_budget.py",
+   "status": "same",
+   "bytes": 3986,
+   "sha256": "481573eeca947666c9b896157f698c42aaf1cf7ee8ef81d16798074796e70139",
+   "previous_sha256": "481573eeca947666c9b896157f698c42aaf1cf7ee8ef81d16798074796e70139"
+  },
+  {
+   "source": "viridien_work/scripts/volume_budget_model.py",
+   "path": "viridien/scripts/volume_budget_model.py",
+   "status": "changed",
+   "bytes": 5662,
+   "sha256": "c770e0e2a8bf7afecc569b2e78867cd7d90bef9851d0a1234133d8c5d9afa108",
+   "previous_sha256": "f5458eee8e370d3fd90a2eac63af67d6cd1a27b45d4db7aa11a71099baf2d551"
+  },
+  {
+   "source": "viridien_work/analysis/conf_render.html",
+   "path": "viridien/analysis/conf_render.html",
+   "status": "changed",
+   "bytes": 55664,
+   "sha256": "fcfa7118989ed20d5e29c0c50c8adbefeb5c58ef362df04878016d8592e19ca8",
+   "previous_sha256": "e7c9855b8199e72b79e776f25732236f38a20591466545fbf30dda56d45c502b"
+  },
+  {
+   "source": "viridien_work/analysis/coverage_map.html",
+   "path": "viridien/analysis/coverage_map.html",
+   "status": "new",
+   "bytes": 11378,
+   "sha256": "6f7e86765bfeaa685b8a7e673752be6ab7126887eb97964be40383ebc116fde1",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/analysis/coverage_map_inline.html",
+   "path": "viridien/analysis/coverage_map_inline.html",
+   "status": "new",
+   "bytes": 11223,
+   "sha256": "18e1d9385488540fb701bf88f860fea58c2984b31010122dbda4ced0522c17e2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/analysis/label_mix.html",
+   "path": "viridien/analysis/label_mix.html",
+   "status": "changed",
+   "bytes": 19343,
+   "sha256": "a03bc99608ab41638fc4985515c4f69c6719b2ba405242a1a8bc5dd0b580f846",
+   "previous_sha256": "de0adc7b23a53f61e2f3fdfde2b4e5ed1b750c66760e3cffffa44bdced30e16f"
+  },
+  {
+   "source": "viridien_work/analysis/label_mix_examples.html",
+   "path": "viridien/analysis/label_mix_examples.html",
+   "status": "changed",
+   "bytes": 1344124,
+   "sha256": "e78db4a49c2fa79d81befab59c09a7c46b0ada119dba1123043f60c2edee95e1",
+   "previous_sha256": "8b21aa5eeb499d4fe68a5abc829590ca522d5026b34dae38cc91e2d947d80d40"
+  },
+  {
+   "source": "viridien_work/analysis/label_mix_examples_preview.html",
+   "path": "viridien/analysis/label_mix_examples_preview.html",
+   "status": "changed",
+   "bytes": 257629,
+   "sha256": "29a0f2c54c3c7480f53ad7aad18e98bc85a6fd90ebc6a042b710bfa2c2691b16",
+   "previous_sha256": "b5f63b7d33fc5bc03bc3747df1fb74cb6f9f82cf7e267992d9507b3c0c71411f"
+  },
+  {
+   "source": "viridien_work/analysis/label_mix_examples_render.html",
+   "path": "viridien/analysis/label_mix_examples_render.html",
+   "status": "changed",
+   "bytes": 12816,
+   "sha256": "c7956bd69c3c0dc76d26e22fff0693991867c5691a7d6dc9af9f74ed9323535d",
+   "previous_sha256": "65c47fda9c657e7a8f69e7b81a756ce3afcc9c4a339dbdea7169f105f90db0d3"
+  },
+  {
+   "source": "viridien_work/grading_demo/make.py",
+   "path": "viridien/grading_demo/make.py",
+   "status": "new",
+   "bytes": 3770,
+   "sha256": "98bc09eec919e0b3d7ee851c28576bcd0c3a11de7dc29fd06761e8ca0600bc12",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/grading_demo/page.html",
+   "path": "viridien/grading_demo/page.html",
+   "status": "new",
+   "bytes": 10975,
+   "sha256": "7fafd6052e32a68e1e0266229f3bbaaca160dcc132c428a7927bf52bfa8df1f7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/grading_demo/page.py",
+   "path": "viridien/grading_demo/page.py",
+   "status": "new",
+   "bytes": 6616,
+   "sha256": "07cf364a6646a8372c5e32ad55f5b2547e6ecb88282ef3823fec4ae2f094cbfe",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/board.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/board.py",
+   "status": "new",
+   "bytes": 24386,
+   "sha256": "5c3474fbd704904ba68f4644976ccbe20e7d41eeac6bcd1025aa368b4b5d8c49",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/check_board.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/check_board.py",
+   "status": "new",
+   "bytes": 5759,
+   "sha256": "96c4dc227a3b05789f88e103454b20f98b9912aeaed9518b5985bcba351c52bb",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/check_progress.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/check_progress.py",
+   "status": "new",
+   "bytes": 4798,
+   "sha256": "6d21659760b033a7b330123c7afbebbbaa67c2e94e2e3e1f526165f9f6f28e54",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/check_resilience.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/check_resilience.py",
+   "status": "new",
+   "bytes": 2146,
+   "sha256": "3170d36f3c5d790877bf03b94009e1afc23b68eae1963090b1af45aeaa2350fa",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/check_tracker.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/check_tracker.py",
+   "status": "new",
+   "bytes": 11128,
+   "sha256": "2ad9b63618b72c2e6f5fd56c85a4900f20bb7c6a8e23a7087feaffa4981ee80b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/index.html",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/index.html",
+   "status": "new",
+   "bytes": 30841,
+   "sha256": "d1c79e27cd432567a71d349bdd191f75557e468c48dba24ee3bbf2300a3b1508",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/board/start-board.ps1",
+   "path": "viridien/pattern_lab/data/genlab/fleet/board/start-board.ps1",
+   "status": "new",
+   "bytes": 1513,
+   "sha256": "467ffa371d53694707f72f13ea7c17ca58bc9bb813bba3e3361b4b29eebf1fe2",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/atlas/atlas.py",
+   "path": "viridien/pattern_lab/data/genlab/atlas/atlas.py",
+   "status": "new",
+   "bytes": 36512,
+   "sha256": "741de4f3f16ef4a3bdf8d64e64455782d5b3bc4ae4114794295b4939d1bbaa48",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/atlas/index.html",
+   "path": "viridien/pattern_lab/data/genlab/atlas/index.html",
+   "status": "new",
+   "bytes": 21561,
+   "sha256": "6709bfc37c289aeb97f3f3f0e9811ee0ace243a2a1cea0e5db6f343a5358e2ee",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/atlas/start-atlas.ps1",
+   "path": "viridien/pattern_lab/data/genlab/atlas/start-atlas.ps1",
+   "status": "new",
+   "bytes": 1520,
+   "sha256": "1c5b0fa432f30cc00cdb5609f6fe92469c42df7e645224c4773f260c13a42ecb",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/tracker.py",
+   "path": "viridien/pattern_lab/data/genlab/tracker.py",
+   "status": "new support source",
+   "bytes": 21028,
+   "sha256": "bbf1fbb71d942d928122463c952d9bcf3837a9522fc76d173109d02eaa367e53",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/worklist.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/worklist.py",
+   "status": "new support source",
+   "bytes": 3887,
+   "sha256": "a5e88c6e25b9607ba3f3f480947317530184da91baea15ddc5c519cbc8076d32",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/sweep_worklist.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/sweep_worklist.py",
+   "status": "new support source",
+   "bytes": 3067,
+   "sha256": "213e72180c2e5d3edb1730bea36edf8a060d21d132a4cac2dd6e22d3898eec9a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/jobs/review/make_lanes.py",
+   "path": "viridien/pattern_lab/data/genlab/jobs/review/make_lanes.py",
+   "status": "new support source",
+   "bytes": 632,
+   "sha256": "e16a282aa67940f6cd5b8cd1539be6c60e96a46908c9986a2cc64c142fa6ae48",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s5-bench/extra.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s5-bench/extra.py",
+   "status": "new support source",
+   "bytes": 8488,
+   "sha256": "c18052eb8bec08f18281827b10161c9cbe9a9fbb216eadc69a0ee58bcbffc441",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o2-synth/visbound2.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o2-synth/visbound2.py",
+   "status": "new support source",
+   "bytes": 4099,
+   "sha256": "331ad9e191cf8a8cee2b73488e88790ccb238e3762c9fca9ef8c18c821c96369",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o2-synth/visbound.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o2-synth/visbound.py",
+   "status": "new support source",
+   "bytes": 2832,
+   "sha256": "039081d0489c0e7b50b3d683187311632adf1ac98902206a03b909c35c0d6224",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o2-synth/hadrian_model.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o2-synth/hadrian_model.py",
+   "status": "new support source",
+   "bytes": 3773,
+   "sha256": "3f420c76994938365a0c7acb8d3e1e6b8ff5111ceb75797a0cdb77c7127cfb66",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o1-gen/scale.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o1-gen/scale.py",
+   "status": "new support source",
+   "bytes": 2517,
+   "sha256": "72e955b47d4fa14b2e09a125099fab3ef9d7ce3ff0ab8b75e2c6ccf513b7f55f",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o1-gen/pair.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o1-gen/pair.py",
+   "status": "new support source",
+   "bytes": 1112,
+   "sha256": "02eae53ae69162679383d28e42b736c2867cc7532cde8d78dacfd837197cf5d9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o1-gen/montage.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o1-gen/montage.py",
+   "status": "new support source",
+   "bytes": 1618,
+   "sha256": "cd6f9ca2ff0379cb48ca8d1ccf64f4dfc02df0ac9a2e8e8373000c2a21a3a817",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/o1-gen/match.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/o1-gen/match.py",
+   "status": "new support source",
+   "bytes": 1714,
+   "sha256": "f170fa2f196256ef043d702d0355fe410005cc9e7b03ef27b5564d61099fbca5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a4-stats/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a4-stats/audit.py",
+   "status": "new support source",
+   "bytes": 15982,
+   "sha256": "4989bee82ff73fa52530067b876d50ab51a0c55ce87ab65e4831f6f951ac8975",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a3-leak/watch_probe.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a3-leak/watch_probe.py",
+   "status": "new support source",
+   "bytes": 1709,
+   "sha256": "e31470f66cadf7708dda88c4cff54cee7f7ece78fd9d523c91183ad5a8366fd5",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a3-leak/visual.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a3-leak/visual.py",
+   "status": "new support source",
+   "bytes": 3502,
+   "sha256": "8b4738c504ea7db7f6922ff29449097a39002c65e8107f85987081289ebb8e46",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a3-leak/probes.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a3-leak/probes.py",
+   "status": "new support source",
+   "bytes": 6029,
+   "sha256": "979d45c74e750feb2d5ad80332064bfc5f157185d0eb0a3b75d712e4825cd361",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a3-leak/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a3-leak/audit.py",
+   "status": "new support source",
+   "bytes": 4299,
+   "sha256": "819fe7e2ced5fe8d382dd1e12663b89a84e2e7116b2abf12ae52e3fadc6de568",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/fleet/driver.py",
+   "path": "viridien/pattern_lab/data/genlab/fleet/driver.py",
+   "status": "new support source",
+   "bytes": 11731,
+   "sha256": "173284c6da27de2208e890171b0810f1b1ec52bbbf21c60cd168bbf933377ab0",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a2-e2e/visuals.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a2-e2e/visuals.py",
+   "status": "new support source",
+   "bytes": 4863,
+   "sha256": "a1eebf04fc9bce22b534ea9250d6594fb5e2b7b1ddbd22f4dea53d1522c5dcff",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a2-e2e/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a2-e2e/audit.py",
+   "status": "new support source",
+   "bytes": 4039,
+   "sha256": "e3c78c068aaf515a8de3c875c97c9daaa4c15708ba0bcc69bf3a477798ad68f7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a1-eval/discriminator_audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a1-eval/discriminator_audit.py",
+   "status": "new support source",
+   "bytes": 4148,
+   "sha256": "affd3dc1c645937c7d9fe7f7f17be1c30890c5b272dd813d04d5109533721624",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/a1-eval/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/a1-eval/audit.py",
+   "status": "new support source",
+   "bytes": 8072,
+   "sha256": "084b83793d55aa7cd4275ee247318cb54b57c30312e06209f63111f91c5441bb",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s3-augment/stroke_image.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s3-augment/stroke_image.py",
+   "status": "new support source",
+   "bytes": 642,
+   "sha256": "e7960e3fbfd221bd357185de972e562739ee5305a37dff6548c0759baa71b135",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s3-augment/probes.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s3-augment/probes.py",
+   "status": "new support source",
+   "bytes": 6817,
+   "sha256": "89c0255bfa7ed43070f48599168cb2878c870b221c6398fbb13c1fa9bb17b63c",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s3-augment/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s3-augment/audit.py",
+   "status": "new support source",
+   "bytes": 6445,
+   "sha256": "a9abdb4f5287c24b3340cd16bfa855e7670baa5848646927feaf792b5282c9c9",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s3-augment/ablations.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s3-augment/ablations.py",
+   "status": "new support source",
+   "bytes": 3267,
+   "sha256": "3b9f6362010c896f72be3c53af423348c54cd64463864266cb4c151162a5a1c6",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s5-bench/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s5-bench/audit.py",
+   "status": "new support source",
+   "bytes": 6051,
+   "sha256": "50d47941d3830901dbde1d7c8ffcad47d168b99901985934ffa26777a7cee521",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s2-failed/lookalikes.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s2-failed/lookalikes.py",
+   "status": "new support source",
+   "bytes": 2401,
+   "sha256": "20a87902ae031f008f32e8e008212b163061c8975dbfa32a06d4150405b8fd8a",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s2-failed/experiments.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s2-failed/experiments.py",
+   "status": "new support source",
+   "bytes": 8359,
+   "sha256": "56cd6565c14d4a45f0faf0f494f919f5a775f0ba40c0f86239bca000836f7a06",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s2-failed/donors.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s2-failed/donors.py",
+   "status": "new support source",
+   "bytes": 2444,
+   "sha256": "8198cae456ee148cbf72304e8a83800a59bf7be91b166f5a2979d17422abf5ec",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s2-failed/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s2-failed/audit.py",
+   "status": "new support source",
+   "bytes": 4231,
+   "sha256": "74893f0e355c09e6921cd16102967e90b52ca3cb22fdb36e7167382d55f2d142",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s4-compose/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s4-compose/audit.py",
+   "status": "new support source",
+   "bytes": 10582,
+   "sha256": "8cdab73d0af0938864cc21968937babab68c7519bd0b9742ff43338ef0fc3a7d",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s1-tiles/diagnostics.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s1-tiles/diagnostics.py",
+   "status": "new support source",
+   "bytes": 5125,
+   "sha256": "4d40fc6ffbc3211a7c0059b7c87f10bc60dc5805b0845cc8c6128124ef6df87b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/assemble/stats/start-watcher.ps1",
+   "path": "viridien/pattern_lab/data/genlab/assemble/stats/start-watcher.ps1",
+   "status": "new support source",
+   "bytes": 997,
+   "sha256": "63f9436ea491daa5d01a7e405d261f53080872ee143b05613d5d75ba830ab793",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/critique/s1-tiles/audit.py",
+   "path": "viridien/pattern_lab/data/genlab/critique/s1-tiles/audit.py",
+   "status": "new support source",
+   "bytes": 6405,
+   "sha256": "3a8de32c236293ef960625dbd18ad114d06c56e95949dd7a4295735e60e96d7b",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/assemble/stats/fix-round1/verify_run.py",
+   "path": "viridien/pattern_lab/data/genlab/assemble/stats/fix-round1/verify_run.py",
+   "status": "new support source",
+   "bytes": 5233,
+   "sha256": "2a9f2de553fe21296adf7e940a33901806bfa5a74414a465abe81c166d22b6f7",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/assemble/stats/fix-round1/checks.py",
+   "path": "viridien/pattern_lab/data/genlab/assemble/stats/fix-round1/checks.py",
+   "status": "new support source",
+   "bytes": 5787,
+   "sha256": "3efa804eb91cb7a73168749911b6991d2e36641ecb82ff410df87b73f5b47e23",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/fix-round1/cross_owner_probe.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/fix-round1/cross_owner_probe.py",
+   "status": "new support source",
+   "bytes": 2012,
+   "sha256": "78209b57961ebe170c82c637d234b59e6f81764e643330116caeac76ea348977",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/diag/probes.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/diag/probes.py",
+   "status": "new support source",
+   "bytes": 2090,
+   "sha256": "064a32f215dcc03fd733ee56a550f8a50d2a0b97710ac441d284aa3ee29f0b26",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/diag/pixel_probe.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/diag/pixel_probe.py",
+   "status": "new support source",
+   "bytes": 1761,
+   "sha256": "8aead14e3281c1771bc0aa80d7925d99d9b21d6c3ef5c817ff8bc69ae2f26108",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/diag/inspect_v1.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/diag/inspect_v1.py",
+   "status": "new support source",
+   "bytes": 4511,
+   "sha256": "974a9f6fd406d746bb110a88005343e397d5504a0cc948577c18a62f5ae293fb",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/diag/closed_failures.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/diag/closed_failures.py",
+   "status": "new support source",
+   "bytes": 1542,
+   "sha256": "4df142fc3ed53f4eadadf6618ccdce43aec2d12b0490f4c7b2e3dd3727eb56c3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/diag/check_tab.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/diag/check_tab.py",
+   "status": "new support source",
+   "bytes": 1953,
+   "sha256": "cde555b1f398e1f5e89f26484ce3c9d45cb91c04b14f142a19404ba940212eb3",
+   "previous_sha256": null
+  },
+  {
+   "source": "viridien_work/pattern_lab/data/genlab/datasets/diag/report.py",
+   "path": "viridien/pattern_lab/data/genlab/datasets/diag/report.py",
+   "status": "new support source",
+   "bytes": 14691,
+   "sha256": "bf04cc4aa62ea5de523ff98f71309ccb42c00ba5f80389fab72ab8d5a644b23e",
+   "previous_sha256": null
+  }
+ ]
+}

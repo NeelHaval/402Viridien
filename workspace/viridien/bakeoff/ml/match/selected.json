@@ -1,0 +1,8 @@
+{
+ "method": "learned",
+ "learner": "logistic",
+ "blend": 1.0,
+ "reject": 1.01,
+ "margin": 0.0,
+ "selection": "six-fold leave-one-well-out; macro over wells"
+}

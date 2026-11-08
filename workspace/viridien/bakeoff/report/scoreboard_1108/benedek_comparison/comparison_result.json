@@ -1,0 +1,151 @@
+{
+  "benedek_commit": "d39919f1bbcf254b357a99eba1cf0845c391b135",
+  "new_test": [
+    {
+      "image": "60807402860000_gb506#2_tvd_mudlog",
+      "strategy": "s19_combine",
+      "seconds": 3.70672099100193,
+      "intervals": 133,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_compare_newtest\\c27f24013e5cc155_s19_combine.csv",
+      "prediction_sha256": "c6ae117fc71d67eff4e45ff3ebc8f530f35daadb8875ac65fb83a252efd4f2d5",
+      "empty_output": false,
+      "error": false,
+      "window": [
+        1206,
+        9624
+      ],
+      "image_sha256": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+      "annotation_sha256": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce"
+    },
+    {
+      "image": "60807402860000_gb506#2_tvd_mudlog",
+      "strategy": "s24_benedek",
+      "seconds": 5.757169107004302,
+      "intervals": 34,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_compare_newtest\\c27f24013e5cc155_s24_benedek.csv",
+      "prediction_sha256": "929e762cd3cdca2bb476ae6b2e9b9c9ad7d725de26959cc7261b9a4a3b11e69c",
+      "empty_output": false,
+      "error": false,
+      "window": [
+        1206,
+        9624
+      ],
+      "image_sha256": "c27f24013e5cc1554dac6ada70ce5523a971d035e4a832631f9451dbd8cd4d64",
+      "annotation_sha256": "8d420b8558d766e1732bb03f33a51a7104b54751db48681b6cc77dcba6731dce"
+    },
+    {
+      "image": "Nichols 1 Mud Log",
+      "strategy": "s19_combine",
+      "seconds": 2.01006092998432,
+      "intervals": 72,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_compare_newtest\\49ab92322aa76b26_s19_combine.csv",
+      "prediction_sha256": "8b77a53103b6eb9f78db1f1264e82cb05c5c221105343761b3b976ee80f38166",
+      "empty_output": false,
+      "error": false,
+      "window": [
+        6473,
+        10828
+      ],
+      "image_sha256": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+      "annotation_sha256": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af"
+    },
+    {
+      "image": "Nichols 1 Mud Log",
+      "strategy": "s24_benedek",
+      "seconds": 3.709448720997898,
+      "intervals": 34,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_compare_newtest\\49ab92322aa76b26_s24_benedek.csv",
+      "prediction_sha256": "4c2236611346cc8dbb5abd037986a8c509fefc6efdf80e816c1719ab2d21b807",
+      "empty_output": false,
+      "error": false,
+      "window": [
+        6473,
+        10828
+      ],
+      "image_sha256": "49ab92322aa76b263486b629db6c5f338792e730ab2ed82251a9330089369aa4",
+      "annotation_sha256": "ff4f473cca4dccce4c2413549c0c9f8d7dbe56d29ed24b6eba9625331a7c15af"
+    },
+    {
+      "image": "Woody_635_142_MUD",
+      "strategy": "s19_combine",
+      "seconds": 57.778707218996715,
+      "intervals": 358,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_compare_newtest\\fc5af26c8937097c_s19_combine.csv",
+      "prediction_sha256": "5bbb3af90fe4d52d2e977cb0527d3e1268cfe43f4a2fb7ae8f3278ceaa6b1684",
+      "empty_output": false,
+      "error": false,
+      "window": [
+        3506,
+        140610
+      ],
+      "image_sha256": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+      "annotation_sha256": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24"
+    },
+    {
+      "image": "Woody_635_142_MUD",
+      "strategy": "s24_benedek",
+      "seconds": 10.920381373987766,
+      "intervals": 0,
+      "prediction_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\benedek_compare_newtest\\fc5af26c8937097c_s24_benedek.csv",
+      "prediction_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "empty_output": true,
+      "error": false,
+      "window": [
+        3506,
+        140610
+      ],
+      "image_sha256": "fc5af26c8937097c85c84730d3c1be45f1d8fffd533e1a916c53ceebc57938a9",
+      "annotation_sha256": "49e777ad9cc021e9a9398bc0eef76c3d43253f38ac2d08f6eb8de3c40c730a24"
+    }
+  ],
+  "new_test_completed": 6,
+  "new_test_errors": 0,
+  "new_test_empty_outputs": 1,
+  "new_test_accuracy": null,
+  "new_test_truth_available": false,
+  "summed_case_processing_seconds": 83.88248834197293,
+  "timing_excludes": "queue, process startup and packet validation; sequential fixed model order",
+  "baseline": [
+    {
+      "strategy": "s19_combine",
+      "logs": 3,
+      "score": 0.21279797434054834,
+      "row_acc": 0.34589493190273035,
+      "boundary_f1": 0.2893000926153439
+    },
+    {
+      "strategy": "s21_v4dino",
+      "logs": 3,
+      "score": 0.7071954608039533,
+      "row_acc": 0.8961437296564915,
+      "boundary_f1": 0.7687598140291114
+    },
+    {
+      "strategy": "s23_v4dino_identity",
+      "logs": 3,
+      "score": 0.6838379753775023,
+      "row_acc": 0.8912597247724866,
+      "boundary_f1": 0.7411736071325598
+    },
+    {
+      "strategy": "s24_benedek",
+      "logs": 3,
+      "score": 0.3147584164101067,
+      "row_acc": 0.3832026512160429,
+      "boundary_f1": 0.4913331427482371
+    }
+  ],
+  "baseline_completed_cases": 3,
+  "baseline_expected_cases": 68,
+  "baseline_complete": false,
+  "full_original_notebook_parity_verified": false,
+  "torch_seed_explicit_in_worker": false,
+  "random_and_numpy_seed": 1108,
+  "champion_promoted": false,
+  "training_or_tuning": false,
+  "old_sealed_test_or_verify_opened": false,
+  "baseline_checkpoint_sha256": "9633c4f75fa4d5190d0abc33e7748e2c34c06b7c997fc6be6aaa972c61078917",
+  "new_prediction_metadata_sha256": "86016a072cc9fb9055aad2d39fe246895dddfffab669372b642ced3fa46f974d",
+  "queue_receipt_sha256": "8547721c4c4e8632c9940105b7af4e0536073f46a1dbfaae51061f1d28f1864c",
+  "frozen_release_sha256": "3bee64ac9bfd7020466f9a39fe2b87ebf090d7a06ccf260761cc744dae4aeaff"
+}

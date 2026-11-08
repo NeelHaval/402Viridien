@@ -1,0 +1,31 @@
+{
+  "version": "score-release-v2",
+  "active_data": "availability_v2/derived_scores.json",
+  "active_data_sha256": "6502e4df226becf194b95c5f2d49dd75075f1a5c897dae17c059504b73102db8",
+  "report": "availability_v2/index.html",
+  "metric_contract": "../../strategies/SCORING_CONTRACT_V2.md",
+  "original_data": "scores.json",
+  "original_data_sha256": "f3b2f61b983815cc41350680dd241b5e9a7236bbe6aa1e969443614d6d6b3245",
+  "original_report": "index_baseline_v1.html",
+  "selection_promoted": false,
+  "prior_selection_withdrawn": true,
+  "generalization_verified": false,
+  "official_judging_rule_verified": false,
+  "new_dataset_inference_allowed": false,
+  "new_JEV_calls_allowed": false,
+  "worker_release": false,
+  "availability": "Per-metric null values and explicit denominators; failed predictions on valid truth remain zero",
+  "status": "Audited cached derived release; no model or truth change",
+  "external_version_notice": "availability_v2/external_version_notice.json",
+  "external_version_notice_sha256": "6dc3c639e4a4a296494797544ac27cadf10cb6bb417c4a7bfa7030a6a7f3a5d9",
+  "jev_checkpoint": {
+    "report": "jev_comparison/availability_v2/report.html",
+    "data": "jev_comparison/availability_v2/scores.json",
+    "sha256": "1f73c575f470ebee543c02801aa8f4beac8559b7e76f3295bffca31b233e0bfb",
+    "saved_cases": 30,
+    "receipt_backed_cases": 29,
+    "expected_cases": 68,
+    "full_run_complete": false,
+    "new_calls_allowed": false
+  }
+}

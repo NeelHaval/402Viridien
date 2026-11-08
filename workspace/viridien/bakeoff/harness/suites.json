@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "suites": {
+    "viridien_eval": {
+      "dataset": {
+        "default": "@dataset",
+        "env": "LITHOLOGY_DATASET"
+      },
+      "items": {
+        "default": "bakeoff/eval_set.json",
+        "env": "BENCH_VIRIDIEN_EVAL_ITEMS"
+      },
+      "truth": {
+        "default": "bakeoff/gt",
+        "env": "BENCH_VIRIDIEN_TRUTH"
+      },
+      "truth_mode": "consensus",
+      "metadata": {
+        "source": "viridien",
+        "family": "unknown"
+      }
+    },
+    "viridien_gold": {
+      "extends": "viridien_eval",
+      "items": {
+        "default": "bakeoff/eval_set.json",
+        "env": "BENCH_VIRIDIEN_GOLD_ITEMS"
+      },
+      "tier": "gold",
+      "truth_mode": "gold"
+    },
+    "synthetic": {
+      "extends": "viridien_eval",
+      "truth_mode": "synthetic",
+      "replicates": 3,
+      "items": {
+        "default": "bakeoff/eval_set.json",
+        "env": "BENCH_SYNTHETIC_ITEMS"
+      },
+      "truth": {
+        "default": "bakeoff/gt/synthetic",
+        "env": "BENCH_SYNTHETIC_TRUTH"
+      },
+      "seed": 0,
+      "height": 4000
+    },
+    "ext_dev": {
+      "dataset": {
+        "default": "external_tests",
+        "env": "BENCH_EXTERNAL_DATASET"
+      },
+      "items": {
+        "default": "external_tests/eval_set_dev.json",
+        "env": "BENCH_EXT_DEV_ITEMS"
+      },
+      "truth": {
+        "default": "external_tests/truth",
+        "env": "BENCH_EXTERNAL_TRUTH"
+      },
+      "manifest": {
+        "default": "external_tests/manifest.csv",
+        "env": "BENCH_EXTERNAL_MANIFEST"
+      },
+      "splits": {
+        "default": "external_tests/splits.json",
+        "env": "BENCH_EXTERNAL_SPLITS"
+      },
+      "truth_mode": "directory",
+      "metadata": {
+        "source": "external",
+        "family": "unknown"
+      }
+    },
+    "ext_test": {
+      "extends": "ext_dev",
+      "items": {
+        "default": "external_tests/eval_set_test.json",
+        "env": "BENCH_EXT_TEST_ITEMS"
+      }
+    },
+    "ext_shared": {
+      "dataset": {
+        "default": "external_shared",
+        "env": "BENCH_EXT_SHARED_DATASET"
+      },
+      "items": {
+        "default": "external_shared/eval_set.json",
+        "env": "BENCH_EXT_SHARED_ITEMS"
+      },
+      "truth": {
+        "default": "external_shared/truth",
+        "env": "BENCH_EXT_SHARED_TRUTH"
+      },
+      "manifest": "external_shared/manifest.csv",
+      "truth_mode": "directory",
+      "metadata": {
+        "source": "ext_shared",
+        "family": "outside strip log"
+      }
+    },
+    "round3": {
+      "optional": true,
+      "dataset": {
+        "default": "external_tests_round3",
+        "env": "BENCH_ROUND3_DATASET"
+      },
+      "items": {
+        "default": "external_tests_round3/eval_set.json",
+        "env": "BENCH_ROUND3_ITEMS"
+      },
+      "truth": {
+        "default": "external_tests_round3/truth",
+        "env": "BENCH_ROUND3_TRUTH"
+      },
+      "manifest": {
+        "default": "external_tests_round3/manifest.csv",
+        "env": "BENCH_ROUND3_MANIFEST"
+      },
+      "truth_mode": "directory",
+      "metadata": {
+        "source": "round3",
+        "family": "unknown"
+      }
+    },
+    "unlabelled": {
+      "optional": true,
+      "dataset": {
+        "default": "external_unlabelled",
+        "env": "BENCH_UNLABELLED_DATASET"
+      },
+      "items": {
+        "default": "external_unlabelled/eval_set.json",
+        "env": "BENCH_UNLABELLED_ITEMS"
+      },
+      "truth": null,
+      "manifest": {
+        "default": "external_unlabelled/manifest.csv",
+        "env": "BENCH_UNLABELLED_MANIFEST"
+      },
+      "truth_mode": "none",
+      "metadata": {
+        "source": "unlabelled",
+        "family": "unknown"
+      }
+    },
+    "ext_shared_verify": {
+      "dataset": {
+        "default": "external_shared_verify",
+        "env": "BENCH_EXT_SHARED_VERIFY_DATASET"
+      },
+      "items": {
+        "default": "external_shared_verify/eval_set.json",
+        "env": "BENCH_EXT_SHARED_VERIFY_ITEMS"
+      },
+      "truth": {
+        "default": "external_shared_verify/truth",
+        "env": "BENCH_EXT_SHARED_VERIFY_TRUTH"
+      },
+      "manifest": "external_shared_verify/manifest.csv",
+      "truth_mode": "directory",
+      "metadata": {
+        "source": "ext_shared_verify",
+        "family": "outside strip log"
+      }
+    },
+    "djs_idaho_test": {
+      "optional": false,
+      "dataset": {
+        "default": "external_tests_round6_v2",
+        "env": "BENCH_DJS_DATASET"
+      },
+      "items": {
+        "default": "external_tests_round6_v2/eval_set.json",
+        "env": "BENCH_DJS_ITEMS"
+      },
+      "truth": {
+        "default": "external_tests_round6_v2/truth",
+        "env": "BENCH_DJS_TRUTH"
+      },
+      "manifest": {
+        "default": "external_tests_round6_v2/manifest.csv",
+        "env": "BENCH_DJS_MANIFEST"
+      },
+      "truth_mode": "directory",
+      "metadata": {
+        "source": "djs_idaho_test",
+        "family": "texas_rock_types"
+      }
+    },
+    "frozen130_rev1": {
+      "optional": true,
+      "dataset": {
+        "default": "external_unlabelled_test_rev1",
+        "env": "BENCH_FROZEN130_REV1_DATASET"
+      },
+      "items": {
+        "default": "external_unlabelled_test_rev1/eval_set.json",
+        "env": "BENCH_FROZEN130_REV1_ITEMS"
+      },
+      "manifest": {
+        "default": "external_unlabelled_test_rev1/manifest.csv",
+        "env": "BENCH_FROZEN130_REV1_MANIFEST"
+      },
+      "truth": null,
+      "truth_mode": "none",
+      "metadata": {
+        "source": "unlabelled_test_rev1",
+        "family": "unknown"
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+ "A": [
+  {
+   "bed": 235,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower part of the bed is Clay/Shale; the change from orange to grey has no boundary.",
+   "chunk": "1inch_015"
+  },
+  {
+   "bed": 334,
+   "type": "boundary",
+   "current": "Clay/Shale",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "chunk": "1inch_020"
+  },
+  {
+   "bed": 345,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 350,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 352,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 25,
+   "type": "wrong_rock",
+   "current": "Siltstone",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "The visible interval is green with continuous horizontal lines, matching Shale.",
+   "chunk": "shenzi_003"
+  },
+  {
+   "bed": 25,
+   "type": "wrong_rock",
+   "current": "Siltstone",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "The visible interval is green with continuous horizontal lines, matching Shale.",
+   "chunk": "shenzi_004"
+  },
+  {
+   "bed": 99,
+   "type": "not_lithology",
+   "current": "Oil",
+   "suggested": null,
+   "confidence": "high",
+   "note": "Oil is a show entry, not a rock type; the thin interval does not show a clear lithology symbol.",
+   "chunk": "shenzi_012"
+  },
+  {
+   "bed": 102,
+   "type": "boundary",
+   "current": "Shale",
+   "suggested": "Siltstone",
+   "confidence": "high",
+   "note": "An unbounded grey dotted siltstone interval is visible around source rows 18793\u201318809.",
+   "chunk": "shenzi_014"
+  },
+  {
+   "bed": 119,
+   "type": "boundary",
+   "current": "Halite = Shale = Clay",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "A thin green, horizontally striped shale bed at approximately source rows 31875\u201331887 has no boundaries.",
+   "chunk": "shenzi_036"
+  },
+  {
+   "bed": 120,
+   "type": "not_lithology",
+   "current": "Gas",
+   "suggested": "Halite = Shale = Clay",
+   "confidence": "high",
+   "note": "Gas is a show symbol; the visible column remains halite across this interval.",
+   "chunk": "shenzi_060"
+  },
+  {
+   "bed": 123,
+   "type": "boundary",
+   "current": "Halite = Shale = Clay",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower red boundary is about 14 image pixels above the change from pink halite to green shale.",
+   "chunk": "shenzi_063"
+  },
+  {
+   "bed": 171,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the sandstone-to-shale change.",
+   "chunk": "shenzi_067"
+  },
+  {
+   "bed": 175,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the sandstone-to-shale change.",
+   "chunk": "shenzi_067"
+  },
+  {
+   "bed": 181,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the siltstone-to-shale change.",
+   "chunk": "shenzi_067"
+  },
+  {
+   "bed": 185,
+   "type": "boundary",
+   "current": "Limestone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the limestone-to-shale change.",
+   "chunk": "shenzi_068"
+  },
+  {
+   "bed": 199,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the sandstone-to-shale change.",
+   "chunk": "shenzi_068"
+  },
+  {
+   "bed": 201,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the siltstone-to-shale change.",
+   "chunk": "shenzi_068"
+  },
+  {
+   "bed": 213,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 14 image px above the siltstone-to-shale change.",
+   "chunk": "shenzi_069"
+  },
+  {
+   "bed": 219,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The lower boundary is about 12 image px above the siltstone-to-shale change.",
+   "chunk": "shenzi_070"
+  },
+  {
+   "bed": 259,
+   "type": "other",
+   "current": "Shale",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The listed intervals leave gaps on both sides of this visible shale bed.",
+   "chunk": "shenzi_073"
+  },
+  {
+   "bed": 286,
+   "type": "other",
+   "current": "UNASSIGNED",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "This interval overlaps bed 285 within continuous shale; no separate symbol change is visible.",
+   "chunk": "shenzi_080"
+  }
+ ],
+ "B": [
+  {
+   "bed": 14,
+   "type": "other",
+   "current": "Clay/Shale",
+   "suggested": null,
+   "confidence": "high",
+   "note": "A 3-source-pixel interval between beds 13 and 14 is unassigned; it appears to be Clay/Shale.",
+   "chunk": "1inch_000"
+  },
+  {
+   "bed": 165,
+   "type": "other",
+   "current": "Clay/Shale",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The listed intervals leave source rows 9555\u20139558 unassigned between beds 165 and 166.",
+   "chunk": "1inch_013"
+  },
+  {
+   "bed": 235,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval includes a visible Clay/Shale band below the orange Siltstone.",
+   "chunk": "1inch_015"
+  },
+  {
+   "bed": 237,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Siltstone symbols.",
+   "chunk": "1inch_015"
+  },
+  {
+   "bed": 240,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Siltstone symbols.",
+   "chunk": "1inch_015"
+  },
+  {
+   "bed": 249,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The listed intervals leave a gap between beds 249 and 250.",
+   "chunk": "1inch_016"
+  },
+  {
+   "bed": 278,
+   "type": "wrong_rock",
+   "current": "Clay/Shale",
+   "suggested": "Sandstone",
+   "confidence": "high",
+   "note": "The visible band is yellow with the Sandstone pattern.",
+   "chunk": "1inch_018"
+  },
+  {
+   "bed": 282,
+   "type": "boundary",
+   "current": "Siltstone",
+   "suggested": null,
+   "confidence": "medium",
+   "note": "The thin interval contains both orange Siltstone and yellow Sandstone.",
+   "chunk": "1inch_018"
+  },
+  {
+   "bed": 334,
+   "type": "boundary",
+   "current": "Clay/Shale",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols.",
+   "chunk": "1inch_020"
+  },
+  {
+   "bed": 345,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 346,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The listed intervals leave a gap between beds 346 and 347.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 350,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 352,
+   "type": "boundary",
+   "current": "Sandstone",
+   "suggested": null,
+   "confidence": "high",
+   "note": "The interval contains both Clay/Shale and Sandstone symbols.",
+   "chunk": "1inch_021"
+  },
+  {
+   "bed": 25,
+   "type": "wrong_rock",
+   "current": "Siltstone",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "The visible bed is green with horizontal lines, matching shale.",
+   "chunk": "shenzi_003"
+  },
+  {
+   "bed": 25,
+   "type": "wrong_rock",
+   "current": "Siltstone",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "The visible bed is green with horizontal lines, matching shale.",
+   "chunk": "shenzi_004"
+  },
+  {
+   "bed": 99,
+   "type": "not_lithology",
+   "current": "Oil",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "Oil is a show symbol, not a rock; the interval lies within the shale column.",
+   "chunk": "shenzi_012"
+  },
+  {
+   "bed": 102,
+   "type": "boundary",
+   "current": "Shale",
+   "suggested": "Siltstone",
+   "confidence": "high",
+   "note": "An unbounded grey dotted siltstone interval occurs within the shale, around source rows 18793\u201318809.",
+   "chunk": "shenzi_014"
+  },
+  {
+   "bed": 119,
+   "type": "boundary",
+   "current": "Halite = Shale = Clay",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "A thin green, horizontally lined shale bed at approximately source rows 31875\u201331887 has no boundaries.",
+   "chunk": "shenzi_036"
+  },
+  {
+   "bed": 120,
+   "type": "not_lithology",
+   "current": "Gas",
+   "suggested": null,
+   "confidence": "high",
+   "note": "Gas is a show symbol, not a rock; no gas symbol is visible in the thin white strip.",
+   "chunk": "shenzi_060"
+  },
+  {
+   "bed": 286,
+   "type": "other",
+   "current": "UNASSIGNED",
+   "suggested": "Shale",
+   "confidence": "high",
+   "note": "This interval overlaps bed 285 and lies within continuous shale; no separate symbol is visible.",
+   "chunk": "shenzi_080"
+  }
+ ]
+}

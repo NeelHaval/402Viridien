@@ -1,0 +1,2945 @@
+{
+  "version": "quick-cached-contract-v1",
+  "elapsed_seconds": 5.985498900001403,
+  "cached_cases": 68,
+  "records": 272,
+  "unique_source_images": 61,
+  "successful_dual_schema_exports": 271,
+  "non_success_records": [
+    {
+      "case_id": "ae5c647135c45e6b",
+      "strategy": "s19_combine",
+      "rows": 0,
+      "source_csv_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "failed_or_empty_unverified; not exported as success"
+    }
+  ],
+  "input_identity_checks": "Same frozen image, annotation, window and truth hashes across four strategies",
+  "schema": [
+    "top_y",
+    "bottom_y",
+    "lithology",
+    "cluster_id",
+    "top_depth",
+    "bottom_depth"
+  ],
+  "raw_labels_contacts_clusters_depths_preserved": true,
+  "historical_runtime_by_strategy": {
+    "s19_combine": {
+      "seconds": {
+        "n": 67,
+        "missing": 1,
+        "median_seconds": 8.367647300008684,
+        "p95_seconds": 102.51834700000472,
+        "max_seconds": 309.4050053000101
+      },
+      "preprocess_seconds": {
+        "n": 67,
+        "missing": 1,
+        "median_seconds": 7.685291999980109,
+        "p95_seconds": 82.88426930000423,
+        "max_seconds": 140.98310940002557
+      },
+      "end_to_end_seconds": {
+        "n": 67,
+        "missing": 1,
+        "median_seconds": 15.272583599988138,
+        "p95_seconds": 172.28877630003262,
+        "max_seconds": 391.9977853000164
+      }
+    },
+    "s20_v4": {
+      "seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 0.08733405501698144,
+        "p95_seconds": 26.37095350000891,
+        "max_seconds": 32.43800240001292
+      },
+      "preprocess_seconds": {
+        "n": 10,
+        "missing": 58,
+        "median_seconds": 43.7895966500073,
+        "p95_seconds": 140.98310940002557,
+        "max_seconds": 140.98310940002557
+      },
+      "end_to_end_seconds": {
+        "n": 10,
+        "missing": 58,
+        "median_seconds": 59.10277974999917,
+        "p95_seconds": 167.35406290003448,
+        "max_seconds": 167.35406290003448
+      }
+    },
+    "s21_v4dino": {
+      "seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 1.3557636500045191,
+        "p95_seconds": 139.90426469998783,
+        "max_seconds": 504.5227455999993
+      },
+      "preprocess_seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 7.444513749986072,
+        "p95_seconds": 72.10484690003796,
+        "max_seconds": 140.98310940002557
+      },
+      "end_to_end_seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 9.410198600016884,
+        "p95_seconds": 190.08567300002323,
+        "max_seconds": 506.19181180003216
+      }
+    },
+    "s23_v4dino_identity": {
+      "seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 1.326699750003172,
+        "p95_seconds": 63.8364221000229,
+        "max_seconds": 134.93971690000035
+      },
+      "preprocess_seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 7.276547899993602,
+        "p95_seconds": 72.10484690003796,
+        "max_seconds": 140.98310940002557
+      },
+      "end_to_end_seconds": {
+        "n": 68,
+        "missing": 0,
+        "median_seconds": 9.469383999996353,
+        "p95_seconds": 110.42638469999656,
+        "max_seconds": 178.3647622000426
+      }
+    }
+  },
+  "runtime_limit": "Historical window times on mixed hardware/cache states; no full-run forecast",
+  "readiness_by_strategy": {
+    "s19_combine": {
+      "records": 68,
+      "unique_documents": 61,
+      "documents_with_full_lithology_box_record": 44,
+      "documents_with_valid_nonempty_full_box_csv": 44,
+      "documents_only_partial_or_unknown": 17,
+      "record_extents": {
+        "full_lithology_box": 44,
+        "partial_lithology_box": 24
+      },
+      "record_validation": {
+        "valid_nonempty": 67,
+        "empty_unverified": 1
+      },
+      "depth_not_ordered_records": 0,
+      "depth_not_ordered_between_interval_records": 0,
+      "missing_native_cache_records": 0,
+      "native_cache_unknown_records": 68
+    },
+    "s20_v4": {
+      "records": 68,
+      "unique_documents": 61,
+      "documents_with_full_lithology_box_record": 44,
+      "documents_with_valid_nonempty_full_box_csv": 44,
+      "documents_only_partial_or_unknown": 17,
+      "record_extents": {
+        "full_lithology_box": 44,
+        "partial_lithology_box": 24
+      },
+      "record_validation": {
+        "valid_nonempty": 68
+      },
+      "depth_not_ordered_records": 0,
+      "depth_not_ordered_between_interval_records": 0,
+      "missing_native_cache_records": 51,
+      "native_cache_unknown_records": 0
+    },
+    "s21_v4dino": {
+      "records": 68,
+      "unique_documents": 61,
+      "documents_with_full_lithology_box_record": 44,
+      "documents_with_valid_nonempty_full_box_csv": 44,
+      "documents_only_partial_or_unknown": 17,
+      "record_extents": {
+        "full_lithology_box": 44,
+        "partial_lithology_box": 24
+      },
+      "record_validation": {
+        "valid_nonempty": 68
+      },
+      "depth_not_ordered_records": 0,
+      "depth_not_ordered_between_interval_records": 0,
+      "missing_native_cache_records": 51,
+      "native_cache_unknown_records": 0
+    },
+    "s23_v4dino_identity": {
+      "records": 68,
+      "unique_documents": 61,
+      "documents_with_full_lithology_box_record": 44,
+      "documents_with_valid_nonempty_full_box_csv": 44,
+      "documents_only_partial_or_unknown": 17,
+      "record_extents": {
+        "full_lithology_box": 44,
+        "partial_lithology_box": 24
+      },
+      "record_validation": {
+        "valid_nonempty": 68
+      },
+      "depth_not_ordered_records": 0,
+      "depth_not_ordered_between_interval_records": 0,
+      "missing_native_cache_records": 51,
+      "native_cache_unknown_records": 0
+    }
+  },
+  "test_command": [
+    "C:\\Users\\hssil\\anaconda3\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "strategies/test_challenge_export.py",
+    "report/scoreboard_1108/test_readiness_paths.py",
+    "--tb=short",
+    "-o",
+    "cache_dir=out/quick_contract_pytest_cache"
+  ],
+  "test_exit": 0,
+  "source_sha256": "fdcb55eb414b6d6a27bfc9ad5cfe1be7b17f1713e3ed6ad9869b6263ad2466d4",
+  "scores_sha256": "f3b2f61b983815cc41350680dd241b5e9a7236bbe6aa1e969443614d6d6b3245",
+  "readiness_sha256": "4e1d2a4dfaf81265138ee6de7280c665853dacc60d4401a6014f61ed57e8d0a3",
+  "frozen_release_sha256": "3bee64ac9bfd7020466f9a39fe2b87ebf090d7a06ccf260761cc744dae4aeaff",
+  "submission_ready": false,
+  "official_numeric_grade_verified": false,
+  "new_model_inference": false,
+  "truth_or_source_images_opened": false,
+  "API_calls": 0,
+  "owner_hold_lifted": false,
+  "records_detail": [
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s19_combine",
+      "rows": 150,
+      "source_csv_sha256": "2c017e9d7a43eebb124d756fcee752a5a7a8b8f1ee00c6465fa769287ece1eae",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "99702316edb2a77b599c6f2e93bc291d039fe5a406a6bcc2a970ff3ae8a85434"
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s20_v4",
+      "rows": 25,
+      "source_csv_sha256": "78ffa5139888c089737c559dc3db11851e43623ac88e34d49cd897230a3895d0",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e58e1cc50caa4838e82563fd9cc27fee65d2ab92c640abc5ed98aeeca4151f44"
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s21_v4dino",
+      "rows": 16,
+      "source_csv_sha256": "46804784ad62940a38d6276f622fbba03a7e930be92e2694c49f32d1c1d37bdf",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "fbb6f650b1fd582c3513885e1494ae5d3b349592350b54eef50060850b761726"
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s19_combine",
+      "rows": 141,
+      "source_csv_sha256": "8958c5153ec2cff5ba0be3b5f9a11ae86b3e588414e3ba5eb1b53df23e8473b5",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "28906dbe581e86d33709c07f3ae4d6202c2d43ce1931b08a000a8388a5beab70"
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s20_v4",
+      "rows": 25,
+      "source_csv_sha256": "fd2d041649a41edf210df4eab07b97761a137276c2b0a52b8904eb007e09dcc4",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7208b1b09e4428dd36455409dbae9a093d0ef696d73e3628bf366dfab0031eb7"
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s21_v4dino",
+      "rows": 16,
+      "source_csv_sha256": "1fdc4d755d3772706450fbbfc4ce0a28fbee01bceef8c915d3db587a75231399",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7a4c76b814aa1ab2e9b45483e28881c766bdd00ec222e59c5c3df58edef2e9f7"
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s19_combine",
+      "rows": 120,
+      "source_csv_sha256": "515dd72a97b7acd4cfb251cae196680393ebc58ebfdde034ded2d8463e8e06de",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "34b00407250157fa7b95c637f59aa9a8d7f562fb8e01467abf71a332c08cca1a"
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s20_v4",
+      "rows": 26,
+      "source_csv_sha256": "9a61811b4945a6a8167b26586447f737e55cdfaa471e60e302adbf51ecf89a98",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c6a9e4f83f9be48e4374699cb4a44a48d3197b1bc1140c8131b4fed584738121"
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s21_v4dino",
+      "rows": 12,
+      "source_csv_sha256": "4b736ea06f7fae60c7dd27c26702d6fc8daca54a9c3218c7ca80162041768b30",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "1f81efb27ae1fd52c1312d59bf8f35ad4346125873996de5f41e335aa8a667ec"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s19_combine",
+      "rows": 142,
+      "source_csv_sha256": "9151d8eef5d8c777dce130c8bfa038b54be876d71d0a243845063ba4967553e0",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "33fb0caa4b6e58a3f9be8fd7b7f7a24a3e68ea572dd5ed40e53bbb8dd5804350"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s20_v4",
+      "rows": 162,
+      "source_csv_sha256": "79018019d3ad5521627a67b49efa3f577f8438f2de2c3a2baa50a7e4a4e87926",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "bf4337d18ccaca20c3719db6e2947cb340bdf3e56ac9aff89a84b943cf46f5c4"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s21_v4dino",
+      "rows": 160,
+      "source_csv_sha256": "3f3047ddffdd294d176724c2036adcbf86981543867b102ee939f036687fb8ac",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "65df5622a091d688bc0bdc05d54c972fad5fedbe0f199806c753d9cb45fbca4c"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s19_combine",
+      "rows": 58,
+      "source_csv_sha256": "5a471f81055483305c7831b6aa5d5306cd2c927a916b9ea9ca2c3535f96d3ce4",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d9b902ea34d7164db33942cd49231545d3d1b183f647a99da1d5e66c46444605"
+    },
+    {
+      "case_id": "6b663182fbfb4f87",
+      "strategy": "s23_v4dino_identity",
+      "rows": 18,
+      "source_csv_sha256": "d03f206c14d02903e179bfc08d292d75b33080c6bc9dcec9a3f8d02b30198b08",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "cfee4d7ac0fb46a69fb89380f7d0214f5b0a14c134b88933b94f0539e84b3abe"
+    },
+    {
+      "case_id": "098a11560a3b06db",
+      "strategy": "s23_v4dino_identity",
+      "rows": 17,
+      "source_csv_sha256": "1c16b53606b60876d24984a639ea9409279f46c9bdc91931af284308097db289",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "02fd72af383ce6f446c13df047d04bde146ae7f039d7d97cf11b24f6cfa6bd37"
+    },
+    {
+      "case_id": "ee53c8e06c27030e",
+      "strategy": "s23_v4dino_identity",
+      "rows": 12,
+      "source_csv_sha256": "0e4c0d6e807065f105998165afb83087a43a9beb2aae3e899a36b2d2d874f184",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "90f033426a4ad2b1d0abf2e7698c59267eea1af703ad87ecd7aa65401dcabba4"
+    },
+    {
+      "case_id": "ff55e97bd8089596",
+      "strategy": "s23_v4dino_identity",
+      "rows": 160,
+      "source_csv_sha256": "3f3047ddffdd294d176724c2036adcbf86981543867b102ee939f036687fb8ac",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a02e644e38b47c75df7a980b52dfd7e7d39d954ab66844bdb71c003098e63c93"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s20_v4",
+      "rows": 81,
+      "source_csv_sha256": "0b30a5f8261dce930a2c95b22e86a18cd05b5495edae93fe10c396dce5ca7fd4",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7825c5119a07ef2c6d9369d6c5d6118d5f6dadda16fd26afa80f2ad538a19b17"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s21_v4dino",
+      "rows": 75,
+      "source_csv_sha256": "9909e6c3b0da88404793f018ee6bb287d95b603884aa41b3941d95105aa32684",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "77236c99ed380795b38c16842067a0d9858c95bf9388abcb49a449b57a8c0dab"
+    },
+    {
+      "case_id": "0de8d24f32217327",
+      "strategy": "s23_v4dino_identity",
+      "rows": 75,
+      "source_csv_sha256": "9909e6c3b0da88404793f018ee6bb287d95b603884aa41b3941d95105aa32684",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8a321d637b2ddb043da0835ca701c9d26e9fbed0e7b92fd05cf0a2f6e1e11ab3"
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s19_combine",
+      "rows": 72,
+      "source_csv_sha256": "761a5d26304032c31288f159724caa9fac90c520d7577f132096a4727b4ef16f",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b634f69241fc995b7e384dcd8295f460eabef6567e258b4323ad5f804d56c548"
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s20_v4",
+      "rows": 52,
+      "source_csv_sha256": "a50ca5c5e4e2dafa4cc13458bc2c079d0f52473ea124987bed21d91d994982b6",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0e6794acb4b0ce8909412add6cdd944a678b7cb4f7ad74d1a90ab1e6b5098b69"
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s21_v4dino",
+      "rows": 52,
+      "source_csv_sha256": "9784e9fe211d138ce3d02f1123e5c3e71c467cf69671d54e9b981253399252cb",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "cc0b10e41e751dead3971e711cbd86b714f9e738790c564fbf5158ec3feeb815"
+    },
+    {
+      "case_id": "03b2ef6b774533a9",
+      "strategy": "s23_v4dino_identity",
+      "rows": 52,
+      "source_csv_sha256": "9784e9fe211d138ce3d02f1123e5c3e71c467cf69671d54e9b981253399252cb",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3cea50ede2db0ab9ce039626aaf036a69ed35e509dd5334fa9d5dcee081d35d2"
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s19_combine",
+      "rows": 48,
+      "source_csv_sha256": "bb1216605a75992db11b995f026cfe261313c53583f18e40001a8c3d7f8e68bb",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b7c21c72bb7c8629511d24318dcd7984a4bc0012b7d06e1639446f83634af277"
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s20_v4",
+      "rows": 49,
+      "source_csv_sha256": "479bf1e47cb8c7955e5de18b02ece72a25cf593dd5946efa690452f846ee1f2d",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e5dcadd86ea9786e1fc00d8a83e673df8da335001ca7dc5e4c3c24270e45c091"
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s21_v4dino",
+      "rows": 41,
+      "source_csv_sha256": "83af17c982a3b25ad0d80feb30c81303981d2bc54fa68d49a70180e0f7821688",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3eea7704cd690c1067133ea495e4f99133d4fd6c19c00cfc531d1bc62999fcdc"
+    },
+    {
+      "case_id": "6fb4e860a31a7c9b",
+      "strategy": "s23_v4dino_identity",
+      "rows": 54,
+      "source_csv_sha256": "d5d7174d7e9c4bb33d30306791fb50bbcff7826de31fbd972c2d47a097a70b65",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2f21ab8616bab1e4ebc572016ba6a2c2eb8ed5b66bf474113834094308dfad46"
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s19_combine",
+      "rows": 39,
+      "source_csv_sha256": "409eba5c9c2f7571cbf7e982fd8fa61f63478de8d89b6c52e934843e80406f94",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "39894e3106c5f171a3af92d518e8baae0694845e9679687c24be61f3ffe9cdee"
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s20_v4",
+      "rows": 44,
+      "source_csv_sha256": "fe7010f50c2f17b0d7576d49ee750c6f6e96b388869127f6778ed102de401a1b",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "692d520e589276e5764b77f1d01fe0491265714e600c7c42b0bec569aba3defa"
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s21_v4dino",
+      "rows": 44,
+      "source_csv_sha256": "f0644bde25703dac66ac6111aa5d2b543c21b1d049379e039e1b0849d736c47b",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "56817de4470ff107a7377b0e28b89db0ddae9c7327643e83bf5b6107333ac53d"
+    },
+    {
+      "case_id": "10855527e4ba883b",
+      "strategy": "s23_v4dino_identity",
+      "rows": 44,
+      "source_csv_sha256": "f0644bde25703dac66ac6111aa5d2b543c21b1d049379e039e1b0849d736c47b",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "72bb9ae5f767c27be842767e7c30d4b8855d8660c56a83e01e0d16f0342058bd"
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s19_combine",
+      "rows": 1,
+      "source_csv_sha256": "01e02a22935cfd76a79df6cbcf7e50afb058825b983fabcd9177e74823c67c6e",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "eb49c89c1d354f7a7347d55c08ec0cab83636543984cbc8d434cf4bdae56ba19"
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "cb64bc91d58ffd7a507d7c03d440253a81578a76b00037fd451b2b1d50111a5f",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "9f10d0a2e84d7202af377471f55d556333643d07670a721a6b1306c3213650fc"
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "bc194bd50c44efe9feb8f050bd2697f2118d0b02bc4c1feebae9c1f7b346b024",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a3daaf4943fb4cf134803be5d2227c2c14d0aeaa720b2d3cada7bb710afda7ea"
+    },
+    {
+      "case_id": "df889653b4852560",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "bc194bd50c44efe9feb8f050bd2697f2118d0b02bc4c1feebae9c1f7b346b024",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "cb5f94fea8c28907c3546888c3d5849003037c6ef47943e013890375e823f05d"
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s19_combine",
+      "rows": 20,
+      "source_csv_sha256": "66d9fac7819a9aa05c6cc60c7dcc97e8b8e3cac16593ab55fc6f527d9b5a5cea",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2d4bb74f92a3987da3ba6840574352882f326384b81547f2934186c56eaeb173"
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s20_v4",
+      "rows": 20,
+      "source_csv_sha256": "26daba1969ea759040acd0350376f63a65b6732656ff4f0757af613c243c7911",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "4d41bfce14f9f7a59c61398d2715d07d88c079b1082b40848c3db4ebe550c8a9"
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s21_v4dino",
+      "rows": 20,
+      "source_csv_sha256": "26daba1969ea759040acd0350376f63a65b6732656ff4f0757af613c243c7911",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "772ea6f09c3cff6f2fce53ae35686904fb2571cd009bfe051d5a05f2712809c8"
+    },
+    {
+      "case_id": "aeeb0575acea0cf7",
+      "strategy": "s23_v4dino_identity",
+      "rows": 20,
+      "source_csv_sha256": "26daba1969ea759040acd0350376f63a65b6732656ff4f0757af613c243c7911",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6c6cb2c37a633e7411d13ff200b091a91929c6a2c123f273026bb57de63c8efe"
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s19_combine",
+      "rows": 1,
+      "source_csv_sha256": "7752f9c7b3e45b277741b4eac741b188dccae68e2a281d08df81760007f805f8",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d5b295a49d76a640e20b03d4ea2f7d34b6ea652c39c3fb62319593619c757485"
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "b066aaff0ffac4e8e40029e869c6c78d5da8ea54e0f6841945f606522d5c83c7",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "359789fd7a3e26ff9234931ad5ce6664c857e17dead94dcd40126cea18427a02"
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "7752f9c7b3e45b277741b4eac741b188dccae68e2a281d08df81760007f805f8",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "18739a552cabae770ab75be7970e293da25f3ec2324b3a73fdbfefdcea34e5aa"
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s19_combine",
+      "rows": 80,
+      "source_csv_sha256": "418ad7c14215d6b3afad93f693faa10d8943c16e160eb0bf86e8c1592322f5e3",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ae70c340098cb710933eb41b206556117efe23973e578925719081b02c283856"
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s21_v4dino",
+      "rows": 89,
+      "source_csv_sha256": "050963d7fedb7d9766d69d1f74d8aece1aad85823914609f87ef6f6e15f023be",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f5c8236964b7a3d90df3fba16c607309dc24c1effba2619d7f6f6a4d9a5613db"
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s23_v4dino_identity",
+      "rows": 89,
+      "source_csv_sha256": "050963d7fedb7d9766d69d1f74d8aece1aad85823914609f87ef6f6e15f023be",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a555a8109dc4b91da4ffacc11e6e689432af0149260e1937e47dba78a5ba9ce7"
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s19_combine",
+      "rows": 29,
+      "source_csv_sha256": "801812690bc98fa91d87befde092bb2bb4632101932781df2b74b7e15e549cdd",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5342480ce49f3af7396059bdcd005bc012fbf6a87ce3be965ee4f515d9c2e81c"
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s21_v4dino",
+      "rows": 41,
+      "source_csv_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e3cb7ff90dec54af275479c17d40cd5af55016d43926ecced2ad1f0b1657888b"
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s23_v4dino_identity",
+      "rows": 41,
+      "source_csv_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8d5472f934161726f47b5272110bcad98873f013960126f5de494af2aec2f67a"
+    },
+    {
+      "case_id": "1195460dd0d251cd",
+      "strategy": "s19_combine",
+      "rows": 195,
+      "source_csv_sha256": "42803e0f2fb5a753b3729109fca26a753a4e0e11dd0069adb8332b0abbfbcf7e",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f7acbcb4f0560bf577219441f379140c77868661da62ad4895550cc28f2579c1"
+    },
+    {
+      "case_id": "1195460dd0d251cd",
+      "strategy": "s21_v4dino",
+      "rows": 273,
+      "source_csv_sha256": "9b19888d1909a994f2900fc00870252964d964f15e4de95d03597a31d1cec88c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8f6efe9b54b8c4cb0accfeb5c984c3090e0a8ba314de90b3c6efcb53d3c7bb71"
+    },
+    {
+      "case_id": "1195460dd0d251cd",
+      "strategy": "s23_v4dino_identity",
+      "rows": 273,
+      "source_csv_sha256": "9b19888d1909a994f2900fc00870252964d964f15e4de95d03597a31d1cec88c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b3b5698ce061b94675974b7cec471c7c0f84efcbfdf9f868a0cb178f2af514a8"
+    },
+    {
+      "case_id": "ae5c647135c45e6b",
+      "strategy": "s21_v4dino",
+      "rows": 278,
+      "source_csv_sha256": "0a9ebe11c08f49efd0d3b80a4a858de9fb7a360727b59871d6502d12f542684d",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6aed0cc4048eb4e8ba55a3d937db413d78334ba573cbdefc7dbc96a35c5cae4a"
+    },
+    {
+      "case_id": "ae5c647135c45e6b",
+      "strategy": "s23_v4dino_identity",
+      "rows": 278,
+      "source_csv_sha256": "0a9ebe11c08f49efd0d3b80a4a858de9fb7a360727b59871d6502d12f542684d",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ed334f929c7220840eb6d19cda94b14ba199768cdcbfe787b4593b0bc2d2fcb5"
+    },
+    {
+      "case_id": "43cb7bed033fe027",
+      "strategy": "s19_combine",
+      "rows": 154,
+      "source_csv_sha256": "aa1a5068357adcf68b1ef01c9898371b503c6f2a03a58908c118a4349134b5a0",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "18e3787fa879da5f9b67844c3c67a5d473fe72ea78b0bd27ad6c6c1d9885934e"
+    },
+    {
+      "case_id": "43cb7bed033fe027",
+      "strategy": "s21_v4dino",
+      "rows": 176,
+      "source_csv_sha256": "79418ebca5c553e9b9617a6c9e1945ddb3c00144bca63ed967cd0cba88dce0d9",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "05cd55019741d881789c8fd18a138a5d034e2dc64053c221da725920c2af986d"
+    },
+    {
+      "case_id": "43cb7bed033fe027",
+      "strategy": "s23_v4dino_identity",
+      "rows": 176,
+      "source_csv_sha256": "79418ebca5c553e9b9617a6c9e1945ddb3c00144bca63ed967cd0cba88dce0d9",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6d5fff519f744e5c7636663a535ab9950d9a362ba11f4787f6b65e2a52c7689a"
+    },
+    {
+      "case_id": "a19ddaae4536e5e9",
+      "strategy": "s19_combine",
+      "rows": 153,
+      "source_csv_sha256": "f5c4c536b66ca6b8391b2da5bb6cc96463ce0e286fc464e5c9da0e135a83ff73",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "4a6a3091384c6f1563c6d6d10538206ec88a443e680e0a975edf09821e1571c9"
+    },
+    {
+      "case_id": "a19ddaae4536e5e9",
+      "strategy": "s21_v4dino",
+      "rows": 14,
+      "source_csv_sha256": "8f1d682d7fb5043a323f213fa3c6b64a5866fe38f07617f53e5a8206a94b987d",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "96b35e6df42b6cacf9f550c752c4e29e66df3d1b0718101a564795e43c237726"
+    },
+    {
+      "case_id": "a19ddaae4536e5e9",
+      "strategy": "s23_v4dino_identity",
+      "rows": 15,
+      "source_csv_sha256": "4c29862f6278e886bb35dbc9178a9efef61ce2392b5792538cc5fdb9632409f5",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "99324269e872e87e0c0fc8d9747c7273dc4146c374389be85c5a1cb3215d730c"
+    },
+    {
+      "case_id": "e8f56cfacf365848",
+      "strategy": "s19_combine",
+      "rows": 81,
+      "source_csv_sha256": "1c6e91fd2db0bc11e3196f5f01bf0cd024ef1765d3e97dcf7463a1cf5f7619b8",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "48f9548f83452e5d7964f478d32dab6f30a9fe7cd3ca674a10bae0b69cefcb9c"
+    },
+    {
+      "case_id": "e8f56cfacf365848",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "9abe4a07eedb1683c428dfee8e5c99867f9c7fc606557e944742920e96ba8540",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d7a341f6f32eb0f57da9b9032dcaec153506547bdbfbc818cbc3e7a421e03d65"
+    },
+    {
+      "case_id": "e8f56cfacf365848",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "9abe4a07eedb1683c428dfee8e5c99867f9c7fc606557e944742920e96ba8540",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "fd951d1747d641236682eb22d62b685fbea1a3dc8c742f0ebd3c27b182bb2e9a"
+    },
+    {
+      "case_id": "2b6dda908cddcb08",
+      "strategy": "s19_combine",
+      "rows": 34,
+      "source_csv_sha256": "4eb2da6371e417dd9a47858da15302249ab50be1daf526a2fa9241f097071be4",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "746002353f249c8f3e7df24524bd9cc936a6b90df733a3718a74d655bd1d2df0"
+    },
+    {
+      "case_id": "2b6dda908cddcb08",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "6acb65b31a5398bc5e3be0807c38f445b943d08fe34ecd33729491871bfa4960",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "872ee086a653af5c03f5b5b04b0e2c04a7302274a8d16f390180fe2f3e6c6edf"
+    },
+    {
+      "case_id": "2b6dda908cddcb08",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "6acb65b31a5398bc5e3be0807c38f445b943d08fe34ecd33729491871bfa4960",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "27a9cd3c90abebbe1d2cad9ed17158e04282676ab9c747f7e004f376b836bd24"
+    },
+    {
+      "case_id": "b9d9e7c366357abc",
+      "strategy": "s19_combine",
+      "rows": 4,
+      "source_csv_sha256": "300e906632dfd5dfc528c75d73a59a9ceb7986c60ac336aba3253288848bce54",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6de3ecfeee5be80eadde5f94b8ec12777048179702b1dda83489a08acda12d5f"
+    },
+    {
+      "case_id": "b9d9e7c366357abc",
+      "strategy": "s21_v4dino",
+      "rows": 2,
+      "source_csv_sha256": "0444664b1a9a6e708be55176c3a01b2003989bd08432a93e7222417f443fc278",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 2,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ca6bca65d7c3e92a9e16831b07a62bff79ca01243658aa245915584ef6b635d7"
+    },
+    {
+      "case_id": "b9d9e7c366357abc",
+      "strategy": "s23_v4dino_identity",
+      "rows": 2,
+      "source_csv_sha256": "0444664b1a9a6e708be55176c3a01b2003989bd08432a93e7222417f443fc278",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 2,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "af458280776e21ff50e18657ef09c57cee0f56d296468e280a2def61ac36601a"
+    },
+    {
+      "case_id": "8c663ba4eb8e7e72",
+      "strategy": "s19_combine",
+      "rows": 8,
+      "source_csv_sha256": "b25b5b969d313d15292beb11c9fa1d0616172e317a0ac2f6cae5bf6240fa3939",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "12324427f6ca8f0ed9dff2b16a73acfb917dbd9c45ee380fba47b2bbcc9928d6"
+    },
+    {
+      "case_id": "8c663ba4eb8e7e72",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "7b764e2408612939087f4eb9bb069a419e7cc079405da8b9180fc915b4a43b3b",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "57b6af0fe2da4d7e8b58a793eb87694750f6865c1b4df85a75b471deea9e94e3"
+    },
+    {
+      "case_id": "8c663ba4eb8e7e72",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "7b764e2408612939087f4eb9bb069a419e7cc079405da8b9180fc915b4a43b3b",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "37189239922ee927063d3f713496cdce28b67e02d5bfdc5e108cc4f9449eb99a"
+    },
+    {
+      "case_id": "90ea0d641bd30055",
+      "strategy": "s19_combine",
+      "rows": 20,
+      "source_csv_sha256": "f46c19b8ef160e358dff1fa0241b62bc039cee5e8aac3945b5dcf72f6f1cfd6e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "94f5de9a0e2376a59f91bb1d320d1069c5910638d628b68b51e21826775eb887"
+    },
+    {
+      "case_id": "90ea0d641bd30055",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "8c94e01329984e843c5177a4267a7fceca38a28ddf4aa556350f0cdd42942fdd",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "950ef0b67a699bb15b697ac30315a946ff6f7395041cf235e4e0f7a92253d614"
+    },
+    {
+      "case_id": "90ea0d641bd30055",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "8c94e01329984e843c5177a4267a7fceca38a28ddf4aa556350f0cdd42942fdd",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c14c796daca5083d92a0902bf96a0c38e684b44959f40a80f5f3ab0474d87456"
+    },
+    {
+      "case_id": "e603af2dc9d1467d",
+      "strategy": "s19_combine",
+      "rows": 7,
+      "source_csv_sha256": "0977c5fc565b8c01ce5388502b80198be2d496b07440a9bc3432f3a6451a2a12",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ba5d58c96eb4d3864c3c38efe54fb2e7a77cd4d3f2d878ba9cd474956b6c9c51"
+    },
+    {
+      "case_id": "e603af2dc9d1467d",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "6d80caa463cbc5cd4b058f138eb4cdda8adc242b1bad274254e1119a45044b9c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d3379981a757ea1484e6a465a0a8167e42ba54d180e155645954c2edb2d9d0e3"
+    },
+    {
+      "case_id": "e603af2dc9d1467d",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "6d80caa463cbc5cd4b058f138eb4cdda8adc242b1bad274254e1119a45044b9c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3df497670f189b99f1aa4b961bbfa2ffb805879b000458693df96eba1c521e97"
+    },
+    {
+      "case_id": "a4b6dfd681ceeb4a",
+      "strategy": "s19_combine",
+      "rows": 16,
+      "source_csv_sha256": "fa4b3ad9e59ea99bdd4578f37a44f8e6561e2778c485f6a1eb809770f01ce817",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "48b0a5581b1ec6fc8e2fb8213f99216d093f38352b3a3dadcf6cb9c0dd2e4e59"
+    },
+    {
+      "case_id": "a4b6dfd681ceeb4a",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "d40f06f0da142bd4b05d0d3c87f4898e77b6b15b93e9bb0fb7d5e422205439f1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d26465b14d5b7d044b93a0eb862ad6196a49d8dd25f8a16f46d4656bf9e534e8"
+    },
+    {
+      "case_id": "a4b6dfd681ceeb4a",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "d40f06f0da142bd4b05d0d3c87f4898e77b6b15b93e9bb0fb7d5e422205439f1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "1fd2a5d25f7fa2849fc7ca05537fdac294816e4518a6be8c7ee2d3bb25f00c71"
+    },
+    {
+      "case_id": "8c4ac11040b40053",
+      "strategy": "s19_combine",
+      "rows": 16,
+      "source_csv_sha256": "96e80a37945eabd6e03f77de0f3d99ead5dd147836adfdccc57453db4f0cad7a",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7e99f487cf1b825c2e5bc527d385d5933b5028b0eae36680da1460fd32ba13f6"
+    },
+    {
+      "case_id": "8c4ac11040b40053",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "addacbad23ce4b0a9d86b3244cbc02077a34d1c6e74e6715f056b7607bcda247",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "56752e3c74ee3b73f2f1e0c2b1c6b6e4e796f14d2df2020ac3dccb9aa12d293e"
+    },
+    {
+      "case_id": "8c4ac11040b40053",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "addacbad23ce4b0a9d86b3244cbc02077a34d1c6e74e6715f056b7607bcda247",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "54ff7919948b8e59f3a5080c38a16c17d889bf347a381405d17e44050456b6d1"
+    },
+    {
+      "case_id": "e87e218c1e33266f",
+      "strategy": "s19_combine",
+      "rows": 24,
+      "source_csv_sha256": "457116eac14cfbfdf685ad5d1519bb208095def1945f1a2da496f179c5834bf5",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "61b1737b02bd100f1b0924606aa3d2bfcf7c2b2409425c93ecf51d9eb6f1397a"
+    },
+    {
+      "case_id": "e87e218c1e33266f",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "2f85b00e45438bb7f156cdccef5cdbab12f9ce57d7cb37767b87125ea85c13ce",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "9b5b009c828d93a9dadd1951fef982467170d698216b9cd6628ea9dcb7788519"
+    },
+    {
+      "case_id": "e87e218c1e33266f",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "2f85b00e45438bb7f156cdccef5cdbab12f9ce57d7cb37767b87125ea85c13ce",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "112ebe3693b141111dd41fff8c65995d778a7ab7429286aaca97f52f22f7ecce"
+    },
+    {
+      "case_id": "3c1008ece8a34100",
+      "strategy": "s19_combine",
+      "rows": 5,
+      "source_csv_sha256": "79e7ed57f347c7fe614aba6f084526a27705c9dfc56aa19f2dc685b8dc53e300",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "48a3abf5d3ac491ce00d796ac099ef11b5a0ee981752f0789e797c8c68845ecb"
+    },
+    {
+      "case_id": "3c1008ece8a34100",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "55665dad1cb92b66d165be937f64b6fe42f0115e79649038c41927a2f3124c53",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "51038fa8f2e520075052fdaf35d0825fe35432269be5d1a688a7a49b937cd50b"
+    },
+    {
+      "case_id": "3c1008ece8a34100",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "55665dad1cb92b66d165be937f64b6fe42f0115e79649038c41927a2f3124c53",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c71534591df2249e3e888aa75a06542e4fa098e0324a9e77c684fa1c75f7b9df"
+    },
+    {
+      "case_id": "fee9bd96b02a7228",
+      "strategy": "s19_combine",
+      "rows": 12,
+      "source_csv_sha256": "fd688e015b11fc668d5f3d8ed8651641e5e9f522910f5fc221f46383ccd4b3b7",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "9f6bb147dd08d9b600336ca9b42f646e6e9c5b7dad92bd522bb5c458330878eb"
+    },
+    {
+      "case_id": "fee9bd96b02a7228",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "0f7316cb1223be1c43c37fc02e9d2efcc9d083d126ee1dab76a5d2ae44da8518",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "99481e044f75763487da5f6c8a5fa732ef0724ee4873e0cec7934f068d9f83bb"
+    },
+    {
+      "case_id": "fee9bd96b02a7228",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "0f7316cb1223be1c43c37fc02e9d2efcc9d083d126ee1dab76a5d2ae44da8518",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "497e56efabb1cec2df03aebfa5c7e9afb73c553679085838122555f0af457b22"
+    },
+    {
+      "case_id": "e365485083d73b77",
+      "strategy": "s19_combine",
+      "rows": 3,
+      "source_csv_sha256": "3c79abe3836c3234b1ecafacba155a02c3c08e9a05858afdd404903809c34166",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "64d641274c2c365d01f506a1c06fd350418c0f568cdb1465552d7cf28e64cb5d"
+    },
+    {
+      "case_id": "e365485083d73b77",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "3fa85dac823be46b2954305e2ee1bd5f00476515102a96adf4859d7169dd544c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "733b1b329f286f159bd9eb0ce03098aea7702c47c68f45f8803cf73b4e353531"
+    },
+    {
+      "case_id": "e365485083d73b77",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "3fa85dac823be46b2954305e2ee1bd5f00476515102a96adf4859d7169dd544c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b54c295697d9374a38274f383aa4c54ee7f9f24ca4fe1a56eeae990fe0cc4912"
+    },
+    {
+      "case_id": "cbf3d306e935c070",
+      "strategy": "s19_combine",
+      "rows": 7,
+      "source_csv_sha256": "6e8cafdad123d99e6b4dd508b24a74abfa32deabf7d6caee8df70617e6d78067",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "76a2c0f033d85469131604da0401a69eb7e8a824f1d933f51f42a2d474c067d5"
+    },
+    {
+      "case_id": "cbf3d306e935c070",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "d10a697ebe12f91d485b6c7f2a05f5ce8988aa154497839c40d1fbdd9eb21d07",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7d5d47ae737d1a5c8ce06322be1595cb5223d6655e32fb58520f8fc91ed32164"
+    },
+    {
+      "case_id": "cbf3d306e935c070",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "d10a697ebe12f91d485b6c7f2a05f5ce8988aa154497839c40d1fbdd9eb21d07",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2fc2ebc9ad15e444eb1b6cb62927b959c8564ff077aea0e24762331651f5b47f"
+    },
+    {
+      "case_id": "330e27c0c410c395",
+      "strategy": "s19_combine",
+      "rows": 16,
+      "source_csv_sha256": "6d59492bcefe75eab867d1080efff1e80508ff05b1407ba55247e55b42b4281a",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0aedad25ab7a4eabbf6b0af982350bbe7ce23da7f1ac24790c794b83205920ac"
+    },
+    {
+      "case_id": "330e27c0c410c395",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "f8c696495f77ba7a802d2b84fb9c40a35c1a0887287ff760ce1fe7dc9b08e82f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0b2036d766b4cbb0b03f074de176d232974ad7b09201eb5f0ca18add9eb00856"
+    },
+    {
+      "case_id": "330e27c0c410c395",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "f8c696495f77ba7a802d2b84fb9c40a35c1a0887287ff760ce1fe7dc9b08e82f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "62778fd853843edf50fe3261eabd973c52f67d5bc4040f9eb1b3dc6eb65ffffb"
+    },
+    {
+      "case_id": "0135a2e4a59a4c27",
+      "strategy": "s19_combine",
+      "rows": 17,
+      "source_csv_sha256": "30c1f695438a8888805748c99677f60916940dd222aea94494b015e45a7058c5",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "93a8408f07c4a296279ea9719958fe8d17b0592564fdcc2590f572a5ea0614b9"
+    },
+    {
+      "case_id": "0135a2e4a59a4c27",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "dbd0431085f13e7329147465c90e92a3484b4666383a0f0560baac63be9a3637",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "43034f4670bd34e012630a2e583e1009543e7dfe95e24f7c2cc2ed841cead30a"
+    },
+    {
+      "case_id": "0135a2e4a59a4c27",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "dbd0431085f13e7329147465c90e92a3484b4666383a0f0560baac63be9a3637",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "06d655f54f2463db9890615360fdeef98746b2a7fe1e16bdec29eba0766d575b"
+    },
+    {
+      "case_id": "70a155a1b7ec3fc7",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "e5413b0378a350ce8974bd14597ab94cb82062041bb00ed4b53719da5991887d",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5f9bf8f3fd9d2404314c4ab4dcaf4e521d84aa58be9c4fa22f9144b9ede036fe"
+    },
+    {
+      "case_id": "70a155a1b7ec3fc7",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "21d7b936df582fcaf2449ad6b0502544f3361d8bfcd5d97e83496f1bff7b8086",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f23a809c18b1b2c9001fa32d1315a7bec669e3dbcaec73ebf42397074be33116"
+    },
+    {
+      "case_id": "70a155a1b7ec3fc7",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "21d7b936df582fcaf2449ad6b0502544f3361d8bfcd5d97e83496f1bff7b8086",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "90fbcc290557ba213c46762f99a9eb1995f599338a5094b014776b4249761354"
+    },
+    {
+      "case_id": "ce90517b4b344ef3",
+      "strategy": "s19_combine",
+      "rows": 4,
+      "source_csv_sha256": "474aaebe838451f731a222655fe24dbdffabc7289e0175e81e733518a02ded58",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "90824b4a165e3edcbfd99f441a7a1a1bf7d2dcd4f5f290393ced92c809526a22"
+    },
+    {
+      "case_id": "ce90517b4b344ef3",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "eb065a213abab9170fadab4d8f305e8cff0d0d2296533970d7b35782c23ccee1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c7a8fc5fb34b0577798a8707ac18d00f79bb8aad33146d98f8cb18a7609cf095"
+    },
+    {
+      "case_id": "ce90517b4b344ef3",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "eb065a213abab9170fadab4d8f305e8cff0d0d2296533970d7b35782c23ccee1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c838f2f52f32c200f765086d728172b58edd4d0f7efcc708fc44fa904cae373d"
+    },
+    {
+      "case_id": "561d8f6812bc63a0",
+      "strategy": "s19_combine",
+      "rows": 13,
+      "source_csv_sha256": "17c985989b3541348c467d182defce1b499076436dd0e91ed4af964167c40997",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "bdcdaac499e6e880f5c9d7d4c58fe55b09630ca49335504006107e3beec79af9"
+    },
+    {
+      "case_id": "561d8f6812bc63a0",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "b3c7a6f38a03a5932f4fcf17ed7f4a7970419db0efa311a27974e92d041f5197",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c37b00e86811ce2efd76735d047a7f191838373517daab1275b0e8a91d9e4327"
+    },
+    {
+      "case_id": "561d8f6812bc63a0",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "b3c7a6f38a03a5932f4fcf17ed7f4a7970419db0efa311a27974e92d041f5197",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d8b9c965152fe1c433ab76fa24188d9a929497e5c9d840b4da968a6745fe99b0"
+    },
+    {
+      "case_id": "b675d179c661df4c",
+      "strategy": "s19_combine",
+      "rows": 9,
+      "source_csv_sha256": "3ef0fdccfd2bda13798b26b823c5918deb8e5ecf88882076201183d71a43929e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6b519499a61f6593da1e11958ab25b7c1f11d56b89765f9a1a2fe1edeb5c7777"
+    },
+    {
+      "case_id": "b675d179c661df4c",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "c12834f35f26399500c5443613dd6828a21c4e6e82afbe9c4ddc85842c18a194",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "dbc78831ad6d17b97444cbee778db22e727eb3cdc4e661268c756509f38fedd4"
+    },
+    {
+      "case_id": "b675d179c661df4c",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "c12834f35f26399500c5443613dd6828a21c4e6e82afbe9c4ddc85842c18a194",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5ca5fb902a67e9e0d9cc04b418cd67ebcf05ef5fdf3c8516f46ba1e85904f8f5"
+    },
+    {
+      "case_id": "6d2a1c3400675c3f",
+      "strategy": "s19_combine",
+      "rows": 7,
+      "source_csv_sha256": "aa537509326578d4caf553ed72a6a36c8586019475b67653d21d33a9f13eef56",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c3645249643ce2688837d53c55a3756bf999f860af2adb8c22a2a053b8c50c68"
+    },
+    {
+      "case_id": "6d2a1c3400675c3f",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "119145ff5839b52972c45f8203e6819e6448d64f12300f92d402eef326b162cc",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "24fdafbcf37e4ff83d1c11e05de4483933989e4a3ab6ba3d144e49c2c7a96617"
+    },
+    {
+      "case_id": "6d2a1c3400675c3f",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "119145ff5839b52972c45f8203e6819e6448d64f12300f92d402eef326b162cc",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a14f15c3bcf3dae83690a355fdfba42ef4a701439a8843639fd59e10b2bc425e"
+    },
+    {
+      "case_id": "55a6c2463cafd15b",
+      "strategy": "s19_combine",
+      "rows": 16,
+      "source_csv_sha256": "0dfb67ee3a24275233e008edc72fa81bededc4a27f22f068f7ef24ae4ded736d",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6126b351567153e5f7b760f51fe9a8d6fd4c22fded5a9894c6dac461c2d4e833"
+    },
+    {
+      "case_id": "55a6c2463cafd15b",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "ae3dbbe9cb673f960f5f7a6b800dfa6782326af83496ae716204e7e193d27957",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3e78360776e802174d3de17c854c45a162e0416b5506ac80d47e1875e2f31ea2"
+    },
+    {
+      "case_id": "55a6c2463cafd15b",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "ae3dbbe9cb673f960f5f7a6b800dfa6782326af83496ae716204e7e193d27957",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "55b2bdee2e46bf1fcb9062c0b3180ea7a5b9e9baabe535154aec89ff085c425e"
+    },
+    {
+      "case_id": "3362822de30bf870",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "3e4d91f591b97ba61b74b125d0bada2bf88797a1d8e961df2effba9d58c110aa",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e4da4d894d3ca33ae0ed457a7e5988f1a5d481e68fcfa00560ecb73eeafe22db"
+    },
+    {
+      "case_id": "3362822de30bf870",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "293c3c318fe6a5b08f3c8b175b6851011b1ade79adb56923b237bc386381a65f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "1d5986f5e31c5e98b5e0c8a6edca13efa3cd5bcc35275c32986de1113acb7b88"
+    },
+    {
+      "case_id": "3362822de30bf870",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "293c3c318fe6a5b08f3c8b175b6851011b1ade79adb56923b237bc386381a65f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "179d22555644d44300e8f5fb1551fe9838d9c2063a6cb6c8b98364784002137c"
+    },
+    {
+      "case_id": "a288918a872baeb5",
+      "strategy": "s19_combine",
+      "rows": 3,
+      "source_csv_sha256": "d5002c28ed7f2a42a8af3a48392f72ca39189e465ae0ba4fe17804d4fa0fe171",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0745f4a8648b929010ecffe9fad2eb5afb3f67dedda1e40f69a7235df176d361"
+    },
+    {
+      "case_id": "a288918a872baeb5",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "7cf6a01d6d14ab93a3a8880c64c0dafae2aa473c16d8d8e11927ca1af5fd3f12",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6f97edc7c3a31716a307e1437eb0d22bae33d514a7a5acfcf4f7ad8fc33c8409"
+    },
+    {
+      "case_id": "a288918a872baeb5",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "7cf6a01d6d14ab93a3a8880c64c0dafae2aa473c16d8d8e11927ca1af5fd3f12",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3b7f9d569e882d720b98174eb525875b5504979794a06bbaf5aa91fc3ea2e055"
+    },
+    {
+      "case_id": "bb8c1562f90f9fea",
+      "strategy": "s19_combine",
+      "rows": 46,
+      "source_csv_sha256": "917cad9a8c12a1897b3c8a78feb438ed688a82c5963505350cb01f147c86f5e7",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "153e31eceb74c73d85fb4ec40decd6580bf0b69e7a02f3b35faaf2e550080582"
+    },
+    {
+      "case_id": "bb8c1562f90f9fea",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "5ddabb13aab874c458292958b83dd0f8eba9651981fac0405b99c425a7faa09b",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5ffb857bb5a0829d67d7e062d9dab1ded90e8f8fccb480d9ee7b144fad47964f"
+    },
+    {
+      "case_id": "bb8c1562f90f9fea",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "5ddabb13aab874c458292958b83dd0f8eba9651981fac0405b99c425a7faa09b",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "9940dce219dcf1a4f8f816e62b8627df79c89dfca3a5de8990cd6f4ef814d504"
+    },
+    {
+      "case_id": "c0142ba943917da2",
+      "strategy": "s19_combine",
+      "rows": 85,
+      "source_csv_sha256": "9ac0c3df93452eb7f135ff8568b3718cdac5f420323e528bbd3f916d4d444aa8",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5d9531f41a23dbd8f0b7b68ba317684f787437c04b85d7869dd0995975253e7e"
+    },
+    {
+      "case_id": "c0142ba943917da2",
+      "strategy": "s21_v4dino",
+      "rows": 3,
+      "source_csv_sha256": "8523fd93092f6698f06b42a2758b83f78ca93083510638f1714a050408ba5c4f",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 3,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2160da3d1dd772f6e2932d3a68f9cae29c1a9c38ed9857eb5d29f8fb64dcadf8"
+    },
+    {
+      "case_id": "c0142ba943917da2",
+      "strategy": "s23_v4dino_identity",
+      "rows": 3,
+      "source_csv_sha256": "8523fd93092f6698f06b42a2758b83f78ca93083510638f1714a050408ba5c4f",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 3,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "818bd1040ce62d36c62af236f0d3c477848d9063368092b738c24c6fe9785dc8"
+    },
+    {
+      "case_id": "cb2c5047736fc517",
+      "strategy": "s19_combine",
+      "rows": 83,
+      "source_csv_sha256": "14426b7eea335fd43cd1f9ab5c4631ca9d5d3e5941a9723ce1df49cb9662b0c9",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "fcb590bc2e25c78cd1dc3bf8b3b491195758a31ddeb761b9a0b827946f5d64d7"
+    },
+    {
+      "case_id": "cb2c5047736fc517",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "6e4fa60800e087dbc841ae3c6d37866f3387773f751c7af43d0c1ded47e00673",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "30800f24f327b6c838da101ddf25c955a47e0c570217c46bcdd4cc45ea1fbf74"
+    },
+    {
+      "case_id": "cb2c5047736fc517",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "6e4fa60800e087dbc841ae3c6d37866f3387773f751c7af43d0c1ded47e00673",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "86809737bff01ef2df8ddff42d6c5be5e1c122f3a1c83ed270eca9c11eb24030"
+    },
+    {
+      "case_id": "3ebb341f61b07738",
+      "strategy": "s19_combine",
+      "rows": 97,
+      "source_csv_sha256": "fdf6d4e86206235ad65b47ef8213132653180866869831ef98a7103107e19639",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "877c39e8596c66db77382a6440678901e1ab4a3ac6b97c10823b3a4e067c8f76"
+    },
+    {
+      "case_id": "3ebb341f61b07738",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "c3f9f9124cd76ac8ea036b67909ec15143650b6d578e52a8707a091c897dc871",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a0b395be79ace3602f94f9f9fcbc4d25354bba9cee6bee06391a1e8d38b46911"
+    },
+    {
+      "case_id": "3ebb341f61b07738",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "c3f9f9124cd76ac8ea036b67909ec15143650b6d578e52a8707a091c897dc871",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "4d9f37e886d7be871e7733be2fff78bfea39b9d7880824df7e96ae19dba7f153"
+    },
+    {
+      "case_id": "33041e1240de5df9",
+      "strategy": "s19_combine",
+      "rows": 99,
+      "source_csv_sha256": "bec6d0269b3726db9425d6c15182225e6bd8eadc7748884be3e2278d4da0dd45",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "66ebc18ada23d25fb9ed3eea31e39998350a643a6d27639c2d76f66b1d63967c"
+    },
+    {
+      "case_id": "33041e1240de5df9",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "0af34eec5d320cbe80e85b3ff5ab0b644a7c49394a140b09bc989d6466424ae9",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ac6c6bb4b3e3b792905d92c69fd4c6998a0dfc8418ee2872dbce7760089cbeb5"
+    },
+    {
+      "case_id": "33041e1240de5df9",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "0af34eec5d320cbe80e85b3ff5ab0b644a7c49394a140b09bc989d6466424ae9",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "704fa7f94333dc9468e90383b350fcd436e874c6fc7a54d437598eb99e0f94c5"
+    },
+    {
+      "case_id": "fe41f7e83b244128",
+      "strategy": "s19_combine",
+      "rows": 114,
+      "source_csv_sha256": "e7d82daf690d3a64991fa137f2733cafd4a825f40b095910ecf60e518cce313a",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c5bb136c0b7e200a00d09a1848e1aec195bcfe0b09ddb47f847fe930f67fcc9f"
+    },
+    {
+      "case_id": "fe41f7e83b244128",
+      "strategy": "s21_v4dino",
+      "rows": 2,
+      "source_csv_sha256": "779264d1a28fd42390bd9a8844324f21d16f19424afc3546a23397f12e8c9f6c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 2,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a043a176643225de8dbf7c723bd476d15b9d4e1fac236b90412adf4bc5b63183"
+    },
+    {
+      "case_id": "fe41f7e83b244128",
+      "strategy": "s23_v4dino_identity",
+      "rows": 2,
+      "source_csv_sha256": "779264d1a28fd42390bd9a8844324f21d16f19424afc3546a23397f12e8c9f6c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 2,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5cf895e8260bb35233e3985e91f367ef944f03eda3a70b28f1c9965fe6a49588"
+    },
+    {
+      "case_id": "07f9c29491bfde6f",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "55534151b1c02a4002c1b7acf588beb49455433e3d355fd80d9806efba71e8f2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c502ecd559b0560468e330678196e1c678fd820a9e1177de8eaac99f3a6ebce1"
+    },
+    {
+      "case_id": "07f9c29491bfde6f",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "f268022c2bd52ca1ce564624face93cd7e1e9a3fb8d48a4466e11669da95e9e2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "587eb2716542867305131f95e0cfe1dffd2e0668396432b9f322b8ca5d18957f"
+    },
+    {
+      "case_id": "07f9c29491bfde6f",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "f268022c2bd52ca1ce564624face93cd7e1e9a3fb8d48a4466e11669da95e9e2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6b430599878fd31d13ab553f61a8f1ec28094062195df13b9fb99a71168b0662"
+    },
+    {
+      "case_id": "a2c76a9ccee2a6a3",
+      "strategy": "s19_combine",
+      "rows": 1,
+      "source_csv_sha256": "c83c824dd97804a0c4341afec2e4de164dfeef8df52c64bf55a374d0c553b068",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7a145f7c538fa08933256f90508aca1240ec0e7f11a0d85bba6ebc482eb8632e"
+    },
+    {
+      "case_id": "a2c76a9ccee2a6a3",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "94829bf69cdf1102b68495a4b4750811c03b5ceb8f6d712ef769f8b50a20fb93",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0dfcc48bdf85f54e377301cf3bbfe9a3a410d89528167e859b29b09064136e80"
+    },
+    {
+      "case_id": "a2c76a9ccee2a6a3",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "94829bf69cdf1102b68495a4b4750811c03b5ceb8f6d712ef769f8b50a20fb93",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "fe94c2b1821c58fc32f3fded570a24a1c99d1577fc9ed38772b0dde96f7bc881"
+    },
+    {
+      "case_id": "647c99cae3f0417a",
+      "strategy": "s19_combine",
+      "rows": 6,
+      "source_csv_sha256": "789087e57516443c2e563083ffd1d79603d1d3c12136744483166839ac2dc340",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0f8f83e12f00d452a818a17ec853119982e2e7b1be35be38c91f9727321f9312"
+    },
+    {
+      "case_id": "647c99cae3f0417a",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "09fbba445dc81ac92ac6d8ffb8692d88b0892148c3de63bc93f6bd41d1ae1cfc",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ce8ab1a8d1faf53176b2dcbad43feeb22997e7cf5fd6cece3bdd0aa0549afa13"
+    },
+    {
+      "case_id": "647c99cae3f0417a",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "09fbba445dc81ac92ac6d8ffb8692d88b0892148c3de63bc93f6bd41d1ae1cfc",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f25cb3ee98545c0622ea85209bc41e3dcd544dfb99250db595062d6e804d3e2d"
+    },
+    {
+      "case_id": "ae7dffdcb9cac3a6",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "1486c94b386970be333d90d55bd5769e133a6ae0b1354181801232eb9a0071a3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "c7ef91d9b7392a8599c9eac8b08e1fac88c5a78888be6307e2970699036255a6"
+    },
+    {
+      "case_id": "ae7dffdcb9cac3a6",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "7311f675578eddf8bbf50b8818e344d71b2f2bb45ede272f56822ec9c098377a",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d7db25c4d867a7a924f7d7e285378dc464ba9357a609870358697592469a4152"
+    },
+    {
+      "case_id": "ae7dffdcb9cac3a6",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "7311f675578eddf8bbf50b8818e344d71b2f2bb45ede272f56822ec9c098377a",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b31fa64c2a7afc655df645053c9475b3c4e9ef1e1a57ea06752604dc04a9ee20"
+    },
+    {
+      "case_id": "a3897eab5a7749d4",
+      "strategy": "s19_combine",
+      "rows": 11,
+      "source_csv_sha256": "58630885f9ded8cd8c71bc8a42b23ffce9aa969c82c393e6c7b07e8be80a1661",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "aaa08fe1a9453cf328fe3642eba78d947bd3869b44dd09ae2274862744a200ab"
+    },
+    {
+      "case_id": "a3897eab5a7749d4",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "7e2dc11adf402de4136331951cfce84b1bad0589d7e422af1eef09932ce4a32f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "77fb234341e725a6e22f4500eae8cd57fe29e281c29f1aa60b2c356422e8680b"
+    },
+    {
+      "case_id": "a3897eab5a7749d4",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "7e2dc11adf402de4136331951cfce84b1bad0589d7e422af1eef09932ce4a32f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f6416f5564469475aae289f9ae6f1ea8fd1d60b557de31a43db000c207ff5f02"
+    },
+    {
+      "case_id": "a3c97671ae3147ab",
+      "strategy": "s19_combine",
+      "rows": 3,
+      "source_csv_sha256": "ea4d1e5dea999e8a03c0c64f1c3bd352e21f5ca75b47345d7c7dfd3c5924a4a1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "61f2b9c15b42eb3cff0cce0bc9e8fccc99f19fa6262dddf95c28d5ed1df6edf2"
+    },
+    {
+      "case_id": "a3c97671ae3147ab",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "e2b3e6cdb963a9a817a549ca338c80078f87a2744084e8046d2af93b1506d0a2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d3a612a13c6c16c6733bf2f2634db65d41378586476f0e3237cebc28da903ff6"
+    },
+    {
+      "case_id": "a3c97671ae3147ab",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "e2b3e6cdb963a9a817a549ca338c80078f87a2744084e8046d2af93b1506d0a2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "1fea078cd9cc6d74e6b4a0075585118abdc2d1770ef40376dc5b4f9345662e0f"
+    },
+    {
+      "case_id": "c3f7a18df5be0a94",
+      "strategy": "s19_combine",
+      "rows": 4,
+      "source_csv_sha256": "22845b22c17061a07c2f331dd81afcbb8b1091a5645fad4dfee89d4ff25f22b2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "aeedf80e2bd595f54629c15df16f42155f461b4d20655cea38e75cfa36a323fa"
+    },
+    {
+      "case_id": "c3f7a18df5be0a94",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "1b0919317b31ade4451d6433253c20b674dff10697d3733aa186741346d191d9",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e50e92fc5cab0353d75a8c8cb6d1c83a6070f371cea3a4a2ffe897ce3d212e83"
+    },
+    {
+      "case_id": "c3f7a18df5be0a94",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "1b0919317b31ade4451d6433253c20b674dff10697d3733aa186741346d191d9",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7c9d778fc1b213476d3514c6abc73cc7f62c8b70819ce7fb3a5e8e03640acf1a"
+    },
+    {
+      "case_id": "9b39a65b3b3d9988",
+      "strategy": "s19_combine",
+      "rows": 15,
+      "source_csv_sha256": "5ddcc8a4ece970c55ad4180794ba45e5c12736b801446f6d37cf342abf55bfa4",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "62107068b482286025781af254e66ecd740bfc5c124033bc38ee1fca66ec561a"
+    },
+    {
+      "case_id": "9b39a65b3b3d9988",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "16c11b03814a68bcb4706ad947e5da48fddf3566f67f99b40e19643852a767c3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "cc982f3ae9c8ffb52e6ee7d456c8fff08eac71e2419abd7780ced5956b5ec07c"
+    },
+    {
+      "case_id": "9b39a65b3b3d9988",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "16c11b03814a68bcb4706ad947e5da48fddf3566f67f99b40e19643852a767c3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d736cc31b27dbb0d48854a37247a995f8c8e2b01741a281e24e4e528ed183528"
+    },
+    {
+      "case_id": "06bbdc9380d6513f",
+      "strategy": "s19_combine",
+      "rows": 26,
+      "source_csv_sha256": "7f30ed7aaf7a9e15fc06222b2ca2429fd6bec6cd0f74abe42f99dbd37907765c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "1627456ac7bec559859cf69e3502b4a4f361f45ec63d03be41cac53160450b33"
+    },
+    {
+      "case_id": "06bbdc9380d6513f",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "1d101b5a4f80154b8474059aaf2ffb205e793530acabbeeed99d6765da99cac3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "01b3aae6158021343c1f766a73fc4840f726b3433444d2a7f85b97ca9476e878"
+    },
+    {
+      "case_id": "06bbdc9380d6513f",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "1d101b5a4f80154b8474059aaf2ffb205e793530acabbeeed99d6765da99cac3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3e2d08a2ad12ea4a752e4cb98742fdd1b067d4e60999fcd4f6f944a25fd78c03"
+    },
+    {
+      "case_id": "cfc8e1a1933f260a",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "7576551f2f36cf584ac0a7729823877a3bf228b03c4b9712ca02284364486877",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "fc45769445440bdf477482e452e9425a34be4a58dabc9414c95b610cdf5f9641"
+    },
+    {
+      "case_id": "cfc8e1a1933f260a",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "b0da453b69c1499caa1c48adb9da724ee6967bf19fc21f32658d309524152d76",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d566a071dd7a2896e128da79b517b22faf3e5bcf75e82f3d20f948195f854d17"
+    },
+    {
+      "case_id": "cfc8e1a1933f260a",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "b0da453b69c1499caa1c48adb9da724ee6967bf19fc21f32658d309524152d76",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2d1f4ce5e11315095a58967d97f8be6d0fc8568b987901c97b2b200d8c3dea34"
+    },
+    {
+      "case_id": "9896d1dc4052fca7",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "5b801c467dd034ffd4e53d728b4a8e3bcd16f35b5bc84203a59b40d4940ae276",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6eee32e4e62ebe68f8252ff1db36e51adcd2bfb47a30671753f37ed073fdad99"
+    },
+    {
+      "case_id": "9896d1dc4052fca7",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "04128b9e7371abf57270fb849d248bdaf1f4936053d4c388a0cb2424ceadf260",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6a07bae16624f576bd5358df2935750c658b156e6b410db4c2bfb243ab027a71"
+    },
+    {
+      "case_id": "9896d1dc4052fca7",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "04128b9e7371abf57270fb849d248bdaf1f4936053d4c388a0cb2424ceadf260",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3d2f0ebf98cb9b0e4da3512e9b036e6cc1279a53da906b0a8f9ded0c5024949d"
+    },
+    {
+      "case_id": "28ead2232164d833",
+      "strategy": "s19_combine",
+      "rows": 1,
+      "source_csv_sha256": "dde8e728c6efc3f823e77cc31eccfba7fec65b5fe712fd19317b2d6dd6294637",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ee0f9663f0fe19ef5b995d77989a90055bcfd7d422cbfdbf11002cc31cd0d580"
+    },
+    {
+      "case_id": "28ead2232164d833",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "f65093e3436dea120cfa715d1480b592c9fd53afa4dc93976dc990d0f4e812f7",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "28e0874866dd91d3cb2c5ec355d0907986938e8ed039eb876cf58af837e82a37"
+    },
+    {
+      "case_id": "28ead2232164d833",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "f65093e3436dea120cfa715d1480b592c9fd53afa4dc93976dc990d0f4e812f7",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "bea82acce2752d1a88746c2df7bbba4886e45f6e41d9fb3e53aa996cf112b727"
+    },
+    {
+      "case_id": "4b9fc8eda216939d",
+      "strategy": "s19_combine",
+      "rows": 2,
+      "source_csv_sha256": "b4ab5da2c4cd3b80a5eb32b2b008eb7cd1b6bee558d71b1fa9933d4a43c4fb7d",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "dcf6f8b19877cde4f042f0aa53f011b7b6758795122f4da6e60e7bd395f4622a"
+    },
+    {
+      "case_id": "4b9fc8eda216939d",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "d008e2884150e2cb042dfd7d514e8ba89c69c54eee8f4105f2fb6d2b098d7640",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6dbe02d0d89218a1eb529d30585089279cd31e7febc2b25978450a17218dd669"
+    },
+    {
+      "case_id": "4b9fc8eda216939d",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "d008e2884150e2cb042dfd7d514e8ba89c69c54eee8f4105f2fb6d2b098d7640",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a99d986cd32c0102194fb30fd12d96d57b417823304e970281915651f2b97352"
+    },
+    {
+      "case_id": "0957c52abccd57b5",
+      "strategy": "s19_combine",
+      "rows": 8,
+      "source_csv_sha256": "1b278d2618f760ad55e9b6c7ee3d9d9c90d8da457837cfdcbc8c85e3de4c8131",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a43b16587d28be40cef636ba603b19eb21cf90ac6141fa97a36768fe48e9024e"
+    },
+    {
+      "case_id": "0957c52abccd57b5",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "99e0ec6628dc51e2b921d5387a0ca21bfc7408ee005864ddf834d8bcf2fa32db",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f6f770f36f91173734aa4963410fa4488d1bcb72ffe4c56d1e21bd156fc4f154"
+    },
+    {
+      "case_id": "0957c52abccd57b5",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "99e0ec6628dc51e2b921d5387a0ca21bfc7408ee005864ddf834d8bcf2fa32db",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "abb5e22fac6c653f41337865088883b1de681b49cc7dff06b1ff7c8a2ca77cb7"
+    },
+    {
+      "case_id": "2dafc1a4e6a8369e",
+      "strategy": "s19_combine",
+      "rows": 4,
+      "source_csv_sha256": "b878f8e3985032d6877f58eb23f02c5806cd3c463e2b2898e51b6907801a1adb",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "be7fdaa4ebe4a48443188e7948b062afb8b19be1114e0e0a59adc3e35824a9c6"
+    },
+    {
+      "case_id": "2dafc1a4e6a8369e",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "a524efefeaf7aa7a89c288a0e712c76776ac75de34433ab50b70012f2548905e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2cc3f882c7ee32961db8dada1b95e597f9d388372193cec55e04f303dbb6e43a"
+    },
+    {
+      "case_id": "2dafc1a4e6a8369e",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "a524efefeaf7aa7a89c288a0e712c76776ac75de34433ab50b70012f2548905e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "89547f6bed847d5dff8b85b80f0faca30066230126b4136e8058d62bd6d92d85"
+    },
+    {
+      "case_id": "7e73631240e0a6d7",
+      "strategy": "s19_combine",
+      "rows": 12,
+      "source_csv_sha256": "afa10cad0dd4f1a9009fdc862baf00a7eeef098acc4bca1a4de149a8b417dce2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7f1bb2b118f6870b20f1d684d3daf9b51361dbcb8d0a9b968ecd1ad30176f694"
+    },
+    {
+      "case_id": "7e73631240e0a6d7",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "4fc6c912e901ea00cb0caa39924b738ca4d204a09267c40ea5803f6036817d44",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "632485f7ff5b89667f5826a9b86cf16438eb4eb02e5da921cf8407253cb5f1f4"
+    },
+    {
+      "case_id": "7e73631240e0a6d7",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "4fc6c912e901ea00cb0caa39924b738ca4d204a09267c40ea5803f6036817d44",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7aadafd5d83440bad9c516c0a19924f9b44d93bca935230328680a19d58a8496"
+    },
+    {
+      "case_id": "36f6455179270cb4",
+      "strategy": "s19_combine",
+      "rows": 23,
+      "source_csv_sha256": "f9872b48e2f537aa2894f5d0265eb715be23140ed82e06bfe98036286567d5d6",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2855d9645a380c8bd3c74d75698dd283ccf285eea75ba0526fa15fb311c447b3"
+    },
+    {
+      "case_id": "36f6455179270cb4",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "ed8c9bd79cc4f36e7ca5cac3e5dd1ef11856fc0f77d20845917e0a56d218c6cd",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "39a3927533d0c22cb6831123b1ae63db34628fa718132ded3ca9a87f5f6c79ee"
+    },
+    {
+      "case_id": "36f6455179270cb4",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "ed8c9bd79cc4f36e7ca5cac3e5dd1ef11856fc0f77d20845917e0a56d218c6cd",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "4b010fbfbf489fa3bbb2e5539f53c4eb0d614496bbc4d7230d485d2cea0a2c6c"
+    },
+    {
+      "case_id": "d86ce950e0e43f87",
+      "strategy": "s19_combine",
+      "rows": 29,
+      "source_csv_sha256": "c124255d8032cb53c3a847393fb05ec817b2eb1323c30cb590e5169b7a963851",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b4287ca056094322c65d5dd4d23b49908e3d979f5ef5381bd67c7ab5869d9333"
+    },
+    {
+      "case_id": "d86ce950e0e43f87",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "51aef30e55c7e7a8920d99b606d1aa55da0cb8d6d8e043676a89ef90863219b5",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7f8b69d960b50d21f769126050cac7a399782e36113beb05257e6d568c8928a1"
+    },
+    {
+      "case_id": "d86ce950e0e43f87",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "51aef30e55c7e7a8920d99b606d1aa55da0cb8d6d8e043676a89ef90863219b5",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7a583921bb7745fb6dd9bd5d99b41736e315cca394ce6ca5dd552d0a6581deb0"
+    },
+    {
+      "case_id": "fcbfc7874d32b97b",
+      "strategy": "s19_combine",
+      "rows": 26,
+      "source_csv_sha256": "90d42bf93d2ebb987aa90298ca464400ccec70a3bea91acd4b10e34d0319fc50",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e7265a286233f1a3834b9d7b4e51ff598a72050b29a95a33dc181a202693d172"
+    },
+    {
+      "case_id": "fcbfc7874d32b97b",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "3bdc3468721559422ff638c4a7d032ecac0cac5b13e674abb944717f99055352",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a4604a7bf9f89fa15f6fba4351ef8dec741ff2f6e99ac3af3e796cb36804c459"
+    },
+    {
+      "case_id": "fcbfc7874d32b97b",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "3bdc3468721559422ff638c4a7d032ecac0cac5b13e674abb944717f99055352",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "cc2cb46c8482d817427dda56502aab67a66664a6747da974ce42abc1a3071490"
+    },
+    {
+      "case_id": "5ce3eae072aa402f",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "0d41d99c09c6dbf02759c1a68df5d7cc6239db216937bdde53348cc03b066d3c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "acffe135857ab11ce0cfbb359d4ed4ff7a02512bb7aad6e8b965b1b90de66192"
+    },
+    {
+      "case_id": "5ce3eae072aa402f",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "0d41d99c09c6dbf02759c1a68df5d7cc6239db216937bdde53348cc03b066d3c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f1c2fe49a1b65dceebe42c8ec3c01349cd47150c9ab4e15863ffbc4b0ad72715"
+    },
+    {
+      "case_id": "fdeba984370e4d61",
+      "strategy": "s19_combine",
+      "rows": 12,
+      "source_csv_sha256": "67218686622035219eff1bca9ee538c6f8bfdab57ae3be08e3c69999adbcefa0",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e9f03f19bc39050ea2e549222b5f14124d7af5c3216bd1fd6563c4313ed1b171"
+    },
+    {
+      "case_id": "fdeba984370e4d61",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "60726354e8af3366aa62787063b0caf717fcde6535e5da94b0d604943b80b07e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7336e3dae6be281fa2d9b49b649f3c9a0f27ca6a54fc9c135d6b6ee9b4f9fb48"
+    },
+    {
+      "case_id": "fdeba984370e4d61",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "60726354e8af3366aa62787063b0caf717fcde6535e5da94b0d604943b80b07e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8b256d57a5186d05a3a0320805c6682380d13a2e06612d86d8755982fa1c90be"
+    },
+    {
+      "case_id": "8d7102b71d63fef8",
+      "strategy": "s19_combine",
+      "rows": 13,
+      "source_csv_sha256": "a39c64c515d6af80c4771950869b816b0c377a1f1d4865d2ec3c597d351686a0",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "acfd312d479b66c31f1efb1c7b480720989826c9cfc8bb20bddbc18a94136dc9"
+    },
+    {
+      "case_id": "8d7102b71d63fef8",
+      "strategy": "s21_v4dino",
+      "rows": 1,
+      "source_csv_sha256": "8e681e88ac259d2b80a06af784da263c0d92730b8720ac70a8a02c7a2ff90d98",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "66f3e59b7c68ad2b4f5ddfc3e2621e7097d37762364dde22f06b5ba6a87d4940"
+    },
+    {
+      "case_id": "8d7102b71d63fef8",
+      "strategy": "s23_v4dino_identity",
+      "rows": 1,
+      "source_csv_sha256": "8e681e88ac259d2b80a06af784da263c0d92730b8720ac70a8a02c7a2ff90d98",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7c3842265e2810eb4ddc15cd6f495194a2238cfe3acd5a97440e21ec3d246955"
+    },
+    {
+      "case_id": "ae5c647135c45e6b",
+      "strategy": "s19_combine",
+      "rows": 0,
+      "source_csv_sha256": "4fe9bf6f457c4fefc2ddf6bec75378528d4c18951ec74977911e3c111c73c77e",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "failed_or_empty_unverified; not exported as success"
+    },
+    {
+      "case_id": "5ce3eae072aa402f",
+      "strategy": "s19_combine",
+      "rows": 24,
+      "source_csv_sha256": "775929bd87ea727f00447f02f9328dfd4a7a576d133ecd7201cb36b4bfcdbdef",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b4b87fcefa51d5a7f5fe7eb764e9ee0aa0d1f06219797665656cc0fd54a04894"
+    },
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "b066aaff0ffac4e8e40029e869c6c78d5da8ea54e0f6841945f606522d5c83c7",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "11674ab751a4732d9d2871570111dd5bdeb4f36305c8d09bc644f4ea0aedd22a"
+    },
+    {
+      "case_id": "a19ddaae4536e5e9",
+      "strategy": "s20_v4",
+      "rows": 29,
+      "source_csv_sha256": "f7bd66ad06a75e6a7d90e50ca7df91e79ab29bf28cbe40cfe62cd9e2c804e3f1",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a1d90c921e8033ff5fd3700b79dfe428681d8a9ca869bdcbc7f82a15172d66f5"
+    },
+    {
+      "case_id": "1195460dd0d251cd",
+      "strategy": "s20_v4",
+      "rows": 288,
+      "source_csv_sha256": "1ab183d448ce531b1b000764d49c11994f3eeacfe4007788e1a493d29ce56845",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "57a46952f71b33aed143af1dd73f30066b0b48b10e22e6bdf08e31813b041022"
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s20_v4",
+      "rows": 91,
+      "source_csv_sha256": "7e654e346a820adb0aa14b4df7b3b9729427edf7c0283ff8b7751777fa80086f",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "5ff740c6d00d8a6d366bc0ae984616f772304d5ec0fe3bb735e699d78800b70e"
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s20_v4",
+      "rows": 41,
+      "source_csv_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8d4af305ef1301a598eae54bb3c657fc32e2a0a39022ba39dc4259fee55fb4f0"
+    },
+    {
+      "case_id": "ae5c647135c45e6b",
+      "strategy": "s20_v4",
+      "rows": 280,
+      "source_csv_sha256": "f6cda10a1bf339d77be8bec788a9a28d9a8fa80788efba6a0e8a5dc5bf8a094d",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a3c38aba7deeb2ca11052198776cc1ac06b49ba5f74620e5b072f0d4b5efba2c"
+    },
+    {
+      "case_id": "43cb7bed033fe027",
+      "strategy": "s20_v4",
+      "rows": 176,
+      "source_csv_sha256": "f5f2f26455c0e1908d737f1a2e1d7a0b429d3176dbed8455b840ea09c06c5d79",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 0,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f16828e0431b6a515aee963595959fd85e98639536d2cb99640c3baf965a56e1"
+    },
+    {
+      "case_id": "0135a2e4a59a4c27",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "dbd0431085f13e7329147465c90e92a3484b4666383a0f0560baac63be9a3637",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "919dcea9d9e840179b8673483e05d91c1dbf01dfaeb174ee77be9de7c3bae689"
+    },
+    {
+      "case_id": "2b6dda908cddcb08",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "6acb65b31a5398bc5e3be0807c38f445b943d08fe34ecd33729491871bfa4960",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6ef20cfcfb26fde68ae36918684bc79abd6aba8203f820b2c5a8538ad8752979"
+    },
+    {
+      "case_id": "330e27c0c410c395",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "f8c696495f77ba7a802d2b84fb9c40a35c1a0887287ff760ce1fe7dc9b08e82f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "21cad1665656373223034f52e12c6cd7b31d39ddfa469d98b50f941f48058096"
+    },
+    {
+      "case_id": "3362822de30bf870",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "293c3c318fe6a5b08f3c8b175b6851011b1ade79adb56923b237bc386381a65f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e779769f42e001c429098e1fef156f60a71877d6832574f9e2d2df8ea9b1dcca"
+    },
+    {
+      "case_id": "3c1008ece8a34100",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "55665dad1cb92b66d165be937f64b6fe42f0115e79649038c41927a2f3124c53",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ea4c736264e07591738b4143df5842659f67fcda151b4ed5a444e2c8c5286b65"
+    },
+    {
+      "case_id": "55a6c2463cafd15b",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "ae3dbbe9cb673f960f5f7a6b800dfa6782326af83496ae716204e7e193d27957",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d0da7062283e7933494908e26743041ee482c39ed50c579d56ab58e4924e6f36"
+    },
+    {
+      "case_id": "561d8f6812bc63a0",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "b3c7a6f38a03a5932f4fcf17ed7f4a7970419db0efa311a27974e92d041f5197",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "edb57658c09bfa37cb593b93a287d8c43686a8260e658029386d30c3b5487ab2"
+    },
+    {
+      "case_id": "6d2a1c3400675c3f",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "119145ff5839b52972c45f8203e6819e6448d64f12300f92d402eef326b162cc",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "08d33c8fe31a915f13525a11c82914366097db94854bfedaf3729fa5629f2c5b"
+    },
+    {
+      "case_id": "70a155a1b7ec3fc7",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "21d7b936df582fcaf2449ad6b0502544f3361d8bfcd5d97e83496f1bff7b8086",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "11d932aa30b225597671a5ca5763c0b78270146c4c292dbc0c3222d2102d6ddd"
+    },
+    {
+      "case_id": "8c4ac11040b40053",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "addacbad23ce4b0a9d86b3244cbc02077a34d1c6e74e6715f056b7607bcda247",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "92453f1aaaae056031470153dc709f82f1a203c486dbdfce391e51d2549a076b"
+    },
+    {
+      "case_id": "8c663ba4eb8e7e72",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "7b764e2408612939087f4eb9bb069a419e7cc079405da8b9180fc915b4a43b3b",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "597153b0f1cbbfff0a10a8f54ccc601985c75b3e7b9a22823a6cc5d1ebc6d92e"
+    },
+    {
+      "case_id": "90ea0d641bd30055",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "8c94e01329984e843c5177a4267a7fceca38a28ddf4aa556350f0cdd42942fdd",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "b87a3e9e605464a446c230276d14cdf2cf4ce670fe1778f07bc6882a2e622475"
+    },
+    {
+      "case_id": "a288918a872baeb5",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "7cf6a01d6d14ab93a3a8880c64c0dafae2aa473c16d8d8e11927ca1af5fd3f12",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "f6cc3a7cd9b778e8d3139df6fb92014c8470b1df818496622b91df21c5f5588c"
+    },
+    {
+      "case_id": "a4b6dfd681ceeb4a",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "d40f06f0da142bd4b05d0d3c87f4898e77b6b15b93e9bb0fb7d5e422205439f1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ec7c5686d519c03fa505edd697b857086b17078fee7ba1f7e9994b4a2f0ffb84"
+    },
+    {
+      "case_id": "b675d179c661df4c",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "c12834f35f26399500c5443613dd6828a21c4e6e82afbe9c4ddc85842c18a194",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0582fb91ce9887c492d2fff67aa18d9e9b24655f0fa0625db1a7730fbb7607f9"
+    },
+    {
+      "case_id": "b9d9e7c366357abc",
+      "strategy": "s20_v4",
+      "rows": 2,
+      "source_csv_sha256": "0444664b1a9a6e708be55176c3a01b2003989bd08432a93e7222417f443fc278",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 2,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "708841bc3ed572d139848406b81de8d437d0de86b410372fb8ca6f4d3dd52ade"
+    },
+    {
+      "case_id": "bb8c1562f90f9fea",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "5ddabb13aab874c458292958b83dd0f8eba9651981fac0405b99c425a7faa09b",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "df6c2382a7239907916019d15b47416d7b6c8d343f1362a2094d880087f1a96b"
+    },
+    {
+      "case_id": "c0142ba943917da2",
+      "strategy": "s20_v4",
+      "rows": 3,
+      "source_csv_sha256": "8523fd93092f6698f06b42a2758b83f78ca93083510638f1714a050408ba5c4f",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 3,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2e8b198fb5e2d514ecd3c07be7954129cb8387ab2fd75bc7214d5ad6ff4ab3b1"
+    },
+    {
+      "case_id": "cb2c5047736fc517",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "6e4fa60800e087dbc841ae3c6d37866f3387773f751c7af43d0c1ded47e00673",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "827b99d190724d005db820b260fd23174cd47d0c8d63590f075f04d07a60e5e3"
+    },
+    {
+      "case_id": "cbf3d306e935c070",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "d10a697ebe12f91d485b6c7f2a05f5ce8988aa154497839c40d1fbdd9eb21d07",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "05e1813e0ba0c18d171f6acd562565bb7583e3b352b198ad5eb349a9126687c0"
+    },
+    {
+      "case_id": "ce90517b4b344ef3",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "eb065a213abab9170fadab4d8f305e8cff0d0d2296533970d7b35782c23ccee1",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d4815bba22e230364547d8db4ca9a6412874ca065ce3a27d9e631535051a3953"
+    },
+    {
+      "case_id": "e365485083d73b77",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "3fa85dac823be46b2954305e2ee1bd5f00476515102a96adf4859d7169dd544c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7d0f0d89cafef689ceca28aaa8e432583ff01b20b609a321d37ce7781d65adde"
+    },
+    {
+      "case_id": "e603af2dc9d1467d",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "6d80caa463cbc5cd4b058f138eb4cdda8adc242b1bad274254e1119a45044b9c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "fbbf5d4a3149526fd9f02a3dd4fe4bfe3aca161870ac7a35e6aebb1df3d06361"
+    },
+    {
+      "case_id": "e87e218c1e33266f",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "2f85b00e45438bb7f156cdccef5cdbab12f9ce57d7cb37767b87125ea85c13ce",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "57222f2105f470155825d3f388390ffa8cfbfd5560b46f9c0647d0865ad483c5"
+    },
+    {
+      "case_id": "e8f56cfacf365848",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "9abe4a07eedb1683c428dfee8e5c99867f9c7fc606557e944742920e96ba8540",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a06b3ba0071dc7b6a7c3ae40f560b1f438be978283e96a6831e6f9bdccc3e838"
+    },
+    {
+      "case_id": "fee9bd96b02a7228",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "0f7316cb1223be1c43c37fc02e9d2efcc9d083d126ee1dab76a5d2ae44da8518",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "572340434c059fb02edc070e682f58e532a8e63a09171fd93d42f7a561bf86b6"
+    },
+    {
+      "case_id": "06bbdc9380d6513f",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "1d101b5a4f80154b8474059aaf2ffb205e793530acabbeeed99d6765da99cac3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "cc86cca2c17a50336864e4ba6235156a522a97d206a5c2eebf5c76b55a3df720"
+    },
+    {
+      "case_id": "07f9c29491bfde6f",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "f268022c2bd52ca1ce564624face93cd7e1e9a3fb8d48a4466e11669da95e9e2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e4bceb761fa81aa9c6e0a7f5ab60d4367e63389e71f0b7c474d46760028f558b"
+    },
+    {
+      "case_id": "0957c52abccd57b5",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "99e0ec6628dc51e2b921d5387a0ca21bfc7408ee005864ddf834d8bcf2fa32db",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "56236883a108458147c2e532b3e4b1247f7b899827df31f857da03bcedfaa25d"
+    },
+    {
+      "case_id": "28ead2232164d833",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "f65093e3436dea120cfa715d1480b592c9fd53afa4dc93976dc990d0f4e812f7",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a5535fca66b63e30f70cbd9b158f5a5eec65ebb9d252bd6adb4940f35ced514e"
+    },
+    {
+      "case_id": "2dafc1a4e6a8369e",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "a524efefeaf7aa7a89c288a0e712c76776ac75de34433ab50b70012f2548905e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "08de6a755dd9a7fd2fcd5870cdcd217d54d219b1f7ea980a7a3f96c3422b3d23"
+    },
+    {
+      "case_id": "33041e1240de5df9",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "0af34eec5d320cbe80e85b3ff5ab0b644a7c49394a140b09bc989d6466424ae9",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "7e7a994e9f6fe2e04a92be549842acc56f5d0fef5cf15ea6e35068932380ec6e"
+    },
+    {
+      "case_id": "36f6455179270cb4",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "ed8c9bd79cc4f36e7ca5cac3e5dd1ef11856fc0f77d20845917e0a56d218c6cd",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "89555099f5c8a2a7d83ce3ab021f0662c7f587f1bd0fce9d64933be35c18ed20"
+    },
+    {
+      "case_id": "3ebb341f61b07738",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "c3f9f9124cd76ac8ea036b67909ec15143650b6d578e52a8707a091c897dc871",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a71d32beceb0e0da4898bc87673838d99a9223c3289b55e524bb2cdd11cd1b18"
+    },
+    {
+      "case_id": "4b9fc8eda216939d",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "d008e2884150e2cb042dfd7d514e8ba89c69c54eee8f4105f2fb6d2b098d7640",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "a0ba09b2cc824ff06933da92fda523b920112ba545fe14d38682ebea0cca02d6"
+    },
+    {
+      "case_id": "5ce3eae072aa402f",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "0d41d99c09c6dbf02759c1a68df5d7cc6239db216937bdde53348cc03b066d3c",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "94a34f3a6857c393c8333d3c5c47926baf041fac8191fad2bcbf31889f08a140"
+    },
+    {
+      "case_id": "647c99cae3f0417a",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "09fbba445dc81ac92ac6d8ffb8692d88b0892148c3de63bc93f6bd41d1ae1cfc",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "6ae6ec73c5652ec4829c0225fa9d0cb895c78ac016c1adfad32244d1bd12363c"
+    },
+    {
+      "case_id": "7e73631240e0a6d7",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "4fc6c912e901ea00cb0caa39924b738ca4d204a09267c40ea5803f6036817d44",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "3a32a25b1210dbecfe69911cf075dd2bf259e491a6bbf859402faca738e186ca"
+    },
+    {
+      "case_id": "8d7102b71d63fef8",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "8e681e88ac259d2b80a06af784da263c0d92730b8720ac70a8a02c7a2ff90d98",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "80886b07954d7d0a2f8fb9dfd61a05e0ebbecbc43b8f709b8a08520f99a250c8"
+    },
+    {
+      "case_id": "9896d1dc4052fca7",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "04128b9e7371abf57270fb849d248bdaf1f4936053d4c388a0cb2424ceadf260",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "0abfdf5e65edbf7c36dec794fa2431796e384241c4c2042f2bd80e2ff6e8263e"
+    },
+    {
+      "case_id": "9b39a65b3b3d9988",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "16c11b03814a68bcb4706ad947e5da48fddf3566f67f99b40e19643852a767c3",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "e77ff289b3747f88658ce9cb3b0d4a42c85f4d9d480b98df701cb236451b6ff3"
+    },
+    {
+      "case_id": "a2c76a9ccee2a6a3",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "94829bf69cdf1102b68495a4b4750811c03b5ceb8f6d712ef769f8b50a20fb93",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "583e7eda7d3a57fbee7686aa599e27f432e355f706313a03388dd5b1b993f77a"
+    },
+    {
+      "case_id": "a3897eab5a7749d4",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "7e2dc11adf402de4136331951cfce84b1bad0589d7e422af1eef09932ce4a32f",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "98c2085498527a947075f29cdfdfadb05cbbf2b25f1b76c5a36fe4b3e8bb09a6"
+    },
+    {
+      "case_id": "a3c97671ae3147ab",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "e2b3e6cdb963a9a817a549ca338c80078f87a2744084e8046d2af93b1506d0a2",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2d75438c2b4580a705f57bd495cf169c05496662a00fc16d95154f2061dac4be"
+    },
+    {
+      "case_id": "ae7dffdcb9cac3a6",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "7311f675578eddf8bbf50b8818e344d71b2f2bb45ede272f56822ec9c098377a",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "2a99d7bbcb7e12a389653ff00fc29f3fcd74cbc02e31733adc63bb88a10f93f8"
+    },
+    {
+      "case_id": "c3f7a18df5be0a94",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "1b0919317b31ade4451d6433253c20b674dff10697d3733aa186741346d191d9",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "ba4cfb0705fe55134dd1def2b31a58d361570d076d14c4a7b78cfcd1e4c8b115"
+    },
+    {
+      "case_id": "cfc8e1a1933f260a",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "b0da453b69c1499caa1c48adb9da724ee6967bf19fc21f32658d309524152d76",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "eda54297f5cee863eee3a556bc420011ca635a1ace2ddf7e9451c87b8b50393b"
+    },
+    {
+      "case_id": "d86ce950e0e43f87",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "51aef30e55c7e7a8920d99b606d1aa55da0cb8d6d8e043676a89ef90863219b5",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "d8913a17f49f743ea0a47e3a401be182a98948e53cebf3f8f9b668ce6362bb4b"
+    },
+    {
+      "case_id": "fcbfc7874d32b97b",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "3bdc3468721559422ff638c4a7d032ecac0cac5b13e674abb944717f99055352",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8739ea9f9049bfd317e904caba7bb8c006edf42d2b67c524fce296787c8f2f21"
+    },
+    {
+      "case_id": "fdeba984370e4d61",
+      "strategy": "s20_v4",
+      "rows": 1,
+      "source_csv_sha256": "60726354e8af3366aa62787063b0caf717fcde6535e5da94b0d604943b80b07e",
+      "extent": "full_lithology_box",
+      "unknown_label_rows": 1,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "8413e8661f4c16c8e5a8efb576858a7cc4f41a1c353b318c5f299387f94afc8d"
+    },
+    {
+      "case_id": "fe41f7e83b244128",
+      "strategy": "s20_v4",
+      "rows": 2,
+      "source_csv_sha256": "779264d1a28fd42390bd9a8844324f21d16f19424afc3546a23397f12e8c9f6c",
+      "extent": "partial_lithology_box",
+      "unknown_label_rows": 2,
+      "status": "both_schemas_round_trip",
+      "export_manifest_sha256": "170d97f8f0b14c521584702667e6d40f05f5ae54d8d01cedf5fbba9072209f5f"
+    }
+  ]
+}

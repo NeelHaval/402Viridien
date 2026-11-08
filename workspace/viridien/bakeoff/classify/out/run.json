@@ -1,0 +1,1523 @@
+{
+  "device": "cuda",
+  "torch": "2.12.0+cu126",
+  "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+  "classifiers": [
+    "colour",
+    "fft_hatch",
+    "dinov2",
+    "siglip",
+    "cnn_synth",
+    "jev_choice",
+    "jev_gallery",
+    "terra",
+    "hybrid"
+  ],
+  "manifest": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\analysis\\mix_manifest.json",
+  "label_root": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out",
+  "state": {
+    "stage": "complete",
+    "completed_keys": [
+      "d582",
+      "geo",
+      "gulf_fail",
+      "gulf_ok",
+      "mc761",
+      "mc765a",
+      "mc765b",
+      "oneoff",
+      "texas",
+      "true_d582"
+    ],
+    "errors": [],
+    "consensus_summary_present": true,
+    "waited_minutes": 0.0,
+    "missing_families": []
+  },
+  "actual_calls": {
+    "jev_choice": 89,
+    "jev_gallery": 88,
+    "terra": 22
+  },
+  "usage": {
+    "jev_choice": {
+      "input_tokens": 209303,
+      "output_tokens": 14750
+    },
+    "jev_gallery": {
+      "input_tokens": 189767,
+      "output_tokens": 14744
+    },
+    "terra": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  },
+  "monetary_cost": "Unknown: no verified JEV tariff or Terra account billing; calls and reported tokens are recorded.",
+  "hybrid": {
+    "local": "dinov2",
+    "jev": "jev_choice",
+    "threshold": 0.0,
+    "tuning_source": "log06 TRUE only",
+    "local_true_top1": 0.6470588235294118,
+    "status": "ok",
+    "selection_bias": "Local choice and threshold are fitted on these 17 TRUE patches; TRUE hybrid result is resubstitution, not held-out validation.",
+    "n_true_jev_available": 17
+  },
+  "windows": [
+    {
+      "key": "true_d582",
+      "source": "TRUE",
+      "family": "D-582 1-bit grid",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\gold\\0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv",
+      "rows": null,
+      "vocabulary": [
+        "LImestone",
+        "Dolomite",
+        "Anhydrlte",
+        "Halite",
+        "Coal",
+        "Clay",
+        "Shale",
+        "Siltstone",
+        "SIllty Sandstone",
+        "Sand and Sandstone"
+      ],
+      "parser_failed": false,
+      "n_accepted": 17,
+      "n_selected": 17,
+      "excluded": [],
+      "mode": "1",
+      "legend_box": [
+        1943,
+        1513,
+        3035,
+        2655
+      ],
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_sha256": "e640faa4a4212f70ba0edc83e0bebe32b088ebc2f86b28faeb069f3b0dd0ca25"
+    },
+    {
+      "family": "D-582 1-bit grid",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "rows": [
+        4404,
+        6004
+      ],
+      "n_rock": 10,
+      "share": {
+        "blank": 0.723,
+        "hatch": 0.277
+      },
+      "key": "d582",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\d582\\consensus.csv",
+      "vocabulary": [
+        "LImestone",
+        "Dolomite",
+        "Anhydrlte",
+        "Halite",
+        "Coal",
+        "Clay",
+        "Shale",
+        "Siltstone",
+        "SIllty Sandstone",
+        "Sand and Sandstone"
+      ],
+      "parser_failed": false,
+      "n_accepted": 3,
+      "n_selected": 3,
+      "excluded": [
+        {
+          "top_depth": "25420.0",
+          "bottom_depth": "25420.2",
+          "lithology": "Siltstone",
+          "top_y": "4804",
+          "bottom_y": "4808",
+          "cluster_id": "2",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25430.2",
+          "bottom_depth": "25430.3",
+          "lithology": "Siltstone",
+          "top_y": "5008",
+          "bottom_y": "5010",
+          "cluster_id": "2",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25490.2",
+          "bottom_depth": "25490.3",
+          "lithology": "Siltstone",
+          "top_y": "6210",
+          "bottom_y": "6212",
+          "cluster_id": "2",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25490.3",
+          "bottom_depth": "25500.3",
+          "lithology": "Siltstone",
+          "top_y": "6212",
+          "bottom_y": "6412",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25500.3",
+          "bottom_depth": "25500.4",
+          "lithology": "Siltstone",
+          "top_y": "6412",
+          "bottom_y": "6414",
+          "cluster_id": "2",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25500.4",
+          "bottom_depth": "25509.3",
+          "lithology": "Shale",
+          "top_y": "6414",
+          "bottom_y": "6592",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25509.3",
+          "bottom_depth": "25520.5",
+          "lithology": "Sand and Sandstone",
+          "top_y": "6592",
+          "bottom_y": "6818",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25520.5",
+          "bottom_depth": "25530.0",
+          "lithology": "Siltstone",
+          "top_y": "6818",
+          "bottom_y": "7008",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25530.0",
+          "bottom_depth": "25540.5",
+          "lithology": "Sand and Sandstone",
+          "top_y": "7008",
+          "bottom_y": "7218",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25540.5",
+          "bottom_depth": "25550.2",
+          "lithology": "Siltstone",
+          "top_y": "7218",
+          "bottom_y": "7412",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25550.2",
+          "bottom_depth": "25550.3",
+          "lithology": "Siltstone",
+          "top_y": "7412",
+          "bottom_y": "7414",
+          "cluster_id": "2",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25550.3",
+          "bottom_depth": "25559.3",
+          "lithology": "Shale",
+          "top_y": "7414",
+          "bottom_y": "7594",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25559.3",
+          "bottom_depth": "25570.5",
+          "lithology": "Sand and Sandstone",
+          "top_y": "7594",
+          "bottom_y": "7818",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25570.5",
+          "bottom_depth": "25580.2",
+          "lithology": "Shale",
+          "top_y": "7818",
+          "bottom_y": "8013",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25580.2",
+          "bottom_depth": "25590.2",
+          "lithology": "Siltstone",
+          "top_y": "8013",
+          "bottom_y": "8213",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25590.2",
+          "bottom_depth": "25590.2",
+          "lithology": "Siltstone",
+          "top_y": "8213",
+          "bottom_y": "8214",
+          "cluster_id": "2",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25590.2",
+          "bottom_depth": "25630.2",
+          "lithology": "Shale",
+          "top_y": "8214",
+          "bottom_y": "9015",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25630.2",
+          "bottom_depth": "25640.3",
+          "lithology": "Sand and Sandstone",
+          "top_y": "9015",
+          "bottom_y": "9216",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25640.3",
+          "bottom_depth": "25640.3",
+          "lithology": "Shale",
+          "top_y": "9216",
+          "bottom_y": "9217",
+          "cluster_id": "1",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "25640.3",
+          "bottom_depth": "25690.2",
+          "lithology": "Shale",
+          "top_y": "9217",
+          "bottom_y": "10216",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25690.2",
+          "bottom_depth": "25699.9",
+          "lithology": "Siltstone",
+          "top_y": "10216",
+          "bottom_y": "10411",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "25699.9",
+          "bottom_depth": "25739.1",
+          "lithology": "Unknown",
+          "top_y": "10411",
+          "bottom_y": "11195",
+          "cluster_id": "3",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        }
+      ],
+      "mode": "1",
+      "legend_box": [
+        1943,
+        1513,
+        3035,
+        2655
+      ],
+      "column_box": [
+        2991,
+        4404,
+        3237,
+        11195
+      ],
+      "truth_sha256": "40ffea692156523dbafa7c6889f8e05f782cc1e37e2a01d91fcc8e32875e81b2"
+    },
+    {
+      "family": "Geoservices grid",
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "rows": [
+        10072,
+        11672
+      ],
+      "n_rock": 30,
+      "share": {
+        "Calcareous clay-shale | Clay Shale": 1.0
+      },
+      "key": "geo",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\geo\\consensus.csv",
+      "vocabulary": [
+        "Clay Shale",
+        "Calcareous clay-shale",
+        "Silty clay-shale",
+        "Marl",
+        "Limestone",
+        "Argillaceous limestone",
+        "Bituminous limestone",
+        "Oolic limestone",
+        "Coarsesandstone",
+        "Medium sandstone",
+        "Fine sandstone",
+        "Fine sand",
+        "Medium sand",
+        "Calcareous sandstone",
+        "Dolomitic sandstone",
+        "Silt",
+        "Siltstone",
+        "Chert",
+        "Dolomite",
+        "Fine Dolomite",
+        "Sandy Dolomite",
+        "Sandy and calcareous dolomite",
+        "Argil and sandy dolomite",
+        "Halite",
+        "Anhydrite",
+        "Gypsum",
+        "Sylvite",
+        "Coal-lignite",
+        "Basalt",
+        "Granite"
+      ],
+      "parser_failed": false,
+      "n_accepted": 1,
+      "n_selected": 1,
+      "excluded": [],
+      "mode": "RGB",
+      "legend_box": [
+        447,
+        498,
+        1213,
+        1147
+      ],
+      "column_box": [
+        1300,
+        1543,
+        1355,
+        25948
+      ],
+      "truth_sha256": "fdfb49f73c6cff14066b3e06c52898ad72effc938dbbe9dd63aa2261c6eef36d"
+    },
+    {
+      "family": "MC761 mineral/lithology",
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "rows": [
+        6759,
+        8359
+      ],
+      "n_rock": 11,
+      "share": {
+        "blank": 0.48,
+        "Sandstone": 0.335,
+        "hatch": 0.161,
+        "Siltstone": 0.022,
+        "notin": 0.002
+      },
+      "key": "mc761",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\mc761\\consensus.csv",
+      "vocabulary": [
+        "Anhydrite",
+        "Sandstone",
+        "Marlstone",
+        "Siltstone",
+        "Salt",
+        "Shale",
+        "Breccia",
+        "Conglomerate",
+        "Claystone",
+        "Limestone",
+        "Dolomite"
+      ],
+      "parser_failed": false,
+      "n_accepted": 16,
+      "n_selected": 16,
+      "excluded": [
+        {
+          "top_depth": "19259.7",
+          "bottom_depth": "19260.2",
+          "lithology": "Sandstone",
+          "top_y": "7178",
+          "bottom_y": "7179",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19370.7",
+          "bottom_depth": "19375.7",
+          "lithology": "Sandstone",
+          "top_y": "7400",
+          "bottom_y": "7410",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "19375.7",
+          "bottom_depth": "19376.2",
+          "lithology": "Sandstone",
+          "top_y": "7410",
+          "bottom_y": "7411",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19502.7",
+          "bottom_depth": "19507.7",
+          "lithology": "Shale",
+          "top_y": "7664",
+          "bottom_y": "7674",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19533.2",
+          "bottom_depth": "19538.2",
+          "lithology": "Siltstone",
+          "top_y": "7725",
+          "bottom_y": "7735",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19594.7",
+          "bottom_depth": "19599.7",
+          "lithology": "Siltstone",
+          "top_y": "7848",
+          "bottom_y": "7858",
+          "cluster_id": "2",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19599.7",
+          "bottom_depth": "19600.2",
+          "lithology": "Sandstone",
+          "top_y": "7858",
+          "bottom_y": "7859",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "19600.2",
+          "bottom_depth": "19600.7",
+          "lithology": "Sandstone",
+          "top_y": "7859",
+          "bottom_y": "7860",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19600.7",
+          "bottom_depth": "19610.7",
+          "lithology": "Shale",
+          "top_y": "7860",
+          "bottom_y": "7880",
+          "cluster_id": "1",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "19610.7",
+          "bottom_depth": "19611.2",
+          "lithology": "Shale",
+          "top_y": "7880",
+          "bottom_y": "7881",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19718.3",
+          "bottom_depth": "19718.8",
+          "lithology": "Shale",
+          "top_y": "8095",
+          "bottom_y": "8096",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19718.8",
+          "bottom_depth": "19719.3",
+          "lithology": "Sandstone",
+          "top_y": "8096",
+          "bottom_y": "8097",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "19736.8",
+          "bottom_depth": "19738.3",
+          "lithology": "Sandstone",
+          "top_y": "8132",
+          "bottom_y": "8135",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        }
+      ],
+      "mode": "P",
+      "legend_box": [
+        0,
+        1295,
+        1223,
+        1884
+      ],
+      "column_box": [
+        1290,
+        2859,
+        1369,
+        14459
+      ],
+      "truth_sha256": "d2bbd4f1ab70180ebc1e891b5a43c4a3f4614bfb736a68e7fcce373dad42368f"
+    },
+    {
+      "family": "MC765 colour grid (1 inch)",
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "rows": [
+        17042,
+        18642
+      ],
+      "n_rock": 23,
+      "share": {
+        "Clay-S | Clay-SACS": 0.921,
+        "Sand-CS | Sand-FSS": 0.079
+      },
+      "key": "mc765a",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\mc765a\\consensus.csv",
+      "vocabulary": [
+        "Clay-S",
+        "Clay-SCS",
+        "Clay-M",
+        "Clay-CCS",
+        "Clay-SACS",
+        "Sand-SIS",
+        "Sand-SS",
+        "Sand-FS",
+        "Sand-MS",
+        "Sand-CS",
+        "Sand-FSS",
+        "Sand-MSS",
+        "Limestone-AL",
+        "Limestone-SL",
+        "Limestone-L",
+        "Dolomites-AD",
+        "Dolomites-CD",
+        "Dolomites-D",
+        "Others-H",
+        "Others-A",
+        "Others-GY",
+        "Others-E",
+        "Others-CL"
+      ],
+      "parser_failed": false,
+      "n_accepted": 3,
+      "n_selected": 3,
+      "excluded": [],
+      "mode": "RGB",
+      "legend_box": [
+        79,
+        904,
+        1621,
+        1327
+      ],
+      "column_box": [
+        1134,
+        1623,
+        1171,
+        36273
+      ],
+      "truth_sha256": "ae296e27e93cd151e5c44f839123811a03dc521db6eb542fa2ca145d2b3b9044"
+    },
+    {
+      "family": "MC765 colour grid (5 inch, colour shift)",
+      "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+      "rows": [
+        78761,
+        80361
+      ],
+      "n_rock": 23,
+      "share": {
+        "Clay-S | Clay-SACS": 1.0
+      },
+      "key": "mc765b",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\mc765b\\consensus.csv",
+      "vocabulary": [
+        "Clay-S",
+        "Clay-SCS",
+        "Clay-M",
+        "Clay-CCS",
+        "Clay-SACS",
+        "Sand-SIS",
+        "Sand-SS",
+        "Sand-FS",
+        "Sand-MS",
+        "Sand-CS",
+        "Sand-FSS",
+        "Sand-MSS",
+        "Limestone-AL",
+        "Limestone-SL",
+        "Limestone-L",
+        "Dolomites-AD",
+        "Dolomites-CD",
+        "Dolomites-D",
+        "Others-H",
+        "Others-A",
+        "Others-GY",
+        "Others-E",
+        "Others-CL"
+      ],
+      "parser_failed": false,
+      "n_accepted": 1,
+      "n_selected": 1,
+      "excluded": [],
+      "mode": "RGB",
+      "legend_box": [
+        79,
+        904,
+        1621,
+        1327
+      ],
+      "column_box": [
+        1134,
+        1623,
+        1171,
+        174871
+      ],
+      "truth_sha256": "3257a4661e7e2085694b9b891e138c6337ea6cf19bc25898f6ad5218c5b8b3f2"
+    },
+    {
+      "family": "Gulf 3-panel, parsed",
+      "log": "60817410140000_mc822#10 1-1200 mud log",
+      "rows": [
+        11891,
+        13491
+      ],
+      "n_rock": 21,
+      "share": {
+        "blank": 0.631,
+        "hatch": 0.369
+      },
+      "key": "gulf_ok",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\gulf_ok\\consensus.csv",
+      "vocabulary": [
+        "Clay-shale",
+        "Slaty shale",
+        "Marl",
+        "Silty clay-shale",
+        "Sandy clay-shale",
+        "Silstone",
+        "Fine sandstone",
+        "Medium sandstone",
+        "Coarse sandstone",
+        "Conglomerate",
+        "Limestone",
+        "Chalk",
+        "Dolomitic limestone",
+        "Dolomite",
+        "Coal-lignite",
+        "Halite",
+        "Anhydrite",
+        "Gypsum",
+        "Volcanic rock",
+        "Oil_Good",
+        "Oil_Moderate"
+      ],
+      "parser_failed": false,
+      "n_accepted": 5,
+      "n_selected": 5,
+      "excluded": [
+        {
+          "top_depth": "14706.5",
+          "bottom_depth": "14734.5",
+          "lithology": "Clay-shale",
+          "top_y": "11912",
+          "bottom_y": "11968",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "14967.5",
+          "bottom_depth": "15004.5",
+          "lithology": "Sandy clay-shale",
+          "top_y": "12434",
+          "bottom_y": "12508",
+          "cluster_id": "1",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "15308.0",
+          "bottom_depth": "15318.5",
+          "lithology": "Clay-shale",
+          "top_y": "13115",
+          "bottom_y": "13136",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        }
+      ],
+      "mode": "P",
+      "legend_box": [
+        2,
+        594,
+        1532,
+        1000
+      ],
+      "column_box": [
+        953,
+        1205,
+        1000,
+        33105
+      ],
+      "truth_sha256": "4fb8efb4221eee24e741aa81d9322b08d92d1d8a189fe116f762bc8e7ee2e71c"
+    },
+    {
+      "family": "Gulf 3-panel, parser failed",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "rows": [
+        30618,
+        32218
+      ],
+      "n_rock": 0,
+      "share": {
+        "noparse": 1.0
+      },
+      "key": "gulf_fail",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\gulf_fail\\consensus.csv",
+      "vocabulary": [
+        "Siltstone",
+        "Sandstone",
+        "Halite",
+        "Shale",
+        "Clay",
+        "Limestone",
+        "Dolomite",
+        "Marl",
+        "Dolomitic limestone",
+        "Chalk",
+        "Gypsum",
+        "Anhydrite",
+        "Chert",
+        "Volcanics",
+        "Granite"
+      ],
+      "parser_failed": true,
+      "n_accepted": 3,
+      "n_selected": 3,
+      "excluded": [],
+      "mode": "P",
+      "legend_box": [
+        122,
+        898,
+        2432,
+        1505
+      ],
+      "column_box": [
+        1875,
+        2363,
+        1970,
+        71702
+      ],
+      "truth_sha256": "7be82a93bf21780eb04e326e191f40b1cccb2c5c504a67e7f21a7b2099fc268f"
+    },
+    {
+      "family": "One-off layout (Allegheny)",
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "rows": [
+        15662,
+        17262
+      ],
+      "n_rock": 30,
+      "share": {
+        "Claystone | Marl": 0.672,
+        "notin": 0.299,
+        "Marl | Silty Clay": 0.029
+      },
+      "key": "oneoff",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\oneoff\\consensus.csv",
+      "vocabulary": [
+        "Breccia",
+        "Limestone",
+        "Dolomite",
+        "Conglomerate",
+        "Mudstone",
+        "Gypsum, Anhyd.",
+        "Pebbles",
+        "Wackstone",
+        "Salt (K-Na-Mg)",
+        "Sand",
+        "Packstone",
+        "Extrusive Rocks",
+        "Sandstone",
+        "Grainstone",
+        "Intrusive Rocks",
+        "Silt",
+        "Boundstone",
+        "Methamorphics",
+        "Claystone",
+        "Chalk",
+        "Silty Clay",
+        "Arg. Limestone",
+        "Claystone Sililicif.",
+        "Sils. Limestone",
+        "Volcanics",
+        "Marl",
+        "Dol. Limestone",
+        "Coal - Lignite",
+        "Calc. Dolomite",
+        "Chert"
+      ],
+      "parser_failed": false,
+      "n_accepted": 31,
+      "n_selected": 31,
+      "excluded": [
+        {
+          "top_depth": "9804.1",
+          "bottom_depth": "9808.6",
+          "lithology": "Silt",
+          "top_y": "15833",
+          "bottom_y": "15842",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "9885.5",
+          "bottom_depth": "9886.0",
+          "lithology": "Claystone",
+          "top_y": "15996",
+          "bottom_y": "15997",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "9941.5",
+          "bottom_depth": "9942.0",
+          "lithology": "Silt",
+          "top_y": "16108",
+          "bottom_y": "16109",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10058.3",
+          "bottom_depth": "10060.3",
+          "lithology": "Silt",
+          "top_y": "16342",
+          "bottom_y": "16346",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10085.8",
+          "bottom_depth": "10092.3",
+          "lithology": "Claystone",
+          "top_y": "16397",
+          "bottom_y": "16410",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10092.3",
+          "bottom_depth": "10096.3",
+          "lithology": "Silt",
+          "top_y": "16410",
+          "bottom_y": "16418",
+          "cluster_id": "1",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10096.3",
+          "bottom_depth": "10097.8",
+          "lithology": "Claystone",
+          "top_y": "16418",
+          "bottom_y": "16421",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10161.8",
+          "bottom_depth": "10162.3",
+          "lithology": "Claystone",
+          "top_y": "16549",
+          "bottom_y": "16550",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10162.3",
+          "bottom_depth": "10162.7",
+          "lithology": "Silt",
+          "top_y": "16550",
+          "bottom_y": "16551",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10192.2",
+          "bottom_depth": "10193.2",
+          "lithology": "Claystone",
+          "top_y": "16610",
+          "bottom_y": "16612",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10193.2",
+          "bottom_depth": "10196.7",
+          "lithology": "Silt",
+          "top_y": "16612",
+          "bottom_y": "16619",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10196.7",
+          "bottom_depth": "10210.2",
+          "lithology": "Claystone",
+          "top_y": "16619",
+          "bottom_y": "16646",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10225.7",
+          "bottom_depth": "10226.2",
+          "lithology": "Claystone",
+          "top_y": "16677",
+          "bottom_y": "16678",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10226.2",
+          "bottom_depth": "10229.2",
+          "lithology": "Silt",
+          "top_y": "16678",
+          "bottom_y": "16684",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10229.2",
+          "bottom_depth": "10230.2",
+          "lithology": "Claystone",
+          "top_y": "16684",
+          "bottom_y": "16686",
+          "cluster_id": "0",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10246.2",
+          "bottom_depth": "10246.7",
+          "lithology": "Silt",
+          "top_y": "16718",
+          "bottom_y": "16719",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10281.1",
+          "bottom_depth": "10284.6",
+          "lithology": "Silt",
+          "top_y": "16788",
+          "bottom_y": "16795",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10302.6",
+          "bottom_depth": "10303.1",
+          "lithology": "Claystone",
+          "top_y": "16831",
+          "bottom_y": "16832",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10356.1",
+          "bottom_depth": "10360.6",
+          "lithology": "Silt",
+          "top_y": "16938",
+          "bottom_y": "16947",
+          "cluster_id": "1",
+          "agreed": "false",
+          "reason": "not agreed=true"
+        },
+        {
+          "top_depth": "10360.6",
+          "bottom_depth": "10361.6",
+          "lithology": "Silt",
+          "top_y": "16947",
+          "bottom_y": "16949",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        },
+        {
+          "top_depth": "10498.9",
+          "bottom_depth": "10499.4",
+          "lithology": "Silt",
+          "top_y": "17224",
+          "bottom_y": "17225",
+          "cluster_id": "1",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        }
+      ],
+      "mode": "P",
+      "legend_box": [
+        477,
+        590,
+        1060,
+        1144
+      ],
+      "column_box": [
+        1263,
+        2737,
+        1323,
+        24270
+      ],
+      "truth_sha256": "cb82a30a0bdce3fbf22fd78a44b2c23ee0286140bed2b691fa1f9a17590150d0"
+    },
+    {
+      "family": "Texas 'Rock Types' box",
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "rows": [
+        44966,
+        46566
+      ],
+      "n_rock": 23,
+      "share": {
+        "SHALE": 0.869,
+        "TUFF": 0.087,
+        "CLAYSTONE | LIMESTONE": 0.031,
+        "hatch": 0.013
+      },
+      "key": "texas",
+      "source": "CONSENSUS",
+      "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\texas\\consensus.csv",
+      "vocabulary": [
+        "DOLOMITE",
+        "SHALE GRAY",
+        "TILL",
+        "ANHYDRITE",
+        "CHERT",
+        "SHALE COLORED",
+        "BENTONITE",
+        "GYPSUM",
+        "COAL",
+        "SILTSTONE",
+        "TUFF",
+        "SALT",
+        "MARLSTONE",
+        "SANDSTONE",
+        "IGNEOUS",
+        "SIDERITEorLIMONITE",
+        "CLAYSTONE",
+        "CONGLOMERATE",
+        "METAMORPHIC",
+        "LIMESTONE",
+        "SHALE",
+        "BRECCIA",
+        "CEMENT"
+      ],
+      "parser_failed": false,
+      "n_accepted": 8,
+      "n_selected": 8,
+      "excluded": [
+        {
+          "top_depth": "13047.2",
+          "bottom_depth": "13047.3",
+          "lithology": "LIMESTONE",
+          "top_y": "46336",
+          "bottom_y": "46337",
+          "cluster_id": "0",
+          "agreed": "true",
+          "reason": "under 12 rows"
+        }
+      ],
+      "mode": "RGB",
+      "legend_box": [
+        34,
+        3299,
+        1667,
+        3644
+      ],
+      "column_box": [
+        661,
+        6861,
+        731,
+        120865
+      ],
+      "truth_sha256": "e536cf8b3f860ae9c4831b68002ddc1ab2722d3ef2bd08b51afc04e475c66b86"
+    }
+  ],
+  "created": "2026-11-07T17:47:05Z",
+  "metrics": "Patch-weighted top1/top3; missing predictions count wrong when partial coverage exists; entirely unavailable cells are NA. Macro-F1 uses classes present in truth. Local probabilities are softmax similarity scores, Terra probabilities self-reported; neither is calibrated. Ties use legend order.",
+  "timing": "Includes model loading, swatch embedding, CNN training and inference amortized over window patches; input/legend preparation excluded. API cached reruns retain original request latency/calls; calls.jsonl separately records actual requests and cache hits. Hybrid is simulated from cached standalone outputs and makes no additional requests.",
+  "memory": "Sampled process RSS including children at 30ms; GPU is peak PyTorch reserved allocator memory, includes already-resident context/models and excludes remote compute.",
+  "consensus_job": {
+    "windows": [
+      {
+        "key": "d582",
+        "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+        "family": "D-582 1-bit grid",
+        "rows": [
+          4404,
+          11195
+        ],
+        "iteration": 1,
+        "n_intervals": 25,
+        "agreed_share": 0.9979384479458107,
+        "labels": {
+          "Sand and Sandstone": 0.12678545133264615,
+          "Shale": 0.5822412015903402,
+          "Siltstone": 0.17552643204240906,
+          "Unknown": 0.11544691503460462
+        },
+        "calls_used": 31,
+        "seconds": 1.0822398999880534,
+        "calibration": {
+          "a": 0.049929633778174214,
+          "b": 25180.126231694987,
+          "n_points": 12,
+          "rmse_px": 0.6806523220219737,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "geo",
+        "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+        "family": "Geoservices grid",
+        "rows": [
+          10072,
+          11672
+        ],
+        "iteration": 1,
+        "n_intervals": 1,
+        "agreed_share": 1.0,
+        "labels": {
+          "Clay Shale": 1.0
+        },
+        "calls_used": 7,
+        "seconds": 47.084121899999445,
+        "calibration": {
+          "a": 0.4999308825603063,
+          "b": 9930.763147209775,
+          "n_points": 62,
+          "rmse_px": 0.4717232070084994,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "mc761",
+        "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+        "family": "MC761 mineral/lithology",
+        "rows": [
+          6759,
+          8359
+        ],
+        "iteration": 1,
+        "n_intervals": 29,
+        "agreed_share": 0.980625,
+        "labels": {
+          "Sandstone": 0.31625,
+          "Shale": 0.64625,
+          "Siltstone": 0.0375
+        },
+        "calls_used": 7,
+        "seconds": 76.104359200006,
+        "calibration": {
+          "a": 0.5001280145996444,
+          "b": 15669.74109775525,
+          "n_points": 50,
+          "rmse_px": 2.1885406542782704,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "mc765a",
+        "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+        "family": "MC765 colour grid (1 inch)",
+        "rows": [
+          17042,
+          18642
+        ],
+        "iteration": 1,
+        "n_intervals": 3,
+        "agreed_share": 1.0,
+        "labels": {
+          "Clay-S": 0.92125,
+          "Sand-MSS": 0.07875
+        },
+        "calls_used": 7,
+        "seconds": 48.353005100012524,
+        "calibration": {
+          "a": 0.4992900813179706,
+          "b": 2694.3794608197695,
+          "n_points": 63,
+          "rmse_px": 0.5679346146340966,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "mc765b",
+        "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+        "family": "MC765 colour grid (5 inch, colour shift)",
+        "rows": [
+          78761,
+          80361
+        ],
+        "iteration": 1,
+        "n_intervals": 1,
+        "agreed_share": 1.0,
+        "labels": {
+          "Clay-S": 1.0
+        },
+        "calls_used": 6,
+        "seconds": 43.81073070000275,
+        "calibration": {
+          "a": 0.09985675027333625,
+          "b": 3338.9076350147952,
+          "n_points": 63,
+          "rmse_px": 0.4551792732566272,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "gulf_ok",
+        "log": "60817410140000_mc822#10 1-1200 mud log",
+        "family": "Gulf 3-panel, parsed",
+        "rows": [
+          11891,
+          13491
+        ],
+        "iteration": 1,
+        "n_intervals": 8,
+        "agreed_share": 0.905625,
+        "labels": {
+          "Clay-shale": 0.649375,
+          "Sandy clay-shale": 0.04625,
+          "Silty clay-shale": 0.153125,
+          "Slaty shale": 0.15125
+        },
+        "calls_used": 7,
+        "seconds": 119.43408599999384,
+        "calibration": {
+          "a": 0.5000155351029766,
+          "b": 8750.336034061593,
+          "n_points": 55,
+          "rmse_px": 1.5458989580238753,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "gulf_fail",
+        "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+        "family": "Gulf 3-panel, parser failed",
+        "rows": [
+          30618,
+          32218
+        ],
+        "iteration": 1,
+        "n_intervals": 3,
+        "agreed_share": 1.0,
+        "labels": {
+          "Halite": 0.9925,
+          "Shale": 0.0075
+        },
+        "calls_used": 7,
+        "seconds": 52.08055869999225,
+        "calibration": {
+          "a": 0.3332895600870725,
+          "b": 3515.951472809422,
+          "n_points": 42,
+          "rmse_px": 0.5486205721040028,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "oneoff",
+        "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+        "family": "One-off layout (Allegheny)",
+        "rows": [
+          15662,
+          17262
+        ],
+        "iteration": 1,
+        "n_intervals": 52,
+        "agreed_share": 0.959375,
+        "labels": {
+          "Claystone": 0.841875,
+          "Silt": 0.158125
+        },
+        "calls_used": 7,
+        "seconds": 124.29531269999279,
+        "calibration": {
+          "a": 0.49951941747780937,
+          "b": 1895.2036456562146,
+          "n_points": 31,
+          "rmse_px": 2.170966744083813,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "texas",
+        "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+        "family": "Texas 'Rock Types' box",
+        "rows": [
+          44966,
+          46566
+        ],
+        "iteration": 1,
+        "n_intervals": 9,
+        "agreed_share": 1.0,
+        "labels": {
+          "LIMESTONE": 0.035,
+          "SHALE": 0.87625,
+          "TUFF": 0.08875
+        },
+        "calls_used": 7,
+        "seconds": 69.45741229999112,
+        "calibration": {
+          "a": 0.09999900860447548,
+          "b": 8413.690746589886,
+          "n_points": 119,
+          "rmse_px": 1.107098947304321,
+          "method": "rapidocr+ransac"
+        }
+      },
+      {
+        "key": "d582_log02",
+        "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+        "family": "D-582 1-bit grid (second log)",
+        "rows": [
+          4387,
+          6787
+        ],
+        "iteration": 1,
+        "n_intervals": 15,
+        "agreed_share": 0.9033333333333333,
+        "labels": {
+          "Sand and Sandstone": 0.2629166666666667,
+          "Shale": 0.565,
+          "Siltstone": 0.17208333333333334
+        },
+        "calls_used": 10,
+        "seconds": 76.65843329999188,
+        "calibration": {
+          "a": 0.04989041316697636,
+          "b": 23281.25524846895,
+          "n_points": 12,
+          "rmse_px": 0.8952970969114783,
+          "method": "rapidocr+ransac"
+        }
+      }
+    ],
+    "calls_used": 96,
+    "wall_seconds": 1821.1010551452637,
+    "review_bytes": 1784885,
+    "hard_call_cap": 220,
+    "edge_render_status": "failed"
+  },
+  "edge_check": {
+    "command": [
+      "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+      "--headless=new",
+      "--disable-gpu",
+      "--no-first-run",
+      "--no-default-browser-check",
+      "--disable-extensions",
+      "--disable-crash-reporter",
+      "--disable-breakpad",
+      "--user-data-dir=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final",
+      "--disk-cache-dir=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-cache",
+      "--window-size=390,844",
+      "--screenshot=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\report_edge_20261107_171617.png",
+      "file:///C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff/classify/report.html"
+    ],
+    "status": "failed",
+    "html_bytes": 224321,
+    "embedded_webp_images": 8,
+    "external_dependencies": 0,
+    "viewport": [
+      390,
+      844
+    ],
+    "screenshot": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\report_edge_20261107_171617.png",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "[1107/171617.441:ERROR:third_party\\crashpad\\crashpad\\util\\file\\filesystem_win.cc:128] GetFileAttributes C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final\\Crashpad\\attachments\\2a764a75-7e2e-43ac-b109-8868528148b6: The system cannot find the file specified. (0x2)\n[1107/171617.441:ERROR:third_party\\crashpad\\crashpad\\util\\file\\filesystem_win.cc:128] GetFileAttributes C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final\\Crashpad\\attachments\\02b6ffa0-d82e-4eaa-9681-e6e52fee5baa: The system cannot find the file specified. (0x2)\n[1107/171617.441:ERROR:third_party\\crashpad\\crashpad\\util\\file\\filesystem_win.cc:128] GetFileAttributes C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\classify\\out\\edge-profile-final\\Crashpad\\attachments\\33066214-e664-4a6a-9773-7f47e7d96b54: The system cannot find the file specified. (0x2)\n",
+    "seconds": 0.2079385000106413
+  }
+}

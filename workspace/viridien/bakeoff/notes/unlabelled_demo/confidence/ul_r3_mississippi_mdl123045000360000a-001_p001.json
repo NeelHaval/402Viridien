@@ -1,0 +1,80 @@
+[
+  {
+    "top_y": 265,
+    "bottom_y": 338,
+    "lithology": "Anhydrite",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9987301230430603,
+      "match_margin": 0.0012676715850830078,
+      "boundary_probability": 0.07406368851661682
+    }
+  },
+  {
+    "top_y": 338,
+    "bottom_y": 489,
+    "lithology": "DOLOMT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6185456534095158,
+      "match_margin": 0.1399938424691458,
+      "boundary_probability": 0.9929882287979126
+    }
+  },
+  {
+    "top_y": 489,
+    "bottom_y": 498,
+    "lithology": "ATDRT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6170124065491461,
+      "match_margin": 0.06508148677887449,
+      "boundary_probability": 0.9257832765579224
+    }
+  },
+  {
+    "top_y": 498,
+    "bottom_y": 520,
+    "lithology": "ATDRT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6170124065491461,
+      "match_margin": 0.06508148677887449,
+      "boundary_probability": 0.4008357524871826
+    }
+  },
+  {
+    "top_y": 520,
+    "bottom_y": 672,
+    "lithology": "DOLOMT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4875340525060892,
+      "match_margin": 0.2200508464127779,
+      "boundary_probability": 0.8441994786262512
+    }
+  },
+  {
+    "top_y": 672,
+    "bottom_y": 680,
+    "lithology": "DOLOMT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.4875340525060892,
+      "match_margin": 0.2200508464127779,
+      "boundary_probability": 0.8375620245933533
+    }
+  }
+]

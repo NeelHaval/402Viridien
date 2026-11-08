@@ -1,0 +1,12 @@
+{
+  "records": 4,
+  "expected": 4,
+  "rescored": 4,
+  "manifest_sha256": "756ba856b782d5a253385264d272964005b8a1cc65d3711f0f633322e39fcd1c",
+  "records_sha256": "fc146c63c97c5d9f5b15fdbf584e493f96189adda56d8a1fff2bc55aeecc2a45",
+  "input_hash_checks": 2,
+  "source_hash_checks": 0,
+  "pixel_diagnostics_rescored": 0,
+  "errors": [],
+  "summary": "4/4 records; 4 predictions and 0 pixel diagnostics re-scored; 0 errors"
+}

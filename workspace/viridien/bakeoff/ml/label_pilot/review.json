@@ -1,0 +1,168 @@
+{
+ "method": "Codex direct image review with view_image. No OCR output was used to assign rock classes.",
+ "review_date_utc": "2026-11-08",
+ "reference_agreement": null,
+ "reference_agreement_reason": "All 26 silver CSV files belong to eval logs. Their contents were not read.",
+ "confidence_scale": "High means a clear visual match to the printed swatch. Medium means the band is thin. These are review grades, not measured probabilities.",
+ "boundary_uncertainty_px": 2,
+ "depth_policy": "Leave depths empty. No depth calibration was made.",
+ "weights": "No inherited lithology weights were used. Codex pretraining data was not audited. RapidOCR read legend names only; its pretraining data was not audited.",
+ "logs": [
+  {
+   "key": "callaway",
+   "log": "Callaway 3-33 mudlog to TD.PDF",
+   "window": [
+    5096,
+    6896
+   ],
+   "blank_ranges": [
+    [
+     5096,
+     5323
+    ]
+   ],
+   "evidence": [
+    "evidence/callaway/legend_large.png",
+    "evidence/callaway/pattern_detail.png",
+    "evidence/callaway/boundary_5296.png",
+    "evidence/callaway/rows_5096_5696.png",
+    "evidence/callaway/rows_5696_6296.png",
+    "evidence/callaway/rows_6296_6896.png"
+   ],
+   "rows": [
+    {
+     "top_y": 5323,
+     "bottom_y": 6896,
+     "lithology": "SILTY SHALE",
+     "cluster_id": 0,
+     "confidence": "high",
+     "alternatives": [
+      "SHALE GRAY"
+     ],
+     "note": "Dense long and short black marks match SILTY SHALE. The lower end is the crop edge, not a drawn boundary."
+    }
+   ]
+  },
+  {
+   "key": "freeman",
+   "log": "Mudlog_MD_FREEMAN 3 24 ST",
+   "window": [
+    1833,
+    2193
+   ],
+   "blank_ranges": [
+    [
+     1833,
+     1987
+    ]
+   ],
+   "evidence": [
+    "evidence/freeman/legend_large.png",
+    "evidence/freeman/pattern_detail.png",
+    "evidence/freeman/boundary_1953.png",
+    "evidence/freeman/rows_1833_2433.png"
+   ],
+   "rows": [
+    {
+     "top_y": 1987,
+     "bottom_y": 2040,
+     "lithology": "SAND",
+     "cluster_id": 0,
+     "confidence": "high",
+     "alternatives": [
+      "SANDSTONE"
+     ],
+     "note": "Yellow fill has short marks. It has no clear sandstone dots."
+    },
+    {
+     "top_y": 2040,
+     "bottom_y": 2047,
+     "lithology": "CLAY-MUDSTONE",
+     "cluster_id": 1,
+     "confidence": "medium",
+     "alternatives": [
+      "CLAY"
+     ],
+     "note": "Thin red dashed band. Its small height limits the pattern check."
+    },
+    {
+     "top_y": 2047,
+     "bottom_y": 2070,
+     "lithology": "SAND",
+     "cluster_id": 0,
+     "confidence": "high",
+     "alternatives": [
+      "SANDSTONE"
+     ],
+     "note": "Same yellow pattern as the first sand band."
+    },
+    {
+     "top_y": 2070,
+     "bottom_y": 2077,
+     "lithology": "SILTSTONE",
+     "cluster_id": 2,
+     "confidence": "medium",
+     "alternatives": [
+      "SHALE"
+     ],
+     "note": "Thin grey dashed band. The swatch has black dashes."
+    },
+    {
+     "top_y": 2077,
+     "bottom_y": 2120,
+     "lithology": "SAND",
+     "cluster_id": 0,
+     "confidence": "high",
+     "alternatives": [
+      "SANDSTONE"
+     ],
+     "note": "Same yellow pattern as the first sand band."
+    },
+    {
+     "top_y": 2120,
+     "bottom_y": 2127,
+     "lithology": "SILTSTONE",
+     "cluster_id": 2,
+     "confidence": "medium",
+     "alternatives": [
+      "SHALE"
+     ],
+     "note": "Same thin grey dashed pattern."
+    },
+    {
+     "top_y": 2127,
+     "bottom_y": 2175,
+     "lithology": "SAND",
+     "cluster_id": 0,
+     "confidence": "high",
+     "alternatives": [
+      "SANDSTONE"
+     ],
+     "note": "Same yellow pattern as the first sand band."
+    },
+    {
+     "top_y": 2175,
+     "bottom_y": 2182,
+     "lithology": "SILTSTONE",
+     "cluster_id": 2,
+     "confidence": "medium",
+     "alternatives": [
+      "SHALE"
+     ],
+     "note": "Same thin grey dashed pattern."
+    },
+    {
+     "top_y": 2182,
+     "bottom_y": 2193,
+     "lithology": "SAND",
+     "cluster_id": 0,
+     "confidence": "high",
+     "alternatives": [
+      "SANDSTONE"
+     ],
+     "note": "Same yellow pattern. The lower end is the crop edge, not a drawn boundary."
+    }
+   ]
+  }
+ ]
+}

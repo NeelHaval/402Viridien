@@ -1,0 +1,267 @@
+{
+  "family": "D-582 1-bit grid",
+  "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+  "rows": [
+    4404,
+    6004
+  ],
+  "n_rock": 10,
+  "share": {
+    "blank": 0.723,
+    "hatch": 0.277
+  },
+  "key": "d582",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\d582\\consensus.csv",
+  "vocabulary": [
+    "LImestone",
+    "Dolomite",
+    "Anhydrlte",
+    "Halite",
+    "Coal",
+    "Clay",
+    "Shale",
+    "Siltstone",
+    "SIllty Sandstone",
+    "Sand and Sandstone"
+  ],
+  "parser_failed": false,
+  "n_accepted": 3,
+  "n_selected": 3,
+  "excluded": [
+    {
+      "top_depth": "25420.0",
+      "bottom_depth": "25420.2",
+      "lithology": "Siltstone",
+      "top_y": "4804",
+      "bottom_y": "4808",
+      "cluster_id": "2",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25430.2",
+      "bottom_depth": "25430.3",
+      "lithology": "Siltstone",
+      "top_y": "5008",
+      "bottom_y": "5010",
+      "cluster_id": "2",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25490.2",
+      "bottom_depth": "25490.3",
+      "lithology": "Siltstone",
+      "top_y": "6210",
+      "bottom_y": "6212",
+      "cluster_id": "2",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25490.3",
+      "bottom_depth": "25500.3",
+      "lithology": "Siltstone",
+      "top_y": "6212",
+      "bottom_y": "6412",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25500.3",
+      "bottom_depth": "25500.4",
+      "lithology": "Siltstone",
+      "top_y": "6412",
+      "bottom_y": "6414",
+      "cluster_id": "2",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25500.4",
+      "bottom_depth": "25509.3",
+      "lithology": "Shale",
+      "top_y": "6414",
+      "bottom_y": "6592",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25509.3",
+      "bottom_depth": "25520.5",
+      "lithology": "Sand and Sandstone",
+      "top_y": "6592",
+      "bottom_y": "6818",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25520.5",
+      "bottom_depth": "25530.0",
+      "lithology": "Siltstone",
+      "top_y": "6818",
+      "bottom_y": "7008",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25530.0",
+      "bottom_depth": "25540.5",
+      "lithology": "Sand and Sandstone",
+      "top_y": "7008",
+      "bottom_y": "7218",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25540.5",
+      "bottom_depth": "25550.2",
+      "lithology": "Siltstone",
+      "top_y": "7218",
+      "bottom_y": "7412",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25550.2",
+      "bottom_depth": "25550.3",
+      "lithology": "Siltstone",
+      "top_y": "7412",
+      "bottom_y": "7414",
+      "cluster_id": "2",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25550.3",
+      "bottom_depth": "25559.3",
+      "lithology": "Shale",
+      "top_y": "7414",
+      "bottom_y": "7594",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25559.3",
+      "bottom_depth": "25570.5",
+      "lithology": "Sand and Sandstone",
+      "top_y": "7594",
+      "bottom_y": "7818",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25570.5",
+      "bottom_depth": "25580.2",
+      "lithology": "Shale",
+      "top_y": "7818",
+      "bottom_y": "8013",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25580.2",
+      "bottom_depth": "25590.2",
+      "lithology": "Siltstone",
+      "top_y": "8013",
+      "bottom_y": "8213",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25590.2",
+      "bottom_depth": "25590.2",
+      "lithology": "Siltstone",
+      "top_y": "8213",
+      "bottom_y": "8214",
+      "cluster_id": "2",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25590.2",
+      "bottom_depth": "25630.2",
+      "lithology": "Shale",
+      "top_y": "8214",
+      "bottom_y": "9015",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25630.2",
+      "bottom_depth": "25640.3",
+      "lithology": "Sand and Sandstone",
+      "top_y": "9015",
+      "bottom_y": "9216",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25640.3",
+      "bottom_depth": "25640.3",
+      "lithology": "Shale",
+      "top_y": "9216",
+      "bottom_y": "9217",
+      "cluster_id": "1",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "25640.3",
+      "bottom_depth": "25690.2",
+      "lithology": "Shale",
+      "top_y": "9217",
+      "bottom_y": "10216",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25690.2",
+      "bottom_depth": "25699.9",
+      "lithology": "Siltstone",
+      "top_y": "10216",
+      "bottom_y": "10411",
+      "cluster_id": "2",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "25699.9",
+      "bottom_depth": "25739.1",
+      "lithology": "Unknown",
+      "top_y": "10411",
+      "bottom_y": "11195",
+      "cluster_id": "3",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    }
+  ],
+  "mode": "1",
+  "legend_box": [
+    1943,
+    1513,
+    3035,
+    2655
+  ],
+  "column_box": [
+    2991,
+    4404,
+    3237,
+    11195
+  ],
+  "truth_sha256": "40ffea692156523dbafa7c6889f8e05f782cc1e37e2a01d91fcc8e32875e81b2"
+}

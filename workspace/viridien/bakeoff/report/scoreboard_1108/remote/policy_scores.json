@@ -1,0 +1,1050 @@
+{
+  "policy_id": "clay_shale_equivalent_v1",
+  "policy_sha256": "637f91e7752d22fd9b16aaf9b2faa7c9b505a3e26a2486df486eb8b45b4a8df6",
+  "records": [
+    {
+      "case_id": "926ccf2bec1ead2b",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "a19ddaae4536e5e9",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.2787212787212787,
+        "boundary_f1": 0.4090909090909091,
+        "cluster_ari": 0.5726912747893983,
+        "depth_mae_ft": 0.4222222222221414,
+        "score": 0.11402234129506858
+      },
+      "accepted": {
+        "row_acc": 0.374958374958375,
+        "boundary_f1": 0.4090909090909091,
+        "cluster_ari": 0.5726912747893983,
+        "depth_mae_ft": 0.4222222222221414,
+        "score": 0.1533920624829716
+      }
+    },
+    {
+      "case_id": "1195460dd0d251cd",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.9226154769046191,
+        "boundary_f1": 0.880248833592535,
+        "cluster_ari": 0.8041059007606666,
+        "depth_mae_ft": 2.2095406360424583,
+        "score": 0.8121311973997114
+      },
+      "accepted": {
+        "row_acc": 0.9226154769046191,
+        "boundary_f1": 0.880248833592535,
+        "cluster_ari": 0.8041059007606666,
+        "depth_mae_ft": 2.2095406360424583,
+        "score": 0.8121311973997114
+      }
+    },
+    {
+      "case_id": "dc6d9c7cccfe7e79",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9887640449438202,
+        "cluster_ari": 0.9533346460749131,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.9887640449438202,
+        "cluster_ari": 0.9533346460749131,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "4d576b545c0ee20f",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      },
+      "accepted": {
+        "row_acc": 0.9898714452668484,
+        "boundary_f1": 0.8888888888888888,
+        "cluster_ari": 0.9472841980521748,
+        "depth_mae_ft": null,
+        "score": 0.8798857291260874
+      }
+    },
+    {
+      "case_id": "ae5c647135c45e6b",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.984630873862212,
+        "boundary_f1": 0.9701230228471002,
+        "cluster_ari": 0.992275431780746,
+        "depth_mae_ft": 3.38840579710135,
+        "score": 0.955213079739791
+      },
+      "accepted": {
+        "row_acc": 0.984630873862212,
+        "boundary_f1": 0.9701230228471002,
+        "cluster_ari": 0.992275431780746,
+        "depth_mae_ft": 3.38840579710135,
+        "score": 0.955213079739791
+      }
+    },
+    {
+      "case_id": "43cb7bed033fe027",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.9849086576648134,
+        "boundary_f1": 0.9553072625698324,
+        "cluster_ari": 0.9854337648887497,
+        "depth_mae_ft": 5.785964912280264,
+        "score": 0.9408903936351011
+      },
+      "accepted": {
+        "row_acc": 0.9849086576648134,
+        "boundary_f1": 0.9553072625698324,
+        "cluster_ari": 0.9854337648887497,
+        "depth_mae_ft": 5.785964912280264,
+        "score": 0.9408903936351011
+      }
+    },
+    {
+      "case_id": "0135a2e4a59a4c27",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "2b6dda908cddcb08",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.05555555555555555,
+        "cluster_ari": -0.00039893624213891755,
+        "depth_mae_ft": 0.20276407253004436,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.05555555555555555,
+        "cluster_ari": -0.00039893624213891755,
+        "depth_mae_ft": 0.20276407253004436,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "330e27c0c410c395",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "3362822de30bf870",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "3c1008ece8a34100",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "55a6c2463cafd15b",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "561d8f6812bc63a0",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "6d2a1c3400675c3f",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "70a155a1b7ec3fc7",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "8c4ac11040b40053",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "8c663ba4eb8e7e72",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "90ea0d641bd30055",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "a288918a872baeb5",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 1.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "a4b6dfd681ceeb4a",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "b675d179c661df4c",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "b9d9e7c366357abc",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.09523809523809523,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": 0.1970838758707032,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.09523809523809523,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": 0.1970838758707032,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "bb8c1562f90f9fea",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.005194805194805195,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": 0.10978825449979013,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.005194805194805195,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": 0.10978825449979013,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "c0142ba943917da2",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.015748031496062992,
+        "cluster_ari": -0.0005525066546379781,
+        "depth_mae_ft": 0.15100749368696142,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.015748031496062992,
+        "cluster_ari": -0.0005525066546379781,
+        "depth_mae_ft": 0.15100749368696142,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "cb2c5047736fc517",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "cbf3d306e935c070",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "ce90517b4b344ef3",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "e365485083d73b77",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "e603af2dc9d1467d",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "e87e218c1e33266f",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "e8f56cfacf365848",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "fee9bd96b02a7228",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "06bbdc9380d6513f",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "07f9c29491bfde6f",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "0957c52abccd57b5",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "28ead2232164d833",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "2dafc1a4e6a8369e",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "33041e1240de5df9",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "36f6455179270cb4",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "3ebb341f61b07738",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "4b9fc8eda216939d",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "5ce3eae072aa402f",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "647c99cae3f0417a",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "7e73631240e0a6d7",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "8d7102b71d63fef8",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "9896d1dc4052fca7",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "9b39a65b3b3d9988",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "a2c76a9ccee2a6a3",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "a3897eab5a7749d4",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "a3c97671ae3147ab",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "ae7dffdcb9cac3a6",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "c3f7a18df5be0a94",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "cfc8e1a1933f260a",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 1.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "d86ce950e0e43f87",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "fcbfc7874d32b97b",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "fdeba984370e4d61",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.0,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": null,
+        "score": 0.0
+      }
+    },
+    {
+      "case_id": "fe41f7e83b244128",
+      "strategy": "s20_v4",
+      "strict": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.015037593984962405,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": 0.24875619022941464,
+        "score": 0.0
+      },
+      "accepted": {
+        "row_acc": 0.0,
+        "boundary_f1": 0.015037593984962405,
+        "cluster_ari": 0.0,
+        "depth_mae_ft": 0.24875619022941464,
+        "score": 0.0
+      }
+    }
+  ]
+}

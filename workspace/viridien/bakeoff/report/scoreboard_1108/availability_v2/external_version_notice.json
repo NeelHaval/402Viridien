@@ -1,0 +1,42 @@
+{
+  "version": "external-version-notice-v1",
+  "scope": "Metadata-only version binding; not part of this scoreboard",
+  "manifest_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\dataset-review\\inputs\\outside-manifests\\djs_idaho_test.json",
+  "manifest_sha256": "6d00396f812babcbef8d4925bad148d117fd09c352333c5a1405ee25811db16f",
+  "receipt_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\offload\\outside-pack\\djs_v2_checks\\djs_v2_receipt.json",
+  "receipt_sha256": "8d73895164fbb054f72c63aa7d0b6b4d4e18e78963b91afb32a4c2850301f322",
+  "test_labels_or_images_opened": false,
+  "hash_only_verification": true,
+  "scored_cases": 0,
+  "pooled_with_baseline": false,
+  "owner_reported": {
+    "dataset": "external_tests_round6_v2",
+    "suite": "djs_idaho_test/BENCH_DJS_*",
+    "images_unchanged": 25,
+    "truth_rows_labels_clusters_pixels_unchanged": 314,
+    "depth_values_changed": 311,
+    "calibration_available": 20,
+    "calibration_unavailable": 5,
+    "available_but_wrong_fit": {
+      "page": "p018",
+      "error_ft": 1000,
+      "reason": "OCR 3xxx to 2xxx"
+    },
+    "within_0_33_ft": "19/20 available fits",
+    "old_v1_near_zero_not_current_accuracy": true,
+    "frozen130_rev1": "Owner reports four depth x0 fixes and same130TIFFs; units mismatch remains open; no data read or score here"
+  },
+  "availability_rule": "An available but wrong fit remains an error when scored. Do not remove it as unavailable or pool data versions.",
+  "dataset_inference_allowed": false,
+  "new_api_calls_allowed": false,
+  "manifest_parsed_or_displayed": false,
+  "root_containment_v2": {
+    "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\management\\dataset-review\\packs\\root-containment-v2.json",
+    "sha256": "852491616c54b03774c5de51ecb2a5d235edd8bba840cb6a2189e4318979e0a6",
+    "verification": "Hash only; metadata was not parsed"
+  },
+  "catalog_sha256_owner_reported": "441b01dd3d258a2d8d6c7fb2a9fe4758f1ee3b594ce054dc7a379d537640a247",
+  "latest_dev_policy_sha256_owner_reported": "250301a0dd6439cf2596e2f794ab2be80b63bc6a78f99841f27a6a168e3db64a",
+  "auto_label_allowed_owner_reported": false,
+  "depth_owner_routing_status": "Pipeline-fixes parent received p018/sol4 packet; actual harness owner acceptance is not confirmed. No repair claimed."
+}

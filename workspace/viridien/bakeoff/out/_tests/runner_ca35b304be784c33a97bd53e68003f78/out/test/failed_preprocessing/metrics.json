@@ -1,0 +1,59 @@
+{
+  "strategy": "test",
+  "name": "Test",
+  "set": "eval",
+  "gt": "gold",
+  "logs": [
+    {
+      "log": "outside",
+      "key": "outside",
+      "error": "ValueError: OCR failed",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\bakeoff\\harness\\run.py\", line 133, in main\n    t=time.perf_counter();entries=legend.parse(original);legend_seconds=time.perf_counter()-t\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1139, in __call__\n    return self._mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1143, in _mock_call\n    return self._execute_mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1198, in _execute_mock_call\n    raise effect\nValueError: OCR failed\n",
+      "score": 0.0,
+      "scored": true,
+      "row_acc": 0.0,
+      "boundary_f1": 0.0,
+      "cluster_ari": 0.0,
+      "depth_mae_ft": null,
+      "window": [
+        0,
+        10
+      ]
+    },
+    {
+      "log": "outside",
+      "key": "outside",
+      "error": "ValueError: OCR failed",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\bakeoff\\harness\\run.py\", line 133, in main\n    t=time.perf_counter();entries=legend.parse(original);legend_seconds=time.perf_counter()-t\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1139, in __call__\n    return self._mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1143, in _mock_call\n    return self._execute_mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1198, in _execute_mock_call\n    raise effect\n  File \"C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\bakeoff\\harness\\run.py\", line 133, in main\n    t=time.perf_counter();entries=legend.parse(original);legend_seconds=time.perf_counter()-t\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1139, in __call__\n    return self._mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1143, in _mock_call\n    return self._execute_mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hssil\\anaconda3\\Lib\\unittest\\mock.py\", line 1198, in _execute_mock_call\n    raise effect\nValueError: OCR failed\n",
+      "score": 0.0,
+      "scored": true,
+      "row_acc": 0.0,
+      "boundary_f1": 0.0,
+      "cluster_ari": 0.0,
+      "depth_mae_ft": null,
+      "window": [
+        20,
+        30
+      ]
+    }
+  ],
+  "mean": {
+    "score": 0.0,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "seconds": null,
+    "peak_rss_gb": null,
+    "peak_gpu_gb": null,
+    "api_calls": 0,
+    "legend_seconds": null,
+    "depth_seconds": null,
+    "crashes": 2,
+    "n_windows": 2,
+    "n_scored": 2
+  },
+  "gpu_measurement": "PyTorch peak reserved allocator bytes; RSS includes child processes",
+  "gt_dir": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\_share_clone\\viridien\\bakeoff\\out\\_tests\\runner_ca35b304be784c33a97bd53e68003f78\\truth",
+  "out_tag": "failed_preprocessing"
+}

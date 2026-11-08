@@ -1,0 +1,153 @@
+{
+  "case": {
+    "case_id": "4d576b545c0ee20f",
+    "suite": "viridien_eval",
+    "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+    "y0": 1698,
+    "y1": 6832,
+    "window": [
+      1698,
+      6832
+    ],
+    "family": "One-off layout",
+    "well": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+    "dataset": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset",
+    "image": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\images\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.tif",
+    "annotation": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_challenge\\Viridien_HTB_challenge\\hack27\\project\\dataset\\bbox_annotation\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.json",
+    "column_box": [
+      540,
+      1550,
+      600,
+      6832
+    ],
+    "truth_csv": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\out\\scoreboard_1108\\truth\\4d576b545c0ee20f.csv",
+    "truth_sources": [
+      {
+        "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\A\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.csv",
+        "sha256": "c2e4e6eb96074c354af486b4ed7afd325760e011fbd09647b0d78d27eb49a16e"
+      },
+      {
+        "path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\gt\\silver\\B\\Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft.csv",
+        "sha256": "0e3b7340c9e73fd69cb2b2c52ea9cdc90d555f6995440442de90557fb2696bd3"
+      }
+    ],
+    "truth_sha256": "b3d099e6e304c5350f7c4aae7a6606077cc3ec69504a96574c31707e3f9a645e",
+    "image_sha256": "bc81f9c99b7b97ea5ef1da4a170de3f9254e77c57f7fd097d06855cd49f90fdf",
+    "annotation_sha256": "6a9e0bc271307f4c06d02a647450d141a9c9934757aace0c696075966cde89bc",
+    "note": "Gold precedence; otherwise harness pixel consensus. Development evidence."
+  },
+  "strategy": "s20_v4",
+  "strict": {
+    "row_acc": 0.9898714452668484,
+    "boundary_f1": 0.8888888888888888,
+    "cluster_ari": 0.9472841980521748,
+    "depth_mae_ft": null,
+    "score": 0.8798857291260874
+  },
+  "owner_equivalent": {
+    "row_acc": 0.9898714452668484,
+    "boundary_f1": 0.8888888888888888,
+    "cluster_ari": 0.9472841980521748,
+    "depth_mae_ft": null,
+    "score": 0.8798857291260874
+  },
+  "seconds": 0.19162854499882087,
+  "runtime_scope": "VM CPU inference on locally decoded lossless window; not comparable to local source-page IO",
+  "calibration": {
+    "a": 0.499851227119815,
+    "b": 16730.31585794862,
+    "n_points": 18,
+    "rmse_px": 0.6827782733647713,
+    "method": "rapidocr+consensus+ft"
+  },
+  "calibration_signature": [
+    [
+      1653,
+      9356
+    ],
+    [
+      450,
+      1550,
+      540,
+      6832
+    ],
+    "0ed6dc951bd803f8ba977ff57717eef845585e8fa7c81fe0e5df99c0755585f1"
+  ],
+  "crop_rgb_sha256": "e12ffcdbc0939a5a1770b07baa2689e61e15967b3ccb94bd1648803219a6cc3c",
+  "scorer_sha256": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+  "source_sha256": {
+    "strategies/s20_v4.py": "4023a28cdd673a457fec0332c39a6932f36e3aab06d7e4e6ba64bcb3157286ff",
+    "strategies/scoreboard_v4.py": "058a9e73960d3f3ec87105925fd20313dbe0f0c8388aea46af8624ce3823400a",
+    "harness/__init__.py": "5a64fa91a21babe51ff0c8f3421fcd9ec99126be0fdb9b08948e23107f3faca1",
+    "harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+    "harness/score.py": "50ee28c914bc0dc9f9f8a255d5d200e5d9e61ff9ef1f9c7187e2bdc4e5c59de6",
+    "harness/depth.py": "a9a913ed8303a3d05a2163372f5c2da39c675b178966cf1edd79ae7db4e78f61",
+    "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+    "emil/paths.py": "3da4e5661e7bb4ba00e9224ca7a3389dab514ca537eb0cf4489f13d9eef0be3d",
+    "labeltool/__init__.py": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "labeltool/common.py": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "labeltool/jev2.py": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "strategies/scoreboard_v4_snapshot/beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+    "strategies/scoreboard_v4_snapshot/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "strategies/scoreboard_v4_snapshot/log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24",
+    "strategies/scoreboard_v4_snapshot/native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+    "strategies/scoreboard_v4_snapshot/README.md": "ef7ceb2686db86149d4a7a2d9cd726ebaa63120bc2164a0d885cd505d4605906",
+    "labeltool/legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419"
+  },
+  "prediction_sha256": "930ac6461eb353c04cf6c0d72dc35da06b51784adc1d96ce6690d47fcc0f8f2c",
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.2.6",
+    "pillow": "12.0.0",
+    "scipy": "1.14.1",
+    "scikit-image": "0.24.0",
+    "scikit-learn": "1.8.0",
+    "opencv-python-headless": "4.12.0.88",
+    "rapidocr-onnxruntime": "1.4.4"
+  },
+  "affinity": [
+    0,
+    1
+  ],
+  "peak_rss_kib": 167044,
+  "diagnostics": {
+    "native_cache_present": true,
+    "native_entries": 2,
+    "legend_entries": 2,
+    "state_counts": {
+      "ok": 41
+    },
+    "source_sha256": {
+      "legend_classify.py": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+      "beds.py": "c5540a6b7404c6651c8ae8cb2ed356fd6bb34df3ac095ae26f1ceac76d779029",
+      "native_swatches.pkl": "01427db9311d4b48bcd7452bb1d8e91a69936f0758e0889dfc232657ee3696b5",
+      "log_scale.json": "75985088446496b926bd7528e86b9c272b1c243482546ce04f5704512180ea24"
+    },
+    "inference_extent": "window"
+  },
+  "seed": 1108,
+  "host": "box-node-1a94fd244c84a1f2",
+  "contract": "hacktheburgh harness.score.score, min_layer_px=0; not interval-v2",
+  "image": "source_truth_prediction.png",
+  "boxes": {
+    "depth_column": [
+      450,
+      1550,
+      540,
+      6832
+    ],
+    "interpreted_lithology_column": [
+      540,
+      1550,
+      600,
+      6832
+    ],
+    "lithology_legend": [
+      40,
+      891,
+      1612,
+      1127
+    ]
+  },
+  "explanation": "Strict row accuracy is limited by mismatched or merged legend labels; inspect paired intervals for lost contacts. This is development evidence only."
+}

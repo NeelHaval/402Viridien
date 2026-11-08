@@ -1,0 +1,19 @@
+sandbox=workspace-write
+You are implementing ONE strategy in a lithology-extraction bake-off. Working folder:
+C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff
+Read SPEC.md first, then the harness package (harness/*.py) to learn the real API (it may differ slightly from
+SPEC.md; the code wins). Write ONLY your strategy file(s) named below plus notes/<your strategy id>.md. Do not edit
+harness/, SPEC.md, eval_set.json or other strategies, and never read anything under gt/ except through the
+runner's printed metrics.
+Develop and test with the runner:
+  python -m harness.run --strategy <id> --set synthetic        (exact labels, use freely for tuning)
+  python -m harness.run --strategy <id> --set eval --gt gold     (log06 only)
+Silver labels may appear later under gt/silver; you may run --gt silver/A or --gt silver/B to see aggregate
+scores, but do NOT tune on them per log (no log-name special cases, no per-log constants).
+Look at your own output PNGs in out/<id>/ with your image viewer and fix visible failure modes. Respect the
+runtime budget in SPEC.md. Return stage images for the pipeline view (3-6 stages that explain your method).
+When done, run the full eval once more and reply with: the metrics table it printed (per log + mean), seconds per
+window, what worked, what failed (with the log names), and ideas you did not have time for. Keep it under 400 words.
+
+YOUR STRATEGY: id=s10_hybrid, file strategies/s10_hybrid.py
+S10 hybrid (GPU + API). Boundaries from S2's segment(). Naming: DINOv2-small embeddings blended with Lab colour against tiled is_lithology swatches. Only when the top-2 scores are within a margin (tuned on synthetic) ask JEV (preferred, fast) or the vision LLM to break the tie between the 2-3 candidates. Count calls in stages['_api_calls']. JEV API: POST https://api.typesafe.ai/v1/systemone with headers Authorization: Bearer <key>, Content-Type: application/json, TypeSafe-Danger-Zone-Images: true. Body {model:'jev-latest', state:{...text..., crop:'imgA'}, assets:{imgA:{type:'image', format:'png', data_base64:...}}, questions:{...}}. A placeholder string in state refers to an asset. Images MUST be 512 to 1024 px on each side (pad, or upscale with NEAREST). Choice question: {type:'choice', instructions:'...', criteria:{<label>: <short description>, ...}} (2-40 choices, up to 8 questions per call) -> answers.<q> = {choice, confidence, probabilities}. Box question: {type:'box', instructions:'...'} -> answers.<q>.box = {top,bottom,left,right} as fractions 0-1 of the image. Key: the JEV_API_KEY line in C:/Users/hssil/Downloads/03_Programming_Projects/misc/.env; read it at runtime, never print it, never write it anywhere. Use the shared client strategies/_jev.py if it exists (S8 writes it: 20 s timeout, 2 retries, call counter); otherwise write your own minimal one inside your file. Vision LLM call: subprocess  codex exec --skip-git-repo-check -m gpt-6.1-terra -c model_reasoning_effort=low -i <png> "<prompt asking for JSON only>"  with env CODEX_HOME=C:/Users/hssil/.codex-accounts/kira181204, timeout 120 s; parse the last JSON object in stdout; cache answers on disk keyed by image hash under out/_cache/<id>/.

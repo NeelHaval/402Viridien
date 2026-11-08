@@ -1,0 +1,138 @@
+{
+  "S": [
+    [
+      0,
+      11891,
+      12464,
+      [
+        {
+          "top_y": 11891,
+          "bottom_y": 11912,
+          "label": "Silty clay-shale",
+          "confidence": 0.97
+        },
+        {
+          "top_y": 11912,
+          "bottom_y": 11968,
+          "label": "Clay-shale",
+          "confidence": 0.98
+        },
+        {
+          "top_y": 11968,
+          "bottom_y": 12210,
+          "label": "Slaty shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 12210,
+          "bottom_y": 12464,
+          "label": "Silty clay-shale",
+          "confidence": 0.98
+        }
+      ]
+    ],
+    [
+      1,
+      12404,
+      12978,
+      [
+        {
+          "top_y": 12404,
+          "bottom_y": 12508,
+          "label": "Sandy clay-shale",
+          "confidence": 0.88
+        },
+        {
+          "top_y": 12508,
+          "bottom_y": 12978,
+          "label": "Clay-shale",
+          "confidence": 0.99
+        }
+      ]
+    ],
+    [
+      2,
+      12918,
+      13491,
+      [
+        {
+          "top_y": 12918,
+          "bottom_y": 13115,
+          "label": "Clay-shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 13115,
+          "bottom_y": 13136,
+          "label": "Sandy clay-shale",
+          "confidence": 0.8
+        },
+        {
+          "top_y": 13136,
+          "bottom_y": 13491,
+          "label": "Clay-shale",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0,
+      11891,
+      12464,
+      [
+        {
+          "top_y": 11891,
+          "bottom_y": 11968,
+          "label": "Silty clay-shale",
+          "confidence": 0.83
+        },
+        {
+          "top_y": 11968,
+          "bottom_y": 12210,
+          "label": "Slaty shale",
+          "confidence": 0.99
+        },
+        {
+          "top_y": 12210,
+          "bottom_y": 12464,
+          "label": "Silty clay-shale",
+          "confidence": 0.9
+        }
+      ]
+    ],
+    [
+      1,
+      12404,
+      12978,
+      [
+        {
+          "top_y": 12404,
+          "bottom_y": 12508,
+          "label": "Silty clay-shale",
+          "confidence": 0.82
+        },
+        {
+          "top_y": 12508,
+          "bottom_y": 12978,
+          "label": "Clay-shale",
+          "confidence": 0.98
+        }
+      ]
+    ],
+    [
+      2,
+      12918,
+      13491,
+      [
+        {
+          "top_y": 12918,
+          "bottom_y": 13491,
+          "label": "Clay-shale",
+          "confidence": 0.99
+        }
+      ]
+    ]
+  ]
+}

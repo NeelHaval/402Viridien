@@ -1,0 +1,1903 @@
+[
+ {
+  "id": "adj_00",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 14,
+  "t0": 1989,
+  "t1": 2158,
+  "rows": [
+   [
+    10,
+    1981,
+    2010,
+    "Clay/Shale"
+   ],
+   [
+    11,
+    2010,
+    2025,
+    "Sandstone"
+   ],
+   [
+    12,
+    2025,
+    2041,
+    "Clay/Shale"
+   ],
+   [
+    13,
+    2041,
+    2056,
+    "Siltstone"
+   ],
+   [
+    14,
+    2059,
+    2088,
+    "Clay/Shale"
+   ],
+   [
+    15,
+    2088,
+    2152,
+    "Sandstone"
+   ],
+   [
+    16,
+    2152,
+    2168,
+    "Siltstone"
+   ]
+  ],
+  "claims": [
+   "reviewer B: other (current Clay/Shale, suggested None): A 3-source-pixel interval between beds 13 and 14 is unassigned; it appears to be Clay/Shale."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_01",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 165,
+  "t0": 9461,
+  "t1": 9625,
+  "rows": [
+   [
+    163,
+    9441,
+    9519,
+    "Clay/Shale"
+   ],
+   [
+    164,
+    9519,
+    9531,
+    "Sandstone"
+   ],
+   [
+    165,
+    9531,
+    9555,
+    "Clay/Shale"
+   ],
+   [
+    166,
+    9558,
+    9570,
+    "Sandstone"
+   ],
+   [
+    167,
+    9570,
+    9575,
+    "Clay/Shale"
+   ],
+   [
+    168,
+    9575,
+    9589,
+    "Sandstone"
+   ],
+   [
+    169,
+    9589,
+    9602,
+    "Clay/Shale"
+   ],
+   [
+    170,
+    9602,
+    9608,
+    "Sandstone"
+   ],
+   [
+    171,
+    9608,
+    9621,
+    "Clay/Shale"
+   ],
+   [
+    172,
+    9621,
+    9640,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer B: other (current Clay/Shale, suggested None): The listed intervals leave source rows 9555\u20139558 unassigned between beds 165 and 166."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_02",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 235,
+  "t0": 10717,
+  "t1": 10870,
+  "rows": [
+   [
+    231,
+    10692,
+    10729,
+    "Clay/Shale"
+   ],
+   [
+    232,
+    10729,
+    10738,
+    "Siltstone"
+   ],
+   [
+    233,
+    10738,
+    10775,
+    "Clay/Shale"
+   ],
+   [
+    234,
+    10775,
+    10787,
+    "Sandstone"
+   ],
+   [
+    235,
+    10787,
+    10800,
+    "Siltstone"
+   ],
+   [
+    236,
+    10800,
+    10806,
+    "Siltstone"
+   ],
+   [
+    237,
+    10806,
+    10813,
+    "Siltstone"
+   ],
+   [
+    238,
+    10813,
+    10888,
+    "Clay/Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Siltstone, suggested None): The lower part of the bed is Clay/Shale; the change from orange to grey has no boundary.",
+   "reviewer B: boundary (current Siltstone, suggested None): The interval includes a visible Clay/Shale band below the orange Siltstone."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_03",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 237,
+  "t0": 10736,
+  "t1": 10883,
+  "rows": [
+   [
+    232,
+    10729,
+    10738,
+    "Siltstone"
+   ],
+   [
+    233,
+    10738,
+    10775,
+    "Clay/Shale"
+   ],
+   [
+    234,
+    10775,
+    10787,
+    "Sandstone"
+   ],
+   [
+    235,
+    10787,
+    10800,
+    "Siltstone"
+   ],
+   [
+    236,
+    10800,
+    10806,
+    "Siltstone"
+   ],
+   [
+    237,
+    10806,
+    10813,
+    "Siltstone"
+   ],
+   [
+    238,
+    10813,
+    10888,
+    "Clay/Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer B: boundary (current Siltstone, suggested None): The interval contains both Clay/Shale and Siltstone symbols."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_04",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 240,
+  "t0": 10826,
+  "t1": 10971,
+  "rows": [
+   [
+    238,
+    10813,
+    10888,
+    "Clay/Shale"
+   ],
+   [
+    239,
+    10888,
+    10896,
+    "Siltstone"
+   ],
+   [
+    240,
+    10896,
+    10901,
+    "Siltstone"
+   ],
+   [
+    241,
+    10901,
+    10977,
+    "Clay/Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer B: boundary (current Siltstone, suggested None): The interval contains both Clay/Shale and Siltstone symbols."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_05",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 249,
+  "t0": 11560,
+  "t1": 11706,
+  "rows": [
+   [
+    248,
+    11543,
+    11630,
+    "Clay/Shale"
+   ],
+   [
+    249,
+    11630,
+    11636,
+    "Siltstone"
+   ],
+   [
+    250,
+    11639,
+    11684,
+    "Clay/Shale"
+   ],
+   [
+    251,
+    11684,
+    11689,
+    "Siltstone"
+   ],
+   [
+    252,
+    11689,
+    11745,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer B: boundary (current Siltstone, suggested None): The listed intervals leave a gap between beds 249 and 250."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_06",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 278,
+  "t0": 12326,
+  "t1": 12470,
+  "rows": [
+   [
+    276,
+    12308,
+    12392,
+    "Clay/Shale"
+   ],
+   [
+    277,
+    12392,
+    12396,
+    "Siltstone"
+   ],
+   [
+    278,
+    12396,
+    12400,
+    "Clay/Shale"
+   ],
+   [
+    279,
+    12400,
+    12403,
+    "Sandstone"
+   ],
+   [
+    280,
+    12403,
+    12406,
+    "Siltstone"
+   ],
+   [
+    281,
+    12406,
+    12409,
+    "Sandstone"
+   ],
+   [
+    282,
+    12409,
+    12412,
+    "Siltstone"
+   ],
+   [
+    283,
+    12412,
+    12524,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer B: wrong_rock (current Clay/Shale, suggested Sandstone): The visible band is yellow with the Sandstone pattern."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_07",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 282,
+  "t0": 12339,
+  "t1": 12482,
+  "rows": [
+   [
+    276,
+    12308,
+    12392,
+    "Clay/Shale"
+   ],
+   [
+    277,
+    12392,
+    12396,
+    "Siltstone"
+   ],
+   [
+    278,
+    12396,
+    12400,
+    "Clay/Shale"
+   ],
+   [
+    279,
+    12400,
+    12403,
+    "Sandstone"
+   ],
+   [
+    280,
+    12403,
+    12406,
+    "Siltstone"
+   ],
+   [
+    281,
+    12406,
+    12409,
+    "Sandstone"
+   ],
+   [
+    282,
+    12409,
+    12412,
+    "Siltstone"
+   ],
+   [
+    283,
+    12412,
+    12524,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer B: boundary (current Siltstone, suggested None): The thin interval contains both orange Siltstone and yellow Sandstone."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_08",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 334,
+  "t0": 13556,
+  "t1": 13708,
+  "rows": [
+   [
+    330,
+    13549,
+    13574,
+    "Sandstone"
+   ],
+   [
+    331,
+    13574,
+    13587,
+    "Siltstone"
+   ],
+   [
+    332,
+    13587,
+    13611,
+    "Sandstone"
+   ],
+   [
+    333,
+    13611,
+    13626,
+    "Clay/Shale"
+   ],
+   [
+    334,
+    13626,
+    13638,
+    "Clay/Shale"
+   ],
+   [
+    335,
+    13638,
+    13651,
+    "Sandstone"
+   ],
+   [
+    336,
+    13651,
+    13664,
+    "Siltstone"
+   ],
+   [
+    337,
+    13664,
+    13676,
+    "Sandstone"
+   ],
+   [
+    338,
+    13676,
+    13740,
+    "Clay/Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Clay/Shale, suggested None): The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "reviewer B: boundary (current Clay/Shale, suggested None): The interval contains both Clay/Shale and Sandstone symbols."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_09",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 345,
+  "t0": 14315,
+  "t1": 14465,
+  "rows": [
+   [
+    344,
+    14307,
+    14385,
+    "Clay/Shale"
+   ],
+   [
+    345,
+    14385,
+    14395,
+    "Sandstone"
+   ],
+   [
+    346,
+    14395,
+    14406,
+    "Sandstone"
+   ],
+   [
+    347,
+    14409,
+    14470,
+    "Clay/Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Sandstone, suggested None): The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "reviewer B: boundary (current Sandstone, suggested None): The interval contains both Clay/Shale and Sandstone symbols."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_10",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 346,
+  "t0": 14325,
+  "t1": 14476,
+  "rows": [
+   [
+    344,
+    14307,
+    14385,
+    "Clay/Shale"
+   ],
+   [
+    345,
+    14385,
+    14395,
+    "Sandstone"
+   ],
+   [
+    346,
+    14395,
+    14406,
+    "Sandstone"
+   ],
+   [
+    347,
+    14409,
+    14470,
+    "Clay/Shale"
+   ],
+   [
+    348,
+    14470,
+    14483,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer B: boundary (current Sandstone, suggested None): The listed intervals leave a gap between beds 346 and 347."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_11",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 350,
+  "t0": 14426,
+  "t1": 14578,
+  "rows": [
+   [
+    347,
+    14409,
+    14470,
+    "Clay/Shale"
+   ],
+   [
+    348,
+    14470,
+    14483,
+    "Sandstone"
+   ],
+   [
+    349,
+    14483,
+    14496,
+    "Clay/Shale"
+   ],
+   [
+    350,
+    14496,
+    14508,
+    "Sandstone"
+   ],
+   [
+    351,
+    14508,
+    14571,
+    "Clay/Shale"
+   ],
+   [
+    352,
+    14571,
+    14585,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Sandstone, suggested None): The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "reviewer B: boundary (current Sandstone, suggested None): The interval contains both Clay/Shale and Sandstone symbols."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_12",
+  "stem": "60811405120000_1inch tvd mudlog",
+  "bed": 352,
+  "t0": 14501,
+  "t1": 14655,
+  "rows": [
+   [
+    350,
+    14496,
+    14508,
+    "Sandstone"
+   ],
+   [
+    351,
+    14508,
+    14571,
+    "Clay/Shale"
+   ],
+   [
+    352,
+    14571,
+    14585,
+    "Sandstone"
+   ],
+   [
+    353,
+    14585,
+    14752,
+    "Clay/Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Sandstone, suggested None): The interval contains both Clay/Shale and Sandstone symbols side by side.",
+   "reviewer B: boundary (current Sandstone, suggested None): The interval contains both Clay/Shale and Sandstone symbols."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/1inch_legend.png",
+  "allowed": [
+   "Clay/Shale",
+   "Conglomerate",
+   "DST",
+   "Diatoms",
+   "Dolomite",
+   "Evaporites",
+   "Foraminifera",
+   "Fossils",
+   "Gypsum",
+   "Halite",
+   "LOT/FIT",
+   "Limestone",
+   "RFT",
+   "Sandstone",
+   "Sandy Clay/Shale",
+   "Shoe",
+   "Siltstone"
+  ]
+ },
+ {
+  "id": "adj_13",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 25,
+  "t0": 12461,
+  "t1": 12701,
+  "rows": [
+   [
+    25,
+    12241,
+    12611,
+    "Siltstone"
+   ],
+   [
+    26,
+    12611,
+    12624,
+    "Siltstone"
+   ],
+   [
+    27,
+    12624,
+    12816,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: wrong_rock (current Siltstone, suggested Shale): The visible interval is green with continuous horizontal lines, matching Shale.",
+   "reviewer A: wrong_rock (current Siltstone, suggested Shale): The visible interval is green with continuous horizontal lines, matching Shale.",
+   "reviewer B: wrong_rock (current Siltstone, suggested Shale): The visible bed is green with horizontal lines, matching shale.",
+   "reviewer B: wrong_rock (current Siltstone, suggested Shale): The visible bed is green with horizontal lines, matching shale."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_14",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 99,
+  "t0": 17479,
+  "t1": 17627,
+  "rows": [
+   [
+    98,
+    17437,
+    17549,
+    "Shale"
+   ],
+   [
+    99,
+    17549,
+    17557,
+    "Oil"
+   ],
+   [
+    100,
+    17557,
+    18600,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: not_lithology (current Oil, suggested None): Oil is a show entry, not a rock type; the thin interval does not show a clear lithology symbol.",
+   "reviewer B: not_lithology (current Oil, suggested Shale): Oil is a show symbol, not a rock; the interval lies within the shale column."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_15",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 102,
+  "t0": 18681,
+  "t1": 18921,
+  "rows": [
+   [
+    102,
+    18625,
+    19302,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Shale, suggested Siltstone): An unbounded grey dotted siltstone interval is visible around source rows 18793\u201318809.",
+   "reviewer B: boundary (current Shale, suggested Siltstone): An unbounded grey dotted siltstone interval occurs within the shale, around source rows 18793\u201318809."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_16",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 119,
+  "t0": 31761,
+  "t1": 32001,
+  "rows": [
+   [
+    119,
+    20443,
+    46534,
+    "Halite = Shale = Clay"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Halite = Shale = Clay, suggested Shale): A thin green, horizontally striped shale bed at approximately source rows 31875\u201331887 has no boundaries.",
+   "reviewer B: boundary (current Halite = Shale = Clay, suggested Shale): A thin green, horizontally lined shale bed at approximately source rows 31875\u201331887 has no boundaries."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_17",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 120,
+  "t0": 46464,
+  "t1": 46612,
+  "rows": [
+   [
+    119,
+    20443,
+    46534,
+    "Halite = Shale = Clay"
+   ],
+   [
+    120,
+    46534,
+    46542,
+    "Gas"
+   ],
+   [
+    121,
+    46542,
+    47405,
+    "Halite = Shale = Clay"
+   ]
+  ],
+  "claims": [
+   "reviewer A: not_lithology (current Gas, suggested Halite = Shale = Clay): Gas is a show symbol; the visible column remains halite across this interval.",
+   "reviewer B: not_lithology (current Gas, suggested None): Gas is a show symbol, not a rock; no gas symbol is visible in the thin white strip."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_18",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 123,
+  "t0": 48115,
+  "t1": 48267,
+  "rows": [
+   [
+    122,
+    47405,
+    48185,
+    "Shale"
+   ],
+   [
+    123,
+    48185,
+    48197,
+    "Halite = Shale = Clay"
+   ],
+   [
+    124,
+    48197,
+    48748,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Halite = Shale = Clay, suggested None): The lower red boundary is about 14 image pixels above the change from pink halite to green shale."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_19",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 171,
+  "t0": 50491,
+  "t1": 50643,
+  "rows": [
+   [
+    167,
+    50488,
+    50501,
+    "Limestone"
+   ],
+   [
+    168,
+    50501,
+    50513,
+    "Siltstone"
+   ],
+   [
+    169,
+    50513,
+    50548,
+    "Shale"
+   ],
+   [
+    170,
+    50548,
+    50561,
+    "Limestone"
+   ],
+   [
+    171,
+    50561,
+    50573,
+    "Sandstone"
+   ],
+   [
+    172,
+    50573,
+    50584,
+    "Shale"
+   ],
+   [
+    173,
+    50584,
+    50597,
+    "Sandstone"
+   ],
+   [
+    174,
+    50597,
+    50657,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Sandstone, suggested None): The lower boundary is about 14 image px above the sandstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_20",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 175,
+  "t0": 50587,
+  "t1": 50739,
+  "rows": [
+   [
+    173,
+    50584,
+    50597,
+    "Sandstone"
+   ],
+   [
+    174,
+    50597,
+    50657,
+    "Shale"
+   ],
+   [
+    175,
+    50657,
+    50669,
+    "Sandstone"
+   ],
+   [
+    176,
+    50669,
+    50704,
+    "Shale"
+   ],
+   [
+    177,
+    50704,
+    50717,
+    "Limestone"
+   ],
+   [
+    178,
+    50717,
+    50728,
+    "Shale"
+   ],
+   [
+    179,
+    50728,
+    50754,
+    "Siltstone"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Sandstone, suggested None): The lower boundary is about 14 image px above the sandstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_21",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 181,
+  "t0": 50730,
+  "t1": 50883,
+  "rows": [
+   [
+    179,
+    50728,
+    50754,
+    "Siltstone"
+   ],
+   [
+    180,
+    50754,
+    50800,
+    "Shale"
+   ],
+   [
+    181,
+    50800,
+    50813,
+    "Siltstone"
+   ],
+   [
+    182,
+    50813,
+    50872,
+    "Shale"
+   ],
+   [
+    183,
+    50872,
+    50885,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Siltstone, suggested None): The lower boundary is about 14 image px above the siltstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_22",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 185,
+  "t0": 50826,
+  "t1": 50979,
+  "rows": [
+   [
+    182,
+    50813,
+    50872,
+    "Shale"
+   ],
+   [
+    183,
+    50872,
+    50885,
+    "Sandstone"
+   ],
+   [
+    184,
+    50885,
+    50896,
+    "Shale"
+   ],
+   [
+    185,
+    50896,
+    50909,
+    "Limestone"
+   ],
+   [
+    186,
+    50909,
+    50959,
+    "Shale"
+   ],
+   [
+    187,
+    50959,
+    50969,
+    "Limestone"
+   ],
+   [
+    188,
+    50969,
+    51113,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Limestone, suggested None): The lower boundary is about 14 image px above the limestone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_23",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 199,
+  "t0": 51282,
+  "t1": 51435,
+  "rows": [
+   [
+    195,
+    51280,
+    51299,
+    "Sandstone"
+   ],
+   [
+    196,
+    51299,
+    51305,
+    "Shale"
+   ],
+   [
+    197,
+    51305,
+    51317,
+    "Siltstone"
+   ],
+   [
+    198,
+    51317,
+    51352,
+    "Shale"
+   ],
+   [
+    199,
+    51352,
+    51365,
+    "Sandstone"
+   ],
+   [
+    200,
+    51365,
+    51449,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Sandstone, suggested None): The lower boundary is about 14 image px above the sandstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_24",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 201,
+  "t0": 51379,
+  "t1": 51531,
+  "rows": [
+   [
+    200,
+    51365,
+    51449,
+    "Shale"
+   ],
+   [
+    201,
+    51449,
+    51461,
+    "Siltstone"
+   ],
+   [
+    202,
+    51461,
+    51556,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Siltstone, suggested None): The lower boundary is about 14 image px above the siltstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_25",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 213,
+  "t0": 51786,
+  "t1": 51939,
+  "rows": [
+   [
+    212,
+    51774,
+    51856,
+    "Shale"
+   ],
+   [
+    213,
+    51856,
+    51869,
+    "Siltstone"
+   ],
+   [
+    214,
+    51869,
+    51940,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Siltstone, suggested None): The lower boundary is about 14 image px above the siltstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_26",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 219,
+  "t0": 52146,
+  "t1": 52300,
+  "rows": [
+   [
+    218,
+    51977,
+    52216,
+    "Shale"
+   ],
+   [
+    219,
+    52216,
+    52230,
+    "Siltstone"
+   ],
+   [
+    220,
+    52230,
+    52287,
+    "Shale"
+   ],
+   [
+    221,
+    52287,
+    52302,
+    "Sandstone"
+   ]
+  ],
+  "claims": [
+   "reviewer A: boundary (current Siltstone, suggested None): The lower boundary is about 12 image px above the siltstone-to-shale change."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_27",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 259,
+  "t0": 53856,
+  "t1": 54002,
+  "rows": [
+   [
+    256,
+    53849,
+    53886,
+    "Sandstone"
+   ],
+   [
+    257,
+    53886,
+    53898,
+    "Shale"
+   ],
+   [
+    258,
+    53898,
+    53922,
+    "Sandstone"
+   ],
+   [
+    259,
+    53926,
+    53932,
+    "Shale"
+   ],
+   [
+    260,
+    53936,
+    54001,
+    "Sandstone"
+   ],
+   [
+    261,
+    54001,
+    54018,
+    "Shale"
+   ]
+  ],
+  "claims": [
+   "reviewer A: other (current Shale, suggested None): The listed intervals leave gaps on both sides of this visible shale bed."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ },
+ {
+  "id": "adj_28",
+  "stem": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "bed": 286,
+  "t0": 58480,
+  "t1": 58621,
+  "rows": [
+   [
+    283,
+    58170,
+    58529,
+    "Shale"
+   ],
+   [
+    284,
+    58529,
+    58543,
+    "Siltstone"
+   ],
+   [
+    285,
+    58543,
+    58770,
+    "Shale"
+   ],
+   [
+    286,
+    58550,
+    58551,
+    "UNASSIGNED"
+   ]
+  ],
+  "claims": [
+   "reviewer A: other (current UNASSIGNED, suggested Shale): This interval overlaps bed 285 within continuous shale; no separate symbol change is visible.",
+   "reviewer B: other (current UNASSIGNED, suggested Shale): This interval overlaps bed 285 and lies within continuous shale; no separate symbol is visible."
+  ],
+  "legend": "C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/neel_dataset/qa_chunks/shenzi_legend.png",
+  "allowed": [
+   "Anhydrite",
+   "Chalk |",
+   "Chert",
+   "Clay",
+   "Deviation survey",
+   "Dolomite",
+   "Dolomitic limestone",
+   "Gas",
+   "Granite |",
+   "Gypsum",
+   "Halite = Shale = Clay",
+   "Limestone",
+   "Marl",
+   "Oil",
+   "Sandstone",
+   "Shale",
+   "Shoe",
+   "Siltstone",
+   "Test |",
+   "Volcanics"
+  ]
+ }
+]

@@ -1,0 +1,1239 @@
+{
+  "scores_sha256": "1f73c575f470ebee543c02801aa8f4beac8559b7e76f3295bffca31b233e0bfb",
+  "qa_gold": [
+    {
+      "suite": "qa_gold_only",
+      "family": "all",
+      "strategy": "s19_combine",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.21279797434054834,
+          "window_mean": 0.21279797434054834,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 1,
+            "supervised_failure_windows": 1,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.3458949319027303,
+          "window_mean": 0.3458949319027303,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 1,
+            "supervised_failure_windows": 1,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.2893000926153439,
+          "window_mean": 0.2893000926153439,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 1,
+            "supervised_failure_windows": 1,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.28697593442584163,
+          "window_mean": 0.28697593442584163,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 1,
+            "supervised_failure_windows": 1,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 1.379510309278177,
+          "window_mean": 1.379510309278177,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 2,
+            "excluded_windows": 1,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 2,
+            "excluded_logs": 1,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 1,
+            "supervised_failure_windows": 1,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {
+              "prediction-depth-unavailable": 1
+            },
+            "reason_logs": {
+              "prediction-depth-unavailable": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "suite": "qa_gold_only",
+      "family": "all",
+      "strategy": "s20_v4",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.6402454465408246,
+          "window_mean": 0.6402454465408246,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.7607349085750688,
+          "window_mean": 0.7607349085750688,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.7531542551768481,
+          "window_mean": 0.7531542551768481,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.7896908691102703,
+          "window_mean": 0.7896908691102703,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 2.006722885121983,
+          "window_mean": 2.006722885121983,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        }
+      }
+    },
+    {
+      "suite": "qa_gold_only",
+      "family": "all",
+      "strategy": "s21_v4dino",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.7071954608039533,
+          "window_mean": 0.7071954608039533,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.8961437296564915,
+          "window_mean": 0.8961437296564915,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.7687598140291114,
+          "window_mean": 0.7687598140291114,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.8511658001933288,
+          "window_mean": 0.8511658001933288,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 2.047015248432942,
+          "window_mean": 2.047015248432942,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        }
+      }
+    },
+    {
+      "suite": "qa_gold_only",
+      "family": "all",
+      "strategy": "s23_v4dino_identity",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.6838379753775023,
+          "window_mean": 0.6838379753775023,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.8912597247724866,
+          "window_mean": 0.8912597247724866,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.7411736071325598,
+          "window_mean": 0.7411736071325598,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.8350294950319275,
+          "window_mean": 0.8350294950319275,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 2.0660628674804857,
+          "window_mean": 2.0660628674804857,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        }
+      }
+    },
+    {
+      "suite": "qa_gold_only",
+      "family": "all",
+      "strategy": "s30_jev_sourcecards",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.6803862300368699,
+          "window_mean": 0.6803862300368699,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.8207394432786476,
+          "window_mean": 0.8207394432786476,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.7806025149645981,
+          "window_mean": 0.7806025149645981,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.7120924764120838,
+          "window_mean": 0.7120924764120838,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 2.0541804886746893,
+          "window_mean": 2.0541804886746893,
+          "denominator": {
+            "total_windows": 3,
+            "available_windows": 3,
+            "excluded_windows": 0,
+            "eligible_windows": 3,
+            "total_logs": 3,
+            "available_logs": 3,
+            "excluded_logs": 0,
+            "eligible_logs": 3,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        }
+      }
+    }
+  ],
+  "DEV": [
+    {
+      "suite": "ext_dev",
+      "family": "all",
+      "strategy": "s19_combine",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.5401513041168431,
+          "window_mean": 0.526270245812331,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.9452410941179032,
+          "window_mean": 0.943732477081625,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.5794479485948764,
+          "window_mean": 0.5647560760765397,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.8079854566186909,
+          "window_mean": 0.8116176208166936,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 0.2560967981766154,
+          "window_mean": 0.2596446495511228,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 11,
+            "excluded_windows": 1,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 10,
+            "excluded_logs": 1,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {
+              "prediction-depth-unavailable": 1
+            },
+            "reason_logs": {
+              "prediction-depth-unavailable": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "suite": "ext_dev",
+      "family": "all",
+      "strategy": "s20_v4",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.0,
+          "window_mean": 0.0,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.0,
+          "window_mean": 0.0,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.00505050505050505,
+          "window_mean": 0.004629629629629629,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.09087282397798736,
+          "window_mean": 0.08330008864648843,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 0.20276407253004436,
+          "window_mean": 0.20276407253004436,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 1,
+            "excluded_windows": 11,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 1,
+            "excluded_logs": 10,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {
+              "prediction-depth-unavailable": 11
+            },
+            "reason_logs": {
+              "prediction-depth-unavailable": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "suite": "ext_dev",
+      "family": "all",
+      "strategy": "s21_v4dino",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.0,
+          "window_mean": 0.0,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.0,
+          "window_mean": 0.0,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.00505050505050505,
+          "window_mean": 0.004629629629629629,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.09087282397798736,
+          "window_mean": 0.08330008864648843,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 0.20276407253004436,
+          "window_mean": 0.20276407253004436,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 1,
+            "excluded_windows": 11,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 1,
+            "excluded_logs": 10,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {
+              "prediction-depth-unavailable": 11
+            },
+            "reason_logs": {
+              "prediction-depth-unavailable": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "suite": "ext_dev",
+      "family": "all",
+      "strategy": "s23_v4dino_identity",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.0,
+          "window_mean": 0.0,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.0,
+          "window_mean": 0.0,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.00505050505050505,
+          "window_mean": 0.004629629629629629,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.09087282397798736,
+          "window_mean": 0.08330008864648843,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 0.20276407253004436,
+          "window_mean": 0.20276407253004436,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 1,
+            "excluded_windows": 11,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 1,
+            "excluded_logs": 10,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {
+              "prediction-depth-unavailable": 11
+            },
+            "reason_logs": {
+              "prediction-depth-unavailable": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "suite": "ext_dev",
+      "family": "all",
+      "strategy": "s30_jev_sourcecards",
+      "view": "primary",
+      "series": "qualified_development",
+      "policy": "owner_equivalent",
+      "metrics": {
+        "score": {
+          "mean": 0.26107910524374606,
+          "window_mean": 0.24443239367539812,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "row_acc": {
+          "mean": 0.3860034416630878,
+          "window_mean": 0.3722431830637542,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "boundary_f1": {
+          "mean": 0.5141503741467539,
+          "window_mean": 0.4915281899149746,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "cluster_ari": {
+          "mean": 0.857259539981283,
+          "window_mean": 0.8377056247296534,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 12,
+            "excluded_windows": 0,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 11,
+            "excluded_logs": 0,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {},
+            "reason_logs": {}
+          }
+        },
+        "depth_mae_ft": {
+          "mean": 0.21657212957769006,
+          "window_mean": 0.2157917193938031,
+          "denominator": {
+            "total_windows": 12,
+            "available_windows": 10,
+            "excluded_windows": 2,
+            "eligible_windows": 12,
+            "total_logs": 11,
+            "available_logs": 9,
+            "excluded_logs": 2,
+            "eligible_logs": 11,
+            "failed_prediction_windows": 0,
+            "supervised_failure_windows": 0,
+            "zero_supervision_windows": 0,
+            "missing_truth_windows": 0,
+            "legend_invalid_windows": 0,
+            "no_depth_truth_windows": 0,
+            "reason_windows": {
+              "prediction-depth-unavailable": 2
+            },
+            "reason_logs": {
+              "prediction-depth-unavailable": 2
+            }
+          }
+        }
+      }
+    }
+  ],
+  "paired_gap": {
+    "n_logs": 3,
+    "mean": 0.026809230767083376,
+    "low": -0.013624529723001322,
+    "high": 0.101678457116123,
+    "draws": 10000,
+    "seed": 1108
+  }
+}

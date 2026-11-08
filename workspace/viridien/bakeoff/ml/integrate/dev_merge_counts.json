@@ -1,0 +1,2667 @@
+{
+ "s14": [
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    2705,
+    8705
+   ],
+   "proposed": 8,
+   "retained": 6
+  },
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    8705,
+    10200
+   ],
+   "proposed": 8,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p135",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p136",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p137",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p138",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p139",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p140",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p141",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p142",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p143",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 10,
+   "retained": 10
+  },
+  {
+   "log": "ext_utah_4304150011_p144",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_utah_4304150011_p145",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p146",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p147",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p148",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 2
+  },
+  {
+   "log": "ext_utah_4304150011_p149",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p150",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p151",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 8,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p152",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p153",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p154",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 1
+  },
+  {
+   "log": "ext_utah_4304150011_p155",
+   "window": [
+    355,
+    790
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    2510,
+    8510
+   ],
+   "proposed": 9,
+   "retained": 1
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    9130,
+    15130
+   ],
+   "proposed": 17,
+   "retained": 11
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    15750,
+    21750
+   ],
+   "proposed": 28,
+   "retained": 19
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    284,
+    6284
+   ],
+   "proposed": 29,
+   "retained": 19
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    7726,
+    13726
+   ],
+   "proposed": 25,
+   "retained": 23
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    15169,
+    21169
+   ],
+   "proposed": 14,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p015",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p016",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 13,
+   "retained": 12
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p017",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 7,
+   "retained": 4
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p018",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 10,
+   "retained": 4
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p019",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 12,
+   "retained": 8
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p020",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p021",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 14,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p022",
+   "window": [
+    177,
+    1768
+   ],
+   "proposed": 3,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p071",
+   "window": [
+    1314,
+    1880
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p073",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p074",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 4,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p075",
+   "window": [
+    232,
+    1877
+   ],
+   "proposed": 9,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p076",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p077",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p078",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p079",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p080",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_nl_storm_p071",
+   "window": [
+    1191,
+    1825
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p072",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p073",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p074",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p075",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_storm_p076",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p077",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 5,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_storm_p078",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_storm_p079",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 6,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p080",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_nl_storm_p081",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 11,
+   "retained": 10
+  },
+  {
+   "log": "ext_nl_storm_p082",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_nl_storm_p083",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 8,
+   "retained": 7
+  }
+ ],
+ "s15": [
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    2705,
+    8705
+   ],
+   "proposed": 47,
+   "retained": 21
+  },
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    8705,
+    10200
+   ],
+   "proposed": 19,
+   "retained": 14
+  },
+  {
+   "log": "ext_utah_4304150011_p135",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 8,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p136",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 14,
+   "retained": 8
+  },
+  {
+   "log": "ext_utah_4304150011_p137",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 21,
+   "retained": 14
+  },
+  {
+   "log": "ext_utah_4304150011_p138",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 9,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p139",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 9,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p140",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 17,
+   "retained": 11
+  },
+  {
+   "log": "ext_utah_4304150011_p141",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 22,
+   "retained": 14
+  },
+  {
+   "log": "ext_utah_4304150011_p142",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p143",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 17,
+   "retained": 8
+  },
+  {
+   "log": "ext_utah_4304150011_p144",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p145",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 13,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p146",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_utah_4304150011_p147",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 20,
+   "retained": 13
+  },
+  {
+   "log": "ext_utah_4304150011_p148",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 2
+  },
+  {
+   "log": "ext_utah_4304150011_p149",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 11,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p150",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 22,
+   "retained": 10
+  },
+  {
+   "log": "ext_utah_4304150011_p151",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 13,
+   "retained": 9
+  },
+  {
+   "log": "ext_utah_4304150011_p152",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 19,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p153",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 13,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p154",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p155",
+   "window": [
+    355,
+    790
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    2510,
+    8510
+   ],
+   "proposed": 22,
+   "retained": 9
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    9130,
+    15130
+   ],
+   "proposed": 51,
+   "retained": 39
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    15750,
+    21750
+   ],
+   "proposed": 48,
+   "retained": 37
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    284,
+    6284
+   ],
+   "proposed": 74,
+   "retained": 68
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    7726,
+    13726
+   ],
+   "proposed": 65,
+   "retained": 63
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    15169,
+    21169
+   ],
+   "proposed": 54,
+   "retained": 48
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p015",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 3,
+   "retained": 2
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p016",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 33,
+   "retained": 27
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p017",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 21,
+   "retained": 9
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p018",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 30,
+   "retained": 8
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p019",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 34,
+   "retained": 19
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p020",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 13,
+   "retained": 11
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p021",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 28,
+   "retained": 15
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p022",
+   "window": [
+    177,
+    1768
+   ],
+   "proposed": 25,
+   "retained": 10
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p071",
+   "window": [
+    1314,
+    1880
+   ],
+   "proposed": 17,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p073",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p074",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 7,
+   "retained": 5
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p075",
+   "window": [
+    232,
+    1877
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p076",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 7,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p077",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p078",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 5,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p079",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 12,
+   "retained": 11
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p080",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 23,
+   "retained": 22
+  },
+  {
+   "log": "ext_nl_storm_p071",
+   "window": [
+    1191,
+    1825
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p072",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 26,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p073",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 33,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p074",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 31,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p075",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 29,
+   "retained": 8
+  },
+  {
+   "log": "ext_nl_storm_p076",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 43,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p077",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 44,
+   "retained": 13
+  },
+  {
+   "log": "ext_nl_storm_p078",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 38,
+   "retained": 21
+  },
+  {
+   "log": "ext_nl_storm_p079",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 40,
+   "retained": 18
+  },
+  {
+   "log": "ext_nl_storm_p080",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 27,
+   "retained": 23
+  },
+  {
+   "log": "ext_nl_storm_p081",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 30,
+   "retained": 23
+  },
+  {
+   "log": "ext_nl_storm_p082",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 33,
+   "retained": 12
+  },
+  {
+   "log": "ext_nl_storm_p083",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 29,
+   "retained": 13
+  }
+ ],
+ "s14_rule_tolerance8": [
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    2705,
+    8705
+   ],
+   "proposed": 8,
+   "retained": 6
+  },
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    8705,
+    10200
+   ],
+   "proposed": 8,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p135",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p136",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p137",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p138",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p139",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p140",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p141",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p142",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p143",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 10,
+   "retained": 10
+  },
+  {
+   "log": "ext_utah_4304150011_p144",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_utah_4304150011_p145",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p146",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p147",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p148",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 2
+  },
+  {
+   "log": "ext_utah_4304150011_p149",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p150",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p151",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 8,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p152",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p153",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p154",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 1
+  },
+  {
+   "log": "ext_utah_4304150011_p155",
+   "window": [
+    355,
+    790
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    2510,
+    8510
+   ],
+   "proposed": 9,
+   "retained": 1
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    9130,
+    15130
+   ],
+   "proposed": 17,
+   "retained": 11
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    15750,
+    21750
+   ],
+   "proposed": 28,
+   "retained": 19
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    284,
+    6284
+   ],
+   "proposed": 29,
+   "retained": 19
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    7726,
+    13726
+   ],
+   "proposed": 25,
+   "retained": 23
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    15169,
+    21169
+   ],
+   "proposed": 14,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p015",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p016",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 13,
+   "retained": 12
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p017",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 7,
+   "retained": 4
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p018",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 10,
+   "retained": 4
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p019",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 12,
+   "retained": 8
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p020",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p021",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 14,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p022",
+   "window": [
+    177,
+    1768
+   ],
+   "proposed": 3,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p071",
+   "window": [
+    1314,
+    1880
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p073",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p074",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 4,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p075",
+   "window": [
+    232,
+    1877
+   ],
+   "proposed": 9,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p076",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p077",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p078",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p079",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p080",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_nl_storm_p071",
+   "window": [
+    1191,
+    1825
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p072",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p073",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p074",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p075",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_storm_p076",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p077",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 5,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_storm_p078",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_storm_p079",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 6,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p080",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_nl_storm_p081",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 11,
+   "retained": 10
+  },
+  {
+   "log": "ext_nl_storm_p082",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_nl_storm_p083",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 8,
+   "retained": 7
+  }
+ ],
+ "s14_keep_all": [
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    2705,
+    8705
+   ],
+   "proposed": 8,
+   "retained": 7
+  },
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    8705,
+    10200
+   ],
+   "proposed": 8,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p135",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p136",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p137",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p138",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p139",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p140",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p141",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p142",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p143",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 10,
+   "retained": 10
+  },
+  {
+   "log": "ext_utah_4304150011_p144",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_utah_4304150011_p145",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p146",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_utah_4304150011_p147",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p148",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p149",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p150",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p151",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 8,
+   "retained": 8
+  },
+  {
+   "log": "ext_utah_4304150011_p152",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p153",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p154",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p155",
+   "window": [
+    355,
+    790
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    2510,
+    8510
+   ],
+   "proposed": 9,
+   "retained": 8
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    9130,
+    15130
+   ],
+   "proposed": 17,
+   "retained": 16
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    15750,
+    21750
+   ],
+   "proposed": 28,
+   "retained": 28
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    284,
+    6284
+   ],
+   "proposed": 29,
+   "retained": 29
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    7726,
+    13726
+   ],
+   "proposed": 25,
+   "retained": 25
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    15169,
+    21169
+   ],
+   "proposed": 14,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p015",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p016",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p017",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p018",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 10,
+   "retained": 10
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p019",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 12,
+   "retained": 12
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p020",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p021",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 14,
+   "retained": 14
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p022",
+   "window": [
+    177,
+    1768
+   ],
+   "proposed": 3,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p071",
+   "window": [
+    1314,
+    1880
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p073",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p074",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p075",
+   "window": [
+    232,
+    1877
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p076",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p077",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p078",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p079",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p080",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_nl_storm_p071",
+   "window": [
+    1191,
+    1825
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p072",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p073",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_storm_p074",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p075",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_storm_p076",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_storm_p077",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_nl_storm_p078",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_storm_p079",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_nl_storm_p080",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_nl_storm_p081",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 11,
+   "retained": 11
+  },
+  {
+   "log": "ext_nl_storm_p082",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_nl_storm_p083",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 8,
+   "retained": 8
+  }
+ ],
+ "s15_keep_all": [
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    2705,
+    8705
+   ],
+   "proposed": 47,
+   "retained": 46
+  },
+  {
+   "log": "ext_kgs_386825",
+   "window": [
+    8705,
+    10200
+   ],
+   "proposed": 19,
+   "retained": 18
+  },
+  {
+   "log": "ext_utah_4304150011_p135",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 8,
+   "retained": 7
+  },
+  {
+   "log": "ext_utah_4304150011_p136",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 14,
+   "retained": 14
+  },
+  {
+   "log": "ext_utah_4304150011_p137",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 21,
+   "retained": 21
+  },
+  {
+   "log": "ext_utah_4304150011_p138",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_utah_4304150011_p139",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_utah_4304150011_p140",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 17,
+   "retained": 17
+  },
+  {
+   "log": "ext_utah_4304150011_p141",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 22,
+   "retained": 22
+  },
+  {
+   "log": "ext_utah_4304150011_p142",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p143",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 17,
+   "retained": 17
+  },
+  {
+   "log": "ext_utah_4304150011_p144",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 4,
+   "retained": 4
+  },
+  {
+   "log": "ext_utah_4304150011_p145",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_utah_4304150011_p146",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 9,
+   "retained": 9
+  },
+  {
+   "log": "ext_utah_4304150011_p147",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 20,
+   "retained": 20
+  },
+  {
+   "log": "ext_utah_4304150011_p148",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 6,
+   "retained": 6
+  },
+  {
+   "log": "ext_utah_4304150011_p149",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 11,
+   "retained": 11
+  },
+  {
+   "log": "ext_utah_4304150011_p150",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 22,
+   "retained": 22
+  },
+  {
+   "log": "ext_utah_4304150011_p151",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_utah_4304150011_p152",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 19,
+   "retained": 19
+  },
+  {
+   "log": "ext_utah_4304150011_p153",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_utah_4304150011_p154",
+   "window": [
+    355,
+    1630
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_utah_4304150011_p155",
+   "window": [
+    355,
+    790
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    2510,
+    8510
+   ],
+   "proposed": 22,
+   "retained": 21
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    9130,
+    15130
+   ],
+   "proposed": 51,
+   "retained": 50
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p001",
+   "window": [
+    15750,
+    21750
+   ],
+   "proposed": 48,
+   "retained": 48
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    284,
+    6284
+   ],
+   "proposed": 74,
+   "retained": 74
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    7726,
+    13726
+   ],
+   "proposed": 65,
+   "retained": 65
+  },
+  {
+   "log": "ext_idaho_barlow3-14_p002",
+   "window": [
+    15169,
+    21169
+   ],
+   "proposed": 54,
+   "retained": 53
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p015",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 3,
+   "retained": 2
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p016",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 33,
+   "retained": 33
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p017",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 21,
+   "retained": 21
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p018",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 30,
+   "retained": 30
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p019",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 34,
+   "retained": 34
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p020",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 13,
+   "retained": 13
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p021",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 28,
+   "retained": 28
+  },
+  {
+   "log": "ext_kgs_ForsythB2-17_p022",
+   "window": [
+    177,
+    1768
+   ],
+   "proposed": 25,
+   "retained": 24
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p071",
+   "window": [
+    1314,
+    1880
+   ],
+   "proposed": 17,
+   "retained": 17
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p073",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p074",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p075",
+   "window": [
+    232,
+    1877
+   ],
+   "proposed": 2,
+   "retained": 2
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p076",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 7,
+   "retained": 7
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p077",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 3,
+   "retained": 3
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p078",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 5,
+   "retained": 5
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p079",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 12,
+   "retained": 12
+  },
+  {
+   "log": "ext_nl_flat-bay-2_p080",
+   "window": [
+    232,
+    1879
+   ],
+   "proposed": 23,
+   "retained": 23
+  },
+  {
+   "log": "ext_nl_storm_p071",
+   "window": [
+    1191,
+    1825
+   ],
+   "proposed": 2,
+   "retained": 1
+  },
+  {
+   "log": "ext_nl_storm_p072",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 26,
+   "retained": 26
+  },
+  {
+   "log": "ext_nl_storm_p073",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 33,
+   "retained": 33
+  },
+  {
+   "log": "ext_nl_storm_p074",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 31,
+   "retained": 31
+  },
+  {
+   "log": "ext_nl_storm_p075",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 29,
+   "retained": 29
+  },
+  {
+   "log": "ext_nl_storm_p076",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 43,
+   "retained": 43
+  },
+  {
+   "log": "ext_nl_storm_p077",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 44,
+   "retained": 44
+  },
+  {
+   "log": "ext_nl_storm_p078",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 38,
+   "retained": 38
+  },
+  {
+   "log": "ext_nl_storm_p079",
+   "window": [
+    177,
+    1823
+   ],
+   "proposed": 40,
+   "retained": 40
+  },
+  {
+   "log": "ext_nl_storm_p080",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 27,
+   "retained": 27
+  },
+  {
+   "log": "ext_nl_storm_p081",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 30,
+   "retained": 30
+  },
+  {
+   "log": "ext_nl_storm_p082",
+   "window": [
+    177,
+    1824
+   ],
+   "proposed": 33,
+   "retained": 33
+  },
+  {
+   "log": "ext_nl_storm_p083",
+   "window": [
+    177,
+    1822
+   ],
+   "proposed": 29,
+   "retained": 29
+  }
+ ]
+}

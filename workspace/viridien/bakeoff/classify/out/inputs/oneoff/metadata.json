@@ -1,0 +1,278 @@
+{
+  "family": "One-off layout (Allegheny)",
+  "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+  "rows": [
+    15662,
+    17262
+  ],
+  "n_rock": 30,
+  "share": {
+    "Claystone | Marl": 0.672,
+    "notin": 0.299,
+    "Marl | Silty Clay": 0.029
+  },
+  "key": "oneoff",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\oneoff\\consensus.csv",
+  "vocabulary": [
+    "Breccia",
+    "Limestone",
+    "Dolomite",
+    "Conglomerate",
+    "Mudstone",
+    "Gypsum, Anhyd.",
+    "Pebbles",
+    "Wackstone",
+    "Salt (K-Na-Mg)",
+    "Sand",
+    "Packstone",
+    "Extrusive Rocks",
+    "Sandstone",
+    "Grainstone",
+    "Intrusive Rocks",
+    "Silt",
+    "Boundstone",
+    "Methamorphics",
+    "Claystone",
+    "Chalk",
+    "Silty Clay",
+    "Arg. Limestone",
+    "Claystone Sililicif.",
+    "Sils. Limestone",
+    "Volcanics",
+    "Marl",
+    "Dol. Limestone",
+    "Coal - Lignite",
+    "Calc. Dolomite",
+    "Chert"
+  ],
+  "parser_failed": false,
+  "n_accepted": 31,
+  "n_selected": 31,
+  "excluded": [
+    {
+      "top_depth": "9804.1",
+      "bottom_depth": "9808.6",
+      "lithology": "Silt",
+      "top_y": "15833",
+      "bottom_y": "15842",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "9885.5",
+      "bottom_depth": "9886.0",
+      "lithology": "Claystone",
+      "top_y": "15996",
+      "bottom_y": "15997",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "9941.5",
+      "bottom_depth": "9942.0",
+      "lithology": "Silt",
+      "top_y": "16108",
+      "bottom_y": "16109",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10058.3",
+      "bottom_depth": "10060.3",
+      "lithology": "Silt",
+      "top_y": "16342",
+      "bottom_y": "16346",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10085.8",
+      "bottom_depth": "10092.3",
+      "lithology": "Claystone",
+      "top_y": "16397",
+      "bottom_y": "16410",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10092.3",
+      "bottom_depth": "10096.3",
+      "lithology": "Silt",
+      "top_y": "16410",
+      "bottom_y": "16418",
+      "cluster_id": "1",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10096.3",
+      "bottom_depth": "10097.8",
+      "lithology": "Claystone",
+      "top_y": "16418",
+      "bottom_y": "16421",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10161.8",
+      "bottom_depth": "10162.3",
+      "lithology": "Claystone",
+      "top_y": "16549",
+      "bottom_y": "16550",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10162.3",
+      "bottom_depth": "10162.7",
+      "lithology": "Silt",
+      "top_y": "16550",
+      "bottom_y": "16551",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10192.2",
+      "bottom_depth": "10193.2",
+      "lithology": "Claystone",
+      "top_y": "16610",
+      "bottom_y": "16612",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10193.2",
+      "bottom_depth": "10196.7",
+      "lithology": "Silt",
+      "top_y": "16612",
+      "bottom_y": "16619",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10196.7",
+      "bottom_depth": "10210.2",
+      "lithology": "Claystone",
+      "top_y": "16619",
+      "bottom_y": "16646",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10225.7",
+      "bottom_depth": "10226.2",
+      "lithology": "Claystone",
+      "top_y": "16677",
+      "bottom_y": "16678",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10226.2",
+      "bottom_depth": "10229.2",
+      "lithology": "Silt",
+      "top_y": "16678",
+      "bottom_y": "16684",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10229.2",
+      "bottom_depth": "10230.2",
+      "lithology": "Claystone",
+      "top_y": "16684",
+      "bottom_y": "16686",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10246.2",
+      "bottom_depth": "10246.7",
+      "lithology": "Silt",
+      "top_y": "16718",
+      "bottom_y": "16719",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10281.1",
+      "bottom_depth": "10284.6",
+      "lithology": "Silt",
+      "top_y": "16788",
+      "bottom_y": "16795",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10302.6",
+      "bottom_depth": "10303.1",
+      "lithology": "Claystone",
+      "top_y": "16831",
+      "bottom_y": "16832",
+      "cluster_id": "0",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10356.1",
+      "bottom_depth": "10360.6",
+      "lithology": "Silt",
+      "top_y": "16938",
+      "bottom_y": "16947",
+      "cluster_id": "1",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "10360.6",
+      "bottom_depth": "10361.6",
+      "lithology": "Silt",
+      "top_y": "16947",
+      "bottom_y": "16949",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    },
+    {
+      "top_depth": "10498.9",
+      "bottom_depth": "10499.4",
+      "lithology": "Silt",
+      "top_y": "17224",
+      "bottom_y": "17225",
+      "cluster_id": "1",
+      "agreed": "true",
+      "reason": "under 12 rows"
+    }
+  ],
+  "mode": "P",
+  "legend_box": [
+    477,
+    590,
+    1060,
+    1144
+  ],
+  "column_box": [
+    1263,
+    2737,
+    1323,
+    24270
+  ],
+  "truth_sha256": "cb82a30a0bdce3fbf22fd78a44b2c23ee0286140bed2b691fa1f9a17590150d0"
+}

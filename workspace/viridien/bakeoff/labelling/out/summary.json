@@ -1,0 +1,264 @@
+{
+  "windows": [
+    {
+      "key": "d582",
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "family": "D-582 1-bit grid",
+      "rows": [
+        4404,
+        11195
+      ],
+      "iteration": 1,
+      "n_intervals": 25,
+      "agreed_share": 0.9979384479458107,
+      "labels": {
+        "Sand and Sandstone": 0.12678545133264615,
+        "Shale": 0.5822412015903402,
+        "Siltstone": 0.17552643204240906,
+        "Unknown": 0.11544691503460462
+      },
+      "calls_used": 31,
+      "seconds": 1.0822398999880534,
+      "calibration": {
+        "a": 0.049929633778174214,
+        "b": 25180.126231694987,
+        "n_points": 12,
+        "rmse_px": 0.6806523220219737,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "geo",
+      "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+      "family": "Geoservices grid",
+      "rows": [
+        10072,
+        11672
+      ],
+      "iteration": 1,
+      "n_intervals": 1,
+      "agreed_share": 1.0,
+      "labels": {
+        "Clay Shale": 1.0
+      },
+      "calls_used": 7,
+      "seconds": 47.084121899999445,
+      "calibration": {
+        "a": 0.4999308825603063,
+        "b": 9930.763147209775,
+        "n_points": 62,
+        "rmse_px": 0.4717232070084994,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "mc761",
+      "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+      "family": "MC761 mineral/lithology",
+      "rows": [
+        6759,
+        8359
+      ],
+      "iteration": 1,
+      "n_intervals": 29,
+      "agreed_share": 0.980625,
+      "labels": {
+        "Sandstone": 0.31625,
+        "Shale": 0.64625,
+        "Siltstone": 0.0375
+      },
+      "calls_used": 7,
+      "seconds": 76.104359200006,
+      "calibration": {
+        "a": 0.5001280145996444,
+        "b": 15669.74109775525,
+        "n_points": 50,
+        "rmse_px": 2.1885406542782704,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "mc765a",
+      "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+      "family": "MC765 colour grid (1 inch)",
+      "rows": [
+        17042,
+        18642
+      ],
+      "iteration": 1,
+      "n_intervals": 3,
+      "agreed_share": 1.0,
+      "labels": {
+        "Clay-S": 0.92125,
+        "Sand-MSS": 0.07875
+      },
+      "calls_used": 7,
+      "seconds": 48.353005100012524,
+      "calibration": {
+        "a": 0.4992900813179706,
+        "b": 2694.3794608197695,
+        "n_points": 63,
+        "rmse_px": 0.5679346146340966,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "mc765b",
+      "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+      "family": "MC765 colour grid (5 inch, colour shift)",
+      "rows": [
+        78761,
+        80361
+      ],
+      "iteration": 1,
+      "n_intervals": 1,
+      "agreed_share": 1.0,
+      "labels": {
+        "Clay-S": 1.0
+      },
+      "calls_used": 6,
+      "seconds": 43.81073070000275,
+      "calibration": {
+        "a": 0.09985675027333625,
+        "b": 3338.9076350147952,
+        "n_points": 63,
+        "rmse_px": 0.4551792732566272,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "gulf_ok",
+      "log": "60817410140000_mc822#10 1-1200 mud log",
+      "family": "Gulf 3-panel, parsed",
+      "rows": [
+        11891,
+        13491
+      ],
+      "iteration": 1,
+      "n_intervals": 8,
+      "agreed_share": 0.905625,
+      "labels": {
+        "Clay-shale": 0.649375,
+        "Sandy clay-shale": 0.04625,
+        "Silty clay-shale": 0.153125,
+        "Slaty shale": 0.15125
+      },
+      "calls_used": 7,
+      "seconds": 119.43408599999384,
+      "calibration": {
+        "a": 0.5000155351029766,
+        "b": 8750.336034061593,
+        "n_points": 55,
+        "rmse_px": 1.5458989580238753,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "gulf_fail",
+      "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+      "family": "Gulf 3-panel, parser failed",
+      "rows": [
+        30618,
+        32218
+      ],
+      "iteration": 1,
+      "n_intervals": 3,
+      "agreed_share": 1.0,
+      "labels": {
+        "Halite": 0.9925,
+        "Shale": 0.0075
+      },
+      "calls_used": 7,
+      "seconds": 52.08055869999225,
+      "calibration": {
+        "a": 0.3332895600870725,
+        "b": 3515.951472809422,
+        "n_points": 42,
+        "rmse_px": 0.5486205721040028,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "oneoff",
+      "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+      "family": "One-off layout (Allegheny)",
+      "rows": [
+        15662,
+        17262
+      ],
+      "iteration": 1,
+      "n_intervals": 52,
+      "agreed_share": 0.959375,
+      "labels": {
+        "Claystone": 0.841875,
+        "Silt": 0.158125
+      },
+      "calls_used": 7,
+      "seconds": 124.29531269999279,
+      "calibration": {
+        "a": 0.49951941747780937,
+        "b": 1895.2036456562146,
+        "n_points": 31,
+        "rmse_px": 2.170966744083813,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "texas",
+      "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+      "family": "Texas 'Rock Types' box",
+      "rows": [
+        44966,
+        46566
+      ],
+      "iteration": 1,
+      "n_intervals": 9,
+      "agreed_share": 1.0,
+      "labels": {
+        "LIMESTONE": 0.035,
+        "SHALE": 0.87625,
+        "TUFF": 0.08875
+      },
+      "calls_used": 7,
+      "seconds": 69.45741229999112,
+      "calibration": {
+        "a": 0.09999900860447548,
+        "b": 8413.690746589886,
+        "n_points": 119,
+        "rmse_px": 1.107098947304321,
+        "method": "rapidocr+ransac"
+      }
+    },
+    {
+      "key": "d582_log02",
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "family": "D-582 1-bit grid (second log)",
+      "rows": [
+        4387,
+        6787
+      ],
+      "iteration": 1,
+      "n_intervals": 15,
+      "agreed_share": 0.9033333333333333,
+      "labels": {
+        "Sand and Sandstone": 0.2629166666666667,
+        "Shale": 0.565,
+        "Siltstone": 0.17208333333333334
+      },
+      "calls_used": 10,
+      "seconds": 76.65843329999188,
+      "calibration": {
+        "a": 0.04989041316697636,
+        "b": 23281.25524846895,
+        "n_points": 12,
+        "rmse_px": 0.8952970969114783,
+        "method": "rapidocr+ransac"
+      }
+    }
+  ],
+  "calls_used": 96,
+  "wall_seconds": 1821.1010551452637,
+  "review_bytes": 1784885,
+  "hard_call_cap": 220,
+  "edge_render_status": "failed"
+}

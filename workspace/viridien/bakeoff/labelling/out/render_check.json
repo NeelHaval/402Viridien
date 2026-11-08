@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "--headless=new",
+    "--disable-gpu",
+    "--no-first-run",
+    "--no-default-browser-check",
+    "--disable-extensions",
+    "--user-data-dir=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\_edge_profile",
+    "--disk-cache-dir=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\_edge_cache",
+    "--window-size=1440,1100",
+    "--screenshot=C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\review-check.png",
+    "file:///C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/bakeoff/labelling/review.html"
+  ],
+  "status": "failed",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "seconds": 0.04816289999871515
+}

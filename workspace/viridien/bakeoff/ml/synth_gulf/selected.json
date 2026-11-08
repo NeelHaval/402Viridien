@@ -1,0 +1,18 @@
+{
+ "boundary": {
+  "kind": "rich",
+  "threshold": 0.55,
+  "gap": 24,
+  "preserve": false
+ },
+ "matcher": {
+  "method": "learned",
+  "learner": "logistic",
+  "blend": 1.0,
+  "reject": 1.01,
+  "margin": 0.0
+ },
+ "boundary_fraction": 0.35,
+ "matcher_fraction": 0.35,
+ "selection": "0.75 dev well-macro score + 0.25 held-source synthetic family-macro score"
+}

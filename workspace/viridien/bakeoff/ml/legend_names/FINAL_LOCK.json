@@ -1,0 +1,105 @@
+{
+ "started": 1794102892.1769683,
+ "sha256": {
+  "bakeoff/ml/legend_names/selected.json": "5130953d177df6f4c8e7b6073b2884ae4bf0665fab595d992c97534c7c6108e5",
+  "bakeoff/harness/legend_v3.py": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+  "bakeoff/strategies/s16_legend_v3.py": "6935d5fabffcc53b0b4bad1fed7cb509e450aa1535ea764edd2278c96789e7c0",
+  "bakeoff/ml/match/matcher.npz": "40aa5350ac6c5aa40ab27558d553143b98083fa01d212205f0a36a134d91c7b1",
+  "bakeoff/ml/match/selected.json": "c7507f5846e8d163795c122938dd2f80f9505f255c2a522f7e4f27cd91defe2a",
+  "bakeoff/ml/boundary/boundary_net.pt": "5f547847661a92ed7d2fae161bdd6374a738d12fa42bc06cb749e1cd08178cb1",
+  "bakeoff/ml/legend_names/experiment.py": "05e2053bb2bf8dd7d90ad13e9e35edc38103be3fea9b89f021459f9a45dc28d5",
+  "bakeoff/harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+  "bakeoff/harness/legend_v2.py": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8",
+  "bakeoff/harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+  "bakeoff/harness/score.py": "cffddf644fda7c38b5fa7753e60b52f1b581a7905f74bc6648d6298d1e9a8bb2",
+  "bakeoff/strategies/s13_boundary_net.py": "fa8d28e72160e2286edca98b2f034ca775c30779779cccf24a1618aab04aaf51",
+  "bakeoff/strategies/s14_learned_match.py": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+  "bakeoff/strategies/s15_learned_match.py": "5954a7661ef1b79dbc3787296f65b36fdb28a772213b4842a2fef7730b6ada44",
+  "bakeoff/ml/match/features.py": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+  "bakeoff/ml/boundary/model.py": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859"
+ },
+ "selected": {
+  "config": {
+   "easy": true,
+   "cleanup": true,
+   "easy_weight": 1.15
+  },
+  "candidate": 4,
+  "selection": "well-macro matchable entry accuracy, dev only",
+  "rates": [
+   0.6099709538285284,
+   0.9505131996526032,
+   0.9698686558724661,
+   0.973093731696412,
+   0.9737347573374376
+  ],
+  "folds": [
+   {
+    "held": "386825",
+    "selected": 4,
+    "training_rates": [
+     0.5819651445942341,
+     0.9406158395831238,
+     0.9638423870469592,
+     0.9677124780356945,
+     0.9684817088049252
+    ]
+   },
+   {
+    "held": "4304150011",
+    "selected": 4,
+    "training_rates": [
+     0.6296395631988851,
+     0.9592204907459145,
+     0.98244703820975,
+     0.9863171291984851,
+     0.987086359967716
+    ]
+   },
+   {
+    "held": "ForsythB2-17",
+    "selected": 4,
+    "training_rates": [
+     0.6019651445942341,
+     0.9406158395831238,
+     0.9638423870469592,
+     0.9677124780356945,
+     0.9684817088049252
+    ]
+   },
+   {
+    "held": "barlow3-14",
+    "selected": 4,
+    "training_rates": [
+     0.6302702293399969,
+     0.954175161617022,
+     0.9706220480639084,
+     0.971102308544169,
+     0.9718715393133998
+    ]
+   },
+   {
+    "held": "flat-bay-2",
+    "selected": 4,
+    "training_rates": [
+     0.6070974197265093,
+     0.9586052575725418,
+     0.9723079955125679,
+     0.977236287559504,
+     0.9780055183287347
+    ]
+   },
+   {
+    "held": "storm",
+    "selected": 3,
+    "training_rates": [
+     0.608888221517311,
+     0.9498466088138929,
+     0.9661500793546516,
+     0.9684817088049252,
+     0.9684817088049252
+    ]
+   }
+  ]
+ }
+}

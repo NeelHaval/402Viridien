@@ -1,0 +1,219 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--g:var(--chart-1);--a:var(--chart-3);--b:var(--chart-2)}
+body{margin:0;font-family:var(--font-sans);color:var(--foreground);line-height:1.5}
+.wrap{max-width:1100px;margin:0 auto}
+h2{font-size:20px;margin:36px 0 6px}
+h3{font-size:16px;margin:0 0 4px}
+p.lead{margin:0 0 14px;color:var(--muted-foreground)}
+img{max-width:100%;display:block;border-radius:6px;background:#fff}
+.grid{display:grid;gap:14px;align-items:start}
+.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.box{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+.cap{font-size:13px;color:var(--muted-foreground);margin-top:6px;overflow-wrap:anywhere}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.step{border:1px solid var(--border);border-left:4px solid var(--g);border-radius:var(--radius);padding:12px;background:var(--card)}
+.step b{display:block;font-size:14px}.step span{font-size:13px;color:var(--muted-foreground)}
+.s2{border-left-color:var(--chart-2)}.s3{border-left-color:var(--chart-3)}.s4{border-left-color:var(--chart-4)}
+pre{background:var(--code-background);border-radius:6px;padding:10px 12px;font:12.5px/1.45 var(--font-mono);overflow-x:auto;margin:8px 0 0;white-space:pre}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.chip{font-size:12px;border:1px solid var(--border);border-radius:999px;padding:1px 9px}
+.cpu{border-color:var(--chart-1)}.gpu{border-color:var(--chart-4)}.api{border-color:var(--chart-5)}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:13px;margin-top:8px}
+.pc div b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.pro b{color:var(--success)}.con b{color:var(--destructive)}
+.strat{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:16px}
+@media(max-width:760px){.strat{grid-template-columns:1fr}.pc{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--border);vertical-align:top}
+th{color:var(--muted-foreground);font-weight:600}
+.num{font-variant-numeric:tabular-nums}
+.tag{font:600 12px var(--font-mono);color:var(--muted-foreground)}
+</style></head><body><div class="wrap">
+
+<h2>What one finished answer looks like</h2>
+<p class="lead">The organisers' own visualiser on the supplied answer for log06: coloured intervals over the lithology column, a blue line and depth at every boundary, a cluster id beside each interval.</p>
+<div class="grid g2">
+ <div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f02_notebook_zoom.png"><div class="cap">log06, rows 4,300 to 7,100, drawn with the notebook's <code>visualize_results</code>.</div></div>
+ <div class="box"><h3>The CSV behind it</h3>
+<pre>top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id
+25400,25420,Shale,4409,4809,0
+25420,25430,Siltstone,4809,5010,1
+25430,25490,Shale,5010,6211,0
+25490,25500,Siltstone,6211,6411,1
+25500,25510,Shale,6411,6611,0
+25510,25520,Sandstone,6611,6811,2</pre>
+ <div class="cap">One row per interval, touching with no gaps. Pixel rows use the same coordinates as the bounding boxes. Depth is linear here: 20 px per foot.</div>
+ <h3 style="margin-top:14px">Every log goes through four steps</h3>
+ <div class="steps" style="margin-top:8px">
+  <div class="step"><b>1. Split</b><span>find each interval's top and bottom row</span></div>
+  <div class="step s2"><b>2. Group</b><span>same pattern, same cluster id</span></div>
+  <div class="step s3"><b>3. Name</b><span>match each cluster to a legend swatch</span></div>
+  <div class="step s4"><b>4. Depth</b><span>read the depth column, fit row to feet</span></div>
+ </div></div>
+</div>
+
+<h2>The inputs: three boxes per page</h2>
+<p class="lead">Every annotation gives three rectangles: red is the depth column, blue the interpreted lithology column, orange the legend. Layouts differ a lot between companies.</p>
+<div class="grid g3">
+<div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f03_boxes_1.png"><div class="cap">0000000009_d-582_0000020435-0001_log06_fe_5in_md</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f03_boxes_2.png"><div class="cap">60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_1070</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f03_boxes_3.png"><div class="cap">60807402860000_gb506#2_md_mudlog</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f03_boxes_4.png"><div class="cap">Critter Creek 201-1807H_Mud_PDF_Vertical.pdf</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f03_boxes_5.png"><div class="cap">Rio_Nueces_3744_Unit_1_212_MUD_5IN</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f03_boxes_6.png"><div class="cap">608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00</div></div>
+</div>
+
+<h2>Why it is hard</h2><div class="grid g3"><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/figs/hard/h1_pattern_only.jpg"><div class="cap">Pattern-only rocks: 1-bit logs have no colour at all.</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/figs/hard/h2_mixed_legend.jpg"><div class="cap">Legends mix rocks with modifier and drilling symbols.</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/figs/hard/h3_same_colour.jpg"><div class="cap">Same colour, different rock.</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/figs/hard/h4_tiny_text.jpg"><div class="cap">Legend text a few pixels tall.</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/figs/hard/h5_blank_runs.jpg"><div class="cap">Blank stretches and very long single intervals.</div></div><div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/figs/hard/h6_overprints.jpg"><div class="cap">Overprinted lines and symbols break runs.</div></div></div>
+<h2>Ten strategies, and why each is in the race</h2>
+<p class="lead">All ten share the loader, the depth step and the scorer, so a score difference comes from the strategy alone. The demos below are real runs on real crops, not mock-ups.</p>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S1</span><h3>Colour runs</h3>
+<div class="chips"><span class="chip cpu">CPU</span></div>
+<p style="margin:4px 0;font-size:14px">Most colour logs paint each rock a flat colour. Read the dominant colour of every pixel row and cut where it changes for long enough.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> The baseline every other method must beat. Milliseconds a log, no model.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Fastest; exact boundaries on flat fills</div><div class="con"><b>Weakness</b>Blind on the 9 black-and-white logs; same-colour rocks merge</div></div>
+<pre>col = rgb[:, int(.15*w):int(.85*w)]          # skip the borders
+ink = col.max(2) &lt; 60; paper = col.min(2) &gt; 230
+dom = mode_colour(col, mask=~ink &amp; ~paper)       # one colour per row
+cuts = changes(quantise_lab(dom), min_run=15)
+name = nearest_swatch_colour(cluster_colour)</pre></div><div><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/d_s1_colour_runs.png"><div class="cap">Dominant non-black/non-white colour and stable colour-run boundaries on the colour log. Measured: 0.27 s for 6,000 rows of the bp_gc743 colour log.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S2</span><h3>Hand-made features + change points</h3>
+<div class="chips"><span class="chip cpu">CPU</span></div>
+<p style="margin:4px 0;font-size:14px">Describe each row by ink fraction, horizontal and vertical stroke density, colour and pattern period, then let PELT find where that signal shifts.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> Works on colour and hatch-only logs alike, and its segment() is reused by S8, S9 and S10 for boundaries.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Good boundaries everywhere; explainable</div><div class="con"><b>Weakness</b>Naming two similar hatches is weak</div></div>
+<pre>f = np.stack([ink, sobel_y_density, sobel_x_density,
+              lab_mean, autocorr_period], 1)
+f = uniform_filter1d(f, 40, axis=0)
+cuts = ruptures.Pelt(model=&quot;rbf&quot;).fit(zscore(f)).predict(pen=8)
+clusters = AgglomerativeClustering(distance_threshold=1.5).fit(seg_means)</pre></div><div><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/d_s2_features_pelt.png"><div class="cap">Ink and directional stroke densities with unsupervised PELT change points. Measured on log06: boundary F1 0.86 (all 6 true boundaries found, 2 extra), 3.6 s.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S3</span><h3>Template matching</h3>
+<div class="chips"><span class="chip cpu">CPU</span></div>
+<p style="margin:4px 0;font-size:14px">Cut each legend swatch, slide it down the column, score every tile with normalised cross-correlation and keep the best match.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> The most literal reading of the task: the legend is the answer key, so match against it.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Names come straight from the legend; good on 1-bit hatches</div><div class="con"><b>Weakness</b>Breaks when the swatch is drawn at another scale or phase</div></div>
+<pre>for e in rock_swatches:
+    tpl = tile(strip_border(e.swatch), h=64)
+    for s in (0.8, 1.0, 1.25):
+        score[e.id] = max(score[e.id],
+            cv2.matchTemplate(column, rescale(tpl, s), cv2.TM_CCOEFF_NORMED))
+label = argmax(score, axis=0); merge_runs(label)</pre></div><div><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/d_s3_template_ncc.png"><div class="cap">Four real legend templates and their normalized cross-correlation responses. Measured on log06: best correlation only 0.04 to 0.08, so raw NCC barely separates the hatches. It needs scale and phase search before it is useful.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S4</span><h3>k-means + Viterbi smoothing</h3>
+<div class="chips"><span class="chip cpu">CPU</span></div>
+<p style="margin:4px 0;font-size:14px">Cut the column into 20-row tiles, cluster their texture features, then smooth along depth so one odd tile cannot create a fake interval.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> Clustering is half the score (cluster_id), and smoothing removes the speckle that ruins boundary F1.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Robust to noise; no legend needed to group</div><div class="con"><b>Weakness</b>Must guess k; naming is a separate step</div></div>
+<pre>X = [lab_hist(t) + lbp_hist(t) + [ink(t)] for t in tiles]
+k = best_silhouette(X, range(2, 11))
+raw = KMeans(k).fit_predict(X)
+clean = viterbi(raw, p_stay=0.98)     # long runs win
+cuts = refine_to_row(clean)</pre></div><div><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/d_s4_kmeans_viterbi.png"><div class="cap">20-row ink/Sobel/LBP tiles clustered into three states, then Viterbi smoothed. Measured on log06: Viterbi cut 48 label changes to 1 and raised row accuracy from 0.65 to 0.77, but it also merged short Sandstone beds.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S5</span><h3>DINOv2 embeddings</h3>
+<div class="chips"><span class="chip gpu">GPU</span></div>
+<p style="margin:4px 0;font-size:14px">A self-supervised vision model turns each 64-row tile into a vector. Big jumps between neighbouring vectors are boundaries.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> Downloaded, pretrained, no training: tests whether general vision features already separate rock symbols.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Sees texture, not just colour; strong grouping</div><div class="con"><b>Weakness</b>Swatches are tiny; 88 MB model; needs a GPU to be quick</div></div>
+<pre>m = AutoModel.from_pretrained(&quot;facebook/dinov2-small&quot;).cuda()
+E = m(pixel_values=tiles_224).pooler_output     # one vector per tile
+d = 1 - cosine(E[1:], E[:-1])                   # change along depth
+cuts = find_peaks(d, prominence=.15)
+name = argmax(cos(seg_mean, swatch_embeds) + a*lab_sim)</pre></div><div><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/d_s5_dinov2.png"><div class="cap">Cached DINOv2-small CUDA embeddings: neighbour cosine distance and detected peaks. Measured on log06: 3.1 s, 242 MB peak GPU. Distance peaks are dense, so they need PELT or a prominence threshold on top.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S6</span><h3>SigLIP image + text</h3>
+<div class="chips"><span class="chip gpu">GPU</span></div>
+<p style="margin:4px 0;font-size:14px">Same tiles, but SigLIP also scores text such as &#x27;a lithology symbol for sandstone&#x27;, so the label words help with naming.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> Checks whether a downloadable image-text model knows what rock symbols look like.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Uses the label text, not only the swatch</div><div class="con"><b>Weakness</b>Hatch-only symbols mean little to it</div></div>
+<pre>img = siglip.get_image_features(tiles)
+txt = siglip.get_text_features(
+    [f&quot;a geological lithology symbol for {e.label}&quot; for e in rocks])
+score = w*cos(img, swatch_img) + (1-w)*cos(img, txt)</pre></div><div><div class="cap" style="padding:30px 0;text-align:center">Demo comes from the bake-off run.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S7</span><h3>CNN trained on synthetic columns</h3>
+<div class="chips"><span class="chip gpu">GPU</span></div>
+<p style="margin:4px 0;font-size:14px">Stack this log&#x27;s own legend swatches into fake columns with noise, train a small CNN for 25 s, then classify the real column.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> Training data for free: the legend is a labelled sample of every class this log can contain.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Only predicts names in this legend</div><div class="con"><b>Weakness</b>Slowest local option; synthetic-to-real gap</div></div>
+<pre>X, y = synth.make(log, n=400, jitter=True, jpeg=True, lines=True)
+net = timm.create_model(&quot;resnet18&quot;, num_classes=len(rocks)).cuda()
+train(net, X, y, seconds=25)
+labels = viterbi(net(column_tiles).softmax(1))</pre></div><div><div class="cap" style="padding:30px 0;text-align:center">Demo comes from the bake-off run.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S8</span><h3>JEV typed choice (Typesafe)</h3>
+<div class="chips"><span class="chip api">API</span></div>
+<p style="margin:4px 0;font-size:14px">Find boundaries with S2, then send one crop per cluster to JEV with a choice question over this log&#x27;s legend names.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> One call per cluster, not per row: about 5 calls a log, with typed probabilities we can threshold.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Fast API (about 0.4 s); calibrated choices</div><div class="con"><b>Weakness</b>Needs network and a key; paid</div></div>
+<pre>ans = jev(state={&quot;crop&quot;: &quot;img1&quot;}, assets={&quot;img1&quot;: png_512(crop)},
+          questions={&quot;lith&quot;: {&quot;type&quot;: &quot;choice&quot;,
+              &quot;instructions&quot;: &quot;Which legend pattern fills this column?&quot;,
+              &quot;criteria&quot;: {e.label: describe(e) for e in rocks}}})
+name = ans[&quot;lith&quot;][&quot;choice&quot;]            # + probabilities</pre></div><div><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/d_s8_jev.png"><div class="cap">Three gold-interval crops, nearest-neighbour upscaled to 512 px, and real JEV probabilities. Measured: 2 of 3 right in 0.33 to 0.39 s a call. The Sandstone crop came back as Siltstone at 0.83 confidence, so confidence alone cannot be trusted.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S9</span><h3>Vision LLM (Terra)</h3>
+<div class="chips"><span class="chip api">API</span></div>
+<p style="margin:4px 0;font-size:14px">Show a general vision LLM the cluster crop next to the numbered legend and ask for the swatch number, as a person would.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> The human way of doing it. Shows how far a general multimodal model gets with no task code.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Reads odd layouts and tiny text</div><div class="con"><b>Weakness</b>Tens of seconds a call; answers vary</div></div>
+<pre>png = side_by_side(upscale(crop), numbered_legend(rocks))
+out = run([&quot;codex&quot;, &quot;exec&quot;, &quot;-m&quot;, &quot;gpt-6.1-terra&quot;, &quot;-i&quot;, png,
+           &#x27;Which numbered swatch matches the left strip? JSON {&quot;n&quot;: int}&#x27;])
+name = rocks[json.loads(out)[&quot;n&quot;]].label</pre></div><div><div class="cap" style="padding:30px 0;text-align:center">Demo comes from the bake-off run.</div></div></div></div>
+<div class="box" style="margin-bottom:14px"><div class="strat"><div>
+<span class="tag">S10</span><h3>Hybrid: local first, API on ties</h3>
+<div class="chips"><span class="chip gpu">GPU + API</span></div>
+<p style="margin:4px 0;font-size:14px">S2 boundaries, DINOv2 + colour naming, and JEV only when the top two candidates are too close to call.</p>
+<p style="margin:4px 0;font-size:14px"><b>Why it is here:</b> Spends API calls only where local models are unsure: the expected accuracy-per-second winner.</p>
+<div class="pc"><div class="pro"><b>Strength</b>Best expected accuracy for its cost</div><div class="con"><b>Weakness</b>Most moving parts to tune</div></div>
+<pre>s = .6*cos(dino(seg), dino(swatch)) + .4*lab_sim(seg, swatch)
+top2 = s.topk(2)
+if top2[0] - top2[1] &lt; margin:          # tuned on synthetic
+    name = jev_choice(seg_crop, candidates=top2.labels)
+else:
+    name = top2.label[0]</pre></div><div><div class="cap" style="padding:30px 0;text-align:center">Demo comes from the bake-off run.</div></div></div></div>
+
+<h2>Trade-offs at a glance</h2>
+<div class="box" style="overflow-x:auto"><table>
+<tr><th>Strategy</th><th>Hardware</th><th>Speed, expected</th><th>Cost per log</th><th>Best on</th><th>Weak on</th></tr>
+<tr><td>S1 colour runs</td><td>CPU</td><td>under 1 s</td><td>0</td><td>flat colour logs</td><td>1-bit logs, same-colour rocks</td></tr>
+<tr><td>S2 features + PELT</td><td>CPU</td><td>1 to 5 s</td><td>0</td><td>clean boundaries everywhere</td><td>naming near-identical patterns</td></tr>
+<tr><td>S3 template matching</td><td>CPU</td><td>5 to 30 s</td><td>0</td><td>1-bit hatch logs</td><td>swatch drawn at a different scale</td></tr>
+<tr><td>S4 k-means + Viterbi</td><td>CPU</td><td>2 to 10 s</td><td>0</td><td>noisy scans, no short fake intervals</td><td>picking the number of clusters</td></tr>
+<tr><td>S5 DINOv2</td><td>GPU</td><td>2 to 10 s</td><td>0</td><td>texture changes, robust grouping</td><td>tiny swatches, 1 GB of weights</td></tr>
+<tr><td>S6 SigLIP</td><td>GPU</td><td>2 to 10 s</td><td>0</td><td>clear rock names</td><td>hatch-only logs</td></tr>
+<tr><td>S7 synthetic CNN</td><td>GPU</td><td>about 30 s (trains per log)</td><td>0</td><td>only predicts names in this legend</td><td>slowest local option</td></tr>
+<tr><td>S8 JEV</td><td>CPU + API</td><td>about 0.4 s a call</td><td>one call per cluster</td><td>naming from a picture</td><td>needs network and a key</td></tr>
+<tr><td>S9 Terra</td><td>CPU + API</td><td>tens of seconds a call</td><td>ChatGPT plan</td><td>reads patterns like a person</td><td>slow, varies between runs</td></tr>
+<tr><td>S10 hybrid</td><td>GPU + API</td><td>5 to 15 s</td><td>calls only on near-ties</td><td>best accuracy per second, expected</td><td>most moving parts</td></tr>
+</table><div class="cap">Speeds are estimates until the bake-off reports measured seconds, memory and calls per window.</div></div>
+
+<h2>Making the datasets: how good are AI labellers?</h2>
+<p class="lead">Only one true answer ships with the challenge, so agents label more windows. Each labeller also labels log06, where we know the truth, which tells us how far to trust its other labels.</p>
+<div class="grid g2">
+ <div class="box"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f04_labeller_vs_gold.png"><div class="cap">Scan, gold, labeller A, and agreement on aligned image rows. Measured on log06: labeller A got 74% of rows right with boundary F1 0.69; labeller B got boundary F1 0.94 but left 67% of rows as Unknown, so only 32% of rows are right. Agents are good at finding boundaries and unreliable at naming black-and-white hatches.</div></div>
+ <div class="box"><h3>The legend parser, step zero for every strategy</h3><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f05_legend_parse_1.png" style="margin-top:8px"><img src="C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work/artifact/img/f05_legend_parse_2.png" style="margin-top:8px"><div class="cap">Swatches are found as rectangles, numbered, and their labels read by OCR. Entries under "Modifiers" or "Show and drilling" are marked as not rock.</div></div>
+</div>
+
+<h2>Bonus: finding the boxes without the annotation</h2>
+<div class="grid g2">
+ <div class="box"><h3>Coarse box from JEV, exact edges from code</h3>
+<pre>ans = jev(state="page", assets={"page": thumb_png},
+          questions={"legend": {"type": "box",
+                     "instructions": "the lithology legend panel"}})
+coarse = to_pixels(ans["legend"]["box"], page_size)
+x0, x1 = snap_to_ruled_lines(coarse, vertical_lines(page))</pre>
+ <div class="cap">First test on 3 pages: JEV alone found the legend with overlap 0.47 to 0.73, but mostly missed the columns, which are a few pixels wide on a 1,024 px thumbnail. Snapping to the ruled column lines does the rest.</div></div>
+ <div class="box"><h3>JEV limits learned the hard way</h3>
+<pre>headers["TypeSafe-Danger-Zone-Images"] = "true"
+# each image side must be 512 to 1024 px
+crop = crop.resize((512, 512), Image.NEAREST)
+# images go in "assets"; "state" names them
+body = {"state": {"crop": "img1"},
+        "assets": {"img1": {"type": "image", "format": "png",
+                            "data_base64": b64}}}</pre>
+ <div class="cap">Sent as plain base64 inside the state, the image is read as text and the answer is a coin toss.</div></div>
+</div>
+
+</div></body></html>

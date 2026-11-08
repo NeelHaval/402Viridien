@@ -1,0 +1,41 @@
+{
+  "input_pages": 651,
+  "reviewed_pages": 17,
+  "statuses": {
+    "predicted": 17
+  },
+  "windows": 53,
+  "intervals": 2879,
+  "contact_sheets": 27,
+  "seconds": 31.264041057991562,
+  "current_rss_gib": 0.4449615478515625,
+  "thread_limit": 1,
+  "strategy": "s19",
+  "source_hashes": {
+    "bakeoff/strategies/s19_combine.py": "dbeea29bc0e56f768ac8bc99ebf57689e93a6932c3cd31f6c760ab61992d955d",
+    "bakeoff/ml/combine/runtime.py": "9de34dbf973b7f5870cd0dfb62b3c56025a4713a7ca562319c4d5c460ea4503d",
+    "bakeoff/ml/combine/selected.json": "5a49b37499459f0f201779b45f2a1c3e481011bd2acbcc655b7e5aaf2f9cdd71",
+    "bakeoff/ml/combine/boundary_net.pt": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810",
+    "bakeoff/ml/combine/boundary_real.pt": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222",
+    "bakeoff/ml/combine/matcher.npz": "01cba25e573ee7552d6c4f99df4be7736eea6dce255c580e1e7b286a8ce0af62",
+    "bakeoff/ml/combine/matcher_real.npz": "b688bfa064147ac91a3622e00d71eba2e3876af44077c44f402ff57caed8f278",
+    "bakeoff/harness/legend_v3.py": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+    "bakeoff/ml/final/FREEZE.json": "90c5f04ef5eccd40d1557d4d1cdee91fcbb6ba105952cc046e1c83fae2d605d6",
+    "external_unlabelled/manifest.csv": "56e4cd68344634fd5de986aae0f6d45f0cff46a718c99382e12761bfc17e4a73",
+    "bakeoff/notes/unlabelled_demo/demo.py": "d0ff610c250425bedf98f5b5225e6c9ab2b9d4ba3f0be5313cd10a3f0e8a7205"
+  },
+  "predicted_pages": 17,
+  "failures": 0,
+  "blocked_pages": 0,
+  "skipped_pages": 634,
+  "prediction_files": 17,
+  "confidence_files": 17,
+  "legend_images": 17,
+  "overlays": 53,
+  "confidence_status": "unverified",
+  "confidence_source": "unknown unless returned by S19",
+  "torch_threads": 1,
+  "torch_interop_threads": 1,
+  "total_seconds": 31.27924039697973,
+  "peak_rss_gib": 0.45771026611328125
+}

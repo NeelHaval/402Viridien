@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path(__file__).with_name('score_all.py');s=p.read_text(encoding='utf-8')
+s=s.replace("FIELDS = (", "CANDIDATES = ['s19_combine','s20_v4','s21_v4dino','s23_v4dino_distinct']\nFIELDS = (")
+s=s.replace("paths.extend((B/'strategies').glob('s21*.py'));", "paths.extend((B/'strategies').glob('s21*.py')); paths.extend((B/'strategies').glob('s23*.py'));")
+s=s.replace("if record['strategy'] not in ('s19_combine','s20_v4','s21_v4dino'):", "if record['strategy'] not in manifest.get('candidates',CANDIDATES):")
+s=s.replace("manifest=dict(version=2,freeze=", "manifest=dict(version=3,candidates=CANDIDATES,freeze=")
+s=s.replace("strategy=='s21_v4dino'", "strategy in ('s21_v4dino','s23_v4dino_distinct')")
+s=s.replace("if strategy in ('s20_v4','s21_v4dino'):labels", "if strategy in ('s20_v4','s21_v4dino'):labels")
+s=s.replace("twins=classifier.twins(log.name);labels=[twins.get(label,label) for label,_ in classifier.legend(log.name,classifier.log_scale(log.name))]", "twins=classifier.twins(log.name) if strategy!='s23_v4dino_distinct' else {};labels=[twins.get(label,label) for label,_ in classifier.legend(log.name,classifier.log_scale(log.name))]")
+s=s.replace("check_sources(manifest['source_hashes'])\n    result_path", "check_sources(manifest['source_hashes'])\n    args.strategies=args.strategies or ','.join(manifest.get('candidates',CANDIDATES))\n    result_path")
+s=s.replace("complete=len(records)==len(manifest['cases'])*len(args.strategies.split(','))", "complete={(r['case_id'],r['strategy']) for r in records}=={(c['case_id'],st) for c in manifest['cases'] for st in manifest.get('candidates',CANDIDATES)}")
+s=s.replace("p.add_argument('--strategies',default='s19_combine,s20_v4,s21_v4dino')", "p.add_argument('--strategies')")
+p.write_text(s,encoding='utf-8')

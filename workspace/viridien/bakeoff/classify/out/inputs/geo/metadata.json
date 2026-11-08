@@ -1,0 +1,65 @@
+{
+  "family": "Geoservices grid",
+  "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+  "rows": [
+    10072,
+    11672
+  ],
+  "n_rock": 30,
+  "share": {
+    "Calcareous clay-shale | Clay Shale": 1.0
+  },
+  "key": "geo",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\geo\\consensus.csv",
+  "vocabulary": [
+    "Clay Shale",
+    "Calcareous clay-shale",
+    "Silty clay-shale",
+    "Marl",
+    "Limestone",
+    "Argillaceous limestone",
+    "Bituminous limestone",
+    "Oolic limestone",
+    "Coarsesandstone",
+    "Medium sandstone",
+    "Fine sandstone",
+    "Fine sand",
+    "Medium sand",
+    "Calcareous sandstone",
+    "Dolomitic sandstone",
+    "Silt",
+    "Siltstone",
+    "Chert",
+    "Dolomite",
+    "Fine Dolomite",
+    "Sandy Dolomite",
+    "Sandy and calcareous dolomite",
+    "Argil and sandy dolomite",
+    "Halite",
+    "Anhydrite",
+    "Gypsum",
+    "Sylvite",
+    "Coal-lignite",
+    "Basalt",
+    "Granite"
+  ],
+  "parser_failed": false,
+  "n_accepted": 1,
+  "n_selected": 1,
+  "excluded": [],
+  "mode": "RGB",
+  "legend_box": [
+    447,
+    498,
+    1213,
+    1147
+  ],
+  "column_box": [
+    1300,
+    1543,
+    1355,
+    25948
+  ],
+  "truth_sha256": "fdfb49f73c6cff14066b3e06c52898ad72effc938dbbe9dd63aa2261c6eef36d"
+}

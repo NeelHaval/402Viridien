@@ -1,0 +1,170 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Emil evaluation: dev and test</title><style>body{font:15px/1.5 Arial,sans-serif;color:#222;background:#fff;margin:28px auto;max-width:1300px;padding:0 20px}table{border-collapse:collapse;width:100%}td,th{padding:6px;border-bottom:1px solid #ddd;text-align:left}pre{white-space:pre-wrap}img{max-width:100%;height:auto}figure{margin:24px 0}a{color:#176494}</style><main><h1>Emil live notebook evaluation: dev and test</h1>
+<p>Main checkpoint: <code>emil/drive/boundary_net.pt</code>; SHA256 <code>45273902c94e642e0bc5edac8d51295f9e7106372b6b2f2bb137a54f9be40079</code>.</p>
+<p>Hadrian reproduces Emil’s 95 beds → 47 segments, row accuracy 0.858, 85.57% classification PixAcc in both detect and labels, 0.989 naming accuracy with true segments, and 94.44% detected-legend text accuracy. Section 3’s default auto loads the GT legend. Live Section 4 selects detect explicitly.</p>
+<p>1inch tvd mudlog is in splits.test and excluded by the current TRAIN_PAGES rule. The historical main checkpoint has no training-page manifest. gc743 has only two labelled layers and is excluded from complete aggregates.</p>
+<h2>Same-window direct results</h2>
+<p>Macro means over 2 complete in-domain columns, external dev (59 windows), test (20), and dev+test (79). All strategies bypass depth OCR. detect uses page pixels and cached OCR; labels uses true legend boxes/names.</p>
+<table>
+<tr><th>Set</th><th>Method</th><th>Row acc</th><th>Boundary F1</th><th>ARI</th><th>Failures</th><th>Emil coverage</th><th>Emil PixAcc</th></tr>
+<tr><td>viridien</td><td>detect</td><td>0.8218</td><td>0.2494</td><td>0.5547</td><td>0/2</td><td>0.9861</td><td>0.8118</td></tr>
+<tr><td>viridien</td><td>labels</td><td>0.8504</td><td>0.2610</td><td>0.5984</td><td>0/2</td><td>0.9956</td><td>0.8488</td></tr>
+<tr><td>viridien</td><td>s11</td><td>0.6903</td><td>0.1128</td><td>0.5837</td><td>0/2</td><td>0.9798</td><td>0.6759</td></tr>
+<tr><td>dev</td><td>detect</td><td>0.0000</td><td>0.0169</td><td>0.1186</td><td>0/59</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>dev</td><td>labels</td><td>0.8454</td><td>0.4622</td><td>0.7372</td><td>0/59</td><td>0.9873</td><td>0.8393</td></tr>
+<tr><td>dev</td><td>s11</td><td>0.4391</td><td>0.3535</td><td>0.6574</td><td>0/59</td><td>0.9857</td><td>0.4351</td></tr>
+<tr><td>test</td><td>detect</td><td>0.0000</td><td>0.0123</td><td>0.2860</td><td>0/20</td><td>0.9991</td><td>0.0367</td></tr>
+<tr><td>test</td><td>labels</td><td>0.6648</td><td>0.1755</td><td>0.4245</td><td>0/20</td><td>0.9861</td><td>0.7022</td></tr>
+<tr><td>test</td><td>s11</td><td>0.1069</td><td>0.2191</td><td>0.5399</td><td>0/20</td><td>0.9425</td><td>0.0993</td></tr>
+<tr><td>dev_test</td><td>detect</td><td>0.0000</td><td>0.0158</td><td>0.1610</td><td>0/79</td><td>0.9991</td><td>0.0367</td></tr>
+<tr><td>dev_test</td><td>labels</td><td>0.7997</td><td>0.3897</td><td>0.6581</td><td>0/79</td><td>0.9870</td><td>0.8046</td></tr>
+<tr><td>dev_test</td><td>s11</td><td>0.3550</td><td>0.3195</td><td>0.6276</td><td>0/79</td><td>0.9748</td><td>0.3501</td></tr>
+</table>
+<p>The unchanged team segmentation/classification evaluators reject empty predictions: external detect rejects 59/59 dev, 13/20 test, 72/79 combined. PixAcc is N/A with no accepted files; otherwise its mean uses accepted files only. Every harness metric still includes every window. Exact rejection counts and messages are retained in report.json.</p>
+<h2>Shared harness including preprocessing failures</h2>
+<p>s12-detect and s11 reuse completed original harness outcomes. s12-labels uses CPU-replayed identical predict() with those recorded preprocessing outcomes. Five available windows fail depth calibration; failure rows remain in all means.</p>
+<table>
+<tr><th>Split</th><th>Method</th><th>Row acc</th><th>Boundary F1</th><th>ARI</th><th>Failures</th></tr>
+<tr><td>dev</td><td>detect</td><td>0.0000</td><td>0.0169</td><td>0.1186</td><td>3/59</td></tr>
+<tr><td>dev</td><td>labels</td><td>0.7982</td><td>0.4703</td><td>0.7429</td><td>3/59</td></tr>
+<tr><td>dev</td><td>s11</td><td>0.4078</td><td>0.3450</td><td>0.6430</td><td>3/59</td></tr>
+<tr><td>test</td><td>detect</td><td>0.0000</td><td>0.0123</td><td>0.2860</td><td>2/20</td></tr>
+<tr><td>test</td><td>labels</td><td>0.6233</td><td>0.1555</td><td>0.3927</td><td>2/20</td></tr>
+<tr><td>test</td><td>s11</td><td>0.0734</td><td>0.1541</td><td>0.4440</td><td>2/20</td></tr>
+<tr><td>dev_test</td><td>detect</td><td>0.0000</td><td>0.0158</td><td>0.1610</td><td>5/79</td></tr>
+<tr><td>dev_test</td><td>labels</td><td>0.7539</td><td>0.3906</td><td>0.6543</td><td>5/79</td></tr>
+<tr><td>dev_test</td><td>s11</td><td>0.3231</td><td>0.2967</td><td>0.5926</td><td>5/79</td></tr>
+</table>
+<p>Gold log06, s12-detect: row 0.0000, F1 0.0789, ARI 0.0776. Existing s11: row 0.1292, F1 0.8485, ARI 0.8300. Only one gold page is scored; other eval pages are timing-only. No supplied true legend is available for log06 oracle scoring.</p>
+<h2>Complete-page reproduction</h2>
+<table>
+<tr><th>Page</th><th>Method</th><th>Beds</th><th>Segments</th><th>Row acc</th><th>Boundary F1</th><th>ARI</th><th>Emil PixAcc</th></tr>
+<tr><td>60808400140000_hadrian 2_masterlog_2in_10000-21962</td><td>detect</td><td>95</td><td>47</td><td>0.8580</td><td>0.2110</td><td>0.7179</td><td>0.8557</td></tr>
+<tr><td>60808400140000_hadrian 2_masterlog_2in_10000-21962</td><td>labels</td><td>95</td><td>47</td><td>0.8580</td><td>0.2110</td><td>0.7179</td><td>0.8557</td></tr>
+<tr><td>60808400140000_hadrian 2_masterlog_2in_10000-21962</td><td>s11</td><td>—</td><td>—</td><td>0.5406</td><td>0.1013</td><td>0.6771</td><td>0.5310</td></tr>
+</table>
+<p>True-segment naming (60808400140000_hadrian 2_masterlog_2in_10000-21962): <code>{&#x27;row_accuracy&#x27;: 0.989, &#x27;blank_kept_blank&#x27;: 1.0}</code>.</p>
+<table>
+<tr><th>60811405120000_1inch tvd mudlog</th><th>detect</th><th>62</th><th>61</th><th>0.7856</th><th>0.2877</th><th>0.3914</th><th>0.7678</th></tr>
+<tr><td>60811405120000_1inch tvd mudlog</td><td>labels</td><td>62</td><td>61</td><td>0.8427</td><td>0.3109</td><td>0.4790</td><td>0.8419</td></tr>
+<tr><td>60811405120000_1inch tvd mudlog</td><td>s11</td><td>—</td><td>—</td><td>0.8400</td><td>0.1244</td><td>0.4904</td><td>0.8208</td></tr>
+</table>
+<p>True-segment naming (60811405120000_1inch tvd mudlog): <code>{&#x27;row_accuracy&#x27;: 0.936, &#x27;blank_kept_blank&#x27;: 1.0}</code>.</p>
+<h2>Legend detection</h2>
+<table>
+<tr><th>Set</th><th>Pages with any detections</th><th>Box precision</th><th>Box recall</th><th>Text accuracy</th></tr>
+<tr><td>viridien</td><td>2/2</td><td>0.7798</td><td>1.0000</td><td>0.9134</td></tr>
+<tr><td>dev</td><td>0/54</td><td>N/A</td><td>0.0000</td><td>0.0000</td></tr>
+<tr><td>test</td><td>7/16</td><td>1.0000</td><td>0.0230</td><td>0.0000</td></tr>
+<tr><td>dev_test</td><td>7/70</td><td>1.0000</td><td>0.0053</td><td>0.0000</td></tr>
+</table>
+<p>Unique physical pages are counted once; precision conditions on pages with detections (undefined otherwise). Recall and text include zero detections. Window-weighted legend scores and per-source dev/test/combined breakdowns are in report.json. Swatch-size filter eligibility is diagnostic only.</p>
+<h2>CPU runtime and memory</h2>
+<table>
+<tr><th>Set</th><th>Method</th><th>Seconds / window</th><th>Seconds / page</th><th>Peak process GiB</th><th>GPU GiB</th></tr>
+<tr><td>viridien</td><td>detect</td><td>0.9878</td><td>0.9878</td><td>0.923</td><td>0</td></tr>
+<tr><td>viridien</td><td>labels</td><td>0.8936</td><td>0.8936</td><td>0.959</td><td>0</td></tr>
+<tr><td>dev</td><td>detect</td><td>0.0687</td><td>0.0750</td><td>0.440</td><td>0</td></tr>
+<tr><td>dev</td><td>labels</td><td>0.1478</td><td>0.1615</td><td>0.441</td><td>0</td></tr>
+<tr><td>test</td><td>detect</td><td>0.0978</td><td>0.1223</td><td>0.440</td><td>0</td></tr>
+<tr><td>test</td><td>labels</td><td>0.2497</td><td>0.3121</td><td>0.442</td><td>0</td></tr>
+<tr><td>dev_test</td><td>detect</td><td>0.0761</td><td>0.0859</td><td>0.440</td><td>0</td></tr>
+<tr><td>dev_test</td><td>labels</td><td>0.1736</td><td>0.1959</td><td>0.442</td><td>0</td></tr>
+</table>
+<p>External page time is the sum of its sampled evaluation windows, not full original-page inference. CPU, six torch threads, warm content-addressed OCR, no tracemalloc. Times exclude shared depth/legend parsing and rendering. <a href="page_resources.csv">Per-page timings</a>.</p>
+<h2>Secondary retrained model</h2>
+<table>
+<tr><th>Set</th><th>Method</th><th>Row acc</th><th>Boundary F1</th><th>ARI</th><th>Failures</th><th>Emil coverage</th><th>Emil PixAcc</th></tr>
+<tr><td>retrained / 2 pages</td><td>detect</td><td>0.8676</td><td>0.5218</td><td>0.6305</td><td>0/2</td><td>0.9855</td><td>0.8572</td></tr>
+<tr><td>retrained / 2 pages</td><td>labels</td><td>0.8866</td><td>0.5360</td><td>0.6669</td><td>0/2</td><td>0.9944</td><td>0.8867</td></tr>
+</table>
+<p>Reused the completed 2000-step retrain (29 pages, NumPy/torch seed 0), checkpoint <code>50a5751d8c1e636de3177c2c8a596c295a980b02987b577a51b782566e7c214c</code>; reran both modes on both complete pages. Training loss and selection remain in ../training.log and ../training.json. The current live selection differs; validation.json records the differences.</p>
+<h2>Incomplete gc743</h2>
+<p>Only two layers (342 labelled rows), one with unknown/null legend ID and one numeric type. Oracle scoring is separate; uncached detect cannot run because EasyOCR weights are absent and downloads fail DNS. This is an environment failure, not a measured zero-quality prediction.</p>
+<p>detect: <code>{&#x27;row_acc&#x27;: 0.0, &#x27;boundary_f1&#x27;: 0.0, &#x27;cluster_ari&#x27;: 0.0, &#x27;failures&#x27;: 1, &#x27;n_windows&#x27;: 1, &#x27;emil_coverage&#x27;: None, &#x27;emil_pixacc&#x27;: None, &#x27;emil_segmentation_rejected&#x27;: 1, &#x27;emil_classification_rejected&#x27;: 1, &#x27;legend_precision&#x27;: nan, &#x27;legend_recall&#x27;: 0.0, &#x27;legend_text&#x27;: 0.0}</code></p>
+<p>labels: <code>{&#x27;row_acc&#x27;: 0.11695906432748537, &#x27;boundary_f1&#x27;: 0.6666666666666666, &#x27;cluster_ari&#x27;: 0.9477589792214567, &#x27;failures&#x27;: 0, &#x27;n_windows&#x27;: 1, &#x27;emil_coverage&#x27;: 0.021743276749952318, &#x27;emil_pixacc&#x27;: 0.0025430733040879903, &#x27;emil_segmentation_rejected&#x27;: 0, &#x27;emil_classification_rejected&#x27;: 0, &#x27;legend_precision&#x27;: 1.0, &#x27;legend_recall&#x27;: 1.0, &#x27;legend_text&#x27;: 1.0}</code></p>
+<h2>Five observed failure modes</h2>
+<ul>
+<li>Most external legends yield no detected swatches, so detect mode cannot name the column. Example: <code>ext_utah_4304150011_p153</code>.</li>
+<li>Two detected boxes on EmmaWard1 do not recover its true legend; OCR/naming still gives zero row accuracy. Example: <code>ext_kgs_EmmaWard1_p002</code>.</li>
+<li>Oracle names do not solve texture confusion: flat-bay-2 has nearly correct partitions with wrong lithology names. Example: <code>ext_nl_flat-bay-2_p078</code>.</li>
+<li>Bed clustering misses thin-layer boundaries. Hadrian has 680 labelled layers but only 47 Section-2 segments. Example: <code>60808400140000_hadrian 2_masterlog_2in_10000-21962</code>.</li>
+<li>Shared depth calibration fails before lithology inference on five allowed windows; direct scoring exposes the separate inference result. Example: <code>ext_utah_4304150011_p155</code>.</li>
+</ul>
+<h2>Reuse and verification</h2>
+<pre>{
+  &quot;allowed_cohort&quot;: {
+    &quot;dev_windows&quot;: 59,
+    &quot;test_windows&quot;: 20,
+    &quot;combined_windows&quot;: 79,
+    &quot;physical_pages&quot;: 70
+  },
+  &quot;main_checkpoint_sha256&quot;: &quot;45273902c94e642e0bc5edac8d51295f9e7106372b6b2f2bb137a54f9be40079&quot;,
+  &quot;reused&quot;: [
+    &quot;Live 56-cell notebook port, main checkpoint, byte-identical team evaluators&quot;,
+    &quot;70-page / 79-window external conversion and cropped dataset view&quot;,
+    &quot;Both complete in-domain pages in detect/labels/s11 after exact CPU replay of s12&quot;,
+    &quot;79 main detect predictions, 74 s11 direct CSVs, cached page-pixel OCR&quot;,
+    &quot;Completed original s12-detect/s11 shared preprocessing outcomes, restricted to dev/test&quot;,
+    &quot;Existing completed 2000-step, 29-page retrained checkpoint and loss log&quot;
+  ],
+  &quot;rerun&quot;: [
+    &quot;79 external labels/oracle predictions on CPU (12 disagreed in first portability replay)&quot;,
+    &quot;Five s11 direct windows had empty CSVs from shared preprocessing failures; rerun strategy with fresh shared RapidOCR legend parsing&quot;,
+    &quot;All three unchanged team evaluators and shared scoring separately for dev/test/dev+test&quot;,
+    &quot;162 untraced CPU inference measurements, all exact matches to final predictions&quot;,
+    &quot;Both modes on two complete pages with retrained checkpoint&quot;,
+    &quot;Live experiment API smoke, port/algorithm/conversion validation, existing tests&quot;,
+    &quot;gc743 detect attempted; unavailable without EasyOCR weights; oracle kept separate&quot;,
+    &quot;Shared oracle pixel scores using replayed inference and recorded preprocessing outcomes&quot;,
+    &quot;All report HTML/JSON/Markdown/CSV and PNGs&quot;
+  ],
+  &quot;removed_wells&quot;: &quot;Excluded by eval-set allowlist; stale out-of-scope artifacts retired by filename only; no reconstruction&quot;,
+  &quot;gc743_detect&quot;: &quot;Unavailable: no EasyOCR weights and DNS prevents download&quot;,
+  &quot;cpu_replay&quot;: {
+    &quot;calls&quot;: 162,
+    &quot;exact_prediction_matches&quot;: 162
+  },
+  &quot;test_limit&quot;: &quot;Harness passes; full converter suite lacks original sample and hits existing render guard&quot;
+}</pre>
+<p>Evaluator files are byte-identical to the live Drive scripts; only CONFIG changes in memory. Data acceptance passed; the full existing test suite is not green. Harness: 9 passed. Full suite: 36 passed, 3 failed, 8 errors (missing original dev PDF and unchanged converter render-size guard). Details: ../acceptance.json, ../tests_live.log and ../tests_harness_vm.log.</p>
+<h2>Limits</h2>
+<ul>
+<li>Only two complete in-domain pages; external windows are correlated within wells.</li>
+<li>Removed verify wells were excluded throughout. No verify metrics are generated.</li>
+<li>Direct scores bypass shared depth OCR equally; shared tables retain recorded preprocessing failures.</li>
+<li>Oracle shared results combine CPU-replayed predictions with original preprocessing outcomes, not a fresh end-to-end depth-OCR run.</li>
+<li>s11 predictions and detect shared-harness outcomes are reused. CSV-loading time is not s11 inference runtime.</li>
+<li>CPU replay uses exact cached OCR. EasyOCR weights are absent and DNS blocks downloading them; uncached gc743 detection is unavailable.</li>
+<li>Coverage PixAcc is not boundary accuracy; classification PixAcc includes background. ARI ignores class-name correctness.</li>
+<li>An empty prediction can have ARI=1 on a single-class window; boundary F1 is also 1 when both boundary sets are empty.</li>
+<li>Unchanged team segmentation/classification evaluators reject empty predictions. Their PixAcc means condition on accepted files; rejection counts are explicit. Harness means include all windows.</li>
+<li>Runtime uses CPU, six torch threads, warm OCR and no tracemalloc; original laptop timings are retained separately in source records.</li>
+<li>Both labelled pages are excluded by reconstructed training rules. Historical Drive checkpoint training metadata is unavailable.</li>
+<li>The existing retrain used 29 pages; current live selection differs as recorded in validation.json. It is a secondary check.</li>
+</ul>
+<h2>Files</h2>
+<ul>
+<li><a href="index.html">Full report and figures</a></li>
+<li><a href="report.json">All metrics and provenance</a></li>
+<li><a href="per_source.png">Overall comparison</a></li>
+<li><a href="per_source_dev.png">Per-source dev</a></li>
+<li><a href="per_source_test.png">Per-source test</a></li>
+<li><a href="per_source_dev_test.png">Per-source dev+test</a></li>
+<li><a href="panel_60808400140000_hadrian%202_masterlog_2in_10000-21962.png">viridien 60808400140000_hadrian 2_masterlog_2in_10000-21962</a></li>
+<li><a href="panel_60811405120000_1inch%20tvd%20mudlog.png">viridien 60811405120000_1inch tvd mudlog</a></li>
+<li><a href="panel_ext_idaho_barlow3-14_p002__y7726_13726.png">dev ext_idaho_barlow3-14_p002__y7726_13726</a></li>
+<li><a href="panel_ext_idaho_irvin1-19_p001__y15750_21750.png">test ext_idaho_irvin1-19_p001__y15750_21750</a></li>
+<li><a href="panel_ext_kgs_EmmaWard1_p002.png">test ext_kgs_EmmaWard1_p002</a></li>
+<li><a href="panel_ext_kgs_ForsythB2-17_p020.png">dev ext_kgs_ForsythB2-17_p020</a></li>
+<li><a href="panel_ext_nl_flat-bay-3_p060.png">test ext_nl_flat-bay-3_p060</a></li>
+<li><a href="panel_ext_nl_flat-bay-2_p078.png">dev ext_nl_flat-bay-2_p078</a></li>
+<li><a href="panel_ext_utah_4304150011_p153.png">dev ext_utah_4304150011_p153</a></li>
+<li><a href="panel_ext_utah_4304150011_p155.png">dev ext_utah_4304150011_p155</a></li>
+<li><a href="panel_shared_ext_utah_4304150011_p155.png">dev ext_utah_4304150011_p155</a></li>
+<li><a href="legend_60808400140000_hadrian%202_masterlog_2in_10000-21962.png">Legend overlay</a></li>
+<li><a href="legend_60811405120000_1inch%20tvd%20mudlog.png">Legend overlay</a></li>
+<li><a href="legend_ext_idaho_barlow3-14_p002.png">Legend overlay</a></li>
+<li><a href="legend_ext_kgs_EmmaWard1_p002.png">Legend overlay</a></li>
+<li><a href="legend_ext_nl_flat-bay-3_p060.png">Legend overlay</a></li>
+<li><a href="legend_ext_utah_4304150011_p153.png">Legend overlay</a></li>
+</ul><figure><a href="per_source.png"><img loading="lazy" src="per_source.png"></a><figcaption>per_source.png</figcaption></figure><figure><a href="per_source_dev.png"><img loading="lazy" src="per_source_dev.png"></a><figcaption>per_source_dev.png</figcaption></figure><figure><a href="per_source_test.png"><img loading="lazy" src="per_source_test.png"></a><figcaption>per_source_test.png</figcaption></figure><figure><a href="per_source_dev_test.png"><img loading="lazy" src="per_source_dev_test.png"></a><figcaption>per_source_dev_test.png</figcaption></figure><figure><a href="legend_60808400140000_hadrian 2_masterlog_2in_10000-21962.png"><img loading="lazy" src="legend_60808400140000_hadrian 2_masterlog_2in_10000-21962.png"></a><figcaption>legend_60808400140000_hadrian 2_masterlog_2in_10000-21962.png</figcaption></figure><figure><a href="legend_60811405120000_1inch tvd mudlog.png"><img loading="lazy" src="legend_60811405120000_1inch tvd mudlog.png"></a><figcaption>legend_60811405120000_1inch tvd mudlog.png</figcaption></figure><figure><a href="legend_ext_idaho_barlow3-14_p002.png"><img loading="lazy" src="legend_ext_idaho_barlow3-14_p002.png"></a><figcaption>legend_ext_idaho_barlow3-14_p002.png</figcaption></figure><figure><a href="legend_ext_kgs_EmmaWard1_p002.png"><img loading="lazy" src="legend_ext_kgs_EmmaWard1_p002.png"></a><figcaption>legend_ext_kgs_EmmaWard1_p002.png</figcaption></figure><figure><a href="legend_ext_nl_flat-bay-3_p060.png"><img loading="lazy" src="legend_ext_nl_flat-bay-3_p060.png"></a><figcaption>legend_ext_nl_flat-bay-3_p060.png</figcaption></figure><figure><a href="legend_ext_utah_4304150011_p153.png"><img loading="lazy" src="legend_ext_utah_4304150011_p153.png"></a><figcaption>legend_ext_utah_4304150011_p153.png</figcaption></figure><figure><a href="panel_60808400140000_hadrian 2_masterlog_2in_10000-21962.png"><img loading="lazy" src="panel_60808400140000_hadrian 2_masterlog_2in_10000-21962.png"></a><figcaption>panel_60808400140000_hadrian 2_masterlog_2in_10000-21962.png</figcaption></figure><figure><a href="panel_60811405120000_1inch tvd mudlog.png"><img loading="lazy" src="panel_60811405120000_1inch tvd mudlog.png"></a><figcaption>panel_60811405120000_1inch tvd mudlog.png</figcaption></figure><figure><a href="panel_ext_idaho_barlow3-14_p002__y7726_13726.png"><img loading="lazy" src="panel_ext_idaho_barlow3-14_p002__y7726_13726.png"></a><figcaption>panel_ext_idaho_barlow3-14_p002__y7726_13726.png</figcaption></figure><figure><a href="panel_ext_idaho_irvin1-19_p001__y15750_21750.png"><img loading="lazy" src="panel_ext_idaho_irvin1-19_p001__y15750_21750.png"></a><figcaption>panel_ext_idaho_irvin1-19_p001__y15750_21750.png</figcaption></figure><figure><a href="panel_ext_kgs_EmmaWard1_p002.png"><img loading="lazy" src="panel_ext_kgs_EmmaWard1_p002.png"></a><figcaption>panel_ext_kgs_EmmaWard1_p002.png</figcaption></figure><figure><a href="panel_ext_kgs_ForsythB2-17_p020.png"><img loading="lazy" src="panel_ext_kgs_ForsythB2-17_p020.png"></a><figcaption>panel_ext_kgs_ForsythB2-17_p020.png</figcaption></figure><figure><a href="panel_ext_nl_flat-bay-3_p060.png"><img loading="lazy" src="panel_ext_nl_flat-bay-3_p060.png"></a><figcaption>panel_ext_nl_flat-bay-3_p060.png</figcaption></figure><figure><a href="panel_ext_nl_flat-bay-2_p078.png"><img loading="lazy" src="panel_ext_nl_flat-bay-2_p078.png"></a><figcaption>panel_ext_nl_flat-bay-2_p078.png</figcaption></figure><figure><a href="panel_ext_utah_4304150011_p153.png"><img loading="lazy" src="panel_ext_utah_4304150011_p153.png"></a><figcaption>panel_ext_utah_4304150011_p153.png</figcaption></figure><figure><a href="panel_ext_utah_4304150011_p155.png"><img loading="lazy" src="panel_ext_utah_4304150011_p155.png"></a><figcaption>panel_ext_utah_4304150011_p155.png</figcaption></figure><figure><a href="panel_shared_ext_utah_4304150011_p155.png"><img loading="lazy" src="panel_shared_ext_utah_4304150011_p155.png"></a><figcaption>panel_shared_ext_utah_4304150011_p155.png</figcaption></figure></main></html>

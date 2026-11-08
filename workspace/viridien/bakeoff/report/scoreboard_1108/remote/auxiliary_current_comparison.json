@@ -1,0 +1,26 @@
+[
+  {
+    "path": "labeltool/__init__.py",
+    "archived_sha256": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "current_sha256": "6b22c6d2f245bc9134404df191ad9197538b59c5acc4a7a74a5caba3373692bf",
+    "present_state_match": true
+  },
+  {
+    "path": "labeltool/common.py",
+    "archived_sha256": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "current_sha256": "34eae496e9f440382768f3ed4d40a6a7d86eaf24484617182ad15285b01c67c0",
+    "present_state_match": true
+  },
+  {
+    "path": "labeltool/jev2.py",
+    "archived_sha256": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "current_sha256": "a474e5fa3a2a02342453b105c53bb6614d4b1abebc17db20ddbcf02e013a32a6",
+    "present_state_match": true
+  },
+  {
+    "path": "labeltool/legend_classify.py",
+    "archived_sha256": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "current_sha256": "44451fea6bf696e002901fd216e073ed80752321a957bbec4b3a3bcce1657419",
+    "present_state_match": true
+  }
+]

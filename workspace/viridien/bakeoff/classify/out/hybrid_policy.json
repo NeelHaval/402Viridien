@@ -1,0 +1,10 @@
+{
+  "local": "dinov2",
+  "jev": "jev_choice",
+  "threshold": 0.0,
+  "tuning_source": "log06 TRUE only",
+  "local_true_top1": 0.6470588235294118,
+  "status": "ok",
+  "selection_bias": "Local choice and threshold are fitted on these 17 TRUE patches; TRUE hybrid result is resubstitution, not held-out validation.",
+  "n_true_jev_available": 17
+}

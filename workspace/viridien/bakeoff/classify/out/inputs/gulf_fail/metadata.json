@@ -1,0 +1,50 @@
+{
+  "family": "Gulf 3-panel, parser failed",
+  "log": "60811405350100_shenzi-sb203-st00bp01_mudlog_4320-27400",
+  "rows": [
+    30618,
+    32218
+  ],
+  "n_rock": 0,
+  "share": {
+    "noparse": 1.0
+  },
+  "key": "gulf_fail",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\gulf_fail\\consensus.csv",
+  "vocabulary": [
+    "Siltstone",
+    "Sandstone",
+    "Halite",
+    "Shale",
+    "Clay",
+    "Limestone",
+    "Dolomite",
+    "Marl",
+    "Dolomitic limestone",
+    "Chalk",
+    "Gypsum",
+    "Anhydrite",
+    "Chert",
+    "Volcanics",
+    "Granite"
+  ],
+  "parser_failed": true,
+  "n_accepted": 3,
+  "n_selected": 3,
+  "excluded": [],
+  "mode": "P",
+  "legend_box": [
+    122,
+    898,
+    2432,
+    1505
+  ],
+  "column_box": [
+    1875,
+    2363,
+    1970,
+    71702
+  ],
+  "truth_sha256": "7be82a93bf21780eb04e326e191f40b1cccb2c5c504a67e7f21a7b2099fc268f"
+}

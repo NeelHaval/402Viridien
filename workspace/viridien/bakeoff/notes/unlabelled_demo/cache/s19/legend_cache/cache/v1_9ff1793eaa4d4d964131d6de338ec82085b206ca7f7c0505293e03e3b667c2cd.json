@@ -1,0 +1,786 @@
+{
+  "version": 1,
+  "digest": "9ff1793eaa4d4d964131d6de338ec82085b206ca7f7c0505293e03e3b667c2cd",
+  "layout": null,
+  "items": [
+    {
+      "box": [
+        32,
+        97,
+        65,
+        130
+      ],
+      "candidates": [
+        {
+          "text": "S4Ad",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "S4Ad",
+          "confidence": 0.7747315615415573,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "Smd",
+          "confidence": 0.5383298081364205,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        88,
+        98,
+        121,
+        131
+      ],
+      "candidates": [
+        {
+          "text": "c! ard",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "",
+          "confidence": 0.0,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "S1",
+          "confidence": 0.249159038066864,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "c!",
+          "confidence": 0.3707335442304611,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "l.",
+          "confidence": 0.293300986289978,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "',",
+          "confidence": 0.24869922458736382,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "8",
+          "confidence": 0.038635533042105985,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "a",
+          "confidence": 0.03725990197641327,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "4",
+          "confidence": 0.5650463245729043,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        154,
+        98,
+        186,
+        131
+      ],
+      "candidates": [
+        {
+          "text": ".",
+          "confidence": 0.8026971817016602,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "'{",
+          "confidence": 0.043626358704927454,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        215,
+        99,
+        249,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "-c",
+          "confidence": 0.7201855480670929,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "'C",
+          "confidence": 0.6440631671958744,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        359,
+        99,
+        392,
+        132
+      ],
+      "candidates": [
+        {
+          "text": "Lmite \u2191",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "tr",
+          "confidence": 0.9074885249137878,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Lmite",
+          "confidence": 0.9107248783111572,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "amue",
+          "confidence": 0.3177676908671856,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "t",
+          "confidence": 0.9949225429855382,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Umite",
+          "confidence": 0.560925998068641,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "GGu",
+          "confidence": 0.0784011459142376,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        431,
+        99,
+        464,
+        133
+      ],
+      "candidates": [
+        {
+          "text": "\u5fc3\u8d1f C\u9c81Aik",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.994917631149292,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Yat",
+          "confidence": 0.7076475222905477,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "Yatic",
+          "confidence": 0.5275311052799225,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1",
+          "confidence": 0.9948973350171606,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Yot",
+          "confidence": 0.4635845084242698,
+          "engine": "easy",
+          "direction": "below"
+        },
+        {
+          "text": "Ssic",
+          "confidence": 0.1522696151073296,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        495,
+        99,
+        528,
+        132
+      ],
+      "candidates": [
+        {
+          "text": "iA+ru-",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "iatru.",
+          "confidence": 0.6678202611704668,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "Int %-",
+          "confidence": 0.14714939806919433,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        280,
+        101,
+        312,
+        134
+      ],
+      "candidates": [
+        {
+          "text": "Co.g!.",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "-L",
+          "confidence": 0.638891875743866,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "\u54c1\u663e\u606f\u3002",
+          "confidence": 0.460813969373703,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "Coag!.",
+          "confidence": 0.7200569113095602,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1. L",
+          "confidence": 0.5693428885281965,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "15 22.",
+          "confidence": 0.08429876966316877,
+          "engine": "easy",
+          "direction": "left"
+        },
+        {
+          "text": "Coatl:",
+          "confidence": 0.46885917129461435,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        555,
+        102,
+        588,
+        136
+      ],
+      "candidates": [
+        {
+          "text": "L",
+          "confidence": 0.6251810193061829,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Li",
+          "confidence": 0.07133513798405879,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        621,
+        102,
+        653,
+        136
+      ],
+      "candidates": [
+        {
+          "text": "Sail  Llemaet. Chari",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "1.1",
+          "confidence": 0.7117330531279246,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "Satl Limatt. Chert",
+          "confidence": 0.7800402972433302,
+          "engine": "rapid",
+          "direction": "below"
+        },
+        {
+          "text": "1.'",
+          "confidence": 0.2142585963010788,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Sali   (Imtu. Cbat|",
+          "confidence": 0.05772755404286646,
+          "engine": "easy",
+          "direction": "below"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        674,
+        103,
+        707,
+        136
+      ],
+      "candidates": [
+        {
+          "text": "+",
+          "confidence": 0.2954520881175995,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "1",
+          "confidence": 0.7402830678930492,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ],
+      "section": "lithology"
+    },
+    {
+      "box": [
+        741,
+        105,
+        774,
+        139
+      ],
+      "candidates": [],
+      "section": "lithology"
+    }
+  ],
+  "ocr": [
+    {
+      "box": [
+        [
+          249.5967814127604,
+          37.94117736816406
+        ],
+        [
+          533.8709716796875,
+          40.3125
+        ],
+        [
+          533.8709716796875,
+          62.444854736328125
+        ],
+        [
+          249.5967814127604,
+          60.07353210449219
+        ]
+      ],
+      "text": "LITHOLOGY SYMBOLS",
+      "confidence": 0.9651574282085195
+    },
+    {
+      "box": [
+        [
+          57.66129048665365,
+          93.66727701822917
+        ],
+        [
+          250.40323893229166,
+          93.66727701822917
+        ],
+        [
+          250.40323893229166,
+          132.0036824544271
+        ],
+        [
+          57.66129048665365,
+          132.0036824544271
+        ]
+      ],
+      "text": "10 8 9",
+      "confidence": 0.7407386104265848
+    },
+    {
+      "box": [
+        [
+          489.9193522135417,
+          94.45772298177083
+        ],
+        [
+          779.0323079427084,
+          100.78125
+        ],
+        [
+          777.8225911458334,
+          143.86030069986978
+        ],
+        [
+          488.7096761067708,
+          137.5367635091146
+        ]
+      ],
+      "text": "\u53e3\u56de\u53e3",
+      "confidence": 0.7743869423866272
+    },
+    {
+      "box": [
+        [
+          26.612904866536457,
+          135.95588175455728
+        ],
+        [
+          70.56451924641927,
+          135.95588175455728
+        ],
+        [
+          70.56451924641927,
+          152.5551554361979
+        ],
+        [
+          26.612904866536457,
+          152.5551554361979
+        ]
+      ],
+      "text": "S4Ad",
+      "confidence": 0.6998705863952637
+    },
+    {
+      "box": [
+        [
+          83.8709716796875,
+          132.39889526367188
+        ],
+        [
+          124.59678141276042,
+          139.90809122721353
+        ],
+        [
+          120.16129557291667,
+          164.01655069986978
+        ],
+        [
+          79.43548583984375,
+          156.50735473632812
+        ]
+      ],
+      "text": "c!",
+      "confidence": 0.6630131602287292
+    },
+    {
+      "box": [
+        [
+          145.16129557291666,
+          135.5606689453125
+        ],
+        [
+          256.4516194661458,
+          138.7224324544271
+        ],
+        [
+          256.04840087890625,
+          156.11213175455728
+        ],
+        [
+          144.75806681315103,
+          152.95036824544272
+        ]
+      ],
+      "text": "sill!. saadp",
+      "confidence": 0.7510013555486997
+    },
+    {
+      "box": [
+        [
+          264.91937255859375,
+          138.7224324544271
+        ],
+        [
+          326.20969645182294,
+          139.90809122721353
+        ],
+        [
+          325.80645751953125,
+          157.6930135091146
+        ],
+        [
+          264.51613362630206,
+          156.50735473632812
+        ]
+      ],
+      "text": "Co.g!.",
+      "confidence": 0.8224593301614126
+    },
+    {
+      "box": [
+        [
+          343.1451822916667,
+          140.69853719075522
+        ],
+        [
+          415.725830078125,
+          140.69853719075522
+        ],
+        [
+          415.725830078125,
+          159.66911824544272
+        ],
+        [
+          343.1451822916667,
+          159.66911824544272
+        ]
+      ],
+      "text": "Lmite",
+      "confidence": 0.8662377953529358
+    },
+    {
+      "box": [
+        [
+          430.241943359375,
+          138.32720947265625
+        ],
+        [
+          459.6774495442708,
+          138.32720947265625
+        ],
+        [
+          459.6774495442708,
+          154.13603719075522
+        ],
+        [
+          430.241943359375,
+          154.13603719075522
+        ]
+      ],
+      "text": "\u5fc3\u8d1f",
+      "confidence": 0.6668909043073654
+    },
+    {
+      "box": [
+        [
+          488.3064778645833,
+          137.14155069986978
+        ],
+        [
+          536.2903238932291,
+          140.30331420898438
+        ],
+        [
+          535.0806477864584,
+          155.32169596354166
+        ],
+        [
+          487.0968017578125,
+          152.1599324544271
+        ]
+      ],
+      "text": "iA+ru-",
+      "confidence": 0.563127319018046
+    },
+    {
+      "box": [
+        [
+          554.0322672526041,
+          140.69853719075522
+        ],
+        [
+          717.741943359375,
+          141.48897298177084
+        ],
+        [
+          717.741943359375,
+          157.29780069986978
+        ],
+        [
+          554.0322672526041,
+          156.50735473632812
+        ]
+      ],
+      "text": "Sail  Llemaet. Chari",
+      "confidence": 0.7907782897353173
+    },
+    {
+      "box": [
+        [
+          88.70967610677083,
+          156.90257771809897
+        ],
+        [
+          117.33871459960938,
+          156.90257771809897
+        ],
+        [
+          117.33871459960938,
+          169.94485473632812
+        ],
+        [
+          88.70967610677083,
+          169.94485473632812
+        ]
+      ],
+      "text": "ard",
+      "confidence": 0.6300954520702362
+    },
+    {
+      "box": [
+        [
+          204.8387247721354,
+          153.74081420898438
+        ],
+        [
+          332.6612955729167,
+          156.90257771809897
+        ],
+        [
+          332.25807698567706,
+          175.8731689453125
+        ],
+        [
+          204.43548583984375,
+          172.7114054361979
+        ]
+      ],
+      "text": "Siltst. ome?ate",
+      "confidence": 0.8317190438508988
+    },
+    {
+      "box": [
+        [
+          426.2096761067708,
+          159.2739054361979
+        ],
+        [
+          469.3548583984375,
+          158.0882364908854
+        ],
+        [
+          469.7580973307292,
+          171.92095947265625
+        ],
+        [
+          426.6129150390625,
+          173.10662841796875
+        ]
+      ],
+      "text": "C\u9c81Aik",
+      "confidence": 0.649613493680954
+    },
+    {
+      "box": [
+        [
+          341.12904866536456,
+          163.22610473632812
+        ],
+        [
+          414.9193522135417,
+          163.22610473632812
+        ],
+        [
+          414.9193522135417,
+          181.80147298177084
+        ],
+        [
+          341.12904866536456,
+          181.80147298177084
+        ]
+      ],
+      "text": "\u2191 ",
+      "confidence": 0.6147221028804779
+    },
+    {
+      "box": [
+        [
+          80.64516194661458,
+          170.34007771809897
+        ],
+        [
+          125.40322875976562,
+          170.34007771809897
+        ],
+        [
+          125.40322875976562,
+          188.52022298177084
+        ],
+        [
+          80.64516194661458,
+          188.52022298177084
+        ]
+      ],
+      "text": "+j+4s",
+      "confidence": 0.6738901138305664
+    }
+  ]
+}

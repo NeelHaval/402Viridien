@@ -1,0 +1,67 @@
+sandbox=workspace-write
+Make the figures for a visual explainer of a lithology-extraction challenge. Working folder:
+C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_work
+Write ONE script, artifact/make_figs.py, run it, and write PNGs to artifact/img/ plus artifact/manifest.json
+({figure_file: {caption, numbers...}}). Do not modify anything under bakeoff/ (read only), and never write into the dataset.
+
+Inputs
+- Dataset (read only): C:/Users/hssil/Downloads/03_Programming_Projects/hacktheburgh/viridien_challenge/Viridien_HTB_challenge/hack27/project/dataset
+  images/<name>.tif|.tiff, bbox_annotation/<name>.json (bounding_boxes: depth_column, interpreted_lithology_column,
+  lithology_legend; [x0,y0,x1,y1], max exclusive). Image.MAX_IMAGE_PIXELS = None; crop before convert (1-bit and P modes).
+- The organisers' notebook: .../hack27/project/example_notebook.ipynb. Reuse its visualize_results / overlay_results /
+  draw_boxes / add_legend code (copy the functions into your script) so figures look like the official example.
+- Gold answer for log06: bakeoff/gt/gold/0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv
+  (top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id). log06 = 0000000009_d-582_0000020435-0001_log06_fe_5in_md.
+- An AI labeller's answer for the same log: bakeoff/gt/silver/A/0000000009_d-582_0000020435-0001_log06_fe_5in_md.csv
+  (top_y,bottom_y,lithology at least).
+- Legend-parser debug PNGs (may exist): bakeoff/out/_cache/legend/*.png
+- Python has numpy, Pillow, opencv, scikit-learn, scikit-image, ruptures, hmmlearn, matplotlib, torch+CUDA,
+  transformers with facebook/dinov2-small cached.
+
+Figures (flat style: white background, no gradients or shadows, readable 13 px+ text, max 1400 px wide; use one fixed
+colour per lithology across ALL figures: Shale #2e7d32-ish green, Siltstone #f9a825 amber, Sandstone/Sand and Sandstone
+#1565c0 blue, Clay #8d6e63 brown, others from a fixed list):
+ f01_notebook_full.png   log06 whole page at scale 0.1 with the notebook's visualize_results on the gold CSV.
+ f02_notebook_zoom.png   same, but cropped to x from the depth column left edge - 150 to the litho column right edge + 260,
+                         rows 4300-7100, at scale 0.5, so boundary lines, depths and cluster labels are readable.
+ f03_boxes_<k>.png (6)   bounding boxes like the notebook's draw_boxes on 6 different pages: log06,
+                         60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872, 60807402860000_gb506#2_md_mudlog,
+                         Critter Creek 201-1807H_Mud_PDF_Vertical.pdf, Rio_Nueces_3744_Unit_1_212_MUD_5IN,
+                         608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD.
+                         Show the page top (header with legend + first 1.2 page-widths of log) at about 700 px wide, boxes
+                         drawn red (depth), blue (lithology column), orange (legend), labelled.
+ f04_labeller_vs_gold.png log06 rows of the litho column window (4404-11195) as three narrow vertical strips side by side
+                         at readable scale (shrink height to ~1000 px): the scan, GOLD intervals, labeller A intervals, plus an
+                         error strip (green = same lithology, red = different, grey = no label). Put row accuracy and boundary
+                         F1 (tolerance 20 px, greedy one-to-one) in the title and in the manifest.
+ f05_legend_parse_<k>.png copy up to 3 of the legend debug PNGs (prefer log06, the bp_gc743 one, a Rio one) if they exist.
+ Strategy demos, each a single PNG with a short title stating what it shows; time each and store seconds in the manifest.
+ Use log06 rows 4409-7012 (gold: Shale 4409-4809, Siltstone 4809-5010, Shale 5010-6211, Siltstone 6211-6411,
+ Shale 6411-6611, Sandstone 6611-6811, Siltstone 6811-7012) unless stated. Draw gold boundaries as thin dashed lines.
+ d_s1_colour_runs.png    on the COLOUR log 60811407300100_bp_gc743..., litho column rows 2343-8343: the column crop, a strip of
+                         each row's dominant non-black, non-white colour, and the boundaries where it changes (min run 15 rows).
+ d_s2_features_pelt.png  log06: per-row ink fraction, horizontal-stroke density, vertical-stroke density (smoothed over 40
+                         rows) as three line plots beside the column crop; ruptures PELT change points on the stacked
+                         features as solid lines vs gold dashed. Report boundary F1 in the title.
+ d_s3_template_ncc.png   log06: cut the Shale, Clay, Siltstone and "Sand and Sandstone" swatches from the legend
+                         (legend box [1943,1513,3035,2655]; swatches sit in a 4x4 grid: row 2 = Coal, Clay, Shale, Siltstone,
+                         row 3 = Silty Sandstone, Sand and Sandstone; find the exact rectangles with contours, strip the border),
+                         slide each down the column, plot per-row normalised cross-correlation curves, colour by lithology.
+ d_s4_kmeans_viterbi.png log06: tiles of 20 rows, features = ink + Sobel x/y + LBP histogram, k-means k=3, label strip before
+                         and after a Viterbi pass with self-transition 0.98 (hmmlearn or own code), next to the gold strip.
+ d_s5_dinov2.png         log06: DINOv2-small (cuda) embeddings of 64-row tiles (stride 16), plot neighbour cosine distance
+                         along depth with peaks marked vs gold boundaries; report seconds and GPU memory.
+ d_s8_jev.png            real JEV calls. Crop three gold intervals from log06 (a Shale, a Siltstone, the Sandstone; inner
+                         part, avoid borders), upscale each to 512x512 (NEAREST). For each, one call with a choice question
+                         over log06's 10 legend names (Limestone, Dolomite, Anhydrite, Halite, Coal, Clay, Shale, Siltstone,
+                         Silty Sandstone, Sand and Sandstone; criteria = a short description of each swatch's pattern, written
+                         by you from looking at the legend image, NOT mentioning which crop is which). Plot each crop beside
+                         a horizontal bar chart of the returned probabilities, truth marked; latency per call in the title.
+                         API: POST https://api.typesafe.ai/v1/systemone, headers Authorization: Bearer <key>,
+                         Content-Type: application/json, TypeSafe-Danger-Zone-Images: true; body {model:'jev-latest',
+                         state:{crop:'img1'}, assets:{img1:{type:'image',format:'png',data_base64:'...'}},
+                         questions:{lith:{type:'choice',instructions:'...',criteria:{name: description}}}};
+                         answer at answers.lith = {choice, confidence, probabilities}. Key = the JEV_API_KEY line of
+                         C:/Users/hssil/Downloads/03_Programming_Projects/misc/.env: read at runtime, never print or save it.
+LOOK at every PNG you produce with your image viewer and fix anything unreadable, clipped or wrong before finishing.
+Reply with the list of files, the numbers in the manifest, and anything that did not work.

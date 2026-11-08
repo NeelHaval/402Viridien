@@ -1,0 +1,603 @@
+{
+ "ext_test": {
+  "mean": {
+   "score": 0.22542609271311642,
+   "row_acc": 0.6068994400843801,
+   "boundary_f1": 0.3013440664715226,
+   "cluster_ari": 0.5315334703680447,
+   "depth_mae_ft": null,
+   "seconds": 0.6716794499499656,
+   "peak_rss_gb": 0.577362060546875,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": 0.290848263949988,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 20,
+   "n_scored": 20
+  },
+  "logs": [
+   {
+    "log": "ext_idaho_irvin1-19_p001",
+    "window": [
+     2510,
+     8510
+    ],
+    "scored": true,
+    "legend_seconds": 0.0899739110000155,
+    "seconds": 2.0663347110000814,
+    "peak_rss_gb": 0.405914306640625,
+    "row_acc": 0.9696106362773029,
+    "boundary_f1": 0.22748815165876776,
+    "cluster_ari": 0.8968589081631976,
+    "depth_mae_ft": null,
+    "score": 0.22057493147540538,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p001",
+    "window": [
+     9130,
+     15130
+    ],
+    "scored": true,
+    "legend_seconds": 0.0784297489999517,
+    "seconds": 1.8887361029999283,
+    "peak_rss_gb": 0.4153327941894531,
+    "row_acc": 0.7878333333333334,
+    "boundary_f1": 0.3881401617250674,
+    "cluster_ari": 0.4958257919287704,
+    "depth_mae_ft": null,
+    "score": 0.30578975741239894,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p001",
+    "window": [
+     15750,
+     21750
+    ],
+    "scored": true,
+    "legend_seconds": 0.07412619199999426,
+    "seconds": 1.7376630870001009,
+    "peak_rss_gb": 0.4124755859375,
+    "row_acc": 0.7645,
+    "boundary_f1": 0.45108695652173914,
+    "cluster_ari": 0.4080184694658805,
+    "depth_mae_ft": null,
+    "score": 0.34485597826086956,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p002",
+    "window": [
+     284,
+     6284
+    ],
+    "scored": true,
+    "legend_seconds": 3.2766980760000024,
+    "seconds": 1.8426452050000535,
+    "peak_rss_gb": 0.595611572265625,
+    "row_acc": 0.9094276094276095,
+    "boundary_f1": 0.21016949152542372,
+    "cluster_ari": 0.767290902729763,
+    "depth_mae_ft": null,
+    "score": 0.19113393825258232,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p002",
+    "window": [
+     7913,
+     13913
+    ],
+    "scored": true,
+    "legend_seconds": 0.06955221099997289,
+    "seconds": 1.8747854399998687,
+    "peak_rss_gb": 0.5963211059570312,
+    "row_acc": 0.8182579564489112,
+    "boundary_f1": 0.40198511166253104,
+    "cluster_ari": 0.6734913367305007,
+    "depth_mae_ft": null,
+    "score": 0.32892751599187003,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_idaho_irvin1-19_p002",
+    "window": [
+     15542,
+     21542
+    ],
+    "scored": true,
+    "legend_seconds": 0.06785732299999836,
+    "seconds": 1.4070940479998626,
+    "peak_rss_gb": 0.5964393615722656,
+    "row_acc": 0.6283000949667616,
+    "boundary_f1": 0.40093240093240096,
+    "cluster_ari": 0.5485601006034312,
+    "depth_mae_ft": null,
+    "score": 0.2519058655810793,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p002",
+    "window": [
+     555,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 1.192639958999962,
+    "seconds": 0.21783113999981651,
+    "peak_rss_gb": 0.6410255432128906,
+    "row_acc": 0.011428571428571429,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p003",
+    "window": [
+     330,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 0.08881775500003641,
+    "seconds": 0.2105360649998147,
+    "peak_rss_gb": 0.6028976440429688,
+    "row_acc": 0.14181818181818182,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.034977817171143795,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p004",
+    "window": [
+     330,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 0.08469427499994708,
+    "seconds": 0.1968019099999765,
+    "peak_rss_gb": 0.6028976440429688,
+    "row_acc": 0.0030303030303030303,
+    "boundary_f1": 0.0,
+    "cluster_ari": -0.003844468567033836,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p005",
+    "window": [
+     330,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 0.08102516399981141,
+    "seconds": 0.22976072000005843,
+    "peak_rss_gb": 0.6028976440429688,
+    "row_acc": 0.0030303030303030303,
+    "boundary_f1": 0.1,
+    "cluster_ari": 0.1914655873478044,
+    "depth_mae_ft": null,
+    "score": 0.00030303030303030303,
+    "parser_ceiling": 0.8818181818181818
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p006",
+    "window": [
+     330,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 0.08070427500001642,
+    "seconds": 0.2673644009998952,
+    "peak_rss_gb": 0.6029052734375,
+    "row_acc": 0.04787878787878788,
+    "boundary_f1": 0.32653061224489793,
+    "cluster_ari": 0.17875710045232862,
+    "depth_mae_ft": null,
+    "score": 0.015633889919604203,
+    "parser_ceiling": 0.9
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p007",
+    "window": [
+     330,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 0.07947970899999746,
+    "seconds": 0.27386060000003454,
+    "peak_rss_gb": 0.6029052734375,
+    "row_acc": 0.0,
+    "boundary_f1": 0.3018867924528302,
+    "cluster_ari": 0.18626240883411455,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.990909090909091
+   },
+   {
+    "log": "ext_kgs_EmmaWard1_p008",
+    "window": [
+     330,
+     1980
+    ],
+    "scored": true,
+    "legend_seconds": 0.08309574200006864,
+    "seconds": 0.28861116100006257,
+    "peak_rss_gb": 0.6029090881347656,
+    "row_acc": 0.16727272727272727,
+    "boundary_f1": 0.37209302325581395,
+    "cluster_ari": 0.29891546005266567,
+    "depth_mae_ft": null,
+    "score": 0.06224101479915433,
+    "parser_ceiling": 0.5363636363636364
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p054",
+    "window": [
+     1191,
+     1819
+    ],
+    "scored": true,
+    "legend_seconds": 0.010420392000014544,
+    "seconds": 0.1100222360000771,
+    "peak_rss_gb": 0.6032180786132812,
+    "row_acc": 0.9940239043824701,
+    "boundary_f1": 0.8,
+    "cluster_ari": 0.988834681097223,
+    "depth_mae_ft": null,
+    "score": 0.7952191235059761,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p055",
+    "window": [
+     177,
+     1814
+    ],
+    "scored": true,
+    "legend_seconds": 0.011517830000002505,
+    "seconds": 0.22275744399985342,
+    "peak_rss_gb": 0.6034317016601562,
+    "row_acc": 0.9975293390982087,
+    "boundary_f1": 0.5,
+    "cluster_ari": 0.9878397749807698,
+    "depth_mae_ft": null,
+    "score": 0.49876466954910437,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p056",
+    "window": [
+     177,
+     1812
+    ],
+    "scored": true,
+    "legend_seconds": 0.010817309000003661,
+    "seconds": 0.13924631200006843,
+    "peak_rss_gb": 0.6036720275878906,
+    "row_acc": 0.99813200498132,
+    "boundary_f1": 0.3333333333333333,
+    "cluster_ari": 0.9939851945250245,
+    "depth_mae_ft": null,
+    "score": 0.33271066832710666,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p057",
+    "window": [
+     177,
+     1814
+    ],
+    "scored": true,
+    "legend_seconds": 0.010587886999928742,
+    "seconds": 0.10474039499990795,
+    "peak_rss_gb": 0.6036720275878906,
+    "row_acc": 1.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p058",
+    "window": [
+     177,
+     1814
+    ],
+    "scored": true,
+    "legend_seconds": 0.010817650000035428,
+    "seconds": 0.12923516099999688,
+    "peak_rss_gb": 0.6036758422851562,
+    "row_acc": 0.9713930348258707,
+    "boundary_f1": 0.5882352941176471,
+    "cluster_ari": 0.9878691828503304,
+    "depth_mae_ft": null,
+    "score": 0.5714076675446298,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p059",
+    "window": [
+     177,
+     1813
+    ],
+    "scored": true,
+    "legend_seconds": 0.4051553760000388,
+    "seconds": 0.1425317369998993,
+    "peak_rss_gb": 0.6326637268066406,
+    "row_acc": 0.9424860853432282,
+    "boundary_f1": 0.625,
+    "cluster_ari": 0.9955611589949792,
+    "depth_mae_ft": null,
+    "score": 0.5890538033395176,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "ext_nl_flat-bay-3_p060",
+    "window": [
+     177,
+     596
+    ],
+    "scored": true,
+    "legend_seconds": 0.010554493999961778,
+    "seconds": 0.08303112299995519,
+    "peak_rss_gb": 0.6163749694824219,
+    "row_acc": 0.9820359281437125,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.0,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   }
+  ]
+ },
+ "viridien_eval": {
+  "mean": {
+   "score": 0.36810197191159033,
+   "row_acc": 0.5343373987394245,
+   "boundary_f1": 0.5486808002255239,
+   "cluster_ari": 0.6317071017660083,
+   "depth_mae_ft": null,
+   "seconds": 0.45166782223072216,
+   "peak_rss_gb": 0.7923733637883112,
+   "peak_gpu_gb": null,
+   "api_calls": 0,
+   "legend_seconds": 0.7223267051538537,
+   "depth_seconds": null,
+   "crashes": 0,
+   "n_windows": 13,
+   "n_scored": 13
+  },
+  "logs": [
+   {
+    "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+    "window": [
+     4404,
+     11195
+    ],
+    "scored": true,
+    "legend_seconds": 0.5134008520001316,
+    "seconds": 0.45349083800010703,
+    "peak_rss_gb": 0.687835693359375,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0625,
+    "cluster_ari": 0.21092039802291998,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+    "window": [
+     4387,
+     10387
+    ],
+    "scored": true,
+    "legend_seconds": 0.06658648099983111,
+    "seconds": 0.5333787459999257,
+    "peak_rss_gb": 0.6578369140625,
+    "row_acc": 0.0,
+    "boundary_f1": 0.0,
+    "cluster_ari": 0.08632523556498325,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.527
+   },
+   {
+    "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+    "window": [
+     4384,
+     10384
+    ],
+    "scored": true,
+    "legend_seconds": 0.06907150799997908,
+    "seconds": 0.636727417999964,
+    "peak_rss_gb": 0.6623954772949219,
+    "row_acc": 0.0,
+    "boundary_f1": 0.125,
+    "cluster_ari": 0.20046280853280637,
+    "depth_mae_ft": null,
+    "score": 0.0,
+    "parser_ceiling": 0.691
+   },
+   {
+    "log": "60807402860000_gb506#2_md_mudlog",
+    "window": [
+     1728,
+     7728
+    ],
+    "scored": true,
+    "legend_seconds": 0.6000446519999514,
+    "seconds": 0.6681461189998572,
+    "peak_rss_gb": 0.6891326904296875,
+    "row_acc": 0.31183333333333335,
+    "boundary_f1": 0.5454545454545454,
+    "cluster_ari": 0.3052889904421625,
+    "depth_mae_ft": null,
+    "score": 0.1700909090909091,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "60811405120000_1inch tvd mudlog",
+    "window": [
+     1501,
+     7501
+    ],
+    "scored": true,
+    "legend_seconds": 0.6377065149999908,
+    "seconds": 0.6500112509997962,
+    "peak_rss_gb": 0.7077713012695312,
+    "row_acc": 0.8933333333333333,
+    "boundary_f1": 0.5137614678899083,
+    "cluster_ari": 0.6775924764119456,
+    "depth_mae_ft": null,
+    "score": 0.4589602446483181,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+    "window": [
+     2343,
+     8343
+    ],
+    "scored": true,
+    "legend_seconds": 1.0114092080000319,
+    "seconds": 0.6214343249998819,
+    "peak_rss_gb": 0.8068962097167969,
+    "row_acc": 0.7865,
+    "boundary_f1": 0.7476635514018691,
+    "cluster_ari": 0.8106828086569785,
+    "depth_mae_ft": null,
+    "score": 0.58803738317757,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "608114075800 - Allegheny Attic GC297 #3 OCS-G 08876 003 ST00 BP00  Mud Log 3346ft-13925ft MD",
+    "window": [
+     11438,
+     17438
+    ],
+    "scored": true,
+    "legend_seconds": 0.9175960469999609,
+    "seconds": 0.4361031280000134,
+    "peak_rss_gb": 0.6775093078613281,
+    "row_acc": 0.925,
+    "boundary_f1": 0.5217391304347826,
+    "cluster_ari": 0.609132479963777,
+    "depth_mae_ft": null,
+    "score": 0.4826086956521739,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "60817411400100_mc761_1_st1_mudlog_1md_17133_22886",
+    "window": [
+     2927,
+     8927
+    ],
+    "scored": true,
+    "legend_seconds": 0.6243128910000451,
+    "seconds": 0.4940115959998366,
+    "peak_rss_gb": 0.6600914001464844,
+    "row_acc": 0.9426666666666667,
+    "boundary_f1": 0.373134328358209,
+    "cluster_ari": 0.778231283579181,
+    "depth_mae_ft": null,
+    "score": 0.35174129353233835,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "60818400650000_at0574_4_neptune_1inch_tvdmudlog_6300-17378",
+    "window": [
+     2699,
+     8699
+    ],
+    "scored": true,
+    "legend_seconds": 0.9557379519999358,
+    "seconds": 0.12336962099993798,
+    "peak_rss_gb": 0.9503555297851562,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "Critter Creek 201-1807H_Mud_PDF_Vertical.pdf",
+    "window": [
+     5480,
+     11480
+    ],
+    "scored": true,
+    "legend_seconds": 0.9875592089999827,
+    "seconds": 0.29941773700011254,
+    "peak_rss_gb": 0.8553695678710938,
+    "row_acc": 0.004166666666666667,
+    "boundary_f1": 1.0,
+    "cluster_ari": 0.9796964743486725,
+    "depth_mae_ft": null,
+    "score": 0.004166666666666667,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "MC765_P011_ST00BP00_1inchMD_Depth_MudLog_3686-20707ft",
+    "window": [
+     7623,
+     13623
+    ],
+    "scored": true,
+    "legend_seconds": 1.1031264840000858,
+    "seconds": 0.16320984300000418,
+    "peak_rss_gb": 0.870452880859375,
+    "row_acc": 1.0,
+    "boundary_f1": 1.0,
+    "cluster_ari": 1.0,
+    "depth_mae_ft": null,
+    "score": 1.0,
+    "parser_ceiling": 1.0
+   },
+   {
+    "log": "Rio_Nueces_3744_Unit_1_212_MUD_5IN",
+    "window": [
+     7363,
+     13363
+    ],
+    "scored": true,
+    "legend_seconds": 1.7313039460000255,
+    "seconds": 0.6352704880000601,
+    "peak_rss_gb": 1.4114532470703125,
+    "row_acc": 0.9231666666666667,
+    "boundary_f1": 0.6956521739130435,
+    "cluster_ari": 0.7361067169364812,
+    "depth_mae_ft": null,
+    "score": 0.6422028985507247,
+    "parser_ceiling": 0.9995
+   },
+   {
+    "log": "Shell_08852_KE001_ST01BP00_1inTVD_MudLog_17564-20124ft",
+    "window": [
+     1698,
+     6832
+    ],
+    "scored": true,
+    "legend_seconds": 0.17239142200014612,
+    "seconds": 0.157110578999891,
+    "peak_rss_gb": 0.6637535095214844,
+    "row_acc": 0.15971951694585118,
+    "boundary_f1": 0.547945205479452,
+    "cluster_ari": 0.8177526504982005,
+    "depth_mae_ft": null,
+    "score": 0.08751754353197325,
+    "parser_ceiling": 0.17218543046357615
+   }
+  ]
+ }
+}

@@ -1,0 +1,526 @@
+{
+ "X": {
+  "adj_00": {
+   "id": "adj_00",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 14 is Clay/Shale; the three-pixel gap does not require an edit."
+  },
+  "adj_01": {
+   "id": "adj_01",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 165 is Clay/Shale; the three-pixel gap does not require an edit."
+  },
+  "adj_02": {
+   "id": "adj_02",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "insert",
+     "top_y": 10794,
+     "bottom_y": 10800,
+     "rock": "Clay/Shale"
+    }
+   ],
+   "confidence": "high",
+   "reason": "A full-width Clay/Shale band lies below the Siltstone within bed 235."
+  },
+  "adj_03": {
+   "id": "adj_03",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Siltstone and Clay/Shale occupy approximately equal widths; neither clearly dominates."
+  },
+  "adj_04": {
+   "id": "adj_04",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Siltstone and Clay/Shale occupy approximately equal widths; neither clearly dominates."
+  },
+  "adj_05": {
+   "id": "adj_05",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 249 matches the Siltstone band; the few-pixel gap does not require an edit."
+  },
+  "adj_06": {
+   "id": "adj_06",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The interval is predominantly grey Clay/Shale; yellow begins near its lower boundary."
+  },
+  "adj_07": {
+   "id": "adj_07",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "relabel",
+     "bed": 282,
+     "rock": "Sandstone"
+    }
+   ],
+   "confidence": "medium",
+   "reason": "Sandstone occupies slightly more of the column width, and the lower part of the interval is entirely yellow."
+  },
+  "adj_08": {
+   "id": "adj_08",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Clay/Shale occupies slightly more of the column width than Sandstone."
+  },
+  "adj_09": {
+   "id": "adj_09",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Sandstone and clay/shale occupy approximately equal widths; neither is clearly dominant."
+  },
+  "adj_10": {
+   "id": "adj_10",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The small gap between beds does not establish a missing lithology."
+  },
+  "adj_11": {
+   "id": "adj_11",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Sandstone and clay/shale occupy approximately equal widths; neither is clearly dominant."
+  },
+  "adj_12": {
+   "id": "adj_12",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "relabel",
+     "bed": 352,
+     "rock": "Clay/Shale"
+    }
+   ],
+   "confidence": "medium",
+   "reason": "Clay/Shale occupies slightly more of the column width than Sandstone."
+  },
+  "adj_13": {
+   "id": "adj_13",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "relabel",
+     "bed": 25,
+     "rock": "Shale"
+    }
+   ],
+   "confidence": "high",
+   "reason": "The visible interval matches the green, continuous-line Shale pattern in the legend."
+  },
+  "adj_14": {
+   "id": "adj_14",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "delete",
+     "bed": 99,
+     "fill": "above"
+    }
+   ],
+   "confidence": "high",
+   "reason": "Oil is a show, not lithology; Shale occurs immediately above and below the blank interval."
+  },
+  "adj_15": {
+   "id": "adj_15",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "insert",
+     "top_y": 18793,
+     "bottom_y": 18808,
+     "rock": "Siltstone"
+    }
+   ],
+   "confidence": "high",
+   "reason": "A full-width grey dotted siltstone interval interrupts the shale."
+  },
+  "adj_16": {
+   "id": "adj_16",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "insert",
+     "top_y": 31875,
+     "bottom_y": 31887,
+     "rock": "Shale"
+    }
+   ],
+   "confidence": "high",
+   "reason": "A full-width green horizontally striped shale interval interrupts the halite."
+  },
+  "adj_17": {
+   "id": "adj_17",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "delete",
+     "bed": 120,
+     "fill": "gap"
+    }
+   ],
+   "confidence": "high",
+   "reason": "Gas is not a rock, and the thin white strip does not show lithology."
+  },
+  "adj_18": {
+   "id": "adj_18",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the pink-to-green change."
+  },
+  "adj_19": {
+   "id": "adj_19",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the sandstone-to-shale change."
+  },
+  "adj_20": {
+   "id": "adj_20",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the sandstone-to-shale change."
+  },
+  "adj_21": {
+   "id": "adj_21",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the siltstone-to-shale color change."
+  },
+  "adj_22": {
+   "id": "adj_22",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the limestone-to-shale color change."
+  },
+  "adj_23": {
+   "id": "adj_23",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the sandstone-to-shale color change."
+  },
+  "adj_24": {
+   "id": "adj_24",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the siltstone-to-shale color change."
+  },
+  "adj_25": {
+   "id": "adj_25",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the siltstone-to-shale color change."
+  },
+  "adj_26": {
+   "id": "adj_26",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary is within about one source pixel of the color change."
+  },
+  "adj_27": {
+   "id": "adj_27",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 259 matches the visible shale; the small gaps do not indicate separate beds."
+  },
+  "adj_28": {
+   "id": "adj_28",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "delete",
+     "bed": 286,
+     "fill": "gap"
+    }
+   ],
+   "confidence": "high",
+   "reason": "Bed 286 overlaps bed 285 within continuous shale and has no separate lithology."
+  }
+ },
+ "Y": {
+  "adj_00": {
+   "id": "adj_00",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 14 is Clay/Shale; the small gap does not warrant an edit."
+  },
+  "adj_01": {
+   "id": "adj_01",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 165 is Clay/Shale; the small gap does not warrant an edit."
+  },
+  "adj_02": {
+   "id": "adj_02",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "insert",
+     "top_y": 10794,
+     "bottom_y": 10800,
+     "rock": "Clay/Shale"
+    }
+   ],
+   "confidence": "high",
+   "reason": "A grey Clay/Shale band occupies the lower part of bed 235."
+  },
+  "adj_03": {
+   "id": "adj_03",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Siltstone and Clay/Shale occupy approximately equal widths; no change is clearly supported."
+  },
+  "adj_04": {
+   "id": "adj_04",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Siltstone and Clay/Shale occupy approximately equal widths; no change is clearly supported."
+  },
+  "adj_05": {
+   "id": "adj_05",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 249 is Siltstone; the small gap below it does not require an edit."
+  },
+  "adj_06": {
+   "id": "adj_06",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The interval is predominantly gray Clay/Shale; yellow begins near its lower boundary."
+  },
+  "adj_07": {
+   "id": "adj_07",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "relabel",
+     "bed": 282,
+     "rock": "Sandstone"
+    }
+   ],
+   "confidence": "medium",
+   "reason": "Sandstone occupies slightly more of the column width than the side-by-side Siltstone."
+  },
+  "adj_08": {
+   "id": "adj_08",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Clay/Shale occupies slightly more of the column width than the side-by-side Sandstone."
+  },
+  "adj_09": {
+   "id": "adj_09",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Clay/Shale and Sandstone occupy approximately equal widths; neither is clearly dominant."
+  },
+  "adj_10": {
+   "id": "adj_10",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 346 is Sandstone; the small gap below it does not establish a missing bed."
+  },
+  "adj_11": {
+   "id": "adj_11",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "medium",
+   "reason": "Clay/Shale and Sandstone occupy approximately equal widths; neither is clearly dominant."
+  },
+  "adj_12": {
+   "id": "adj_12",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "relabel",
+     "bed": 352,
+     "rock": "Clay/Shale"
+    }
+   ],
+   "confidence": "medium",
+   "reason": "Clay/Shale occupies slightly more of the column width than Sandstone."
+  },
+  "adj_13": {
+   "id": "adj_13",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "relabel",
+     "bed": 25,
+     "rock": "Shale"
+    }
+   ],
+   "confidence": "high",
+   "reason": "The green fill with continuous horizontal lines matches the Shale legend."
+  },
+  "adj_14": {
+   "id": "adj_14",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "delete",
+     "bed": 99,
+     "fill": "above"
+    }
+   ],
+   "confidence": "high",
+   "reason": "Oil is a show, and Shale occurs immediately above and below the blank interval."
+  },
+  "adj_15": {
+   "id": "adj_15",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "insert",
+     "top_y": 18792,
+     "bottom_y": 18808,
+     "rock": "Siltstone"
+    }
+   ],
+   "confidence": "high",
+   "reason": "A full-width grey dotted siltstone bed interrupts the shale."
+  },
+  "adj_16": {
+   "id": "adj_16",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "insert",
+     "top_y": 31875,
+     "bottom_y": 31887,
+     "rock": "Shale"
+    }
+   ],
+   "confidence": "high",
+   "reason": "A full-width green horizontally lined shale bed interrupts the halite."
+  },
+  "adj_17": {
+   "id": "adj_17",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "delete",
+     "bed": 120,
+     "fill": "above"
+    }
+   ],
+   "confidence": "high",
+   "reason": "Gas is not a rock, and the thin white gap lies between matching halite intervals."
+  },
+  "adj_18": {
+   "id": "adj_18",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the pink-to-green transition."
+  },
+  "adj_19": {
+   "id": "adj_19",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the sandstone-to-shale transition."
+  },
+  "adj_20": {
+   "id": "adj_20",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the sandstone-to-shale transition."
+  },
+  "adj_21": {
+   "id": "adj_21",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the siltstone-to-shale color change."
+  },
+  "adj_22": {
+   "id": "adj_22",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the limestone-to-shale color change."
+  },
+  "adj_23": {
+   "id": "adj_23",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the sandstone-to-shale color change."
+  },
+  "adj_24": {
+   "id": "adj_24",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the siltstone-to-shale color change."
+  },
+  "adj_25": {
+   "id": "adj_25",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary aligns with the siltstone-to-shale color change."
+  },
+  "adj_26": {
+   "id": "adj_26",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "The lower boundary is within about one source pixel of the siltstone-to-shale color change."
+  },
+  "adj_27": {
+   "id": "adj_27",
+   "verdict": "keep",
+   "edits": [],
+   "confidence": "high",
+   "reason": "Bed 259 is shale; the few-pixel gaps around it do not represent lithology."
+  },
+  "adj_28": {
+   "id": "adj_28",
+   "verdict": "fix",
+   "edits": [
+    {
+     "op": "delete",
+     "bed": 286,
+     "fill": "above"
+    }
+   ],
+   "confidence": "high",
+   "reason": "Bed 286 overlaps continuous shale in bed 285 and has no separate visible lithology."
+  }
+ }
+}

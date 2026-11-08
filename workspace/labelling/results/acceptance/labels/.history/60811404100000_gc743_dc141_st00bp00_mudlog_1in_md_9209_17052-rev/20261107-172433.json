@@ -1,0 +1,14 @@
+{
+  "image_name": "60811404100000_gc743_dc141_st00bp00_mudlog_1in_md_9209_17052-rev.tif",
+  "split": "test",
+  "depth_calibration": {
+    "anchors": [
+      {
+        "y": 1770,
+        "depth_ft": 6100
+      }
+    ]
+  },
+  "legend": [],
+  "layers": []
+}

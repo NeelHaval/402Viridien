@@ -1,0 +1,22 @@
+{
+ "started": 1794103118.168999,
+ "sha256": {
+  "ml/synth_gulf/boundary_net.pt": "80df4dc2b3eb781c037fa2764183b7ec860982ea1954f63534c84c5dc48bdbec",
+  "ml/synth_gulf/matcher.npz": "7d97410c74386e79d9e6e59e01ea7e42322fcccbed60780693e61f0b5bd3b4a3",
+  "ml/synth_gulf/selected.json": "cc0fef0d39286ac148e6e058de6d1ad9ae094acfeab5d57570f1dd0aa97401fd",
+  "ml/synth_gulf/runtime.py": "18c83a59ef1c65e66f07c5cfc4dd73b399da2eda4489bb3b970ef48e5b51545f",
+  "ml/synth_gulf/generator.py": "5ffd30521424fb7efd933d850b574d57e66c3c5e2f5a3a64841fe83a5474dba5",
+  "ml/synth_gulf/experiment.py": "4d293d291992f2df10d4af4392597a2384ff9adbecbbd4e6de96071ca3c9f211",
+  "ml/synth_gulf/assets.json": "3f0340d49309af4fbab55896b66be62793e8041c30d7edffbbb15c45c5a41d9a",
+  "ml/synth_gulf/dev_index.json": "2190977d0a4bad88d9eed55d4db8a6e666cbe841b57aea00cdde839e6af1368e",
+  "strategies/s17_synth_gulf.py": "925dc0b818d35eb0fd6d748a1bc69d7ace6d4280e5279e69ccb1a5063533f099",
+  "strategies/s13_boundary_net.py": "fa8d28e72160e2286edca98b2f034ca775c30779779cccf24a1618aab04aaf51",
+  "strategies/s14_learned_match.py": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+  "ml/boundary/model.py": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859",
+  "ml/match/features.py": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+  "harness/io.py": "696c42dc6bddc8dddc314d1194fdd2cf44e744b44e72a7bbb8efb324b888b903",
+  "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+  "harness/depth.py": "2f84c4dc6433cee1bd348087634fb3351968d66183175e3f19f46453f0ac6ee5",
+  "harness/score.py": "cffddf644fda7c38b5fa7753e60b52f1b581a7905f74bc6648d6298d1e9a8bb2"
+ }
+}

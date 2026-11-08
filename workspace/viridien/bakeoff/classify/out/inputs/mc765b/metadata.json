@@ -1,0 +1,58 @@
+{
+  "family": "MC765 colour grid (5 inch, colour shift)",
+  "log": "MC765_P011_ST00BP00_5inchMD_Depth_MudLog_3686-20707ft",
+  "rows": [
+    78761,
+    80361
+  ],
+  "n_rock": 23,
+  "share": {
+    "Clay-S | Clay-SACS": 1.0
+  },
+  "key": "mc765b",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\mc765b\\consensus.csv",
+  "vocabulary": [
+    "Clay-S",
+    "Clay-SCS",
+    "Clay-M",
+    "Clay-CCS",
+    "Clay-SACS",
+    "Sand-SIS",
+    "Sand-SS",
+    "Sand-FS",
+    "Sand-MS",
+    "Sand-CS",
+    "Sand-FSS",
+    "Sand-MSS",
+    "Limestone-AL",
+    "Limestone-SL",
+    "Limestone-L",
+    "Dolomites-AD",
+    "Dolomites-CD",
+    "Dolomites-D",
+    "Others-H",
+    "Others-A",
+    "Others-GY",
+    "Others-E",
+    "Others-CL"
+  ],
+  "parser_failed": false,
+  "n_accepted": 1,
+  "n_selected": 1,
+  "excluded": [],
+  "mode": "RGB",
+  "legend_box": [
+    79,
+    904,
+    1621,
+    1327
+  ],
+  "column_box": [
+    1134,
+    1623,
+    1171,
+    174871
+  ],
+  "truth_sha256": "3257a4661e7e2085694b9b891e138c6337ea6cf19bc25898f6ad5218c5b8b3f2"
+}

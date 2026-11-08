@@ -1,0 +1,30 @@
+async page=>{
+  const check=(v,m)=>{if(!v)throw Error(m);};const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.setViewportSize({width:1440,height:1000});await page.reload();
+  await page.waitForFunction(()=>window.SharedReview?.current()&&document.getElementById('device-link'),null,{timeout:120000});
+  await page.waitForFunction(()=>!document.getElementById('more-work').disabled);await page.locator('#comment').fill('Device continuation check.');await page.evaluate(()=>SharedReview.flush());
+  const first=await page.evaluate(()=>({id:SharedReview.current().id,key:SharedReview.storageKey(),session:SharedReview.state().session.id}));
+  await page.locator('#device-link').click();await page.waitForFunction(()=>document.getElementById('continue-address').value.includes('#review='));
+  const link=await page.locator('#continue-address').inputValue();
+  const otherContext=await page.context().browser().newContext({viewport:{width:390,height:844}});const other=await otherContext.newPage();other.on('pageerror',e=>errors.push(e.message));await other.goto(link);
+  await other.waitForFunction(()=>window.SharedReview?.current(),null,{timeout:120000});
+  await other.waitForFunction(()=>!document.getElementById('more-work').disabled&&document.getElementById('comment').value==='Device continuation check.');
+  const resumed=await other.evaluate(()=>({session:SharedReview.state().session.id,tokenRemoved:!location.hash,key:SharedReview.storageKey(),task:SharedReview.current().id,comment:document.getElementById('comment').value}));
+  check(resumed.session===first.session,'The device link must keep the same assignment.');check(resumed.tokenRemoved,'The capability must be removed from browser history after sign-in.');
+  check(resumed.comment==='Device continuation check.','The second device must receive the saved draft.');
+  await other.locator('#comment').fill('Updated on the second device.');await other.evaluate(()=>SharedReview.flush());await page.locator('#sync-now').click();await page.evaluate(()=>SharedReview.sync());
+  check(await page.locator('#comment').inputValue()==='Updated on the second device.','Second-device work must reach the first device.');
+  const tab=await page.context().newPage();await tab.addInitScript(id=>sessionStorage.setItem('strata-client-id',id),first.key.split(':').pop());await tab.goto('http://127.0.0.1:8777');await tab.waitForFunction(()=>window.SharedReview?.current());
+  check(await tab.evaluate(()=>SharedReview.storageKey())!==first.key,'Tabs must keep separate durable draft slots.');
+  await page.locator('#comment').focus();await other.locator('#comment').fill('Changed while the first field was focused.');await other.evaluate(()=>SharedReview.flush());await page.evaluate(()=>SharedReview.sync());await page.locator('#comment').fill('Concurrent local draft.');await page.evaluate(()=>SharedReview.flush());check(await page.evaluate(()=>Object.keys(SharedReview.state().conflicts).length)>0,'Concurrent changes must keep a conflict draft.');await page.getByRole('button',{name:'Use saved version',exact:true}).click();await otherContext.setOffline(true);await other.locator('#comment').fill('Offline device draft.');
+  check(await other.evaluate(()=>Object.keys(SharedReview.state().pending).length)>0,'Offline changes must remain in the outbox.');
+  await otherContext.setOffline(false);await other.evaluate(()=>SharedReview.flush());await page.locator('#sync-now').click();await page.evaluate(()=>SharedReview.sync());
+  check(await page.locator('#comment').inputValue()==='Offline device draft.','The offline device draft must sync back.');
+  check(await other.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile layout must fit the viewport.');
+  await page.locator('#sync-now').click();await page.evaluate(()=>SharedReview.sync());await page.waitForFunction(()=>SharedReview.state().background?.snapshot,null,{timeout:120000});
+  const stats=await page.evaluate(()=>SharedReview.state().background.dataset);check(stats.train>0&&stats.test>0,'The background must prepare real train and test records.');
+  const snapshot=await page.evaluate(async()=>{const r=SharedReview.state();const result=await(await fetch('/api/review/dataset',{headers:{Authorization:'Bearer '+r.session.token}})).json();return {ready:result.ready,url:result.url};});check(snapshot.ready,'A normalized snapshot must be downloadable.');
+  const failure=await page.evaluate(async()=>{const r=SharedReview.state();return (await fetch('/api/review/save',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({})})).status;});check(failure===403,'Unauthenticated saves must be denied.');
+  await tab.close();await otherContext.close();check(errors.length===0,'Page errors: '+errors.join(';'));
+  return {result:'PASS',sameAssignment:true,deviceDraftSync:true,offlineOutbox:true,separateTabDrafts:true,privateFragmentRemoved:true,backgroundDataset:stats,mobileWidth:390,unauthorizedSave:failure,errors};
+}

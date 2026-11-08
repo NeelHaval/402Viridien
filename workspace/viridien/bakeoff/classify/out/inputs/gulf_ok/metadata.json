@@ -1,0 +1,88 @@
+{
+  "family": "Gulf 3-panel, parsed",
+  "log": "60817410140000_mc822#10 1-1200 mud log",
+  "rows": [
+    11891,
+    13491
+  ],
+  "n_rock": 21,
+  "share": {
+    "blank": 0.631,
+    "hatch": 0.369
+  },
+  "key": "gulf_ok",
+  "source": "CONSENSUS",
+  "truth_path": "C:\\Users\\hssil\\Downloads\\03_Programming_Projects\\hacktheburgh\\viridien_work\\bakeoff\\labelling\\out\\gulf_ok\\consensus.csv",
+  "vocabulary": [
+    "Clay-shale",
+    "Slaty shale",
+    "Marl",
+    "Silty clay-shale",
+    "Sandy clay-shale",
+    "Silstone",
+    "Fine sandstone",
+    "Medium sandstone",
+    "Coarse sandstone",
+    "Conglomerate",
+    "Limestone",
+    "Chalk",
+    "Dolomitic limestone",
+    "Dolomite",
+    "Coal-lignite",
+    "Halite",
+    "Anhydrite",
+    "Gypsum",
+    "Volcanic rock",
+    "Oil_Good",
+    "Oil_Moderate"
+  ],
+  "parser_failed": false,
+  "n_accepted": 5,
+  "n_selected": 5,
+  "excluded": [
+    {
+      "top_depth": "14706.5",
+      "bottom_depth": "14734.5",
+      "lithology": "Clay-shale",
+      "top_y": "11912",
+      "bottom_y": "11968",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "14967.5",
+      "bottom_depth": "15004.5",
+      "lithology": "Sandy clay-shale",
+      "top_y": "12434",
+      "bottom_y": "12508",
+      "cluster_id": "1",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    },
+    {
+      "top_depth": "15308.0",
+      "bottom_depth": "15318.5",
+      "lithology": "Clay-shale",
+      "top_y": "13115",
+      "bottom_y": "13136",
+      "cluster_id": "0",
+      "agreed": "false",
+      "reason": "not agreed=true"
+    }
+  ],
+  "mode": "P",
+  "legend_box": [
+    2,
+    594,
+    1532,
+    1000
+  ],
+  "column_box": [
+    953,
+    1205,
+    1000,
+    33105
+  ],
+  "truth_sha256": "4fb8efb4221eee24e741aa81d9322b08d92d1d8a189fe116f762bc8e7ee2e71c"
+}

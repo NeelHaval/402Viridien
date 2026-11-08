@@ -1,0 +1,14 @@
+top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth
+0,228,Packstone,10,1895.2,2009.1
+228,266,Boundstone,16,2009.1,2028.1
+266,304,Limestone,1,2028.1,2047.1
+304,646,Intrusive Rocks,14,2047.1,2217.9
+950,1102,Chert,32,2369.7,2445.7
+1216,1520,Methamorphics,17,2502.6,2654.5
+1520,1862,Silty Clay,21,2654.5,2825.3
+1862,2204,Calc. Dolomite,31,2825.3,2996.1
+2204,2470,Conglomerate,3,2996.1,3129.0
+2470,2812,Coal - Lignite,30,3129.0,3299.9
+2812,3040,Calc. Dolomite,31,3299.9,3413.7
+3040,3116,Sandstone,12,3413.7,3451.7
+3116,3230,Chert,32,3451.7,3508.7

@@ -1,0 +1,24 @@
+{
+  "key": "geo",
+  "log": "60811407300100_bp_gc743_15607_dc222_st00bp01_mudlog_1md_10700-22872",
+  "family": "Geoservices grid",
+  "rows": [
+    10072,
+    11672
+  ],
+  "iteration": 1,
+  "n_intervals": 1,
+  "agreed_share": 1.0,
+  "labels": {
+    "Clay Shale": 1.0
+  },
+  "calls_used": 7,
+  "seconds": 47.084121899999445,
+  "calibration": {
+    "a": 0.4999308825603063,
+    "b": 9930.763147209775,
+    "n_points": 62,
+    "rmse_px": 0.4717232070084994,
+    "method": "rapidocr+ransac"
+  }
+}

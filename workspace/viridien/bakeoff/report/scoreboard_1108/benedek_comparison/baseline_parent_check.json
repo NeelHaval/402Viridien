@@ -1,0 +1,10 @@
+{
+  "completed_cases": 3,
+  "expected_cases": 68,
+  "paired_records": 12,
+  "same_case_identity_checks": "image/annotation/truth/window",
+  "prediction_pins_verified": 4,
+  "checkpoint_sha256": "9633c4f75fa4d5190d0abc33e7748e2c34c06b7c997fc6be6aaa972c61078917",
+  "full_baseline_complete": false,
+  "champion_promoted": false
+}

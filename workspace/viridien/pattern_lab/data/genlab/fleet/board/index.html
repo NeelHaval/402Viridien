@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pattern fleet · Live progress</title>
+<style>
+:root{--ink:#1d2433;--muted:#5d6678;--line:#d9dde5;--bg:#f6f7f9;--card:#fff;--blue:#2457d6;--green:#16794a;--red:#c23b2a;--amber:#a86200;--strip:88px}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+header{background:var(--card);border-bottom:1px solid var(--line);padding:18px 24px}h1{font-size:23px;margin:0 0 4px}h2{font-size:21px;margin:28px 0 6px}h3{font-size:16px;margin:0}h4{font-size:14px;margin:16px 0 6px}a{color:var(--blue)}main{padding:0 24px 60px;max-width:1500px;margin:auto}.muted,.meta,.note{color:var(--muted);font-size:13px}.meta{margin:3px 0 9px}.note{margin:9px 0 0;overflow-wrap:anywhere}.live{font-size:13px;color:var(--muted)}.live b{color:var(--ink)}
+nav{display:flex;gap:16px;margin-top:10px;flex-wrap:wrap}nav a{text-decoration:none;font-size:14px}.stats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin:16px 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:7px;padding:10px 12px;min-width:0}.stat strong{font-size:27px;font-weight:650;display:block}.stat span{display:block;font-size:12px;color:var(--muted)}.stat small{font-size:11px;color:var(--muted)}.bar{height:4px;background:#eef1f6;margin-top:8px;overflow:hidden}.bar i{display:block;height:100%;background:var(--color,var(--blue))}.summary{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.summary span{padding:6px 10px;border:1px solid var(--line);background:#fff;border-radius:5px;font-size:13px}
+.toolbar{display:grid;grid-template-columns:1fr 1fr 1.4fr 1.6fr;gap:10px;padding:12px;background:#fff;border:1px solid var(--line);border-radius:7px;margin-top:18px}.toolbar label{display:block;font-size:12px;color:var(--muted);min-width:0}input,select{width:100%;min-width:0;margin-top:4px;padding:8px;border:1px solid var(--line);border-radius:5px;background:white;font:inherit;font-size:14px;color:var(--ink)}.section-note{margin:0 0 12px;color:var(--muted);font-size:13px}.group{margin-top:18px}.group>h3{border-bottom:1px solid var(--line);padding-bottom:6px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;margin-top:10px;min-width:0;overflow-wrap:anywhere}.chip{display:inline-block;font-size:12px;padding:2px 8px;border-radius:10px;background:#eef1f6;margin:0 4px 5px 0;max-width:100%;overflow-wrap:anywhere}.chip.good{background:#e3f3ea;color:var(--green)}.chip.warn{background:#fdf0dc;color:var(--amber)}.chip.bad{background:#fbe6e3;color:var(--red)}
+.comparison{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;margin-top:9px}.set{min-width:0}.set h4{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:0 0 5px}.strips{display:flex;gap:6px;flex-wrap:wrap;align-items:flex-start}.strip{width:var(--strip);margin:0;min-width:0}.strip img{display:block;width:var(--strip);height:auto;object-fit:contain;object-position:top;background:white;border:1px solid var(--line);image-rendering:pixelated}.strip figcaption{font-size:10px;color:var(--muted);margin-top:3px}.todo-row{background:#fff;border:1px solid var(--line);border-radius:6px;padding:11px 13px;margin:7px 0}.row-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap}.row-head strong{font-size:14px}.doc{overflow-wrap:anywhere}.empty{padding:14px;border:1px dashed var(--line);color:var(--muted);font-size:14px}.jobs{font-size:12px;overflow-wrap:anywhere}.jobs summary{cursor:pointer;margin:8px 0}.jobs ul{padding-left:20px}#error{color:var(--red)}#filtered{margin:8px 0;color:var(--muted);font-size:12px}.anchor{scroll-margin-top:15px}.status-line{min-height:20px}button{font:inherit;padding:5px 10px;border:1px solid var(--line);background:white;border-radius:5px;cursor:pointer}.section-title{display:flex;align-items:baseline;gap:12px}.section-title small{color:var(--muted);font-size:13px;font-weight:400}
+@media(min-width:1250px){.comparison{flex-wrap:nowrap}.card{padding:12px}.comparison{gap:12px}}
+@media(max-width:1000px){.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.cards{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){:root{--strip:64px}header{padding:14px 12px}main{padding:0 12px 40px}h1{font-size:21px}.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.stat{padding:8px 10px}.stat strong{font-size:25px}.toolbar{gap:8px;padding:10px}.toolbar label:last-child{grid-column:1/-1}.comparison{gap:12px}.card{padding:11px}.meta{font-size:12px}.summary{gap:6px}nav{gap:12px}}
+@media(max-width:640px){.comparison{flex-wrap:nowrap}.comparison>.set:first-child{flex:1;min-width:0}.comparison>.set:last-child{flex:0 0 134px}}
+</style>
+<style>
+[hidden]{display:none!important}.view-tab[aria-current="page"]{font-weight:700;border-bottom:2px solid var(--blue);padding-bottom:4px}
+.progress-intro{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}.progress-intro h2{margin-top:20px}.progress-links{display:flex;flex-wrap:wrap;gap:10px 18px;margin:12px 0;font-size:13px}.progress-top{display:grid;grid-template-columns:260px 1fr;gap:14px;margin:16px 0}.progress-panel{background:white;border:1px solid var(--line);padding:16px;min-width:0}.overall-number{font-size:44px;line-height:1.2;letter-spacing:-1px}.overall-built{font-size:18px;color:var(--muted);margin:7px 0}.progress-help{font-size:12px;color:var(--muted);margin:10px 0 0}.trend{width:100%;height:155px;display:block}.trend text{font:11px system-ui;fill:var(--muted)}.trend-controls{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11px}.trend-controls label{display:flex;align-items:center;gap:3px;cursor:pointer}.trend-controls input{width:auto;margin:0;accent-color:var(--blue)}.trend-controls i{width:10px;height:3px;display:inline-block}
+.progress-head,.stream-row{display:grid;grid-template-columns:145px 160px minmax(0,1fr) 190px;gap:18px}.progress-head{padding:8px 14px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}.stream-row{padding:14px;background:white;border:1px solid var(--line);border-bottom:0;align-items:start}.stream-row:last-child{border-bottom:1px solid var(--line)}.stream-row h3{font-size:15px}.stream-row small{font-size:11px;color:var(--muted)}.stream-detail{font-size:12px;color:var(--muted);margin:6px 0 0;overflow-wrap:anywhere}.meter{font-size:12px;margin-bottom:8px}.meter span{display:flex;justify-content:space-between;gap:5px}.meter .bar{margin-top:4px;height:5px}.meter.good-meter i{background:var(--green)}.gate{font-size:12px;border-left:3px solid #8c95a5;background:#f4f5f7;padding:5px 8px;margin:0 0 6px;overflow-wrap:anywhere}.gate.pass{border-color:var(--green);background:#edf6f1}.gate.warn{border-color:var(--amber);background:#fff7e9}.gate.fail{border-color:var(--red);background:#fff0ee}.gate strong{text-transform:uppercase;font-size:10px;letter-spacing:.04em;margin-right:5px}.gate .target{color:var(--muted);font-size:11px}.gate details{margin-top:3px;font-size:11px;color:var(--muted)}.gate summary{cursor:pointer}.next-step{font-size:12px;margin:0}.progress-lower{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:16px}.label-item{background:#fff;border:1px solid var(--line);padding:12px;margin:8px 0;overflow-wrap:anywhere}.label-item h4{margin:0 0 4px;font-size:14px}.label-item .meta{margin-bottom:4px}.label-location{font-size:12px;margin-top:7px;color:var(--ink)}#progress-jobs ul{padding:0;list-style:none}#progress-jobs li{border-bottom:1px solid var(--line);padding:9px 0;font-size:12px;overflow-wrap:anywhere}#progress-jobs b{display:block}#dataset-body{padding:16px;background:#fff;border:1px solid var(--line)}
+@media(max-width:1000px){.progress-head{display:none}.stream-row{grid-template-columns:140px 140px 1fr;gap:12px}.next-step{grid-column:2/-1}.progress-lower{grid-template-columns:1fr}}
+@media(max-width:640px){.progress-top{grid-template-columns:1fr;gap:10px}.progress-panel{padding:12px}.overall-number{font-size:38px}.progress-top .progress-panel:first-child{display:grid;grid-template-columns:1fr 1fr;gap:3px 8px}.overall-built{align-self:center}.progress-help{grid-column:1/-1}.stream-row{grid-template-columns:1fr 1fr;padding:12px;gap:8px 14px}.stream-gates,.next-step{grid-column:1/-1}.stream-detail{font-size:11px}.trend{height:145px}.progress-links{gap:8px 14px}.progress-intro{gap:3px}.progress-lower{gap:0}}
+</style>
+</head>
+<body>
+<header><h1>Pattern fleet</h1><div class="live status-line" id="live" role="status">Loading all well logs…</div>
+<nav><a class="view-tab" id="progress-tab" href="#progress">Progress</a><a class="view-tab" id="fleet-tab" href="#done">Live board</a><a href="#todo">To do</a><a href="#unlisted">Not in the legend</a><a class="view-tab" id="dataset-tab" href="#dataset">Dataset</a><a href="http://127.0.0.1:8781" target="_blank" rel="noopener">Open generator lab</a></nav></header>
+<main>
+<section id="progress" hidden>
+<div class="progress-intro"><h2>Progress</h2><span id="progress-age" class="muted">Waiting for the first tracker reading…</span></div>
+<div class="progress-links"><a href="http://127.0.0.1:8781">Generator lab</a><a href="http://127.0.0.1:8783">Symbol atlas</a><a href="/assembler/report.html">Assembler report</a><a href="#dataset">Dataset tab</a><a href="http://127.0.0.1:8776">Pattern Labeller</a></div>
+<div id="progress-error" class="note" role="status"></div>
+<div class="progress-top"><div class="progress-panel"><div><div class="muted">Overall good</div><strong class="overall-number" id="overall-good">—</strong></div><div class="overall-built" id="overall-built">Built —</div><p class="progress-help">Weighted quality evidence. Pending gates earn zero. Coverage earns its measured share; discrete gates earn pass credit. Labels and atlas carry weight 0.</p></div><div class="progress-panel"><h3>Quality over time</h3><div id="trend"></div><div class="trend-controls" id="trend-controls"></div><p class="progress-help">Solid: GOOD. Dashed grey: old overall completion (built), before quality gates. One point means one reading.</p></div></div>
+<div class="progress-head"><span>Workstream</span><span>Built / good</span><span>Quality gates · value / target / n</span><span>Next step</span></div><div id="progress-streams"></div>
+<div class="progress-lower"><section><h2>Label next <small id="label-next-count" class="muted"></small></h2><p class="section-note">Training entries still Failed, Rejected or Unsure. One-box blockers come first, then estimated row impact. Shares divide each label’s aggregate row share across all same-name board entries. Machine guesses are navigation aids; inspect the interval before drawing.</p><div id="label-next"></div></section><section><h2>Running Codex jobs</h2><p class="section-note">Live board jobs plus gen1108-* jobs. Elapsed time since the job started.</p><div id="progress-jobs"></div></section></div>
+</section>
+<section id="dataset" hidden><h2>Dataset</h2><div id="dataset-body">Waiting for the tracker…</div></section>
+<div id="fleet-view">
+<div id="error" role="alert"></div><div id="summary" class="summary"></div>
+<div class="muted">Legend entries · large number: all wells · small number: training wells only</div>
+<div id="stats" class="stats"></div><details class="jobs" id="jobs"><summary>Live jobs</summary><div id="job-list"></div></details>
+<form class="toolbar" id="filters" onsubmit="return false">
+<label>State<select id="state"><option value="">All states</option></select></label>
+<label>Source / method<select id="source"><option value="">All sources and methods</option></select></label>
+<label>Lithology name<input type="search" id="search" placeholder="Search labels or descriptions"></label>
+<label>Document<select id="document"><option value="">All documents</option></select></label>
+</form><div id="filtered"></div>
+<section id="done" class="anchor"><div class="section-title"><h2>Done</h2><small id="done-count"></small></div><p class="section-note">In the lab or approved and waiting for import. Real sources on the left; generated strips on the right.</p><div id="done-body"></div></section>
+<section id="todo" class="anchor"><div class="section-title"><h2>To do</h2><small id="todo-count"></small></div><p class="section-note">Grouped by state, then well. Uncertain and rejected proposals may be retried while rounds remain.</p><div id="todo-body"></div></section>
+<section id="unlisted" class="anchor"><div class="section-title"><h2>Not in the legend</h2><small id="unlisted-count"></small></div><p class="section-note">Additional pattern groups found in the log columns.</p><div id="unlisted-body" class="cards"></div></section>
+</div></main>
+<script>
+let data=null,signature='',timer=null;
+const $=id=>document.getElementById(id), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const colors=['#16794a','#438d6c','#2457d6','#7187c9','#a86200','#c23b2a','#a54b40','#8a7960','#9b8a5b','#9ca3af','#7d8797','#bbc2ce'];
+const isDone=e=>data.states.slice(0,2).includes(e.state);
+const style=e=>isDone(e)?'good':e.state==='Rejected'||e.state==='Failed'?'bad':e.state==='Unsure'||e.live?'warn':'';
+function image(url,caption,size){
+ if(!size&&url.startsWith('/crop?')){const box=new URL(url,location.href).searchParams.get('box').split(',').map(Number);size=[box[2]-box[0],box[3]-box[1]]}
+ size=size||[64,240];
+ return `<figure class="strip"><img loading="lazy" decoding="async" width="${size[0]}" height="${size[1]}" src="${esc(url)}" alt="${esc(caption)}"><figcaption>${esc(caption)}</figcaption></figure>`
+}
+function comparison(e,pending=false){
+ const real=pending&&e.swatch.length?e.swatch:e.real;
+ const kind=pending&&e.swatch.length?'Legend swatch':e.real_kind;
+ const generated=pending?e.strips.slice(0,1):e.strips.slice(0,2);
+ if(!real.length&&!generated.length)return '';
+ return `<div class="comparison"><div class="set"><h4>${esc(kind)}</h4><div class="strips">${real.map((u,i)=>image(u,kind+(real.length>1?' '+(i+1):''))).join('')||'<span class="muted">Source pending</span>'}</div></div><div class="set"><h4>Generated</h4><div class="strips">${generated.map((u,i)=>image(u,'Generated strip '+(i+1),e.strip_sizes[i])).join('')||'<span class="muted">Strip pending</span>'}</div></div></div>`
+}
+function card(e,unlisted=false){
+ const share=typeof e.share_of_column_rows==='number'?(e.share_of_column_rows*100).toFixed(2)+'% of column rows':'Column row share not reported';
+ return `<article class="card" data-key="${esc(e.key)}"><h3>${esc(e.label)}</h3><div class="meta doc" title="${esc(e.doc_name)}">${esc(e.short_doc)} · ${esc(e.legend_id)}</div><span class="chip ${style(e)}">${esc(e.state)}</span><span class="chip">${esc(e.source_chip)}</span>${unlisted&&e.source!=='unlisted'?'<span class="chip">not in legend</span>':''}${e.round?`<span class="chip">Round ${esc(e.round)}${e.model?' · '+esc(e.model):''}</span>`:''}${unlisted?`<div class="meta">${esc(share)}${e.looks_like?'<br>Looks like: '+esc(e.looks_like):''}</div>`:''}${comparison(e)}${e.note?`<p class="note">${esc(e.note)}</p>`:''}</article>`
+}
+function row(e){return `<article class="todo-row" data-key="${esc(e.key)}"><div class="row-head"><strong>${esc(e.label)}</strong><span class="chip ${style(e)}">${esc(e.state)}</span></div><div class="meta doc">${esc(e.short_doc)} · entry ${esc(e.legend_id)}${e.round?' · round '+esc(e.round):''}${e.model?' · '+esc(e.model):''}</div>${e.note?`<p class="note">${esc(e.note)}</p>`:''}${e.proposal_status==='made'&&e.strips.length?comparison(e,true):''}</article>`}
+function options(id,items){const el=$(id),old=el.value,label=el.selectedOptions[0]?.textContent;el.innerHTML=el.options[0].outerHTML+items.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join('');if(old&&![...el.options].some(o=>o.value===old))el.add(new Option(label,old));el.value=old}
+function updateSummary(){
+ $('live').innerHTML=`<b>${data.document_count} well logs · ${data.total} legend entries</b> · Updates every 20 s · ${new Date(data.at*1000).toLocaleTimeString()}${data.lab_online?'':' · Lab unavailable: showing last good snapshot'}${data.jobs_error?' · Job status delayed':''}`;
+ $('summary').innerHTML=`<span><b>${data.training_total}</b> entries in training wells</span><span><b>${data.unlisted_found}</b> unlisted groups · <b>${data.unlisted_approved}</b> approved</span><span><b>${data.live_jobs.length}</b> live jobs</span><span><b>${data.units_done} / ${data.units_total}</b> fleet units done</span>`;
+ $('stats').innerHTML=data.states.map((s,i)=>`<div class="stat" style="--color:${colors[i]}"><strong>${data.counts[s]}</strong><span>${esc(s)}</span><small>${data.training_counts[s]} in training wells</small><div class="bar" aria-label="${esc(s)}: ${data.counts[s]} of ${data.total}"><i style="width:${data.total?100*data.counts[s]/data.total:0}%"></i></div></div>`).join('');
+ $('jobs').firstElementChild.textContent=`Live jobs (${data.live_jobs.length})`;
+ $('job-list').innerHTML=data.live_jobs.length?'<ul>'+data.live_jobs.map(j=>`<li>${esc(j.job)} · ${esc(j.state)} · ${esc(j.model)}</li>`).join('')+'</ul>':'<p class="muted">No jobs currently live.</p>';
+}
+function render(){
+ if(!data)return;
+ const search=$('search').value.trim().toLocaleLowerCase(), state=$('state').value, source=$('source').value,doc=$('document').value;
+ const match=e=>(!state||e.state===state)&&(!doc||e.doc_id===doc)&&(!source||(source.startsWith('method:')?e.method===source.slice(7):e.source===source))&&(!search||(e.label+' '+e.description+' '+e.looks_like).toLocaleLowerCase().includes(search));
+ const entries=data.entries.filter(match),done=entries.filter(isDone),todo=entries.filter(e=>!isDone(e)),unlisted=data.unlisted.filter(match);
+ const groups=new Map();done.sort((a,b)=>a.label.localeCompare(b.label)||a.doc_name.localeCompare(b.doc_name)).forEach(e=>{if(!groups.has(e.normalized))groups.set(e.normalized,[]);groups.get(e.normalized).push(e)});
+ $('done-count').textContent=done.length+' legend entries';$('todo-count').textContent=todo.length+' legend entries';$('unlisted-count').textContent=unlisted.length+' groups';
+ $('filtered').textContent=`Showing ${entries.length} / ${data.total} legend entries and ${unlisted.length} / ${data.unlisted.length} unlisted groups`;
+ $('done-body').innerHTML=[...groups.values()].map(g=>`<div class="group"><h3>${esc(g[0].label)} <span class="muted">${g.length}</span></h3><div class="cards">${g.map(e=>card(e)).join('')}</div></div>`).join('')||'<p class="empty">No completed entries match these filters.</p>';
+ $('todo-body').innerHTML=data.states.slice(2).map(s=>{const found=todo.filter(e=>e.state===s);if(!found.length)return '';const docs=new Map();found.sort((a,b)=>a.doc_name.localeCompare(b.doc_name)).forEach(e=>{if(!docs.has(e.doc_id))docs.set(e.doc_id,[]);docs.get(e.doc_id).push(e)});return `<div class="group"><h3>${esc(s)} <span class="muted">${found.length}</span></h3>${[...docs.values()].map(g=>`<h4 class="doc" title="${esc(g[0].doc_name)}">${esc(g[0].doc_name)} · ${g.length}</h4>${g.map(row).join('')}`).join('')}</div>`}).join('')||'<p class="empty">No remaining entries match these filters.</p>';
+ $('unlisted-body').innerHTML=unlisted.map(e=>card(e,true)).join('')||'<p class="empty">No unlisted groups match these filters.</p>';
+}
+function anchor(){const elements=[...document.querySelectorAll('[data-key]')];const el=elements.find(e=>e.getBoundingClientRect().bottom>0);return el?{key:el.dataset.key,offset:el.getBoundingClientRect().top,y:scrollY}: {y:scrollY}}
+function restore(a){const el=a.key?[...document.querySelectorAll('[data-key]')].find(e=>e.dataset.key===a.key):null;scrollTo(0,el?scrollY+el.getBoundingClientRect().top-a.offset:a.y)}
+async function refresh(){
+ try{const response=await fetch('/board.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const next=await response.json();const sig=JSON.stringify([next.entries,next.unlisted]);const a=anchor();data=next;updateSummary();
+ options('state',data.states.map(s=>[s,s]));options('document',data.documents.map(d=>[d.doc_id,d.name]));const all=[...data.entries,...data.unlisted];const sources=[...new Set(all.map(e=>e.source).filter(Boolean))].sort();const methods=[...new Set(all.map(e=>e.method).filter(Boolean))].sort();options('source',[...sources.map(s=>[s,({human:'from your boxes',swatch:'approved swatch',unlisted:'not in legend'})[s]||s]),...methods.map(m=>['method:'+m,'Method: '+m])]);
+ if(signature!==sig){render();signature=sig;restore(a)}$('error').textContent='';
+ }catch(error){$('error').textContent='Refresh delayed. Keeping the last view; retrying in 20 seconds. '+error.message}
+}
+for(const id of ['state','source','document','search']){try{const value=sessionStorage.getItem('board:'+id);if(id==='search'&&value)$(id).value=value}catch(_){}$(id).addEventListener(id==='search'?'input':'change',()=>{try{sessionStorage.setItem('board:'+id,$(id).value)}catch(_){}render()})}
+refresh();timer=setInterval(refresh,20000);
+</script>
+<script>
+let progressData=null,progressStamp='',selectedSeries=new Set(['overall','legend_training','row_coverage_training','unlisted','fleet_sweep','dataset_loop','assembler','labels','atlas']);
+const trendColors={overall:'#1d2433',legend_training:'#2457d6',row_coverage_training:'#16794a',unlisted:'#8b3eb5',fleet_sweep:'#9d6900',dataset_loop:'#bf3b56',assembler:'#007f8d',labels:'#596982',atlas:'#a44d14'};
+const percent=v=>typeof v==='number'?(100*v).toFixed(1)+'%':'pending';
+function selectView(){const tab=location.hash==='#progress'?'progress':location.hash==='#dataset'?'dataset':'fleet';$('progress').hidden=tab!=='progress';$('dataset').hidden=tab!=='dataset';$('fleet-view').hidden=tab!=='fleet';for(const id of ['progress','fleet','dataset'])$(id+'-tab').setAttribute('aria-current',id===tab?'page':'false');if(tab==='progress'&&progressData)requestAnimationFrame(drawTrend)}
+addEventListener('hashchange',selectView);selectView();
+function drawTrend(){
+ const rows=(progressData?.history||[]).filter(r=>typeof r.at==='number').sort((a,b)=>a.at-b.at);if(!rows.length){$('trend').innerHTML='<p class="muted">No readings yet.</p>';return}
+ const width=Math.max(300,$('trend').clientWidth),right=width-12,first=rows[0].at,last=Math.max(first+1,rows.at(-1).at),x=t=>38+(t-first)/(last-first)*(right-38),y=v=>130-Math.max(0,Math.min(1,v))*115;
+ let svg=`<svg class="trend" viewBox="0 0 ${width} 160" role="img" aria-label="Progress history: overall and each workstream. Legacy completion is dashed.">`;
+ for(const value of [0,.5,1])svg+=`<line x1="38" x2="${right}" y1="${y(value)}" y2="${y(value)}" stroke="#e2e5eb"/><text x="1" y="${y(value)+4}">${value*100}%</text>`;
+ const legacy=rows.filter(r=>r.schema!==2&&typeof r.pct?.overall==='number');if(legacy.length)svg+=`<polyline points="${legacy.map(r=>x(r.at)+','+y(r.pct.overall)).join(' ')}" fill="none" stroke="#8e97a5" stroke-width="2" stroke-dasharray="5 4" vector-effect="non-scaling-stroke"/>`;
+ for(const key of selectedSeries){const points=rows.filter(r=>r.schema===2&&typeof r.pct?.[key]==='number');if(!points.length)continue;const colour=trendColors[key];svg+=`<polyline points="${points.map(r=>x(r.at)+','+y(r.pct[key])).join(' ')}" fill="none" stroke="${colour}" stroke-width="${key==='overall'?3:1.5}" vector-effect="non-scaling-stroke"/>`;svg+=points.map(r=>`<circle cx="${x(r.at)}" cy="${y(r.pct[key])}" r="3" fill="${colour}"><title>${esc(key)} ${percent(r.pct[key])} · ${esc(new Date(r.at*1000).toLocaleString())}</title></circle>`).join('')}
+ svg+=`<text x="38" y="154">${esc(new Date(first*1000).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}))}</text><text x="${right}" y="154" text-anchor="end">${esc(new Date(last*1000).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}))}</text></svg>`;$('trend').innerHTML=svg;
+}
+function gateMarkup(g){const value=g.value===null||g.value===undefined?'pending':typeof g.value==='object'?['pass','warn','fail','pending'].map(k=>`${g.value[k]||0} ${k}`).join(' / '):g.value;return `<div class="gate ${esc(g.status)}"><strong>${esc(g.status)}</strong>${esc(g.name)}: <b>${esc(value)}</b><div class="target">Target ${esc(g.target)} · n=${esc(g.n??'pending')}</div>${g.unverified!==undefined?`<div class="target">${g.unverified} unverified · ${g.scored} scored</div>`:''}${g.detail?`<details><summary>Evidence / limitations</summary>${esc(g.detail)}</details>`:''}</div>`}
+function meter(label,value,good=false){return `<div class="meter ${good?'good-meter':''}"><span>${label}<b>${percent(value)}</b></span><div class="bar" role="progressbar" aria-label="${label}" aria-valuenow="${Math.round(value*100)}" aria-valuemin="0" aria-valuemax="100"><i style="width:${Math.max(0,Math.min(100,value*100))}%"></i></div></div>`}
+function labelItem(e){
+ const i=e.interval;
+ const where=i?`Page-y ${Number(i.top_y).toLocaleString()}–${Number(i.bottom_y).toLocaleString()}${i.page?' · page '+esc(i.page):''}${i.top_depth!==undefined?' · depth '+esc(i.top_depth)+'–'+esc(i.bottom_depth??'?'):i.depth!==undefined?' · depth '+esc(i.depth):''} · ${esc(i.tier||'unrated')} guess${i.best_source?' · '+esc(i.best_source):''}${i.alternative?' · alternative suggestion':''}`:'No matching machine interval published; locate this pattern in the column.';
+ const open='http://127.0.0.1:8776/?doc='+encodeURIComponent(e.doc_id);
+ return `<article class="label-item"><h4>${esc(e.label)} · legend ${esc(e.legend_id)}</h4><div class="meta"><a href="${esc(open)}">${esc(e.doc_name)}</a></div><span class="chip ${e.state==='Unsure'?'warn':'bad'}">${esc(e.state)}</span>${e.unblocks_generation?'<span class="chip warn">One real box may unblock generation</span>':''}<span class="chip">${e.estimated_share===null?'Row impact unknown':'Estimated '+(100*e.estimated_share).toFixed(3)+'% of rows'}</span><p class="note">${esc(e.note||'No reason recorded.')}</p><div class="label-location">${where}</div></article>`;
+}
+function renderProgressJobs(){
+ const now=Date.now()/1000,jobs=new Map();for(const j of progressData?.current?.live?.jobs||[])jobs.set(j.job,{...j,at:progressData.current.at});for(const j of data?.live_jobs||[])jobs.set(j.job,{...j,at:data.jobs_at});
+ const elapsed=j=>{if(typeof j.elapsed_s!=='number')return 'elapsed pending';const seconds=Math.max(0,j.elapsed_s+now-j.at);return `${Math.floor(seconds/3600)}h ${Math.floor(seconds%3600/60)}m ${Math.floor(seconds%60)}s`};
+ $('progress-jobs').innerHTML=jobs.size?'<ul>'+[...jobs.values()].sort((a,b)=>a.job.localeCompare(b.job)).map(j=>`<li><b>${esc(j.job)}</b>${esc(j.state)} · ${esc(j.model||'model pending')}<br>${elapsed(j)}</li>`).join('')+'</ul>':'<p class="muted">No running jobs reported.</p>';
+}
+function updateProgressAge(){
+ const c=progressData?.current;if(!c)return;
+ const age=Math.max(0,Math.floor((Date.now()/1000-c.at)/60));
+ $('progress-age').textContent=`Reading ${new Date(c.at*1000).toLocaleTimeString()} · ${age}m ago · tracker every 5m`;
+ const unavailable=['board','lab','jobs'].filter(k=>c.sources?.[k]===false);
+ $('progress-error').textContent=progressData.error?'Tracker delayed; showing last reading. '+progressData.error:age>7?'Tracker reading is stale. Showing the last evidence.':unavailable.length?'Evidence unavailable: '+unavailable.join(', ')+'. Missing evidence earns zero.':'';
+}
+function renderProgress(){
+ const current=progressData?.current;if(!current){$('progress-error').textContent=progressData?.error||'The tracker is collecting its first reading in the background.';return}
+ updateProgressAge();
+ $('overall-good').textContent=percent(current.pct.overall);$('overall-built').textContent='Built '+percent(current.built.overall);
+ $('progress-streams').innerHTML=Object.entries(current.streams).map(([key,s])=>`<article class="stream-row" data-stream="${esc(key)}"><div><h3>${esc(s.name)}</h3><small>Weight ${current.weights[key]??0}</small></div><div>${meter('Built',s.built)}${meter('Good',s.good,true)}</div><div class="stream-gates">${s.gates.map(gateMarkup).join('')}${s.detail?`<p class="stream-detail">${esc(s.detail)}</p>`:''}</div><p class="next-step"><b>Next:</b> ${esc(s.next_step)}</p></article>`).join('');
+ $('trend-controls').innerHTML=[['overall',{name:'Overall'}],...Object.entries(current.streams)].map(([k,s])=>`<label><input type="checkbox" value="${esc(k)}" ${selectedSeries.has(k)?'checked':''}><i style="background:${trendColors[k]}"></i>${esc(s.name)}</label>`).join('');
+ $('trend-controls').querySelectorAll('input').forEach(el=>el.onchange=()=>{el.checked?selectedSeries.add(el.value):selectedSeries.delete(el.value);drawTrend()});drawTrend();
+ const labels=progressData.label_next||[];$('label-next-count').textContent=`${labels.length} entries`;$('label-next').innerHTML=labels.length?labels.slice(0,8).map(labelItem).join('')+(labels.length>8?`<details><summary>Show ${labels.length-8} more entries</summary>${labels.slice(8).map(labelItem).join('')}</details>`:''):'<p class="empty">No failed, rejected or unsure training entries.</p>';
+ const version=current.dataset?.version,promoted=current.dataset?.promoted;$('dataset-body').innerHTML=`<h3>Newest version: ${esc(version||'pending')}</h3><p>Promoted version: ${esc(promoted||'pending')}. Quality gates above always use the newest version.</p>${version&&/^v\d+$/.test(version)?`<p><a href="http://127.0.0.1:8781/datasets/${version}/eval.md">Evaluation report</a> · <a href="http://127.0.0.1:8781/datasets/${version}/eval.json">Gate evidence JSON</a> · <a href="http://127.0.0.1:8781/datasets/${version}.zip">Download ZIP</a></p>`:''}<p><a href="http://127.0.0.1:8781">Open the lab</a> for the full Dataset tab, version comparisons and publication history.</p>`;renderProgressJobs();
+}
+async function refreshProgress(){try{const response=await fetch('/progress.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);progressData=await response.json();const stamp=JSON.stringify([progressData.current?.at,progressData.error]);if(stamp!==progressStamp){renderProgress();progressStamp=stamp}else{renderProgressJobs();updateProgressAge()}}catch(error){$('progress-error').textContent='Progress refresh delayed; retaining the last reading. '+error.message}}
+refreshProgress();setInterval(refreshProgress,20000);setInterval(renderProgressJobs,1000);addEventListener('resize',()=>requestAnimationFrame(drawTrend));
+</script>
+</body></html>

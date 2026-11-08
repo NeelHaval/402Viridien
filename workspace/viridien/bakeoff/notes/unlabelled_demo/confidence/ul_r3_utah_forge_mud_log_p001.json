@@ -1,0 +1,1536 @@
+[
+  {
+    "top_y": 1415,
+    "bottom_y": 1428,
+    "lithology": "GRANODIORITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9841918349266052,
+      "match_margin": 0.011909842491149902,
+      "boundary_probability": 0.36489954590797424
+    }
+  },
+  {
+    "top_y": 1428,
+    "bottom_y": 1494,
+    "lithology": "DIORITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9080211845311251,
+      "match_margin": 0.027529251394849852,
+      "boundary_probability": 0.8971613645553589
+    }
+  },
+  {
+    "top_y": 1494,
+    "bottom_y": 1515,
+    "lithology": "GRANODIORITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8883348140451643,
+      "match_margin": 0.04952256005219735,
+      "boundary_probability": 0.9486110210418701
+    }
+  },
+  {
+    "top_y": 1515,
+    "bottom_y": 1656,
+    "lithology": "GRANODIORITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8883348140451643,
+      "match_margin": 0.04952256005219735,
+      "boundary_probability": 0.005959015339612961
+    }
+  },
+  {
+    "top_y": 1656,
+    "bottom_y": 1692,
+    "lithology": "GRANODIORITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8883348140451643,
+      "match_margin": 0.04952256005219735,
+      "boundary_probability": 0.0011569538619369268
+    }
+  },
+  {
+    "top_y": 1692,
+    "bottom_y": 1797,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.9880814552307129
+    }
+  },
+  {
+    "top_y": 1797,
+    "bottom_y": 1938,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.154377281665802
+    }
+  },
+  {
+    "top_y": 1938,
+    "bottom_y": 2273,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.11101941019296646
+    }
+  },
+  {
+    "top_y": 2273,
+    "bottom_y": 2414,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.11361616104841232
+    }
+  },
+  {
+    "top_y": 2414,
+    "bottom_y": 2555,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.14021846652030945
+    }
+  },
+  {
+    "top_y": 2555,
+    "bottom_y": 2696,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.22344914078712463
+    }
+  },
+  {
+    "top_y": 2696,
+    "bottom_y": 2837,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.12698280811309814
+    }
+  },
+  {
+    "top_y": 2837,
+    "bottom_y": 2978,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.18751397728919983
+    }
+  },
+  {
+    "top_y": 2978,
+    "bottom_y": 3119,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.057078175246715546
+    }
+  },
+  {
+    "top_y": 3119,
+    "bottom_y": 3454,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.03131812810897827
+    }
+  },
+  {
+    "top_y": 3454,
+    "bottom_y": 3489,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.1536465186043189,
+      "match_margin": 0.21214931569765458,
+      "boundary_probability": 0.03326091915369034
+    }
+  },
+  {
+    "top_y": 3489,
+    "bottom_y": 3595,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8500667552038425,
+      "match_margin": 0.0434630740584665,
+      "boundary_probability": 0.9114301800727844
+    }
+  },
+  {
+    "top_y": 3595,
+    "bottom_y": 3662,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8500667552038425,
+      "match_margin": 0.0434630740584665,
+      "boundary_probability": 0.47108420729637146
+    }
+  },
+  {
+    "top_y": 3662,
+    "bottom_y": 3736,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6587545109349627,
+      "match_margin": 0.021383041955307935,
+      "boundary_probability": 0.7219661474227905
+    }
+  },
+  {
+    "top_y": 3736,
+    "bottom_y": 3877,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6587545109349627,
+      "match_margin": 0.021383041955307935,
+      "boundary_probability": 0.04380660876631737
+    }
+  },
+  {
+    "top_y": 3877,
+    "bottom_y": 3963,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6587545109349627,
+      "match_margin": 0.021383041955307935,
+      "boundary_probability": 0.25953084230422974
+    }
+  },
+  {
+    "top_y": 3963,
+    "bottom_y": 4018,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7138967264671715,
+      "match_margin": 0.05447172054222649,
+      "boundary_probability": 0.5023828744888306
+    }
+  },
+  {
+    "top_y": 4018,
+    "bottom_y": 4159,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7138967264671715,
+      "match_margin": 0.05447172054222649,
+      "boundary_probability": 0.11774466931819916
+    }
+  },
+  {
+    "top_y": 4159,
+    "bottom_y": 4192,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7632166147232056,
+      "match_margin": 0.08350073568748706,
+      "boundary_probability": 0.1011992022395134
+    }
+  },
+  {
+    "top_y": 4192,
+    "bottom_y": 4212,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9329798817634583,
+      "match_margin": 0.032706499099731445,
+      "boundary_probability": 0.668898344039917
+    }
+  },
+  {
+    "top_y": 4212,
+    "bottom_y": 4271,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6272711157798767,
+      "match_margin": 0.08953535556793213,
+      "boundary_probability": 0.7239212989807129
+    }
+  },
+  {
+    "top_y": 4271,
+    "bottom_y": 4300,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7312506690938422,
+      "match_margin": 0.0411394454063253,
+      "boundary_probability": 0.4263022840023041
+    }
+  },
+  {
+    "top_y": 4300,
+    "bottom_y": 4318,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7312506690938422,
+      "match_margin": 0.0411394454063253,
+      "boundary_probability": 0.02333776466548443
+    }
+  },
+  {
+    "top_y": 4318,
+    "bottom_y": 4390,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9644174575805664,
+      "match_margin": 0.0018492937088012695,
+      "boundary_probability": 0.6431552767753601
+    }
+  },
+  {
+    "top_y": 4390,
+    "bottom_y": 4635,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8008820939558158,
+      "match_margin": 0.07402935299848645,
+      "boundary_probability": 0.5005983710289001
+    }
+  },
+  {
+    "top_y": 4635,
+    "bottom_y": 4776,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8008820939558158,
+      "match_margin": 0.07402935299848645,
+      "boundary_probability": 0.0881156176328659
+    }
+  },
+  {
+    "top_y": 4776,
+    "bottom_y": 4809,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7802995443344116,
+      "match_margin": 0.035263657569885254,
+      "boundary_probability": 0.01894948072731495
+    }
+  },
+  {
+    "top_y": 4809,
+    "bottom_y": 4917,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9551668763160706,
+      "match_margin": 0.010606169700622559,
+      "boundary_probability": 0.9104400277137756
+    }
+  },
+  {
+    "top_y": 4917,
+    "bottom_y": 4970,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9241426587104797,
+      "match_margin": 0.010937392711639404,
+      "boundary_probability": 0.010387786664068699
+    }
+  },
+  {
+    "top_y": 4970,
+    "bottom_y": 4983,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7116049528121948,
+      "match_margin": 0.01411980390548706,
+      "boundary_probability": 0.9362747669219971
+    }
+  },
+  {
+    "top_y": 4983,
+    "bottom_y": 5058,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6437379264831543,
+      "match_margin": 0.18919295946756998,
+      "boundary_probability": 0.22694846987724304
+    }
+  },
+  {
+    "top_y": 5058,
+    "bottom_y": 5076,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5918170213699341,
+      "match_margin": 0.05271422863006592,
+      "boundary_probability": 0.07654998451471329
+    }
+  },
+  {
+    "top_y": 5076,
+    "bottom_y": 5199,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6796692315991043,
+      "match_margin": 0.13809885401675048,
+      "boundary_probability": 0.41308167576789856
+    }
+  },
+  {
+    "top_y": 5199,
+    "bottom_y": 5340,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6796692315991043,
+      "match_margin": 0.13809885401675048,
+      "boundary_probability": 0.17564687132835388
+    }
+  },
+  {
+    "top_y": 5340,
+    "bottom_y": 5640,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6796692315991043,
+      "match_margin": 0.13809885401675048,
+      "boundary_probability": 0.004926697351038456
+    }
+  },
+  {
+    "top_y": 5640,
+    "bottom_y": 5675,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9003567695617676,
+      "match_margin": 0.05326718091964722,
+      "boundary_probability": 0.8040746450424194
+    }
+  },
+  {
+    "top_y": 5675,
+    "bottom_y": 5816,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5865316367768622,
+      "match_margin": 0.18559467482876468,
+      "boundary_probability": 0.891014039516449
+    }
+  },
+  {
+    "top_y": 5816,
+    "bottom_y": 5906,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5865316367768622,
+      "match_margin": 0.18559467482876468,
+      "boundary_probability": 0.27717384696006775
+    }
+  },
+  {
+    "top_y": 5906,
+    "bottom_y": 5957,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9316168427467346,
+      "match_margin": 0.01994466781616211,
+      "boundary_probability": 0.9435416460037231
+    }
+  },
+  {
+    "top_y": 5957,
+    "bottom_y": 5975,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9419384598731995,
+      "match_margin": 0.026372253894805908,
+      "boundary_probability": 0.04497896134853363
+    }
+  },
+  {
+    "top_y": 5975,
+    "bottom_y": 6026,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7118502855300903,
+      "match_margin": 0.12482988834381104,
+      "boundary_probability": 0.904848575592041
+    }
+  },
+  {
+    "top_y": 6026,
+    "bottom_y": 6063,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9288676977157593,
+      "match_margin": 0.030169546604156494,
+      "boundary_probability": 0.7952520847320557
+    }
+  },
+  {
+    "top_y": 6063,
+    "bottom_y": 6098,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6920313002369928,
+      "match_margin": 0.10759204626083374,
+      "boundary_probability": 0.8443995714187622
+    }
+  },
+  {
+    "top_y": 6098,
+    "bottom_y": 6204,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6920313002369928,
+      "match_margin": 0.10759204626083374,
+      "boundary_probability": 0.013373153284192085
+    }
+  },
+  {
+    "top_y": 6204,
+    "bottom_y": 6239,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6225966215133667,
+      "match_margin": 0.025671005249023438,
+      "boundary_probability": 0.40398383140563965
+    }
+  },
+  {
+    "top_y": 6239,
+    "bottom_y": 6272,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7559829950332642,
+      "match_margin": 0.13609880208969116,
+      "boundary_probability": 0.06670837849378586
+    }
+  },
+  {
+    "top_y": 6272,
+    "bottom_y": 6380,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.7166942358016968,
+      "match_margin": 0.050579607486724854,
+      "boundary_probability": 0.6157222390174866
+    }
+  },
+  {
+    "top_y": 6380,
+    "bottom_y": 6856,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6860453831731577,
+      "match_margin": 0.09530246118472296,
+      "boundary_probability": 0.07582025229930878
+    }
+  },
+  {
+    "top_y": 6856,
+    "bottom_y": 6979,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6860453831731577,
+      "match_margin": 0.09530246118472296,
+      "boundary_probability": 0.0631294846534729
+    }
+  },
+  {
+    "top_y": 6979,
+    "bottom_y": 6997,
+    "lithology": "CEMENT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5157793760299683,
+      "match_margin": 0.35127184788386023,
+      "boundary_probability": 0.9561329483985901
+    }
+  },
+  {
+    "top_y": 6997,
+    "bottom_y": 7033,
+    "lithology": "CEMENT",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5157793760299683,
+      "match_margin": 0.35127184788386023,
+      "boundary_probability": 0.02224009297788143
+    }
+  },
+  {
+    "top_y": 7033,
+    "bottom_y": 7138,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.9740558862686157
+    }
+  },
+  {
+    "top_y": 7138,
+    "bottom_y": 7279,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.1487019658088684
+    }
+  },
+  {
+    "top_y": 7279,
+    "bottom_y": 7420,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.0739717036485672
+    }
+  },
+  {
+    "top_y": 7420,
+    "bottom_y": 7561,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.12799687683582306
+    }
+  },
+  {
+    "top_y": 7561,
+    "bottom_y": 7896,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.0679236426949501
+    }
+  },
+  {
+    "top_y": 7896,
+    "bottom_y": 8037,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.2399526983499527
+    }
+  },
+  {
+    "top_y": 8037,
+    "bottom_y": 8178,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.18124344944953918
+    }
+  },
+  {
+    "top_y": 8178,
+    "bottom_y": 8319,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.1250750869512558
+    }
+  },
+  {
+    "top_y": 8319,
+    "bottom_y": 8460,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.0299476720392704
+    }
+  },
+  {
+    "top_y": 8460,
+    "bottom_y": 8601,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.049984708428382874
+    }
+  },
+  {
+    "top_y": 8601,
+    "bottom_y": 8742,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.1307615041732788
+    }
+  },
+  {
+    "top_y": 8742,
+    "bottom_y": 8936,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.22706210613250732
+    }
+  },
+  {
+    "top_y": 8936,
+    "bottom_y": 9077,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.1359533816576004
+    }
+  },
+  {
+    "top_y": 9077,
+    "bottom_y": 9218,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.11242210119962692
+    }
+  },
+  {
+    "top_y": 9218,
+    "bottom_y": 9359,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.10909886658191681
+    }
+  },
+  {
+    "top_y": 9359,
+    "bottom_y": 9500,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.1602087914943695
+    }
+  },
+  {
+    "top_y": 9500,
+    "bottom_y": 9641,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.07903946191072464
+    }
+  },
+  {
+    "top_y": 9641,
+    "bottom_y": 9782,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.1568298041820526
+    }
+  },
+  {
+    "top_y": 9782,
+    "bottom_y": 10117,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.050466325134038925
+    }
+  },
+  {
+    "top_y": 10117,
+    "bottom_y": 10258,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.05745953321456909
+    }
+  },
+  {
+    "top_y": 10258,
+    "bottom_y": 10399,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.10359214246273041
+    }
+  },
+  {
+    "top_y": 10399,
+    "bottom_y": 10540,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.05754084512591362
+    }
+  },
+  {
+    "top_y": 10540,
+    "bottom_y": 10611,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.27668879655501644,
+      "match_margin": 0.4220620195015373,
+      "boundary_probability": 0.02897278219461441
+    }
+  },
+  {
+    "top_y": 10611,
+    "bottom_y": 10681,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.418193519115448
+    }
+  },
+  {
+    "top_y": 10681,
+    "bottom_y": 11157,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.09335267543792725
+    }
+  },
+  {
+    "top_y": 11157,
+    "bottom_y": 11298,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.14679381251335144
+    }
+  },
+  {
+    "top_y": 11298,
+    "bottom_y": 11439,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.17900341749191284
+    }
+  },
+  {
+    "top_y": 11439,
+    "bottom_y": 11580,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.10508888959884644
+    }
+  },
+  {
+    "top_y": 11580,
+    "bottom_y": 11721,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.29242730140686035
+    }
+  },
+  {
+    "top_y": 11721,
+    "bottom_y": 11862,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.011218097992241383
+    }
+  },
+  {
+    "top_y": 11862,
+    "bottom_y": 12003,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.2287241816520691
+    }
+  },
+  {
+    "top_y": 12003,
+    "bottom_y": 12338,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.05160534754395485
+    }
+  },
+  {
+    "top_y": 12338,
+    "bottom_y": 12479,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.4106295704841614
+    }
+  },
+  {
+    "top_y": 12479,
+    "bottom_y": 12620,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.16612009704113007
+    }
+  },
+  {
+    "top_y": 12620,
+    "bottom_y": 12761,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.01013992354273796
+    }
+  },
+  {
+    "top_y": 12761,
+    "bottom_y": 12902,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.08964386582374573
+    }
+  },
+  {
+    "top_y": 12902,
+    "bottom_y": 13043,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.49993329208442255,
+      "match_margin": 0.1480965037143936,
+      "boundary_probability": 0.010150359943509102
+    }
+  },
+  {
+    "top_y": 13043,
+    "bottom_y": 13378,
+    "lithology": "COARSE Sand",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6556631422754544,
+      "match_margin": 0.05604889535192237,
+      "boundary_probability": 0.11676239222288132
+    }
+  },
+  {
+    "top_y": 13378,
+    "bottom_y": 13519,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5782673146465037,
+      "match_margin": 0.12923110372359214,
+      "boundary_probability": 0.005986352451145649
+    }
+  },
+  {
+    "top_y": 13519,
+    "bottom_y": 13660,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5782673146465037,
+      "match_margin": 0.12923110372359214,
+      "boundary_probability": 0.11533728986978531
+    }
+  },
+  {
+    "top_y": 13660,
+    "bottom_y": 13782,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.5782673146465037,
+      "match_margin": 0.12923110372359214,
+      "boundary_probability": 0.24210461974143982
+    }
+  },
+  {
+    "top_y": 13782,
+    "bottom_y": 13801,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.9762123227119446
+    }
+  },
+  {
+    "top_y": 13801,
+    "bottom_y": 14841,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.10574518144130707
+    }
+  },
+  {
+    "top_y": 14841,
+    "bottom_y": 14982,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.0013036446180194616
+    }
+  },
+  {
+    "top_y": 14982,
+    "bottom_y": 15123,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.021562134847044945
+    }
+  },
+  {
+    "top_y": 15123,
+    "bottom_y": 15264,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.26252472400665283
+    }
+  },
+  {
+    "top_y": 15264,
+    "bottom_y": 15599,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.038527712225914
+    }
+  },
+  {
+    "top_y": 15599,
+    "bottom_y": 15670,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.3809338368917421,
+      "match_margin": 0.6034599177349926,
+      "boundary_probability": 0.002619604580104351
+    }
+  },
+  {
+    "top_y": 15670,
+    "bottom_y": 15687,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.6214704513549805,
+      "match_margin": 0.12277531623840332,
+      "boundary_probability": 0.6123887300491333
+    }
+  },
+  {
+    "top_y": 15687,
+    "bottom_y": 15740,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9165732264518738,
+      "match_margin": 0.04800379276275635,
+      "boundary_probability": 0.7002780437469482
+    }
+  },
+  {
+    "top_y": 15740,
+    "bottom_y": 15881,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8279112972689013,
+      "match_margin": 0.07172395426330835,
+      "boundary_probability": 0.09895094484090805
+    }
+  },
+  {
+    "top_y": 15881,
+    "bottom_y": 16022,
+    "lithology": "Conglomerate",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8279112972689013,
+      "match_margin": 0.07172395426330835,
+      "boundary_probability": 0.042135089635849
+    }
+  },
+  {
+    "top_y": 16022,
+    "bottom_y": 16163,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8794721939679607,
+      "match_margin": 0.08970259492049737,
+      "boundary_probability": 0.6511074900627136
+    }
+  },
+  {
+    "top_y": 16163,
+    "bottom_y": 16304,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8794721939679607,
+      "match_margin": 0.08970259492049737,
+      "boundary_probability": 0.005165046080946922
+    }
+  },
+  {
+    "top_y": 16304,
+    "bottom_y": 16413,
+    "lithology": "ROLITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8794721939679607,
+      "match_margin": 0.08970259492049737,
+      "boundary_probability": 0.004851320292800665
+    }
+  },
+  {
+    "top_y": 16413,
+    "bottom_y": 16639,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40188175290626654,
+      "match_margin": 0.5226646944468201,
+      "boundary_probability": 0.8917272090911865
+    }
+  },
+  {
+    "top_y": 16639,
+    "bottom_y": 16780,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40188175290626654,
+      "match_margin": 0.5226646944468201,
+      "boundary_probability": 0.008898893371224403
+    }
+  },
+  {
+    "top_y": 16780,
+    "bottom_y": 16921,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40188175290626654,
+      "match_margin": 0.5226646944468201,
+      "boundary_probability": 0.014800225384533405
+    }
+  },
+  {
+    "top_y": 16921,
+    "bottom_y": 17172,
+    "lithology": "Granite WASH",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.40188175290626654,
+      "match_margin": 0.5226646944468201,
+      "boundary_probability": 0.010520948097109795
+    }
+  },
+  {
+    "top_y": 17172,
+    "bottom_y": 17203,
+    "lithology": "DIORITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.9352240562438965,
+      "match_margin": 0.017205893993377686,
+      "boundary_probability": 0.9571154117584229
+    }
+  },
+  {
+    "top_y": 17203,
+    "bottom_y": 17344,
+    "lithology": "DACITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8832393384943105,
+      "match_margin": 0.02637198778113936,
+      "boundary_probability": 0.011583643965423107
+    }
+  },
+  {
+    "top_y": 17344,
+    "bottom_y": 17500,
+    "lithology": "DACITE",
+    "confidence": null,
+    "confidence_status": "unverified",
+    "confidence_source": "unknown",
+    "native_scores": {
+      "match_cost": 0.8832393384943105,
+      "match_margin": 0.02637198778113936,
+      "boundary_probability": 0.011406855657696724
+    }
+  }
+]

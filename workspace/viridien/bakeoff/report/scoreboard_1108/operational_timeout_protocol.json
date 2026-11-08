@@ -1,0 +1,9 @@
+{
+  "authorization": "Owner requested a finite continuation after the full Shenzi S19 PELT attempt stalled.",
+  "preservation": "No window truncation and no inference algorithm or shared scorer change. Existing completed rows persist.",
+  "scope": "One owned warm batch child at a time. Each announced case/strategy attempt has a600s whole-attempt cap, including input checks and shared preprocessing. Receipt phase distinguishes those from strategy runtime.",
+  "failure": "On timeout terminate only the owned Popen child, retain full case identity, save a zero-quality failure record, leave successful inference seconds null, then resume from durable rows. Failed attempts have no invented600s inference measurement.",
+  "bounds": "Finite declared local matrix; at most number of planned keys plus two starts. Stop after two child exits without durable progress. Startup/finalization is also capped and is not attributed as measured inference.",
+  "timing": "Successful cases keep models warm. Every new process and first strategy call is labelled; later operational controls are parent-tested and were added after Astra code review.",
+  "remote": "S20 remains a separate owned VM shard. No concurrent merge into the local writer. Symmetric grading equivalence uses saved CSVs only."
+}

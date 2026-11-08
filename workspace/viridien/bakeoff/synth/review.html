@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Does the column match the legend?</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#17212b;font:16px/1.4 system-ui,sans-serif}
+main{max-width:1180px;margin:auto;padding:12px}h1{font-size:24px;margin:4px 0}h2{font-size:16px;margin:14px 0 6px;color:#3b4652}
+p{margin:6px 0}.muted{color:#55616b;font-size:13px}
+button,select{font:inherit;border:1px solid #74808c;background:#fff;color:inherit;padding:8px 12px;min-height:44px;cursor:pointer;border-radius:4px}
+button:focus-visible,select:focus-visible{outline:3px solid #2362a0}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.bar select{max-width:100%}
+.fams{display:flex;flex-wrap:wrap;gap:4px 14px;margin:8px 0;font-size:12px;color:#55616b}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:20px;align-items:start}
+.legend img{display:block;max-width:100%;height:auto;border:1px solid #c5ccd3}.legend figure{margin:0 0 10px}.legend figcaption{font-size:12px;color:#55616b}
+.rival{border:2px solid #b07a00;background:#fff8e6;padding:8px 10px;margin:8px 0;font-size:14px}
+.stage{display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}.stage img{image-rendering:pixelated;max-width:100%;height:auto;border:1px solid #c5ccd3;display:block}
+.strip{border:1px solid #c5ccd3;background-repeat:repeat;image-rendering:pixelated}
+.q{font-size:18px;font-weight:600;margin:10px 0}
+.answers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.answers button{font-size:17px;min-height:56px}
+.yes{background:#215d42;color:#fff;border-color:#215d42}.no{background:#9d3030;color:#fff;border-color:#9d3030}
+.thumbs{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}.thumbs button{min-height:0;padding:2px;border-width:3px;border-color:#c5ccd3;line-height:0}
+.thumbs button.y{border-color:#215d42}.thumbs button.n{border-color:#9d3030}.thumbs button.cur{outline:3px solid #2362a0}
+.thumbs img{image-rendering:pixelated;display:block}
+textarea{width:100%;min-height:54px;font:inherit;padding:8px;border:1px solid #9ba4ad;border-radius:4px}
+.pat{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.err{color:#9d3030}
+.modes{display:flex;gap:8px;margin:0 0 8px}.modes button.on{background:#2362a0;color:#fff;border-color:#2362a0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.tile{position:relative;padding:4px;border:4px solid #c5ccd3;background:#fff;min-height:0;line-height:0;text-align:left}
+.tile img{width:100%;height:auto;image-rendering:pixelated;display:block}
+.tile.n{border-color:#9d3030}.tile.n img{opacity:.55}.tile.y{border-color:#215d42}
+.tile span{position:absolute;top:6px;left:6px;line-height:1.2;font-size:13px;font-weight:600;padding:2px 6px;background:#fff;border:1px solid #74808c}
+.tile.n span{background:#9d3030;color:#fff;border-color:#9d3030}
+.gbar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.meta{font-size:13px;color:#55616b;overflow-wrap:anywhere}
+@media(max-width:760px){.layout{grid-template-columns:minmax(0,1fr)}.answers{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:21px}}
+</style>
+<main>
+<div class="bar"><button id="prevp">&larr; Pattern (K)</button><button id="nextp">Pattern (J) &rarr;</button>
+<select id="filter" aria-label="Which patterns"><option value="todo">To check (has stretches, not finished)</option><option value="all">All patterns</option><option value="flagged">Flagged / bad / re-pick</option></select>
+<span id="msg" class="muted" role="status"></span></div>
+<div id="fams" class="fams"></div>
+<h1 id="title">Loading…</h1><p class="meta" id="sub"></p>
+<div class="layout">
+<section><h2>1. What the legend shows (real screenshot, entry outlined in red)</h2><div id="legend" class="legend"></div><div id="rivals"></div></section>
+<section><div class="modes"><button id="mgrid">Pick the wrong ones (grid)</button><button id="mone">One at a time</button></div>
+<div id="gridview"><h2 id="gridhead">2. Stretches from the actual column</h2><p class="q">Tap every stretch that is NOT the outlined legend pattern.</p><div id="grid" class="grid"></div>
+<div class="gbar"><button class="yes" id="gdone">Done: the rest are correct (Enter)</button><button id="gclear">Clear marks</button></div></div>
+<div id="oneview"><h2 id="stagehead">2. A stretch from the actual column</h2>
+<div class="stage" id="stage"></div><p class="meta" id="cmeta"></p>
+<p class="q" id="question">Is this column stretch the same pattern as the outlined legend entry?</p>
+<div class="answers"><button class="yes" id="by">Yes (Y)</button><button class="no" id="bn">No (N)</button><button id="bs">Not sure (S)</button><button id="bb">Back (B)</button></div>
+<div id="thumbs" class="thumbs" aria-label="All stretches for this pattern"></div></div>
+<h2>Quick note (optional, Ctrl+Enter saves)</h2><textarea id="note" placeholder="e.g. column draws it smaller than the legend; 3 and 7 are really shale; merge with Clay"></textarea>
+<div class="pat"><button id="bx">Whole pattern is wrong (X)</button><button id="br">Needs better stretches (R)</button><button id="bu">Undo last save (U)</button></div>
+<p class="muted">Grid: tap the wrong ones (they turn red), then Done; everything not marked counts as correct. One at a time: Y / N answer and move to the next stretch; S skips. When every stretch is answered the pattern is saved (kept = the Yes ones) and the next pattern opens. Click a thumbnail to revisit one.</p>
+</section></div>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+let mode=localStorage.getItem('rvmode')||'grid',patterns=[],pid=null,data=null,order=[],idx=0,verdicts={},filter='todo',has=new Map();
+const url=f=>'/'+f.split('/').map(encodeURIComponent).join('/');
+const short=s=>(s||'').replace(/^\d{8,}[ _-]*/,'').slice(0,44);
+async function api(path,body){const r=await fetch(path,body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{});const j=await r.json();if(!r.ok)throw new Error(j.error||'request failed');return j;}
+function msg(t,e){$('msg').textContent=t;$('msg').className=e?'err':'muted';}
+function fams(){const el=$('fams');el.replaceChildren();for(const f of [...new Set(patterns.filter(p=>p.n>0).map(p=>p.family))]){const a=patterns.filter(p=>p.family===f&&p.n>0),d=a.filter(p=>p.status!=='unreviewed').length;const s=document.createElement('span');s.textContent=`${f}: ${d}/${a.length}`;el.append(s);}}
+function list(){return patterns.filter(p=>p.n>0).filter(p=>filter==='all'||(filter==='todo'&&p.status==='unreviewed'&&has.get(p.pid)!==false)||(filter==='flagged'&&(p.status==='bad'||p.status==='repick'))||filter==='fam:'+p.family);}
+async function open(id){
+  pid=id;data=await api('/api/pattern?pid='+encodeURIComponent(id));has.set(id,Object.keys(data.candidates).length>0);
+  const p=data.pattern;$('title').textContent=p.label;const R=patterns.filter(x=>x.n>0);$('sub').textContent=`${p.family} · ${R.findIndex(x=>x.pid===id)+1} of ${R.length} patterns with stretches · target ${p.n_target} good stretches`;
+  history.replaceState(null,'','#'+encodeURIComponent(id));
+  const L=$('legend');L.replaceChildren();
+  for(const c of data.legend_crops||[]){const f=document.createElement('figure'),im=document.createElement('img');im.src=url(c.file);im.width=c.w;im.height=c.h;im.alt='Legend screenshot';const cap=document.createElement('figcaption');cap.textContent=short(c.log)+(c.same_in.length?` · identical in ${c.same_in.length} more log${c.same_in.length>1?'s':''}`:'');f.append(im,cap);L.append(f);}
+  if(!(data.legend_crops||[]).length)L.textContent='No legend screenshot found for this entry.';
+  $('rivals').replaceChildren(...(data.rivals||[]).map(r=>{const d=document.createElement('div');d.className='rival';d.textContent=`Look-alike: "${r.label}" looks the same in this legend, so the picture alone cannot tell ${p.label} from ${r.label}. Say Yes if the stretch fits either, and add a note if you know which.`;return d;}));
+  order=Object.keys(data.candidates).map(Number).sort((a,b)=>(data.candidates[b].similarity||0)-(data.candidates[a].similarity||0));
+  verdicts=Object.assign({},data.decision?.verdicts||{});$('note').value=data.decision?.note||'';
+  idx=order.findIndex(n=>!verdicts[n]);if(idx<0)idx=0;draw();
+}
+function draw(){
+  $('gridview').hidden=mode!=='grid';$('oneview').hidden=mode==='grid';$('mgrid').classList.toggle('on',mode==='grid');$('mone').classList.toggle('on',mode!=='grid');
+  if(mode==='grid')return drawGrid();
+  const st=$('stage');st.replaceChildren();$('thumbs').replaceChildren();
+  if(!order.length){$('stagehead').textContent='2. Stretches from the actual column';$('cmeta').textContent='';$('question').textContent='No column stretches found for this pattern yet. Press J for the next pattern.';return;}
+  const n=order[idx],c=data.candidates[n];$('stagehead').textContent=`2. Column stretch ${idx+1} of ${order.length}`;$('question').textContent='Is this column stretch the same pattern as the outlined legend entry?';
+  const k=Math.max(1,Math.min(4,Math.max(Math.floor(320/Math.max(1,c.col_w)),Math.ceil(160/Math.max(1,c.h)))));const im=document.createElement('img');im.src=url(c.file);im.width=c.col_w*k;im.height=c.h*k;im.alt='Column stretch';st.append(im);
+  const v=c.verification||{};$('cmeta').textContent=`${short(c.log)} · rows ${c.top_y}-${c.bottom_y} · ${c.source||''} · similarity ${Math.round(100*(c.similarity||0))}%`+(v.label?` · JEV says ${v.label}`:'')+` · shown ${k}x, not stretched`+(verdicts[n]?` · you said ${verdicts[n]==='y'?'Yes':'No'}`:'');
+  for(const [i,m] of order.entries()){const b=document.createElement('button'),cc=data.candidates[m];b.className=(verdicts[m]||'')+(i===idx?' cur':'');b.title=`#${m}`;const t=document.createElement('img'),s=Math.min(1,48/Math.max(cc.col_w,1));t.src=url(cc.file);t.width=Math.max(8,Math.round(cc.col_w*s));t.height=Math.max(8,Math.round(cc.h*s));b.append(t);b.onclick=()=>{idx=i;draw();};$('thumbs').append(b);}
+}
+function drawGrid(){
+  const g=$('grid');g.replaceChildren();
+  if(!order.length){$('gridhead').textContent='2. No column stretches found for this pattern yet (J = next pattern)';return;}
+  $('gridhead').textContent=`2. ${order.length} stretches from the actual column · ${order.filter(m=>verdicts[m]==='n').length} marked wrong`;
+  for(const m of order){const c=data.candidates[m],b=document.createElement('button');b.className='tile '+(verdicts[m]||'');
+    const im=document.createElement('img');im.src=url(c.file);im.width=c.col_w;im.height=c.h;im.alt='Column stretch '+m;
+    const v=c.verification||{};b.title=`${short(c.log)} rows ${c.top_y}-${c.bottom_y} · similarity ${Math.round(100*(c.similarity||0))}%`+(v.label?` · JEV: ${v.label}`:'');
+    const tag=document.createElement('span');tag.textContent=verdicts[m]==='n'?'Wrong':verdicts[m]==='y'?'OK':String(order.indexOf(m)+1);
+    b.append(im,tag);b.onclick=()=>{verdicts[m]=verdicts[m]==='n'?undefined:'n';if(!verdicts[m])delete verdicts[m];drawGrid();};g.append(b);}
+}
+async function gridDone(){
+  if(!order.length)return nextPattern(1);
+  for(const m of order)if(verdicts[m]!=='n')verdicts[m]='y';
+  try{await save(order.some(m=>verdicts[m]==='y')?'approved':'bad');}catch(e){msg('Save failed: '+e.message,true);return;}
+  nextPattern(1);
+}
+async function save(status){
+  const picks=order.filter(n=>verdicts[n]==='y');
+  await api('/api/save',{pid,status,picks,note:$('note').value,verdicts});
+  const p=patterns.find(x=>x.pid===pid);p.status=status;fams();msg('Saved · '+status+` · ${picks.length} kept`);
+}
+async function answer(v){
+  if(!order.length)return;verdicts[order[idx]]=v;
+  const done=order.every(m=>verdicts[m]);
+  try{
+    if(done){await save(order.some(m=>verdicts[m]==='y')?'approved':'bad');return nextPattern();}
+    await save('unreviewed');
+  }catch(e){msg('Save failed: '+e.message,true);return;}
+  const nx=order.findIndex((m,i)=>i>idx&&!verdicts[m]);idx=nx>=0?nx:order.findIndex(m=>!verdicts[m]);draw();
+}
+async function nextPattern(step=1){const L=list(),i=L.findIndex(p=>p.pid===pid);let j=i<0?(step>0?0:L.length-1):i+step;
+  while(j>=0&&j<L.length){await open(L[j].pid);if(order.length||filter!=='todo')return;has.set(L[j].pid,false);j+=step;}msg('No more patterns in this view.');}
+$('by').onclick=()=>answer('y');$('bn').onclick=()=>answer('n');$('bs').onclick=()=>{if(!order.length)return;idx=(idx+1)%order.length;draw();};
+$('mgrid').onclick=()=>{mode='grid';localStorage.setItem('rvmode',mode);draw();};$('mone').onclick=()=>{mode='one';localStorage.setItem('rvmode',mode);draw();};
+$('gdone').onclick=gridDone;$('gclear').onclick=()=>{for(const m of order)if(verdicts[m]==='n')delete verdicts[m];drawGrid();};
+$('bb').onclick=()=>{if(idx>0){idx--;draw();}};$('nextp').onclick=()=>nextPattern(1);$('prevp').onclick=()=>nextPattern(-1);
+$('bx').onclick=async()=>{try{await save('bad');nextPattern();}catch(e){msg(e.message,true);}};
+$('br').onclick=async()=>{try{await save('repick');nextPattern();}catch(e){msg(e.message,true);}};
+$('bu').onclick=async()=>{try{await api('/api/undo',{pid});const b=await api('/api/bootstrap');patterns=b.patterns;fams();await open(pid);msg('Undone');}catch(e){msg(e.message,true);}};
+$('filter').onchange=()=>{filter=$('filter').value;pid=null;nextPattern(1);};
+$('note').addEventListener('keydown',e=>{if(e.key==='Enter'&&(e.ctrlKey||e.metaKey)){e.preventDefault();const p=patterns.find(x=>x.pid===pid);save(p.status).catch(er=>msg(er.message,true));}});
+document.addEventListener('keydown',e=>{if(e.target.matches('textarea,select,input')||e.ctrlKey||e.metaKey||e.altKey)return;
+  if(mode==='grid'&&e.key==='Enter'&&!e.target.matches('button:not(.tile)')){e.preventDefault();return gridDone();}
+  const a=(mode==='grid'?{j:()=>nextPattern(1),k:()=>nextPattern(-1),x:()=>$('bx').click(),r:()=>$('br').click(),u:()=>$('bu').click()}:{y:()=>answer('y'),n:()=>answer('n'),s:()=>$('bs').click(),b:()=>$('bb').click(),j:()=>nextPattern(1),k:()=>nextPattern(-1),x:()=>$('bx').click(),r:()=>$('br').click(),u:()=>$('bu').click(),arrowright:()=>$('bs').click(),arrowleft:()=>$('bb').click()})[e.key.toLowerCase()];
+  if(a){e.preventDefault();a();}});
+(async()=>{try{const b=await api('/api/bootstrap');patterns=b.patterns;fams();
+  for(const f of [...new Set(patterns.map(p=>p.family))]){const o=document.createElement('option');o.value='fam:'+f;o.textContent=f;$('filter').append(o);}
+  const want=decodeURIComponent(location.hash.slice(1));if(patterns.some(p=>p.pid===want&&p.n>0)){filter='all';$('filter').value='all';await open(want);}else await nextPattern(1);
+}catch(e){msg(e.message,true);}})();
+</script>
+</html>

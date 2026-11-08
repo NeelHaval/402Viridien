@@ -1,0 +1,223 @@
+{
+  "strategy": "s07_synth_cnn",
+  "name": "S7 swatch-trained CNN",
+  "set": "synthetic",
+  "gt": "gold",
+  "logs": [
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_0",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.019873699988238513,
+      "depth_seconds": 0.0013676000089617446,
+      "api_calls": 0,
+      "seconds": 11.459509499996784,
+      "peak_rss_gb": 1.3918266296386719,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.5779608065890373,
+      "boundary_f1": 0.7368421052631579,
+      "cluster_ari": 0.6027774902259859,
+      "depth_mae_ft": 0.142857142856883,
+      "score": 0.425865857486659,
+      "csv": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_0.csv",
+      "png": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_0.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_1",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.019873699988238513,
+      "depth_seconds": 0.0013676000089617446,
+      "api_calls": 0,
+      "seconds": 3.921927000003052,
+      "peak_rss_gb": 1.3742866516113281,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.4374477570353859,
+      "boundary_f1": 0.42105263157894735,
+      "cluster_ari": 0.5736812751509627,
+      "depth_mae_ft": 0.1750000000001819,
+      "score": 0.1841885292780572,
+      "csv": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_1.csv",
+      "png": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_1.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log06_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_2",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.019873699988238513,
+      "depth_seconds": 0.0013676000089617446,
+      "api_calls": 0,
+      "seconds": 4.071045899996534,
+      "peak_rss_gb": 1.3554458618164062,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.7759420289855072,
+      "boundary_f1": 0.7333333333333333,
+      "cluster_ari": 0.7755073134668331,
+      "depth_mae_ft": 0.11818181818175204,
+      "score": 0.5690241545893719,
+      "csv": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_2.csv",
+      "png": "0000000009_d-582_0000020435-0001_log06_fe_5in_md__synthetic_2.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_0",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.01181570001062937,
+      "depth_seconds": 0.0012233000015839934,
+      "api_calls": 0,
+      "seconds": 4.124658500004443,
+      "peak_rss_gb": 1.3960609436035156,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.44362397046293667,
+      "boundary_f1": 0.717948717948718,
+      "cluster_ari": 0.60657430759469,
+      "depth_mae_ft": 0.09999999999984409,
+      "score": 0.3184992608451853,
+      "csv": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_0.csv",
+      "png": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_0.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_1",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.01181570001062937,
+      "depth_seconds": 0.0012233000015839934,
+      "api_calls": 0,
+      "seconds": 4.688276100001531,
+      "peak_rss_gb": 1.3759994506835938,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.44441348565059907,
+      "boundary_f1": 0.43243243243243246,
+      "cluster_ari": 0.5818855374348976,
+      "depth_mae_ft": 0.18750000000045475,
+      "score": 0.19217880460566447,
+      "csv": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_1.csv",
+      "png": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_1.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log02_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_2",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.01181570001062937,
+      "depth_seconds": 0.0012233000015839934,
+      "api_calls": 0,
+      "seconds": 4.099774100002833,
+      "peak_rss_gb": 1.35577392578125,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.6318840579710145,
+      "boundary_f1": 0.6206896551724138,
+      "cluster_ari": 0.7770264190448702,
+      "depth_mae_ft": 0.15555555555531303,
+      "score": 0.39220389805097455,
+      "csv": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_2.csv",
+      "png": "0000000009_d-582_0000020435-0001_log02_fe_5in_md__synthetic_2.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_0",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.016664000009768642,
+      "depth_seconds": 0.001325900011579506,
+      "api_calls": 0,
+      "seconds": 4.948189500006265,
+      "peak_rss_gb": 1.4012374877929688,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.2485089463220676,
+      "boundary_f1": 0.625,
+      "cluster_ari": 0.49937112256928445,
+      "depth_mae_ft": 0.1499999999996362,
+      "score": 0.15531809145129225,
+      "csv": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_0.csv",
+      "png": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_0.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_1",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.016664000009768642,
+      "depth_seconds": 0.001325900011579506,
+      "api_calls": 0,
+      "seconds": 4.680177399990498,
+      "peak_rss_gb": 1.3810539245605469,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.5394260239621065,
+      "boundary_f1": 0.47368421052631576,
+      "cluster_ari": 0.6796419964961713,
+      "depth_mae_ft": 0.15555555555612147,
+      "score": 0.2555175902978399,
+      "csv": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_1.csv",
+      "png": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_1.png"
+    },
+    {
+      "log": "0000000009_d-582_0000020435-0001_log04_fe_5in_md",
+      "key": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_2",
+      "window": [
+        0,
+        4000
+      ],
+      "scored": true,
+      "legend_seconds": 0.016664000009768642,
+      "depth_seconds": 0.001325900011579506,
+      "api_calls": 0,
+      "seconds": 6.310041100005037,
+      "peak_rss_gb": 1.3602523803710938,
+      "peak_gpu_gb": 0.171875,
+      "row_acc": 0.3991304347826087,
+      "boundary_f1": 0.6896551724137931,
+      "cluster_ari": 0.711178002025684,
+      "depth_mae_ft": 0.12999999999992723,
+      "score": 0.2752623688155922,
+      "csv": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_2.csv",
+      "png": "0000000009_d-582_0000020435-0001_log04_fe_5in_md__synthetic_2.png"
+    }
+  ],
+  "mean": {
+    "score": 0.30756206171340406,
+    "row_acc": 0.4998152790845848,
+    "boundary_f1": 0.6056264731854569,
+    "cluster_ari": 0.6452937182232644,
+    "depth_mae_ft": 0.1460722302389015,
+    "seconds": 5.367066566667442,
+    "peak_rss_gb": 1.3768819173177083,
+    "peak_gpu_gb": 0.171875,
+    "api_calls": 0,
+    "legend_seconds": 0.01611780000287884,
+    "depth_seconds": 0.0013056000073750813,
+    "crashes": 0,
+    "n_windows": 9,
+    "n_scored": 9
+  },
+  "gpu_measurement": "PyTorch peak reserved allocator bytes; RSS includes child processes"
+}

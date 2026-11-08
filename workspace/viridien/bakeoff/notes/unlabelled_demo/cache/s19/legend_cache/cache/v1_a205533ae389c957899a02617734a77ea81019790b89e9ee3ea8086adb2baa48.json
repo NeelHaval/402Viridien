@@ -1,0 +1,855 @@
+{
+  "version": 1,
+  "digest": "a205533ae389c957899a02617734a77ea81019790b89e9ee3ea8086adb2baa48",
+  "layout": null,
+  "items": [
+    {
+      "box": [
+        12,
+        33,
+        65,
+        71
+      ],
+      "candidates": [
+        {
+          "text": "SAND/SANDSTONE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "SANDISANDSTONE ",
+          "confidence": 0.9560256759325664,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "SANDISANDSTONE |",
+          "confidence": 0.7516701844997447,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        315,
+        36,
+        359,
+        66
+      ],
+      "candidates": [
+        {
+          "text": "CLAY",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "[ cLay",
+          "confidence": 0.7345801293849945,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "SAND/SANDSTONE [",
+          "confidence": 0.9353625290095806,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "| cuay",
+          "confidence": 0.14602260620027824,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "SANDISANDSTONE |",
+          "confidence": 0.6833960073277886,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        597,
+        37,
+        641,
+        66
+      ],
+      "candidates": [
+        {
+          "text": "LIMESTONE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "[ LIMESTONE",
+          "confidence": 0.8119596134532582,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "|~Lmestone",
+          "confidence": 0.3148087473521487,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        878,
+        37,
+        923,
+        67
+      ],
+      "candidates": [
+        {
+          "text": "TUFF",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "| TUFF",
+          "confidence": 0.8803663998842239,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "LMESTONE ",
+          "confidence": 0.8668346736166213,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "|Tuff",
+          "confidence": 0.3880951183431012,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "LIMesToNE |",
+          "confidence": 0.19584865836686147,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        1162,
+        37,
+        1206,
+        67
+      ],
+      "candidates": [
+        {
+          "text": "LIGNITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "I  LIGNITE",
+          "confidence": 0.8282558470964432,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "| Lighite",
+          "confidence": 0.6204778288730035,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        16,
+        85,
+        60,
+        114
+      ],
+      "candidates": [
+        {
+          "text": "SHALE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "[ sHaLE",
+          "confidence": 0.7490061095782689,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "| sHALE",
+          "confidence": 0.26432312337242053,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        315,
+        85,
+        359,
+        114
+      ],
+      "candidates": [
+        {
+          "text": "DIATOMITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "| DIATOMITE",
+          "confidence": 0.8510894829576666,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "|~DiATOMITE",
+          "confidence": 0.2611233140655371,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        597,
+        86,
+        641,
+        115
+      ],
+      "candidates": [
+        {
+          "text": "DOLOMITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": " DOLOMITE",
+          "confidence": 0.9647653301556905,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "DIATOMITE  ",
+          "confidence": 0.8975427963516929,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "|dolomite",
+          "confidence": 0.28544361758413445,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "DIATOMITE |",
+          "confidence": 0.6987344358529657,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        878,
+        86,
+        923,
+        115
+      ],
+      "candidates": [
+        {
+          "text": "FOSSIL",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "[  FOSSIL",
+          "confidence": 0.8595605492591858,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "DOLOMITE I",
+          "confidence": 0.914351972937584,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "|7FossiL",
+          "confidence": 0.1726312506587607,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "Dolomite |",
+          "confidence": 0.6392050743715989,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        1162,
+        86,
+        1206,
+        115
+      ],
+      "candidates": [
+        {
+          "text": "GLAUCONITE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "| GLAUCONTTE",
+          "confidence": 0.923806165655454,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "FOSSIL !",
+          "confidence": 0.8591335117816925,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "I~ GLAUCONIE",
+          "confidence": 0.13789228685819288,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "FossIL |",
+          "confidence": 0.34854469758058987,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        309,
+        128,
+        364,
+        167
+      ],
+      "candidates": [
+        {
+          "text": "CONGLOMERATE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "CONGLOMERATE |",
+          "confidence": 0.8941560941083091,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "SILTSTONE",
+          "confidence": 0.95449431737264,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "CONOLOMERATE |",
+          "confidence": 0.488461651854759,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "SILTSTONE",
+          "confidence": 0.6584007781972855,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        17,
+        132,
+        61,
+        161
+      ],
+      "candidates": [
+        {
+          "text": "SILTSTONE",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": " SILTSTONE",
+          "confidence": 0.871379554271698,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "| sutstone",
+          "confidence": 0.6779228815973166,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "box": [
+        597,
+        133,
+        641,
+        162
+      ],
+      "candidates": [
+        {
+          "text": "BASALT",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "[BASALT",
+          "confidence": 0.9042219860213143,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "CONGLOMERATE [",
+          "confidence": 0.8811559815491948,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "[~~BASALT",
+          "confidence": 0.20937809762451548,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "COnoLoMeRATE |",
+          "confidence": 0.18638742690804777,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        874,
+        130,
+        929,
+        168
+      ],
+      "candidates": [
+        {
+          "text": "MICA",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "MICAI",
+          "confidence": 0.9116345167160034,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "BASALT",
+          "confidence": 0.9900036752223969,
+          "engine": "rapid",
+          "direction": "left"
+        },
+        {
+          "text": "MicA |",
+          "confidence": 0.41245346605686856,
+          "engine": "easy",
+          "direction": "right"
+        },
+        {
+          "text": "BASALT",
+          "confidence": 0.5589972315250665,
+          "engine": "easy",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "box": [
+        1163,
+        134,
+        1206,
+        162
+      ],
+      "candidates": [
+        {
+          "text": "PYAITe",
+          "confidence": 0.8,
+          "engine": "page",
+          "direction": "right"
+        },
+        {
+          "text": "| pyaite",
+          "confidence": 0.7466398775577545,
+          "engine": "rapid",
+          "direction": "right"
+        },
+        {
+          "text": "|~pyaite `",
+          "confidence": 0.13097677937154817,
+          "engine": "easy",
+          "direction": "right"
+        }
+      ]
+    }
+  ],
+  "ocr": [
+    {
+      "box": [
+        [
+          74.51612854003906,
+          36.428568522135414
+        ],
+        [
+          291.85483805338544,
+          36.428568522135414
+        ],
+        [
+          291.85483805338544,
+          60.71428426106771
+        ],
+        [
+          74.51612854003906,
+          60.71428426106771
+        ]
+      ],
+      "text": "SAND/SANDSTONE",
+      "confidence": 0.9940925368240902
+    },
+    {
+      "box": [
+        [
+          378.0141194661458,
+          37.18749745686849
+        ],
+        [
+          443.991943359375,
+          37.18749745686849
+        ],
+        [
+          443.991943359375,
+          63.74999491373698
+        ],
+        [
+          378.0141194661458,
+          63.74999491373698
+        ]
+      ],
+      "text": "CLAY",
+      "confidence": 0.9917674511671066
+    },
+    {
+      "box": [
+        [
+          659.0019938151041,
+          38.70535532633463
+        ],
+        [
+          800.2721354166666,
+          38.70535532633463
+        ],
+        [
+          800.2721354166666,
+          63.74999491373698
+        ],
+        [
+          659.0019938151041,
+          63.74999491373698
+        ]
+      ],
+      "text": "LIMESTONE",
+      "confidence": 0.959392699930403
+    },
+    {
+      "box": [
+        [
+          952.4092610677084,
+          38.70535532633463
+        ],
+        [
+          1016.8346354166666,
+          38.70535532633463
+        ],
+        [
+          1016.8346354166666,
+          64.50892639160156
+        ],
+        [
+          952.4092610677084,
+          64.50892639160156
+        ]
+      ],
+      "text": "TUFF",
+      "confidence": 0.9948256760835648
+    },
+    {
+      "box": [
+        [
+          1229.51611328125,
+          38.70535532633463
+        ],
+        [
+          1324.9899088541667,
+          36.428568522135414
+        ],
+        [
+          1325.76611328125,
+          64.50892639160156
+        ],
+        [
+          1230.2923177083333,
+          66.78571065266927
+        ]
+      ],
+      "text": "LIGNITE",
+      "confidence": 0.9140877723693848
+    },
+    {
+      "box": [
+        [
+          75.29233805338542,
+          86.51785278320312
+        ],
+        [
+          156.01814778645834,
+          86.51785278320312
+        ],
+        [
+          156.01814778645834,
+          112.32142130533855
+        ],
+        [
+          75.29233805338542,
+          112.32142130533855
+        ]
+      ],
+      "text": "SHALE",
+      "confidence": 0.9863815188407898
+    },
+    {
+      "box": [
+        [
+          379.5665283203125,
+          87.2767842610677
+        ],
+        [
+          506.0887044270833,
+          87.2767842610677
+        ],
+        [
+          506.0887044270833,
+          111.5625
+        ],
+        [
+          379.5665283203125,
+          111.5625
+        ]
+      ],
+      "text": "DIATOMITE",
+      "confidence": 0.9698636796739366
+    },
+    {
+      "box": [
+        [
+          665.211669921875,
+          88.03570556640625
+        ],
+        [
+          788.6289876302084,
+          88.03570556640625
+        ],
+        [
+          788.6289876302084,
+          113.08035278320312
+        ],
+        [
+          665.211669921875,
+          113.08035278320312
+        ]
+      ],
+      "text": "DOLOMITE",
+      "confidence": 0.9922769591212273
+    },
+    {
+      "box": [
+        [
+          953.961669921875,
+          88.79463704427083
+        ],
+        [
+          1036.2399088541667,
+          88.79463704427083
+        ],
+        [
+          1036.2399088541667,
+          113.8392842610677
+        ],
+        [
+          953.961669921875,
+          113.8392842610677
+        ]
+      ],
+      "text": "FOSSIL",
+      "confidence": 0.9634097814559937
+    },
+    {
+      "box": [
+        [
+          1230.2923177083333,
+          90.3125
+        ],
+        [
+          1383.20556640625,
+          88.79463704427083
+        ],
+        [
+          1383.20556640625,
+          113.08035278320312
+        ],
+        [
+          1230.2923177083333,
+          114.59820556640625
+        ]
+      ],
+      "text": "GLAUCONITE",
+      "confidence": 0.9748927831649781
+    },
+    {
+      "box": [
+        [
+          76.06854756673177,
+          135.84820556640625
+        ],
+        [
+          204.14314778645834,
+          135.84820556640625
+        ],
+        [
+          204.14314778645834,
+          160.89285278320312
+        ],
+        [
+          76.06854756673177,
+          160.89285278320312
+        ]
+      ],
+      "text": "SILTSTONE",
+      "confidence": 0.9354298710823059
+    },
+    {
+      "box": [
+        [
+          378.7903238932292,
+          136.60713704427084
+        ],
+        [
+          575.17138671875,
+          136.60713704427084
+        ],
+        [
+          575.17138671875,
+          160.89285278320312
+        ],
+        [
+          378.7903238932292,
+          160.89285278320312
+        ]
+      ],
+      "text": "CONGLOMERATE",
+      "confidence": 0.9947841912508011
+    },
+    {
+      "box": [
+        [
+          665.211669921875,
+          135.84820556640625
+        ],
+        [
+          758.3568522135416,
+          135.84820556640625
+        ],
+        [
+          758.3568522135416,
+          161.65177408854166
+        ],
+        [
+          665.211669921875,
+          161.65177408854166
+        ]
+      ],
+      "text": "BASALT",
+      "confidence": 0.9921081860860189
+    },
+    {
+      "box": [
+        [
+          951.633056640625,
+          135.08928426106772
+        ],
+        [
+          1016.8346354166666,
+          135.08928426106772
+        ],
+        [
+          1016.8346354166666,
+          163.9285685221354
+        ],
+        [
+          951.633056640625,
+          163.9285685221354
+        ]
+      ],
+      "text": "MICA",
+      "confidence": 0.9892327338457108
+    },
+    {
+      "box": [
+        [
+          1231.0685221354167,
+          137.3660685221354
+        ],
+        [
+          1317.227783203125,
+          137.3660685221354
+        ],
+        [
+          1317.227783203125,
+          163.16963704427084
+        ],
+        [
+          1231.0685221354167,
+          163.16963704427084
+        ]
+      ],
+      "text": "PYAITe",
+      "confidence": 0.7666507959365845
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+[
+ {
+  "well": "386825",
+  "config": {
+   "mode": "joint",
+   "variant": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 16,
+   "preserve": "rules",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8
+  },
+  "metrics": {
+   "row_acc": 0.386,
+   "boundary_f1": 0.8620655013060077,
+   "cluster_ari": 0.5922550046459332,
+   "score": 0.33087495814078094
+  }
+ },
+ {
+  "well": "4304150011",
+  "config": {
+   "mode": "joint",
+   "variant": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 16,
+   "preserve": "rules",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8
+  },
+  "metrics": {
+   "row_acc": 0.571017740429505,
+   "boundary_f1": 0.7474213700100296,
+   "cluster_ari": 0.9161045928591518,
+   "score": 0.40463694599009226
+  }
+ },
+ {
+  "well": "ForsythB2-17",
+  "config": {
+   "mode": "joint",
+   "variant": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 16,
+   "preserve": "rules",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8
+  },
+  "metrics": {
+   "row_acc": 0.646192216394663,
+   "boundary_f1": 0.7665940740294188,
+   "cluster_ari": 0.7260316653627725,
+   "score": 0.5240723146701554
+  }
+ },
+ {
+  "well": "barlow3-14",
+  "config": {
+   "mode": "joint",
+   "variant": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 16,
+   "preserve": "rules",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8
+  },
+  "metrics": {
+   "row_acc": 0.12549705176260753,
+   "boundary_f1": 0.31824394384589344,
+   "cluster_ari": 0.7237879363280945,
+   "score": 0.047227144344253465
+  }
+ },
+ {
+  "well": "flat-bay-2",
+  "config": {
+   "mode": "joint",
+   "variant": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 16,
+   "preserve": "none",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8
+  },
+  "metrics": {
+   "row_acc": 0.5298556155139978,
+   "boundary_f1": 0.3029312735195088,
+   "cluster_ari": 0.8150683209623425,
+   "score": 0.13979591704261002
+  }
+ },
+ {
+  "well": "storm",
+  "config": {
+   "mode": "joint",
+   "variant": "joint",
+   "threshold": 0.4,
+   "gap": 16,
+   "blend": 1.0,
+   "penalty": 0.0,
+   "boundary_weight": 0.0,
+   "min_bed": 16,
+   "preserve": "rules",
+   "blank_ink": 0.006,
+   "reject": 2.0,
+   "rule_tolerance": 8
+  },
+  "metrics": {
+   "row_acc": 0.521909040603897,
+   "boundary_f1": 0.4963015611307671,
+   "cluster_ari": 0.9463073811859315,
+   "score": 0.2708947765758201
+  }
+ }
+]

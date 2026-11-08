@@ -1,0 +1,798 @@
+{
+ "names": [
+  {
+   "group": "386825",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 20,
+   "detected": 1.0,
+   "exact": 0.4,
+   "matchable": 0.4,
+   "canonical": 0.4,
+   "log_macro": 0.4
+  },
+  {
+   "group": "386825",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 20,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "386825",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 20,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "4304150011",
+   "parser": "v1",
+   "n_logs": 21,
+   "n_truth": 903,
+   "detected": 0.9767441860465116,
+   "exact": 0.2558139534883721,
+   "matchable": 0.2558139534883721,
+   "canonical": 0.2558139534883721,
+   "log_macro": 0.2558139534883722
+  },
+  {
+   "group": "4304150011",
+   "parser": "v3",
+   "n_logs": 21,
+   "n_truth": 903,
+   "detected": 0.9767441860465116,
+   "exact": 0.9069767441860465,
+   "matchable": 0.9069767441860465,
+   "canonical": 0.9069767441860465,
+   "log_macro": 0.9069767441860466
+  },
+  {
+   "group": "4304150011",
+   "parser": "v4",
+   "n_logs": 21,
+   "n_truth": 903,
+   "detected": 0.9767441860465116,
+   "exact": 0.9069767441860465,
+   "matchable": 0.9069767441860465,
+   "canonical": 0.9069767441860465,
+   "log_macro": 0.9069767441860466
+  },
+  {
+   "group": "barlow3-14",
+   "parser": "v1",
+   "n_logs": 2,
+   "n_truth": 118,
+   "detected": 1.0,
+   "exact": 0.1864406779661017,
+   "matchable": 0.1864406779661017,
+   "canonical": 0.2033898305084746,
+   "log_macro": 0.1864406779661017
+  },
+  {
+   "group": "barlow3-14",
+   "parser": "v3",
+   "n_logs": 2,
+   "n_truth": 118,
+   "detected": 1.0,
+   "exact": 0.9830508474576272,
+   "matchable": 0.9830508474576272,
+   "canonical": 0.9830508474576272,
+   "log_macro": 0.9830508474576272
+  },
+  {
+   "group": "barlow3-14",
+   "parser": "v4",
+   "n_logs": 2,
+   "n_truth": 118,
+   "detected": 1.0,
+   "exact": 0.9661016949152542,
+   "matchable": 0.9661016949152542,
+   "canonical": 0.9661016949152542,
+   "log_macro": 0.9661016949152542
+  },
+  {
+   "group": "flat-bay-2",
+   "parser": "v1",
+   "n_logs": 9,
+   "n_truth": 189,
+   "detected": 1.0,
+   "exact": 0.6878306878306878,
+   "matchable": 0.6878306878306878,
+   "canonical": 0.6878306878306878,
+   "log_macro": 0.6878306878306879
+  },
+  {
+   "group": "flat-bay-2",
+   "parser": "v3",
+   "n_logs": 9,
+   "n_truth": 189,
+   "detected": 1.0,
+   "exact": 0.9523809523809523,
+   "matchable": 0.9523809523809523,
+   "canonical": 0.9523809523809523,
+   "log_macro": 0.9523809523809523
+  },
+  {
+   "group": "flat-bay-2",
+   "parser": "v4",
+   "n_logs": 9,
+   "n_truth": 189,
+   "detected": 1.0,
+   "exact": 0.9523809523809523,
+   "matchable": 0.9523809523809523,
+   "canonical": 0.9523809523809523,
+   "log_macro": 0.9523809523809523
+  },
+  {
+   "group": "storm",
+   "parser": "v1",
+   "n_logs": 13,
+   "n_truth": 260,
+   "detected": 1.0,
+   "exact": 0.5384615384615384,
+   "matchable": 0.5384615384615384,
+   "canonical": 0.5384615384615384,
+   "log_macro": 0.5384615384615384
+  },
+  {
+   "group": "storm",
+   "parser": "v3",
+   "n_logs": 13,
+   "n_truth": 260,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "storm",
+   "parser": "v4",
+   "n_logs": 13,
+   "n_truth": 260,
+   "detected": 1.0,
+   "exact": 0.9961538461538462,
+   "matchable": 0.9961538461538462,
+   "canonical": 0.9961538461538462,
+   "log_macro": 0.9961538461538461
+  },
+  {
+   "group": "D-582 1-bit grid",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 10,
+   "detected": 1.0,
+   "exact": 0.8,
+   "matchable": 0.8,
+   "canonical": 0.8,
+   "log_macro": 0.8
+  },
+  {
+   "group": "D-582 1-bit grid",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 10,
+   "detected": 1.0,
+   "exact": 0.8,
+   "matchable": 0.8,
+   "canonical": 0.8,
+   "log_macro": 0.8
+  },
+  {
+   "group": "D-582 1-bit grid",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 10,
+   "detected": 1.0,
+   "exact": 0.9,
+   "matchable": 0.9,
+   "canonical": 0.9,
+   "log_macro": 0.9
+  },
+  {
+   "group": "Geoservices grid",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 18,
+   "detected": 0.9444444444444444,
+   "exact": 0.8888888888888888,
+   "matchable": 0.8888888888888888,
+   "canonical": 0.8888888888888888,
+   "log_macro": 0.8888888888888888
+  },
+  {
+   "group": "Geoservices grid",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 18,
+   "detected": 1.0,
+   "exact": 0.9444444444444444,
+   "matchable": 0.9444444444444444,
+   "canonical": 0.9444444444444444,
+   "log_macro": 0.9444444444444444
+  },
+  {
+   "group": "Geoservices grid",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 18,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "Gulf 3-panel",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 15,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 0.0,
+   "canonical": 0.0,
+   "log_macro": 0.0
+  },
+  {
+   "group": "Gulf 3-panel",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 15,
+   "detected": 1.0,
+   "exact": 0.8666666666666667,
+   "matchable": 0.8666666666666667,
+   "canonical": 0.8666666666666667,
+   "log_macro": 0.8666666666666667
+  },
+  {
+   "group": "Gulf 3-panel",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 15,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "MC761 mineral/lithology",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 12,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 0.9166666666666666,
+   "canonical": 0.9166666666666666,
+   "log_macro": 0.9166666666666666
+  },
+  {
+   "group": "MC761 mineral/lithology",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 12,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 0.9166666666666666,
+   "canonical": 0.9166666666666666,
+   "log_macro": 0.9166666666666666
+  },
+  {
+   "group": "MC761 mineral/lithology",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 12,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 0.9166666666666666,
+   "canonical": 0.9166666666666666,
+   "log_macro": 0.9166666666666666
+  },
+  {
+   "group": "MC765 colour grid",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 23,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "MC765 colour grid",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 23,
+   "detected": 1.0,
+   "exact": 0.8695652173913043,
+   "matchable": 0.8695652173913043,
+   "canonical": 0.8695652173913043,
+   "log_macro": 0.8695652173913043
+  },
+  {
+   "group": "MC765 colour grid",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 23,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "One-off layout",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 16,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "One-off layout",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 16,
+   "detected": 1.0,
+   "exact": 0.9375,
+   "matchable": 0.9375,
+   "canonical": 0.9375,
+   "log_macro": 0.9375
+  },
+  {
+   "group": "One-off layout",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 16,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 1.0,
+   "canonical": 1.0,
+   "log_macro": 1.0
+  },
+  {
+   "group": "Texas 'Rock Types' box",
+   "parser": "v1",
+   "n_logs": 1,
+   "n_truth": 33,
+   "detected": 0.0,
+   "exact": 0.0,
+   "matchable": 0.0,
+   "canonical": 0.0,
+   "log_macro": 0.0
+  },
+  {
+   "group": "Texas 'Rock Types' box",
+   "parser": "v3",
+   "n_logs": 1,
+   "n_truth": 33,
+   "detected": 0.3333333333333333,
+   "exact": 0.12121212121212122,
+   "matchable": 0.12121212121212122,
+   "canonical": 0.12121212121212122,
+   "log_macro": 0.12121212121212122
+  },
+  {
+   "group": "Texas 'Rock Types' box",
+   "parser": "v4",
+   "n_logs": 1,
+   "n_truth": 33,
+   "detected": 1.0,
+   "exact": 1.0,
+   "matchable": 0.9696969696969697,
+   "canonical": 0.9696969696969697,
+   "log_macro": 0.9696969696969697
+  }
+ ],
+ "cv_totals": [
+  {
+   "mean": "window",
+   "strategy": "s18",
+   "row_acc": 0.4867496452679804,
+   "boundary_f1": 0.5780401056050697,
+   "cluster_ari": 0.8311112858091778,
+   "score": 0.28580109307388285
+  },
+  {
+   "mean": "well",
+   "strategy": "s18",
+   "row_acc": 0.4230699248088218,
+   "boundary_f1": 0.5869696502208795,
+   "cluster_ari": 0.7625775167793414,
+   "score": 0.2601110289899341
+  },
+  {
+   "mean": "window",
+   "strategy": "s18_v3",
+   "row_acc": 0.8386222001455765,
+   "boundary_f1": 0.5780401056050697,
+   "cluster_ari": 0.8311112858091778,
+   "score": 0.5000186079333289
+  },
+  {
+   "mean": "well",
+   "strategy": "s18_v3",
+   "row_acc": 0.7749741027021063,
+   "boundary_f1": 0.5869696502208795,
+   "cluster_ari": 0.7625775167793414,
+   "score": 0.47272103339655774
+  },
+  {
+   "mean": "window",
+   "strategy": "s20",
+   "row_acc": 0.8386222001455765,
+   "boundary_f1": 0.5780401056050697,
+   "cluster_ari": 0.8311112858091778,
+   "score": 0.5000186079333289
+  },
+  {
+   "mean": "well",
+   "strategy": "s20",
+   "row_acc": 0.7749741027021063,
+   "boundary_f1": 0.5869696502208795,
+   "cluster_ari": 0.7625775167793414,
+   "score": 0.47272103339655774
+  }
+ ],
+ "cv_wells": [
+  {
+   "group": "386825",
+   "strategy": "s18",
+   "n_windows": 2,
+   "row_acc": 0.383,
+   "boundary_f1": 0.8968448729184926,
+   "cluster_ari": 0.574648258309144,
+   "score": 0.3431539585159217
+  },
+  {
+   "group": "386825",
+   "strategy": "s18_v3",
+   "n_windows": 2,
+   "row_acc": 0.8018333333333334,
+   "boundary_f1": 0.8968448729184926,
+   "cluster_ari": 0.574648258309144,
+   "score": 0.720090330119778
+  },
+  {
+   "group": "386825",
+   "strategy": "s20",
+   "n_windows": 2,
+   "row_acc": 0.8018333333333334,
+   "boundary_f1": 0.8968448729184926,
+   "cluster_ari": 0.574648258309144,
+   "score": 0.720090330119778
+  },
+  {
+   "group": "4304150011",
+   "strategy": "s18",
+   "n_windows": 21,
+   "row_acc": 0.568488360861586,
+   "boundary_f1": 0.7202936490033265,
+   "cluster_ari": 0.8570634139137623,
+   "score": 0.37288714588524835
+  },
+  {
+   "group": "4304150011",
+   "strategy": "s18_v3",
+   "n_windows": 21,
+   "row_acc": 0.9314986316365628,
+   "boundary_f1": 0.7202936490033265,
+   "cluster_ari": 0.8570634139137623,
+   "score": 0.6760308149226555
+  },
+  {
+   "group": "4304150011",
+   "strategy": "s20",
+   "n_windows": 21,
+   "row_acc": 0.9314986316365628,
+   "boundary_f1": 0.7202936490033265,
+   "cluster_ari": 0.8570634139137623,
+   "score": 0.6760308149226555
+  },
+  {
+   "group": "barlow3-14",
+   "strategy": "s18",
+   "n_windows": 6,
+   "row_acc": 0.12670836734160837,
+   "boundary_f1": 0.3988501498098174,
+   "cluster_ari": 0.6378655717982782,
+   "score": 0.06123879120177558
+  },
+  {
+   "group": "barlow3-14",
+   "strategy": "s18_v3",
+   "n_windows": 6,
+   "row_acc": 0.5022199911847134,
+   "boundary_f1": 0.3988501498098174,
+   "cluster_ari": 0.6378655717982782,
+   "score": 0.21659450299318683
+  },
+  {
+   "group": "barlow3-14",
+   "strategy": "s20",
+   "n_windows": 6,
+   "row_acc": 0.5022199911847134,
+   "boundary_f1": 0.3988501498098174,
+   "cluster_ari": 0.6378655717982782,
+   "score": 0.21659450299318683
+  },
+  {
+   "group": "flat-bay-2",
+   "strategy": "s18",
+   "n_windows": 9,
+   "row_acc": 0.5308153798519591,
+   "boundary_f1": 0.44452160493827164,
+   "cluster_ari": 0.8127951204276752,
+   "score": 0.2777733056430269
+  },
+  {
+   "group": "flat-bay-2",
+   "strategy": "s18_v3",
+   "n_windows": 9,
+   "row_acc": 0.6799667290863369,
+   "boundary_f1": 0.44452160493827164,
+   "cluster_ari": 0.8127951204276752,
+   "score": 0.2992523833219656
+  },
+  {
+   "group": "flat-bay-2",
+   "strategy": "s20",
+   "n_windows": 9,
+   "row_acc": 0.6799667290863369,
+   "boundary_f1": 0.44452160493827164,
+   "cluster_ari": 0.8127951204276752,
+   "score": 0.2992523833219656
+  },
+  {
+   "group": "storm",
+   "strategy": "s18",
+   "n_windows": 13,
+   "row_acc": 0.5063375159889552,
+   "boundary_f1": 0.47433797443448944,
+   "cluster_ari": 0.9305152194478474,
+   "score": 0.24550194370369782
+  },
+  {
+   "group": "storm",
+   "strategy": "s18_v3",
+   "n_windows": 13,
+   "row_acc": 0.9593518282695848,
+   "boundary_f1": 0.47433797443448944,
+   "cluster_ari": 0.9305152194478474,
+   "score": 0.4516371356252027
+  },
+  {
+   "group": "storm",
+   "strategy": "s20",
+   "n_windows": 13,
+   "row_acc": 0.9593518282695848,
+   "boundary_f1": 0.47433797443448944,
+   "cluster_ari": 0.9305152194478474,
+   "score": 0.4516371356252027
+  }
+ ],
+ "synthetic_families": [
+  {
+   "group": "D-582 1-bit grid",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.3571875,
+   "boundary_f1": 0.3408091390425623,
+   "cluster_ari": 0.4461865230159144,
+   "score": 0.12442497171517403
+  },
+  {
+   "group": "D-582 1-bit grid",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.4033333333333333,
+   "boundary_f1": 0.3408091390425623,
+   "cluster_ari": 0.4461865230159144,
+   "score": 0.13867480300843646
+  },
+  {
+   "group": "D-582 1-bit grid",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.4405208333333333,
+   "boundary_f1": 0.3408091390425623,
+   "cluster_ari": 0.4461865230159144,
+   "score": 0.1513439180571517
+  },
+  {
+   "group": "Geoservices grid",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.7988541666666666,
+   "boundary_f1": 0.6147214854111406,
+   "cluster_ari": 0.7977225366971589,
+   "score": 0.49750891080901855
+  },
+  {
+   "group": "Geoservices grid",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.8645833333333334,
+   "boundary_f1": 0.6510173967070519,
+   "cluster_ari": 0.817533669267558,
+   "score": 0.5601681422802113
+  },
+  {
+   "group": "Geoservices grid",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.8811458333333334,
+   "boundary_f1": 0.6264954257565095,
+   "cluster_ari": 0.8233414986271318,
+   "score": 0.5515073561752287
+  },
+  {
+   "group": "Gulf 3-panel",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.0,
+   "boundary_f1": 0.0,
+   "cluster_ari": 0.0,
+   "score": 0.0
+  },
+  {
+   "group": "Gulf 3-panel",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.7717708333333334,
+   "boundary_f1": 0.8390804597701149,
+   "cluster_ari": 0.86243831034784,
+   "score": 0.6576688218390805
+  },
+  {
+   "group": "Gulf 3-panel",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.895,
+   "boundary_f1": 0.8390804597701149,
+   "cluster_ari": 0.86243831034784,
+   "score": 0.7708405172413793
+  },
+  {
+   "group": "MC761 mineral/lithology",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.9814583333333333,
+   "boundary_f1": 0.9393939393939394,
+   "cluster_ari": 0.9654804648586436,
+   "score": 0.9222916666666666
+  },
+  {
+   "group": "MC761 mineral/lithology",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.9814583333333333,
+   "boundary_f1": 0.9393939393939394,
+   "cluster_ari": 0.9654804648586436,
+   "score": 0.9222916666666666
+  },
+  {
+   "group": "MC761 mineral/lithology",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.9814583333333333,
+   "boundary_f1": 0.9393939393939394,
+   "cluster_ari": 0.9654804648586436,
+   "score": 0.9222916666666666
+  },
+  {
+   "group": "MC765 colour grid",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.9586458333333333,
+   "boundary_f1": 0.9375,
+   "cluster_ari": 0.9306005530794627,
+   "score": 0.9004817708333333
+  },
+  {
+   "group": "MC765 colour grid",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.8401041666666668,
+   "boundary_f1": 0.9375,
+   "cluster_ari": 0.9306005530794627,
+   "score": 0.7915494791666666
+  },
+  {
+   "group": "MC765 colour grid",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.9586458333333333,
+   "boundary_f1": 0.9375,
+   "cluster_ari": 0.9306005530794627,
+   "score": 0.9004817708333333
+  },
+  {
+   "group": "One-off layout",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.9094791666666667,
+   "boundary_f1": 0.7275525777996222,
+   "cluster_ari": 0.8870639304788424,
+   "score": 0.6717786801226168
+  },
+  {
+   "group": "One-off layout",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.8477083333333333,
+   "boundary_f1": 0.7275525777996222,
+   "cluster_ari": 0.8870639304788424,
+   "score": 0.630442820834519
+  },
+  {
+   "group": "One-off layout",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.9094791666666667,
+   "boundary_f1": 0.7275525777996222,
+   "cluster_ari": 0.8870639304788424,
+   "score": 0.6717786801226168
+  },
+  {
+   "group": "Texas 'Rock Types' box",
+   "strategy": "s18",
+   "n_windows": 3,
+   "row_acc": 0.0,
+   "boundary_f1": 0.7323529411764707,
+   "cluster_ari": 0.27232671334417863,
+   "score": 0.0
+  },
+  {
+   "group": "Texas 'Rock Types' box",
+   "strategy": "s18_v3",
+   "n_windows": 3,
+   "row_acc": 0.16645833333333335,
+   "boundary_f1": 0.8877731463938362,
+   "cluster_ari": 0.6668397294371079,
+   "score": 0.1494686671087533
+  },
+  {
+   "group": "Texas 'Rock Types' box",
+   "strategy": "s20",
+   "n_windows": 3,
+   "row_acc": 0.9109375000000001,
+   "boundary_f1": 0.9885057471264368,
+   "cluster_ari": 0.9304480044873203,
+   "score": 0.9016451149425287
+  }
+ ],
+ "resources": [
+  {
+   "action": "names",
+   "seconds": 9.339356984000005,
+   "peak_rss_gb": 1.5407142639160156,
+   "threads": 3
+  },
+  {
+   "action": "cv",
+   "seconds": 83.45786457000031,
+   "peak_rss_gb": 0.5956039428710938,
+   "threads": 3
+  },
+  {
+   "action": "synthetic",
+   "seconds": 34.49436002399989,
+   "peak_rss_gb": 1.7003669738769531,
+   "threads": 3
+  }
+ ]
+}

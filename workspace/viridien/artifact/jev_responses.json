@@ -1,0 +1,83 @@
+[
+  {
+    "truth": "Shale",
+    "crop_box": [
+      3013,
+      4444,
+      3215,
+      4774
+    ],
+    "latency_seconds": 0.3910939000052167,
+    "answer": {
+      "type": "choice",
+      "choice": "Shale",
+      "confidence": 0.84,
+      "probabilities": {
+        "Limestone": 0.01,
+        "Dolomite": 0.0,
+        "Anhydrite": 0.0,
+        "Halite": 0.0,
+        "Coal": 0.0,
+        "Clay": 0.08,
+        "Shale": 0.86,
+        "Siltstone": 0.0,
+        "Silty Sandstone": 0.05,
+        "Sand and Sandstone": 0.0
+      }
+    }
+  },
+  {
+    "truth": "Siltstone",
+    "crop_box": [
+      3013,
+      4844,
+      3215,
+      4975
+    ],
+    "latency_seconds": 0.33196109998971224,
+    "answer": {
+      "type": "choice",
+      "choice": "Siltstone",
+      "confidence": 0.99,
+      "probabilities": {
+        "Limestone": 0.0,
+        "Dolomite": 0.0,
+        "Anhydrite": 0.0,
+        "Halite": 0.0,
+        "Coal": 0.0,
+        "Clay": 0.0,
+        "Shale": 0.01,
+        "Siltstone": 0.99,
+        "Silty Sandstone": 0.0,
+        "Sand and Sandstone": 0.0
+      }
+    }
+  },
+  {
+    "truth": "Sandstone",
+    "crop_box": [
+      3013,
+      6646,
+      3215,
+      6776
+    ],
+    "latency_seconds": 0.3258293000108097,
+    "answer": {
+      "type": "choice",
+      "choice": "Siltstone",
+      "confidence": 0.83,
+      "probabilities": {
+        "Limestone": 0.03,
+        "Dolomite": 0.0,
+        "Anhydrite": 0.0,
+        "Halite": 0.01,
+        "Coal": 0.0,
+        "Clay": 0.02,
+        "Shale": 0.06,
+        "Siltstone": 0.85,
+        "Silty Sandstone": 0.02,
+        "Sand and Sandstone": 0.01
+      }
+    }
+  }
+]

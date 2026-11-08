@@ -1,0 +1,10 @@
+{
+ "completed_utc": "2026-11-08T03:30:20.190961+00:00",
+ "run_dir": "out/bench/20261108T032117_db6f0e94",
+ "chosen_strategy": "s19",
+ "rows": 1012,
+ "failures": 0,
+ "dependency_hash": "5e14eccbdb1de22f7b9de4917a3c91cb08d853ec25f99af91922217a28bd841c",
+ "resource_limit_met": false,
+ "peak_total_rss_gib": 5.423297882080078
+}

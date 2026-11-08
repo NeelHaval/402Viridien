@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>v3 labels and confidence, all 51 logs</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 system-ui,sans-serif;color:#0b0b0b;background:#fcfcfb}
+main{max-width:1400px;margin:auto;padding:12px}h1{font-size:22px;margin:4px 0}h2{font-size:18px;margin:20px 0 4px}h3{font-size:15px;margin:0;overflow-wrap:anywhere}
+.muted{color:#52514e;font-size:13px}
+button,select{font:inherit;border:1px solid #74808c;background:#fff;padding:6px 12px;min-height:40px;border-radius:4px;cursor:pointer}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:8px 0}
+.tile{border:1px solid #d6d6d2;border-radius:6px;padding:8px 10px;background:#fff}.tile .n{font-size:24px;font-weight:650;font-variant-numeric:tabular-nums}.tile .l{font-size:12px;color:#52514e}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}.two>div{overflow-x:auto;min-width:0}@media(max-width:800px){.two{grid-template-columns:1fr}}
+.bars{display:grid;grid-template-columns:minmax(90px,190px) 1fr 54px;gap:3px 8px;align-items:center;font-size:13px}
+.bars .k{text-align:right;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.bars .t{height:14px}.bars .f{height:10px;margin-top:2px;background:#2a78d6;border-radius:0 4px 4px 0;min-width:2px}
+.bars .v{font-variant-numeric:tabular-nums;color:#0b0b0b}
+table{border-collapse:collapse;font-size:13px;width:100%}td,th{padding:3px 6px;border-bottom:1px solid #ecece9;text-align:left}th{color:#52514e;font-weight:600}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.ctl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:sticky;top:0;background:#fcfcfb;padding:6px 0;z-index:5;border-bottom:1px solid #e3e3e0}
+.key{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:#52514e;align-items:center}.key i{display:inline-block;width:14px;height:10px;margin-right:4px;vertical-align:middle;border:1px solid #fcfcfb}
+.log{border:1px solid #c5ccd3;border-radius:6px;margin:0 0 12px;padding:10px;background:#fff}
+.lh{display:flex;gap:8px;flex-wrap:wrap;align-items:baseline}
+.chip{font-size:12px;padding:2px 7px;border-radius:3px;background:#eef2f6;color:#0b0b0b;font-variant-numeric:tabular-nums}.chip.low{background:#fbefdc;color:#6b4a00;font-weight:600}
+.strip{width:100%;height:16px;display:block;margin:6px 0 2px;image-rendering:pixelated;cursor:crosshair;border:1px solid #d6d6d2}
+.ex{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.w{border:2px solid #c5ccd3;border-radius:4px;padding:3px;background:#fff;min-height:0;width:var(--tw,118px);display:flex;flex-direction:column;gap:3px;text-align:left;line-height:1.15}
+.w .pics{display:flex;gap:3px;align-items:flex-start;overflow:hidden}.w .col{height:var(--th,72px);width:auto;max-width:72%;image-rendering:pixelated;display:block}
+.w .sw{height:calc(var(--th,72px) / 2);width:auto;max-width:40%;border:1px solid #9ba4ad;image-rendering:pixelated;display:block}
+.w .lb{font-size:12px;font-weight:600;overflow-wrap:anywhere}.w .cf{display:flex;align-items:center;gap:4px;font-size:11px;color:#52514e;font-variant-numeric:tabular-nums}
+.w .cb{flex:1;height:6px;background:#ecece9;border-radius:3px}.w .cb b{display:block;height:6px;border-radius:3px;background:#1f5fae}
+.w.lo{border-color:#d98a1c;border-style:dashed}.w.lo .cb b{background:#d98a1c}.w.mid .cb b{background:#6c9fdc}
+.w.x{border-color:#9d3030;border-style:solid}.w.x .col{opacity:.4}.w.x .lb::before{content:"WRONG · ";color:#9d3030}
+.tip{position:fixed;pointer-events:none;background:#0b0b0b;color:#fcfcfb;font-size:12px;padding:6px 8px;border-radius:4px;display:none;z-index:9;max-width:300px}
+.hide{display:none}
+@media(max-width:600px){.ctl{position:static}.ctl select{flex:1 1 45%}}
+</style>
+<main>
+<h1 id="h1">How the 51 logs look labelled, and how sure it is</h1>
+<p class="muted" id="intro"></p>
+<div class="tiles" id="tiles"></div>
+<div class="two">
+<section><h2>Is the confidence honest?</h2><p class="muted" id="calnote"></p><div class="bars" id="cal" role="img" aria-label="Share of calls the LLM judged right, per classifier margin band"></div></section>
+<section><h2>By legend type</h2><p class="muted">Expected share right among named windows (mean confidence), per layout family. Bar = expected right; text after the name = logs and named windows.</p><div class="bars" id="fam" role="img" aria-label="Expected share right per legend family"></div></section>
+</div>
+<section id="cmp" class="hide"><h2>v3 (windows) against v4 (beds), same blind LLM picks</h2><p class="muted">The 700 windows of the first blind check, where the LLM named one legend entry. Agrees = the label at that spot matches the LLM pick. v3 refused windows holding two beds; v4 cuts the column at bed boundaries first, so it names nearly every spot.</p><div style="overflow-x:auto"><table id="cmpt"></table></div></section>
+<div class="two">
+<section><h2>Least confident labels</h2><p class="muted">Labels with at least 20 named windows.</p><table id="lowlab"></table></section>
+<section><h2>Most confident labels</h2><p class="muted">Labels with at least 20 named windows.</p><table id="hilab"></table></section>
+</div>
+<section id="lr" class="hide"><h2>Blind LLM check: does the confidence hold up?</h2>
+<p class="muted" id="lrnote"></p>
+<div class="two"><div><table id="lrband"></table></div><div><table id="lrfam"></table></div></div>
+<p class="muted" id="lrrej"></p>
+<h2>Where the LLM disagrees</h2>
+<div class="ctl" style="position:static"><select id="lrf" aria-label="Which disagreements"><option value="95%+">Classifier 95 %+ sure</option><option value="80-95%">Classifier 80-95 % sure</option><option value="50-80%">Classifier 50-80 % sure</option><option value="under 50%">Classifier under 50 % sure</option><option value="rej">Rejected windows the LLM would name</option></select><span class="muted" id="lrc"></span></div>
+<div class="ex" id="lrx"></div></section>
+<h2>Every log</h2>
+<p class="muted">The strip is the whole column, top to bottom, one cell per 48-row window. Hover or tap it to see the call. Below it: a depth-spread sample of named windows (2 % of them, at least 8, at most 30): column crop, the legend picture it was matched to, the label and the confidence. Tap a window that is labelled wrong.</p>
+<div class="ctl">
+<select id="sort" aria-label="Order logs"><option value="conf">Least confident logs first</option><option value="fam">By legend type</option><option value="name">By name</option></select>
+<select id="filt" aria-label="Which windows"><option value="all">All sampled windows</option><option value="lo">Low confidence only (under 50 %)</option><option value="hi">Confident only (80 % +)</option></select>
+<select id="ord" aria-label="Window order"><option value="depth">Windows in depth order</option><option value="conf">Least confident windows first</option></select>
+<select id="size" aria-label="Window size"><option value="72">Medium</option><option value="48">Small</option><option value="110">Large</option></select>
+<span class="key"><span><i style="background:#1f5fae"></i>80 % +</span><span><i style="background:#6c9fdc"></i>50-80 %</span><span><i style="background:#d98a1c"></i>under 50 %</span><span><i style="background:#cfcfca"></i>two beds, gap or text</span><span><i style="background:#fff;border-color:#c5ccd3"></i>blank</span></span>
+<span id="stat" class="muted"></span>
+</div>
+<div id="logs"></div>
+<div class="tip" id="tip"></div>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);let D;
+const pct=x=>x==null?'-':(x*100<1&&x>0?'<1':Math.round(x*100))+'%';
+const mk=id=>D.marks[`conf|${id}`];
+const band=c=>c>=0.8?'hi':c>=0.5?'mid':'lo';
+async function post(b){D.marks[`conf|${b.id}`]=b;try{const r=await fetch('/api/catmark',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)});if(!r.ok)throw 0;}catch(e){alert('Save failed');}stat();}
+function tipOn(el,fn){el.onmousemove=e=>{const t=$('tip');const s=fn(e);if(!s){t.style.display='none';return;}t.textContent=s;t.style.display='block';t.style.left=Math.min(e.clientX+12,innerWidth-310)+'px';t.style.top=(e.clientY+14)+'px';};el.onmouseleave=()=>$('tip').style.display='none';}
+function bars(el,rows,mx){el.replaceChildren();for(const [k,v,txt,tt] of rows){const a=document.createElement('div');a.className='k';a.textContent=k;a.title=k;
+  const t=document.createElement('div');t.className='t';const f=document.createElement('div');f.className='f';f.style.width=(v/mx*100)+'%';t.append(f);tipOn(t,()=>tt);
+  const b=document.createElement('div');b.className='v';b.textContent=txt;el.append(a,t,b);}}
+function head(){const o=D.overall;const T=$('tiles');
+  for(const [n,l] of [[o.windows.toLocaleString(),'windows of 48 rows, all 51 columns'],[pct(o.named/o.windows),'named with a legend entry'],[pct(o.mixed/o.windows),'two beds, a gap or text (not named)'],[pct(o.blank/o.windows),'blank paper'],[pct(o.mean_conf),'expected right, named windows'],[pct(o.low_share),'of named windows under 50 % sure']]){
+    const d=document.createElement('div');d.className='tile';d.innerHTML='<div class=n></div><div class=l></div>';d.children[0].textContent=n;d.children[1].textContent=l;T.append(d);}
+  $('intro').textContent=D.version?`${D.version}. Each column is cut at bed boundaries (colour, paper and ink steps, then pattern changes), each bed is matched against its own log's whole legend, and the strip below shows the result in 48-row cells. Confidence = how often a label like this matched a blind LLM pick, by margin and legend type.`:`Classifier v3 matched every window against its own log's whole legend. Confidence is calibrated: it is the share of calls an LLM judged right at that classifier margin, measured on ${D.judged} fresh windows checked against the full legend.`;
+  $('calnote').textContent=D.calib_kind==='bands'?`What the confidence says, against how often the label matched the LLM's blind pick when the LLM was very sure (${D.judged} windows). Honest confidence puts each bar inside its own range.`:'Classifier margin (how much better the best legend entry fits than the runner-up), in five equal-size bands, against the share the LLM judged right. Those check windows were drawn from look-alike pairs, the hard cases, so the curve is cautious.';
+  if(D.compare)cmpTable();
+  bars($('cal'),D.calib.map(c=>[D.calib_kind==='bands'?`says ${pct(c.lo)}-${pct(c.hi)}`:`margin ${c.lo.toFixed(2)}-${c.hi.toFixed(2)}`,c.right,pct(c.right),`${c.n} windows, ${pct(c.right)} matched the LLM`]),1);
+  bars($('fam'),[...D.families].sort((a,b)=>a[4]-b[4]).map(f=>[`${f[0]} (${f[1]} logs, ${f[3].toLocaleString()} named)`,f[4],pct(f[4]),`${f[0]}: ${f[1]} logs, ${f[2].toLocaleString()} windows, ${f[3].toLocaleString()} named, expected ${pct(f[4])} right`]),1);
+  const L=D.labels.filter(x=>x[1]>=20);
+  for(const [id,rows] of [['lowlab',L.slice(0,12)],['hilab',L.slice(-12).reverse()]]){const t=$(id);t.innerHTML='<tr><th>Label</th><th class=n>Windows</th><th class=n>Logs</th><th class=n>Expected right</th></tr>';
+    for(const r of rows){const tr=document.createElement('tr');[r[0],r[1].toLocaleString(),r[3],pct(r[2])].forEach((v,i)=>{const td=document.createElement('td');if(i)td.className='n';td.textContent=v;tr.append(td);});t.append(tr);}}}
+const COL={hi:[31,95,174],mid:[108,159,220],lo:[217,138,28],m:[207,207,202],b:[255,255,255]};
+function strip(L){const c=document.createElement('canvas');c.className='strip';c.width=L.strip.length;c.height=1;const x=c.getContext('2d');const im=x.createImageData(L.strip.length,1);
+  for(let i=0;i<L.strip.length;i++){const s=L.strip[i];const k=s==='m'?'m':s==='b'?'b':band((+s+0.5)/10);const [r,g,b]=COL[k];im.data.set([r,g,b,255],i*4);}x.putImageData(im,0,0);
+  const at=e=>{const r=c.getBoundingClientRect();return Math.min(L.strip.length-1,Math.max(0,Math.floor((e.clientX-r.left)/r.width*L.strip.length)));};
+  tipOn(c,e=>{const i=at(e);const s=L.strip[i];const y=L.y0+i*L.win;return `rows ${y.toLocaleString()}-${(y+L.win).toLocaleString()}: `+(s==='m'?'two beds, a gap or text':s==='b'?'blank':`${L.labels[L.lab[i]]}, ${s*10}-${s*10+10}% sure`);});
+  c.onclick=e=>{const i=at(e);const t=$('tip');const s=L.strip[i];const y=L.y0+i*L.win;t.textContent=`rows ${y}: `+(s==='m'?'two beds, gap or text':s==='b'?'blank':`${L.labels[L.lab[i]]}, ${s*10}-${s*10+10}% sure`);t.style.display='block';t.style.left=Math.min(e.clientX,innerWidth-310)+'px';t.style.top=(e.clientY+14)+'px';};
+  return c;}
+function win(L,s){const id=`${L.key}|${s.y}`;const b=document.createElement('button');const bd=band(s.conf);b.className=`w ${bd}`+(mk(id)?.verdict==='wrong'?' x':'');
+  const p=document.createElement('div');p.className='pics';const im=new Image();im.className='col';im.loading='lazy';im.alt='column window';im.src=`/chunk?log=${encodeURIComponent(L.log)}&y=${s.y}&h=${s.h}`;
+  const sw=new Image();sw.className='sw';sw.loading='lazy';sw.alt='legend picture';sw.src=`/nsw?log=${encodeURIComponent(L.log)}&label=${encodeURIComponent(s.label)}`;sw.onerror=()=>sw.remove();p.append(im,sw);
+  const lb=document.createElement('div');lb.className='lb';lb.textContent=s.label;
+  const cf=document.createElement('div');cf.className='cf';const cb=document.createElement('span');cb.className='cb';const f=document.createElement('b');f.style.width=(s.conf*100)+'%';cb.append(f);cf.append(cb,pct(s.conf)+(bd==='lo'?' low':''));
+  b.append(p,lb,cf);b.title=`rows ${s.y}-${s.y+s.h}`+(s.bed?`\nbed rows ${s.bed[0]}-${s.bed[1]} (${s.bed[1]-s.bed[0]} rows)`:'')+`\nrunner-up: ${s.second||'-'}`;
+  b.onclick=()=>{const now=mk(id)?.verdict==='wrong';post({cat:'conf',id,verdict:now?'':'wrong',label:s.label,log:L.log});b.classList.toggle('x',!now);};return b;}
+function render(){const W=$('logs');W.replaceChildren();const so=$('sort').value,fi=$('filt').value,od=$('ord').value;
+  document.documentElement.style.setProperty('--th',$('size').value+'px');document.documentElement.style.setProperty('--tw',Math.round($('size').value*1.65)+'px');
+  let logs=[...D.logs];if(so==='fam')logs.sort((a,b)=>a.family.localeCompare(b.family)||(a.mean_conf??1)-(b.mean_conf??1));if(so==='name')logs.sort((a,b)=>a.log.localeCompare(b.log));
+  let shown=0;
+  for(const L of logs){const d=document.createElement('section');d.className='log';const h=document.createElement('div');h.className='lh';
+    const t=document.createElement('h3');t.textContent=L.log;h.append(t);
+    const chips=[[L.family,''],[`expected right ${pct(L.mean_conf)}`,L.mean_conf!=null&&L.mean_conf<0.7?'low':''],[`under 50 % sure: ${pct(L.low_share)}`,L.low_share>0.2?'low':''],[`named ${pct(L.named/L.windows)} · two beds/gap/text ${pct(L.mixed/L.windows)} · blank ${pct(L.blank/L.windows)}`,'']];
+    for(const [x,c] of chips){const s=document.createElement('span');s.className='chip '+c;s.textContent=x;h.append(s);}d.append(h);
+    d.append(strip(L));
+    const tp=document.createElement('div');tp.className='muted';tp.textContent='Most called: '+L.top.map(([l,v])=>`${l} ${pct(v)}`).join(' · ');d.append(tp);
+    let S=L.samples.filter(s=>fi==='all'||(fi==='lo'?s.conf<0.5:s.conf>=0.8));if(od==='conf')S=[...S].sort((a,b)=>a.conf-b.conf);
+    const ex=document.createElement('div');ex.className='ex';S.forEach(s=>ex.append(win(L,s)));shown+=S.length;
+    if(!S.length){const m=document.createElement('div');m.className='muted';m.textContent=L.samples.length?'No sampled windows in this filter.':'No named windows in this log.';ex.append(m);}
+    d.append(ex);W.append(d);}
+  stat(shown);}
+let lastShown=0;function stat(n){if(n!=null)lastShown=n;const w=Object.values(D.marks).filter(m=>m.cat==='conf'&&m.verdict==='wrong').length;$('stat').textContent=`${lastShown} windows shown · you marked ${w} wrong`;}
+['sort','filt','ord','size'].forEach(i=>$(i).onchange=render);
+function bar(v){const s=document.createElement('span');s.className='mini';s.style.cssText=`display:inline-block;height:8px;background:#2a78d6;border-radius:0 3px 3px 0;vertical-align:middle;margin-right:4px;width:${Math.round(v*80)}px`;return s;}
+function tbl(el,head,rows){el.replaceChildren();const h=document.createElement('tr');head.forEach((t,i)=>{const th=document.createElement('th');th.textContent=t;if(i)th.className='n';h.append(th);});el.append(h);
+  for(const r of rows){const tr=document.createElement('tr');r.forEach((v,i)=>{const td=document.createElement('td');if(i)td.className='n';if(v&&v.bar!=null){td.append(bar(v.bar),v.t);}else td.textContent=v;tr.append(td);});el.append(tr);}}
+function cmpTable(){const C=D.compare;$('cmp').classList.remove('hide');const order=['ALL',...Object.keys(C).filter(k=>k!=='ALL'&&C[k].n).sort((a,b)=>C[b].n-C[a].n)];
+  tbl($('cmpt'),['Legend type','Spots','v3 named','v3 agrees','v4 named','v4 agrees','v3 refused: v4 agrees'],order.filter(k=>C[k]&&C[k].n).map(k=>{const c=C[k];return [k==='ALL'?'All logs':k,c.n,pct((c.v3_named||0)/c.n),{bar:(c.v3_agree||0)/c.n,t:pct((c.v3_agree||0)/c.n)},pct((c.v4_named||0)/c.n),{bar:(c.v4_agree||0)/c.n,t:pct((c.v4_agree||0)/c.n)},c.was_rejected?`${c.was_rejected_v4_agree||0} of ${c.was_rejected}`:'-'];}));}
+function llmrev(){const S=D.llmrev;if(!S||!S.bands)return;$('lr').classList.remove('hide');
+  $('lrnote').textContent=`${S.n} column crops on ${S.sheets} sheets, one sheet per LLM call (Terra). Each sheet holds one log: its numbered legend and up to 8 crops. The classifier's answer was hidden; the LLM picked the legend entry itself. Labels named as a same-picture pair ("Clay / Shale") count as agreeing when the LLM picks either. The LLM agreed with itself on ${S.self_agree[0]} of ${S.self_agree[1]} crops shown twice (${pct(S.self_agree[0]/S.self_agree[1])}), so about ${Math.round(100*(1-S.self_agree[0]/S.self_agree[1]))} in 100 of its picks are noise; "LLM very sure" filters most of that out.`+(S.inside?` v4 labels fixed 48-row windows by their bed, so ${S.cross.n} of the ${S.overall.n} crops straddle a bed boundary; those test the boundaries, not the label. The tables score labels on the ${S.inside.single} crops inside one bed that the LLM named with one rock (all crops together: ${pct(S.overall.agree)} agree).`:'');
+  tbl($('lrband'),['Classifier confidence','Crops','Claimed','LLM agrees','LLM very sure: agrees'],(S.inside?S.inside.bands:S.bands).map(b=>[b.band,b.n,pct(b.pred),{bar:b.agree,t:pct(b.agree)},{bar:b.agree_high,t:`${pct(b.agree_high)} (${b.nh})`}]));
+  if(S.inside)tbl($('lrfam'),['Legend type','Crops inside one bed','LLM agrees'],S.inside.families.map(f=>[f[0],f[1],{bar:f[2],t:pct(f[2])}]));else tbl($('lrfam'),['Legend type','Crops','LLM agrees','95 %+ sure: agrees'],S.families.map(f=>[f[0],f[1],{bar:f[2],t:pct(f[2])},f[4]==null?'-':`${pct(f[4])} of ${f[3]}`]));
+  $('lrrej').textContent=S.cross?`Boundaries: of the ${S.cross.n} crops that straddle a v4 bed boundary, the LLM called ${S.cross.llm_mixed} mixed (two rocks), so ${pct(S.cross.llm_mixed/S.cross.n)} of those boundaries look real; ${S.cross.llm_mixed} of all ${S.cross.llm_mixed_total} crops the LLM called mixed contain a v4 boundary. Inside one bed the LLM called only ${S.inside.mixed_inside} of ${S.inside.n} mixed.`:!S.rejected.n?'':`Windows the classifier rejected as two beds, a gap or text: the LLM also called ${S.rejected.mixed} of ${S.rejected.n} mixed, and would name ${S.rejected.single} with a single label.`;
+  const draw=()=>{const v=$('lrf').value;const X=S.disagree.filter(d=>v==='rej'?d.state==='mixed':d.state==='ok'&&d.band===v);const E=$('lrx');E.replaceChildren();
+    for(const d of X){const b=document.createElement('div');b.className='w';const p=document.createElement('div');p.className='pics';const im=new Image();im.className='col';im.loading='lazy';im.alt='crop';im.src=`/chunk?log=${encodeURIComponent(d.log)}&y=${d.y}&h=${d.h}`;p.append(im);
+      const a=document.createElement('div');a.className='lb';a.textContent=`Classifier: ${d.label||'rejected'}`;const l=document.createElement('div');l.className='cf';l.textContent=`LLM (${d.sure}): ${d.llm}`;const f=document.createElement('div');f.className='cf';f.textContent=d.family;
+      b.title=`${d.log}
+rows ${d.y}-${d.y+d.h}
+LLM second choice: ${d.second||'-'}`;b.append(p,a,l,f);E.append(b);}
+    $('lrc').textContent=`${X.length} crops`;};
+  $('lrf').onchange=draw;draw();}
+(async()=>{D=await (await fetch('/api/conf')).json();head();llmrev();render();})();
+</script></html>

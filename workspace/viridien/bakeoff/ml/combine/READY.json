@@ -1,0 +1,31 @@
+{
+ "strategy": "s19",
+ "final_benchmark_run": false,
+ "dev_windows": 51,
+ "training_wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "inherited_weights_loaded": false,
+ "hashes": {
+  "ml/combine/runtime.py": "9de34dbf973b7f5870cd0dfb62b3c56025a4713a7ca562319c4d5c460ea4503d",
+  "ml/combine/selected.json": "5a49b37499459f0f201779b45f2a1c3e481011bd2acbcc655b7e5aaf2f9cdd71",
+  "ml/combine/boundary_net.pt": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810",
+  "ml/combine/matcher.npz": "01cba25e573ee7552d6c4f99df4be7736eea6dce255c580e1e7b286a8ce0af62",
+  "strategies/s19_combine.py": "dbeea29bc0e56f768ac8bc99ebf57689e93a6932c3cd31f6c760ab61992d955d",
+  "ml/integrate/core.py": "25aefc45df0c9966aaaa9771bd047794cab3661fc979afe42df9fc89316961d9",
+  "ml/boundary/model.py": "3714be58900f916f6a24c7f2bbdedf8e83b110cea06ec71092d13ed8a5e6a859",
+  "ml/match/features.py": "5a6cfcfb10ff1994e05730cdd30b1a38be59c55e68b9dd9e94867fbb479d7dde",
+  "strategies/s14_learned_match.py": "ac7639b3f28e69ab5d7a27492e28d591128fa1191e97d776f93995a394e47ca4",
+  "strategies/s02_features_pelt.py": "241b46b9bda8c1614f9e3205884bc4c7b58778c3bae100bd5f39426795aae99e",
+  "harness/legend_v3.py": "0992201448184ad90705e58b8f12ffa2e08d51f6a9962f9b210b239358af1a9e",
+  "harness/legend_v2.py": "dba4f75cd234e11cc6f4c54eb4da5b306c6eecaf133e948b3ec0623961502fc8",
+  "harness/legend.py": "371422e26f9c27baf4728f15d3b9ad28d72c53949823da5a5481d7e29ecf03c4",
+  "harness/depth.py": "2f84c4dc6433cee1bd348087634fb3351968d66183175e3f19f46453f0ac6ee5",
+  "ml/combine/boundary_real.pt": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222",
+  "ml/combine/matcher_real.npz": "b688bfa064147ac91a3622e00d71eba2e3876af44077c44f402ff57caed8f278"
+ }
+}

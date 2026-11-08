@@ -1,0 +1,20 @@
+# Core labeller, CPU baseline, scorer, and outside-data converters.
+numpy>=1.26,<3
+Pillow>=11,<13
+opencv-python-headless>=4.10,<5
+scipy>=1.12,<2
+scikit-learn>=1.5,<2
+pandas>=2.2,<3
+rapidocr-onnxruntime>=1.4,<2
+onnxruntime>=1.18,<2
+ruptures>=1.1.9,<2
+tifffile>=2023.4
+imagecodecs>=2024.6
+cloudpickle>=3,<4
+psutil>=6,<8
+threadpoolctl>=3,<4
+requests>=2.32,<3
+PyMuPDF>=1.24,<2
+pypdf>=5,<7
+matplotlib>=3.8,<4
+pytest>=8,<10

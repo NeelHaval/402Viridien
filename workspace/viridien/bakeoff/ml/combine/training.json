@@ -1,0 +1,147 @@
+{
+ "fits": [
+  {
+   "fraction": 0.0,
+   "held_well": "386825",
+   "training_wells": [
+    "4304150011",
+    "barlow3-14",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "24ea478994d2338f221ef419ec19ea000c8bf15b7ad25632cd11bde81c4a3ca0"
+  },
+  {
+   "fraction": 0.0,
+   "held_well": "4304150011",
+   "training_wells": [
+    "386825",
+    "barlow3-14",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "168bfb8a20dc492c062d6a14902f4d6947105dd678a7ce8fa57a4571e6f2b00f"
+  },
+  {
+   "fraction": 0.0,
+   "held_well": "barlow3-14",
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "017b64f0bcdb70cd4d852219e3c9a2d300929a4c0381d851a628b2e41f38b0a1"
+  },
+  {
+   "fraction": 0.0,
+   "held_well": "flat-bay-2",
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "barlow3-14",
+    "storm"
+   ],
+   "weights_sha256": "4598c36873e13c72bd0b2e002b1036209c0f5658ba12176fdd5c6d2751b72562"
+  },
+  {
+   "fraction": 0.0,
+   "held_well": "storm",
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "barlow3-14",
+    "flat-bay-2"
+   ],
+   "weights_sha256": "0379e2257f5e52e231f99516a64ede45519271286ae13ba80a02559a73eb2435"
+  },
+  {
+   "fraction": 0.0,
+   "held_well": null,
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "barlow3-14",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "8250ccdc2fd35d25ac9d77920b35e0f336db28e331145ca2202e4a04d32a7222"
+  },
+  {
+   "fraction": 0.35,
+   "held_well": "386825",
+   "training_wells": [
+    "4304150011",
+    "barlow3-14",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "614c39f38e123d89325b3bcf735f85224070a2fb3ceea732f0d7f77e4e5e0945"
+  },
+  {
+   "fraction": 0.35,
+   "held_well": "4304150011",
+   "training_wells": [
+    "386825",
+    "barlow3-14",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "c66b03dd1c0016b2f6a9ca200fe692171cecc57992e5cc3273bad674cbd79564"
+  },
+  {
+   "fraction": 0.35,
+   "held_well": "barlow3-14",
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "bed9983c87cbe1800c75af5fad8b55188190aded4d8339d505f0038328ad5c09"
+  },
+  {
+   "fraction": 0.35,
+   "held_well": "flat-bay-2",
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "barlow3-14",
+    "storm"
+   ],
+   "weights_sha256": "1adaae5b3fc5164c44a955c3beec551c2502bf02a18d22c23e127fc133e3b28b"
+  },
+  {
+   "fraction": 0.35,
+   "held_well": "storm",
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "barlow3-14",
+    "flat-bay-2"
+   ],
+   "weights_sha256": "4a747417c4a189c67bbf06e18ef079a736fc1f5eba65a7e1ad74b31f0ee5a17d"
+  },
+  {
+   "fraction": 0.35,
+   "held_well": null,
+   "training_wells": [
+    "386825",
+    "4304150011",
+    "barlow3-14",
+    "flat-bay-2",
+    "storm"
+   ],
+   "weights_sha256": "b33f1ab50a3c47070cc91826e39541a8e7cde842fadcfda0f1e771eafaf79810"
+  }
+ ],
+ "steps": 450,
+ "wells": [
+  "386825",
+  "4304150011",
+  "barlow3-14",
+  "flat-bay-2",
+  "storm"
+ ],
+ "inherited_weights_loaded": false
+}

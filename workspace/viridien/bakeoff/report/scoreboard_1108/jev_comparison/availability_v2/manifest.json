@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-08T08:47:11.412570+00:00",
+  "status": "checkpoint-only",
+  "files_sha256": {
+    "build_checkpoint.py": "90d38f9539506fcee5403d980c908875738060592b39e46d89c47d2d356fd805",
+    "audit_checkpoint.py": "244c2d766035bfa78d663a3af0aa8600eef2fc50737e269f2c724f9ff9104f02",
+    "scores.json": "1f73c575f470ebee543c02801aa8f4beac8559b7e76f3295bffca31b233e0bfb",
+    "report.html": "46e9bb9e65841c77f3c1a18741b027c824920b346613b1b6ac6a5afcc147b0f9",
+    "check.log": "c4a086ff777ed233741baa2af0dcb241fcecc70993f4285831026e479f6eca06"
+  },
+  "external_authorities_sha256": {
+    "derived_scores.json": "6502e4df226becf194b95c5f2d49dd75075f1a5c897dae17c059504b73102db8",
+    "grading_availability_v2.py": "80c35cfde8c12c5a4ee6c44de2639ee3c78796a57a6218ea125f28e86d5b2175",
+    "split-registry-v1.json": "3fb4451a180cfbcec3ebf83d89a8e51f937460bb81b3bf62013e21dd7c0e6eaa",
+    "jev68-binding-v1.json": "88cf4afd526b47ba200f6498d2e54a1c24642dc79ed1c98e47b28187ea962409"
+  },
+  "note": "Manifest binds outputs and scripts; no launch authority or champion selection."
+}
