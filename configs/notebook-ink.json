@@ -1,0 +1,14 @@
+{
+  "candidate": "notebook-ink-rule-v1",
+  "source": "main_pipeline.ipynb cells 10/12/20/22",
+  "stripe_height": 8,
+  "boundary_window": 12,
+  "ink_k": 6.0,
+  "min_gap": 6,
+  "max_component_centers": 256,
+  "max_feature_stripes": 10000,
+  "max_window_pixels": 12000000,
+  "max_decode_bytes": 512000000,
+  "cluster_distance": 1.0,
+  "training_history": "No training or checkpoint. Source rules and naming were developed on exposed pages; independence is not established."
+}
