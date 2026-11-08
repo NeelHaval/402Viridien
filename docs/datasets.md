@@ -28,7 +28,7 @@ Dataset manifests are JSON, with paths relative to the manifest. Every evaluatio
 
 Annotations contain image `width`, `height`, and `bounding_boxes` with `interpreted_lithology_column`, plus `depth_column` and `lithology_legend` when available. Boxes are `[x_min,y_min,x_max,y_max]`. Coordinates use the original image and exclusive right/bottom edges.
 
-Truth CSV columns are `top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth`. The first two and lithology are required; cluster IDs can be assigned per interval when absent. Depths can both be absent. The `base_depth` alias is accepted on input. Unknown/ambiguous regions should have no truth row. State `truth_window` even when a page is only partly labelled. Gaps inside that coverage are ignored in accuracy, and the report exposes the labelled pixel count.
+Truth CSV columns are `top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth`. Pixel endpoints, lithology and integer cluster IDs are required. Assign the same cluster ID to repeated visual patterns within a page; a unique ID per interval would change the clustering task. Depths can both be absent. The `base_depth` alias is accepted on input. Unknown/ambiguous regions should have no truth row. State `truth_window` even when a page is only partly labelled. Gaps inside that coverage are ignored in accuracy, and the report exposes the labelled pixel count.
 
 ## Bring in human labels
 
