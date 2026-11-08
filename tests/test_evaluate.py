@@ -38,6 +38,16 @@ def invalid(request,config):
     return [dict(top_y=0,bottom_y=1000,lithology='a')]
 def seeded(request,config):
     return [dict(top_y=0,bottom_y=100,lithology=str(random.random()),cluster_id=0)]
+def memory(request,config):
+    allocation=bytearray(120*1024*1024)
+    time.sleep(3)
+    return []
+def depths(request,config):
+    rows=perfect(request,config)
+    if not config.get('omit_depths'):
+        for row in rows:
+            row.update(top_depth=row['top_y']+config.get('offset',0),bottom_depth=row['bottom_y']+config.get('offset',0))
+    return rows
 ''')
     monkeypatch.syspath_prepend(str(tmp_path))
     monkeypatch.setenv("GITHUB_TOKEN","must-not-reach-worker")
@@ -115,6 +125,19 @@ def test_seed_repeated_predictions_are_byte_identical(manifest,plugins,tmp_path)
     assert next((a/"predictions").glob("*.csv")).read_bytes()==next((b/"predictions").glob("*.csv")).read_bytes()
 
 
+def test_negative_seed_is_supported_consistently(manifest,plugins,tmp_path):
+    _,summary=evaluate(manifest,model="test_plugins:seeded",output=tmp_path/"runs",config={"seed":-17},previews=False)
+    assert summary["overall"]["errors"]==0
+
+
+def test_sampled_memory_limit_is_saved_as_case_failure(manifest,plugins,tmp_path):
+    run,summary=evaluate(manifest,model="test_plugins:memory",output=tmp_path/"runs",timeout=10,max_worker_rss_mb=64,previews=False)
+    _,cases=load_run(run)
+    assert "sampled worker RSS" in cases[0]["error"]
+    assert summary["overall"]["errors"]==1 and summary["overall"]["score"]==0
+    assert not summary["quality_gates"]["passed"]
+
+
 def test_model_import_is_inside_hard_timeout(manifest,tmp_path,monkeypatch):
     (tmp_path/"import_slow.py").write_text("import time\ntime.sleep(20)\ndef predict(request,config): return []\n")
     monkeypatch.syspath_prepend(str(tmp_path))
@@ -152,6 +175,77 @@ def test_model_training_group_overlap_rejected_before_run(manifest,tmp_path):
     with pytest.raises(ValueError,match="training groups overlap"):
         evaluate(manifest,output=tmp_path/"runs",config={"training_groups":["well-1"]})
     assert not (tmp_path/"runs").exists()
+
+
+@pytest.mark.parametrize("training_group,record_group",[("api:60811405120000","api:6081140512"),("challenge:MC765_P011_ST00BP00","well:mc765_p011"),("challenge:0000000009_d-582_0000020435","well:d582")])
+def test_training_aliases_are_normalized_in_both_directions(manifest,tmp_path,training_group,record_group):
+    data=json.loads(manifest.read_text());data["records"][0]["group"]=record_group;manifest.write_text(json.dumps(data))
+    with pytest.raises(ValueError,match="training groups overlap"):
+        evaluate(manifest,output=tmp_path/"runs",config={"training_groups":[training_group]},previews=False)
+
+
+def test_selection_unknown_ids_tags_and_finite_config_fail_before_run(manifest,tmp_path):
+    for kwargs,match in (({"case_ids":["absent"]},"unknown case IDs"),({"tags":["absent"]},"unknown tags"),({"case_ids":"test-case"},"collection of strings"),({"config":{"threshold":float("nan")}},"Out of range float")):
+        with pytest.raises(ValueError,match=match): evaluate(manifest,output=tmp_path/"runs",previews=False,**kwargs)
+    assert not (tmp_path/"runs").exists()
+
+
+def test_selection_metadata_and_separate_preview_timings(manifest,plugins,tmp_path):
+    run,summary=evaluate(manifest,model="test_plugins:perfect",output=tmp_path/"runs",case_ids=["test-case"],tags=["scan"])
+    assert summary["selection"]=={"case_ids":["test-case"],"tags":["scan"]}
+    assert summary["overall"]["preview_seconds"]>0
+    assert summary["timings"]["wall_seconds"]>=summary["timings"]["worker_seconds"]+summary["timings"]["preview_seconds"]
+    assert load_run(run)[0]["overall"]["latency_p95_seconds"]>0
+
+
+@pytest.mark.parametrize("datum,unit,expected",[("MD","ft",True),("unknown","ft",False),("MD","m",False),("unspecified","ft",False)])
+def test_depth_units_and_known_datum_required(manifest,plugins,tmp_path,datum,unit,expected):
+    data=json.loads(manifest.read_text());data["records"][0].update(depth_unit=unit,depth_datum=datum);manifest.write_text(json.dumps(data))
+    (manifest.parent/"truth.csv").write_text("top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth\n0,50,a,0,0,50\n50,100,b,1,50,100\n")
+    _,summary=evaluate(manifest,model="test_plugins:depths",config={"depth_unit":"ft","depth_datum":datum},output=tmp_path/"runs",previews=False)
+    assert summary["overall"]["depth_mae_ft"]==(0 if expected else None)
+    assert summary["overall"]["depth_coverage"]==(1 if expected else None)
+
+
+def test_compare_does_not_claim_depth_improvement_by_omitting_depths(manifest,plugins,tmp_path):
+    data=json.loads(manifest.read_text());data["records"][0].update(depth_unit="ft",depth_datum="MD");manifest.write_text(json.dumps(data))
+    (manifest.parent/"truth.csv").write_text("top_y,bottom_y,lithology,cluster_id,top_depth,bottom_depth\n0,50,a,0,0,50\n50,100,b,1,50,100\n")
+    config={"depth_unit":"ft","depth_datum":"MD","offset":100}
+    a,left=evaluate(manifest,model="test_plugins:depths",config=config,output=tmp_path/"runs",previews=False)
+    b,right=evaluate(manifest,model="test_plugins:depths",config={**config,"omit_depths":True},output=tmp_path/"runs",previews=False)
+    assert left["overall"]["depth_mae_ft"]==100 and right["overall"]["depth_coverage"]==0
+    assert compare_runs(a,b)["overall_deltas"]["depth_mae_ft"] is None
+
+
+def test_provenance_only_walks_declared_asset_paths(manifest,plugins,tmp_path,monkeypatch):
+    from viridian402.data import load_manifest
+    from viridian402.evaluate import provenance
+    monkeypatch.chdir(tmp_path)
+    (tmp_path/"unrelated.bin").write_bytes(b"unrelated")
+    (tmp_path/"checkpoint.bin").write_bytes(b"model checkpoint")
+    details=provenance(manifest,load_manifest(manifest),"test_plugins:perfect",{"depth_datum":".","checkpoint":str(tmp_path/"checkpoint.bin"),"cache_dir":str(tmp_path/"new-cache")})
+    assert str(tmp_path/"unrelated.bin") not in details["files"]
+    assert details["files"][str(tmp_path/"checkpoint.bin")]["role"]=="model_config_asset"
+
+
+def test_shared_asset_collector_nested_paths_dedup_and_budgets(tmp_path):
+    from viridian402.evaluate import discover_config_assets
+    a=tmp_path/"a.bin";a.write_bytes(b"abc")
+    b=tmp_path/"b.bin";b.write_bytes(b"def")
+    config={"checkpoint":{"path":str(a)},"provenance_assets":[str(a),str(b)]}
+    assert discover_config_assets(config)==sorted([a,b])
+    with pytest.raises(ValueError,match="exceed"): discover_config_assets(config,max_files=1)
+    with pytest.raises(ValueError,match="exceed"): discover_config_assets(config,max_bytes=5)
+    with pytest.raises(ValueError,match="does not exist"): discover_config_assets({"checkpoint_path":str(tmp_path/"absent")})
+
+
+def test_windows_bom_manifest_annotation_and_saved_summary(manifest,plugins,tmp_path):
+    for path in (manifest,manifest.parent/"boxes.json"):
+        path.write_text(path.read_text(encoding="utf-8"),encoding="utf-8-sig")
+    run,summary=evaluate(manifest,model="test_plugins:perfect",output=tmp_path/"runs",previews=False)
+    assert summary["overall"]["score"]==1 and summary["metric_version"]=="interval-v2"
+    path=run/"metrics.json";path.write_text(path.read_text(encoding="utf-8"),encoding="utf-8-sig")
+    assert load_run(run)[0]["overall"]["score"]==1
 
 
 @pytest.mark.parametrize("timeout",[0,-1,float("inf"),float("nan")])

@@ -17,7 +17,13 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -c requirements.lock ".[test]" build
+      - name: Check release tag matches package version
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: python scripts/check_version.py --tag "$RELEASE_TAG"
       - run: python -m pytest -q
+      - run: python -m viridian402 doctor --suite demo --model builtin:baseline --config configs/baseline.json
       - run: python scripts/run_evaluation.py
       - run: python -m build
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

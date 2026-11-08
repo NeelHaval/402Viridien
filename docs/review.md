@@ -1,5 +1,7 @@
 # Independent implementation review
 
+This records the first review pass. The later v0.2 fix loop, 172-test package verification, contribution-path checks and remaining limits are in [review-loop.md](review-loop.md). Fresh model measurements are in [the benchmark report](benchmarks/2026-11-08.md).
+
 Reviewed on 2026-11-08 by the delegated Astra reviewer. The review covered the original eight-slide challenge deck, the existing bake-off specification, human-label provenance, outside-data limitations, and the new implementation. Review findings were sent to the implementation owners while they worked; the reviewer did not edit implementation code.
 
 ## Corrections verified
@@ -30,6 +32,6 @@ The small baseline tests segmentation and clustering but names rocks `Unknown` w
 
 Plugins are trusted Python code. Removing truth fields from requests and stripping credentials prevents accidental leakage; it does not stop a plugin deliberately reading local files. Sampled RSS can miss short peaks. Child cleanup covers observed descendants, not a hostile process deliberately escaping supervision. GPU memory and paid API costs are not instrumented.
 
-Prediction/submission CSVs use the challenge field names, but evaluations operate on windows and may lack depths. Previews show a bounded source crop beside full-window prediction/truth strips. These are experiment diagnostics; a complete per-document challenge submission still needs full requested coverage, valid depths and suitable annotated images.
+Prediction/submission CSVs use the challenge field names, but evaluations operate on windows and may lack depths. Current previews show the full bounded evaluation window with aligned image overlays and prediction/truth strips. These are experiment diagnostics; a complete per-document challenge submission still needs full requested coverage, valid depths and suitable annotated images.
 
 This review did not certify every optional OCR dependency, model's accuracy, external checkpoint history or remote deployment. Model config files and recorded hashes make those inputs inspectable; undeclared training history and dynamically imported external helpers still require the model author's disclosure. Review the latest hosted CI/evaluation results and actual failure cases before selecting a model.

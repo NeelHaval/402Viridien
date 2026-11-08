@@ -16,6 +16,16 @@ from functools import lru_cache
 from PIL import Image
 
 
+def _ocr_engine(factory):
+    engine=factory(intra_op_num_threads=2,inter_op_num_threads=2,
+                   det_model_path=None,det_limit_side_len=3200,det_limit_type='max')
+    if not hasattr(engine,'text_rec'):
+        if not hasattr(engine,'text_recognizer'):
+            raise RuntimeError('RapidOCR lacks a supported batch recognition interface')
+        engine.text_rec=engine.text_recognizer
+    return engine
+
+
 def predict(request: dict, config: dict) -> list[dict]:
     # Imported only when requested, so the standard CPU harness stays small.
     legacy_root = Path(__file__).parent / "_legacy"
@@ -28,9 +38,7 @@ def predict(request: dict, config: dict) -> list[dict]:
     # RapidOCR 1.2.x requires model_path in any detector-options override.
     # Keep the frozen model source unchanged and adapt that constructor here.
     from rapidocr_onnxruntime import RapidOCR
-    legend._ocr = lru_cache(maxsize=1)(lambda: RapidOCR(
-        intra_op_num_threads=2, inter_op_num_threads=2,
-        det_model_path=None, det_limit_side_len=3200, det_limit_type="max"))
+    legend._ocr = lru_cache(maxsize=1)(lambda: _ocr_engine(RapidOCR))
     annotation = request["annotation"]
     if isinstance(annotation, (str, Path)):
         annotation = json.loads(Path(annotation).read_text(encoding="utf-8"))

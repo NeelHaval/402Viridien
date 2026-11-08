@@ -10,6 +10,7 @@ import csv
 import hashlib
 import json
 import math
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
 
@@ -35,12 +36,18 @@ def sha256(path: str | Path) -> str:
 def _int(value: Any, name: str) -> int:
     if isinstance(value, bool):
         raise ValueError(f'{name} must be an integer')
+    if isinstance(value, int):
+        if not -(2**63)<=value<2**63:
+            raise ValueError(f'{name} exceeds signed 64-bit integer range')
+        return value
     try:
-        number = float(value)
-    except (TypeError, ValueError, OverflowError) as error:
+        number = Decimal(str(value))
+    except (InvalidOperation, TypeError, ValueError, OverflowError) as error:
         raise ValueError(f'{name} must be an integer') from error
-    if not math.isfinite(number) or int(number) != number:
+    if not number.is_finite() or number != number.to_integral_value():
         raise ValueError(f'{name} must be a finite integer')
+    if not -(2**63)<=number<2**63:
+        raise ValueError(f'{name} exceeds signed 64-bit integer range')
     return int(number)
 
 
@@ -70,11 +77,25 @@ def validate_intervals(rows: list[dict], window=None) -> list[dict]:
             if row.get(key) in (None, ''):
                 row.pop(key, None)
             else:
+                if isinstance(row[key], bool):
+                    raise ValueError(f'row {index} {key} must be numeric, not boolean')
                 row[key] = float(row[key])
                 if not math.isfinite(row[key]):
                     raise ValueError(f'row {index} {key} must be finite')
         if ('top_depth' in row) != ('bottom_depth' in row):
             raise ValueError(f'row {index}: both depth endpoints are required together')
+        if 'top_depth' in row:
+            # Output rounded to 0.1 ft can legitimately collapse a thin bed's
+            # two depths to the same number. Reversed depths remain invalid.
+            if row['bottom_depth'] < row['top_depth']:
+                raise ValueError(f'row {index}: depth must not decrease from top to bottom')
+            if result and 'bottom_depth' in result[-1]:
+                prior = result[-1]
+                if a == prior['bottom_y'] and not math.isclose(
+                        row['top_depth'], prior['bottom_depth'], rel_tol=1e-9, abs_tol=.01):
+                    raise ValueError(f'row {index}: conflicting depth at shared pixel boundary')
+                if a > prior['bottom_y'] and row['top_depth'] < prior['bottom_depth']:
+                    raise ValueError(f'row {index}: depth decreases between intervals')
         result.append(row)
         previous = b
     return result
@@ -141,8 +162,9 @@ def load_manifest(path: str | Path, check_leakage=True) -> dict:
             record['lineage']=dict(record['lineage'])
             if record['lineage'].get('parent_group'):
                 record['lineage']['parent_group']=normalize_group(record['lineage']['parent_group'])
-        if not isinstance(record.get('tags', []), list):
-            raise ValueError(f'{rid}: tags must be a list')
+        tags=record.get('tags', [])
+        if not isinstance(tags, list) or any(not isinstance(tag,str) or not tag.strip() for tag in tags) or len(set(tags)) != len(tags):
+            raise ValueError(f'{rid}: tags must be a list of unique nonempty strings')
         for key in ('image', 'annotation', 'truth'):
             value = record.get(key)
             if value is None:
@@ -174,6 +196,8 @@ def load_manifest(path: str | Path, check_leakage=True) -> dict:
             coverage = record.get('truth_window')
             if coverage is None:
                 raise ValueError(f'{rid}: truth_window required; partial truth must be explicit')
+            if not isinstance(coverage,(list,tuple)) or len(coverage)!=2:
+                raise ValueError(f'{rid}: truth_window must contain two integer coordinates')
             coverage = [_int(v, 'truth_window') for v in coverage]
             if len(coverage) != 2 or not (0 <= coverage[0] <= window[0] < window[1] <= coverage[1] <= size[1]):
                 raise ValueError(f'{rid}: scoring window outside declared truth coverage')
@@ -220,6 +244,10 @@ def read_rgb(image_path, box, *, max_window_pixels=12_000_000, max_decode_bytes=
     tifffile strip decoding is used when installed and supported. Pillow's crop
     is a full-image decoding fallback, never described as strip-safe.
     """
+    max_window_pixels=_int(max_window_pixels,'max_window_pixels')
+    max_decode_bytes=_int(max_decode_bytes,'max_decode_bytes')
+    if min(max_window_pixels,max_decode_bytes)<=0:
+        raise ValueError('image resource budgets must be positive')
     box = tuple(_int(v, 'crop') for v in box)
     x0, y0, x1, y1 = box
     if x1 <= x0 or y1 <= y0 or (x1-x0)*(y1-y0) > max_window_pixels:
@@ -237,6 +265,9 @@ def read_rgb(image_path, box, *, max_window_pixels=12_000_000, max_decode_bytes=
                 with tifffile.TiffFile(image_path) as tif:
                     page = tif.pages[0]
                     if not page.is_tiled and page.planarconfig == 1 and page.photometric in (0, 1, 2, 3) and page.rowsperstrip <= 4000:
+                        strip_bytes=width*min(height,page.rowsperstrip)*int(page.samplesperpixel)*page.dtype.itemsize
+                        if strip_bytes>max_decode_bytes:
+                            raise MemoryError('TIFF strip decode exceeds max_decode_bytes; retile the input')
                         page.decode(None, 0)  # unsupported codec fails before allocating output
                         output = np.empty((y1-y0, x1-x0, 3), np.uint8)
                         for index in range(y0//page.rowsperstrip, (y1-1)//page.rowsperstrip+1):
@@ -244,6 +275,8 @@ def read_rgb(image_path, box, *, max_window_pixels=12_000_000, max_decode_bytes=
                             segment, where, _ = page.decode(tif.filehandle.read(page.databytecounts[index]), index)
                             start = int(where[2]); a, b = max(y0, start), min(y1, start+segment.shape[1])
                             data = segment[0, a-start:b-start, x0:x1]
+                            if page.photometric==2 and data.dtype.kind=='u' and data.dtype.itemsize==2:
+                                data=(data>>8).astype(np.uint8)
                             if page.photometric == 3:
                                 data = (page.colormap >> 8).astype(np.uint8).T[data[:, :, 0]]
                             elif data.shape[-1] == 1:
