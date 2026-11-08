@@ -1,0 +1,18 @@
+# Runtime requirements for notebooks/main_pipeline.ipynb and the viridian402 package.
+# Exact pins for the CPU/test environment live in requirements.lock
+# (install with: pip install -r requirements.txt -c requirements.lock).
+
+# Core (pyproject.toml dependencies; also used by the notebook)
+numpy>=1.24
+Pillow>=10
+psutil>=5.9
+
+# Notebook pipeline
+pandas
+scipy>=1.11
+matplotlib
+torch
+easyocr
+
+# Tests
+pytest>=8
