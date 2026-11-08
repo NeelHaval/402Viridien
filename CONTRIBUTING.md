@@ -54,7 +54,7 @@ Put options in a new tracked `configs/my-model.json`. Record all training/tuning
 
 ## Test the real data and compare
 
-Use local Git Credential Manager, or an existing `GH_TOKEN` with read access to this private repository. The downloader verifies the versioned release size and SHA-256.
+Use local Git Credential Manager, or an existing `GH_TOKEN` with read access to this repository's release assets. The downloader verifies the versioned release size and SHA-256.
 
 ```sh
 python scripts/datasets.py fetch evaluation

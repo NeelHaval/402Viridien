@@ -1,7 +1,6 @@
 # Figure sources and versions
 
 These three figures use existing saved bytes. No inference, training, API request, or truth overlay was added.
-The repository is private. The owner's released-page scope does not grant a public redistribution licence.
 
 | Figure | Source and transformation | Interpretation |
 |---|---|---|

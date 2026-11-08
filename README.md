@@ -117,10 +117,8 @@ See [example output](examples/s19_output/) and [official outputs](outputs/offici
 
 - Very thin layers, faded scans and unreadable legends can give wrong or missing layers.
 - If a scan's depth scale can't be read, its layers stay in pixels. We leave the depths blank rather than guess.
-- The public submission packet excludes challenge scans, labels and checkpoints. This existing research repository must remain private.
 
-See the [source status and pinned CSV checks](docs/output-contract.md) before using a submission packet.
-D's combined source is still awaiting its accepted release receipt. Existing screenshots do not establish final build acceptance.
+See [docs/output-contract.md](docs/output-contract.md) for the CSV format and its checks.
 
 ## Credits
 

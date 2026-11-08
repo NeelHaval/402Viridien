@@ -31,7 +31,7 @@ This downloads about 51 MB, verifies the pinned asset hashes and extracted
 source hashes, loads the well exclusion overlay and v2 policy, and prepares
 two development windows from distinct wells. It validates the native evaluator
 manifest without running inference. Downloads are cached under the chosen
-data directory. New downloads require private repository access.
+data directory. New downloads need GitHub sign-in (`gh auth login`).
 
 Run an algorithm only when you intend to request that evaluation:
 
@@ -63,7 +63,7 @@ python scripts/local_test.py --download all --data-dir YOUR_LARGE_DATA_DIRECTORY
 
 `all` downloads the frozen v1 payloads, including held-out inputs, and the checked
 metadata notices. It excludes held-out reference labels. Allow roughly 6 GB of
-free space for the full download and extraction. Large archives remain private.
+free space for the full download and extraction. Large archives are not stored in Git.
 
 The human archive retains its immutable 27-page, 458-box history. Use only the
 derived `metadata/human-eligible.json` selection of 15 pages and 422 approved
