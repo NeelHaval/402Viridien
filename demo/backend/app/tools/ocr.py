@@ -1,6 +1,7 @@
 """Tool 2: OCR with RapidOCR (primary) and Tesseract (fallback), windowed and time-boxed."""
 from __future__ import annotations
 
+import os
 import shutil
 import threading
 import time
@@ -14,8 +15,10 @@ import numpy as np
 from app.tools.errors import OcrUnavailable
 
 ENGINE_ORDER = ("rapidocr", "tesseract")
-MAX_WORKERS = 4
-REC_THREADS = 3
+# Thread layout of the shared engine (legend + depth OCR). Overridable by environment for measurements.
+MAX_WORKERS = int(os.environ.get("OCR_WORKERS", "4"))     # windows OCR'd at once
+REC_THREADS = int(os.environ.get("OCR_REC_THREADS", "1"))  # recognition batches run at once inside one window
+INTRA_THREADS = int(os.environ.get("OCR_INTRA", "2"))      # onnxruntime intra-op threads per session (0 = its default); 2/4/1 was the fastest layout measured on the 8-core M3
 REC_BATCH = 6
 GRACE_S = 0.15
 WINDOW_PX = 1500
@@ -177,7 +180,7 @@ class _TesseractEngine:
 
 _ENGINE: _Engine | None = None
 _LOCATE_ENGINE: _Engine | None = None
-LOCATE_THREADS = 4
+LOCATE_THREADS = int(os.environ.get("OCR_LOCATE", "4"))
 _ENGINE_LOCK = threading.Lock()
 _POOL: ThreadPoolExecutor | None = None
 
@@ -207,7 +210,7 @@ def get_locate_engine() -> _Engine:
 
 def _create_engine() -> _Engine:
     """Try each engine in ENGINE_ORDER and return the first that loads."""
-    makers = {"rapidocr": _RapidEngine, "tesseract": _TesseractEngine}
+    makers = {"rapidocr": lambda: _RapidEngine(intra_threads=INTRA_THREADS or None), "tesseract": _TesseractEngine}
     for name in ENGINE_ORDER:
         try:
             return makers[name]()
