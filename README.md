@@ -58,6 +58,10 @@ All of this lives in a shared evaluation setup with CI. Every strategy is scored
 
 ![Generated four-layer scan and its predicted layers](docs/showcase/03-fixture-source-prediction.png)
 
+## Official challenge outputs
+
+The required outputs for the three released test documents are in [`outputs/official/`](outputs/official/): one CSV per document in the challenge header (`top_depth,bottom_depth,lithology,top_y,bottom_y,cluster_id`, file `*.official.raw.notebook.csv`), the slide variant with `base_depth` (`*.official.raw.slide.csv`), and the annotated full rock column (`*.official.full-column.png`) showing boundaries, depths, cluster IDs and lithology labels. All were produced automatically with no manual correction. Depth units were read by OCR and are marked as assumed feet, not verified.
+
 ## The Strata app
 
 Upload a scan, see the well on a map, and click it to see its layers next to the depth scale. You can also select an area to compare the wells inside it.
